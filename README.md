@@ -6,7 +6,8 @@ For each article you get a Markdown file (plus JSON) in `output/` with:
 
 - **2 × Master DFB Formula Reels** (Hook → Thesis → Evidence 1 → Evidence 2 → Hard stat → Zoom out → Close), each with a different angle
 - **1 × Comparison Reveal Reel** (guess which brand won → reveal → mechanism)
-- A beat-by-beat table per Reel: timing, voiceover, on-screen text (works with sound off), and visual/B-roll
+- A beat-by-beat table per Reel: act (inicio / nudo / desenlace), timing, voiceover, on-screen text (works with sound off), visual/B-roll, and an **attention-peak** score so you can see the interest climbing toward the close
+- A **sentence breakdown**: every line split into its components (characteristic, result, data…) with the goal it serves, plus any lines that were cut for having no goal
 - A full read-through script, quotable close, comment prompt, caption, and hashtags
 - A **data check**: every claim is traced back to the article. Anything the formula needs but the article doesn't have shows up as `[NEEDS DATA: …]` — the generator never makes up numbers.
 - Filming notes (B-roll to gather, charts to screenshot, data to confirm)

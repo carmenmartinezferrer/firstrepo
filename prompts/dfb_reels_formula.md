@@ -84,4 +84,27 @@ I'm going to show you how two brands handled the same [SITUATION/TREND]. Guess w
 
 ---
 
-*Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale.*
+---
+
+## 6. Scriptwriting method: three acts, attention peaks, sentence components (apply to EVERY Reel, both formulas)
+
+Source: a Spanish-language Reel about the method that took the creator's videos to far more views. It's the same creator style behind the 8M-view egg video in format #1. The method has three layers, and the first is useless without the second.
+
+**Layer 1: Three acts (inicio, nudo, desenlace), like a story.**
+- **Inicio (beginning):** give context and, if possible, present a problem. The viewer has to know what's at stake.
+- **Nudo (middle):** the information must be ordered, and it must prioritise the attention peaks.
+- **Desenlace (ending):** close with a conclusion or a call to action.
+
+In the Master DFB Formula: Hook + Thesis = inicio; Evidence 1, Evidence 2, Hard stat, Zoom out = nudo; Close / POV = desenlace. In the Comparison Reveal: Set-up = inicio; Example A, Example B, pause, Reveal = nudo; Mechanism + CTA = desenlace.
+
+**Layer 2: Attention peaks (picos de atención).** A peak is where you choose to put the interesting part of the video. To find them, read the whole script and mark every place where you say something genuinely interesting, for example **debunking a myth everyone believes** ("Un buen huevo es pequeño. Los huevos grandes son de gallinas mayores y son peores."). Rules:
+- The nudo must be built around peaks, not filler.
+- **Peaks rise.** Each one should be higher than the last, climbing until just before the conclusion. Don't spend the biggest fact first and coast downhill. (In DFB terms, the hard stat or the most counter-intuitive finding usually sits at the top of the climb, right before the zoom out/close.)
+
+**Layer 3: See every sentence as components with a goal.** Break each sentence into its parts and name what each part does. Example: "Cuando la gallina es joven [characteristic] y está bien alimentada [characteristic], el resultado es una cáscara fuerte [result]." Together these create a curiosity or fact whose goal is to generate interest (or another emotion) in the viewer.
+- Do this for every sentence in the script.
+- Any sentence with no clear goal (not context, not a problem, not evidence, not a peak, not a payoff, not a CTA) gets cut. That's what keeps people watching to the end: you only say interesting things.
+
+**The original closing move:** the Reel ends by resolving what it set up and then rewarding the viewer for staying ("si te has quedado hasta aquí, deberías seguirnos": if you stayed this long, you should follow us).
+
+*Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale. Apply section 6 to every script, whichever formula it uses.*

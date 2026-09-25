@@ -143,11 +143,25 @@ def load_file(path: str) -> Article:
 # ---------------------------------------------------------------------------
 
 class Beat(BaseModel):
+    act: Literal["Inicio", "Nudo", "Desenlace"] = Field(description="Which of the three acts this beat belongs to (formula section 6).")
     beat: str = Field(description="Beat name from the formula, e.g. Hook, Thesis, Evidence 1, Reveal.")
     timing: str = Field(description="Time range, e.g. '0-3s'.")
     voiceover: str = Field(description="Exactly what to say out loud in this beat.")
     on_screen_text: str = Field(description="Short text overlay (max ~8 words). Must work with sound off.")
     visual: str = Field(description="What's on screen: talking head, B-roll, runway clip, chart, screenshot, etc.")
+    attention_peak: int = Field(description="Interest level 0-5 of this beat. Peaks in the Nudo should climb toward the close (section 6).")
+    peak_reason: str = Field(description="Why this beat holds attention (e.g. 'debunks a myth', 'surprising number'), or '' if it's pure setup.")
+
+
+class SentenceComponent(BaseModel):
+    part: str = Field(description="A fragment of the sentence.")
+    role: str = Field(description="What the fragment is, e.g. characteristic, result, context, problem, data, contrast.")
+
+
+class SentenceCheck(BaseModel):
+    sentence: str = Field(description="One sentence from the full script, verbatim.")
+    components: List[SentenceComponent]
+    goal: str = Field(description="What the sentence makes the viewer feel or want (curiosity, surprise, recognition, urgency...).")
 
 
 class DataPoint(BaseModel):
@@ -163,6 +177,8 @@ class Reel(BaseModel):
     hook_on_screen_text: str = Field(description="The sound-off hook text shown in the first frame.")
     beats: List[Beat]
     full_script: str = Field(description="Full voiceover as one continuous read, ~30 seconds (about 75-90 words).")
+    sentence_breakdown: List[SentenceCheck] = Field(description="Every sentence of full_script broken into components with a goal (section 6, layer 3). Sentences without a goal must have been cut before this point.")
+    cut_lines: List[str] = Field(description="Lines you drafted but removed because they had no goal. Empty if none.")
     quotable_close: str = Field(description="The one line you want quoted in the comments.")
     comment_prompt: str = Field(description="Optional question to drive comments; empty string if none.")
     caption: str = Field(description="Instagram caption: 2-4 short lines, ending with a soft CTA to the Substack article.")
@@ -185,6 +201,7 @@ SYSTEM_INSTRUCTIONS = """You write short-form video scripts (Instagram Reels / T
 How to work:
 - Mine the article for its tension (a myth to correct, a lazy take to push back on, a "this isn't random" pattern), its named evidence (brands, dates, events, collections) and its hard numbers.
 - Follow the beat structure and timing of the requested formula. No greetings, no "hey guys". The hook must work with sound off.
+- Apply section 6 to every Reel: map the beats onto three acts (inicio with context and a problem, nudo ordered around attention peaks, desenlace with a conclusion or CTA), make the attention peaks climb toward the close instead of front-loading the best fact, and break every sentence into components with a goal. Cut any sentence with no goal.
 - Speak as the analyst: specific, confident, receipts over vibes. Short spoken sentences — this is read aloud.
 - Use only facts that appear in the article. Never invent statistics, dates, brand moves or percentages. If a beat needs a number or example the article doesn't have, write a clear bracketed placeholder like [NEEDS DATA: % change in orange SKUs vs last fall] and mark it needs_data in data_check.
 - Make each Reel take a genuinely different angle on the article, not a rewording of the same script.
@@ -223,9 +240,10 @@ def build_request(article: Article, n_master: int, n_comparison: int, language: 
 
 def generate(client: anthropic.Anthropic, model: str, effort: str, article: Article, **kwargs) -> ReelPack:
     system = SYSTEM_INSTRUCTIONS.format(formula=FORMULA_PATH.read_text(encoding="utf-8"))
-    response = client.messages.parse(
+    # Streaming avoids HTTP timeouts on long outputs (several Reels + sentence breakdowns).
+    with client.messages.stream(
         model=model,
-        max_tokens=16000,
+        max_tokens=64000,
         # The formula is identical on every call, so cache it.
         system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
         messages=[{"role": "user", "content": build_request(article, **kwargs)}],
@@ -235,7 +253,8 @@ def generate(client: anthropic.Anthropic, model: str, effort: str, article: Arti
         # If a safety classifier declines, retry server-side on Anthropic's recommended fallback model.
         extra_headers={"anthropic-beta": "server-side-fallback-2026-07-01"},
         extra_body={"fallbacks": "default"},
-    )
+    ) as stream:
+        response = stream.get_final_message()
     if response.stop_reason == "refusal":
         raise RuntimeError(f"Claude declined this article: {response.stop_details}")
     if response.stop_reason == "max_tokens":
@@ -265,17 +284,28 @@ def render_markdown(article: Article, pack: ReelPack) -> str:
             "",
             f"**Hook (on-screen, frame 1):** {reel.hook_on_screen_text}",
             "",
-            "| Beat | Time | Voiceover | On-screen text | Visual |",
-            "|---|---|---|---|---|",
+            "| Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |",
+            "|---|---|---|---|---|---|---|",
         ]
         for b in reel.beats:
-            cells = [b.beat, b.timing, b.voiceover, b.on_screen_text, b.visual]
+            peak = "●" * max(0, min(b.attention_peak, 5)) + (f" {b.peak_reason}" if b.peak_reason else "")
+            cells = [b.act, b.beat, b.timing, b.voiceover, b.on_screen_text, b.visual, peak]
             out.append("| " + " | ".join(c.replace("|", "/").replace("\n", " ") for c in cells) + " |")
         out += [
             "",
             "**Full script (read-through):**",
             "",
             reel.full_script,
+            "",
+            "**Sentence breakdown (every line has a job):**",
+            "",
+        ]
+        for sc in reel.sentence_breakdown:
+            parts = " + ".join(f"{c.part} _[{c.role}]_" for c in sc.components)
+            out.append(f"- {parts} → **{sc.goal}**")
+        if reel.cut_lines:
+            out += ["", "**Cut (no goal):**", ""] + [f"- ~~{line}~~" for line in reel.cut_lines]
+        out += [
             "",
             f"**Quotable close:** {reel.quotable_close}",
         ]
