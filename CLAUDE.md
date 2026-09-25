@@ -174,7 +174,14 @@ comparable, not just their labels.
   actually in that season's spreadsheet, 11 for one Menswear edition, 13
   for a Womenswear NYFW edition, some other number next time. Always pull
   the real count from the data in front of you, never carry a number over
-  from a previous piece.
+  from a previous piece. Two Claude Code skills capture the build logic
+  for this pattern in full: `.claude/skills/runway-decode-trends` (materials,
+  silhouettes, search validation, the alignment matrix) and
+  `.claude/skills/runway-decode-colour` (season palette, per-house donuts,
+  swatch grid, the colour deep dive), each with reusable chart-building
+  scripts. Use them rather than re-deriving the matrix/donut pixel math
+  from scratch, that's exactly the kind of thing that went wrong more
+  than once before they existed.
 - **"Stop Calling Everything a Trend"** is the recurring series title, not
   a structural format on its own. It gets reused across whatever the
   underlying data source is that month, a Pinterest report, Trendalytics,
