@@ -29,6 +29,36 @@ Trend: NYFW Edition." If you want to see a finished example before
 building, that piece (and the session that built it) is the ground truth
 this skill was extracted from.
 
+## Voice, in practice
+
+CLAUDE.md's voice notes describe the register, this is what it actually
+looks like on the page. **Read
+`reference-articles/nyfw-ss27-trend-report-final.md` before drafting text
+for this piece type**, it's Carmen's own final, approved copy for this
+exact format, not a structure-only reference, match its register
+directly. A few tics worth noticing there:
+
+- A mid-section pivot before getting specific: "Ok, ok… silk is the most
+  dominant, but in what shape, what form, what is made of silk?" Stating
+  the headline finding, then immediately undercutting its own vagueness
+  before drilling in, rather than just listing the specifics cold.
+- Rhetorical questions as subheads: "The slip dress and midi skirt
+  comparison: which one wins?" A section title can ask the question the
+  section then complicates or half-answers.
+- Naming and linking her own past pieces inline, as a personal thread
+  through the newsletter, not just an external citation.
+- A short, plain sentence flagging what's deliberately out of scope
+  rather than pretending the piece is total: "Anyway, I will post a
+  specific post about colour." Don't pad out a section to look complete,
+  say what's coming later instead.
+- Ending on a direct question to the reader, before the standard sign-off
+  block, not just a closing summary line.
+- Stretched-word emphasis ("biiiiig") used sparingly, maybe once a piece,
+  not a running tic.
+
+This same reference file is also the tone anchor for `runway-decode-colour`,
+both pieces should read like the same person wrote them on the same day.
+
 ## Before you start
 
 Confirm with Carmen, don't assume:

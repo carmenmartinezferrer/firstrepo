@@ -23,3 +23,7 @@ for a voice reference later.
 - `donut_chart_builder.py` and `DMSerifDisplay-Regular.ttf`, the saved
   Catwalk Decode donut chart spec and the font it needs. Reuse for every
   future palette, silhouette or material donut set.
+- `nyfw-ss27-trend-report-final.md`, Carmen's own final approved text for
+  a Runway Decode Trend Report, a voice reference as well as a structure
+  one. This is the tone anchor for both `.claude/skills/runway-decode-trends`
+  and `.claude/skills/runway-decode-colour`.

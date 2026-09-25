@@ -24,6 +24,15 @@ repo root `CLAUDE.md` first, every non-negotiable, voice note, and HTML
 template rule there applies here, this skill only adds the
 format-specific structure and chart logic on top of it.
 
+**Voice**: read `reference-articles/nyfw-ss27-trend-report-final.md`
+before drafting. It's the Trend Report half of this same season, not this
+piece, but it's Carmen's own final approved copy and the tone anchor for
+both halves of a Runway Decode pair, this piece should read like the same
+person wrote it on the same day, casual asides, rhetorical-question
+subheads, personal links to her own past pieces, a direct question to the
+reader before the sign-off, not a flatter or more "complete report"
+register just because this piece is more chart-dense.
+
 Reference implementation: NYFW SS27, "The Colour Index." If you want a
 finished example before building, that piece is the ground truth this
 skill was extracted from.
