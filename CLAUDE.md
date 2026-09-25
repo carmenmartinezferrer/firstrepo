@@ -71,6 +71,26 @@ listicle or a trend report.
   calling out explicitly, it's a stronger claim than either source alone.
   When they only partially overlap, say exactly how much they overlap
   rather than rounding up to "confirmed."
+- Real press coverage belongs in every piece where it's genuinely relevant,
+  not just as colour but as an honest check: does the raw season number
+  and what the industry is actually saying line up, or is a modest season
+  average hiding a concentrated story at a few specific houses (the red
+  colour finding in the NYFW piece is the reference case, 9% season-wide
+  read as safe until two houses at double that average explained why the
+  press was calling it a real story). Say which it is, don't just quote
+  the coverage alongside the number and leave the reader to reconcile them.
+
+## Source-data consistency across pieces
+
+When a season's underlying data changes (a corrected palette, a house
+added or removed, a rebuilt metric), every piece drawing on that same
+season needs the same check, not just the piece the correction started
+in. This has actually gone wrong once: the NYFW Colour Index season
+palette was corrected first, and the NYFW Trend Report's own colour
+section kept citing the old numbers for several more turns until Carmen
+caught it by eye. Before calling any piece finished, grep the other
+pieces sharing that dataset for the same figures, don't assume a fix in
+one place propagated.
 
 ## Trend validation methodology
 
@@ -164,10 +184,20 @@ count once in the body prose (the methodology section is the natural spot)
 and keep every chart title and subtitle free of house-count numbers
 entirely.
 
+**"In The Press" callouts**: a distinct off-white block, thin pink left
+border, small pink uppercase label ("In The Press") above the paragraph,
+sits right after the prose finding it backs up, not bundled into the main
+paragraph. Every claim inside one needs a real link. Use it for the
+industry-resonance check described in the voice notes above.
+
 **Two-axis matrix charts** (trend alignment against colour intensity, or
 any similar two-variable comparison): split into four real quadrants at
 whatever point actually divides the season roughly in half on each axis,
-not a round number for its own sake. Shade each quadrant faintly and give
+not a round number for its own sake. Scale each axis to the metric's own
+actual min and max, not an assumed 0 to 100, a narrow-range metric (a
+composite score that only spans single digits to twenty-something,
+say) plotted on an assumed full scale crushes all the real variation into
+one corner of the chart. Shade each quadrant faintly and give
 it a real descriptive label (e.g. "Season-Led, Colour-Forward"), and colour
 each dot by which quadrant it falls into. Do not colour dots by a single
 axis alone (e.g. above/below the midpoint on just one variable), that
