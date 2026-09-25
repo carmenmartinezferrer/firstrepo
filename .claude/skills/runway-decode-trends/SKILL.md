@@ -56,6 +56,14 @@ directly. A few tics worth noticing there:
 - Stretched-word emphasis ("biiiiig") used sparingly, maybe once a piece,
   not a running tic.
 
+A second file, `reference-articles/external-trend-autopsy-format-example.md`,
+is a different Substack's piece, saved originally for a different format
+(Trend Autopsy: Scene of the Crime / Paper Trail / Verdict / Exhibit A,
+not this one). Don't borrow its structure for a Runway Decode piece, but
+CLAUDE.md's voice notes confirm it's a legitimate voice reference too,
+the same casual, personal, funny register applies here. If the NYFW
+reference above ever feels thin for a particular passage, that file is
+the second place to check the register against, voice only, not shape.
 This same reference file is also the tone anchor for `runway-decode-colour`,
 both pieces should read like the same person wrote them on the same day.
 

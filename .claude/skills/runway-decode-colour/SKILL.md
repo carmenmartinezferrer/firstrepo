@@ -33,6 +33,11 @@ subheads, personal links to her own past pieces, a direct question to the
 reader before the sign-off, not a flatter or more "complete report"
 register just because this piece is more chart-dense.
 
+`reference-articles/external-trend-autopsy-format-example.md` is a
+second, secondary voice reference, a different Substack's piece,
+structure not relevant here (it's the Trend Autopsy format, not Runway
+Decode), but CLAUDE.md confirms it's a legitimate register match too.
+
 Reference implementation: NYFW SS27, "The Colour Index." If you want a
 finished example before building, that piece is the ground truth this
 skill was extracted from.
