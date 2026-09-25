@@ -130,6 +130,22 @@ methodology section exactly which categories feed the score, since that
 composition can and does change piece to piece as the season's real
 headline findings become clearer through drafts.
 
+**Do not mix broad-baseline and narrow-baseline signals in one unweighted
+average.** A fabric-finish category like matte or sheer sits at 60 to 90%
+for most houses, while a specific named trend (a silhouette, a garment
+detail) sits at single digits to maybe 25%. Averaged together with equal
+weight, the broad category alone decides almost the whole score, the
+narrow ones barely move it, which quietly turns a "several trends
+combined" score back into a single-category ranking wearing a bigger
+number. This happened in the NYFW piece: adding matte and sheer into the
+same average as wide-leg trouser, midi skirt and the smaller silhouettes
+buried a house (Khaite) that was genuinely strong on the named trends
+because its matte share was low. The fix was dropping the broad
+fabric-finish categories and scoring only the specific named trends,
+which sit on a comparable scale to each other. Before combining any
+signals into one average, sanity-check their natural ranges are actually
+comparable, not just their labels.
+
 ## Structural patterns in use
 
 - **Monthly Signal Check** (Trendalytics-based): organized by department
