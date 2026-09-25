@@ -120,7 +120,11 @@ Monthly Signal Check pieces.
   they answer different questions. Report house-level ranking and colour
   indexing as real, sourced numbers, not vibes. Flag any brand whose
   inclusion in a season's dataset is uncertain rather than assuming it
-  belongs.
+  belongs. **The number of houses is never fixed**, it's whatever's
+  actually in that season's spreadsheet, 11 for one Menswear edition, 13
+  for a Womenswear NYFW edition, some other number next time. Always pull
+  the real count from the data in front of you, never carry a number over
+  from a previous piece.
 
 ## HTML build template
 
@@ -130,8 +134,10 @@ history, key facts: black background hero/prediction blocks with a pink
 emphasis line), Century Gothic for body and chart labels, off-white
 (`#F7F6F4`) chart block backgrounds, bar charts for ranked comparisons,
 donut charts for palette breakdowns. Bar/chart values render in black, bold,
-readable size, never small grey text. Denominators ("out of 13 houses")
-stated once in a chart subtitle, never repeated per row.
+readable size, never small grey text. Denominators (how many houses are in
+that report's dataset, this changes every time depending on what's actually
+in the spreadsheet, never assume a fixed number) stated once in a chart
+subtitle, never repeated per row.
 
 ## Donut chart build spec
 
