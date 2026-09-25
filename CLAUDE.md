@@ -72,6 +72,30 @@ listicle or a trend report.
   When they only partially overlap, say exactly how much they overlap
   rather than rounding up to "confirmed."
 
+## Trend validation methodology
+
+Standard from the menswear SS27 piece onward, applies whenever there's both
+a runway/collection tagging dataset and a matching search dataset:
+
+1. Tag every look against a fixed taxonomy (garment type, fit, fabric
+   treatment, colour, detail). Report each trend's share two ways, within
+   its own house's collection, and across the whole season.
+2. Cross-reference every candidate trend against a full year of Google
+   search data.
+3. The step that actually finds the story: plot every candidate trend's
+   search data on the **same scale**, head to head, rather than reporting
+   each one's own year-over-year percentage in isolation. A trend can look
+   strong alone and still barely register next to another candidate, that
+   gap between "strong alone" and "strong compared" is usually the real
+   finding, not a footnote to it.
+
+Placement: a short, one or two sentence primer on this methodology goes
+near the top, right before the first findings section, just enough for the
+head-to-head comparison to make sense when it shows up. The full
+methodology, tool backstory, house list, asks for comments, moves to the
+bottom with the rest of the methodology detail, same placement rule as the
+Monthly Signal Check pieces.
+
 ## Structural patterns in use
 
 - **Monthly Signal Check** (Trendalytics-based): organized by department
