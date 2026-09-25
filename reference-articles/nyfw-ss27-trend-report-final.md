@@ -70,7 +70,7 @@ The matrix below classifies brands based on how trend-forward and colour-intense
 
 How to read the matrix is simple: alignment averages a house's own share of every trend this piece has found real, materials and silhouettes together into one number. A house near the top built a real chunk of its collection around what the season was doing, a house near the bottom stayed more independent from the spotted trends. Say a brand sat at 20% silk, 15% wide-leg trousers, and 10% midi skirts; its alignment score is the average of those three, 15%. Colour intensity is a separate number: how much of that palette leans into colour rather than neutrals.
 
-Tommy Hilfiger and Ulla Johnson stand out as the two houses over-indexing on both axes, the majority of their SS27 looks track the trends this piece identifies as real, and their palettes lean colour-forward rather than neutral. Thom Browne sits at the opposite end, low on both.
+Coach scores highest on alignment, the biggest share of its own collection built around the season's real silhouette trends, wide-leg trouser, midi skirt, slip dress and the smaller silhouettes covered above, with Ralph Lauren, Khaite and Tory Burch close behind. Khaite lands high on alignment and low on colour at once, a house that's clearly tracking the season's real shapes without matching its colour story, exactly the kind of case a single-axis ranking would have missed. Tommy Hilfiger and Ulla Johnson are the two houses over-indexing on both axes, the majority of their SS27 looks track the trends this piece identifies as real, and their palettes lean colour-forward rather than neutral. Michael Kors sits lowest on alignment, with Thom Browne and Calvin Klein close to it, three houses running the most independent collections on shape, and neutral on colour too.
 
 ## The Takeaway
 
@@ -78,7 +78,7 @@ What NYFW SS27 was actually made of:
 
 - Silk is the season's material, present at every decoded house, most often as satin. Wool's real story is crepe specifically, not wool in general.
 - The midi skirt is the season's universal silhouette, present at every house, even though wide-leg trousers are the bigger number by volume.
-- Coach, Ralph Lauren, Tory Burch, Tommy Hilfiger, Michael Kors, and Ulla Johnson built the largest share of their own collections around the season's leading silhouettes and materials. Conner Ives or Thom Browne ran the most independent collections.
-- Conner Ives, Ulla Johnson, or Tommy Hilfiger were the most colourful ones.
+- Coach, Ralph Lauren, Khaite and Tory Burch scored highest on alignment, a real, meaningful share of their own collections built around the season's actual named silhouette trends. Michael Kors, Thom Browne and Calvin Klein ran the most independent collections.
+- Tommy Hilfiger and Ulla Johnson are the only two houses over-indexing on both alignment and colour at once, tracking the season's real trends while also leaning hard into colour. Khaite does the opposite, high alignment with almost no colour at all, proof the two axes genuinely measure different things.
 
 I hope you enjoyed it, and let me know in the comments anything you would like to know, doubts, if there's anything else you would like to know! I read you.
