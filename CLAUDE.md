@@ -96,6 +96,20 @@ methodology, tool backstory, house list, asks for comments, moves to the
 bottom with the rest of the methodology detail, same placement rule as the
 Monthly Signal Check pieces.
 
+Chart build: an SVG line chart, both series plotted on the same 0 to 100
+scale (Google Trends' own scale, no rescaling needed), pink for the piece's
+lead trend, black for the comparison, light dashed gridlines at 0/50/100,
+month tick labels along the x-axis, a one-line chart-note stating the
+concrete finding (e.g. "X runs higher than Y in N of the last M weeks").
+Confirmed working for both the menswear SS27 piece and the NYFW SS27 piece.
+Where an alignment score or ranking is built from real per-item data
+(spreadsheet columns, not estimates), prefer combining a couple of the
+season's actual biggest silhouette and material signals into one simple
+average over relying on a single category, and say plainly in the
+methodology section exactly which categories feed the score, since that
+composition can and does change piece to piece as the season's real
+headline findings become clearer through drafts.
+
 ## Structural patterns in use
 
 - **Monthly Signal Check** (Trendalytics-based): organized by department
@@ -125,6 +139,12 @@ Monthly Signal Check pieces.
   for a Womenswear NYFW edition, some other number next time. Always pull
   the real count from the data in front of you, never carry a number over
   from a previous piece.
+- **"Stop Calling Everything a Trend"** is the recurring series title, not
+  a structural format on its own. It gets reused across whatever the
+  underlying data source is that month, a Pinterest report, Trendalytics,
+  a Runway Decode export, always paired with an edition name (e.g. "NYFW
+  Edition"). Don't confuse it with the piece's actual structure, which
+  still follows whichever pattern above actually fits the data.
 
 ## HTML build template
 
@@ -138,9 +158,11 @@ donut charts for palette breakdowns. Bar/chart labels and values render dark
 values, 400 for labels), never bold and never light grey. Bold black was
 tried and came back too heavy, light grey was tried first and came back too
 faint, `#222` at medium weight is the settled answer. Denominators (how
-many houses are in that report's dataset, this changes every time depending
-on what's actually in the spreadsheet, never assume a fixed number) stated
-once in a chart subtitle, never repeated per row.
+many houses are in that report's dataset) don't belong in charts at all,
+not even once per subtitle, that was tried and reversed. State the house
+count once in the body prose (the methodology section is the natural spot)
+and keep every chart title and subtitle free of house-count numbers
+entirely.
 
 **Two-axis matrix charts** (trend alignment against colour intensity, or
 any similar two-variable comparison): split into four real quadrants at
