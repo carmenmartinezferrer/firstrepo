@@ -50,10 +50,15 @@ listicle or a trend report.
 
 ## Voice notes
 
-- First person, casual, personal asides are welcome (shopping habits,
-  personal opinions, "you won't see me buying this but here's what the data
-  says"), but the data claims themselves stay rigorous even when the tone is
-  loose.
+- First person, genuinely casual, closer to the external trend-autopsy
+  reference's register than the earlier draft of this file suggested.
+  Exclamation points, personal shopping confessions ("I swear I won't buy
+  the hot new bag, and then I do"), self-aware asides, a bit of humor, all
+  of that is Carmen's actual voice, not just the reference piece's. Don't
+  hold back to something flatter or more "professional analyst" by default,
+  the loose, funny, personal register is correct.
+- That said, the data claims themselves stay rigorous no matter how loose
+  the tone gets around them. Casual voice, not casual sourcing.
 - Reader-centered titles and subtitles. Catchy beats clean when they
   conflict. Titles that are two connected clauses across two lines
   ("Which July Trends Are Actually Sticking Around (And the Ones Fading)")
@@ -76,12 +81,12 @@ listicle or a trend report.
   breakdown (Emerging / Safe Bet / Peaking / On Its Way Out), and a closing
   takeaway that folds in the forward-looking read rather than running a
   separate forecast section.
-- **Trend Autopsy** format (borrowed structure only, not voice, from another
-  Substack, credit the structural idea if it comes up but don't copy tone):
-  Scene of the Crime (Carmen's own spotting, never Claude's), Paper Trail
-  (sourced facts and data), Verdict (analysis), Exhibit A (shoppable picks,
-  Carmen sources the actual products and links, Claude never invents a
-  purchase link).
+- **Trend Autopsy** format, borrowed from another Substack, structure and,
+  it turns out, register too, see the voice note above: Scene of the Crime
+  (Carmen's own spotting, never Claude's), Paper Trail (sourced facts and
+  data), Verdict (analysis, personal opinion welcome here), Exhibit A
+  (shoppable picks, Carmen sources the actual products and links, Claude
+  never invents a purchase link).
 - **Macro / micro split**: the macro trend piece is the paid, proprietary
   analysis, no shopping links. Micro drops are free, category-specific, and
   carry the affiliate links, since free reach is what makes affiliate
@@ -114,6 +119,6 @@ clockwise. No legend, no title, colours are self-explanatory.
 
 ## Reference articles
 
-See `reference-articles/` for saved examples. Read them for structure and
-pacing before drafting a new piece in an unfamiliar format, not for voice,
-Carmen's voice is defined above, not by any pasted example.
+See `reference-articles/` for saved examples, including the trend-autopsy
+piece, which is a legitimate voice reference too, not just a structure
+reference, see the voice note above.

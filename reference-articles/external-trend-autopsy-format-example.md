@@ -1,12 +1,12 @@
 <!--
-EXTERNAL REFERENCE, NOT CARMEN'S VOICE.
+EXTERNAL PIECE, USED FOR BOTH STRUCTURE AND VOICE.
 
-This is another Substack's piece, pasted in for its FORMAT only:
-Scene of the Crime / Paper Trail / Verdict / Exhibit A per trend, plus an
-Honorable Mentions close. Carmen's actual voice is defined in the root
-CLAUDE.md, not here. Do not draft in this author's tone, humor, or
-personal-blog register, only reuse the structural shape when she asks for
-the trend autopsy format specifically.
+Another Substack's piece, saved for its format, Scene of the Crime /
+Paper Trail / Verdict / Exhibit A per trend, plus an Honorable Mentions
+close, and confirmed by Carmen as close to her own actual register too,
+personal, funny, casual asides welcome. See the voice note in the root
+CLAUDE.md. Data claims still need real sourcing regardless of how loose
+the tone gets.
 -->
 
 # 2026 Summer Trend Autopsy
