@@ -133,11 +133,24 @@ history, key facts: black background hero/prediction blocks with a pink
 (`#D6447A`) top accent, DM Serif Display for headlines (italic for the
 emphasis line), Century Gothic for body and chart labels, off-white
 (`#F7F6F4`) chart block backgrounds, bar charts for ranked comparisons,
-donut charts for palette breakdowns. Bar/chart values render in black, bold,
-readable size, never small grey text. Denominators (how many houses are in
-that report's dataset, this changes every time depending on what's actually
-in the spreadsheet, never assume a fixed number) stated once in a chart
-subtitle, never repeated per row.
+donut charts for palette breakdowns. Bar/chart labels and values render dark
+(around `#222`, not pure black), readable size, medium weight (500 for
+values, 400 for labels), never bold and never light grey. Bold black was
+tried and came back too heavy, light grey was tried first and came back too
+faint, `#222` at medium weight is the settled answer. Denominators (how
+many houses are in that report's dataset, this changes every time depending
+on what's actually in the spreadsheet, never assume a fixed number) stated
+once in a chart subtitle, never repeated per row.
+
+**Two-axis matrix charts** (trend alignment against colour intensity, or
+any similar two-variable comparison): split into four real quadrants at
+whatever point actually divides the season roughly in half on each axis,
+not a round number for its own sake. Shade each quadrant faintly and give
+it a real descriptive label (e.g. "Season-Led, Colour-Forward"), and colour
+each dot by which quadrant it falls into. Do not colour dots by a single
+axis alone (e.g. above/below the midpoint on just one variable), that
+repeats information the dot's position already shows rather than adding a
+second dimension.
 
 ## Donut chart build spec
 
