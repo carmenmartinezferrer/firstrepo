@@ -50,7 +50,7 @@ Slip dress runs higher than midi skirt in 50 of the last 53 weeks. Outside the s
 
 ### A few smaller silhouettes worth flagging
 
-None big enough for the chart above, but each reaching enough different houses to be more than one designer's idea. Denim jacket is a biiiiig one of these; it was present in 31% of the catwalks (most present in Tommy Hilfiger, Calvin Klein, Conner Ives or Thom Browne), making its case as outerwear. The same story showed up in my [Fall Trends Autopsy](https://thedatafashionbrief.substack.com/p/fall-trends-autopsy). People are really leaning into all things denim right now, especially relaxed trousers.
+None big enough for the chart above, but each reaching enough different houses to be more than one designer's idea. Denim is a biiiiig one of these; it was present in 38% of the catwalks (most present in Ralph Lauren, Tommy Hilfiger, Calvin Klein, Conner Ives or Thom Browne), mostly as a jacket but also showing up as trousers and a coat, making its case as more than trouser fabric. The same story showed up in my [Fall Trends Autopsy](https://thedatafashionbrief.substack.com/p/fall-trends-autopsy). People are really leaning into all things denim right now, especially relaxed trousers.
 
 ## Colour breakdown
 
