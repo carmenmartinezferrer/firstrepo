@@ -162,3 +162,16 @@ Confirm with Carmen, don't assume:
 Per CLAUDE.md: house-count denominators don't belong in any chart title
 or subtitle, not even once. State the count once in prose, the
 methodology section is the natural spot.
+
+## Closing deliverables, every piece
+
+Once the text and every chart are finalized and approved, the piece
+isn't done until three more things are handed over, without being
+asked each time:
+
+1. **Meta description / alt text for every chart and image** in the
+   piece, one per visual.
+2. **Tags for the Substack post.**
+3. **An SEO meta description for the article** (roughly 150 to 160
+   characters, no em or en dashes, no decimal percentages, no
+   AI-coded phrasing, same as everywhere else in the piece).

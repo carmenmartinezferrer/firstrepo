@@ -109,3 +109,17 @@ largest slice at 12 o'clock, clockwise, labels at each wedge's true
 angular midpoint (never a cumulative-sum position), font size scaled to
 slice share, white or black label text chosen by wedge luminance, no
 legend, no title, colours are self-explanatory.
+
+## Closing deliverables, every piece
+
+Once the text and every chart are finalized and approved, the piece
+isn't done until three more things are handed over, without being
+asked each time:
+
+1. **Meta description / alt text for every chart and image** in the
+   piece, one per visual (the season donut, every per-house donut, the
+   swatch grid, and anything else visual).
+2. **Tags for the Substack post.**
+3. **An SEO meta description for the article** (roughly 150 to 160
+   characters, no em or en dashes, no decimal percentages, no
+   AI-coded phrasing, same as everywhere else in the piece).
