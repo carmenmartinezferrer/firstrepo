@@ -146,7 +146,7 @@ h2 small {{ font-family: Jost; font-size: 7.1pt; color: #898781 }}
 .aud .donut {{ width: auto }}
 .spacer {{ flex: 1; min-height: 12pt }}
 footer {{ border-top: .75pt solid #090909; padding-top: 8pt }}
-.cols {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24pt; font-size: 6.8pt; line-height: 1.5 }}
+.cols {{ display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24pt; font-size: 6.8pt; line-height: 1.5 }}
 .bottom {{ display: flex; justify-content: space-between; margin-top: 10pt; font-size: 7.1pt; color: #52514e }}
 .bottom a {{ color: #000; font-weight: 700 }}
 </style></head><body>
@@ -168,9 +168,9 @@ footer {{ border-top: .75pt solid #090909; padding-top: 8pt }}
 <div class="spacer"></div>
 <footer>
   <div class="cols">
-    <div><h3>CONTENT PILLARS</h3>{escape(d["pillars"]).replace("·", "&nbsp;·&nbsp;")}</div>
-    <div><h3>PAST COLLABORATIONS</h3>{WIDE.join(escape(c) for c in d["collaborations"])}</div>
-    <div><h3>WAYS TO COLLABORATE</h3>{escape(d["ways"]).replace("·", "&nbsp;·&nbsp;")}</div>
+    <div><h3>CONTENT PILLARS</h3>{escape(d["pillars"]).replace("  ·  ", "&nbsp;&nbsp;·&nbsp; ")}</div>
+    <div><h3>PAST COLLABORATIONS</h3>{"&nbsp;&nbsp;·&nbsp; ".join(escape(c).replace(" ", "&nbsp;") for c in d["collaborations"])}</div>
+    <div><h3>WAYS TO COLLABORATE</h3>{escape(d["ways"]).replace("  ·  ", "&nbsp;&nbsp;·&nbsp; ")}</div>
   </div>
   <div class="bottom"><span>For partnerships and collaborations</span><a href="mailto:{b["email"]}">{b["email"]}</a></div>
 </footer>
