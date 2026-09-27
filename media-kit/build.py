@@ -190,6 +190,15 @@ def main():
         page.goto(html_path.resolve().as_uri(), wait_until="networkidle")
         page.evaluate("document.fonts.ready")
         page.pdf(path=str(HERE / "media_kit.pdf"), format="Letter", print_background=True, prefer_css_page_size=True)
+        try:  # shrink: subset fonts and recompress (keeps links)
+            import pymupdf
+            pdf = pymupdf.open(HERE / "media_kit.pdf")
+            pdf.subset_fonts()
+            pdf.save(HERE / "media_kit.min.pdf", garbage=4, deflate=True, deflate_fonts=True, clean=True, use_objstms=1)
+            pdf.close()
+            (HERE / "media_kit.min.pdf").replace(HERE / "media_kit.pdf")
+        except ImportError:
+            pass
         page.set_viewport_size({"width": 816, "height": 1056})
         page.screenshot(path=str(HERE / "media_kit_preview.png"), full_page=True)
         browser.close()
