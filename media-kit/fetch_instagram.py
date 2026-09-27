@@ -133,7 +133,7 @@ def main():
     month = now.strftime("%m/%y")
     ig["growth"] = [g for g in ig["growth"] if g[0] != month] + [[month, followers, fmt_k(followers)]]
     ig["countries"] = [[c[0], pct(v, n_c)] for c, v in top5] + [["Other", 100 - sum(pct(v, n_c) for _, v in top5)]]
-    ig["period"] = [f"{since:%-d %b} – {now:%-d %b %Y}: ", f"{acct.get('reach', 0):,} reach", f"{acct.get('views', 0):,} views"]
+    ig["period"] = [f"{since30:%-d %b} – {now:%-d %b %Y}: ", f"{acct.get('reach', 0):,} reach", f"{acct.get('views', 0):,} views"]
     caption = (top.get("caption") or "").strip().split("\n")[0][:90]
     ig["top"] = {"label": "TOP POST", "title": caption,
                  "stats": f"{top['reach']:,} reach  ·  {100 * top['total_interactions'] / top['reach']:.1f}% engagement"}
@@ -162,7 +162,8 @@ def main():
                "substack_followers": prev.get("substack_followers", ""), "source": ""}
         rows.append(row)
     row["instagram_followers"] = followers
-    row["source"] = "meta graph api" if not row["source"] else row["source"] + " + meta graph api"
+    if "meta graph api" not in row["source"]:
+        row["source"] = "meta graph api" if not row["source"] else row["source"] + " + meta graph api"
     with hist.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["date", "substack_subscribers", "substack_followers", "instagram_followers", "source"])
         w.writeheader()
