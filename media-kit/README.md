@@ -27,5 +27,6 @@ The editable Canva version was imported from `media_kit.pdf`: design `DAHWaawQ7K
 ## Instagram automation
 `fetch_instagram.py` pulls followers, 30-day reach and views, per-post engagement, save and send
 rates, the top post, and follower demographics (countries, gender, age of women) into `data.json`
-and `stats_history.csv`. It needs `META_ACCESS_TOKEN` in the environment, and network access to
+and `stats_history.csv`. It needs `INSTAGRAM_ACCESS_TOKEN` (Instagram Login, no Facebook Page needed) and network
+access to `graph.instagram.com`. Alternatively, `META_ACCESS_TOKEN` via Facebook Login with
 `graph.facebook.com`.

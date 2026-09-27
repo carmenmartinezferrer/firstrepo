@@ -2,9 +2,10 @@
 
     META_ACCESS_TOKEN=... python3 media-kit/fetch_instagram.py [--dry-run]
 
-Needs an Instagram professional account linked to a Facebook Page, and a token with
-instagram_basic, instagram_manage_insights and pages_read_engagement. IG_USER_ID is optional;
-it is looked up from the token's Pages when unset.
+Preferred: INSTAGRAM_ACCESS_TOKEN from "API setup with Instagram login" (permissions
+instagram_business_basic + instagram_business_manage_insights); needs graph.instagram.com.
+Alternative: META_ACCESS_TOKEN via Facebook Login (instagram_basic, instagram_manage_insights,
+pages_show_list, pages_read_engagement) with the account linked to a Page; needs graph.facebook.com.
 
 Metric definitions (per post, averaged over posts from the last 30 days):
   engagement rate = total interactions / reach    save rate = saves / reach
@@ -20,8 +21,12 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 HERE = Path(__file__).parent
-API = "https://graph.facebook.com/" + os.environ.get("META_API_VERSION", "v23.0")
-TOKEN = os.environ.get("META_ACCESS_TOKEN")
+# Two ways in: INSTAGRAM_ACCESS_TOKEN (Instagram API with Instagram Login, no Facebook Page
+# needed, served from graph.instagram.com) or META_ACCESS_TOKEN (Facebook Login, via a Page).
+VERSION = os.environ.get("META_API_VERSION", "v23.0")
+TOKEN = os.environ.get("INSTAGRAM_ACCESS_TOKEN") or os.environ.get("META_ACCESS_TOKEN")
+IG_LOGIN = bool(os.environ.get("INSTAGRAM_ACCESS_TOKEN"))
+API = f"https://graph.instagram.com/{VERSION}" if IG_LOGIN else f"https://graph.facebook.com/{VERSION}"
 
 
 def get(path, **params):
@@ -35,6 +40,8 @@ def get(path, **params):
 
 
 def ig_user_id():
+    if IG_LOGIN:
+        return get("me", fields="user_id")["user_id"]
     if os.environ.get("IG_USER_ID"):
         return os.environ["IG_USER_ID"]
     for page in get("me/accounts", fields="instagram_business_account")["data"]:
@@ -68,7 +75,7 @@ def fmt_k(n):
 
 def main():
     if not TOKEN:
-        sys.exit("Set META_ACCESS_TOKEN (see media-kit/README.md).")
+        sys.exit("Set INSTAGRAM_ACCESS_TOKEN or META_ACCESS_TOKEN (see media-kit/README.md).")
     uid = ig_user_id()
     now = datetime.now(timezone.utc)
     since = now - timedelta(days=30)
