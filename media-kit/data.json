@@ -179,7 +179,8 @@
         ]
       ]
     ],
-    "window": "last 90 days"
+    "window": "last 90 days",
+    "window_note": "Engagement, save & send rates: last 90 days"
   },
   "substack": {
     "sub": "The Data Fashion Brief",
@@ -189,28 +190,23 @@
         "followers"
       ],
       [
-        "7.3K",
+        "7,341",
         "subscribers"
       ],
       [
-        "32.7%",
+        "27.7%",
         "avg. open rate"
       ],
       [
-        "2,193",
+        "3,125",
         "avg. views/post"
       ]
     ],
     "growth_title": [
-      ">7.2K subscribers",
+      "7,341 subscribers",
       " since launching in January 2026"
     ],
     "growth": [
-      [
-        "12/25",
-        6,
-        "6"
-      ],
       [
         "01/26",
         27,
@@ -248,13 +244,13 @@
       ],
       [
         "08/26",
-        6569,
-        "6,569"
+        6978,
+        "6,978"
       ],
       [
         "09/26",
-        7300,
-        "7.3K"
+        7341,
+        "7,341"
       ]
     ],
     "countries": [
@@ -286,7 +282,7 @@
     "period": null,
     "top": {
       "label": "TOP NEWSLETTER",
-      "stats": "3,494 views  ·  28.0% open rate",
+      "stats": "4,014 views  ·  28.3% open rate",
       "title": "How To Break Into Fashion Data Analytics (The Honest Way)"
     },
     "examples": [
@@ -317,7 +313,9 @@
           "https://substack.com/@thedatafashionbrief/note/p-191348101"
         ]
       ]
-    ]
+    ],
+    "window": "last 90 days",
+    "window_note": "Open rate & views/post: last 90 days"
   },
   "audience": {
     "gender": [
@@ -417,5 +415,9 @@
       "url": "https://lystinsights.substack.com/p/the-fall-fashion-forecast"
     }
   ],
-  "rates": "Rates on request"
+  "rates": "Rates on request",
+  "quote": {
+    "text": "Your newsletters are always on point. They show and summarise what I see and sense when I look at social media, and you grasp it and make a conclusion about what it is that I am seeing.",
+    "who": "Substack reader"
+  }
 }

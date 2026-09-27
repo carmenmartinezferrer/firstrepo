@@ -35,3 +35,21 @@ breaks often, and is against Substack's rules. She decided against it.
 - `stats_history.csv`: fill substack_subscribers and substack_followers for the refresh date.
 - Current values (27 Sep 2026, reported by the owner): >12K followers, 7.3K subscribers,
   32.7% open rate, 2,193 avg. views/post.
+
+## Substack's own CSV exports (best source, added 27 Sep 2026)
+The owner can export these from her Substack dashboard into the same Drive folder:
+- `thedatafashionbrief_emails_<date>.csv`: **daily total subscribers** (date,count). Take the
+  last day of each month for the growth chart (**the chart starts at 01/26**, at the owner's request).
+- `thedatafashionbrief_email_stats_<date>.csv`: one row per newsletter (title, post_date,
+  audience, views, engagement_rate, signups, subscribes, estimated_value, open_rate). Kit:
+  **avg. open rate and avg. views/post = plain means over posts from the last 90 days**; top
+  newsletter = the most views.
+- `..._growth_sources_<date>.csv`: daily visitors and new subscribers by traffic source. There's no
+  personal data, but it's big, so summarise it with a subagent. It's not on the kit; it's useful
+  for the owner (Notes bring ~48% of new subscribers).
+- Substack **followers** aren't in any export: keep the owner-reported value (>12K) until she
+  gives a new one.
+- Values on 27 Sep 2026: 7,341 subscribers; 90-day open rate 27.7%, 3,125 views/post (all-time
+  31.8% and 2,518); top newsletter "How To Break Into Fashion Data Analytics (The Honest Way)",
+  4,014 views · 28.3% open rate. Month-ends: 01 27 · 02 521 · 03 2,843 · 04 4,107 · 05 5,694 ·
+  06 6,002 · 07 6,333 · 08 6,978 · 27 Sep 7,341.

@@ -98,7 +98,7 @@ def bars_mom(growth, max_h=86):
 
 def platform(name, p, sub_label):
     tiles = "".join(f'<div class="tile"><b>{escape(v)}</b><span>{escape(l)}</span></div>' for v, l in p["tiles"])
-    window = f'<small class="win">Engagement, save &amp; send rates: {escape(p["window"])}</small>' if p.get("window") else ""
+    window = f'<small class="win">{escape(p["window_note"])}</small>' if p.get("window_note") else ""
     period = ""
     if p.get("period"):
         pre, a, b = p["period"]
@@ -155,6 +155,8 @@ def build_html(d):
     logos = "".join(logo(c) for c in d["collaborations"])
     press = "".join(f'<a class="press" href="{escape(x["url"])}"><b>{escape(x["outlet"])}</b><span>{escape(x["title"])}</span></a>'
                     for x in d["press"])
+    q = d.get("quote")
+    quote = (f'<blockquote>“{escape(q["text"])}”<cite>— {escape(q["who"])}</cite></blockquote>' if q else "")
     head = f"""<header>
   <div><h1>{escape(b["name_before"])}<i>{escape(b["name_accent"])}</i>{escape(b["name_after"])}</h1>
     <div class="meta">{escape(b["handle"])}{WIDE}Media Kit{WIDE}{escape(d["month"])}{WIDE}{escape(d["location"])}</div></div>
@@ -194,6 +196,9 @@ h3 {{ font-size: 6.8pt; letter-spacing: .08em; color: #898781; font-weight: 700;
 .angle i {{ color: #d6447a }}
 .bio {{ font-size: 8.2pt; line-height: 1.5 }}
 .based {{ margin-top: 8pt; font-size: 7.5pt; color: #52514e }}
+blockquote {{ margin-top: 9pt; padding: 7pt 10pt; border-left: 2pt solid #d54479; background: #fbf3f6;
+              font-family: 'DM Serif Display', serif; font-style: italic; font-size: 9pt; line-height: 1.35; color: #24231f }}
+blockquote cite {{ display: block; margin-top: 3pt; font-family: Jost; font-style: normal; font-size: 7pt; color: #898781 }}
 .tiles {{ display: flex; gap: 6pt }}
 .tile, .card {{ background: #fbfbfa; border: .75pt solid rgba(9,9,9,.09); border-radius: 4.5pt }}
 .tile {{ flex: 1; height: 45pt; padding: 7pt 10pt; display: flex; flex-direction: column; justify-content: space-between }}
@@ -248,7 +253,8 @@ footer {{ border-top: .75pt solid #090909; padding-top: 8pt }}
 <div class="hero">
   {photo}
   <div><p class="angle">{escape(d["angle"])}</p><p class="bio">{escape(d["bio"])}</p>
-    <p class="based">Based in <b>{escape(d["location"])}</b>{WIDE}Writing for FashionUnited, featured by Lyst</p></div>
+    <p class="based">Based in <b>{escape(d["location"])}</b>{WIDE}Writing for FashionUnited, featured by Lyst</p>
+    {quote}</div>
 </div>
 <h2>At a glance <span class="pill">100% ORGANIC GROWTH</span></h2>
 <div class="tiles">{glance_html}</div>
