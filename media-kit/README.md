@@ -21,8 +21,8 @@ CHROMIUM_PATH=/opt/pw-browsers/chromium python3 media-kit/build.py
   or a screenshot of the Stats page into the "DFB Media Kit" Google Drive folder.
 
 ## Canva
-The editable Canva version was imported from `media_kit.pdf`: design `DAHWaC2bldo`
-(https://www.canva.com/d/9RnjLpbcjkixCTV). Each 15-day refresh updates its numbers in place.
+The editable Canva version was imported from `media_kit.pdf`: design `DAHWaawQ7KE`
+(https://www.canva.com/d/3svO6kq1uLygmpp). Each 15-day refresh updates its numbers in place.
 
 ## Instagram automation
 `fetch_instagram.py` pulls followers, 30-day reach and views, per-post engagement, save and send
