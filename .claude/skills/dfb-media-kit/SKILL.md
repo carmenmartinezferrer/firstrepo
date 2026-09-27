@@ -64,7 +64,12 @@ only, never around the separators.
 
 ## Getting Instagram data
 
-### 1. Metricool connector (works now)
+### Which source to use
+**Use the Instagram API token first** (full post history since January, 90-day window). Fall back
+to Metricool if the token fails or has expired, and cross-check the two on overlapping posts
+when the token is first used.
+
+### 1. Metricool connector (backup; confirmed working 27 Sep 2026)
 Brand id **7118813** (timezone Europe/London). Call `getAnalyticsDataByMetrics` with ISO dates.
 - Posts: `IGPO02` date, `IGPO03` caption, `IGPO06` url, `IGPO12` interactions, `IGPO14` reach,
   `IGPO15` saved, `IGPO27` shares, `IGPO28` views
@@ -76,7 +81,7 @@ Brand id **7118813** (timezone Europe/London). Call `getAnalyticsDataByMetrics` 
 Limits: posts only from 27 Jul 2026 onwards; no follower history; `IGEV19` (avg reach per post)
 matches our per-post-average reach.
 
-### 2. Instagram API token (for full history since January)
+### 2. Instagram API token (primary; full history since January)
 The owner set up the app "The data fashion brief stats" (App ID 1067770032751216,
 Business type) with **Instagram API with Instagram Login**. She is an Instagram tester, and the
 token is stored in the cloud environment as a Bearer credential for `graph.instagram.com` (or as
@@ -105,7 +110,7 @@ record the new id here and in the README, and tell the owner she can delete the 
   tell her to drop it in the folder.
 
 ## The 15-day refresh, step by step
-1. Pull the Instagram data (token route if available, otherwise Metricool) and add a row to
+1. Pull the Instagram data (token first, Metricool as fallback) and add a row to
    stats_history.csv.
 2. Ask for (or look in Drive for) new Substack numbers and new partnerships. Keep the last
    values if there's nothing new.
