@@ -134,7 +134,7 @@ Metricool before writing anything.
 - Never ask the owner to paste a token into the chat.
 
 ## Canva
-The current design is **`DAHWaawQ7KE`** (https://www.canva.com/d/3svO6kq1uLygmpp). To update it:
+The current design is **`DAHWa9-H9ck`** (https://www.canva.com/d/k9U2S6Uza7kFPvk), the two-page kit imported 27 Sep 2026 from commit 63627d9. The PDF import loses some spacing (words run together in the bio, the Substack followers tile slips up next to the heading), so the PDF in the repo is the version to send brands. To update it:
 commit and push the new PDF, then `import-design-from-url` with the raw GitHub URL **pinned to the
 commit SHA** (`https://raw.githubusercontent.com/carmenmartinezferrer/firstrepo/<sha>/media-kit/media_kit.pdf`),
 with `intended_design_type: us_letter`. This creates a new design. Verify it with `read-design`,
