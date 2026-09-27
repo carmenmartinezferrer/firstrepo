@@ -23,3 +23,9 @@ CHROMIUM_PATH=/opt/pw-browsers/chromium python3 media-kit/build.py
 ## Canva
 The editable Canva version was imported from `media_kit.pdf`: design `DAHWaC2bldo`
 (https://www.canva.com/d/9RnjLpbcjkixCTV). Each 15-day refresh updates its numbers in place.
+
+## Instagram automation
+`fetch_instagram.py` pulls followers, 30-day reach and views, per-post engagement, save and send
+rates, the top post, and follower demographics (countries, gender, age of women) into `data.json`
+and `stats_history.csv`. It needs `META_ACCESS_TOKEN` in the environment, and network access to
+`graph.facebook.com`.
