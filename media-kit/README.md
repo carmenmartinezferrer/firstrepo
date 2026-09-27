@@ -19,3 +19,7 @@ CHROMIUM_PATH=/opt/pw-browsers/chromium python3 media-kit/build.py
   access token saved in the cloud environment as `META_ACCESS_TOKEN`.
 - **Substack**: Substack has no official stats API. Every 15 days, drop a subscriber CSV export
   or a screenshot of the Stats page into the "DFB Media Kit" Google Drive folder.
+
+## Canva
+The editable Canva version was imported from `media_kit.pdf`: design `DAHWaC2bldo`
+(https://www.canva.com/d/9RnjLpbcjkixCTV). Each 15-day refresh updates its numbers in place.
