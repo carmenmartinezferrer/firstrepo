@@ -1,6 +1,6 @@
 ---
 name: dfb-media-kit
-description: Builds and refreshes the one-page media kit PDF for The Data Fashion Brief (DFB, @thedatafashionbrief, a fashion data analyst on Instagram and Substack). It pulls Instagram stats from Metricool (or the Instagram API token), takes Substack numbers and partnerships from the owner's files, rebuilds the PDF in the September 2026 design, and updates the Canva copy. Use this whenever the user wants to update, refresh, rebuild or check the media kit, pull Instagram or Substack stats for brands, add a new partnership or collaboration, change what the kit shows (engagement window, growth, reach vs views), or run or fix the 15-day media kit routine. Trigger even on casual asks like "update my media kit", "new numbers for brands", "add ASOS to my collabs", "how's my growth this month".
+description: Builds and refreshes the two-page media kit PDF for The Data Fashion Brief (DFB, @thedatafashionbrief, a fashion data analyst on Instagram and Substack). It pulls Instagram stats from Metricool (or the Instagram API token), takes Substack numbers and partnerships from the owner's files, rebuilds the PDF in the owner-approved two-page structure, and updates the Canva copy. Use this whenever the user wants to update, refresh, rebuild or check the media kit, pull Instagram or Substack stats for brands, add a new partnership or collaboration, change what the kit shows (engagement window, growth, reach vs views), or run or fix the 15-day media kit routine. Trigger even on casual asks like "update my media kit", "new numbers for brands", "add ASOS to my collabs", "how's my growth this month".
 ---
 
 # DFB Media Kit
@@ -29,6 +29,43 @@ it's exactly 2 pages, no text overflows or wraps badly, all links are there (27 
 In data.json, lists joined with " · " must stay wrappable: brand names use `&nbsp;` inside a name
 only, never around the separators.
 
+## Kit structure (approved by the owner, 27 Sep 2026): keep this order
+Two pages, US Letter. **Page 1 sells, page 2 proves.** Every block, its data.json key and its
+source are listed below. Don't add, remove or reorder blocks without the owner's OK. When she
+changes the structure, update this section and the Design log.
+
+**Both pages: header and footer**
+- Header: "The Data *Fashion* Brief" · @thedatafashionbrief · Media Kit · {month} · **London** ·
+  tagline "Decoding fashion through data." · links to Instagram, Substack, LinkedIn, FashionUnited
+  and the email (`brand`, `month`, `location`, `links`).
+- Footer: "For partnerships and collaborations · **Rates on request**" and hi@datafashionbrief.com
+  (`rates`). **Never print prices.**
+
+**Page 1: the pitch**
+1. **Hero:** photo (`photo`, a placeholder until she sends one) · **unique angle** line (`angle`,
+   a draft until she confirms it) · bio (`bio`) · "Based in London · Writing for FashionUnited,
+   featured by Lyst" · **reader quote** (`quote`: "Your newsletters are always on point…",
+   credited "Substack reader").
+2. **At a glance** (100% organic): total followers (Instagram + Substack followers; never add
+   subscribers on top) · Instagram followers · Substack followers · Substack subscribers ·
+   Instagram engagement (90 days).
+3. **Audience:** gender · age (women) · top markets (Instagram countries).
+4. **Past collaborations:** logo tiles (`collaborations`: name, url, logo). Brands come from the
+   Partnerships tab of her sheet; a tile links to the post when there is one. Brand-name wordmarks
+   until she sends logo files. **No results or metrics from past collabs** (her decision).
+5. **As featured in** (`press`): FashionUnited (contributing author) · Lyst Insights "London
+   Calling: The Homecoming Edition" · Lyst Insights "The Fall Fashion Forecast".
+6. **Content pillars** (`pillars`) and **Work with me** (`ways`), as chips.
+
+**Page 2: the numbers**, one section per platform
+7. **Instagram** (`instagram`): tiles for followers · engagement rate · save rate · send rate ·
+   avg. views/post (rates over the last 90 days, pooled; header note `window_note`) → growth chart
+   of **followers at each month end** with month-on-month % (last 4 bars) + countries donut +
+   30-day reach and views line → top post → examples with links (brand collabs first).
+8. **Substack** (`substack`): tiles for followers · subscribers · avg. open rate · avg.
+   views/post (last 90 days) → growth chart of **subscribers at each month end, from 01/26**, with
+   month-on-month % + countries donut → top newsletter → examples with links.
+
 ## Page content and the decisions behind it
 
 - **Header, bio and links:** fixed and stored in data.json.
@@ -46,11 +83,11 @@ only, never around the separators.
   05/26 3,386 · 06/26 4,961 · 07/26 6,104 · 08/26 ">15K" (the exact figure is unknown; ask the
   owner if it matters) · 27 Sep 21,107. Jul→Aug was +146%, Aug→Sep +41%. From September on,
   take month-end followers from stats_history.csv.
-- **Top post:** all-time best by reach. Currently the "#whimsymaxxing" post: 95,476 reach ·
-  9.4% engagement. Replace it only if a newer post beats it.
-- **"1 Aug – 6 Sep 2026: 350,400 reach · 858,900 views":** kept from the September kit. Metricool
-  can't reproduce this line (daily reach can't be summed into unique reach, and views have gaps).
-  The token's account insights give 30-day totals.
+- **Top post:** all-time best by reach. Currently the "#whimsymaxxing" post (95,951 reach ·
+  9.7% engagement, from the API on 27 Sep 2026). Replace it only if a newer post beats it.
+- **Reach and views line** ("28 Aug – 27 Sep 2026: 229,490 reach · 697,005 views"): account
+  totals for the last 30 days from the token (the API caps these at 30 days). Metricool can't
+  produce this line.
 - **Audience:** follower gender (women vs men, ignoring unknown), age bands for women (18-24 …
   55-64, as a % of all women, with 13-17 and 65+ left off), and top 5 countries + Other.
 - **Substack:** followers, subscribers, open rate, views per post, a monthly subscriber chart
