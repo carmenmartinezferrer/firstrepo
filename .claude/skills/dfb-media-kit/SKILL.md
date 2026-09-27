@@ -1,0 +1,115 @@
+---
+name: dfb-media-kit
+description: Builds and refreshes the one-page media kit PDF for The Data Fashion Brief (DFB, @thedatafashionbrief, a fashion data analyst on Instagram and Substack). It pulls Instagram stats from Metricool (or the Instagram API token), takes Substack numbers and partnerships from the owner's files, rebuilds the PDF in the September 2026 design, and updates the Canva copy. Use this whenever the user wants to update, refresh, rebuild or check the media kit, pull Instagram or Substack stats for brands, add a new partnership or collaboration, change what the kit shows (engagement window, growth, reach vs views), or run or fix the 15-day media kit routine. Trigger even on casual asks like "update my media kit", "new numbers for brands", "add ASOS to my collabs", "how's my growth this month".
+---
+
+# DFB Media Kit
+
+A **one-page** PDF media kit (US Letter) for The Data Fashion Brief, refreshed every 15 days
+(1st and 15th of the month). Everything lives in `media-kit/` in this repo.
+
+The owner wants this to run with almost no work on her side. Never make numbers up: every figure
+comes from Metricool, the Instagram API, or something the owner gave you. If a number can't be
+sourced, keep the last known value and say so.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `media-kit/data.json` | Every number, link and partnership on the page. **Edit this, never the HTML.** |
+| `media-kit/build.py` | data.json → HTML → PDF (headless Chromium), then font subsetting and compression (~94 KB, keeps links). Run `CHROMIUM_PATH=/opt/pw-browsers/chromium python3 media-kit/build.py`. Needs `pip install playwright pymupdf`. |
+| `media-kit/fetch_instagram.py` | Instagram API fetcher (token route, see below). `--dry-run` prints without writing. |
+| `media-kit/stats_history.csv` | One row per refresh: date, Substack subscribers and followers, Instagram followers, source. This builds the follower history, because no source backfills it. |
+| `media-kit/instagram_posts.csv` | Written by the fetcher: every post since launch, with lifetime insights. |
+| `media-kit/fonts/` | DM Serif Display and Jost (static weights made from the variable font with fontTools; the variable font bloated the PDF). |
+| `media-kit/reference_2026-09-07.pdf` | The owner's original September kit. The layout must stay faithful to it. |
+
+After every rebuild, open the PDF at 110 dpi (`pymupdf` `get_pixmap`) and **look at it**. Check:
+it's still 1 page, no text overflows or wraps badly, all links are there (27 as of 27 Sep 2026).
+In data.json, lists joined with " · " must stay wrappable: brand names use `&nbsp;` inside a name
+only, never around the separators.
+
+## Page content and the decisions behind it
+
+- **Header, bio and links:** fixed and stored in data.json.
+- **Instagram tiles:** followers · engagement rate · save rate · send rate · **avg. views/post**.
+  - The owner agreed on **views, not reach**. Average reach per post fell during fashion month
+    (9,774 over 30 days) while views stayed strong; views are honest and brands understand them.
+- **Engagement, save and send rates are pooled:** sum(interactions) / sum(reach), and the same
+  for saves and shares, over **feed posts and carousels only (no Reels)**. This reproduces the
+  September kit (10.34%); the 60-day pooled figure was 10.28%. Don't switch to per-post averages.
+- **Window:** 90 days is the target. Metricool only holds posts from 27 Jul 2026, so until the
+  token route has run (or until late October), use the longest window available and **label it**,
+  e.g. "last 60 days".
+- **Growth:** "0 → 21K followers since launching in January 2026 · 100% organic", monthly bars,
+  and **month-on-month % labels** on recent bars. Known month-ends:
+  05/26 3,386 · 06/26 4,961 · 07/26 6,104 · 08/26 ">15K" (the exact figure is unknown; ask the
+  owner if it matters) · 27 Sep 21,107. Jul→Aug was +146%, Aug→Sep +41%. From September on,
+  take month-end followers from stats_history.csv.
+- **Top post:** all-time best by reach. Currently the "#whimsymaxxing" post: 95,476 reach ·
+  9.4% engagement. Replace it only if a newer post beats it.
+- **"1 Aug – 6 Sep 2026: 350,400 reach · 858,900 views":** kept from the September kit. Metricool
+  can't reproduce this line (daily reach can't be summed into unique reach, and views have gaps).
+  The token's account insights give 30-day totals.
+- **Audience:** follower gender (women vs men, ignoring unknown), age bands for women (18-24 …
+  55-64, as a % of all women, with 13-17 and 65+ left off), and top 5 countries + Other.
+- **Substack:** followers, subscribers, open rate, views per post, a monthly subscriber chart,
+  and the top newsletter. **There is no API.** The owner gives these numbers (or drops a CSV or
+  screenshot in Drive). Last known values are 12K followers and 7.3K subscribers.
+- **Past collaborations:** from the owner's sheet "260921_DFB_Growth.xlsx" (Drive file id
+  `1aThD5Mrdzw-WVYpaPa8OKNQrI7VuzWck`), in the **Partnerships** tab. List brand names only.
+  **Never show the Money or Clothes columns** (fees and gifted value are private). Posts that have
+  links go into the Instagram "Examples: Brand collabs 1 2 3 …" line. Strip the `?utm_…` parts
+  from links.
+
+## Getting Instagram data
+
+### 1. Metricool connector (works now)
+Brand id **7118813** (timezone Europe/London). Call `getAnalyticsDataByMetrics` with ISO dates.
+- Posts: `IGPO02` date, `IGPO03` caption, `IGPO06` url, `IGPO12` interactions, `IGPO14` reach,
+  `IGPO15` saved, `IGPO27` shares, `IGPO28` views
+- Reels: `IGRE02, IGRE06, IGRE09, IGRE11, IGRE12, IGRE21, IGRE23` (the same fields for Reels)
+- Followers: `IGEV01`, only populated on the latest day
+- Countries: `IGDP01, IGDP02` (shares as fractions)
+- Age and gender: `IGAG01, IGAG02, IGAG03` (F / M / U counts)
+
+Limits: posts only from 27 Jul 2026 onwards; no follower history; `IGEV19` (avg reach per post)
+matches our per-post-average reach.
+
+### 2. Instagram API token (for full history since January)
+The owner set up the app "The data fashion brief stats" (App ID 1067770032751216,
+Business type) with **Instagram API with Instagram Login**. She is an Instagram tester, and the
+token is stored in the cloud environment as a Bearer credential for `graph.instagram.com` (or as
+`INSTAGRAM_ACCESS_TOKEN`). New sessions only; `graph.instagram.com` must be in the allowed
+domains. Run `python3 media-kit/fetch_instagram.py --dry-run` first and check the numbers against
+Metricool before writing anything.
+- **The token lasts 60 days from ~27 Sep 2026, so it expires around 26 Nov 2026.** Remind the
+  owner at least a week before. It's renewed in the app dashboard: Instagram → API setup with
+  Instagram login → Generate token.
+- The Facebook Pages route (`META_ACCESS_TOKEN`, graph.facebook.com) **failed**: the DFB Page
+  never showed up in `me/accounts`. Don't send the owner back down that path.
+- Never ask the owner to paste a token into the chat.
+
+## Canva
+The current design is **`DAHWaawQ7KE`** (https://www.canva.com/d/3svO6kq1uLygmpp). To update it:
+commit and push the new PDF, then `import-design-from-url` with the raw GitHub URL **pinned to the
+commit SHA** (`https://raw.githubusercontent.com/carmenmartinezferrer/firstrepo/<sha>/media-kit/media_kit.pdf`),
+with `intended_design_type: us_letter`. This creates a new design. Verify it with `read-design`,
+record the new id here and in the README, and tell the owner she can delete the old one.
+
+## Delivery and known blocks
+- **Canva PDF download is blocked:** `export-download.canva.com` is denied by the network policy.
+- **Drive upload through the connector is blocked:** the base64 upload of the ~94 KB PDF was
+  stopped by a safety check. Don't retry it. The target folder is **DFB / Media Kit**
+  (`1SniTWO4JHFE0kdoKuPbTLDGyV5RYSDY8`). Send the PDF to the owner in chat (SendUserFile) and
+  tell her to drop it in the folder.
+
+## The 15-day refresh, step by step
+1. Pull the Instagram data (token route if available, otherwise Metricool) and add a row to
+   stats_history.csv.
+2. Ask for (or look in Drive for) new Substack numbers and new partnerships. Keep the last
+   values if there's nothing new.
+3. Update data.json, rebuild, and look at the PDF.
+4. Commit and push, re-import into Canva, send the PDF to the owner, and give her a short summary
+   of what changed, with any number that moved a lot explained.
+5. Check when the token expires.
