@@ -4,3 +4,4 @@ __pycache__/
 .env
 media-kit/media_kit.html
 media-kit/media_kit_preview.png
+media-kit/.substack_raw/

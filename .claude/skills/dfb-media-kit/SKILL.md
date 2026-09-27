@@ -53,9 +53,10 @@ only, never around the separators.
   The token's account insights give 30-day totals.
 - **Audience:** follower gender (women vs men, ignoring unknown), age bands for women (18-24 …
   55-64, as a % of all women, with 13-17 and 65+ left off), and top 5 countries + Other.
-- **Substack:** followers, subscribers, open rate, views per post, a monthly subscriber chart,
-  and the top newsletter. **There is no API.** The owner gives these numbers (or drops a CSV or
-  screenshot in Drive). Last known values are 12K followers and 7.3K subscribers.
+- **Substack:** followers, subscribers, open rate, views per post, a monthly subscriber chart
+  (with month-on-month labels), and the top newsletter. **There is no API.** Public data comes from
+  `media-kit/fetch_substack.py`; private stats come from the owner's Stats screenshots in Drive.
+  **Read `references/substack.md` for the full process.**
 - **Past collaborations:** from the owner's sheet "260921_DFB_Growth.xlsx" (Drive file id
   `1aThD5Mrdzw-WVYpaPa8OKNQrI7VuzWck`), in the **Partnerships** tab. List brand names only.
   **Never show the Money or Clothes columns** (fees and gifted value are private). Posts that have
@@ -125,7 +126,7 @@ next refresh.** When the owner asks for a design change:
 ## The 15-day refresh, step by step
 1. Pull the Instagram data (token first, Metricool as fallback) and add a row to
    stats_history.csv.
-2. Ask for (or look in Drive for) new Substack numbers and new partnerships. Keep the last
+2. Substack: run fetch_substack.py and read the newest Stats screenshot (references/substack.md). Check the partnerships sheet for new rows. Keep the last
    values if there's nothing new.
 3. Update data.json, rebuild, and look at the PDF.
 4. Commit and push, re-import into Canva, send the PDF to the owner, and give her a short summary
