@@ -5,7 +5,7 @@ description: Builds and refreshes the one-page media kit PDF for The Data Fashio
 
 # DFB Media Kit
 
-A **one-page** PDF media kit (US Letter) for The Data Fashion Brief, refreshed every 15 days
+A **two-page** PDF media kit (US Letter; page 1 = the pitch, page 2 = the numbers) for The Data Fashion Brief, refreshed every 15 days
 (1st and 15th of the month). Everything lives in `media-kit/` in this repo.
 
 The owner wants this to run with almost no work on her side. Never make numbers up: every figure
@@ -25,7 +25,7 @@ sourced, keep the last known value and say so.
 | `media-kit/reference_2026-09-07.pdf` | The owner's original September kit. The layout must stay faithful to it. |
 
 After every rebuild, open the PDF at 110 dpi (`pymupdf` `get_pixmap`) and **look at it**. Check:
-it's still 1 page, no text overflows or wraps badly, all links are there (27 as of 27 Sep 2026).
+it's exactly 2 pages, no text overflows or wraps badly, all links are there (27 as of 27 Sep 2026).
 In data.json, lists joined with " · " must stay wrappable: brand names use `&nbsp;` inside a name
 only, never around the separators.
 
@@ -111,6 +111,7 @@ next refresh.** When the owner asks for a design change:
 3. Commit, push, update Canva, and add a line under "Design log" below so future refreshes keep it.
 
 ### Design log
+- 2026-09-27: v2, two pages, agreed with the owner. Page 1: header with London, photo (placeholder until she sends one; `photo` in data.json), unique-angle line (a draft, to be confirmed), bio, at-a-glance tiles (total followers = IG + Substack followers, no double-counting with subscribers), audience (gender, age of women, top IG markets), past collaborations as logo tiles (brand-name wordmarks until she sends logo files; `logo`/`url` per brand; linked when a post exists), As featured in (FashionUnited, 2 Lyst Insights articles), content pillars, work with me, "Rates on request". Page 2: a separate Instagram section and Substack section, each with tiles, month-on-month growth labels on the last 4 bars (≈ when based on a ">" value), countries, top post or newsletter, and examples. **No results from past collabs on the kit** (owner's decision).
 - 2026-09-27: rebuilt from the September 2026 PDF (DM Serif Display + Jost, pink #d54479 family,
   US Letter, one page); added "Brand collabs" examples and new partnerships.
 

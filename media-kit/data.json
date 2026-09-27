@@ -178,7 +178,8 @@
           "https://www.instagram.com/thedatafashionbrief/p/DZMdVz0DOun/"
         ]
       ]
-    ]
+    ],
+    "window": "last 90 days"
   },
   "substack": {
     "sub": "The Data Fashion Brief",
@@ -354,14 +355,67 @@
   },
   "pillars": "Brand & product strategy deep dives  ·  Catwalk analysis  ·  Trend debriefs  ·  Deciphering fashion & culture through data",
   "collaborations": [
-    "ASOS",
-    "Marc Jacobs",
-    "Demellier",
-    "Whatnot",
-    "Pinterest",
-    "Daydream",
-    "Myra",
-    "Phia"
+    {
+      "name": "ASOS",
+      "url": "https://www.instagram.com/p/DdjA8myDAjk/",
+      "logo": null
+    },
+    {
+      "name": "Marc Jacobs",
+      "url": "https://www.instagram.com/p/DcGpUK0DBAz/",
+      "logo": null
+    },
+    {
+      "name": "Demellier",
+      "url": null,
+      "logo": null
+    },
+    {
+      "name": "Whatnot",
+      "url": "https://www.instagram.com/reel/DdbfUHtMf6V/",
+      "logo": null
+    },
+    {
+      "name": "Pinterest",
+      "url": null,
+      "logo": null
+    },
+    {
+      "name": "Daydream",
+      "url": "https://substack.com/@thedatafashionbrief/note/p-208586032",
+      "logo": null
+    },
+    {
+      "name": "Myra",
+      "url": null,
+      "logo": null
+    },
+    {
+      "name": "Phia",
+      "url": null,
+      "logo": null
+    }
   ],
-  "ways": "Sponsored posts / Reels  ·  Newsletter placements  ·  Trend report collaborations  ·  Brand ambassadorships"
+  "ways": "Sponsored posts / Reels  ·  Newsletter placements  ·  Trend report collaborations  ·  Brand ambassadorships",
+  "location": "London",
+  "angle": "Where the runway meets the spreadsheet: fashion trends decoded with numbers, not vibes.",
+  "photo": null,
+  "press": [
+    {
+      "outlet": "FashionUnited",
+      "title": "Contributing author",
+      "url": "https://fashionunited.com/authors/carmenmartinezferrer"
+    },
+    {
+      "outlet": "Lyst Insights",
+      "title": "London Calling: The Homecoming Edition",
+      "url": "https://lystinsights.substack.com/p/london-calling-the-homecoming-edition"
+    },
+    {
+      "outlet": "Lyst Insights",
+      "title": "The Fall Fashion Forecast",
+      "url": "https://lystinsights.substack.com/p/the-fall-fashion-forecast"
+    }
+  ],
+  "rates": "Rates on request"
 }
