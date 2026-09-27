@@ -7,9 +7,9 @@ instagram_business_basic + instagram_business_manage_insights); needs graph.inst
 Alternative: META_ACCESS_TOKEN via Facebook Login (instagram_basic, instagram_manage_insights,
 pages_show_list, pages_read_engagement) with the account linked to a Page; needs graph.facebook.com.
 
-Metric definitions (per post, averaged over posts from the last 30 days):
-  engagement rate = total interactions / reach    save rate = saves / reach
-  send rate       = shares / reach                avg. reach = mean reach per post
+Metric definitions (feed posts and carousels from the last WINDOW_DAYS days, default 90, pooled
+like the Sept 2026 kit): engagement = sum(interactions) / sum(reach), save rate = sum(saves) /
+sum(reach), send rate = sum(shares) / sum(reach), avg. views/post = mean views per post.
 """
 import csv
 import json
@@ -81,26 +81,39 @@ def fmt_k(n):
 def main():
     uid = ig_user_id()
     now = datetime.now(timezone.utc)
-    since = now - timedelta(days=30)
+    since = now - timedelta(days=int(os.environ.get("WINDOW_DAYS", "90")))
+    since30 = now - timedelta(days=30)
 
     profile = get(uid, fields="username,followers_count")
     followers = profile["followers_count"]
-    acct = total(uid, "reach,views", since, now)
+    acct = total(uid, "reach,views", since30, now)  # account totals: the API caps these at 30 days
 
-    media = get(f"{uid}/media", fields="id,caption,permalink,timestamp", limit=50)["data"]
-    posts = []
+    # Every post since launch, with lifetime insights; kept in instagram_posts.csv for history.
+    media, page = [], get(f"{uid}/media", fields="id,caption,permalink,timestamp,media_type", limit=100)
+    while True:
+        media += page["data"]
+        nxt = page.get("paging", {}).get("next")
+        if not nxt:
+            break
+        with urllib.request.urlopen(nxt, timeout=30) as r:
+            page = json.load(r)
+    history = []
     for m in media:
-        if datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z") < since:
-            continue
-        ins = {r["name"]: r["values"][0]["value"] for r in
-               get(f"{m['id']}/insights", metric="reach,saved,shares,total_interactions")["data"]}
-        if ins.get("reach"):
-            posts.append({**m, **ins})
+        ins = {}
+        for metrics in ("reach,saved,shares,total_interactions,views", "reach,saved,total_interactions"):
+            try:  # very old or unusual media can reject some metrics; fall back to fewer
+                ins = {r["name"]: r["values"][0]["value"] for r in get(f"{m['id']}/insights", metric=metrics)["data"]}
+                break
+            except SystemExit:
+                continue
+        history.append({**m, **ins})
+    posts = [p for p in history if p.get("reach") and p.get("media_type") != "VIDEO"
+             and datetime.strptime(p["timestamp"], "%Y-%m-%dT%H:%M:%S%z") >= since]
     if not posts:
-        sys.exit("No posts with insights in the last 30 days.")
+        sys.exit("No posts with insights in the window.")
 
-    def avg(key):
-        return sum(p[key] / p["reach"] for p in posts) / len(posts) * 100
+    def avg(key):  # pooled: total of the metric / total reach, same method as the Sept 2026 kit
+        return sum(p.get(key, 0) for p in posts) / sum(p["reach"] for p in posts) * 100
 
     top = max(posts, key=lambda p: p["reach"])
     countries = demographics(uid, "country")
@@ -115,7 +128,7 @@ def main():
     ig = data["instagram"]
     ig["tiles"] = [[fmt_k(followers), "followers"], [f"{avg('total_interactions'):.2f}%", "engagement rate"],
                    [f"{avg('saved'):.2f}%", "save rate"], [f"{avg('shares'):.2f}%", "send rate"],
-                   [f"{round(sum(p['reach'] for p in posts) / len(posts)):,}", "avg. reach"]]
+                   [f"{round(sum(p.get('views', 0) for p in posts) / len(posts)):,}", "avg. views/post"]]
     ig["growth_title"] = [f"{fmt_k(followers)} followers", " since launching in January 2026"]
     month = now.strftime("%m/%y")
     ig["growth"] = [g for g in ig["growth"] if g[0] != month] + [[month, followers, fmt_k(followers)]]
@@ -133,6 +146,11 @@ def main():
                       "top": ig["top"], "countries": ig["countries"], "audience": data["audience"]}, indent=2))
     if "--dry-run" in sys.argv:
         return
+    with (HERE / "instagram_posts.csv").open("w", newline="") as f:
+        cols = ["timestamp", "media_type", "permalink", "reach", "views", "total_interactions", "saved", "shares"]
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(sorted(history, key=lambda p: p["timestamp"]))
     (HERE / "data.json").write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     hist = HERE / "stats_history.csv"
     rows = list(csv.DictReader(hist.open()))
