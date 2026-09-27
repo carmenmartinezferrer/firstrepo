@@ -1,0 +1,59 @@
+{
+  "brand": { "name_before": "The Data ", "name_accent": "Fashion", "name_after": " Brief",
+             "handle": "@thedatafashionbrief", "tagline": "Decoding fashion through data.",
+             "email": "hi@datafashionbrief.com" },
+  "month": "September 2026",
+  "links": [
+    ["Instagram", "https://www.instagram.com/thedatafashionbrief/"],
+    ["Substack", "https://thedatafashionbrief.substack.com/"],
+    ["LinkedIn", "https://www.linkedin.com/in/carmenmartinezferrer/"],
+    ["FashionUnited", "https://fashionunited.com/authors/carmenmartinezferrer"]
+  ],
+  "bio": "I decode fashion through data: brand deep dives, catwalk analysis, and trend debriefs. Everyone talks about fashion — I talk about it objectively, backed by data, and share my opinion as a trusted voice in the industry. I work in growth marketing strategy at Farfetch, previously YOOX NET-A-PORTER Group and Zara.",
+
+  "instagram": {
+    "sub": "@thedatafashionbrief",
+    "tiles": [[">21K", "followers"], ["10.34%", "engagement rate"], ["2.48%", "save rate"], ["1.39%", "send rate"], ["16,965", "avg. reach"]],
+    "growth_title": [">21K followers", " since launching in January 2026"],
+    "growth": [["02/26", 21, "21"], ["03/26", 398, "398"], ["04/26", 1087, "1,087"], ["05/26", 3386, "3,386"],
+               ["06/26", 4961, "4,961"], ["07/26", 6104, "6,104"], ["08/26", 15000, ">15K"], ["09/26", 21000, ">21K"]],
+    "countries": [["US", 16], ["GB", 11], ["IN", 7], ["AU", 5], ["ES", 4], ["Other", 57]],
+    "period": ["1 Aug – 6 Sep 2026: ", "350,400 reach", "858,900 views"],
+    "top": { "label": "TOP POST", "stats": "95,476 reach  ·  9.4% engagement",
+             "title": "We need to stop calling #whimsymaxxing or #bedazzling a new trend." },
+    "examples": [
+      ["Catwalk debriefs", ["https://www.instagram.com/thedatafashionbrief/p/DbqoCziDOE1/", "https://www.instagram.com/p/DZ-WZSyDIyu/"]],
+      ["Substack cross-promo", ["https://www.instagram.com/thedatafashionbrief/p/Dbp7Y-jDCX1/", "https://www.instagram.com/thedatafashionbrief/p/DbTKqHpDLfl/"]],
+      ["Trend + culture", ["https://www.instagram.com/thedatafashionbrief/p/DbDC7vWjLRG/", "https://www.instagram.com/thedatafashionbrief/p/Da-h66KDAkz/", "https://www.instagram.com/p/DalSi4EDAyh/"]],
+      ["Personal angle", ["https://www.instagram.com/p/Db0RMKhCDub/"]],
+      ["Professional angle", ["https://www.instagram.com/thedatafashionbrief/reel/DZICgjlMym6/", "https://www.instagram.com/thedatafashionbrief/p/DZMdVz0DOun/"]]
+    ]
+  },
+
+  "substack": {
+    "sub": "The Data Fashion Brief",
+    "tiles": [[">12K", "followers"], ["7.3K", "subscribers"], ["32.7%", "avg. open rate"], ["2,193", "avg. views/post"]],
+    "growth_title": [">7.2K subscribers", " since launching in January 2026"],
+    "growth": [["12/25", 6, "6"], ["01/26", 27, "27"], ["02/26", 521, "521"], ["03/26", 2843, "2,843"], ["04/26", 4107, "4,107"],
+               ["05/26", 5694, "5,694"], ["06/26", 6002, "6,002"], ["07/26", 6333, "6,333"], ["08/26", 6569, "6,569"], ["09/26", 7300, "7.3K"]],
+    "countries": [["US", 29], ["GB", 11], ["IN", 9], ["AU", 5], ["FR", 4], ["Other", 42]],
+    "period": null,
+    "top": { "label": "TOP NEWSLETTER", "stats": "3,494 views  ·  28.0% open rate",
+             "title": "How To Break Into Fashion Data Analytics (The Honest Way)" },
+    "examples": [
+      ["Trends debrief", ["https://substack.com/@thedatafashionbrief/note/p-191837362", "https://thedatafashionbrief.substack.com/p/i-analysed-every-celebrity-look-at"]],
+      ["Brand collab (Daydream)", ["https://substack.com/@thedatafashionbrief/note/p-208586032"]],
+      ["Personal experience", ["https://thedatafashionbrief.substack.com/p/so-you-want-to-break-into-fashion", "https://thedatafashionbrief.substack.com/p/how-to-break-into-fashion-data-analytics"]],
+      ["Brand debrief", ["https://substack.com/@thedatafashionbrief/note/p-194875586", "https://substack.com/@thedatafashionbrief/note/p-191348101"]]
+    ]
+  },
+
+  "audience": {
+    "gender": [["Women", 85], ["Men", 15]],
+    "age": [["18-24", 18], ["25-34", 39], ["35-44", 27], ["45-54", 12], ["55-64", 5]]
+  },
+
+  "pillars": "Brand & product strategy deep dives  ·  Catwalk analysis  ·  Trend debriefs  ·  Deciphering fashion & culture through data",
+  "collaborations": ["Daydream", "Pinterest", "Myra", "Phia"],
+  "ways": "Sponsored posts / Reels  ·  Newsletter placements  ·  Trend report collaborations  ·  Brand ambassadorships"
+}
