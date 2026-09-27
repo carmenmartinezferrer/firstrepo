@@ -24,19 +24,24 @@ HERE = Path(__file__).parent
 # Two ways in: INSTAGRAM_ACCESS_TOKEN (Instagram API with Instagram Login, no Facebook Page
 # needed, served from graph.instagram.com) or META_ACCESS_TOKEN (Facebook Login, via a Page).
 VERSION = os.environ.get("META_API_VERSION", "v23.0")
+# When no token variable is set, requests go to graph.instagram.com without one and rely on the
+# environment's API credential (Bearer) being attached to that host by the network proxy.
 TOKEN = os.environ.get("INSTAGRAM_ACCESS_TOKEN") or os.environ.get("META_ACCESS_TOKEN")
-IG_LOGIN = bool(os.environ.get("INSTAGRAM_ACCESS_TOKEN"))
+IG_LOGIN = not os.environ.get("META_ACCESS_TOKEN")
 API = f"https://graph.instagram.com/{VERSION}" if IG_LOGIN else f"https://graph.facebook.com/{VERSION}"
 
 
 def get(path, **params):
-    params["access_token"] = TOKEN
+    if TOKEN:
+        params["access_token"] = TOKEN
     url = f"{API}/{path}?{urllib.parse.urlencode(params)}"
     try:
         with urllib.request.urlopen(url, timeout=30) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
         sys.exit(f"Meta API error on {path}: {e.read().decode()[:500]}")
+    except urllib.error.URLError as e:
+        sys.exit(f"Could not reach {API} ({e.reason}). Is the host allowed under Network access?")
 
 
 def ig_user_id():
@@ -74,8 +79,6 @@ def fmt_k(n):
 
 
 def main():
-    if not TOKEN:
-        sys.exit("Set INSTAGRAM_ACCESS_TOKEN or META_ACCESS_TOKEN (see media-kit/README.md).")
     uid = ig_user_id()
     now = datetime.now(timezone.utc)
     since = now - timedelta(days=30)
