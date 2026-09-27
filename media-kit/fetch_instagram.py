@@ -28,6 +28,7 @@ VERSION = os.environ.get("META_API_VERSION", "v23.0")
 # environment's API credential (Bearer) being attached to that host by the network proxy.
 TOKEN = os.environ.get("INSTAGRAM_ACCESS_TOKEN") or os.environ.get("META_ACCESS_TOKEN")
 IG_LOGIN = not os.environ.get("META_ACCESS_TOKEN")
+LAUNCH = "2026-01-01"
 API = f"https://graph.instagram.com/{VERSION}" if IG_LOGIN else f"https://graph.facebook.com/{VERSION}"
 
 
@@ -115,7 +116,9 @@ def main():
     def avg(key):  # pooled: total of the metric / total reach, same method as the Sept 2026 kit
         return sum(p.get(key, 0) for p in posts) / sum(p["reach"] for p in posts) * 100
 
-    top = max(posts, key=lambda p: p["reach"])
+    # All-time best by reach (not just the window): feed posts and carousels since the January 2026 launch.
+    top = max((p for p in history if p.get("reach") and p.get("media_type") != "VIDEO"
+               and p["timestamp"] >= LAUNCH), key=lambda p: p["reach"])
     countries = demographics(uid, "country")
     ag = demographics(uid, "age,gender")
     n_c = sum(countries.values())
