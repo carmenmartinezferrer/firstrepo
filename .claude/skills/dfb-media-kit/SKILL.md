@@ -102,6 +102,18 @@ commit SHA** (`https://raw.githubusercontent.com/carmenmartinezferrer/firstrepo/
 with `intended_design_type: us_letter`. This creates a new design. Verify it with `read-design`,
 record the new id here and in the README, and tell the owner she can delete the old one.
 
+## Design changes
+The design lives in `media-kit/build.py` (HTML and CSS), and the content lives in `data.json`.
+Canva is only a copy re-imported from the PDF, so **edits made by hand in Canva are lost at the
+next refresh.** When the owner asks for a design change:
+1. Make it in build.py or data.json.
+2. Rebuild, check it's still one page, and send her a preview image. Wait for her OK.
+3. Commit, push, update Canva, and add a line under "Design log" below so future refreshes keep it.
+
+### Design log
+- 2026-09-27: rebuilt from the September 2026 PDF (DM Serif Display + Jost, pink #d54479 family,
+  US Letter, one page); added "Brand collabs" examples and new partnerships.
+
 ## Delivery and known blocks
 - **Canva PDF download is blocked:** `export-download.canva.com` is denied by the network policy.
 - **Drive upload through the connector is blocked:** the base64 upload of the ~94 KB PDF was
