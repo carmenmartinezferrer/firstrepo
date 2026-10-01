@@ -5,7 +5,19 @@
 - **Format:** 4 pages, 1080 × 1350 px (Instagram portrait carousel). The current content is the Balmain SS27 example.
 - **No autofill fields** (`get-design-dataset` returns `{}`), so fill it with `edit-design` operations.
 
-## Never edit the master
+## Brand name, fashion week and season come from the screenshots
+Take the brand from the pasted pictures: the Vogue Runway header or caption ("Saint Laurent Spring 2027 Ready-to-Wear"), the show backdrop, or Carmen's message. Take the city and season from the same place (Spring 2027 = SS27, Fall 2027 = AW27). If the screenshots don't show the brand or the season clearly, **ask, don't guess.** Spell the name the house's way (Saint Laurent, MM6 Maison Margiela, Dries Van Noten).
+
+Every brand and week mention in the template must be replaced. Nothing from the previous brand should be left:
+- **Title** (cover): `Decoding  <Brand>` ⏎ `<City> Fashion Week <Season>`
+- **Mini title** (brand line on pages 2, 3 and 4): `<Brand> • <City> FW <Season> `
+- **Column header** (pages 3 and 4): `TREND • <Season>`
+- **Design name:** `<Brand> <Season> catwalk decode`
+
+Before showing the preview, `read-design` the transaction's `design_content` and search it for the old brand name ("Balmain" in the master, or whatever brand the copy started from). It must return nothing.
+
+## Never edit the master — no need to paste the template each time
+The skill duplicates the master template by its ID every time, so Carmen never has to paste it again. Only if she makes a new template (or the link changes) should this ID be updated.
 1. `copy-design` with `design_id: DAHWx3H429E` gives you a new design ID. Do every step below on that copy.
 2. `read-design` on the copy with `open_transaction: true`, `fields: ["design_content","thumbnails"]`. Element IDs stay the same in a copy, but **re-read the locators from the copy anyway**. Use the IDs below only as a guide to which element is which. If Carmen has changed the template, trust what you read.
 
@@ -23,7 +35,7 @@
 ### Page 2: colour palette `PBCtVl2vf06NcN17`
 | Element | ID | Content |
 |---|---|---|
-| Brand line | `LBpvzwSpjtgNCL0f` | `Balmain • Paris FW SS27 ` |
+| Mini title (brand line) | `LBpvzwSpjtgNCL0f` | `Balmain • Paris FW SS27 ` → `replace_text` with `<Brand> • <City> FW <Season> ` |
 | Title | `LBf6t4cPL179fzmV` | `Colour palette` (leave) |
 | Donut image frame | `LBRyWf5xH0FWszNX` | 1040 × 1040 image fill |
 | Footnote | `LBvMSpmWrlz7Y9z1` | `*% is share of colour: proportion of total looks with that colour` (leave) |
@@ -40,7 +52,7 @@ These pages show **fabrics and silhouettes only, not trends.** Put the `silhouet
 
 | Element | Page 3 ID | Page 4 ID | Content |
 |---|---|---|---|
-| Brand line | `LBRncXL3q4lJtlJn` | `LBPdJ9HDvLr35Qqh` | `Balmain • Paris FW SS27 ` |
+| Mini title (brand line) | `LBRncXL3q4lJtlJn` | `LBPdJ9HDvLr35Qqh` | `Balmain • Paris FW SS27 ` → `replace_text` with `<Brand> • <City> FW <Season> ` |
 | Trend names (4 lines) | `LB2YkwJSQ69V8DHx` | `LBTChQClk36Pr5F2` | `name1\nname2\nname3\nname4` |
 | Percentages (4 lines, right-aligned) | `LBGzPckYMnPYMTsQ` | `LBKbrsNhbMVlcqDW` | `27%\n24%\n17%\n16%` |
 | Pink bar **chart** | `LBZcZmnHKmmqPc9K` | `LB8Nsj5RRFXztrVf` | native Canva chart, **not editable by API** |

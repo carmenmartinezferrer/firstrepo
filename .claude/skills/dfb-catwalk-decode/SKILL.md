@@ -59,12 +59,13 @@ python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py bars   tracker.js
 
 ### 6. Canva
 Fill the Catwalk analysis template, following `references/canva-template.md`:
-- Page 1: cover, "Decoding <Brand>" / "<Fashion Week> <Season>".
+- **Brand, city and season come from the pasted screenshots** (the Vogue Runway header, e.g. "Saint Laurent Spring 2027 Ready-to-Wear" → Saint Laurent, Paris, SS27). If they aren't visible, ask. Replace them in the **title** (cover), the **mini title** on pages 2–4 (`<Brand> • <City> FW <Season>`), the column header and the design name. No trace of the previous brand may remain.
+- Page 1: cover, "Decoding <Brand>" / "<City> Fashion Week <Season>".
 - Page 2: colour palette donut (the palette PNG from step 5).
 - Pages 3–4: **fabrics and silhouettes only, no trends.** Put the silhouette and material breakdowns together, rank them by share, and fill the **top 4 on page 3** and the **next 4 on page 4**, each with a pink bar sized to its %. Don't pick or rename rows by hand; `scripts/dfb_charts.py canva decode.json` prints them.
 - The trends list and "The codes are: …" stay in the written decode. They don't go in Canva.
 
-Always work on a **copy** of the template, never the master. Show Carmen the preview thumbnails and get her OK before committing the edits.
+Always work on a **copy** of the template (ID `DAHWx3H429E`), never the master. The skill duplicates it by itself, so Carmen doesn't need to paste the template again. Show Carmen the preview thumbnails and get her OK before committing the edits.
 
 ### 7. Season log
 Add the brand to `references/season-log.md`: one line on its headline stats, plus any tracker values (midi share, single tonal family…). If two versions of a brand's numbers exist, flag it like the Dior warning there. Don't silently keep both.
