@@ -134,11 +134,26 @@ Metricool before writing anything.
 - Never ask the owner to paste a token into the chat.
 
 ## Canva
-The current design is **`DAHWa9-H9ck`** (https://www.canva.com/d/k9U2S6Uza7kFPvk), the two-page kit imported 27 Sep 2026 from commit 63627d9. The PDF import loses some spacing (words run together in the bio, the Substack followers tile slips up next to the heading), so the PDF in the repo is the version to send brands. To update it:
-commit and push the new PDF, then `import-design-from-url` with the raw GitHub URL **pinned to the
-commit SHA** (`https://raw.githubusercontent.com/carmenmartinezferrer/firstrepo/<sha>/media-kit/media_kit.pdf`),
-with `intended_design_type: us_letter`. This creates a new design. Verify it with `read-design`,
-record the new id here and in the README, and tell the owner she can delete the old one.
+**The owner's Canva design `DAHWa9-H9ck` is the master copy** (since 1 Oct 2026; https://www.canva.com/d/k9U2S6Uza7kFPvk).
+She designs in it (her photo is there, plus her own text edits), so **never re-import the PDF over it**.
+On a refresh, update the numbers *in place*:
+1. Fetch the numbers and update data.json and stats_history.csv as usual (the repo stays the record).
+2. `read-design` with `open_transaction: true` (page 2 is big: read the saved file and list text
+   elements by position). Locator IDs need the page prefix: `PBSLwVHKcvxGttm6-LB…`.
+3. Text: `find_and_replace_text` on each number (tiles, at a glance, chart labels, month-on-month %).
+4. Charts: the Instagram section background (tiles, bars, donut, pills) is one image,
+   `PBSLwVHKcvxGttm6-LB1G5TFThBPMC189`. When bar heights change, rebuild, render page 2 with all text
+   transparent, crop the frame (Canva px ÷ 4/3 = pt; frame at left 41.333, top 129.027,
+   733.333 × 368.613 px), commit the PNG under `media-kit/canva/`, import it with
+   `upload-asset-from-url` from the raw GitHub URL pinned to the commit (direct upload to canva.com
+   is blocked), `update_fill`, then `crop_media` to top 0, left 0, 733.333 × 368.613 (Canva zooms it
+   otherwise). Move each bar label by the shift between the old and new PDF text positions × 4/3.
+   The Substack section image is `PBSLwVHKcvxGttm6-LBsfdqNJZldjXj0Q` (top 541.333, 733.333 × 346.613).
+5. Show her the staged result and **commit only after she says so**.
+
+Instagram month-ends: 08/26 is an estimate, ≈14.7K (14,715 = 22,407 on 30 Sep − 6,609 API daily
+gains for 1–26 Sep + ~2.5% unfollows from Metricool); the owner approved it on 1 Oct 2026.
+09/26 = 22,407 (API, 30 Sep). The older one-page design `DAHWaawQ7KE` is obsolete.
 
 ## Design changes
 The design lives in `media-kit/build.py` (HTML and CSS), and the content lives in `data.json`.
@@ -149,6 +164,7 @@ next refresh.** When the owner asks for a design change:
 3. Commit, push, update Canva, and add a line under "Design log" below so future refreshes keep it.
 
 ### Design log
+- 2026-10-01: the owner's Canva design (DAHWa9-H9ck) became the master; numbers are now updated in place there (see Canva). Instagram chart redrawn with 08/26 ≈14.7K and 09/26 >22K.
 - 2026-09-27: reader quote on page 1 (`quote` in data.json). The growth charts show the **running total at each month end** (followers for Instagram, subscribers for Substack) with month-on-month %; the Substack chart starts at 01/26. The header note for each platform is `window_note`.
 - 2026-09-27: v2, two pages, agreed with the owner. Page 1: header with London, photo (placeholder until she sends one; `photo` in data.json), unique-angle line (a draft, to be confirmed), bio, at-a-glance tiles (total followers = IG + Substack followers, no double-counting with subscribers), audience (gender, age of women, top IG markets), past collaborations as logo tiles (brand-name wordmarks until she sends logo files; `logo`/`url` per brand; linked when a post exists), As featured in (FashionUnited, 2 Lyst Insights articles), content pillars, work with me, "Rates on request". Page 2: a separate Instagram section and Substack section, each with tiles, month-on-month growth labels on the last 4 bars (≈ when based on a ">" value), countries, top post or newsletter, and examples. **No results from past collabs on the kit** (owner's decision).
 - 2026-09-27: rebuilt from the September 2026 PDF (DM Serif Display + Jost, pink #d54479 family,

@@ -22,7 +22,7 @@ CHROMIUM_PATH=/opt/pw-browsers/chromium python3 media-kit/build.py
 
 ## Canva
 The editable Canva version was imported from `media_kit.pdf`: design `DAHWa9-H9ck`
-(https://www.canva.com/d/k9U2S6Uza7kFPvk), the two-page kit imported on 27 Sep 2026. Each 15-day refresh re-imports the PDF as a new design.
+(https://www.canva.com/d/k9U2S6Uza7kFPvk), the two-page kit. Since 1 Oct 2026 it is the master copy (the owner designs in it), so refreshes update its numbers in place instead of re-importing.
 
 ## Instagram automation
 `fetch_instagram.py` pulls followers, 30-day reach and views, per-post engagement, save and send
