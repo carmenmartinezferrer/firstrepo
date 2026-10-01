@@ -131,10 +131,41 @@ def bars(items, out, title=None, white=False):
     plt.close(fig)
 
 
-def canva_rows(decode):
-    """Silhouette + material merged, ranked by share (stable on ties). Top 8 for Canva pages 3-4."""
+# Words that don't make two rows "the same thing" (colours, connectors, garment-neutral words).
+NOT_FABRIC = {"and", "with", "over", "plus", "gold", "black", "white", "silver", "bronze", "brown",
+              "pink", "red", "blue", "grey", "gray", "navy", "cream", "ivory", "dress", "jacket",
+              "skirt", "coat", "long", "short", "mini", "midi", "maxi"}
+
+
+def fabric_words(label):
+    import re
+    return {w for w in re.split(r"[^a-zà-ÿ]+", label.lower()) if len(w) >= 4 and w not in NOT_FABRIC}
+
+
+def similar(a, b):
+    """True when a material and a silhouette name the same thing ("Knit" / "Knit sweater")."""
+    wa, wb = fabric_words(a), fabric_words(b)
+    return any(x[:4] == y[:4] for x in wa for y in wb)  # knit / knitted / knitwear
+
+
+def canva_rows(decode, report=None):
+    """Silhouette + material merged, ranked by share (stable on ties). Top 8 for Canva pages 3-4.
+
+    A row that repeats a higher-ranked row from the other list (same fabric word) is skipped and the
+    next row moves up, unless it has "keep": true in the decode.
+    """
     merged = [dict(it, kind=k) for k in ("silhouette", "material") for it in decode.get(k, [])]
-    return sorted(merged, key=lambda it: -it["pct"])[:8]
+    chosen = []
+    for it in sorted(merged, key=lambda it: -it["pct"]):
+        dup = next((c for c in chosen if c["kind"] != it["kind"] and similar(c["label"], it["label"])), None)
+        if dup and not it.get("keep"):
+            if report is not None:
+                report.append(f"skipped '{it['label']}' {it['pct']:g}% (repeats '{dup['label']}' {dup['pct']:g}%)")
+            continue
+        chosen.append(it)
+        if len(chosen) == 8:
+            break
+    return chosen
 
 
 def bar_geometry(rows):
@@ -148,7 +179,8 @@ def bar_geometry(rows):
 
 
 def canva(decode):
-    rows = canva_rows(decode)
+    skipped = []
+    rows = canva_rows(decode, skipped)
     for n, page in ((3, rows[:4]), (4, rows[4:8])):
         if not page:
             continue
@@ -157,6 +189,8 @@ def canva(decode):
         print("  pcts:  " + json.dumps("\n".join(f"{it['pct']:g}%" for it in page)))
         for it, g in zip(page, bar_geometry(page)):
             print(f"  {it['pct']:>3g}%  {it['kind']:<10} {it['label']:<34} bar {g}")
+    for line in skipped:
+        print("Skipped as similar: " + line)
 
 
 def canva_donut(items):

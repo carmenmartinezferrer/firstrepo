@@ -51,6 +51,8 @@ To swap the donut, **draw it natively in Canva**. This is tested and works. (A P
 ### Pages 3 and 4: fabrics and silhouettes `PBpLhH5S1vzmmPzd`, `PBRzJ6lSQHfwq4Dm`
 These pages show **fabrics and silhouettes only, not trends.** Put the `silhouette` and `material` breakdowns together into one list ranked by share. Page 3 = ranks 1–4, page 4 = ranks 5–8. Use the labels exactly as they appear in the decode. When two rows tie, keep them in decode order. Get the rows from `python scripts/dfb_charts.py canva decode.json`.
 
+**No near-duplicates.** If a material and a silhouette are basically the same thing ("Knit" and "Knit sweater", "Velvet" and "Velvet jacket + bow", "Leather" and "Leather separates"), only the one with the higher share goes in Canva and the next row moves up. On a tie, the silhouette stays. The `canva` command does this by matching fabric words, and prints a "Skipped as similar" line for each row it drops. Read that list: if a skip is wrong (the two rows really are different stories), add `"keep": true` to that row in the decode and re-run. If two rows should be skipped but weren't, tell Carmen and drop the smaller one by hand.
+
 | Element | Page 3 ID | Page 4 ID | Content |
 |---|---|---|---|
 | Mini title (brand line) | `LBRncXL3q4lJtlJn` | `LBPdJ9HDvLr35Qqh` | `Balmain • Paris FW SS27 ` → `replace_text` with `<Brand> • <City> FW <Season> ` |
