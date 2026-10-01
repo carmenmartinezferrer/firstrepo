@@ -67,8 +67,8 @@ def examples(items):
 
 
 def num(label, v):
-    """Approximate values (">15K") are marked so growth % derived from them reads as approximate."""
-    return v, label.startswith(">")
+    """Approximate values (">22K", "≈14.7K") are marked so growth % derived from them reads as approximate."""
+    return v, label[:1] in ">≈"
 
 
 def mom_labels(growth, last=4):
@@ -77,7 +77,7 @@ def mom_labels(growth, last=4):
     for i in range(max(1, len(growth) - last), len(growth)):
         (_, a, la), (_, b, lb) = growth[i - 1], growth[i]
         if a:
-            approx = "≈" if (la.startswith(">") or lb.startswith(">")) else ""
+            approx = "≈" if (la[:1] in ">≈" or lb[:1] in ">≈") else ""
             out[i] = f"{approx}{(b - a) / a * 100:+.0f}%"
     return out
 
