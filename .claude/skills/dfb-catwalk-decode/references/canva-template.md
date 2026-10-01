@@ -16,6 +16,8 @@ Every brand and week mention in the template must be replaced. Nothing from the 
 
 Before showing the preview, `read-design` the transaction's `design_content` and search it for the old brand name ("Balmain" in the master, or whatever brand the copy started from). It must return nothing.
 
+> ⚠️ **Template status (1 Oct 2026):** `DAHWx3H429E` has been deleted from Carmen's Canva. Until she shares a new master, copy her most recent saved "<Brand> SS27 catwalk decode" design instead (`search-designs`, newest first). Then clear the old brand's data: delete the donut wedge shapes and % labels on page 2, and reuse the pink bar shapes on pages 3–4 (resize and move them rather than inserting new ones). After that, fill it as below. The page layout is the same.
+
 ## Never edit the master — no need to paste the template each time
 The skill duplicates the master template by its ID every time, so Carmen never has to paste it again. Only if she makes a new template (or the link changes) should this ID be updated.
 1. `copy-design` with `design_id: DAHWx3H429E` gives you a new design ID. Do every step below on that copy.
@@ -40,13 +42,12 @@ The skill duplicates the master template by its ID every time, so Carmen never h
 | Donut image frame | `LBRyWf5xH0FWszNX` | 1040 × 1040 image fill |
 | Footnote | `LBvMSpmWrlz7Y9z1` | `*% is share of colour: proportion of total looks with that colour` (leave) |
 
-To swap the donut, **draw it natively in Canva**. This is tested and works. (A PNG upload doesn't work from cloud sessions: the network policy blocks `www.canva.com`.)
-1. Run `python scripts/dfb_charts.py canva-donut decode.json`. For each wedge it gives an `insert_shape` operation (SVG arc path, colour, and outline for pale wedges) and a label (text, position, size, colour).
-2. In one `edit-design` call on page 2: `delete_element` the image frame `PBCtVl2vf06NcN17-LBRyWf5xH0FWszNX`, then add every wedge `insert_shape` (with `page_id`), then an `add_text` for every label (`text`, `top`, `left`, `width`).
-3. Take the new label locators from the response. In a second call, `format_text` each one with `font_size`, `color`, `text_align: "center"` and `line_height: 1`.
-4. Check the thumbnail. Every label should sit in the middle of its wedge.
-- **Font:** the Canva tools can't set a font family, so the labels come out in Canva's default font. To get DM Serif Display, select the labels in Canva and change the font (one click).
-- **Local session with Canva access:** you can instead upload the PNG (`donut --square`, then `create-upload-url`, POST the bytes, then `update_fill` on the frame). That keeps DM Serif Display, but the donut is no longer editable in Canva.
+To swap the donut, **draw it natively in Canva**, so the labels are in Canva's own font (Carmen's choice; the exported PNG matches it):
+1. Run `python scripts/dfb_charts.py canva-donut decode.json`. For each wedge it gives an `insert_shape` operation, and a label (text, position, size and colour), or `null` when the wedge is too thin to hold its number.
+2. In one `edit-design` call on page 2: `delete_element` the old donut (the image frame, or the shapes and labels from the design you copied), then add every wedge's `insert_shape` (with `page_id`) and an `add_text` for every non-null label.
+3. Take the new label locators from the response. In a second call, `format_text` each one with `font_size`, `color`, `text_align: "center"` and `line_height: 1`. Don't change the font.
+4. Check the thumbnail.
+- **Don't use PNG upload here.** `upload-asset-from-url` works (the repo is public), but the PNG font is only a lookalike of Canva's font.
 
 ### Pages 3 and 4: fabrics and silhouettes `PBpLhH5S1vzmmPzd`, `PBRzJ6lSQHfwq4Dm`
 These pages show **fabrics and silhouettes only, not trends.** Put the `silhouette` and `material` breakdowns together into one list ranked by share. Page 3 = ranks 1–4, page 4 = ranks 5–8. Use the labels exactly as they appear in the decode. When two rows tie, keep them in decode order. Get the rows from `python scripts/dfb_charts.py canva decode.json`.

@@ -1,0 +1,51 @@
+{
+  "brand": "Stella McCartney",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "commercial RTW",
+  "looks": 51,
+  "palette": [
+    {"label": "Cream/beige", "pct": 15, "hex": "#E6DCC6"},
+    {"label": "White", "pct": 13, "hex": "#F7F6F2"},
+    {"label": "Pink/nude", "pct": 12, "hex": "#EBC3B7"},
+    {"label": "Denim blue", "pct": 12, "hex": "#6F8DB3"},
+    {"label": "Black", "pct": 10, "hex": "#111111"},
+    {"label": "Brown", "pct": 10, "hex": "#5A2E24"},
+    {"label": "Mint/sage", "pct": 10, "hex": "#9FD3BE"},
+    {"label": "Sky/turquoise blue", "pct": 6, "hex": "#3DA9E0"},
+    {"label": "Orange/coral", "pct": 6, "hex": "#F26A3D"},
+    {"label": "Grey", "pct": 4, "hex": "#9A9A98"},
+    {"label": "Red stripe", "pct": 2, "hex": "#D3263A"}
+  ],
+  "silhouette": [
+    {"label": "Top/jacket + legging", "pct": 13},
+    {"label": "Bandeau/crop top + trouser", "pct": 12},
+    {"label": "Top/shirt + jeans", "pct": 12},
+    {"label": "Mini dress", "pct": 12},
+    {"label": "Suit (blazer + trouser)", "pct": 10},
+    {"label": "Draped gown", "pct": 7},
+    {"label": "Shirt + trouser", "pct": 6},
+    {"label": "Trench / long coat", "pct": 6},
+    {"label": "Top + mini skirt", "pct": 6},
+    {"label": "Jacket/top + shorts", "pct": 6},
+    {"label": "Bodysuit/briefs", "pct": 6},
+    {"label": "Peplum top + skirt", "pct": 4}
+  ],
+  "material": [
+    {"label": "Tailoring", "pct": 23},
+    {"label": "Draped jersey", "pct": 20},
+    {"label": "Satin, taffeta & silk", "pct": 20},
+    {"label": "Denim", "pct": 14},
+    {"label": "3D ruffles & sequins", "pct": 8},
+    {"label": "Cotton poplin", "pct": 6},
+    {"label": "Knit", "pct": 6},
+    {"label": "Technical", "pct": 4}
+  ],
+  "other": [
+    {"label": "Bandeau/bra/crop top (bare midriff)", "pct": 25, "approx": true},
+    {"label": "Peplum or bubble volume at the waist", "pct": 18, "approx": true},
+    {"label": "Leggings", "pct": 14}
+  ],
+  "codes": ["the bare midriff", "volume at the waist", "draped jersey for night"]
+}

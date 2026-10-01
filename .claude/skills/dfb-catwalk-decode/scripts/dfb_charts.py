@@ -24,6 +24,8 @@ from matplotlib import font_manager  # noqa: E402
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
 FONT_PATH = SKILL_DIR / "assets" / "fonts" / "DMSerifDisplay-Regular.ttf"
+# Donut % labels match the Canva text font (Canva's default sans); Arimo is the closest free match.
+LABEL_FONT_PATH = SKILL_DIR / "assets" / "fonts" / "Arimo-Regular.ttf"
 
 PINK = "#D6447A"
 INK = "#1a1a1a"
@@ -31,6 +33,13 @@ OUTLINE = "#D0CCC5"
 # Neutral ramp for categories that have no real colour (silhouettes).
 NEUTRALS = ["#111111", "#3A3A3A", "#5E5E5E", "#8A8A8A", "#B0ADA8",
             "#D0CCC5", "#E8E5E0", "#F5F3EF", "#2B2B2B", "#747474"]
+
+
+def label_font():
+    if LABEL_FONT_PATH.exists():
+        font_manager.fontManager.addfont(str(LABEL_FONT_PATH))
+        return font_manager.FontProperties(fname=str(LABEL_FONT_PATH))
+    return font_manager.FontProperties(family="sans-serif")
 
 
 def serif():
@@ -54,9 +63,15 @@ def label_size(pct):
         return 42
     if pct >= 8:
         return 32
-    if pct >= 5:
-        return 22
-    return 14
+    return 24  # small wedges stay readable (Carmen: "small but not super small")
+
+
+def label_fits(pct, radius_px=320, size=None):
+    """True if the % label fits inside its wedge at the label radius (Canva page scale)."""
+    size = size or label_size(pct)
+    arc = 2 * math.pi * radius_px * pct / 100
+    width = 0.6 * size * len(f"{pct:g}%")
+    return arc >= width + 6
 
 
 def colours_for(items):
@@ -65,7 +80,7 @@ def colours_for(items):
 
 def donut(items, out, square=False):
     """Locked DFB donut spec — see references/house-style.md."""
-    font = serif()
+    font = label_font()
     pcts = [it["pct"] for it in items]
     cols = colours_for(items)
 
@@ -75,14 +90,21 @@ def donut(items, out, square=False):
         pcts, colors=cols, startangle=90, counterclock=False,
         wedgeprops={"width": 0.42, "edgecolor": "none"},
     )
+    ax.set_aspect("equal")
+    ax.apply_aspect()
+    # Scale label sizes so text/donut proportions match the Canva page (outer radius 405 px).
+    x0, _ = ax.transData.transform((0, 0))
+    x1, _ = ax.transData.transform((1, 0))
+    scale = ((x1 - x0) * 72 / fig.dpi) / 405
     for w, col, pct in zip(wedges, cols, pcts):
         if luminance(col) > 0.82:
             w.set_edgecolor(OUTLINE)
             w.set_linewidth(1.2)
+        if not label_fits(pct):
+            continue  # too thin for a readable number: leave it unlabelled
         ang = math.radians((w.theta1 + w.theta2) / 2)
-        x, y = 0.79 * math.cos(ang), 0.79 * math.sin(ang)
-        ax.text(x, y, f"{pct:g}%", ha="center", va="center",
-                fontproperties=font, fontsize=label_size(pct),
+        ax.text(0.79 * math.cos(ang), 0.79 * math.sin(ang), f"{pct:g}%", ha="center", va="center",
+                fontproperties=font, fontsize=label_size(pct) * scale,
                 color="white" if luminance(col) < 0.55 else "black")
     ax.set_aspect("equal")
     if square:
@@ -137,9 +159,15 @@ NOT_FABRIC = {"and", "with", "over", "plus", "gold", "black", "white", "silver",
               "skirt", "coat", "long", "short", "mini", "midi", "maxi"}
 
 
+# Words that name the same thing as a fabric ("Denim" vs "Shirt + jeans", "Tailoring" vs "Suit").
+SYNONYMS = {"jean": "denim", "jeans": "denim", "suit": "tailoring", "suits": "tailoring",
+            "suiting": "tailoring", "tailored": "tailoring"}
+
+
 def fabric_words(label):
     import re
-    return {w for w in re.split(r"[^a-zà-ÿ]+", label.lower()) if len(w) >= 4 and w not in NOT_FABRIC}
+    words = (w for w in re.split(r"[^a-zà-ÿ]+", label.lower()) if len(w) >= 4 and w not in NOT_FABRIC)
+    return {SYNONYMS.get(w, w) for w in words}
 
 
 def similar(a, b):
@@ -221,8 +249,10 @@ def canva_donut(items):
         lx, ly = pt(0.79 * R, (t0 + t1) / 2)
         size = label_size(it["pct"])
         w = 200 if size >= 32 else 100
-        label = {"text": f"{it['pct']:g}%", "left": round(box_left + lx - w / 2), "top": round(box_top + ly - size * 0.5),
-                 "width": w, "font_size": size, "color": "#FFFFFF" if luminance(col) < 0.55 else "#000000"}
+        label = None
+        if label_fits(it["pct"]):
+            label = {"text": f"{it['pct']:g}%", "left": round(box_left + lx - w / 2), "top": round(box_top + ly - size * 0.6),
+                     "width": w, "font_size": size, "color": "#FFFFFF" if luminance(col) < 0.55 else "#000000"}
         out.append({"label": it["label"], "shape": shape, "text": label})
     return out
 
@@ -235,8 +265,10 @@ def check(decode):
             problems.append(f"{field}: missing")
             continue
         total = sum(it["pct"] for it in items)
-        if abs(total - 100) > 0:
+        if abs(total - 100) > 1:
             problems.append(f"{field}: sums to {total}, not 100")
+        elif total != 100:
+            print(f"ℹ️  {field}: sums to {total} (equal counts kept equal %), footnote it")
         pcts = [it["pct"] for it in items]
         if pcts != sorted(pcts, reverse=True):
             problems.append(f"{field}: not ranked largest first")
@@ -253,9 +285,9 @@ def check(decode):
     if looks:
         for field in ("palette", "silhouette", "material"):
             for it in decode.get(field, []):
-                n = it["pct"] * looks / 100
-                if abs(n - round(n)) > 0.35 and not it.get("approx"):
-                    problems.append(f"{field} '{it['label']}': {it['pct']}% of {looks} = {n:.1f} looks, check the count")
+                n = round(it["pct"] * looks / 100)
+                if abs(n * 100 / looks - it["pct"]) >= 1 and not it.get("approx"):
+                    problems.append(f"{field} '{it['label']}': {it['pct']}% matches no whole number of {looks} looks")
     for p in problems:
         print("⚠️ ", p)
     if not problems:
