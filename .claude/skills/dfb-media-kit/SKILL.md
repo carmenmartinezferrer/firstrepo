@@ -149,7 +149,37 @@ On a refresh, update the numbers *in place*:
    is blocked), `update_fill`, then `crop_media` to top 0, left 0, 733.333 × 368.613 (Canva zooms it
    otherwise). Move each bar label by the shift between the old and new PDF text positions × 4/3.
    The Substack section image is `PBSLwVHKcvxGttm6-LBsfdqNJZldjXj0Q` (top 541.333, 733.333 × 346.613).
+   **Since her 1 Oct retouch the frames are cropped**: the Instagram frame is now top 198, left 62,
+   691 × 214, showing its image through an `imageBox` of top −109.5, left −21.0, 733.333 × 368.613
+   (Substack: frame top 645, left 49, 701 × 186; imageBox top −110.9, left −15.2, 733.333 × 346.613).
+   Always read the frame and `imageBox` fresh, keep rendering the full section image at
+   733.333 × 368.613 (or × 346.613), and after `update_fill` use `crop_media` to put the
+   `imageBox` back to the values you read, so her crop stays.
 5. Show her the staged result and **commit only after she says so**.
+
+### Proofreading and her Canva edits (1 Oct 2026)
+When she asks for a typo check: `read-design` both pages, list findings as **typos**, **wrong
+labels or links**, **wording suggestions** and **numbers to double-check**, then fix only what she
+approves, in one transaction, and save after her OK.
+- **Editing limits:** `format_text` sets a link on the *whole* text box. When a box holds several
+  links (the bio has Instagram, Substack and FashionUnited), don't change one of them; give her the
+  click steps instead. `find_and_replace_text` keeps each word's own formatting and links.
+- **Her style, keep it:** numbers written with a lowercase k ("7.4k", "21k", "4k") alongside ">22K";
+  the header "The  Data  Fashion  Brief" uses double spaces on purpose (the font squashes single
+  spaces), on both pages; tagline without a final full stop.
+- **Her text now (don't revert):** angle "Where data meets fashion"; the longer bio (journalist and
+  strategist, data analyst at Farfetch); work-with-me items linked to example posts; Substack tiles
+  7.4k subscribers · 28% open rate · 4k views per post; top newsletter "10k views · 31% open rate".
+- **Fixed on 1 Oct:** "fashion" typo in the pillars, "7.4k" (was "7,4k"), total 34K+, "IN 7%",
+  the Substack chart label ("subscribers · month-on-month growth"), header spacing on page 2, and
+  the top post link (it pointed to a 27 Aug post; the #whimsymaxxing post is
+  instagram.com/p/DcYdTpSDIBv/).
+- **Still open (remind her):** the bio's "FashionUnited" link goes to fashionunited.com/app-shell/en-US
+  instead of her author page; the reader quote was reworded ("Your posts…", "— follower") from a
+  Substack reader's words about the newsletters, so a testimonial may no longer be verbatim; her
+  Substack figures (10k / 31%, 4k views per post) are higher than the 27 Sep export (4,014 / 28.3%,
+  3,125), so ask for the source; Work-with-me links carry `?utm_source=…&stkn=…` codes;
+  `data.json` still has the old Substack, angle and top-post values (Canva is the master now).
 
 Instagram month-ends: 08/26 is an estimate, ≈14.7K (14,715 = 22,407 on 30 Sep − 6,609 API daily
 gains for 1–26 Sep + ~2.5% unfollows from Metricool); the owner approved it on 1 Oct 2026.
@@ -164,6 +194,7 @@ next refresh.** When the owner asks for a design change:
 3. Commit, push, update Canva, and add a line under "Design log" below so future refreshes keep it.
 
 ### Design log
+- 2026-10-01: owner retouched the Canva design (cropped chart frames, new bio and angle, Work-with-me links, Substack numbers); proofread and typo fixes saved the same day (see Canva → Proofreading).
 - 2026-10-01: the owner's Canva design (DAHWa9-H9ck) became the master; numbers are now updated in place there (see Canva). Instagram chart redrawn with 08/26 ≈14.7K and 09/26 >22K.
 - 2026-09-27: reader quote on page 1 (`quote` in data.json). The growth charts show the **running total at each month end** (followers for Instagram, subscribers for Substack) with month-on-month %; the Substack chart starts at 01/26. The header note for each platform is `window_note`.
 - 2026-09-27: v2, two pages, agreed with the owner. Page 1: header with London, photo (placeholder until she sends one; `photo` in data.json), unique-angle line (a draft, to be confirmed), bio, at-a-glance tiles (total followers = IG + Substack followers, no double-counting with subscribers), audience (gender, age of women, top IG markets), past collaborations as logo tiles (brand-name wordmarks until she sends logo files; `logo`/`url` per brand; linked when a post exists), As featured in (FashionUnited, 2 Lyst Insights articles), content pillars, work with me, "Rates on request". Page 2: a separate Instagram section and Substack section, each with tiles, month-on-month growth labels on the last 4 bars (≈ when based on a ">" value), countries, top post or newsletter, and examples. **No results from past collabs on the kit** (owner's decision).
