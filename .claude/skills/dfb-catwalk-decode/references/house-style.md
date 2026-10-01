@@ -24,7 +24,7 @@ The codes are: X, Y, Z.
 - `ax.pie(startangle=90, counterclock=False, wedgeprops={"width": 0.42, "edgecolor": "none"})`.
 - Wedges with **luminance > 0.82** get a `#D0CCC5` outline, linewidth 1.2.
 - % label inside each wedge at radius 0.79, in DM Serif Display.
-- Label size by share: **42** (≥15%), **32** (≥8%), **22** (≥5%), **14** (below 5%).
+- Label size by share: **42** (≥15%), **32** (≥8%), **24** for everything smaller. Never smaller than 24: small wedges must still be readable (Carmen's rule, updated from 22/14).
 - Label colour: **white if luminance < 0.55**, otherwise black.
 - Wedge colour = the actual colour, or a representative hex for prints and materials.
 - Luminance = WCAG relative luminance (sRGB linearised; 0.2126 R + 0.7152 G + 0.0722 B). This matches the Balmain template donut: white text on tan and olive, black on mint and ivory.

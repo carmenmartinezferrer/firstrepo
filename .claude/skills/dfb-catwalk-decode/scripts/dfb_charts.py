@@ -54,9 +54,7 @@ def label_size(pct):
         return 42
     if pct >= 8:
         return 32
-    if pct >= 5:
-        return 22
-    return 14
+    return 24  # small wedges stay readable (Carmen: "small but not super small")
 
 
 def colours_for(items):
