@@ -4,44 +4,46 @@
   "fashion_week": "Paris Fashion Week",
   "fashion_week_short": "Paris FW",
   "show_type": "commercial RTW",
-  "looks": 45,
+  "looks": 54,
   "palette": [
-    {"label": "White", "pct": 31, "hex": "#F7F6F2"},
-    {"label": "Black", "pct": 25, "hex": "#111111"},
-    {"label": "Cream/beige/khaki", "pct": 16, "hex": "#D9C9A8"},
+    {"label": "White", "pct": 37, "hex": "#F7F6F2"},
+    {"label": "Black", "pct": 24, "hex": "#111111"},
+    {"label": "Cream/beige/khaki", "pct": 13, "hex": "#D9C9A8"},
     {"label": "Pink/lilac", "pct": 9, "hex": "#EBB8C8"},
-    {"label": "Yellow", "pct": 7, "hex": "#F2D338"},
+    {"label": "Yellow", "pct": 5, "hex": "#F2D338"},
     {"label": "Rust/brown", "pct": 4, "hex": "#9A4A2A"},
+    {"label": "Red", "pct": 2, "hex": "#D8262E"},
     {"label": "Chartreuse", "pct": 2, "hex": "#B5C23A"},
     {"label": "Orange", "pct": 2, "hex": "#F07A1A"},
-    {"label": "Grey", "pct": 2, "hex": "#A7AAB0"},
-    {"label": "Red", "pct": 2, "hex": "#D8262E"}
+    {"label": "Grey", "pct": 2, "hex": "#A7AAB0"}
   ],
   "silhouette": [
-    {"label": "Trench / raincoat / cape", "pct": 29},
-    {"label": "Top + full maxi skirt", "pct": 22},
-    {"label": "Suit or top + trouser", "pct": 16},
-    {"label": "Mini dress", "pct": 13},
+    {"label": "Trench / raincoat / cape", "pct": 28},
+    {"label": "Top + full skirt", "pct": 18},
+    {"label": "Suit or top + trouser", "pct": 17},
+    {"label": "Top/jacket + short or mini", "pct": 15},
     {"label": "Maxi dress", "pct": 9},
-    {"label": "Catsuit", "pct": 5},
-    {"label": "Jacket/blouse + short or mini", "pct": 5},
+    {"label": "Mini dress", "pct": 7},
+    {"label": "Catsuit", "pct": 4},
     {"label": "Bodysuit", "pct": 2}
   ],
   "material": [
-    {"label": "Chiffon, tulle & organza", "pct": 20},
-    {"label": "PVC & patent", "pct": 16},
-    {"label": "Broderie anglaise", "pct": 13},
-    {"label": "Tailoring", "pct": 13},
-    {"label": "Cotton gabardine", "pct": 13},
+    {"label": "Chiffon, tulle & organza", "pct": 16},
+    {"label": "Tailoring", "pct": 15},
+    {"label": "PVC & patent", "pct": 13},
+    {"label": "Fringe & macramé", "pct": 11},
     {"label": "3D ruffles & flowers", "pct": 11},
-    {"label": "Leather", "pct": 5},
-    {"label": "Knit", "pct": 5},
-    {"label": "Lace", "pct": 5}
+    {"label": "Broderie anglaise", "pct": 11},
+    {"label": "Cotton gabardine", "pct": 11},
+    {"label": "Leather", "pct": 4},
+    {"label": "Knit", "pct": 4},
+    {"label": "Lace", "pct": 4}
   ],
   "other": [
-    {"label": "Bare midriff (bra/crop top)", "pct": 27, "approx": true},
-    {"label": "Statement hat", "pct": 18, "approx": true},
-    {"label": "Bubble/full maxi skirt finale (looks 42-45)", "pct": 9}
+    {"label": "Bare midriff (bra/crop top)", "pct": 26},
+    {"label": "Statement hat", "pct": 19},
+    {"label": "Fringe opening (looks 1-8)", "pct": 11},
+    {"label": "Bubble maxi skirt finale (looks 51-54)", "pct": 7}
   ],
   "codes": ["the rain cape as the statement", "broderie as the house signature", "the bubble skirt as the final word"]
 }
