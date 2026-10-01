@@ -1,0 +1,48 @@
+{
+  "brand": "Saint Laurent",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "house-formula lock",
+  "looks": 62,
+  "palette": [
+    {"label": "Gold", "pct": 74, "hex": "#C9A54C"},
+    {"label": "Black", "pct": 21, "hex": "#111111"},
+    {"label": "Bronze", "pct": 5, "hex": "#8C5A2B"}
+  ],
+  "silhouette": [
+    {"label": "Jacket + pencil skirt", "pct": 29},
+    {"label": "Long lamé coat / coat dress", "pct": 13},
+    {"label": "Cami/halter + pencil skirt", "pct": 11},
+    {"label": "Velvet jacket + bow + pencil skirt", "pct": 11},
+    {"label": "Black organza gown", "pct": 10},
+    {"label": "Blouse/shirt + pencil skirt", "pct": 8},
+    {"label": "Brocade jacket + trouser", "pct": 7},
+    {"label": "Slip/column dress", "pct": 6},
+    {"label": "Brocade jacket + mini", "pct": 5}
+  ],
+  "material": [
+    {"label": "Lamé/foil", "pct": 43, "hex": "#C9A54C"},
+    {"label": "Brocade/cloqué", "pct": 31, "hex": "#A8823A"},
+    {"label": "Velvet", "pct": 11, "hex": "#111111"},
+    {"label": "Silk organza/taffeta", "pct": 10, "hex": "#3A3A3A"},
+    {"label": "Gold lace", "pct": 5, "hex": "#E2C878"}
+  ],
+  "other": [
+    {"label": "Knee-length slit pencil skirt", "pct": 60, "approx": true},
+    {"label": "Chiffon scarf accent", "pct": 19},
+    {"label": "Fur cuffs", "pct": 13, "approx": true},
+    {"label": "Mini", "pct": 5}
+  ],
+  "canva_top": [
+    {"label": "Lamé and foil", "pct": 43},
+    {"label": "Brocade and cloqué", "pct": 31},
+    {"label": "Jacket + pencil skirt", "pct": 29},
+    {"label": "Long lamé coat", "pct": 13},
+    {"label": "Velvet", "pct": 11},
+    {"label": "Cami/halter + pencil skirt", "pct": 11},
+    {"label": "Velvet jacket + bow", "pct": 11},
+    {"label": "Black organza gown", "pct": 10}
+  ],
+  "codes": ["gold as the uniform", "the pencil skirt as the constant", "black as the final word"]
+}

@@ -49,3 +49,7 @@ Paid posts: Substack only exposes the free preview publicly, so use `--file` wit
 ## Updating the formula
 
 Edit `prompts/dfb_reels_formula.md`. The generator reads it on every run.
+
+## Catwalk decode skill
+
+`.claude/skills/dfb-catwalk-decode/` turns Vogue Runway screenshots into a DFB catwalk decode: look count, palette / silhouette / material shares, trends and "The codes are: …", donut and bar charts (`scripts/dfb_charts.py`), and a filled copy of the Canva "Catwalk analysis" template. The season log with trackers and pending brands lives in `references/season-log.md`.
