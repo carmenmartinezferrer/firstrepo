@@ -2,6 +2,7 @@
 """DFB catwalk charts: locked donut spec, cross-brand bars, and a decode sanity check.
 
   python dfb_charts.py check  decode.json
+  python dfb_charts.py canva  decode.json
   python dfb_charts.py donut  decode.json --field palette --out palette.png [--square]
   python dfb_charts.py bars   tracker.json --out midi.png [--white]
 
@@ -129,6 +130,34 @@ def bars(items, out, title=None, white=False):
     plt.close(fig)
 
 
+def canva_rows(decode):
+    """Silhouette + material merged, ranked by share (stable on ties). Top 8 for Canva pages 3-4."""
+    merged = [dict(it, kind=k) for k in ("silhouette", "material") for it in decode.get(k, [])]
+    return sorted(merged, key=lambda it: -it["pct"])[:8]
+
+
+def bar_geometry(rows):
+    """Pink bar shapes for one Canva page (see references/canva-template.md)."""
+    top_pct = max(it["pct"] for it in rows)
+    out = []
+    for i, it in enumerate(rows):
+        width = max(6, round(90 * it["pct"] / top_pct))
+        out.append({"left": 908 - width, "top": round(982.6 + 41.37 * i), "width": width, "height": 24})
+    return out
+
+
+def canva(decode):
+    rows = canva_rows(decode)
+    for n, page in ((3, rows[:4]), (4, rows[4:8])):
+        if not page:
+            continue
+        print(f"Page {n}")
+        print("  names: " + json.dumps("\n".join(it["label"] for it in page), ensure_ascii=False))
+        print("  pcts:  " + json.dumps("\n".join(f"{it['pct']:g}%" for it in page)))
+        for it, g in zip(page, bar_geometry(page)):
+            print(f"  {it['pct']:>3g}%  {it['kind']:<10} {it['label']:<34} bar {g}")
+
+
 def check(decode):
     problems = []
     for field in ("palette", "silhouette", "material"):
@@ -145,13 +174,12 @@ def check(decode):
     for it in decode.get("palette", []):
         if not it.get("hex"):
             problems.append(f"palette '{it['label']}': no hex")
-    top = decode.get("canva_top", [])
-    if top:
-        if len(top) != 8:
-            problems.append(f"canva_top: {len(top)} rows, template expects 8")
-        for it in top:
-            if len(it["label"]) > 30:
-                problems.append(f"canva_top '{it['label']}': over 30 chars, will crowd the bars")
+    top = canva_rows(decode)
+    if len(top) < 8:
+        problems.append(f"Canva: only {len(top)} silhouette + material rows, template expects 8")
+    for it in top:
+        if len(it["label"]) > 30:
+            problems.append(f"Canva row '{it['label']}': over 30 chars, will crowd the bars")
     looks = decode.get("looks")
     if looks:
         for field in ("palette", "silhouette", "material"):
@@ -171,6 +199,8 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     c = sub.add_parser("check")
     c.add_argument("json")
+    cv = sub.add_parser("canva", help="rows and bar geometry for Canva pages 3-4")
+    cv.add_argument("json")
     d = sub.add_parser("donut")
     d.add_argument("json")
     d.add_argument("--field", default="palette")
@@ -185,6 +215,9 @@ def main():
     data = json.loads(Path(a.json).read_text())
     if a.cmd == "check":
         sys.exit(0 if check(data) else 1)
+    if a.cmd == "canva":
+        canva(data)
+        return
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     if a.cmd == "donut":
         donut(data[a.field], a.out, square=a.square)

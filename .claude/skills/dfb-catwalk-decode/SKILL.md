@@ -50,6 +50,7 @@ Put the decode in a JSON file shaped like `examples/saint-laurent-ss27.json`, th
 
 ```bash
 python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py check  decode.json            # sums, ranks, hexes
+python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py canva  decode.json            # rows for Canva pages 3 and 4
 python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py donut  decode.json --field palette --out out/palette.png
 python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py bars   tracker.json --out out/midi.png [--white]
 ```
@@ -60,7 +61,8 @@ python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py bars   tracker.js
 Fill the Catwalk analysis template, following `references/canva-template.md`:
 - Page 1: cover, "Decoding <Brand>" / "<Fashion Week> <Season>".
 - Page 2: colour palette donut (the palette PNG from step 5).
-- Pages 3–4: the **top 8 fabrics and silhouettes**, merged into one list ranked by share (4 rows per page), each with a pink bar sized to its %. Put these rows in the decode JSON under `canva_top`, with short names of 30 characters or fewer.
+- Pages 3–4: **fabrics and silhouettes only, no trends.** Put the silhouette and material breakdowns together, rank them by share, and fill the **top 4 on page 3** and the **next 4 on page 4**, each with a pink bar sized to its %. Don't pick or rename rows by hand; `scripts/dfb_charts.py canva decode.json` prints them.
+- The trends list and "The codes are: …" stay in the written decode. They don't go in Canva.
 
 Always work on a **copy** of the template, never the master. Show Carmen the preview thumbnails and get her OK before committing the edits.
 

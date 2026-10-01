@@ -36,7 +36,7 @@ To swap the donut:
 3. Run `edit-design` `update_fill` on locator `PBCtVl2vf06NcN17-LBRyWf5xH0FWszNX` with `asset_type: image`, the asset ID, and `alt_text: "<Brand> <Season> colour palette donut"`.
 
 ### Pages 3 and 4: fabrics and silhouettes `PBpLhH5S1vzmmPzd`, `PBRzJ6lSQHfwq4Dm`
-Page 3 holds trends ranked 1–4, page 4 holds 5–8. Merge silhouettes and materials into one list and rank it by share. Make sure at least one of each appears in the top 8.
+These pages show **fabrics and silhouettes only, not trends.** Put the `silhouette` and `material` breakdowns together into one list ranked by share. Page 3 = ranks 1–4, page 4 = ranks 5–8. Use the labels exactly as they appear in the decode. When two rows tie, keep them in decode order. Get the rows from `python scripts/dfb_charts.py canva decode.json`.
 
 | Element | Page 3 ID | Page 4 ID | Content |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Page 3 holds trends ranked 1–4, page 4 holds 5–8. Merge silhouettes and mate
 | Pink bar **chart** | `LBZcZmnHKmmqPc9K` | `LB8Nsj5RRFXztrVf` | native Canva chart, **not editable by API** |
 | Column headers | `LB4X5f4KRjQZC3Jc` / `LBx5S9KNGWNsbLNW` | `LBLy2gHyCvRfy0pH` / `LBc8RT4cm01vNySY` | `TREND • SS27`, `SHARE OF COLLECTION`. Swap the season if it isn't SS27. |
 
-- Trend names: `replace_text` with the 4 lines joined by `\n`. Use sentence case ("Jacket + pencil skirt", "Lamé and foil"). Keep each name **≤ 30 characters** so it doesn't run into the bars.
+- Trend names: `replace_text` with the 4 lines joined by `\n`. If a name is over 30 characters, the `canva` command flags it because it will run into the bars. In that case, shorten the label in the decode itself, so the chat and Canva stay identical.
 - Percentages: `replace_text`, e.g. `29%\n13%\n11%\n11%`.
 - **Bars.** The native chart can't take new data through the API, so:
   1. `delete_element` the chart.
