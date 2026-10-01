@@ -7,7 +7,7 @@
 
 ## Caption format (every decode)
 
-Write it in Carmen's voice: first person, chatty, opinionated, with every claim backed by a number from the decode. Use this reference caption (Dior SS27) as the model:
+Write it in Carmen's voice: first person, chatty, opinionated, with every claim backed by a number from the decode. The Dior SS27 caption below shows the **voice**. It's not a template: change the opener, the order and the angle for each show, and draw on what people are saying about it (reviews, comments, social reaction; do a quick web search when you can). Opinions and context can come from the internet, but **numbers only come from our own count**.
 
 ```
 @dior catwalk decode SS27 Paris Fashion Week
@@ -25,7 +25,7 @@ The codes are: the blazer (in any shape, form, material) as the base, froth as t
 I'm very into shrunken blazers atm and I've seen 14% of them on the runway.
 ```
 
-Structure:
+Usual ingredients (use, reorder or drop them as the show demands):
 1. **Line 1:** `@<brandhandle> catwalk decode <Season> <City> Fashion Week`.
 2. **Hook:** a casual opener ("Ok ok ok guys…") plus the headline stat, usually the top material or the big surprise.
 3. **The signature:** the silhouette formula that defines the show, in plain words.
@@ -47,6 +47,7 @@ Rules:
 - % label inside each wedge at radius 0.79, in DM Serif Display.
 - Label size by share: **42** (≥15%), **32** (≥8%), **24** for everything smaller. Never smaller than 24: small wedges must still be readable (Carmen's rule, updated from 22/14).
 - Label colour: **white if luminance < 0.55**, otherwise black.
+- Wedges **under 5%** get their label just outside the ring (radius 1.14, black text), so thin neighbouring wedges don't overlap.
 - Wedge colour = the actual colour, or a representative hex for prints and materials.
 - Luminance = WCAG relative luminance (sRGB linearised; 0.2126 R + 0.7152 G + 0.0722 B). This matches the Balmain template donut: white text on tan and olive, black on mint and ivory.
 

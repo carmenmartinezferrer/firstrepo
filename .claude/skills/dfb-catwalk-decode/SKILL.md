@@ -68,7 +68,7 @@ python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py donut decode.json
 Fill the Catwalk analysis template, following `references/canva-template.md`:
 - **Brand, city and season come from the pasted screenshots** (the Vogue Runway header, e.g. "Saint Laurent Spring 2027 Ready-to-Wear" → Saint Laurent, Paris, SS27). If they aren't visible, ask. Replace them in the **title** (cover), the **mini title** on pages 2–4 (`<Brand> • <City> FW <Season>`), the column header and the design name. No trace of the previous brand may remain.
 - Page 1: cover, "Decoding <Brand>" / "<City> Fashion Week <Season>".
-- Page 2: colour palette donut, drawn as native Canva shapes (`dfb_charts.py canva-donut`).
+- Page 2: the colour palette donut, using the exported PNG (same DM Serif font), via `upload-asset-from-url` from the public repo.
 - Pages 3–4: **fabrics and silhouettes only, no trends.** Put the silhouette and material breakdowns together, rank them by share, and fill the **top 4 on page 3** and the **next 4 on page 4**, each with a pink bar sized to its %. Don't pick or rename rows by hand; `scripts/dfb_charts.py canva decode.json` prints them. If a material and a silhouette are basically the same thing (Knit / Knit sweater), only the bigger one goes in Canva and the next row moves up.
 - The trends list and "The codes are: …" stay in the written decode. They don't go in Canva.
 

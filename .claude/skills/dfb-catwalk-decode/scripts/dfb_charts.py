@@ -28,6 +28,7 @@ FONT_PATH = SKILL_DIR / "assets" / "fonts" / "DMSerifDisplay-Regular.ttf"
 PINK = "#D6447A"
 INK = "#1a1a1a"
 OUTLINE = "#D0CCC5"
+OUTSIDE_BELOW = 5  # % under which donut labels sit outside the ring
 # Neutral ramp for categories that have no real colour (silhouettes).
 NEUTRALS = ["#111111", "#3A3A3A", "#5E5E5E", "#8A8A8A", "#B0ADA8",
             "#D0CCC5", "#E8E5E0", "#F5F3EF", "#2B2B2B", "#747474"]
@@ -73,19 +74,26 @@ def donut(items, out, square=False):
         pcts, colors=cols, startangle=90, counterclock=False,
         wedgeprops={"width": 0.42, "edgecolor": "none"},
     )
+    last_out = None  # (angle, radius) of the previous outside label
     for w, col, pct in zip(wedges, cols, pcts):
         if luminance(col) > 0.82:
             w.set_edgecolor(OUTLINE)
             w.set_linewidth(1.2)
         ang = math.radians((w.theta1 + w.theta2) / 2)
-        x, y = 0.79 * math.cos(ang), 0.79 * math.sin(ang)
-        ax.text(x, y, f"{pct:g}%", ha="center", va="center",
-                fontproperties=font, fontsize=label_size(pct),
-                color="white" if luminance(col) < 0.55 else "black")
+        if pct < OUTSIDE_BELOW:
+            # Thin wedges: label just outside the ring so neighbours don't collide.
+            r, colour = 1.14, INK
+            if last_out and abs((w.theta1 + w.theta2) / 2 - last_out[0]) < 14 and last_out[1] == 1.14:
+                r = 1.30  # stagger neighbours that would touch
+            last_out = ((w.theta1 + w.theta2) / 2, r)
+        else:
+            r, colour = 0.79, "white" if luminance(col) < 0.55 else "black"
+        ax.text(r * math.cos(ang), r * math.sin(ang), f"{pct:g}%", ha="center", va="center",
+                fontproperties=font, fontsize=label_size(pct), color=colour)
     ax.set_aspect("equal")
     if square:
-        ax.set_xlim(-1.05, 1.05)
-        ax.set_ylim(-1.05, 1.05)
+        ax.set_xlim(-1.3, 1.3)
+        ax.set_ylim(-1.3, 1.3)
         fig.savefig(out, dpi=300, transparent=True)
     else:
         fig.savefig(out, dpi=300, transparent=True, bbox_inches="tight")
@@ -222,11 +230,12 @@ def canva_donut(items):
                  "view_box_width": 810, "view_box_height": 810, "color": col.upper(), "path": d}
         if luminance(col) > 0.82:
             shape.update(stroke_color=OUTLINE, stroke_weight=1.2)
-        lx, ly = pt(0.79 * R, (t0 + t1) / 2)
+        outside = it["pct"] < OUTSIDE_BELOW
+        lx, ly = pt((1.14 if outside else 0.79) * R, (t0 + t1) / 2)
         size = label_size(it["pct"])
         w = 200 if size >= 32 else 100
         label = {"text": f"{it['pct']:g}%", "left": round(box_left + lx - w / 2), "top": round(box_top + ly - size * 0.5),
-                 "width": w, "font_size": size, "color": "#FFFFFF" if luminance(col) < 0.55 else "#000000"}
+                 "width": w, "font_size": size, "color": "#000000" if outside or luminance(col) >= 0.55 else "#FFFFFF"}
         out.append({"label": it["label"], "shape": shape, "text": label})
     return out
 
