@@ -1,6 +1,6 @@
 ---
 name: dfb-catwalk-decode
-description: Decodes a runway collection for The Data Fashion Brief (DFB) from Vogue Runway screenshots. It counts every look, gives the % breakdown of colour palette, silhouettes, fits and materials, lists the trends and "The codes are: …", renders DFB donut/bar charts, and fills Carmen's Canva "Catwalk analysis" template (colour palette donut + top fabrics and silhouettes). Use it whenever the user pastes runway / catwalk / Vogue Runway images or asks for a catwalk decode, collection breakdown, show debrief, runway analysis, colour palette or silhouette/material shares for a brand and season (e.g. "decode Balmain SS27", "here are the Dries screenshots", "do the Canva for Saint Laurent", "which silhouettes dominated?"). Also use it for cross-brand trackers (midi share, tonal lock) and for writing the Instagram caption when asked.
+description: Decodes a runway collection for The Data Fashion Brief (DFB) from Vogue Runway screenshots. It counts every look, gives the % breakdown of colour palette, silhouettes, fits and materials, lists the trends and "The codes are: …", renders DFB donut/bar charts, and fills Carmen's Canva "Catwalk analysis" template (colour palette donut + top fabrics and silhouettes). Use it whenever the user pastes runway / catwalk / Vogue Runway images or asks for a catwalk decode, collection breakdown, show debrief, runway analysis, colour palette or silhouette/material shares for a brand and season (e.g. "decode Balmain SS27", "here are the Dries screenshots", "do the Canva for Saint Laurent", "which silhouettes dominated?"). Also use it for cross-brand trackers (midi share, tonal lock) and for the Instagram caption in Carmen's voice.
 ---
 
 # DFB Catwalk Decode
@@ -23,7 +23,7 @@ Before starting, read:
    - **Trends and details** (fur cuffs, slits, minis, bows): share of looks showing it. These can overlap, so they don't need to sum to 100.
    - **Rounding:** use whole numbers that add up to 100. Round everything down, then hand out the missing points one at a time to the categories with the biggest leftover decimals. **Equal counts get equal %**: categories with the same number of looks move up or down together. If that makes the total 101 or 99, keep it and say so, rather than giving equal counts different %.
 4. **Rebuild categories per show.** Don't force a generic list. If a show runs on one formula (Saint Laurent pencil skirts), split the categories finely enough to show the variations. Name categories the way the house speaks: "velvet jacket + bow + pencil skirt", not "two-piece".
-5. **Caption ONLY when asked.**
+5. **Caption every time**, in the format and voice in `references/house-style.md`.
 
 ## Workflow per brand
 
@@ -57,6 +57,13 @@ python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py bars   tracker.js
 
 (The script needs `matplotlib`. Run `pip install matplotlib` if it's missing. The font is bundled in `assets/fonts`.)
 
+### 5b. Export the colour chart (every time)
+Render the palette donut as a transparent PNG and save it in the repo:
+```bash
+python .claude/skills/dfb-catwalk-decode/scripts/dfb_charts.py donut decode.json --field palette --out exports/<season>/<brand>-<season>-palette.png
+```
+(For example, `exports/ss27/stella-mccartney-ss27-palette.png`: lowercase, hyphens.) The background is transparent by default, so don't add `--square` here. Send the file to Carmen in the chat (SendUserFile) and commit and push it with the decode, so it reaches her computer when she pulls.
+
 ### 6. Canva
 Fill the Catwalk analysis template, following `references/canva-template.md`:
 - **Brand, city and season come from the pasted screenshots** (the Vogue Runway header, e.g. "Saint Laurent Spring 2027 Ready-to-Wear" → Saint Laurent, Paris, SS27). If they aren't visible, ask. Replace them in the **title** (cover), the **mini title** on pages 2–4 (`<Brand> • <City> FW <Season>`), the column header and the design name. No trace of the previous brand may remain.
@@ -76,6 +83,6 @@ Add the brand to `references/season-log.md`: one line on its headline stats, plu
 2. Palette / Silhouette / Material / Other breakdowns
 3. Trends → **The codes are: …**
 4. Charts (file paths) and the Canva link
-5. Caption only if asked, following the format in `references/house-style.md`
+5. The caption, following `references/house-style.md`, plus the exported palette PNG
 
 Write in the language Carmen writes in. Keep fashion terms as she uses them.
