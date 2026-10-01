@@ -49,6 +49,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the bare midriff, volume at the waist, draped jersey for night.
 - Decode in `examples/stella-mccartney-ss27.json`.
 
+#### Chloé SS27 (Chemena Kamali, "Obsession"): commercial RTW, 45 looks
+- **Palette:** white 31, black 25, cream/beige/khaki 16, pink/lilac 9, yellow 7, rust/brown 4, chartreuse 2, orange 2, grey 2, red 2.
+- **Silhouette:** trench/raincoat/cape 29, top + full maxi skirt 22, suit or top + trouser 16, mini dress 13, maxi dress 9, catsuit 5, jacket/blouse + short or mini 5, bodysuit 2 (sums to 101: equal counts kept equal).
+- **Material:** chiffon/tulle/organza 20, PVC & patent 16, broderie anglaise 13, tailoring 13, cotton gabardine 13, 3D ruffles & flowers 11, leather 5, knit 5, lace 5 (sums to 101).
+- **Other:** bare midriff ~27%, statement hat ~18%, bubble-skirt finale (looks 42–45).
+- **The codes are:** the rain cape as the statement, broderie as the house signature, the bubble skirt as the final word.
+- Decode in `examples/chloe-ss27.json`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -67,7 +75,7 @@ Prada 82 · Gucci 28 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · 
 - Open question: Saint Laurent is a knee-length pencil skirt (~60%), not a midi. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
-Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black)
+Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 31 (white)
 
 ## Pending
 - **Balmain:** needs screenshots. The Canva template shows Balmain numbers, but the handover lists Balmain as pending. Ask Carmen whether those numbers are real before using them anywhere.
