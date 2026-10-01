@@ -16,6 +16,8 @@ Every brand and week mention in the template must be replaced. Nothing from the 
 
 Before showing the preview, `read-design` the transaction's `design_content` and search it for the old brand name ("Balmain" in the master, or whatever brand the copy started from). It must return nothing.
 
+> ⚠️ **Template status (1 Oct 2026):** `DAHWx3H429E` has been deleted from Carmen's Canva. Until she shares a new master, copy her most recent saved "<Brand> SS27 catwalk decode" design instead (`search-designs`, newest first). Then clear the old brand's data: delete the donut wedge shapes and % labels on page 2, and reuse the pink bar shapes on pages 3–4 (resize and move them rather than inserting new ones). After that, fill it as below. The page layout is the same.
+
 ## Never edit the master — no need to paste the template each time
 The skill duplicates the master template by its ID every time, so Carmen never has to paste it again. Only if she makes a new template (or the link changes) should this ID be updated.
 1. `copy-design` with `design_id: DAHWx3H429E` gives you a new design ID. Do every step below on that copy.

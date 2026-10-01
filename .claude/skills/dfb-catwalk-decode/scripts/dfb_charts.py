@@ -135,9 +135,15 @@ NOT_FABRIC = {"and", "with", "over", "plus", "gold", "black", "white", "silver",
               "skirt", "coat", "long", "short", "mini", "midi", "maxi"}
 
 
+# Words that name the same thing as a fabric ("Denim" vs "Shirt + jeans", "Tailoring" vs "Suit").
+SYNONYMS = {"jean": "denim", "jeans": "denim", "suit": "tailoring", "suits": "tailoring",
+            "suiting": "tailoring", "tailored": "tailoring"}
+
+
 def fabric_words(label):
     import re
-    return {w for w in re.split(r"[^a-zà-ÿ]+", label.lower()) if len(w) >= 4 and w not in NOT_FABRIC}
+    words = (w for w in re.split(r"[^a-zà-ÿ]+", label.lower()) if len(w) >= 4 and w not in NOT_FABRIC)
+    return {SYNONYMS.get(w, w) for w in words}
 
 
 def similar(a, b):
@@ -233,8 +239,10 @@ def check(decode):
             problems.append(f"{field}: missing")
             continue
         total = sum(it["pct"] for it in items)
-        if abs(total - 100) > 0:
+        if abs(total - 100) > 1:
             problems.append(f"{field}: sums to {total}, not 100")
+        elif total != 100:
+            print(f"ℹ️  {field}: sums to {total} (equal counts kept equal %), footnote it")
         pcts = [it["pct"] for it in items]
         if pcts != sorted(pcts, reverse=True):
             problems.append(f"{field}: not ranked largest first")
@@ -251,9 +259,9 @@ def check(decode):
     if looks:
         for field in ("palette", "silhouette", "material"):
             for it in decode.get(field, []):
-                n = it["pct"] * looks / 100
-                if abs(n - round(n)) > 0.35 and not it.get("approx"):
-                    problems.append(f"{field} '{it['label']}': {it['pct']}% of {looks} = {n:.1f} looks, check the count")
+                n = round(it["pct"] * looks / 100)
+                if abs(n * 100 / looks - it["pct"]) >= 1 and not it.get("approx"):
+                    problems.append(f"{field} '{it['label']}': {it['pct']}% matches no whole number of {looks} looks")
     for p in problems:
         print("⚠️ ", p)
     if not problems:

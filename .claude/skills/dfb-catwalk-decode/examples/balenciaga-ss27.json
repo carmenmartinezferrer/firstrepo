@@ -6,48 +6,172 @@
   "show_type": "commercial RTW with a couture finale",
   "looks": 72,
   "palette": [
-    {"label": "Black", "pct": 37, "hex": "#111111"},
-    {"label": "White/ivory", "pct": 19, "hex": "#F3EEE3"},
-    {"label": "Pink", "pct": 10, "hex": "#EC7FB0"},
-    {"label": "Beige/khaki", "pct": 8, "hex": "#C9B48F"},
-    {"label": "Cobalt/denim blue", "pct": 6, "hex": "#2A44B8"},
-    {"label": "Orange", "pct": 6, "hex": "#F07A1A"},
-    {"label": "Yellow/chartreuse", "pct": 4, "hex": "#C9C21E"},
-    {"label": "Red", "pct": 3, "hex": "#E0352B"},
-    {"label": "Brown", "pct": 3, "hex": "#6B4A32"},
-    {"label": "Grey", "pct": 3, "hex": "#8A8A88"},
-    {"label": "Mint", "pct": 1, "hex": "#BFE3CF"}
+    {
+      "label": "Black",
+      "pct": 37,
+      "hex": "#111111"
+    },
+    {
+      "label": "White/ivory",
+      "pct": 19,
+      "hex": "#F3EEE3"
+    },
+    {
+      "label": "Pink",
+      "pct": 10,
+      "hex": "#EC7FB0"
+    },
+    {
+      "label": "Beige/khaki",
+      "pct": 8,
+      "hex": "#C9B48F"
+    },
+    {
+      "label": "Cobalt/denim blue",
+      "pct": 6,
+      "hex": "#2A44B8"
+    },
+    {
+      "label": "Orange",
+      "pct": 6,
+      "hex": "#F07A1A"
+    },
+    {
+      "label": "Yellow/chartreuse",
+      "pct": 4,
+      "hex": "#C9C21E"
+    },
+    {
+      "label": "Red",
+      "pct": 3,
+      "hex": "#E0352B"
+    },
+    {
+      "label": "Brown",
+      "pct": 3,
+      "hex": "#6B4A32"
+    },
+    {
+      "label": "Grey",
+      "pct": 3,
+      "hex": "#8A8A88"
+    },
+    {
+      "label": "Mint",
+      "pct": 1,
+      "hex": "#BFE3CF"
+    }
   ],
   "silhouette": [
-    {"label": "Bomber/jacket + wide trouser", "pct": 21},
-    {"label": "Long coat / cape", "pct": 10},
-    {"label": "Gown", "pct": 10},
-    {"label": "Shirt + wide trouser", "pct": 8},
-    {"label": "Shirt/tee + jeans", "pct": 8},
-    {"label": "Top + wide trouser", "pct": 8},
-    {"label": "Blazer + trouser", "pct": 7},
-    {"label": "Top + long skirt", "pct": 7},
-    {"label": "Jacket + mini", "pct": 6},
-    {"label": "Fringe/embellished dress", "pct": 6},
-    {"label": "Slip/column dress", "pct": 5},
-    {"label": "Mini dress", "pct": 4}
+    {
+      "label": "Bomber/jacket + wide trouser",
+      "pct": 21
+    },
+    {
+      "label": "Long coat / cape",
+      "pct": 10
+    },
+    {
+      "label": "Gown",
+      "pct": 10
+    },
+    {
+      "label": "Shirt + wide trouser",
+      "pct": 8
+    },
+    {
+      "label": "Shirt/tee + jeans",
+      "pct": 8
+    },
+    {
+      "label": "Top + wide trouser",
+      "pct": 8
+    },
+    {
+      "label": "Blazer + trouser",
+      "pct": 7
+    },
+    {
+      "label": "Top + long skirt",
+      "pct": 7
+    },
+    {
+      "label": "Jacket + mini",
+      "pct": 6
+    },
+    {
+      "label": "Fringe/embellished dress",
+      "pct": 6
+    },
+    {
+      "label": "Slip/column dress",
+      "pct": 6
+    },
+    {
+      "label": "Mini dress",
+      "pct": 4
+    }
   ],
   "material": [
-    {"label": "Tailoring (wool, gabardine)", "pct": 22},
-    {"label": "Technical nylon", "pct": 14},
-    {"label": "Feathers, fringe & 3D", "pct": 13},
-    {"label": "Cotton poplin", "pct": 11},
-    {"label": "Jersey and crepe", "pct": 11},
-    {"label": "Leather", "pct": 10},
-    {"label": "Denim", "pct": 8},
-    {"label": "Lace", "pct": 4},
-    {"label": "Satin and chiffon", "pct": 4},
-    {"label": "Knit", "pct": 3}
+    {
+      "label": "Tailoring (wool, gabardine)",
+      "pct": 22
+    },
+    {
+      "label": "Technical nylon",
+      "pct": 14
+    },
+    {
+      "label": "Feathers, fringe & 3D",
+      "pct": 13
+    },
+    {
+      "label": "Cotton poplin",
+      "pct": 11
+    },
+    {
+      "label": "Jersey and crepe",
+      "pct": 11
+    },
+    {
+      "label": "Leather",
+      "pct": 10
+    },
+    {
+      "label": "Denim",
+      "pct": 8
+    },
+    {
+      "label": "Lace",
+      "pct": 4
+    },
+    {
+      "label": "Satin and chiffon",
+      "pct": 4
+    },
+    {
+      "label": "Knit",
+      "pct": 3
+    }
   ],
   "other": [
-    {"label": "Wide/balloon trouser or wide jean", "pct": 60, "approx": true},
-    {"label": "All-white opening block (looks 1-9)", "pct": 13},
-    {"label": "Feather mini + combat boot", "pct": 6}
+    {
+      "label": "Wide/balloon trouser or wide jean",
+      "pct": 60,
+      "approx": true
+    },
+    {
+      "label": "All-white opening block (looks 1-9)",
+      "pct": 13
+    },
+    {
+      "label": "Feather mini + combat boot",
+      "pct": 6
+    }
   ],
-  "codes": ["volume below the waist", "the bomber as the uniform", "black as the backbone"]
+  "codes": [
+    "volume below the waist",
+    "the bomber as the uniform",
+    "black as the backbone"
+  ]
 }

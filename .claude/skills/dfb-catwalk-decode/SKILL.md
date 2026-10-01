@@ -21,7 +21,7 @@ Before starting, read:
    - **Silhouette:** give each look one outfit formula ("jacket + pencil skirt", "slip/column dress"). Sums to 100%.
    - **Material:** give each look its dominant fabric. Sums to 100%. Mention secondary fabrics in the notes.
    - **Trends and details** (fur cuffs, slits, minis, bows): share of looks showing it. These can overlap, so they don't need to sum to 100.
-   - After rounding, fix totals of 99 or 101 on the largest category, and say so.
+   - **Rounding:** use whole numbers that add up to 100. Round everything down, then hand out the missing points one at a time to the categories with the biggest leftover decimals. **Equal counts get equal %**: categories with the same number of looks move up or down together. If that makes the total 101 or 99, keep it and say so, rather than giving equal counts different %.
 4. **Rebuild categories per show.** Don't force a generic list. If a show runs on one formula (Saint Laurent pencil skirts), split the categories finely enough to show the variations. Name categories the way the house speaks: "velvet jacket + bow + pencil skirt", not "two-piece".
 5. **Caption ONLY when asked.**
 
