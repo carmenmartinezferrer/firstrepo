@@ -2,7 +2,7 @@
 
 - **Template design ID:** `DAHWx3H429E`
 - **Link:** https://www.canva.com/design/DAHWx3H429E/3z7tLxGQryuHxAcHl4MSBg/edit
-- **Format:** 4 pages, 1080 × 1350 px (Instagram portrait carousel). The current content is the Balmain SS27 example.
+- **Format:** 6 pages (cover, palette, 2× fabrics and silhouettes, trends, codes), 1080 × 1350 px (Instagram portrait carousel). The current content is the Balmain SS27 example.
 - **No autofill fields** (`get-design-dataset` returns `{}`), so fill it with `edit-design` operations.
 
 ## Brand name, fashion week and season come from the screenshots
@@ -74,6 +74,13 @@ These pages show **fabrics and silhouettes only, not trends.** Put the `silhouet
      - `top = round(982.6 + 41.37 * i)` for row i = 0…3 (these match the 1.4 line height of the 29.55 px text starting at y = 973.9)
   4. Check the thumbnail. Each bar should sit on the same line as its text. If the bars are off, nudge `top` and re-check.
   - If Carmen would rather keep the native chart, leave it and give her the 8 values to paste into Canva's chart data panel.
+
+### Pages 5 and 6: Trends and The codes are
+Copying the latest saved decode (e.g. Chloé `DAHWySZKYbQ`) brings these two pages along. Fill them with `replace_text`:
+- **Page 5 "Trends":** 6 rows. Pink `#D6447A` % at 72 bold (x 108) and the trend line at 32 (x 320), rows 140 px apart from y = 300. Order by %, largest first. Use the same % as the decode (equal counts, equal %).
+- **Page 6 "The codes are":** pink `01`/`02`/`03` at 72 bold and the code in italic 48, at y = 380, 620, 860. Footnote: `<N> looks decoded`.
+- The brand line on both pages: `<Brand> • <City> FW <Season>`.
+- If the copy has no pages 5–6, `add_page` twice and rebuild them with `add_text` + `format_text` to the sizes above.
 
 ## Finish
 1. `update_title` → `<Brand> <Season> catwalk decode`.

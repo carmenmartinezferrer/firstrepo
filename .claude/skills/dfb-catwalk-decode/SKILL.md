@@ -70,7 +70,9 @@ Fill the Catwalk analysis template, following `references/canva-template.md`:
 - Page 1: cover, "Decoding <Brand>" / "<City> Fashion Week <Season>".
 - Page 2: the colour palette donut, drawn natively in Canva (`dfb_charts.py canva-donut`), with labels in Canva's font, all inside the wedges. Wedges too thin for their number stay unlabelled.
 - Pages 3–4: **fabrics and silhouettes only, no trends.** Put the silhouette and material breakdowns together, rank them by share, and fill the **top 4 on page 3** and the **next 4 on page 4**, each with a pink bar sized to its %. Don't pick or rename rows by hand; `scripts/dfb_charts.py canva decode.json` prints them. If a material and a silhouette are basically the same thing (Knit / Knit sweater), only the bigger one goes in Canva and the next row moves up.
-- The trends list and "The codes are: …" stay in the written decode. They don't go in Canva.
+- Page 5: **Trends**. The 6 strongest trends from step 4, each with its % (big pink number) and a one-line reading.
+- Page 6: **The codes are**. The three codes, numbered 01/02/03, with "<N> looks decoded" as the footnote.
+- Every decode gets all 6 pages (Carmen's rule: the trends decode always goes in Canva too).
 
 Always work on a **copy** of the template (ID `DAHWx3H429E`), never the master. The skill duplicates it by itself, so Carmen doesn't need to paste the template again. Show Carmen the preview thumbnails and get her OK before committing the edits.
 
