@@ -1,0 +1,17 @@
+{
+  "title": "Midi share, SS27",
+  "items": [
+    {"label": "Prada", "pct": 82, "hex": "#D6447A"},
+    {"label": "Gucci", "pct": 28},
+    {"label": "Jil Sander", "pct": 18},
+    {"label": "Fendi", "pct": 16},
+    {"label": "Moschino", "pct": 15},
+    {"label": "Marni", "pct": 14},
+    {"label": "Burberry", "pct": 14},
+    {"label": "Dior (Set A)", "pct": 14},
+    {"label": "McQueen", "pct": 10},
+    {"label": "MM6", "pct": 7},
+    {"label": "Cavalli", "pct": 4},
+    {"label": "Missoni", "pct": 3}
+  ]
+}
