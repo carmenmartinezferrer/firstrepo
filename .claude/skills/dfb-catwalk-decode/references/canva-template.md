@@ -46,7 +46,7 @@ To swap the donut, **use the PNG**, so the labels are in DM Serif Display, the s
 1. Export the PNG (step 5b in SKILL.md), commit it, and push it. The repo is public, so Canva can fetch it.
 2. `upload-asset-from-url` with the raw URL **pinned to the commit SHA** (it avoids GitHub's cache):
    `https://raw.githubusercontent.com/carmenmartinezferrer/firstrepo/<sha>/exports/<season>/<brand>-<season>-palette.png`
-3. On page 2, `delete_element` the old donut: the image frame, or the wedge shapes and % labels left from the design you copied. Then `insert_fill` the asset at `top: 215, left: 60, width: 960, height: 960`.
+3. On page 2, `delete_element` the old donut: the image frame, or the wedge shapes and % labels left from the design you copied. Then `insert_fill` the asset at `top: 225, left: 100, width: 880`, with `height = round(880 * png_height / png_width)` (the PNG is a little taller than wide when there are outside labels).
 4. Check the thumbnail.
 - **Fallback (no network to GitHub):** `dfb_charts.py canva-donut` draws native wedge shapes and labels, but Canva's API can't set their font. Tell Carmen to switch the labels to DM Serif by hand.
 
