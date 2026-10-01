@@ -3,6 +3,7 @@
 
   python dfb_charts.py check  decode.json
   python dfb_charts.py canva  decode.json
+  python dfb_charts.py canva-donut decode.json
   python dfb_charts.py donut  decode.json --field palette --out palette.png [--square]
   python dfb_charts.py bars   tracker.json --out midi.png [--white]
 
@@ -158,6 +159,40 @@ def canva(decode):
             print(f"  {it['pct']:>3g}%  {it['kind']:<10} {it['label']:<34} bar {g}")
 
 
+def canva_donut(items):
+    """Native Canva donut: one insert_shape per wedge + one add_text per label (page 2).
+
+    Same geometry as the locked spec (width 0.42, labels at r=0.79, clockwise from 12 o'clock),
+    sized to the template: centre (540, 675), outer radius 405, drawn in an 810x810 box at (135, 270).
+    """
+    R, c, box_left, box_top = 405, 405, 135, 270
+    r = R * (1 - 0.42)
+
+    def pt(rad, th):
+        return c + rad * math.sin(th), c - rad * math.cos(th)
+
+    total, acc, out = sum(it["pct"] for it in items), 0, []
+    for it, col in zip(items, colours_for(items)):
+        t0 = acc / total * 2 * math.pi
+        acc += it["pct"]
+        t1 = acc / total * 2 * math.pi
+        large = 1 if t1 - t0 > math.pi else 0
+        (x0, y0), (x1, y1), (x2, y2), (x3, y3) = pt(R, t0), pt(R, t1), pt(r, t1), pt(r, t0)
+        d = (f"M{x0:.2f} {y0:.2f}A{R} {R} 0 {large} 1 {x1:.2f} {y1:.2f}"
+             f"L{x2:.2f} {y2:.2f}A{r:.2f} {r:.2f} 0 {large} 0 {x3:.2f} {y3:.2f}Z")
+        shape = {"type": "insert_shape", "top": box_top, "left": box_left, "width": 810, "height": 810,
+                 "view_box_width": 810, "view_box_height": 810, "color": col.upper(), "path": d}
+        if luminance(col) > 0.82:
+            shape.update(stroke_color=OUTLINE, stroke_weight=1.2)
+        lx, ly = pt(0.79 * R, (t0 + t1) / 2)
+        size = label_size(it["pct"])
+        w = 200 if size >= 32 else 100
+        label = {"text": f"{it['pct']:g}%", "left": round(box_left + lx - w / 2), "top": round(box_top + ly - size * 0.5),
+                 "width": w, "font_size": size, "color": "#FFFFFF" if luminance(col) < 0.55 else "#000000"}
+        out.append({"label": it["label"], "shape": shape, "text": label})
+    return out
+
+
 def check(decode):
     problems = []
     for field in ("palette", "silhouette", "material"):
@@ -201,6 +236,9 @@ def main():
     c.add_argument("json")
     cv = sub.add_parser("canva", help="rows and bar geometry for Canva pages 3-4")
     cv.add_argument("json")
+    cd = sub.add_parser("canva-donut", help="native Canva shapes + labels for the page 2 donut")
+    cd.add_argument("json")
+    cd.add_argument("--field", default="palette")
     d = sub.add_parser("donut")
     d.add_argument("json")
     d.add_argument("--field", default="palette")
@@ -217,6 +255,9 @@ def main():
         sys.exit(0 if check(data) else 1)
     if a.cmd == "canva":
         canva(data)
+        return
+    if a.cmd == "canva-donut":
+        print(json.dumps(canva_donut(data[a.field]), indent=1, ensure_ascii=False))
         return
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     if a.cmd == "donut":
