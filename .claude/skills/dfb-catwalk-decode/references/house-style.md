@@ -44,10 +44,10 @@ Rules:
 - figsize (9, 9), transparent background, dpi 300, `bbox_inches="tight"`.
 - `ax.pie(startangle=90, counterclock=False, wedgeprops={"width": 0.42, "edgecolor": "none"})`.
 - Wedges with **luminance > 0.82** get a `#D0CCC5` outline, linewidth 1.2.
-- % label inside each wedge at radius 0.79, in DM Serif Display.
+- % label inside each wedge at radius 0.79, in **the Canva text font** (Canva's default sans, the one `add_text` gives). The PNG uses Arimo, the closest free match, so the PNG and Canva look the same.
 - Label size by share: **42** (≥15%), **32** (≥8%), **24** for everything smaller. Never smaller than 24: small wedges must still be readable (Carmen's rule, updated from 22/14).
 - Label colour: **white if luminance < 0.55**, otherwise black.
-- Wedges **under 5%** get their label just outside the ring (radius 1.14, black text), so thin neighbouring wedges don't overlap.
+- **Every label goes inside its wedge.** If the number doesn't fit inside a wedge (arc length at the label radius is less than the label's width), leave that wedge **unlabelled**. In practice, only ~1% slivers lose their label.
 - Wedge colour = the actual colour, or a representative hex for prints and materials.
 - Luminance = WCAG relative luminance (sRGB linearised; 0.2126 R + 0.7152 G + 0.0722 B). This matches the Balmain template donut: white text on tan and olive, black on mint and ivory.
 

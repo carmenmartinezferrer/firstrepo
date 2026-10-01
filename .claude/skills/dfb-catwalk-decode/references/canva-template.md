@@ -42,13 +42,12 @@ The skill duplicates the master template by its ID every time, so Carmen never h
 | Donut image frame | `LBRyWf5xH0FWszNX` | 1040 × 1040 image fill |
 | Footnote | `LBvMSpmWrlz7Y9z1` | `*% is share of colour: proportion of total looks with that colour` (leave) |
 
-To swap the donut, **use the PNG**, so the labels are in DM Serif Display, the same font as the exported chart:
-1. Export the PNG (step 5b in SKILL.md), commit it, and push it. The repo is public, so Canva can fetch it.
-2. `upload-asset-from-url` with the raw URL **pinned to the commit SHA** (it avoids GitHub's cache):
-   `https://raw.githubusercontent.com/carmenmartinezferrer/firstrepo/<sha>/exports/<season>/<brand>-<season>-palette.png`
-3. On page 2, `delete_element` the old donut: the image frame, or the wedge shapes and % labels left from the design you copied. Then `insert_fill` the asset at `top: 225, left: 100, width: 880`, with `height = round(880 * png_height / png_width)` (the PNG is a little taller than wide when there are outside labels).
+To swap the donut, **draw it natively in Canva**, so the labels are in Canva's own font (Carmen's choice; the exported PNG matches it):
+1. Run `python scripts/dfb_charts.py canva-donut decode.json`. For each wedge it gives an `insert_shape` operation, and a label (text, position, size and colour), or `null` when the wedge is too thin to hold its number.
+2. In one `edit-design` call on page 2: `delete_element` the old donut (the image frame, or the shapes and labels from the design you copied), then add every wedge's `insert_shape` (with `page_id`) and an `add_text` for every non-null label.
+3. Take the new label locators from the response. In a second call, `format_text` each one with `font_size`, `color`, `text_align: "center"` and `line_height: 1`. Don't change the font.
 4. Check the thumbnail.
-- **Fallback (no network to GitHub):** `dfb_charts.py canva-donut` draws native wedge shapes and labels, but Canva's API can't set their font. Tell Carmen to switch the labels to DM Serif by hand.
+- **Don't use PNG upload here.** `upload-asset-from-url` works (the repo is public), but the PNG font is only a lookalike of Canva's font.
 
 ### Pages 3 and 4: fabrics and silhouettes `PBpLhH5S1vzmmPzd`, `PBRzJ6lSQHfwq4Dm`
 These pages show **fabrics and silhouettes only, not trends.** Put the `silhouette` and `material` breakdowns together into one list ranked by share. Page 3 = ranks 1–4, page 4 = ranks 5–8. Use the labels exactly as they appear in the decode. When two rows tie, keep them in decode order. Get the rows from `python scripts/dfb_charts.py canva decode.json`.

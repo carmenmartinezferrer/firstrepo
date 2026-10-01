@@ -24,14 +24,22 @@ from matplotlib import font_manager  # noqa: E402
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
 FONT_PATH = SKILL_DIR / "assets" / "fonts" / "DMSerifDisplay-Regular.ttf"
+# Donut % labels match the Canva text font (Canva's default sans); Arimo is the closest free match.
+LABEL_FONT_PATH = SKILL_DIR / "assets" / "fonts" / "Arimo-Regular.ttf"
 
 PINK = "#D6447A"
 INK = "#1a1a1a"
 OUTLINE = "#D0CCC5"
-OUTSIDE_BELOW = 5  # % under which donut labels sit outside the ring
 # Neutral ramp for categories that have no real colour (silhouettes).
 NEUTRALS = ["#111111", "#3A3A3A", "#5E5E5E", "#8A8A8A", "#B0ADA8",
             "#D0CCC5", "#E8E5E0", "#F5F3EF", "#2B2B2B", "#747474"]
+
+
+def label_font():
+    if LABEL_FONT_PATH.exists():
+        font_manager.fontManager.addfont(str(LABEL_FONT_PATH))
+        return font_manager.FontProperties(fname=str(LABEL_FONT_PATH))
+    return font_manager.FontProperties(family="sans-serif")
 
 
 def serif():
@@ -58,13 +66,21 @@ def label_size(pct):
     return 24  # small wedges stay readable (Carmen: "small but not super small")
 
 
+def label_fits(pct, radius_px=320, size=None):
+    """True if the % label fits inside its wedge at the label radius (Canva page scale)."""
+    size = size or label_size(pct)
+    arc = 2 * math.pi * radius_px * pct / 100
+    width = 0.6 * size * len(f"{pct:g}%")
+    return arc >= width + 6
+
+
 def colours_for(items):
     return [it.get("hex") or NEUTRALS[i % len(NEUTRALS)] for i, it in enumerate(items)]
 
 
 def donut(items, out, square=False):
     """Locked DFB donut spec — see references/house-style.md."""
-    font = serif()
+    font = label_font()
     pcts = [it["pct"] for it in items]
     cols = colours_for(items)
 
@@ -74,26 +90,26 @@ def donut(items, out, square=False):
         pcts, colors=cols, startangle=90, counterclock=False,
         wedgeprops={"width": 0.42, "edgecolor": "none"},
     )
-    last_out = None  # (angle, radius) of the previous outside label
+    ax.set_aspect("equal")
+    ax.apply_aspect()
+    # Scale label sizes so text/donut proportions match the Canva page (outer radius 405 px).
+    x0, _ = ax.transData.transform((0, 0))
+    x1, _ = ax.transData.transform((1, 0))
+    scale = ((x1 - x0) * 72 / fig.dpi) / 405
     for w, col, pct in zip(wedges, cols, pcts):
         if luminance(col) > 0.82:
             w.set_edgecolor(OUTLINE)
             w.set_linewidth(1.2)
+        if not label_fits(pct):
+            continue  # too thin for a readable number: leave it unlabelled
         ang = math.radians((w.theta1 + w.theta2) / 2)
-        if pct < OUTSIDE_BELOW:
-            # Thin wedges: label just outside the ring so neighbours don't collide.
-            r, colour = 1.14, INK
-            if last_out and abs((w.theta1 + w.theta2) / 2 - last_out[0]) < 14 and last_out[1] == 1.14:
-                r = 1.30  # stagger neighbours that would touch
-            last_out = ((w.theta1 + w.theta2) / 2, r)
-        else:
-            r, colour = 0.79, "white" if luminance(col) < 0.55 else "black"
-        ax.text(r * math.cos(ang), r * math.sin(ang), f"{pct:g}%", ha="center", va="center",
-                fontproperties=font, fontsize=label_size(pct), color=colour)
+        ax.text(0.79 * math.cos(ang), 0.79 * math.sin(ang), f"{pct:g}%", ha="center", va="center",
+                fontproperties=font, fontsize=label_size(pct) * scale,
+                color="white" if luminance(col) < 0.55 else "black")
     ax.set_aspect("equal")
     if square:
-        ax.set_xlim(-1.3, 1.3)
-        ax.set_ylim(-1.3, 1.3)
+        ax.set_xlim(-1.05, 1.05)
+        ax.set_ylim(-1.05, 1.05)
         fig.savefig(out, dpi=300, transparent=True)
     else:
         fig.savefig(out, dpi=300, transparent=True, bbox_inches="tight")
@@ -230,12 +246,13 @@ def canva_donut(items):
                  "view_box_width": 810, "view_box_height": 810, "color": col.upper(), "path": d}
         if luminance(col) > 0.82:
             shape.update(stroke_color=OUTLINE, stroke_weight=1.2)
-        outside = it["pct"] < OUTSIDE_BELOW
-        lx, ly = pt((1.14 if outside else 0.79) * R, (t0 + t1) / 2)
+        lx, ly = pt(0.79 * R, (t0 + t1) / 2)
         size = label_size(it["pct"])
         w = 200 if size >= 32 else 100
-        label = {"text": f"{it['pct']:g}%", "left": round(box_left + lx - w / 2), "top": round(box_top + ly - size * 0.5),
-                 "width": w, "font_size": size, "color": "#000000" if outside or luminance(col) >= 0.55 else "#FFFFFF"}
+        label = None
+        if label_fits(it["pct"]):
+            label = {"text": f"{it['pct']:g}%", "left": round(box_left + lx - w / 2), "top": round(box_top + ly - size * 0.6),
+                     "width": w, "font_size": size, "color": "#FFFFFF" if luminance(col) < 0.55 else "#000000"}
         out.append({"label": it["label"], "shape": shape, "text": label})
     return out
 
