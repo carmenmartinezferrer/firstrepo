@@ -58,6 +58,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - First pass counted 45 looks (missed the fringe opening screen); recounted from all 6 screenshots.
 - Decode in `examples/chloe-ss27.json`.
 
+#### Isabel Marant SS27: commercial RTW, 50 looks
+- **Palette:** white/cream 34, black 26, pink/blush 16, sage/khaki 10, paisley print 6, yellow/mustard 4, rust 2, beige/gold 2.
+- **Silhouette:** top + shorts 26, top + trouser 18, jacket + trouser 14, top + midi or maxi skirt 14, mini dress 12, jacket + short or mini 10, midi/maxi dress 4, jumpsuit 2.
+- **Material:** crochet & macramé 20, prints (paisley & tie-dye) 16, broderie anglaise 14, lace 14, silk/satin/voile 14, utility cotton twill 10, leather 6, embellished 4, knit 2.
+- **Other:** open-work (crochet + broderie + lace) 48%, shorts 34%, pink/paisley/tie-dye 22%.
+- **The codes are:** the short as the base, open-work as the signature, black as the night shift.
+- Decode in `examples/isabel-marant-ss27.json`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -76,7 +84,7 @@ Prada 82 · Gucci 28 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · 
 - Open question: Saint Laurent is a knee-length pencil skirt (~60%), not a midi. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
-Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white)
+Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white)
 
 ## Pending
 - **Balmain:** needs screenshots. The Canva template shows Balmain numbers, but the handover lists Balmain as pending. Ask Carmen whether those numbers are real before using them anywhere.

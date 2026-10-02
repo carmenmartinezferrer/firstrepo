@@ -1,0 +1,45 @@
+{
+  "brand": "Isabel Marant",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "commercial RTW",
+  "looks": 50,
+  "palette": [
+    {"label": "White/cream", "pct": 34, "hex": "#F3EFE6"},
+    {"label": "Black", "pct": 26, "hex": "#111111"},
+    {"label": "Pink/blush", "pct": 16, "hex": "#E9B9B5"},
+    {"label": "Sage/khaki", "pct": 10, "hex": "#8FA284"},
+    {"label": "Paisley print", "pct": 6, "hex": "#B79AB5"},
+    {"label": "Yellow/mustard", "pct": 4, "hex": "#D8B44A"},
+    {"label": "Rust", "pct": 2, "hex": "#B5523B"},
+    {"label": "Beige/gold", "pct": 2, "hex": "#C9B48A"}
+  ],
+  "silhouette": [
+    {"label": "Top + shorts", "pct": 26},
+    {"label": "Top + trouser", "pct": 18},
+    {"label": "Jacket + trouser", "pct": 14},
+    {"label": "Top + midi or maxi skirt", "pct": 14},
+    {"label": "Mini dress", "pct": 12},
+    {"label": "Jacket + short or mini", "pct": 10},
+    {"label": "Midi/maxi dress", "pct": 4},
+    {"label": "Jumpsuit", "pct": 2}
+  ],
+  "material": [
+    {"label": "Crochet & macramé", "pct": 20},
+    {"label": "Prints: paisley & tie-dye", "pct": 16},
+    {"label": "Broderie anglaise", "pct": 14},
+    {"label": "Lace", "pct": 14},
+    {"label": "Silk, satin & voile", "pct": 14},
+    {"label": "Utility cotton twill", "pct": 10},
+    {"label": "Leather", "pct": 6},
+    {"label": "Embellished", "pct": 4},
+    {"label": "Knit", "pct": 2}
+  ],
+  "other": [
+    {"label": "Open-work (crochet + broderie + lace)", "pct": 48},
+    {"label": "Shorts", "pct": 34},
+    {"label": "Pink, paisley and tie-dye looks", "pct": 22}
+  ],
+  "codes": ["the short as the base", "open-work as the signature", "black as the night shift"]
+}

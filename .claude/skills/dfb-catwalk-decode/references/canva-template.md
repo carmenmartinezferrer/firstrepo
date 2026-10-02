@@ -82,6 +82,9 @@ Copying the latest saved decode (e.g. Chloé `DAHWySZKYbQ`) brings these two pag
 - The brand line on both pages: `<Brand> • <City> FW <Season>`.
 - If the copy has no pages 5–6, `add_page` twice and rebuild them with `add_text` + `format_text` to the sizes above.
 
+### Look photos
+Carmen adds runway photos to the cover and to pages 3–4 herself. When copying the previous decode, **delete the previous brand's photos** (image rects on pages 1, 3 and 4) so nothing from the old show is left, and remind her to drop in the new show's looks.
+
 ## Finish
 1. `update_title` → `<Brand> <Season> catwalk decode`.
 2. `read-design` the transaction with `thumbnails` for pages 1–4, and show them to Carmen.
