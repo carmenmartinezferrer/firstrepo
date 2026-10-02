@@ -1,0 +1,49 @@
+{
+  "brand": "Loewe",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "commercial RTW (co-ed)",
+  "looks": 66,
+  "note": "Palette sums to 101: equal counts kept equal.",
+  "palette": [
+    {"label": "Black", "pct": 17, "hex": "#111111"},
+    {"label": "Mint/green", "pct": 17, "hex": "#5FCB9A"},
+    {"label": "Beige/khaki", "pct": 12, "hex": "#CDB48C"},
+    {"label": "Yellow", "pct": 11, "hex": "#F2D23C"},
+    {"label": "Brown", "pct": 8, "hex": "#5A3A26"},
+    {"label": "Ochre/mustard", "pct": 8, "hex": "#B88A2E"},
+    {"label": "White/cream", "pct": 6, "hex": "#F3EFE6"},
+    {"label": "Floral print", "pct": 6, "hex": "#E58A3A"},
+    {"label": "Red/orange", "pct": 6, "hex": "#E2412E"},
+    {"label": "Blue", "pct": 6, "hex": "#2F4FC9"},
+    {"label": "Olive", "pct": 4, "hex": "#6E7032"}
+  ],
+  "silhouette": [
+    {"label": "Jacket + trouser", "pct": 24},
+    {"label": "Coat", "pct": 14},
+    {"label": "Jacket + short or mini", "pct": 12},
+    {"label": "Mini dress", "pct": 12},
+    {"label": "Top + trouser", "pct": 11},
+    {"label": "Slip dress", "pct": 9},
+    {"label": "Top + skirt", "pct": 8},
+    {"label": "Top + shorts", "pct": 6},
+    {"label": "Maxi dress", "pct": 4}
+  ],
+  "material": [
+    {"label": "Knit", "pct": 18},
+    {"label": "Cotton shirting & gabardine", "pct": 17},
+    {"label": "Tailoring", "pct": 15},
+    {"label": "Leather & suede", "pct": 14},
+    {"label": "Technical nylon", "pct": 14},
+    {"label": "Sheer slips "Silk, chiffon & jersey" glass-bead stripes", "pct": 12},
+    {"label": "Floral prints", "pct": 6},
+    {"label": "Fluffy bouclé", "pct": 4}
+  ],
+  "other": [
+    {"label": "Brights (yellow, mint/green, red/orange, blue)", "pct": 39},
+    {"label": "Wide trousers (jacket or top + trouser)", "pct": 35},
+    {"label": "Fringed hems", "pct": 12}
+  ],
+  "codes": ["the jacket over a wide trouser as the uniform", "mint and yellow as the signal", "the fringed slip as the night"]
+}
