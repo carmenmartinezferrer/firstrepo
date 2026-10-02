@@ -66,6 +66,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the short as the base, open-work as the signature, black as the night shift.
 - Decode in `examples/isabel-marant-ss27.json`.
 
+#### Loewe SS27 (McCollough & Hernandez, 3rd show): commercial RTW, co-ed, 66 looks
+- **Palette:** black 17, mint/green 17, beige/khaki 12, yellow 11, brown 8, ochre/mustard 8, white/cream 6, floral print 6, red/orange 6, blue 6, olive 4 (sums to 101: equal counts kept equal).
+- **Silhouette:** jacket + trouser 24, coat 14, jacket + short or mini 12, mini dress 12, top + trouser 11, slip dress 9, top + skirt 8, top + shorts 6, maxi dress 4.
+- **Material:** knit 18, cotton shirting & gabardine 17, tailoring 15, leather & suede 14, technical nylon 14, sheer slips & glass-bead stripes 12, floral prints 6, fluffy bouclé 4.
+- **Other:** brights (yellow, mint/green, red/orange, blue) 39%, wide trousers 35%, fringed hems 12%.
+- **The codes are:** the jacket over a wide trouser as the uniform, mint and yellow as the signal, the fringed slip as the night.
+- Decode in `examples/loewe-ss27.json`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
