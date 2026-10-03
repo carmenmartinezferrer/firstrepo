@@ -1,49 +1,49 @@
 <!--
-DRAFT 1, TEXT ONLY, for Carmen's review. No HTML, no images, no build yet.
+DRAFT 2, TEXT ONLY, for Carmen's review. No HTML, no images, no build yet.
 Personal Essay format (dfb-personal-essay skill).
-Lines marked [CHECK] need Carmen to confirm or fill in before this goes further.
-The "What I Learned" section is PROPOSED from her notes, since the notes stopped
-at "my learnings", swap in her own wherever they differ.
+Changes from draft 1: Milan confirmed as invite only, London section now uses
+Carmen's own note about leveraging living there and the full time job, whole
+piece loosened to sound less AI, learnings turned into a bullet list.
+Learnings are still PROPOSED from her notes, she hasn't written her own yet.
 -->
 
 # What I Learned From My First Real Fashion Week Season (And the Stella McCartney Show I Didn't Go To)
 
-## Nine months of posting, one very unexpected inbox, and a train ticket I refused to pay for
+## Nine months of posting, a very unexpected inbox, and a train ticket I refused to pay for
 
-Nine months ago I started posting content, and I genuinely did not think that by this fashion week season I would be getting invites to shows. Not just one or two either, loads of them, for emerging designers and for not so emerging ones, plus Moschino in Milan and Stella McCartney in Paris. Me! The data girl with the spreadsheets! [CHECK: did you attend Moschino in Milan, or was it an invite you didn't take up? The notes say invited, not attended, so I've kept it as an invite for now.]
+I started posting content around nine months ago, and this season I got invited to loads of shows, from emerging designers to some not so emerging ones, plus Moschino in Milan and Stella McCartney in Paris. I didn't make it to Milan, it was just the invite, but still, I had to read that email a couple of times to make sure it was actually for me.
 
-To be completely honest, all of this was totally new for me. My following has grown a lot in the past few months, and I still have the reflex of checking twice whether an email is actually meant for me. So this piece is less about what was on the runway (I'll get to that in the data pieces, don't worry) and more about what it actually felt like, and what I'd tell anyone who is a few months into posting and wondering whether any of this is possible for them.
+This was all totally new for me. My following has grown a lot in the past few months and I'm still getting used to it, so this one isn't about what was on the runway (that's coming in the data pieces, don't worry), it's more about what it was actually like and what I'd tell anyone a few months into posting who's wondering if any of this can happen to them.
 
 ## London was absolutely MAD
 
-London is home, so this is the one I actually worked for. I did a lot of outreach to brands, all of it run through the magical spreadsheet, which I've already written about [here](LINK: your spreadsheet post) if you want the full system. [CHECK: your note says "i am not for london since i live here", I've read it as "London was different because I live here, so I did the outreach myself", tell me if you meant something else.]
+I live in London, so I basically leveraged that and did a lot of outreach to brands, all of it through the magical spreadsheet (I have a whole post about it [here](LINK: your spreadsheet post) if you want the system).
 
-And it was MAD, in the best possible way. I had a few campaigns running at the same time, invites to shows, plans around the shows, and the whole city had this energy that made it impossible to go home early. I did not get invited to the McQueen show, but they invited me to the after party, and honestly? It was just soooo good. I loved every second of it, and at some point that night I remember thinking that I couldn't quite believe this was my life now.
+And it was MAD. I had a few campaigns going on, invites to shows and plans around all of it, and the city had so much energy that I didn't want to go home. I didn't get invited to McQueen, but they invited me to the after party, and it was just soooo good, I loved it and I couldn't believe this was my life.
+
+Doing all of this with a full time job is a lot, and I do not recommend it if you can't keep up with the stress lol. But it's so addictive to work on a project that's yours. I love my job and it's extremely interesting, I do the strategy for one of the biggest fashion marketplaces in the world and get to work on super exciting projects, but The Data Fashion Brief hits different, it's just an extension of me.
 
 ## Milan and Paris, which I wasn't even planning to go to
 
-Here's the funny part. For everything outside London, I had done zero outreach and zero planning, because I was NOT planning to go at all. Everything that came in was inbound, which is a very different feeling from chasing an invite, and a much more confusing one when you haven't booked a single thing.
+Everything outside London was inbound. I wasn't planning to go at all, so I hadn't planned anything, and somehow the invites came anyway.
 
-Then came Paris. Last minute, I got an email from the PR team at Stella McCartney, and I managed to get invited to the show the day before. I wish I could tell you I went, I really do. It was right on that fine line between "I have to go, it's going to be amazing" and "this makes no sense right now". Loads of people I'd met were going to be there, so it would have been a full day, and since it's doable as a day trip from London it should have been fine. The thing is that the train tickets were, of course, in the clouds, and I have a full time job, so it would have been a bit disruptive too. I waited until the very last minute to decide, and in the end I told myself that if I had made it this far with a small following and only a few months of posting, I would make it next time.
+Then Paris. Last minute I got an email from the PR team at Stella McCartney and I managed to get invited to the show the day before. I wish I could say I went! It was that fine line between "I have to go, it's going to be amazing" and "this is a bit much", because loads of people I'd met were going to be there, I'd have had a full day, and it's a day trip from London so it should have been fine. But the train tickets were of course in the clouds, it would have been disruptive with work, and I waited until the very last minute to decide. In the end I thought, if I made it here with a small following and only a few months of posting, I'll make it next time.
 
-So, until next time, Stella!
+So until next time, Stella!
 
 ## What I Learned
 
-[PROPOSED from your notes, replace or rewrite in your own words, these are the threads I could see, not your conclusions.]
+[PROPOSED from your notes, swap in your own wherever they differ]
 
-**The outreach is the work, and the inbound is what it buys you.** London happened because I sat down with the spreadsheet and emailed brands one by one, and I'm fairly sure Milan and Paris only landed in my inbox because London had already put me on a few radars. Nobody tells you that the cold emails you send in month three are what make the warm ones show up in month nine.
+- The outreach I did for London is probably why Milan and Paris ended up in my inbox at all, so the boring emails you send early on really do pay off later.
+- You don't need a huge following to get invited, I'm a few months in and still got invites I didn't think were meant for me yet. [CHECK: keep only if this matches your read]
+- If you don't get the show, go to the after party! Missing McQueen and ending up at the after party was one of my favourite nights of the whole season.
+- Plan for the invites you're not expecting, because my Paris problem wasn't the invite, it was that I had no budget or days off set aside, so the train prices decided for me.
+- Having a full time job and doing this on the side is a lot, so be honest with yourself about how much stress you can take, and it's ok to say no to things.
+- Doing something that's yours is addictive, and that's what keeps me going when it gets mad.
 
-**You don't need a huge following to get in the room.** I'm a few months in with a following I would still call small, and I was getting invites I didn't think were meant for people like me yet. Brands are clearly looking at what you post and who you are, not only at the number on your profile. [CHECK: only keep this if it matches your read, I don't want to state why brands invited you as fact.]
+## Would I do it all again?
 
-**Say yes to the after party, even when you didn't get the show.** Not getting the McQueen invite and then ending up at the after party was one of the best nights of the whole season, and a "no" to one thing very often comes with a "yes" to something else attached.
+Yes, 100%, but a lot more organised this time! Nine months ago I would have laughed if you'd told me I'd be turning down a Stella McCartney show because of train prices, and I'm still a bit in shock that I get to write that sentence.
 
-**Plan for the things you think you won't be invited to.** My Paris problem wasn't the invite, it was that I hadn't planned for it, so the train decided for me. Next season I'm keeping a small budget and a couple of days of holiday aside just in case, because "I wasn't expecting it" turned out to be an expensive way to miss a show.
-
-**It's ok to say no when you have a full time job.** I love my job, and fashion week doesn't pause it. Skipping Paris felt painful at the time, but deciding that next time is fine was the right call for me, and I'd rather build this sustainably than burn out chasing every invite.
-
-## So, would I do it all again?
-
-Absolutely, and a lot more organised this time! If you had told me nine months ago that I'd be turning down a Stella McCartney show because of train prices, I would have laughed at you, and I'm still a little bit in shock that that's a real sentence I get to write.
-
-Have you ever had to turn down something you'd been dreaming about because the timing just wasn't right? Or are you a few months into posting and wondering if any of this is possible for you? Tell me in the comments, I read you.
+Have you ever said no to something you'd been dreaming about because the timing just wasn't right? Or are you a few months into posting and wondering if this could happen to you? Tell me in the comments, I read you.
