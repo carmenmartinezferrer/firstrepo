@@ -188,6 +188,14 @@ comparable, not just their labels.
   a Runway Decode export, always paired with an edition name (e.g. "NYFW
   Edition"). Don't confuse it with the piece's actual structure, which
   still follows whichever pattern above actually fits the data.
+- **Personal Essay** (no data, no charts): career reflections, learnings
+  from a fashion week, a personal take on the industry. Not every piece
+  is a data piece, the non-negotiables about not fabricating facts and
+  not writing short punchy fragments still apply, but there's no
+  taxonomy, no tagging, no methodology section, personal opinion is the
+  whole point rather than something a chart earns the right to include.
+  `.claude/skills/dfb-personal-essay` captures the build logic, which
+  references point to use for voice versus structure.
 
 ## HTML build template
 
