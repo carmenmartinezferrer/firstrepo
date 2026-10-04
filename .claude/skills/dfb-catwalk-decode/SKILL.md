@@ -22,7 +22,7 @@ Before starting, read:
    - **Material:** give each look its dominant fabric. Sums to 100%. Mention secondary fabrics in the notes.
    - **Trends and details** (fur cuffs, slits, minis, bows): share of looks showing it. These can overlap, so they don't need to sum to 100.
    - **Rounding:** use whole numbers that add up to 100. Round everything down, then hand out the missing points one at a time to the categories with the biggest leftover decimals. **Equal counts get equal %**: categories with the same number of looks move up or down together. If that makes the total 101 or 99, keep it and say so, rather than giving equal counts different %.
-4. **Rebuild categories per show.** Don't force a generic list. If a show runs on one formula (Saint Laurent pencil skirts), split the categories finely enough to show the variations. Name categories the way the house speaks: "velvet jacket + bow + pencil skirt", not "two-piece".
+4. **Rebuild categories per show.** Don't force a generic list. Never use bare piece-counts like "top + skirt", "dress" or "jacket + trouser" (Carmen's rule: too basic). Name the type and the detail that makes it this show's: "crop top + pleated skirt", "blazer + track pants", "crinkled dress / bubble mini", "leather on leather". If a show runs on one formula (Saint Laurent pencil skirts), split the categories finely enough to show the variations. Name categories the way the house speaks: "velvet jacket + bow + pencil skirt", not "two-piece".
 5. **Caption every time**, in the format and voice in `references/house-style.md`.
 
 ## Workflow per brand

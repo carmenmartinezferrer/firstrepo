@@ -74,28 +74,75 @@
   ],
   "silhouette": [
     {
-      "label": "Top + skirt",
-      "pct": 27
+      "label": "Leather on leather",
+      "pct": 12,
+      "keep": true
     },
     {
-      "label": "Top/jacket + shorts",
-      "pct": 20
-    },
-    {
-      "label": "Dress",
-      "pct": 19
-    },
-    {
-      "label": "Jacket + skirt",
-      "pct": 13
-    },
-    {
-      "label": "Jacket + trouser",
-      "pct": 12
-    },
-    {
-      "label": "Top + trouser",
+      "label": "Crop top + pleated skirt",
       "pct": 9
+    },
+    {
+      "label": "Crinkled dress / bubble mini",
+      "pct": 9
+    },
+    {
+      "label": "Panel tank or halter dress",
+      "pct": 9
+    },
+    {
+      "label": "Sweater + trouser or jeans",
+      "pct": 9
+    },
+    {
+      "label": "Sporty shorts set",
+      "pct": 8
+    },
+    {
+      "label": "Blazer + track pants",
+      "pct": 7
+    },
+    {
+      "label": "Blazer + tiny shorts",
+      "pct": 7
+    },
+    {
+      "label": "Track jacket + shorts",
+      "pct": 5
+    },
+    {
+      "label": "Jacket + jeans or trouser",
+      "pct": 5
+    },
+    {
+      "label": "Check blazer + plaid skirt",
+      "pct": 4,
+      "keep": true
+    },
+    {
+      "label": "Leather jacket + skirt",
+      "pct": 3,
+      "keep": true
+    },
+    {
+      "label": "Slip dress over sweater",
+      "pct": 3
+    },
+    {
+      "label": "Bow top + metallic skirt",
+      "pct": 3
+    },
+    {
+      "label": "Sweater + mini",
+      "pct": 3
+    },
+    {
+      "label": "Other skirt looks",
+      "pct": 3
+    },
+    {
+      "label": "Dress + track jacket",
+      "pct": 1
     }
   ],
   "material": [
