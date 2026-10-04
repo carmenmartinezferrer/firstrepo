@@ -82,6 +82,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** black as the uniform, the blazer over a wide trouser as the formula, satin for night.
 - Decode in `examples/celine-ss27.json`.
 
+#### Miu Miu SS27: commercial RTW, co-ed, 75 looks
+- **Palette:** brown 12, navy 12, beige/tan/cream 12, red/burgundy 10, green/lime/teal 8, yellow/gold 8, black 7, orange 7, print 7, pink 5, purple 4, grey/silver 4, blue 4.
+- **Silhouette:** top + skirt 27, top/jacket + shorts 20, dress 19, jacket + skirt 13, jacket + trouser 12, top + trouser 9.
+- **Material:** leather 23, check & plaid wool 17, sporty jersey 17, silk prints 11, tailoring 10, crinkled nylon 10, denim 5, knit & crochet 5, satin & metallic 3 (sums to 101).
+- **Other:** leather 23%, bare midriff 21%, shorts 20%, track jacket/pants 17%.
+- **The codes are:** the tiny short as the signature, leather as the uniform, the track jacket as the twist.
+- Decode in `examples/miu-miu-ss27.json`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
