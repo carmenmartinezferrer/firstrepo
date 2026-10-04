@@ -90,6 +90,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the tiny short as the signature, leather as the uniform, the track jacket as the twist.
 - Decode in `examples/miu-miu-ss27.json`.
 
+#### Valentino SS27 (Alessandro Michele, "Antibiblioteca", Bibliothèque Sainte-Geneviève): commercial RTW, co-ed, 80 looks
+- **Palette:** black 12, pink/fuchsia 12, cream/beige/nude 12, print 10, emerald green 8, aqua/mint 8, purple/lilac 8, grey/silver 8, red/coral 6, yellow/chartreuse 6, brown/camel 5, cobalt blue 5.
+- **Silhouette:** blazer + pleated wide trouser 14, feather-hem skirt + top 8, column gown + train 8, trench or long coat 6, print or sequin top + trouser 6, bustier + bubble bloomers 5, bustier + column maxi skirt 5, bow or halter top + slim skirt 5, ruffled cocktail dress 5, printed draped dress 5, shirt + pleated wide trouser 5, satin shirt + soft trouser 5, satin bustier + plissé skirt 4, lace bustier + lace skirt 4, fringed skirt + top 4, feather jacket + slip skirt 4, tailored jacket + shorts 4, jacket + mermaid/pencil skirt 2, check wrap dress 2 (sums to 101: equal counts kept equal). Canva: pages 3–4 = top 8 silhouette formulas (same as Miu Miu).
+- **Material:** satin 18, tailoring 16, feathers/fringe/sequins 13, plissé & chiffon 11, cotton shirting & gabardine 11, lace 9, knit & tweed 7, taffeta & velvet 6, silk prints 5, leather 4.
+- **Other:** wide/pleated trouser 36%, menswear 33%, bustier/strapless top 30%, feather trims 15%, gowns 8%; black concentrated in the finale block (looks 64–72).
+- **The codes are:** the bustier as the top, the pleated wide trouser as the men's rule, feathers on the hem.
+- Decode in `examples/valentino-ss27.json`. Canva `DAHXFKQ_hEk`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.

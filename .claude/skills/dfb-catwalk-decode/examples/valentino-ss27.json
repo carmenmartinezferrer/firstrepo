@@ -1,0 +1,220 @@
+{
+  "brand": "Valentino",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "commercial RTW (co-ed)",
+  "looks": 80,
+  "palette": [
+    {
+      "label": "Black",
+      "pct": 12,
+      "hex": "#111111"
+    },
+    {
+      "label": "Pink/fuchsia",
+      "pct": 12,
+      "hex": "#D93A7E"
+    },
+    {
+      "label": "Cream/beige/nude",
+      "pct": 12,
+      "hex": "#E3D2B4"
+    },
+    {
+      "label": "Print",
+      "pct": 10,
+      "hex": "#9C6B3A"
+    },
+    {
+      "label": "Emerald green",
+      "pct": 8,
+      "hex": "#1F8A55"
+    },
+    {
+      "label": "Aqua/mint",
+      "pct": 8,
+      "hex": "#4CC7C0"
+    },
+    {
+      "label": "Purple/lilac",
+      "pct": 8,
+      "hex": "#8A4FB0"
+    },
+    {
+      "label": "Grey/silver",
+      "pct": 8,
+      "hex": "#A7AAB0"
+    },
+    {
+      "label": "Red/coral",
+      "pct": 6,
+      "hex": "#D23A3A"
+    },
+    {
+      "label": "Yellow/chartreuse",
+      "pct": 6,
+      "hex": "#D8D23A"
+    },
+    {
+      "label": "Brown/camel",
+      "pct": 5,
+      "hex": "#8A5A33"
+    },
+    {
+      "label": "Cobalt blue",
+      "pct": 5,
+      "hex": "#2F4FC9"
+    }
+  ],
+  "silhouette": [
+    {
+      "label": "Blazer + pleated wide trouser",
+      "pct": 14
+    },
+    {
+      "label": "Feather-hem skirt + top",
+      "pct": 8,
+      "keep": true
+    },
+    {
+      "label": "Column gown + train",
+      "pct": 8
+    },
+    {
+      "label": "Trench or long coat",
+      "pct": 6
+    },
+    {
+      "label": "Print or sequin top + trouser",
+      "pct": 6
+    },
+    {
+      "label": "Bustier + bubble bloomers",
+      "pct": 5
+    },
+    {
+      "label": "Bustier + column maxi skirt",
+      "pct": 5
+    },
+    {
+      "label": "Bow or halter top + slim skirt",
+      "pct": 5
+    },
+    {
+      "label": "Ruffled cocktail dress",
+      "pct": 5
+    },
+    {
+      "label": "Printed draped dress",
+      "pct": 5
+    },
+    {
+      "label": "Shirt + pleated wide trouser",
+      "pct": 5
+    },
+    {
+      "label": "Satin shirt + soft trouser",
+      "pct": 5
+    },
+    {
+      "label": "Satin bustier + plissé skirt",
+      "pct": 4
+    },
+    {
+      "label": "Lace bustier + lace skirt",
+      "pct": 4,
+      "keep": true
+    },
+    {
+      "label": "Fringed skirt + top",
+      "pct": 4
+    },
+    {
+      "label": "Feather jacket + slip skirt",
+      "pct": 4
+    },
+    {
+      "label": "Tailored jacket + shorts",
+      "pct": 4
+    },
+    {
+      "label": "Jacket + mermaid/pencil skirt",
+      "pct": 2
+    },
+    {
+      "label": "Check wrap dress",
+      "pct": 2
+    }
+  ],
+  "material": [
+    {
+      "label": "Satin",
+      "pct": 18
+    },
+    {
+      "label": "Tailoring",
+      "pct": 16
+    },
+    {
+      "label": "Feathers, fringe & sequins",
+      "pct": 13
+    },
+    {
+      "label": "Plissé & chiffon",
+      "pct": 11
+    },
+    {
+      "label": "Cotton shirting & gabardine",
+      "pct": 11
+    },
+    {
+      "label": "Lace",
+      "pct": 9
+    },
+    {
+      "label": "Knit & tweed",
+      "pct": 7
+    },
+    {
+      "label": "Taffeta & velvet",
+      "pct": 6
+    },
+    {
+      "label": "Silk prints",
+      "pct": 5
+    },
+    {
+      "label": "Leather",
+      "pct": 4
+    }
+  ],
+  "other": [
+    {
+      "label": "Wide or pleated trouser",
+      "pct": 36
+    },
+    {
+      "label": "Menswear looks",
+      "pct": 33
+    },
+    {
+      "label": "Bustier / strapless top",
+      "pct": 30
+    },
+    {
+      "label": "Feather hems, cuffs or collars",
+      "pct": 15
+    },
+    {
+      "label": "Gowns (finale)",
+      "pct": 8
+    }
+  ],
+  "codes": [
+    "the bustier as the top",
+    "the pleated wide trouser as the men's rule",
+    "feathers on the hem"
+  ],
+  "notes": "Silhouette sums to 101: equal counts kept equal (6 looks = 8%). Looks counted in runway order from 9 screenshots; designer bow not counted."
+}
