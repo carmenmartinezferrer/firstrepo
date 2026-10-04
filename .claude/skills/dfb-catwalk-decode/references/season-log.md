@@ -74,6 +74,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the jacket over a wide trouser as the uniform, mint and yellow as the signal, the fringed slip as the night.
 - Decode in `examples/loewe-ss27.json`.
 
+#### Celine SS27 (Michael Rider): house-formula lock, co-ed, 71 looks
+- **Palette:** black 38, white 21, camel/brown 11, navy/blue 7, beige/cream 6, print 6, gold/yellow 4, grey 3, red/pink 3, olive 1.
+- **Silhouette:** jacket + trouser 35, dress 23, top + trouser 18, coat 17, top + skirt 6, top + shorts 1.
+- **Material:** tailoring 35, satin & velvet 20, cotton & gabardine 17, leather & suede 8, prints & brocade 8, knit 6, embellished 3, technical 3.
+- **Other:** wide trousers 54%, black + white 59%.
+- **The codes are:** black as the uniform, the blazer over a wide trouser as the formula, satin for night.
+- Decode in `examples/celine-ss27.json`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -92,7 +100,7 @@ Prada 82 · Gucci 28 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · 
 - Open question: Saint Laurent is a knee-length pencil skirt (~60%), not a midi. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
-Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white)
+Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black)
 
 ## Pending
 - **Balmain:** needs screenshots. The Canva template shows Balmain numbers, but the handover lists Balmain as pending. Ask Carmen whether those numbers are real before using them anywhere.
