@@ -4,7 +4,9 @@ London events section extended. Lines marked [ADD] or [CHECK] need her input,
 nothing has been invented about what happened at each event.
 -->
 
-# What I Learned From My First Real Fashion Week Season (And the Stella McCartney Show I Didn't Go To)
+# What I Learned From My First Real Fashion Week Season (The Things I Did and the Ones I Didn't)
+
+## Everything you need to know if you're a few months into posting and wondering whether those invites could land in your inbox too
 
 I started posting content around nine months ago, and this season I got invited to loads of shows, from emerging designers to some not so emerging ones, plus Moschino in Milan and Stella McCartney in Paris. Unfortunately I didn't make it to either Milan or Paris, but just getting invited was an "OMG, what?" moment, followed by reading the email a couple of times to make sure it was actually meant for me.
 
