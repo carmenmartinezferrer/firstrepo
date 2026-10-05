@@ -1,0 +1,178 @@
+{
+  "brand": "Chanel",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "house-formula lock",
+  "looks": 83,
+  "palette": [
+    {
+      "label": "Black",
+      "pct": 22,
+      "hex": "#111111"
+    },
+    {
+      "label": "White/cream",
+      "pct": 17,
+      "hex": "#F4F1EA"
+    },
+    {
+      "label": "Grey",
+      "pct": 14,
+      "hex": "#9A9CA1"
+    },
+    {
+      "label": "Brown/beige/rust",
+      "pct": 12,
+      "hex": "#9B6A43"
+    },
+    {
+      "label": "Red/burgundy",
+      "pct": 11,
+      "hex": "#C1272D"
+    },
+    {
+      "label": "Print",
+      "pct": 6,
+      "hex": "#7A3B55"
+    },
+    {
+      "label": "Pink",
+      "pct": 4,
+      "hex": "#E8A0B8"
+    },
+    {
+      "label": "Yellow",
+      "pct": 4,
+      "hex": "#E9C32E"
+    },
+    {
+      "label": "Pale blue/mint",
+      "pct": 4,
+      "hex": "#A9CFDA"
+    },
+    {
+      "label": "Green",
+      "pct": 4,
+      "hex": "#7FA83A"
+    },
+    {
+      "label": "Navy",
+      "pct": 2,
+      "hex": "#1F2A4D"
+    },
+    {
+      "label": "Orange",
+      "pct": 1,
+      "hex": "#E8742A"
+    }
+  ],
+  "silhouette": [
+    {
+      "label": "Contrast jacket + pencil skirt",
+      "pct": 24
+    },
+    {
+      "label": "Matching tweed skirt suit",
+      "pct": 16,
+      "keep": true
+    },
+    {
+      "label": "Sheer top + pencil skirt",
+      "pct": 12,
+      "keep": true
+    },
+    {
+      "label": "Tweed sheath dress",
+      "pct": 12,
+      "keep": true
+    },
+    {
+      "label": "Jacket or vest + trouser",
+      "pct": 10,
+      "keep": true
+    },
+    {
+      "label": "Cropped jacket + short",
+      "pct": 8
+    },
+    {
+      "label": "Sequin or sheer column dress",
+      "pct": 6
+    },
+    {
+      "label": "Coat or trench",
+      "pct": 6
+    },
+    {
+      "label": "Gown or tulle ballerina skirt",
+      "pct": 6
+    }
+  ],
+  "material": [
+    {
+      "label": "Tweed & bouclé",
+      "pct": 47
+    },
+    {
+      "label": "Sheer mesh, knit & lace",
+      "pct": 13
+    },
+    {
+      "label": "Tailoring",
+      "pct": 13
+    },
+    {
+      "label": "Satin & silk",
+      "pct": 10
+    },
+    {
+      "label": "Sequins",
+      "pct": 5
+    },
+    {
+      "label": "Prints & patchwork",
+      "pct": 5
+    },
+    {
+      "label": "Leather",
+      "pct": 4
+    },
+    {
+      "label": "Tulle",
+      "pct": 4
+    }
+  ],
+  "other": [
+    {
+      "label": "Knee-to-midi pencil skirt",
+      "pct": 52
+    },
+    {
+      "label": "Tweed",
+      "pct": 47
+    },
+    {
+      "label": "Black",
+      "pct": 22
+    },
+    {
+      "label": "Sheer layer (skirt, top or dress)",
+      "pct": 14
+    },
+    {
+      "label": "Jacket + trouser",
+      "pct": 10
+    },
+    {
+      "label": "Bare midriff under an open jacket",
+      "pct": 6
+    }
+  ],
+  "codes": [
+    "tweed as the constant",
+    "the pencil skirt as the line",
+    "sheer as the twist"
+  ],
+  "notes": "83 looks from 10 screenshots (two were repeats). Palette and material each sum to 101: equal counts kept equal. The order of the first three screens could not be checked against cut-off rows."
+}

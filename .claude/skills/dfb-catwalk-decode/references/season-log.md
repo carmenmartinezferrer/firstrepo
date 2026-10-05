@@ -106,6 +106,15 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the shelf shoulder as the frame, fringe as the movement, black as the base.
 - Decode in `examples/mugler-ss27.json`. Canva `DAHXJOKZlhw`.
 
+#### Chanel SS27 (Matthieu Blazy): house-formula lock, 83 looks
+- **Palette:** black 22, white/cream 17, grey 14, brown/beige/rust 12, red/burgundy 11, print 6, pink 4, yellow 4, pale blue/mint 4, green 4, navy 2, orange 1 (sums to 101: equal counts kept equal).
+- **Silhouette:** contrast jacket + pencil skirt 24, matching tweed skirt suit 16, sheer top + pencil skirt 12, tweed sheath dress 12, jacket or vest + trouser 10, cropped jacket + short 8, sequin or sheer column dress 6, coat or trench 6, gown or tulle ballerina skirt 6.
+- **Material:** tweed & bouclé 47, sheer mesh/knit/lace 13, tailoring 13, satin & silk 10, sequins 5, prints & patchwork 5, leather 4, tulle 4 (sums to 101).
+- **Other:** knee-to-midi pencil skirt 52% (43/83), sheer layer 14%, jacket + trouser 10%, bare midriff under an open jacket 6%.
+- **The codes are:** tweed as the constant, the pencil skirt as the line, sheer as the twist.
+- Order of the first three screenshots couldn't be checked against cut-off rows; count may be off by a row if one was skipped.
+- Decode in `examples/chanel-ss27.json`. Canva `DAHXLFSd8cs`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -121,7 +130,7 @@ Update this file after every decode: brand line, trackers, pending list.
 ### Midi share (% of looks)
 Prada 82 · Gucci 28 · Valentino 25 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · Burberry 14 · Dior 14 (Set A) · McQueen 10 · MM6 7 · Cavalli 4 · Missoni 3
 
-- Open question: Saint Laurent is a knee-length pencil skirt (~60%), not a midi. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
+- Open question: Saint Laurent (~60%) and Chanel (52%) are knee-to-midi pencil skirts, not true midis. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
 Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black) · Mugler 39 (black)
