@@ -208,6 +208,18 @@
     {
       "label": "Gowns (finale)",
       "pct": 8
+    },
+    {
+      "label": "Midi skirt",
+      "pct": 25
+    },
+    {
+      "label": "Cummerbund / wide waist sash",
+      "pct": 16
+    },
+    {
+      "label": "Mini top (bustier, bandeau, bow top) + midi skirt",
+      "pct": 16
     }
   ],
   "codes": [
