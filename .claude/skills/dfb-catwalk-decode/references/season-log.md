@@ -98,6 +98,14 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the bustier as the top, the pleated wide trouser as the men's rule, feathers on the hem.
 - Decode in `examples/valentino-ss27.json`. Canva `DAHXFKQ_hEk`.
 
+#### Mugler SS27 (Miguel Castro Freitas): commercial RTW, 43 looks
+- **Palette:** black 39, animal print 12, lilac/purple 9, brown/bronze 7, green/olive/chartreuse 7, multicolour feather print 5, silver/grey 5, burgundy 5, mint/aqua 5, cream/nude 2, orange 2, pink 2.
+- **Silhouette:** shelf-shoulder jacket + flare 19, fringe or feather dress 9, leather pencil skirt + top 9, mermaid or column gown 9, print or jersey column dress 9, bodysuit + volume skirt/train 9, cut-out jacket + trouser/skirt 7, sculpted jacket + hot pants 7, fringe maxi skirt + top 7, satin shirt-jacket + flare 5, bandeau + leather/python pant 5, sheer or feather top + trouser 5.
+- **Material:** duchesse satin 26, fringe/feathers/fur 23, tailoring 19, leather/croc/python 16, animal-print silk & stretch 7, jersey & drape 7, sheer embroidered tulle 2.
+- **Other:** shelf/sculpted-shoulder jacket 33%, fringe or feathers anywhere 30%, animal skins & prints 19%, cut-outs/under-bust 9%.
+- **The codes are:** the shelf shoulder as the frame, fringe as the movement, black as the base.
+- Decode in `examples/mugler-ss27.json`. Canva `DAHXJOKZlhw`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -116,7 +124,7 @@ Prada 82 · Gucci 28 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · 
 - Open question: Saint Laurent is a knee-length pencil skirt (~60%), not a midi. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
-Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black)
+Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black) · Mugler 39 (black)
 
 ## Pending
 - **Balmain:** needs screenshots. The Canva template shows Balmain numbers, but the handover lists Balmain as pending. Ask Carmen whether those numbers are real before using them anywhere.

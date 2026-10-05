@@ -1,0 +1,180 @@
+{
+  "brand": "Mugler",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "commercial RTW",
+  "looks": 43,
+  "palette": [
+    {
+      "label": "Black",
+      "pct": 39,
+      "hex": "#111111"
+    },
+    {
+      "label": "Animal print",
+      "pct": 12,
+      "hex": "#B89A6A"
+    },
+    {
+      "label": "Lilac/purple",
+      "pct": 9,
+      "hex": "#A58BD6"
+    },
+    {
+      "label": "Brown/bronze",
+      "pct": 7,
+      "hex": "#7A4E2D"
+    },
+    {
+      "label": "Green/olive/chartreuse",
+      "pct": 7,
+      "hex": "#6E8F2A"
+    },
+    {
+      "label": "Multicolour feather print",
+      "pct": 5,
+      "hex": "#D96A8C"
+    },
+    {
+      "label": "Silver/grey",
+      "pct": 5,
+      "hex": "#B8B9BE"
+    },
+    {
+      "label": "Burgundy",
+      "pct": 5,
+      "hex": "#6E1F2E"
+    },
+    {
+      "label": "Mint/aqua",
+      "pct": 5,
+      "hex": "#9FD6C8"
+    },
+    {
+      "label": "Cream/nude",
+      "pct": 2,
+      "hex": "#E8DCC4"
+    },
+    {
+      "label": "Orange",
+      "pct": 2,
+      "hex": "#E8902A"
+    },
+    {
+      "label": "Pink",
+      "pct": 2,
+      "hex": "#F2A7C3"
+    }
+  ],
+  "silhouette": [
+    {
+      "label": "Shelf-shoulder jacket + flare",
+      "pct": 19
+    },
+    {
+      "label": "Fringe or feather dress",
+      "pct": 9,
+      "keep": true
+    },
+    {
+      "label": "Leather pencil skirt + top",
+      "pct": 9,
+      "keep": true
+    },
+    {
+      "label": "Mermaid or column gown",
+      "pct": 9
+    },
+    {
+      "label": "Print or jersey column dress",
+      "pct": 9
+    },
+    {
+      "label": "Bodysuit + volume skirt/train",
+      "pct": 9
+    },
+    {
+      "label": "Cut-out jacket + trouser/skirt",
+      "pct": 7
+    },
+    {
+      "label": "Sculpted jacket + hot pants",
+      "pct": 7
+    },
+    {
+      "label": "Fringe maxi skirt + top",
+      "pct": 7
+    },
+    {
+      "label": "Satin shirt-jacket + flare",
+      "pct": 5
+    },
+    {
+      "label": "Bandeau + leather/python pant",
+      "pct": 5
+    },
+    {
+      "label": "Sheer or feather top + trouser",
+      "pct": 5
+    }
+  ],
+  "material": [
+    {
+      "label": "Duchesse satin",
+      "pct": 26
+    },
+    {
+      "label": "Fringe, feathers & fur",
+      "pct": 23
+    },
+    {
+      "label": "Tailoring",
+      "pct": 19
+    },
+    {
+      "label": "Leather, croc & python",
+      "pct": 16
+    },
+    {
+      "label": "Animal-print silk & stretch",
+      "pct": 7
+    },
+    {
+      "label": "Jersey & drape",
+      "pct": 7
+    },
+    {
+      "label": "Sheer embroidered tulle",
+      "pct": 2
+    }
+  ],
+  "other": [
+    {
+      "label": "Black",
+      "pct": 39
+    },
+    {
+      "label": "Shelf/sculpted-shoulder jacket",
+      "pct": 33
+    },
+    {
+      "label": "Fringe or feathers anywhere",
+      "pct": 30
+    },
+    {
+      "label": "Animal skins & prints (leopard, zebra, python, croc)",
+      "pct": 19
+    },
+    {
+      "label": "Cut-outs / under-bust crop",
+      "pct": 9
+    }
+  ],
+  "codes": [
+    "the shelf shoulder as the frame",
+    "fringe as the movement",
+    "black as the base"
+  ],
+  "notes": "43 looks in runway order from 5 screenshots; designer bow not counted."
+}
