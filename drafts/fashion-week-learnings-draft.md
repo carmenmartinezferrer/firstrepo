@@ -4,7 +4,7 @@ London events section extended. Lines marked [ADD] or [CHECK] need her input,
 nothing has been invented about what happened at each event.
 -->
 
-# What I Learned From My First Real Fashion Week Season (The Things I Did and the Ones I Didn't)
+# My Learnings From My First Fashion Week Season (From the McQueen After Party to the Stella Show I Skipped)
 
 ## Everything you need to know if you're in fashion and wondering whether fashion week could happen for you too
 
