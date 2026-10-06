@@ -4,7 +4,7 @@ const fs = require('fs');
   const dir = process.argv[2], dest = process.argv[3];
   const m = JSON.parse(fs.readFileSync(dir + '/manifest.json'));
   const b = await chromium.launch();
-  const pg = await b.newPage({ viewport: { width: 1000, height: 900 }, deviceScaleFactor: 2 });
+  const pg = await b.newPage({ viewport: { width: 1400, height: 900 }, deviceScaleFactor: 2 });
   for (const c of m) {
     await pg.goto('file://' + dir + '/' + c.name + '.html');
     await pg.evaluate(() => document.fonts.ready);

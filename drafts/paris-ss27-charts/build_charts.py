@@ -38,6 +38,7 @@ def wrap(label, n=14):
 def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%', highlight=0):
     """items: list of (label, value). One bar in pink (index `highlight`), rest dark."""
     n = len(items)
+    W = max(1000, 100 + n * 150)  # wider canvas for many bars so labels never touch
     top, plot_h, left, right = 175, 360, 50, 50
     base = top + plot_h
     slot = min((W - left - right) / n, 165)
