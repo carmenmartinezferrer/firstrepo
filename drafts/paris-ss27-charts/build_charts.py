@@ -38,29 +38,30 @@ def wrap(label, n=14):
 def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%', highlight=0):
     """items: list of (label, value). One bar in pink (index `highlight`), rest dark."""
     n = len(items)
-    top, plot_h, left, right = 150, 360, 50, 50
+    top, plot_h, left, right = 175, 360, 50, 50
     base = top + plot_h
     slot = min((W - left - right) / n, 165)
     x0 = (W - slot * n) / 2
     bw = min(150, slot * 0.84)
     vmax = max(v for _, v in items)
-    wn = max(8, int(slot / 11.5))
+    wn = max(8, int(slot / 12.5))
+    vs = min(42, round(slot * 0.34))
     label_lines = max(len(wrap(l, wn)) for l, _ in items)
-    h = base + 40 + label_lines * 26 + 70
+    h = base + 46 + label_lines * 31 + 80
     p = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}">',
          f'<rect width="{W}" height="{h}" fill="#FFFFFF"/>',
-         f'<text x="{left}" y="70" font-family="{SERIF}" font-weight="700" font-size="46" fill="{INK}">{html.escape(title)}</text>',
-         f'<text x="{left}" y="108" font-family="{SANS}" font-size="20" fill="{MUTED}">{html.escape(subtitle)}</text>']
+         f'<text x="{left}" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">{html.escape(title)}</text>',
+         f'<text x="{left}" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(subtitle)}</text>']
     for i, (lab, v) in enumerate(items):
         cx = x0 + slot * (i + 0.5)
         bh = (v / vmax) * (plot_h - 70)
         col = PINK if i == highlight else DARK
         p.append(f'<rect x="{cx-bw/2:.1f}" y="{base-bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" fill="{col}"/>')
-        p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="32" fill="{INK}">{html.escape(fmt(v))}</text>')
+        p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="{vs}" fill="{INK}">{html.escape(fmt(v))}</text>')
         for j, line in enumerate(wrap(lab, wn)):
-            p.append(f'<text x="{cx:.1f}" y="{base+38+j*26}" text-anchor="middle" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(line)}</text>')
+            p.append(f'<text x="{cx:.1f}" y="{base+44+j*31}" text-anchor="middle" font-family="{SANS}" font-size="25" fill="{INK}">{html.escape(line)}</text>')
     p.append(f'<line x1="{x0-10:.1f}" y1="{base}" x2="{x0+slot*n+10:.1f}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
-    p.append(f'<text x="{left-10}" y="{h-28}" font-family="{SANS}" font-size="17" fill="{INK}">{html.escape(source)}</text>')
+    p.append(f'<text x="{left-10}" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(source)}</text>')
     p.append('</svg>')
     return name, '\n'.join(p), h
 
@@ -137,13 +138,15 @@ inner = inner.replace('Century Gothic, sans-serif', "Century Gothic, Questrial, 
 import re
 inner = re.sub(r'(<text x="98" y="40"[^>]*>)INDEPENDENT, COLOUR-FORWARD</text>', r'\1<tspan x="98">INDEPENDENT,</tspan><tspan x="98" dy="15">COLOUR-FORWARD</tspan></text>', inner)
 assert 'COLOUR-FORWARD</tspan>' in inner
-mh = 760
+inner = re.sub(r'font-size="(\d+)"', lambda m: f'font-size="{round(int(m.group(1))*1.3)}"', inner)
+inner = inner.replace('dy="15"', 'dy="19"')
+mh = 820
 msvg = '\n'.join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {mh}" width="{W}" height="{mh}">',
     f'<rect width="{W}" height="{mh}" fill="#FFFFFF"/>',
-    f'<text x="50" y="70" font-family="{SERIF}" font-weight="700" font-size="46" fill="{INK}">trend alignment vs colour intensity</text>',
-    f'<text x="50" y="108" font-family="{SANS}" font-size="20" fill="{MUTED}">how much of each house tracked the season, and how much of its palette went beyond neutrals</text>',
-    f'<g transform="translate(130,140) scale(1.12)">{inner}</g>',
-    f'<text x="40" y="{mh-28}" font-family="{SANS}" font-size="17" fill="{INK}">{html.escape(SRC)}, alignment score and non-neutral share of palette</text>',
+    f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">trend alignment vs colour</text>',
+    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">how closely each house tracked the season, and how colourful it went</text>',
+    f'<g transform="translate(110,165) scale(1.15)">{inner}</g>',
+    f'<text x="40" y="{mh-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(SRC)}</text>',
     '</svg>'])
 charts.append(('07-alignment-matrix', msvg, mh))
 

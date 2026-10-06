@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 646" width="1000" height="646">
-<rect width="1000" height="646" fill="#FFFFFF"/>
-<text x="50" y="70" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="46" fill="#222222">wool, by weave</text>
-<text x="50" y="108" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#6B6B6B">suiting does the heavy lifting, tweed is mostly chanel</text>
-<rect x="183.2" y="220.0" width="138.6" height="290.0" fill="#D6447A"/>
-<text x="252.5" y="206.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="32" fill="#222222">25%</text>
-<text x="252.5" y="548" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">suiting wool</text>
-<rect x="348.2" y="446.9" width="138.6" height="63.1" fill="#3A3A3A"/>
-<text x="417.5" y="432.9" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="32" fill="#222222">5%</text>
-<text x="417.5" y="548" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">tweed</text>
-<rect x="513.2" y="490.1" width="138.6" height="19.9" fill="#3A3A3A"/>
-<text x="582.5" y="476.1" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="32" fill="#222222">2%</text>
-<text x="582.5" y="548" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">wool crepe</text>
-<rect x="678.2" y="494.8" width="138.6" height="15.2" fill="#3A3A3A"/>
-<text x="747.5" y="480.8" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="32" fill="#222222">1%</text>
-<text x="747.5" y="548" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">bouclé</text>
-<line x1="160.0" y1="510" x2="840.0" y2="510" stroke="#BDBDBD" stroke-width="1.5"/>
-<text x="40" y="618" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="17" fill="#222222">Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, share of looks</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 692" width="1000" height="692">
+<rect width="1000" height="692" fill="#FFFFFF"/>
+<text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">wool, by weave</text>
+<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">suiting does the heavy lifting, tweed is mostly chanel</text>
+<rect x="183.2" y="245.0" width="138.6" height="290.0" fill="#D6447A"/>
+<text x="252.5" y="231.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">25%</text>
+<text x="252.5" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">suiting wool</text>
+<rect x="348.2" y="471.9" width="138.6" height="63.1" fill="#3A3A3A"/>
+<text x="417.5" y="457.9" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">5%</text>
+<text x="417.5" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">tweed</text>
+<rect x="513.2" y="515.1" width="138.6" height="19.9" fill="#3A3A3A"/>
+<text x="582.5" y="501.1" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">2%</text>
+<text x="582.5" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">wool crepe</text>
+<rect x="678.2" y="519.8" width="138.6" height="15.2" fill="#3A3A3A"/>
+<text x="747.5" y="505.8" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">1%</text>
+<text x="747.5" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">bouclé</text>
+<line x1="160.0" y1="535" x2="840.0" y2="535" stroke="#BDBDBD" stroke-width="1.5"/>
+<text x="40" y="662" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, share of looks</text>
 </svg>
