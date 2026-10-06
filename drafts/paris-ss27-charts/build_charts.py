@@ -40,8 +40,9 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%'
     n = len(items)
     top, plot_h, left, right = 150, 360, 50, 50
     base = top + plot_h
-    slot = (W - left - right) / n
-    bw = min(110, slot * 0.6)
+    slot = min((W - left - right) / n, 165)
+    x0 = (W - slot * n) / 2
+    bw = min(150, slot * 0.84)
     vmax = max(v for _, v in items)
     wn = max(8, int(slot / 11.5))
     label_lines = max(len(wrap(l, wn)) for l, _ in items)
@@ -51,14 +52,14 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%'
          f'<text x="{left}" y="70" font-family="{SERIF}" font-weight="700" font-size="46" fill="{INK}">{html.escape(title)}</text>',
          f'<text x="{left}" y="108" font-family="{SANS}" font-size="20" fill="{MUTED}">{html.escape(subtitle)}</text>']
     for i, (lab, v) in enumerate(items):
-        cx = left + slot * (i + 0.5)
+        cx = x0 + slot * (i + 0.5)
         bh = (v / vmax) * (plot_h - 70)
         col = PINK if i == highlight else DARK
         p.append(f'<rect x="{cx-bw/2:.1f}" y="{base-bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" fill="{col}"/>')
-        p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SERIF}" font-style="italic" font-weight="500" font-size="34" fill="{INK}">{html.escape(fmt(v))}</text>')
+        p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="32" fill="{INK}">{html.escape(fmt(v))}</text>')
         for j, line in enumerate(wrap(lab, wn)):
             p.append(f'<text x="{cx:.1f}" y="{base+38+j*26}" text-anchor="middle" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(line)}</text>')
-    p.append(f'<line x1="{left-10}" y1="{base}" x2="{W-right+10}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
+    p.append(f'<line x1="{x0-10:.1f}" y1="{base}" x2="{x0+slot*n+10:.1f}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
     p.append(f'<text x="{left-10}" y="{h-28}" font-family="{SANS}" font-size="17" fill="{INK}">{html.escape(source)}</text>')
     p.append('</svg>')
     return name, '\n'.join(p), h
