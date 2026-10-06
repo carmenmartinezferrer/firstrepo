@@ -34,7 +34,9 @@ On the other end, Dries Van Noten is only 22% neutral, the most colourful house 
 
 ## House by house
 
-[CHART: 16 house donuts, donut-<house>.png, see the review sheet in the folder for which is which]
+[CHART: house donut grid, rows of 4, grid-donuts-all.png (or grid-donuts-1-of-2.png and grid-donuts-2-of-2.png as two images)]
+
+[CHART: swatch grid, top five colours per house, grid-swatches.png]
 
 I'm not going to walk you through all 16 (you have the donuts for that, and they're honestly more fun to look at than to read about), but a few of them tell a really clear story on their own:
 
@@ -103,9 +105,10 @@ Hex codes are read from runway images, some measured from pixels and most estima
 NOTES FOR CARMEN (delete before publishing)
 
 1. Donuts: 17 transparent PNGs (season + 16 houses) built to your locked
-   spec, in drafts/paris-ss27-colour/, plus a review sheet with house
-   names so you can tell which is which (the donuts themselves have no
-   names, per spec). SVGs alongside if you want to edit.
+   spec, in drafts/paris-ss27-colour/, SVGs alongside. Plus a house grid
+   in rows of 4 (one full image and two halves of 8) and the swatch grid,
+   both at 3x resolution, house names in italic Playfair under or beside
+   each, white background like the bar charts.
 
 2. Spec followed exactly, including white labels on any wedge with
    luminance under 0.55. That puts white text on a few mid pinks and
@@ -118,7 +121,11 @@ NOTES FOR CARMEN (delete before publishing)
    Margiela burgundy, Tom Ford pink). They're left off the donut, every
    donut still sums to exactly 100.
 
-4. No swatch grid yet, the skill's structure has one, say if you want it.
+4. Swatch grid: top five colours per house, same order as its donut,
+   with a season-average row on top. Print slices carry a small
+   "floral print" / "graphic print" tag, because their blended hex
+   otherwise reads as a plain colour (Dries' top two blocks would look
+   like lilac-grey and pink).
 
 5. Press links again come from search summaries (fetch is blocked on
    most fashion sites), please click through: Schön on Lacoste, WWD on
