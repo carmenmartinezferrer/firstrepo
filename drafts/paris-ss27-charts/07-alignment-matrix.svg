@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760">
+<rect width="1000" height="760" fill="#FFFFFF"/>
+<text x="50" y="70" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="46" fill="#222222">trend alignment vs colour intensity</text>
+<text x="50" y="108" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#6B6B6B">how much of each house tracked the season, and how much of its palette went beyond neutrals</text>
+<g transform="translate(130,140) scale(1.12)">
+  <rect x="291" y="20" width="359" height="262" fill="#D6447A" opacity="0.07"/>
+  <rect x="90" y="20" width="201" height="262" fill="#B8963E" opacity="0.08"/>
+  <rect x="291" y="282" width="359" height="188" fill="#111114" opacity="0.05"/>
+  <rect x="90" y="282" width="201" height="188" fill="#1B2A4A" opacity="0.08"/>
+  <line x1="90" y1="20" x2="90" y2="470" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="90" y1="470" x2="650" y2="470" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="291" y1="20" x2="291" y2="470" stroke="#cfcac3" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="90" y1="282" x2="650" y2="282" stroke="#cfcac3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="299" y="40" font-family="Century Gothic, Questrial, sans-serif" font-size="12" font-weight="700" fill="#D6447A">SEASON-LED, COLOUR-FORWARD</text>
+  <text x="98" y="40" font-family="Century Gothic, Questrial, sans-serif" font-size="12" font-weight="700" fill="#96751f"><tspan x="98">INDEPENDENT,</tspan><tspan x="98" dy="15">COLOUR-FORWARD</tspan></text>
+  <text x="299" y="455" font-family="Century Gothic, Questrial, sans-serif" font-size="12" font-weight="700" fill="#555">SEASON-LED, NEUTRAL</text>
+  <text x="98" y="455" font-family="Century Gothic, Questrial, sans-serif" font-size="12" font-weight="700" fill="#1B2A4A">INDEPENDENT, NEUTRAL</text>
+  <text x="90" y="495" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="600" fill="#333">Low alignment</text>
+  <text x="530" y="495" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="600" fill="#333">High alignment</text>
+  <text x="15" y="16" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="600" fill="#333">High colour</text>
+  <text x="15" y="480" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="600" fill="#333">Low colour</text>
+  <circle cx="650.0" cy="154.3" r="6" fill="#D6447A"/><text x="640.0" y="151.3" text-anchor="end" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Lacoste</text>
+  <circle cx="606.8" cy="100.6" r="6" fill="#D6447A"/><text x="614.8" y="97.6" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Balmain</text>
+  <circle cx="550.8" cy="20.0" r="6" fill="#D6447A"/><text x="558.8" y="17.0" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Dries Van Noten</text>
+  <circle cx="538.0" cy="288.7" r="6" fill="#111114"/><text x="546.0" y="285.7" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Chanel</text>
+  <circle cx="434.2" cy="369.3" r="6" fill="#111114"/><text x="442.2" y="366.3" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Balenciaga</text>
+  <circle cx="342.0" cy="174.5" r="6" fill="#D6447A"/><text x="350.0" y="171.5" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Loewe</text>
+  <circle cx="316.3" cy="470.0" r="6" fill="#111114"/><text x="324.3" y="486.0" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Lanvin</text>
+  <circle cx="301.2" cy="275.2" r="6" fill="#D6447A"/><text x="309.2" y="272.2" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Maison Margiela</text>
+  <circle cx="284.8" cy="241.6" r="6" fill="#B8963E"/><text x="292.8" y="238.6" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Stella McCartney</text>
+  <circle cx="282.5" cy="355.8" r="6" fill="#1B2A4A"/><text x="290.5" y="352.8" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Chloé</text>
+  <circle cx="274.3" cy="140.9" r="6" fill="#B8963E"/><text x="282.3" y="137.9" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Valentino</text>
+  <circle cx="246.3" cy="315.5" r="6" fill="#1B2A4A"/><text x="254.3" y="312.5" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Isabel Marant</text>
+  <circle cx="175.2" cy="107.3" r="6" fill="#B8963E"/><text x="183.2" y="104.3" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Miu Miu</text>
+  <circle cx="167.0" cy="295.4" r="6" fill="#1B2A4A"/><text x="175.0" y="292.4" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Tom Ford</text>
+  <circle cx="128.5" cy="416.3" r="6" fill="#1B2A4A"/><text x="136.5" y="413.3" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Celine</text>
+  <circle cx="90.0" cy="322.2" r="6" fill="#1B2A4A"/><text x="98.0" y="319.2" font-family="Century Gothic, Questrial, sans-serif" font-size="13" font-weight="500" fill="#222">Dior</text>
+</g>
+<text x="40" y="732" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="17" fill="#222222">Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, alignment score and non-neutral share of palette</text>
+</svg>
