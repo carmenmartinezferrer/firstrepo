@@ -1,40 +1,39 @@
 <!--
-DRAFT 2, TEXT ONLY. Runway Decode Trend Report, Paris Fashion Week SS27.
+DRAFT 3, TEXT. Runway Decode Trend Report, Paris Fashion Week SS27.
 Source: SS27-paris_4.xlsx. 16 houses, 997 looks, every show complete.
-Tabs used, in Carmen's order: Colour mix donut for every colour number,
-Trends as the main tab for every "% of looks" and "how many houses",
-Over-index for the unexpected pairings section. Garments only where the
-question is about the pieces themselves (what fabric were the pencil
-skirts), per the workbook's own Read me, and only to name houses.
-No charts or HTML built yet, chart positions are marked [CHART: ...].
-See "Notes for Carmen" at the bottom before approving.
+New structure (Carmen): three ranked sections, materials, silhouettes by
+piece, silhouettes by shape, each a top 10 chart plus a "next five"
+chart (shapes only have a top 10, there are only 13 shapes in total).
+Every % is a share of all looks, from the Trends tab, unless it says
+otherwise. Colour numbers from the Colour mix donut tab, unexpected
+pairings from the Over-index tab. Charts are built, in
+drafts/paris-ss27-charts/, file names in each [CHART: ...] marker.
+See "Notes for Carmen" at the bottom.
 -->
 
 # Stop Calling Everything a Trend: Paris Edition
 
 ## Paris swapped the midi for the pencil skirt, and wool did the heavy lifting underneath it
 
-New York gave us the midi skirt in every single house, and I genuinely thought I'd be writing the same sentence again for Paris. I'm not! Paris had its own universal skirt, it just sat a few inches higher and a lot tighter, and once I started pulling the numbers apart the story underneath it got much more interesting than "the pencil skirt is back" (which every street style roundup has already told you, I know, I've read them all too). So here's what Paris actually put on the runway, by material, silhouette and colour, plus a few pairings I really didn't expect, with the press check in between, because I'm still sick of trend reports based on nothing.
+New York gave us the midi skirt in every single house, and I genuinely thought I'd be writing the same sentence again for Paris. I'm not! Paris had its own universal skirt, it just sat a few inches higher and a lot tighter, and once I started pulling the numbers apart the story underneath it got much more interesting than "the pencil skirt is back" (which every street style roundup has already told you, I know, I've read them all too). So here's what Paris actually put on the runway, the top materials, the top pieces and the top shapes, plus a few pairings I really didn't expect, with the press check in between, because I'm still sick of trend reports based on nothing.
 
 ## Methodology, the short version
 
-Every look from 16 of the biggest Paris shows was tagged against a fixed taxonomy by garment type, length, fit, material, finish, colour and detail, and each trend is reported two ways, as its share of a house's own collection and as its share of the whole Paris SS27 season. The full detail, including the house list and exactly how the matrix score at the end is built, lives at the bottom of the piece.
+Every look from 16 of the biggest Paris shows was tagged against a fixed taxonomy by garment type, length, fit, material, finish, colour and detail. Every chart in this piece ranks things by the share of all Paris looks they appear in, so "15%" always means 15% of the looks on the runway, and where I talk about a single house I mean its share of that house's own collection. The full detail lives at the bottom of the piece.
 
 ## Materials
 
-### Wool is the season's biggest material, but silk is the one that went everywhere
+### Wool runs Paris, and silk takes second place in a very specific shape
 
-[CHART: share of houses featuring each material family, bar chart]
+[CHART: 10-top-materials.png, % of all Paris looks that include each material]
 
-This chart shows how many of the houses put each material on the runway at least once. Cotton and knitwear reached every single house, which honestly tells you more about spring than about Paris, and silk was right behind them, in every house except Loewe. Leather showed up almost everywhere too. Wool is the interesting one, because it's in slightly fewer houses than silk (Balmain and Isabel Marant skipped it completely) and yet it's the season's biggest material by volume, in a third of all the looks in Paris, ahead of silk at 28%. When I look at the single main fabric of each look, wool suiting comes out on top on its own, as the main fabric of 17% of all looks, which is a very Parisian answer to "what's the spring fabric?".
+Wool suiting is the season's biggest material, in a quarter of all the looks in Paris across 14 houses, and when I look at the single main fabric of each look it comes out on top on its own too, the main fabric of 17% of all looks. So Paris is a tailoring city, fine, we knew that, but the data says it very loudly. Behind it, cotton is in 20% of looks, and here I have to be honest about the data, because almost all of that cotton is tagged simply as "cotton", with no detail on whether it's poplin, denim, linen blend or anything else. It's the second biggest material of the season and the source can't tell me what it actually is, which is a gap worth knowing about rather than writing around.
 
-So Paris is a tailoring city, fine, we knew that, but it's worth being specific about what kind of wool, because it isn't all the same story.
+Silk is the interesting one. Silk satin is in 16% of looks and another 11% are tagged as silk without a weave, and together silk reaches 15 of the 16 houses (everyone except Loewe), but it's nowhere near evenly spread. Dries Van Noten put silk in 72% of its looks, which is basically a silk collection, while most houses use it as a single piece within a look. Then come jersey at 12% (mostly Stella McCartney and Miu Miu, which put it in half and 41% of their looks), chiffon at 10% (Dior did nearly half its collection in chiffon), leather at 8% (Balmain leading), fine-gauge knit at 8%, tweed at 5% and nylon at 4%, which is almost entirely Lacoste's sporty side.
 
-[CHART: wool by weave, share of looks, bar chart]
+A word on tweed, because I know someone will ask: it's 5% of looks, but that number is almost all Chanel, which put tweed in 42% of its own looks, with Dior a distant second and only Miu Miu and Valentino touching it after that. So "tweed is a trend" would be a stretch, tweed is a Chanel signature that a couple of neighbours borrowed, which is a different thing.
 
-Suiting wool is the overwhelming majority of it, in a quarter of all the looks in Paris across 14 houses, and it really loves a blazer, a flared trouser and a cigarette trouser (more on how I know that in a second). Tweed is next at 5% of looks, but that number is almost entirely Chanel, which put tweed in 42% of its own looks, with Dior a distant second at 19% and only Miu Miu and Valentino touching it at all after that. Wool crepe and bouclé barely register, at around 2% and 1% of looks, crepe being the more widespread of the two (seven houses against bouclé's two, Chanel and Dior again). So "tweed is a trend" would be a stretch, tweed is a Chanel signature that a couple of neighbours borrowed, which is a different thing.
-
-Ok, ok… silk is the most widespread, but in what shape? This is where it gets fun, because the data is very clear on it and it's two things:
+Ok, ok… silk is the second biggest material, but in what shape? This is where it gets fun, because the data is very clear on it and it's two things:
 
 - The silk pencil skirt. If you look at the pencil skirts themselves, a quarter of them were made in silk or satin, and Dries Van Noten did most of the work, 21 of its 24 pencil skirts were silk. Balmain, Valentino and Maison Margiela followed it.
 - The slip dress, in silk at ten different houses, Dries and Balmain again leading, with Celine and Lanvin close behind.
@@ -42,13 +41,19 @@ Ok, ok… silk is the most widespread, but in what shape? This is where it gets 
 > **In The Press**
 > [WWD's review of Dries Van Noten](https://wwd.com/runway/spring-2027/paris/dries-van-noten/review/) describes oversized trenches and broad-shouldered blazers set against narrow pencil skirts or bias-cut satin slips falling to mid-calf, with washed silks and satins throughout, which is exactly the silk pencil skirt and silk slip dress pairing the data picks out at that house. Over at Balmain, [Who What Wear](https://www.whowhatwear.com/fashion/runway/balmain-spring-summer-2027) flagged snake print on coats and long, lean trousers as the collection's big print story, which lines up with animal print being Balmain's single biggest colour slice, 24% of its palette.
 
-## Silhouettes
+### The next five materials
+
+[CHART: 11-next-materials.png, % of all Paris looks that include each material]
+
+Just outside the top 10, denim and lace are both in 4% of looks, then sequins and crochet at 3% and brocade at 2%. Denim is the one I'd keep an eye on, because it's light in volume but it reached 10 different houses, with Stella McCartney and Maison Margiela using the most, so it's more of a quiet everywhere than a statement anywhere. Sequins are the same, in 13 houses but never more than about a tenth of any collection, which is what you'd expect from an evening finish rather than a trend. Lace and crochet are much more concentrated, both of them a big Isabel Marant story (each in about a quarter of its looks), with Chloé and Lanvin behind it.
+
+## Silhouettes, by piece
 
 ### Paris is officially obsessed with the pencil skirt
 
-[CHART: share of houses featuring each silhouette, bar chart]
+[CHART: 12-top-garments.png, % of all Paris looks that include each piece]
 
-The pencil skirt reached all 16 houses, the only garment of the season with no gaps at all, and it's the biggest single garment by volume too, in 15% of every look in Paris. And Paris wore its skirts short of the calf, knee-length skirts are in 13% of all looks against 7% for midi, which is basically New York's result flipped. Straight trousers, wide-leg trousers, the slip dress and the trench all reached more than three quarters of the houses, with bermuda shorts and the bomber jacket not far behind.
+The pencil skirt is the biggest single piece of the season, in 15% of every look in Paris, and it's the only piece that reached all 16 houses. And Paris wore its skirts short of the calf, knee-length skirts are in 13% of all looks against 7% for midi, which is basically New York's result flipped. Behind it, the top 10 is very much a tailoring wardrobe, straight trousers (13%), the single-breasted blazer and the wide-leg trouser (11% each), then the shirt and the blouse, and then four pieces all at about 4%, the cropped jacket, the slip dress, the bomber and the trench.
 
 But (and this is the bit I love) "in every house" doesn't mean "equally in every house". Chanel put a pencil skirt in almost half of its entire collection, 49% of its looks, Dries Van Noten 40% and Balmain 33%, and those three plus Valentino account for nearly two thirds of all the pencil skirt looks in the season. Lacoste, on the other hand, showed exactly one. So it's a universal shape that a handful of houses went all in on, rather than something everyone leaned into evenly, and that's worth knowing before you go and buy three of them (I'm saying this to myself, mostly).
 
@@ -57,24 +62,31 @@ But (and this is the bit I love) "in every house" doesn't mean "equally in every
 
 ### The wide-leg trouser didn't disappear, it just moved house
 
-Wide-leg trousers reached 14 of the houses, but they're concentrated in a completely different set of collections from the pencil skirt. Lacoste put them in 37% of its looks and Balenciaga 29%, and both of those houses barely touched the pencil skirt at all. So Paris basically split into a skirt camp (Chanel, Dries, Balmain) and a trouser camp (Lacoste, Balenciaga, with Stella McCartney, Celine and Tom Ford behind them), and very few houses sat seriously in both.
-
-### A few smaller silhouettes worth flagging
-
-[CHART: smaller silhouettes, bar chart]
-
-None of these are big enough for the chart above, but each one reached enough different houses to be more than one designer's idea:
-
-- Pleated skirts at seven houses, Miu Miu leading (Valentino, Chanel, Dior, Lanvin, Maison Margiela and Stella McCartney behind it).
-- Tiered and ruffled skirts at seven houses, though Dior alone is half of them.
-- Biker jackets at six houses, most at Maison Margiela, then Celine, Dries Van Noten and Tom Ford, with Balmain and Isabel Marant too.
-- Corsets and bustiers at six houses, but Valentino is 15 of the 22 on the whole runway, so this is more Valentino's idea that others nodded at.
-- Halter dresses at six houses, Balmain and Miu Miu leading.
-- Hot pants at five houses, very much a Miu Miu and Isabel Marant thing.
-- Bubble skirts at five (Dries Van Noten, Loewe, Miu Miu, Dior, Valentino) and cargo trousers at five (Loewe, Lacoste, Balenciaga, Maison Margiela, Stella McCartney).
+Wide-leg trousers reached 14 of the houses, but they're concentrated in a completely different set of collections from the pencil skirt. Lacoste put them in 37% of its looks and Balenciaga 29%, and both of those houses barely touched the pencil skirt at all. So Paris basically split into a skirt camp (Chanel, Dries, Balmain) and a trouser camp (Lacoste, Balenciaga, with Stella McCartney, Celine and Tom Ford behind them), and very few houses sat seriously in both. The straight trouser and the blazer, meanwhile, belong to Tom Ford, Maison Margiela, Celine and Miu Miu, which is where the proper suiting lives.
 
 > **In The Press**
 > [Whitewall's Paris roundup](https://whitewall.art/fashion/6-collections-from-ss27-paris-fashion-week/) picks out trenches with hardened panels at Maison Margiela and resin collars at Loewe, a good reminder that the trench reaching 13 houses in the data doesn't mean 13 versions of the same classic coat.
+
+### The next five pieces
+
+[CHART: 13-next-garments.png, % of all Paris looks that include each piece]
+
+Right behind the top 10 sit the shift dress (4%), the bandeau, the utility jacket, the boxy jacket and bermuda shorts (3% each). The shift dress is my sleeper of the season, it reached 12 houses without ever being anyone's headline, and it connects to one of the pairings further down, the wool crepe shift dress. The utility jacket and the bermuda are both very Lacoste, and the boxy jacket is mostly Chanel's cropped tweed.
+
+The bandeau is the one that sent me down a rabbit hole, because on its own it's 3% of looks, but it's part of something bigger the ranking hides. If I group every lingerie-style top together, bandeaus, corsets and bustiers, crop tops, bodysuits, camisoles and bras, it adds up to 12% of all Paris looks across 14 houses, about the same as the wide-leg trouser. Stella McCartney (31% of its looks), Valentino (30%), Tom Ford (24%) and Miu Miu (23%) are carrying it. One honest caveat, bras aren't a separate piece in the tagging, I could only find them in the outfit descriptions (31 looks mention one), so this is probably an undercount.
+
+> **In The Press**
+> The Balmain coverage I found describes satin microskirts styled like girdles and bras slipping out of structured cocktail dresses, with Antonin Tron calling it "lingerie building a dress" ([AnOther](https://www.anothermag.com/fashion-beauty/17531/balmain-antonin-tron-ss27-review-paris-fashion-week)), and the WWD Dries Van Noten review talks about lingerie-dressing throughout. So the press is seeing the same thing the grouped number shows, it's just not visible if you only look at one piece at a time.
+
+## Silhouettes, by shape
+
+### The column is the shape of Paris
+
+[CHART: 14-top-shapes.png, % of all Paris looks with each overall silhouette]
+
+If the pieces tell you what Paris wore, the shapes tell you how it stood, and the answer is long and straight. The column is the overall silhouette of 35% of all looks and it reached every house, with Chanel and Isabel Marant both at 60% of their collections, which makes total sense once you remember the pencil skirt and the straight trouser are the two biggest pieces of the season. Layered looks are next at 25%, also at every house, and that's very much Dries Van Noten (73% of its looks) and Dior (56%). Then the sharp-shoulder tailoring at 10%, which is Tom Ford and Celine's suiting, and boxy, oversized shapes at 9%, mostly Loewe and Lacoste.
+
+What's interesting is how little room that leaves for everything else. Draped shapes are 6%, fit-and-flare, the cinched waist and cocoon shapes are around 3% each, body-con 2% and the big ball gown volume only 1%. So for all the talk about volume and drama in Paris, the data says the season was overwhelmingly a straight line, with the drama coming from fabric and styling rather than from the shape itself.
 
 ### Pencil skirt or slip dress, which one wins?
 
@@ -82,13 +94,15 @@ I'd love to answer this one properly with search data, the way I did for the sli
 
 ## The pairings I didn't see coming
 
+[CHART: 05-unexpected-pairings.png, how many times more often than normal each pairing appears]
+
 This is my favourite part of the new data, honestly. For every fabric, detail and colour, I can see what it actually sits on and how much more often than chance, so instead of just "silk is big" I get "silk ends up on this specific piece far more than it should". Most of the really extreme pairings turned out to be one house's signature rather than a season trend, which is a finding in itself, so I've split them that way.
 
 ### The ones that crossed houses
 
 - **Wool crepe shift dresses**, around 18 times more often than you'd expect, at five houses (Celine, Balenciaga, Chanel, Dries Van Noten and Lanvin). It's the quietest thing on this list and probably the most wearable, the suiting fabric everyone already owns turned into a dress.
 - **Crochet knit tops**, also around 18 times more than expected, at Isabel Marant, Lanvin and Dries Van Noten.
-- **Tulle column dresses**, around 19 times more than expected, at Balenciaga, Maison Margiela and Valentino, the sheer fabric going long and straight rather than full and frothy.
+- **Tulle column dresses**, around 19 times more than expected, at Balenciaga, Maison Margiela and Valentino, the sheer fabric going long and straight rather than full and frothy (that column shape again).
 - **Silk satin corsets**, about six times more than expected, which is where a lot of the season's silk actually went, but this one is mostly Valentino (11 of the 13), with Balmain and Maison Margiela adding one each.
 - **The pencil skirt in unexpected skins and colours**, croc-embossed leather pencil skirts at Balmain and Miu Miu, and aqua pencil skirts at Valentino and Dries Van Noten (two thirds of all the aqua on the whole runway was on a pencil skirt, which I find very funny).
 
@@ -105,27 +119,30 @@ This is my favourite part of the new data, honestly. For every fabric, detail an
 
 ### Paris stayed mostly neutral, but pink is quietly everywhere
 
+[CHART: 06-pink-by-house.png, % of each house's colour palette that is pink, vs the season average]
+
 Paris was a fairly neutral season overall, 56% of the colour weight sits in black, white and cream, grey and brown, with black leading at 21% and white and cream at 17%, and two houses ran almost colourless collections, Lanvin at 11% colour and Celine at 19%. The colour I'd actually watch, though, is pink. It's only 5% of the palette by weight, but it shows up in 8% of all looks across 13 of the 16 houses, which means a lot of outfits carry a little pink without being built around it. Isabel Marant and Valentino are the exceptions, each with pink in nearly a quarter of their looks (16% and 13% of their palettes, around three times the season average), and the shade doing most of the work is ballet pink, in 17 looks across six houses, led by Stella McCartney and Chloé. I love it when the data gives me an actual named shade instead of just "pink".
 
 Green and olive is the other one, the season's biggest actual colour at 8%, which reads as small until you see that Lacoste built 24% of its palette around it and Loewe 20%, around three times the season average again. And red, now that it finally has its own slice in the data, is small season-wide at 2%, but Chanel and Lanvin each give it 7% of their palettes, Chanel mostly in scarlet and Lanvin in a lacquer red.
 
-Anyway, I will post a specific post about colour.
+Anyway, the full colour breakdown, house by house, is in my [Paris colour post](LINK TO PARIS COLOUR PIECE).
 
 ## The trend matrix: classifying houses by trend alignment and colour intensity
 
-[CHART: alignment vs colour intensity matrix, four quadrants]
+[CHART: 07-alignment-matrix.png, across: % of looks in the key trends, up: % of palette in colour]
 
-The matrix classifies each house by how trend-aligned and how colour-intense it was at Paris SS27. Alignment averages a house's own share of the six named silhouettes this piece found real, pencil skirt, wide-leg trouser, slip dress, trench, bermuda shorts and bomber jacket, into one number, and colour intensity is the share of its palette that isn't neutral. A house near the top built a real chunk of its collection around what the season was doing, a house near the bottom ran a more independent collection.
+The matrix classifies each house by how trend-aligned and how colour-intense it was at Paris SS27. Alignment averages a house's own share of the six named pieces this piece found real, pencil skirt, wide-leg trouser, slip dress, trench, bermuda shorts and bomber jacket, into one number, and colour intensity is the share of its palette that isn't neutral. A house near the top built a real chunk of its collection around what the season was doing, a house near the bottom ran a more independent collection.
 
-Lacoste, Balmain and Dries Van Noten score highest on alignment, and all three are colour-forward too, with Loewe and Maison Margiela joining them in that same top corner (Margiela only just, it sits right next to the colour line). Chanel is the interesting case, high alignment almost entirely because of the pencil skirt, but slightly more neutral than the season, with Balenciaga and Lanvin in the same corner. Miu Miu, Valentino and Stella McCartney go the other way, colour-forward but less tied to the season's named shapes. And Dior, Celine, Tom Ford, Isabel Marant and Chloé ran the most independent collections on shape and stayed neutral on colour, which doesn't mean nothing was happening there (Dior put ruffles and chiffon in nearly half its looks each), it just means what was happening wasn't the season's shared story.
+Lacoste, Balmain and Dries Van Noten score highest on alignment, and all three are colour-forward too, with Loewe and Maison Margiela joining them in that same top corner (Margiela only just, it sits right next to the colour line). Chanel is the interesting case, high alignment almost entirely because of the pencil skirt, but slightly more neutral than the season, with Balenciaga and Lanvin in the same corner. Miu Miu, Valentino and Stella McCartney go the other way, colour-forward but less tied to the season's named pieces. And Dior, Celine, Tom Ford, Isabel Marant and Chloé ran the most independent collections on shape and stayed neutral on colour, which doesn't mean nothing was happening there (Dior put ruffles and chiffon in nearly half its looks each), it just means what was happening wasn't the season's shared story.
 
 ## The Takeaway
 
 What Paris SS27 was actually made of:
 
-- Wool is the biggest material by volume and it's suiting wool specifically, while silk is the more universal one, and it mostly takes the shape of pencil skirts, slip dresses and, at Valentino, corsets.
-- The pencil skirt is the season's universal silhouette, in every house, with Paris choosing the knee over the midi, but Chanel, Dries Van Noten, Balmain and Valentino carry most of it, so it's a concentrated trend wearing a universal number.
-- Paris split into a skirt camp and a trouser camp, with Lacoste and Balenciaga leading the wide-leg side.
+- Wool suiting is the season's material, in a quarter of all looks, with silk in second place and mostly taking the shape of pencil skirts, slip dresses and, at Valentino, corsets.
+- The pencil skirt is the season's universal piece, in every house, with Paris choosing the knee over the midi, but Chanel, Dries Van Noten, Balmain and Valentino carry most of it, so it's a concentrated trend wearing a universal number.
+- The column is the shape of Paris, in over a third of all looks, and the drama came from fabric and styling rather than volume.
+- Paris split into a skirt camp and a trouser camp, with Lacoste and Balenciaga leading the wide-leg side, and lingerie-style tops are a much bigger story than any single one of them looks.
 - Pink is the colour spread most widely beyond the neutrals, with ballet pink as the shade, while green is concentrated at Lacoste and Loewe.
 - The wool crepe shift dress is the sleeper, five houses, nobody talking about it.
 
@@ -137,89 +154,80 @@ I hope you enjoyed it, and let me know in the comments anything you would like t
 
 I tagged 16 houses from Paris Fashion Week Spring Summer 2027, 997 looks in total, every show complete: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino. Every garment in every look was tagged by type, length, fit, material, finish, colour, pattern and detail.
 
-Every "% of looks" and "how many houses" figure comes from the share of looks showing each tag. The material charts use the fiber-level material tags (silk satin, wool suiting, tweed and so on), grouped into families, not the finish tags (matte, glossy, sheer), which answer a different question. Share of houses means a house showed that material or garment at least once. Where a figure is about the pieces themselves (what fabric the pencil skirts were made in), it's counted per garment instead, and I've said so in the text.
+The three ranked sections (materials, pieces and shapes) all use the share of looks, the share of all 997 looks that include a material, a piece or a shape, so shares overlap and don't add up to 100, since one look can include a blazer, a shirt and a pencil skirt at once. Catch-all tags ("other") are left out of the rankings so every bar is something you can name. Materials are the fiber-level tags (wool suiting, silk satin, tweed and so on), not the finish tags (matte, glossy, sheer), which answer a different question. Where a figure is about the pieces themselves (what fabric the pencil skirts were made in), it's counted per garment instead, and the text says so.
 
-Colour uses the colour mix method, where each look is split across up to three colours by how much of the outfit each one covers, so the palette adds up to 100%. Every colour is its own slice, red is never counted as orange and burgundy never as brown. Neutral means black, white and cream, grey, and brown and beige.
+The lingerie-style tops figure is my own grouping, not a category in the data: any look with a bandeau, corset or bustier, crop top, bodysuit or camisole, plus any look whose outfit description mentions a bra.
+
+Colour uses the colour mix method, where each look is split across up to three colours by how much of the outfit each one covers, so the palette adds up to 100%. Neutral means black, white and cream, grey, and brown and beige.
 
 The unexpected pairings compare how often a fabric, detail or colour sits on a specific garment against how often that garment appears overall, so "18 times more than expected" means 18 times its normal share. I only included pairings seen on at least four pieces, because the very small ones are noise.
 
-The alignment score is the simple average of each house's own share of looks for six named garments, pencil skirt, wide-leg trouser, slip dress, trench coat, bermuda shorts and bomber jacket. Broad categories like finishes and fits are deliberately left out because they sit at much higher natural levels and would drown out the named trends. Colour intensity is 100 minus each house's neutral share. The quadrant lines sit where the houses split in half on each axis, an alignment score just above 6 and a colour intensity of 39%.
+The alignment score is the simple average of each house's own share of looks for six named pieces, pencil skirt, wide-leg trouser, slip dress, trench coat, bermuda shorts and bomber jacket. Broad categories like finishes and fits are deliberately left out because they sit at much higher natural levels and would drown out the named trends. Colour intensity is 100 minus each house's neutral share. The quadrant lines sit where the houses split in half on each axis, an alignment score just above 6 and a colour intensity of 39%.
 
 The search validation layer hasn't been run for Paris yet.
 
 <!--
 NOTES FOR CARMEN (delete before publishing)
 
-1. What changed from draft 1: colour section rewritten on the paris_4
-   colour mix (neutral share is now 56%, not 63%, because colours are no
-   longer folded together, and red has its own slice), pink now leads
-   the colour section, new "pairings I didn't see coming" section from
-   the Over-index tab, wool by weave and the knee-vs-midi point now come
-   from the Trends tab (share of looks) instead of garment counts. Every
-   garment, material and silhouette number in Trends is identical between
-   paris_1 and paris_4, so those findings didn't move. Matrix groups are
-   the same, only the colour values and the colour split point moved
-   (37% to 39%).
+1. What changed from draft 2: restructured into your three ranked
+   sections (materials, silhouettes by piece, silhouettes by shape),
+   each with its top 10 chart and a "next five" chart (no next five for
+   shapes, only 13 shapes exist and the last three are 1% or less).
+   Materials reframed: wool leads, silk is a clear second rather than
+   "the one that went everywhere" (that was NYFW's story), and the vague
+   "cotton (unspecified)" tag is called out. Lingerie-style tops added
+   as part of the next-five pieces section. Every chart marker now
+   names its file and says what its % measures.
 
-2. Houses: 16, all complete (looks = looks expected for every show).
+2. Charts superseded by the new structure, still in the folder if you
+   want any back: 01 materials by family, 02 wool by weave, 03
+   silhouettes by share of houses, 04 smaller silhouettes.
 
 3. Search validation: still no Google Trends CSVs, so no head-to-head.
-   The obvious pair is pencil skirt vs slip dress, or pencil skirt vs
-   midi skirt as a follow-on from NYFW.
 
-4. Press links are still from search summaries, my fetch is blocked on
-   those sites, please click through all four (WWD Dries, Who What Wear
-   Balmain, RUSSH Chanel, Whitewall) and check the wording. I haven't
-   searched for pink or ballet pink press coverage yet, happy to add an
-   In The Press box there if you want one.
+4. Press links are still from search summaries (fetch is blocked on
+   those sites): WWD Dries, Who What Wear Balmain, RUSSH Chanel,
+   Whitewall, and new in this draft, AnOther on Balmain for the
+   "lingerie building a dress" quote. Please click through all five.
 
-5. NYFW piece link is still a placeholder.
+5. Two placeholder links: the NYFW piece and the Paris colour piece.
 
-6. Numbers behind each claim (all rounded, all from paris_4):
-   - Trends, material family share of houses: cotton & linen 16/16,
-     knit & jersey 16/16, silk & satin 15/16 (not Loewe), leather &
-     skins 15/16, tailoring wool 14/16 (not Balmain, Isabel Marant).
-     Share of looks: tailoring wool 33%, silk & satin 28%.
-   - Materials tab: wool suiting main fabric of 17% of looks.
-   - Trends, material share of looks: wool suiting 25% (14 houses),
-     tweed 5% (4), wool crepe 2% (7), bouclé 1% (2). Tweed by house:
-     Chanel 42%, Dior 19%, Miu Miu 5%, Valentino 4%.
-   - Garments (piece question): 40 of 152 pencil skirts silk/satin
-     (26%), Dries 21 of 24. Silk slip dresses at 10 houses.
-   - Trends: pencil skirt 16/16 houses, 15% of looks (152 looks). Chanel
-     41/83 (49%), Dries 24/60 (40%), Balmain 18/54 (33%), Valentino
-     15/80 (19%), together 98/152 (64%). Lacoste 1. Skirt length: knee
-     13% of looks, midi 7%.
-   - Trends, share of houses: straight trouser 15, wide-leg 14, slip
-     dress 13, trench 13, bermuda 12, bomber 11. Wide-leg: Lacoste 37%,
-     Balenciaga 29%.
-   - Over-index (index / 100, pieces, houses from Garments): wool crepe
-     on shift dress 18x (6 pieces, 5 houses); crochet on knit top 18x
-     (6, Isabel Marant, Lanvin, Dries); tulle on column dress 19x (4,
-     Balenciaga, Margiela, Valentino); silk satin on corset 6x (13,
-     Valentino 11); croc leather on pencil skirt 6x (4, Balmain, Miu
-     Miu); aqua on pencil skirt 8x (4 of 6 aqua pieces, Valentino,
-     Dries); PVC on trench 24x and cape 119x (Chloé only); chocolate on
-     crop top 32x (Miu Miu); lacing on pleated skirt 14x and hot pants
-     10x (Miu Miu); raw edges on slip dress 8x (Loewe); bottle green on
-     polo 29x and slate green on wide-leg 7x (Lacoste); bouclé on knit
-     top 22x and chocolate tweed on pencil skirt 6x (Chanel); chunky
-     knit on cardigan 42x (Dior). Wool suiting on cigarette trouser 5x,
-     flare trouser 5x, double-breasted blazer 5x.
-   - Colour mix, season: neutral 56%; black 21%, white/cream 17%,
-     brown/beige 11%, green/olive 8%, grey 7%, pink 5%, red 2%.
-     Pink by house: Isabel Marant 16%, Valentino 13%. Trends colour tag
-     pink: 8% of looks, 13 houses, Isabel Marant 24%, Valentino 24% of
-     looks. Ballet pink 17 looks, 6 houses (Stella 5, Chloé 4, Dior 3,
-     Balenciaga 2, Valentino 2, Isabel Marant 1). Green/olive Lacoste
-     24%, Loewe 20%. Red Chanel 7% (scarlet 3 looks, plus garnet, poppy red, red & navy check), Lanvin 7% (lacquer red 3 looks).
-     Colour intensity: Lanvin 11%, Celine 19%.
-   - Matrix (alignment, colour intensity): Lacoste 11/58, Balmain 11/66,
-     Dries 10/78, Chanel 10/38, Balenciaga 8/26, Loewe 7/55, Lanvin 7/11,
-     Margiela 6/40, Stella 6/45, Chloé 6/28, Valentino 6/60, Isabel
-     Marant 6/34, Miu Miu 5/65, Tom Ford 5/37, Celine 4/19, Dior 3/33.
-     Split points: alignment just above 6, colour 39%. Groups from the
-     matrix script: top right Balmain, Dries, Lacoste, Loewe, Margiela;
-     bottom right Balenciaga, Chanel, Lanvin; top left Miu Miu, Stella,
-     Valentino; bottom left Celine, Chloé, Dior, Isabel Marant, Tom Ford.
+6. Lingerie grouping is my call, check you're happy with which pieces
+   are in it (crop tops are the debatable one).
+
+7. Numbers behind each claim (all from paris_4, rounded):
+   - Top 10 materials, % of looks (houses): wool suiting 25 (14), cotton
+     unspecified 20 (15), silk satin 16 (15), jersey 12 (13), silk
+     unspecified 11 (8), chiffon 10 (13), leather 8 (12), fine-gauge
+     knit 8 (13), tweed 5 (4), nylon/technical 4 (6).
+   - Next five materials: denim 4 (10), lace 4 (7), sequin fabric 3
+     (13), crochet 3 (7), brocade/jacquard 2 (7).
+   - House leaders: jersey Stella 51, Miu Miu 41; silk unspecified
+     Dries 72; chiffon Dior 48; leather Balmain 26; nylon Lacoste 26;
+     tweed Chanel 42, Dior 19; denim Stella 16, Margiela 14; lace
+     Isabel Marant 26; crochet Isabel Marant 26; sequins max Lanvin 11.
+   - Silk family 28% of looks, 15/16 houses (not Loewe). Main fabric of
+     look: wool suiting 17%.
+   - Top 10 pieces: pencil skirt 15 (16), straight trouser 13 (15),
+     single-breasted blazer 11 (14), wide-leg trouser 11 (14), shirt 8
+     (14), blouse 7 (14), cropped jacket 4 (8), slip dress 4 (13),
+     bomber 4 (11), trench 4 (13).
+   - Next five pieces: shift dress 4 (12), bandeau 3 (9), field/utility
+     jacket 3 (10), boxy jacket 3 (10), bermuda 3 (12). Leaders:
+     bandeau Stella 24; utility jacket Lacoste 13; boxy jacket Chanel
+     17; bermuda Lacoste 13.
+   - Straight trouser leaders Tom Ford 32, Margiela 31; single-breasted
+     blazer Tom Ford 23, Celine 22, Miu Miu 21.
+   - Lingerie-style tops: 116 looks, 12%, 14 houses; Stella 31%,
+     Valentino 30%, Tom Ford 24%, Miu Miu 23%, Balmain and Chloé 15%.
+     Bra mentioned in 31 outfit descriptions (Miu Miu 8, Tom Ford 6).
+   - Top 10 shapes: column 35 (16), layered 25 (16), sharp-shoulder
+     tailoring 10 (14), boxy/oversized 9 (11), draped/fluid 6 (13),
+     fit-and-flare 3 (9), hourglass/cinched waist 3 (10),
+     cocoon/rounded 3 (9), body-con 2 (8), full volume/ball gown 1 (3).
+     Leaders: column Chanel 60, Isabel Marant 60; layered Dries 73,
+     Dior 56; sharp-shoulder Tom Ford 36, Celine 27; boxy Loewe 30,
+     Lacoste 30; draped Balmain 18.
+   - Pencil skirt by house, skirt lengths, wide-leg, colour, pairings
+     and matrix numbers are unchanged from draft 2 (same data).
 -->

@@ -42,6 +42,64 @@ Reference implementation: NYFW SS27, "The Colour Index." If you want a
 finished example before building, that piece is the ground truth this
 skill was extracted from.
 
+## Standard from Paris SS27 onward (overrides older structure below where they differ)
+
+Carmen set these on the Paris SS27 colour piece. Apply them every time.
+
+**Data.** Every colour number comes from the workbook's **Colour mix donut**
+tab (each look split across up to three colours by coverage, slices add to
+100, colours never merged into each other, prints are their own slices).
+Use `Level` = fashion week for the season, `Level` = house per show. Use
+**Colour shades (detail)** to name the shades behind a slice (ballet pink,
+lipstick red, butter), and the **Overview** tab for each house's neutral
+share. Check every palette sums to 100 before building. Watch for shades
+filed under an unexpected family (Paris filed butter under white/cream,
+not yellow) and say so in the prose.
+
+**Donuts, locked spec (Carmen's "DFB colour-palette donut").** Built by
+`scripts/build_donuts.py` + `scripts/render_donuts.js`, which implement it
+exactly:
+- Ring width 42% of the radius (hole 58%), square canvas, transparent
+  background, outer radius 405 on an 810 box.
+- Largest wedge starts at 12 o'clock, clockwise, largest to smallest,
+  whole-number %s, wedge colour is the family's hex, no gaps.
+- Wedges with WCAG luminance > 0.82 get a 1.2px `#D0CCC5` outline.
+- Labels: only the %, at the wedge's angular midpoint at 79% of the radius,
+  42px if >= 15%, 32px if >= 8%, 24px otherwise (20px allowed for 1 to 2%),
+  white if luminance < 0.55 else black, font Arimo/Arial (Canva's default
+  sans). A label that doesn't fit its arc is left off.
+- 0% slices are dropped. No names, no legend, no title on the donut.
+- If Carmen wants it native in Canva, the same geometry is in her guide:
+  1080 x 1350 page, 810 x 810 box at top 270 left 135, one SVG path per
+  wedge, brand line, title "Colour palette", footnote on what % means.
+
+**House grid and swatch grid** (`scripts/build_grids.py` +
+`scripts/render_grids.js`), white background, same type style as the bar
+charts (bold Playfair title, Century Gothic subtitle and source line,
+house names in italic Playfair):
+- House donut grid in **rows of 4**, delivered as one full image and as two
+  halves of 8 (easier in Substack). Render at 2x, not 1x (1x looked low
+  quality) and not 3x (files got too big).
+- Swatch grid: a season-average row on top, then one row per house, top
+  five colours in the same order as its donut, % inside each block. Print
+  slices carry a small "floral print" / "graphic print" tag, because their
+  blended hex otherwise reads as a plain colour.
+
+**Every chart says what its numbers measure**, in the subtitle: "% =
+share of each house's total colour on the runway", "% of each house's
+colour palette that is pink, vs the season average". Never a bare %.
+
+**Deep dive.** For each main colour, list houses at 1.5x the season
+average or more, then check the named shades: two houses can lead the
+same family with different colours (Paris: Isabel Marant's pale pink vs
+Valentino's fuchsia, Lacoste's khaki vs Loewe's jade), and that is usually
+the more interesting sentence. When press coverage names a palette, compare
+it to the data and say where they disagree (Paris: Miu Miu reviews named
+navy but not brown, which was 20% of its palette).
+
+**Keep in sync with the trend report** for the same season: neutral share,
+the lead colours, the pink/green/red house numbers. Grep both drafts.
+
 ## Before you start
 
 - **Confirm the house list and count** the same way `runway-decode-trends`
