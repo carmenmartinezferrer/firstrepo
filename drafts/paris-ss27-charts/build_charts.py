@@ -73,20 +73,20 @@ charts = []
 fams = [('tailoring wool', 'wool'), ('silk & satin', 'silk & satin'), ('cotton & linen', 'cotton & linen'),
         ('knit & jersey', 'knit & jersey'), ('sheer & airy', 'sheer & airy'), ('leather & skins', 'leather & skins')]
 charts.append(bar_chart('01-materials-share-of-looks', 'wool runs paris',
-    'share of all looks featuring each material family',
+    '% of all Paris looks that include each material',
     [(lab, fw_share('material family', v)) for v, lab in fams], SRC + ', share of looks'))
 
 # 2. Wool by weave
 weaves = [('wool suiting', 'suiting wool'), ('tweed', 'tweed'), ('wool crepe', 'wool crepe'), ('bouclé', 'bouclé')]
 charts.append(bar_chart('02-wool-by-weave', 'wool, by weave',
-    'suiting does the heavy lifting, tweed is mostly chanel',
+    '% of all Paris looks that include each type of wool',
     [(lab, fw_share('material', v)) for v, lab in weaves], SRC + ', share of looks'))
 
 # 3. Silhouettes, share of houses
 sil = [('skirt: pencil skirt', 'pencil skirt'), ('trouser: straight', 'straight trouser'), ('trouser: wide-leg', 'wide-leg trouser'),
        ('dress: slip dress', 'slip dress'), ('coat: trench', 'trench coat'), ('shorts: bermuda', 'bermuda shorts'), ('jacket: bomber', 'bomber jacket')]
 charts.append(bar_chart('03-silhouettes-share-of-houses', 'the pencil skirt reached every house',
-    'share of houses showing each silhouette at least once',
+    '% of houses that showed each piece at least once',
     [(lab, fw_houses_pct('garment', v)) for v, lab in sil], SRC + ', share of houses'))
 
 # 4. Smaller silhouettes, share of houses
@@ -94,7 +94,7 @@ small = [('skirt: pleated skirt', 'pleated skirt'), ('skirt: tiered/ruffled skir
          ('top: corset/bustier', 'corset'), ('dress: halter dress', 'halter dress'), ('shorts: hot pants', 'hot pants'),
          ('skirt: bubble/puffball skirt', 'bubble skirt'), ('trouser: cargo', 'cargo trouser')]
 charts.append(bar_chart('04-smaller-silhouettes', 'the smaller silhouettes',
-    'too small for the main chart, but each one reached several houses',
+    '% of houses that showed each piece at least once',
     [(lab, fw_houses_pct('garment', v)) for v, lab in small], SRC + ', share of houses'))
 
 # 5. Over-index pairings that crossed houses
@@ -110,7 +110,7 @@ pairs = [('wool crepe shift dress', idx('material', 'wool crepe', 'dress: shift 
          ('silk satin corset', idx('material', 'silk satin', 'top: corset/bustier'))]
 pairs.sort(key=lambda kv: -kv[1])
 charts.append(bar_chart('05-unexpected-pairings', "the pairings I didn't see coming",
-    'how many times more often than expected, pairings seen at more than one house',
+    'how many times more often than normal each pairing appears (18x = 18 times)',
     pairs, SRC + ', over-index vs the season mix', fmt=lambda v: f'{round(v)}x',
     highlight=[l for l, _ in pairs].index('wool crepe shift dress')))
 
@@ -123,7 +123,7 @@ items = [(r.House, float(r['Share pct'])) for r in houses.itertuples() if r._9 >
         [(r.House, float(r['Share pct'])) for _, r in houses.iterrows() if float(r['Share pct']) >= 7]
 items.append(('season average', season))
 charts.append(bar_chart('06-pink-by-house', 'where the pink actually lives',
-    "pink as a share of each house's palette, against the season average",
+    "% of each house's colour palette that is pink, vs the season average",
     items, SRC + ', colour mix', highlight=len(items) - 1))
 
 # 7. Matrix, restyled on white
@@ -145,7 +145,7 @@ mh = 820
 msvg = '\n'.join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {mh}" width="{W}" height="{mh}">',
     f'<rect width="{W}" height="{mh}" fill="#FFFFFF"/>',
     f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">trend alignment vs colour</text>',
-    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">how closely each house tracked the season, and how colourful it went</text>',
+    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">across: % of looks in the key trends, up: % of palette in colour</text>',
     f'<g transform="translate(110,165) scale(1.15)">{inner}</g>',
     f'<text x="40" y="{mh-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(SRC)}</text>',
     '</svg>'])

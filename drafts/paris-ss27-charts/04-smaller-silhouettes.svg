@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 723" width="1300" height="723">
 <rect width="1300" height="723" fill="#FFFFFF"/>
 <text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">the smaller silhouettes</text>
-<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">too small for the main chart, but each one reached several houses</text>
+<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">% of houses that showed each piece at least once</text>
 <rect x="62.0" y="245.0" width="126.0" height="290.0" fill="#D6447A"/>
 <text x="125.0" y="231.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">44%</text>
 <text x="125.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">pleated</text>

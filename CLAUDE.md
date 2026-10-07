@@ -215,6 +215,12 @@ count once in the body prose (the methodology section is the natural spot)
 and keep every chart title and subtitle free of house-count numbers
 entirely.
 
+**Every chart says what its numbers measure.** A bare "44%" is never enough: the subtitle (or an axis
+note) must state the unit in plain words, e.g. "% of houses that showed each piece at least once",
+"% of all looks that include each material", "% of each house's colour palette", "18x = 18 times
+more often than normal". Interpretive lines ("tweed is mostly Chanel") go in the title or the prose,
+never in place of the unit. Carmen asked for this explicitly on the Paris SS27 charts.
+
 **"In The Press" callouts**: a distinct off-white block, thin pink left
 border, small pink uppercase label ("In The Press") above the paragraph,
 sits right after the prose finding it backs up, not bundled into the main

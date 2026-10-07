@@ -4,7 +4,7 @@ const fs = require('fs');
   const dir = process.argv[2], dest = process.argv[3];
   const names = JSON.parse(fs.readFileSync(dir + '/grids.json'));
   const b = await chromium.launch();
-  const pg = await b.newPage({ viewport: { width: 1600, height: 1200 }, deviceScaleFactor: 3 });
+  const pg = await b.newPage({ viewport: { width: 1600, height: 1200 }, deviceScaleFactor: 2 });
   for (const n of names) {
     await pg.goto('file://' + dir + '/' + n + '.html');
     await pg.evaluate(() => document.fonts.ready);

@@ -39,7 +39,7 @@ def donut_grid(hs, name):
         f'<div style="text-align:center"><div style="width:100%">{open(f"{OUT}/{slug(h)}.svg").read().replace("width=\"814\" height=\"814\"", "width=\"100%\"")}</div>'
         f'<div class="name" style="font-size:34px;margin-top:14px">{html.escape(h)}</div></div>' for h in hs)
     body = f'<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:48px 56px">{cells}</div>'
-    return name, page('house by house', "each house's palette as a share of total colour", body, 1600)
+    return name, page('house by house', "% = share of each house's total colour on the runway", body, 1600)
 
 # 2. Swatch grid: house name beside its top five colours, same order as its donut
 def swatch_grid(hs, name, season_row=True):
@@ -60,7 +60,7 @@ def swatch_grid(hs, name, season_row=True):
         weight = 'font-weight:700;font-style:normal;' if h == 'Season' else ''
         rows.append(f'<div class="name" style="font-size:34px;{weight}align-self:center">{html.escape(label)}</div>{blocks}')
     body = ('<div style="display:grid;grid-template-columns:300px repeat(5,1fr);gap:10px 8px">' + ''.join(rows) + '</div>')
-    return name, page('the top five colours, house by house', 'same colours and order as each donut, largest first', body, 1600)
+    return name, page('the top five colours, house by house', "% = share of each house's total colour, top five colours, largest first", body, 1600)
 
 charts = [donut_grid(houses, 'grid-donuts-all'),
           donut_grid(houses[:8], 'grid-donuts-1-of-2'),
