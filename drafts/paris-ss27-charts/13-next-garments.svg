@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 723" width="1000" height="723">
+<rect width="1000" height="723" fill="#FFFFFF"/>
+<text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">the next five pieces</text>
+<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">% of all Paris looks that include each piece</text>
+<rect x="100.7" y="245.0" width="138.6" height="290.0" fill="#D6447A"/>
+<text x="170.0" y="231.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">4%</text>
+<text x="170.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">shift dress</text>
+<rect x="265.7" y="261.6" width="138.6" height="273.4" fill="#3A3A3A"/>
+<text x="335.0" y="247.6" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">3%</text>
+<text x="335.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">bandeau</text>
+<rect x="430.7" y="269.9" width="138.6" height="265.1" fill="#3A3A3A"/>
+<text x="500.0" y="255.9" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">3%</text>
+<text x="500.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">field/utility</text>
+<text x="500.0" y="610" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">jacket</text>
+<rect x="595.7" y="278.1" width="138.6" height="256.9" fill="#3A3A3A"/>
+<text x="665.0" y="264.1" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">3%</text>
+<text x="665.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">boxy jacket</text>
+<rect x="760.7" y="286.4" width="138.6" height="248.6" fill="#3A3A3A"/>
+<text x="830.0" y="272.4" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">3%</text>
+<text x="830.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">bermuda</text>
+<text x="830.0" y="610" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">shorts</text>
+<line x1="77.5" y1="535" x2="922.5" y2="535" stroke="#BDBDBD" stroke-width="1.5"/>
+<text x="40" y="693" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, share of looks</text>
+</svg>

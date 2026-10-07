@@ -26,13 +26,21 @@ def fw_houses_pct(cat, val):
     return 100 * int(r.Houses.iloc[0]) / TOTAL_HOUSES
 
 def wrap(label, n=14):
-    words, lines, cur = label.split(), [], ''
-    for w in words:
-        if cur and len(cur) + 1 + len(w) > n:
-            lines.append(cur); cur = w
+    # break on spaces, and also after '/' or '-' so 'boxy/oversized' can wrap
+    import re
+    parts = re.findall(r'[^\s/-]+[/-]?|\s+', label)
+    toks, lines, cur = [], [], ''
+    for t in parts:
+        if t.isspace(): toks.append(' ')
+        else: toks.append(t)
+    for t in toks:
+        if t == ' ':
+            cur += ' '; continue
+        if cur.strip() and len(cur.rstrip() + ('' if cur.endswith(('/', '-')) else ' ') + t) > n:
+            lines.append(cur.strip()); cur = t
         else:
-            cur = (cur + ' ' + w).strip()
-    lines.append(cur)
+            cur = cur + t
+    lines.append(cur.strip())
     return lines
 
 def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%', highlight=0):
@@ -96,6 +104,34 @@ small = [('skirt: pleated skirt', 'pleated skirt'), ('skirt: tiered/ruffled skir
 charts.append(bar_chart('04-smaller-silhouettes', 'the smaller silhouettes',
     '% of houses that showed each piece at least once',
     [(lab, fw_houses_pct('garment', v)) for v, lab in small], SRC + ', share of houses'))
+
+# Ranked sections (Carmen, Paris SS27): top 10 + next 5, by share of all looks
+def ranked(cat, skip=()):
+    d = fw[(fw.Category == cat) & (~fw.Value.isin(skip))].sort_values('Looks', ascending=False)
+    return [(v, float(sh)) for v, sh in zip(d.Value, d['Share pct'])]
+def clean(v):
+    # 'trouser: straight' -> 'straight trouser', keep the noun so the label says what the piece is
+    if ': ' not in v: return v
+    piece, typ = v.split(': ', 1)
+    special = {'coat: trench': 'trench coat', 'jacket: bomber': 'bomber jacket', 'top: polo': 'polo shirt'}
+    if v in special: return special[v]
+    if piece in ('trouser', 'shorts') and piece not in typ: return f'{typ} {piece}'
+    return typ
+mats = ranked('material', skip=('other',))
+gars = ranked('garment', skip=('skirt: other', 'top: other', 'shorts: other', 'knitwear: other'))
+shps = ranked('silhouette')
+LOOKS = SRC + ', share of looks'
+charts.append(bar_chart('10-top-materials', 'top 10 materials',
+    '% of all Paris looks that include each material', [(clean(v), x) for v, x in mats[:10]], LOOKS))
+charts.append(bar_chart('11-next-materials', 'the next five materials',
+    '% of all Paris looks that include each material', [(clean(v), x) for v, x in mats[10:15]], LOOKS))
+charts.append(bar_chart('12-top-garments', 'top 10 pieces',
+    '% of all Paris looks that include each piece', [(clean(v), x) for v, x in gars[:10]], LOOKS))
+charts.append(bar_chart('13-next-garments', 'the next five pieces',
+    '% of all Paris looks that include each piece', [(clean(v), x) for v, x in gars[10:15]], LOOKS))
+charts.append(bar_chart('14-top-shapes', 'top 10 shapes',
+    '% of all Paris looks with each overall silhouette', [(clean(v), x) for v, x in shps[:10]], LOOKS))
+print('materials', mats[:15]); print('garments', gars[:15]); print('shapes', shps)
 
 # 5. Over-index pairings that crossed houses
 o = x['Over-index']
