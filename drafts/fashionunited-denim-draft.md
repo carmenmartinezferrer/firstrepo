@@ -72,6 +72,13 @@ Search data adds a nuance the runway alone does not show, which is that the barr
 
 Where the runway and search do line up is on the straight leg. Among the most searched jeans queries worldwide over the past year, "straight jeans" scores about three times higher than "barrel jeans" on the same scale, and the straight-leg queries are also among the fastest growing, with "straight jeans" up 130 percent, "straight leg jeans" up 150 percent and "straight fit jeans" up 180 percent against the previous period, ahead of the barrel's 120 percent. The skinny jean, meanwhile, has not translated into a lasting return. Search interest jumped sharply in the spring, but by early October it had fallen back to last year's level, which matches the single skinny jean on the Paris runway.
 
+The same list of top searches shows what shoppers are looking for beyond the shape. The most searched jeans query of the past year was "men's jeans", which also grew the fastest of any query on the list, up 700 percent against the previous period, a reminder that the denim conversation is not only a womenswear one. On colour, "black jeans" and "blue jeans" are the most searched after it, but the faster growth sits in lighter and warmer shades, with "white jeans" up 70 percent, "light blue jeans" up 80 percent and "brown jeans" up 110 percent, which lines up with the mid-wash and white denim that Paris put on its runways. The decline is concentrated in the shapes of earlier cycles, with "mom jeans" down 10 percent and "flared jeans" down 20 percent.
+
+Brand searches point the same way as the retail results. "Levi's jeans" and "Calvin Klein jeans" are both up 200 percent, "Gap jeans" up 140 percent, and "Old Navy" and "H&M" up 120 percent each, while "Zara jeans" rose a more modest 20 percent. The brands whose searches grew fastest are largely the heritage denim names, which suggests that for a shopper looking for the right pair, a recognised fit from a known denim label carries more weight than a new silhouette.
+
+[Chart: fastest growing jeans searches worldwide, past 12 months, percent increase against the previous period (styles, colours and brands)]
+Credits: The Data Fashion Brief
+
 [Chart: most searched jeans styles worldwide, past 12 months, relative search interest on the same 0 to 100 scale (straight jeans, baggy jeans, skinny jeans, wide leg jeans, bootcut jeans, barrel jeans, flare jeans, mom jeans)]
 Credits: The Data Fashion Brief
 
@@ -120,7 +127,8 @@ Numbers behind the new search section:
 Three things to check:
 1. **Which seed term was the top-searches file?** I've assumed "jeans" (it reads like it). If it's something else, the "most searched jeans queries" wording needs changing.
 2. **The barrel and skinny curves are separate exports**, each scaled to its own peak, so they can't be compared to each other in level. That's why the draft compares them only against their own previous year. For a true head-to-head line chart, export "barrel jeans" and "straight leg jeans" (or "straight jeans") in **one** comparison and I'll swap the chart.
-3. **Barrel and skinny spiked in exactly the same weeks** (jump week of 22 March, drop week of 17 May). I couldn't find a single event that explains it, and two unrelated silhouettes moving in lockstep could be a Google data artefact rather than real demand. It doesn't change the draft's claims (they rest on the year-on-year comparison and the latest weeks), but it's worth checking before the editor asks, and I'd keep the April peak out of any headline.
+3. **"Men's jeans" up 700 percent** is now in the piece as the fastest-growing query. Google flags anything above 5,000 percent as "Breakout", so 700 is a real figure, but it's big enough that the editor may ask, worth a quick look at the "men's jeans" curve on its own before publishing.
+4. **Barrel and skinny spiked in exactly the same weeks** (jump week of 22 March, drop week of 17 May). I couldn't find a single event that explains it, and two unrelated silhouettes moving in lockstep could be a Google data artefact rather than real demand. It doesn't change the draft's claims (they rest on the year-on-year comparison and the latest weeks), but it's worth checking before the editor asks, and I'd keep the April peak out of any headline.
 
 **The search data changes the argument a little:** it doesn't show the barrel fading, it shows it maturing, still above last year. I've written the piece that way rather than claim a decline the data doesn't support. The straight leg story is strong in both runway and search, which is the two-source agreement worth leading with.
 
