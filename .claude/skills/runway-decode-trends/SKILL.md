@@ -67,6 +67,77 @@ the second place to check the register against, voice only, not shape.
 This same reference file is also the tone anchor for `runway-decode-colour`,
 both pieces should read like the same person wrote them on the same day.
 
+## Standard from Paris SS27 onward (overrides older structure below where they differ)
+
+Carmen set these on the Paris SS27 piece. Apply them every time.
+
+**The workbook (multi-tab Catwalk Decode export).** If it has a `Read me`
+tab, read it first. Use the tabs in this order:
+1. **Trends** is the main tab for every "% of looks" and "how many
+   houses" claim (filter `Level` = fashion week for the season,
+   `Level` = house for one show, then filter `Category`).
+2. **Colour mix donut** for every colour number (never the Dominant
+   colour donut, which only exists to compare with Instagram decodes).
+3. **Over-index** for an "unexpected pairings" section (see below).
+4. **Garments** only for piece-level questions ("what fabric were the
+   pencil skirts made in") and for naming which houses sit behind a
+   number. Never use it for a % of looks.
+Fiber-level materials are now in the data itself, so no separate manual
+material decode is needed unless Carmen supplies one.
+
+**Three ranked sections, each charted.** All ranked by share of looks:
+1. **Materials** (`Category` = material): a top 10 chart, then a "next
+   five" chart (ranks 11 to 15).
+2. **Silhouettes by piece** (`Category` = garment): a top 10 chart, then
+   a "next five" chart.
+3. **Silhouettes by shape** (`Category` = silhouette): a top 10 chart,
+   plus a "next five" only if five more shapes with real share exist.
+Leave catch-all tags ("other", "skirt: other", "top: other") out of the
+rankings. Garment labels keep their noun ("straight trouser", "bermuda
+shorts", "trench coat", not "straight", "bermuda", "trench"). Flag vague
+tags in the prose ("cotton (unspecified)" can be the second biggest
+material and the source can't say what kind, say so).
+
+**Don't reuse the previous piece's framing.** Rank the real data first and
+write the headline from that. Paris almost repeated NYFW's "silk went
+everywhere" line when the data said wool led and silk was a clear second.
+
+**Group pieces only when the grouping is a real story, and say it's
+yours.** Example: lingerie-style tops (bandeau, corset/bustier, crop top,
+bodysuit, camisole, plus "bra" in outfit descriptions, because bras are not
+a separate garment type) added up to 12% of Paris looks while each piece
+alone was 2 to 3%. State the grouping in the methodology and flag any
+known undercount.
+
+**Unexpected pairings section (Over-index tab).** Index / 100 = "N times
+more often than normal". Only pairings on 4+ pieces. Drop the obvious ones
+(corsetry on a corset, bubble hem on a bubble skirt). Split into "crossed
+houses" (2+ houses) and "pure house signature" (one house), and use
+Garments to name the houses. Chart the crossed-houses ones.
+
+**Chart style (replaces the off-white blocks for bar charts).** White
+background, vertical bars, dark grey (`#3A3A3A`) with one pink (`#D6447A`)
+highlight bar, title in bold Playfair Display (lowercase, catchy),
+subtitle and labels in Century Gothic (Questrial as the free fallback
+when rendering), percentages in Century Gothic (not italic serif), source
+line at the bottom, bars close together, label text big (titles about
+56px, labels 25px, values about 40px on a 1000px canvas, widen the canvas
+rather than shrink text when there are 8 or more bars so labels never
+touch). Render PNG at 2x with Playwright, Chromium is preinstalled.
+Reference implementation: `scripts/build_bar_charts_paris_ss27.py` +
+`scripts/render_png.js` (the Paris-specific chart list is at the bottom of
+that script, the `bar_chart()` function and label wrapping are reusable).
+
+**Every chart says what its number measures**, in the subtitle, in plain
+words: "% of all Paris looks that include each material", "% of houses
+that showed each piece at least once", "% of each house's colour palette
+that is pink, vs the season average", "18x = 18 times more often than
+normal". A bare "44%" is never enough. Interpretive lines go in the title
+or the prose, never in place of the unit.
+
+**Draft markers name the chart file and its unit**, e.g.
+`[CHART: 10-top-materials.png, % of all Paris looks that include each material]`.
+
 ## Before you start
 
 Confirm with Carmen, don't assume:
@@ -97,13 +168,15 @@ Confirm with Carmen, don't assume:
    or two sentences. The full methodology detail goes at the very bottom,
    see CLAUDE.md's Trend validation methodology section for the exact
    placement rule.
-3. **Materials**: a house-presence bar chart (share of houses featuring
+3. **Materials** (from Paris SS27: top 10 + next five by share of looks,
+   see the standard above; the older version was) a house-presence bar chart (share of houses featuring
    each material), a wool-or-equivalent by-weave breakdown, and an
    "In The Press" callout that gets specific about *what shape* the
    season's lead material actually takes (a garment, an accessory, a
    detail), not just naming the fiber again. See CLAUDE.md's "In The
    Press" callout spec for the exact box styling.
-4. **Silhouettes**: a share-of-houses bar chart, an "In The Press"
+4. **Silhouettes** (from Paris SS27: by piece and by shape, top 10 + next
+   five each, see the standard above; the older version was) a share-of-houses bar chart, an "In The Press"
    callout, and a smaller-silhouettes chart for trends too small for the
    main chart but real (2+ houses). For the smaller-silhouettes chart,
    pull the actual house names for each entry straight from the
