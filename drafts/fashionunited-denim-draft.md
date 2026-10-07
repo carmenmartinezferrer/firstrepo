@@ -109,6 +109,29 @@ The real test comes when the Spring/Summer 2027 collections reach stores next ye
 
 ---
 
+## Sources
+
+**Runway data**
+- The Data Fashion Brief, Paris Fashion Week SS27 runway tagging (16 houses, 997 looks) and Carmen's denim decode (no public link, unpublished data)
+- The Data Fashion Brief, NYFW SS27 trend report (13 houses, denim in 38 percent of shows): [thedatafashionbrief.substack.com](https://thedatafashionbrief.substack.com) (add the direct link to the NYFW piece)
+
+**Search data** (Carmen's own Google Trends exports, worldwide, 7 Oct 2025 to 7 Oct 2026)
+- "barrel jeans", past year vs preceding year: [Google Trends](https://trends.google.com/trends/explore?date=today%2012-m&q=barrel%20jeans)
+- "skinny jeans", past year vs preceding year: [Google Trends](https://trends.google.com/trends/explore?date=today%2012-m&q=skinny%20jeans)
+- Top related searches for jeans (styles, colours, brands, "men's jeans"): [Google Trends](https://trends.google.com/trends/explore?date=today%2012-m&q=jeans) (seed term to confirm)
+
+**Company results**
+- Gap brand Q2 FY2026 comparable sales +10%, 11th consecutive positive quarter, denim a destination category: [Gap Inc. second quarter fiscal 2026 results](https://www.gapinc.com/en-us/articles/2026/08/gap-inc-reports-second-quarter-fiscal-2026-results)
+- Old Navy as third largest US denim brand, building on low rise and baggy: [Gap Inc. Q2 2026 earnings call transcript, The Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/08/31/gap-gap-q2-2026-earnings-call-transcript/)
+- Levi Strauss & Co. Q2 2026 revenue +8%, full-year outlook raised: [Levi Strauss & Co. second quarter results (Nasdaq)](https://www.nasdaq.com/press-release/levi-strauss-co-reports-second-quarter-results-2026-07-08), [CNBC](https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html)
+- Levi's looser fits among growth drivers: [Sourcing Journal (WWD), Levi's Q2](https://wwd.com/sourcing-journal/sj-denim/levis-q2-womens-supply-chain-improvements-fuel-growth-1239060811/)
+- American Eagle Q2 2026 brand comparable sales -1%, women's denim rebalancing, new wide-leg straight and low-rise fits: [Yahoo Finance, AEO Q2 2026 call summary](https://finance.yahoo.com/markets/stocks/articles/american-eagle-outfitters-inc-q2-123000834.html), [Modern Retail](https://www.modernretail.co/operations/aerie-soars-in-back-to-school-sales-while-american-eagle-works-to-balance-denim/)
+
+**Images**
+- Runway photography: Launchmetrics Spotlight (subscription, credited ©Launchmetrics/spotlight)
+
+---
+
 ## Delivery notes for Carmen
 
 ### Source list for every non-DFB claim

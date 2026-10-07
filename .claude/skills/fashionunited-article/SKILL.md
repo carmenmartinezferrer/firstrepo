@@ -80,6 +80,15 @@ notes:
    show, Carmen pulls them from Launchmetrics, AFP or the brand's press
    office.
 
+6. **Every draft ends with a sources list.** Carmen's own standing rule:
+   whenever a version of the article is handed over, close it with a
+   bullet-point list of every source used anywhere in the piece, each
+   with its link, grouped by what it backs up (runway data, search data,
+   company results, press). DFB's own unpublished data and Carmen's
+   uploaded files are listed too, named plainly, with "no public link"
+   where there isn't one. Never drop the list because a source was
+   already cited in an earlier turn.
+
 ## How it differs from the DFB version
 
 | | DFB Substack | FashionUnited |

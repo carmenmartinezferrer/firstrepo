@@ -48,6 +48,11 @@ listicle or a trend report.
 5. Claude's role in formatting is formatting only, never silent editorial
    rewriting of her voice or argument without being asked.
 
+6. Every time a draft or new version of any piece is handed over, end it
+   with a bullet-point list of every source used in the piece, each with
+   its link (Carmen's standing request). Her own uploads and DFB's
+   unpublished data are listed too, marked "no public link".
+
 ## Voice notes
 
 - First person, genuinely casual, closer to the external trend-autopsy
