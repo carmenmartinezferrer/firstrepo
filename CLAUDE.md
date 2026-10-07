@@ -197,6 +197,13 @@ comparable, not just their labels.
   `.claude/skills/dfb-personal-essay` captures the build logic, which
   references point to use for voice versus structure.
 
+- **FashionUnited article** (trade publication, not Substack): DFB data
+  rewritten as neutral, news-led trade journalism, third person, DFB
+  cited as a source, licensed images only (PR, AFP, Launchmetrics).
+  `.claude/skills/fashionunited-article` holds the editor's standing
+  feedback and the structure, the published quiet luxury piece in
+  `reference-articles/` is the reference.
+
 ## HTML build template
 
 The visual template lives in past published artifacts in this conversation
