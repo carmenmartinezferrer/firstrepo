@@ -28,7 +28,7 @@ What it was, overwhelmingly, was the jean itself. Trousers accounted for 33 of t
 [Chart: denim looks by house, Paris SS27, share of each house's own looks]
 Credits: The Data Fashion Brief
 
-*Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric and colour. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. The Paris houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total. The New York houses covered: [HOUSE LIST, see notes].
+*Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric and colour. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. The Paris houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total. The New York houses covered: [HOUSE LIST, see notes]. Search data comes from Google Trends, worldwide, October 2025 to October 2026, compared with the preceding year.
 
 The styling is where the barrel's successor becomes clear. Wool suiting appears in 10 of the denim looks and leather in six, so the blazer worn with jeans is the formula, especially at Tom Ford and Maison Margiela, and the data shows mid-wash sitting on straight trousers about nine times more often than chance would predict. Tom Ford put indigo jeans under blazers alongside pinstripe jeans, white jeans and denim shorts, Balenciaga showed almost entirely mid-wash jeans with shirts and T-shirts, five wide leg and three straight, and Stella McCartney led on volume with denim in 16 percent of its looks, mostly straight jeans alongside a denim jacket, a denim shirt and palm-printed white jeans.
 
@@ -64,14 +64,25 @@ The commercial picture explains why designers are treating denim as a basic. At 
 
 The pattern at Gap Inc. is similar. The Gap brand posted comparable sales growth of 10 percent in the second quarter of fiscal 2026, its eleventh consecutive quarter of positive comparable sales, with management naming denim among its destination categories, while Old Navy, which describes itself as the third largest denim brand in the United States, said it would build on newer silhouettes such as low rise and baggy in the second half. At American Eagle, where comparable sales at the brand fell 1 percent in the second quarter, the company attributed the decline partly to rebalancing its women's denim inventory, while reporting a good response to new women's fits including a wide-leg straight and a low rise.
 
-[Chart: search interest, worldwide, past 12 months, barrel jeans against straight leg jeans, same 0 to 100 scale (see notes, data still to pull)]
+None of these companies is selling one silhouette. The growth is coming from a wider family of fits, baggy, wide, straight, low rise and bootcut sold alongside each other, which reflects how the customer now shops for denim: less as a trend purchase and more as a search for the pair that fits and is comfortable to wear every day.
+
+## What shoppers are searching for
+
+Search data adds a nuance the runway alone does not show, which is that the barrel is maturing rather than fading. According to The Data Fashion Brief's analysis of Google Trends data, worldwide search interest in "barrel jeans" peaked in April and has since settled at less than half that peak, but it has stayed higher than the same week a year earlier in every week of the past year, and over the past two months it has run at almost double last year's level. The barrel is no longer accelerating, but the shoppers who discovered it have not left it.
+
+Where the runway and search do line up is on the straight leg. Among the most searched jeans queries worldwide over the past year, "straight jeans" scores about three times higher than "barrel jeans" on the same scale, and the straight-leg queries are also among the fastest growing, with "straight jeans" up 130 percent, "straight leg jeans" up 150 percent and "straight fit jeans" up 180 percent against the previous period, ahead of the barrel's 120 percent. The skinny jean, meanwhile, has not translated into a lasting return. Search interest jumped sharply in the spring, but by early October it had fallen back to last year's level, which matches the single skinny jean on the Paris runway.
+
+[Chart: most searched jeans styles worldwide, past 12 months, relative search interest on the same 0 to 100 scale (straight jeans, baggy jeans, skinny jeans, wide leg jeans, bootcut jeans, barrel jeans, flare jeans, mom jeans)]
 Credits: The Data Fashion Brief
 
-None of these companies is selling one silhouette. The growth is coming from a wider family of fits, baggy, wide, straight, low rise and bootcut sold alongside each other, which reflects how the customer now shops for denim: less as a trend purchase and more as a search for the pair that fits and is comfortable to wear every day. That is the same instinct the Paris runway reflects, where 77 percent of denim pieces were cut relaxed and the barrel's exaggerated curve is replaced by a straighter, easier leg.
+[Chart: search interest in "barrel jeans" worldwide, past year against the preceding year, weekly]
+Credits: The Data Fashion Brief
+
+That is the same instinct the Paris runway reflects, where 77 percent of denim pieces were cut relaxed and the straight leg outnumbered the wide leg three to one: a customer who has already made the straight jean the most searched silhouette, and designers who are now putting it under a blazer.
 
 ## What this means for brands and retailers
 
-The barrel jean is unlikely to disappear, and retailers are still selling it within broader fit families, but the runway signal for Spring/Summer 2027 is that the next jean is less extreme rather than more: relaxed, full length, straight or gently wide, mid-wash or indigo, and styled with tailoring rather than worn as denim-on-denim. For brands, the opportunity sits in fit range and wearability rather than a single new silhouette, and for retailers it points to assortments built around the straight leg as a core, with house-specific details, lacing, charcoal washes, prints, as the points of difference.
+The barrel jean is not disappearing, search interest is still running ahead of last year and retailers are still selling it within broader fit families, but the runway signal for Spring/Summer 2027 is that the next jean is less extreme rather than more: relaxed, full length, straight or gently wide, mid-wash or indigo, and styled with tailoring rather than worn as denim-on-denim. For brands, the opportunity sits in fit range and wearability rather than a single new silhouette, and for retailers it points to assortments built around the straight leg as a core, with house-specific details, lacing, charcoal washes, prints, as the points of difference.
 
 Levi Strauss & Co.'s third quarter results, due today, and the holiday quarter that follows will show whether the demand behind looser fits is holding as the barrel matures. On the runway, denim reached more houses than its 4 percent share of Paris looks suggests, which reads as a signal of a category settling into the wardrobe rather than a verdict on a new trend, and one that will be clearer once the Spring/Summer 2027 collections reach stores.
 
@@ -101,9 +112,19 @@ Levi Strauss & Co.'s third quarter results, due today, and the holiday quarter t
 4. **Barrel on the Paris runway.** The breakdown has straight leg (21) and wide leg (7) out of 33 trousers, which leaves five unaccounted. If any of those are barrel, the "replaced by a straighter leg" line needs softening.
 5. **NYFW house list** for the methodology note, the published piece only gives the count (13).
 
-### Search chart still needed
+### Search data (from your three Google Trends exports, 7 October)
 
-Google Trends is blocked from this environment, so I couldn't pull the head-to-head. Suggested comparison, worldwide, past 12 months, same 0 to 100 scale: "barrel jeans" against "straight leg jeans" (and optionally "bootcut jeans"). If barrel is fading and straight leg holding, that's the strongest single piece of evidence the article can carry and should replace the placeholder sentence. If it doesn't show that, the argument needs adjusting rather than the chart dropping.
+Numbers behind the new search section:
+- **Barrel jeans** (past year vs preceding year, weekly): peak 100 week of 12 April 2026, latest 43. Above the preceding year in 53 of 53 weeks. Last 8 weeks average 45 vs 23 a year earlier (+92%), full year average +168%. Note the preceding year was itself rising (11 to 25), so the barrel has been growing for two years.
+- **Skinny jeans**: spring spike (peak 100 week of 3 May), latest 15 vs 17 a year earlier. Last 8 weeks +54% on average, but the final two weeks are back to last year's level, which is what the draft says.
+- **Top searches** file (relative interest, same scale, increase vs previous period): straight jeans 68 (+130%), baggy 61 (+20%), skinny 41 (+60%), wide leg 39 (+40%), bootcut 28 (+80%), straight leg 27 (+150%), barrel 21 (+120%), flare 19 (+20%), straight fit 17 (+180%), low rise 17 (+30%), mom 11 (-10%), flared 10 (-20%).
+
+Three things to check:
+1. **Which seed term was the top-searches file?** I've assumed "jeans" (it reads like it). If it's something else, the "most searched jeans queries" wording needs changing.
+2. **The barrel and skinny curves are separate exports**, each scaled to its own peak, so they can't be compared to each other in level. That's why the draft compares them only against their own previous year. For a true head-to-head line chart, export "barrel jeans" and "straight leg jeans" (or "straight jeans") in **one** comparison and I'll swap the chart.
+3. **Barrel and skinny spiked in exactly the same weeks** (jump week of 22 March, drop week of 17 May). I couldn't find a single event that explains it, and two unrelated silhouettes moving in lockstep could be a Google data artefact rather than real demand. It doesn't change the draft's claims (they rest on the year-on-year comparison and the latest weeks), but it's worth checking before the editor asks, and I'd keep the April peak out of any headline.
+
+**The search data changes the argument a little:** it doesn't show the barrel fading, it shows it maturing, still above last year. I've written the piece that way rather than claim a decline the data doesn't support. The straight leg story is strong in both runway and search, which is the two-source agreement worth leading with.
 
 ### Image slots
 
