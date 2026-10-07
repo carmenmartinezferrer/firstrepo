@@ -83,7 +83,7 @@ Credits: The Data Fashion Brief
 
 Where the runway and search do line up is on the straight leg. Among the most searched jeans queries worldwide over the past year, "straight jeans" scores about three times higher than "barrel jeans" on the same scale, and the straight-leg queries are also among the fastest growing, with "straight jeans" up 130 percent, "straight leg jeans" up 150 percent and "straight fit jeans" up 180 percent against the previous period, ahead of the barrel's 120 percent. The skinny jean, meanwhile, has not translated into a lasting return. Search interest jumped sharply in the spring, but by early October it had fallen back to last year's level, which matches the single skinny jean on the Paris runway.
 
-[CHART: 06-most-searched-styles.png, search interest by jeans style, same 0 to 100 scale]
+[CHART: 06-most-searched-styles.png, search interest as a % of the most searched jeans query (men's jeans)]
 Credits: The Data Fashion Brief
 
 [CHART: 07-fastest-growing-styles.png, % change in search interest vs the previous period, by jeans style]
