@@ -6,7 +6,7 @@
    Standfirst: Runway data from the Spring/Summer 2027 shows and the latest results from the biggest denim sellers suggest the next jean is less about a new shape and more about comfort and fit.
 
 2. **After the barrel jean, denim settles into the relaxed straight leg**
-   Standfirst: Denim reached 10 of 16 houses in Paris for Spring/Summer 2027, almost always as one relaxed, full-length jean worn with tailoring, while retailers are building their growth on a wider range of fits.
+   Standfirst: Denim reached 63 percent of the houses analysed in Paris for Spring/Summer 2027, almost always as one relaxed, full-length jean worn with tailoring, while retailers are building their growth on a wider range of fits.
 
 3. **The search for the perfect jean: what SS27 runways and denim retailers say comes after the barrel**
    Standfirst: Comfort is driving denim demand at both ends of the market, and the runway's answer to the barrel is a jean that is easier to wear, not more extreme.
@@ -21,14 +21,14 @@ Levi Strauss & Co. reports its third quarter results today, its first since rais
 
 ## Paris treats denim as a wardrobe basic
 
-Based on The Data Fashion Brief's analysis of Paris Fashion Week SS27, denim appeared in 44 looks, 4 percent of everything shown in Paris, but those looks were spread across 10 of the 16 houses analysed, which makes it light in volume and wide in reach rather than one designer's statement. Every one of those looks carried exactly one denim piece, so there was no denim-on-denim anywhere in Paris, and denim was the main fabric of only 18 looks, seven of them at Stella McCartney. Everywhere else, the jean was a supporting piece.
+Based on The Data Fashion Brief's analysis of Paris Fashion Week SS27, denim appeared in 44 looks, 4 percent of everything shown in Paris, but those looks were spread across 63 percent of the houses analysed, which makes it light in volume and wide in reach rather than one designer's statement. Every one of those looks carried exactly one denim piece, so there was no denim-on-denim anywhere in Paris, and denim was the main fabric of only 18 looks, seven of them at Stella McCartney. Everywhere else, the jean was a supporting piece.
 
 What it was, overwhelmingly, was the jean itself. Trousers accounted for 33 of the 44 denim pieces (75 percent), and of those, 21 were straight leg and seven were wide leg, with the straight leg concentrated at Maison Margiela, Stella McCartney and Tom Ford. The fit was relaxed on 34 of the 44 pieces (77 percent) and 29 were full length, while there was no sign of a skinny revival, with a single skinny jean in the whole of Paris, at Tom Ford. Mid-wash led the colour story with 24 pieces (55 percent), mostly at Balenciaga and Stella McCartney, followed by indigo with seven, mostly Tom Ford and Miu Miu.
 
 [Chart: denim looks by house, Paris SS27, share of each house's own looks]
 Credits: The Data Fashion Brief
 
-*Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric and colour. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. The Paris houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total. The New York houses covered: [HOUSE LIST, see notes]. Search data comes from Google Trends, worldwide, October 2025 to October 2026, compared with the preceding year.
+*Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric and colour. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. The Paris houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total. The New York houses covered: Altuzarra, Calvin Klein, Carolina Herrera, Coach, Conner Ives, Cult Gaia, Khaite, Michael Kors, Ralph Lauren, Thom Browne, Tommy Hilfiger, Tory Burch and Ulla Johnson. Search data comes from Google Trends, worldwide, October 2025 to October 2026, compared with the preceding year.
 
 The styling is where the barrel's successor becomes clear. Wool suiting appears in 10 of the denim looks and leather in six, so the blazer worn with jeans is the formula, especially at Tom Ford and Maison Margiela, and the data shows mid-wash sitting on straight trousers about nine times more often than chance would predict. Tom Ford put indigo jeans under blazers alongside pinstripe jeans, white jeans and denim shorts, Balenciaga showed almost entirely mid-wash jeans with shirts and T-shirts, five wide leg and three straight, and Stella McCartney led on volume with denim in 16 percent of its looks, mostly straight jeans alongside a denim jacket, a denim shirt and palm-printed white jeans.
 
@@ -40,7 +40,7 @@ Credits: ©Launchmetrics/spotlight
 Balenciaga SS27, Ready to Wear
 Credits: ©Launchmetrics/spotlight
 
-The houses doing something newer with denim were the exceptions rather than the rule. Maison Margiela, with denim in [15/14, see notes] percent of its looks, showed three denim jackets, a denim maxi skirt and charcoal denim, the only house in Paris to use it, while Miu Miu showed lace-up jeans, a lace-up denim pinafore and crinkled denim skirts, the only denim in the season with a finish other than matte. Chanel paired a denim corset with a tulle skirt, and Stella McCartney's printed and patchworked jeans carried most of the season's surface decoration, but 27 of the 44 denim pieces in Paris were entirely plain.
+The houses doing something newer with denim were the exceptions rather than the rule. Maison Margiela, with denim in 15 percent of its looks, showed three denim jackets, a denim maxi skirt and charcoal denim, the only house in Paris to use it, while Miu Miu showed lace-up jeans, a lace-up denim pinafore and crinkled denim skirts, the only denim in the season with a finish other than matte. Chanel paired a denim corset with a tulle skirt, and Stella McCartney's printed and patchworked jeans carried most of the season's surface decoration, but 27 of the 44 denim pieces in Paris were entirely plain.
 
 [Image: Maison Margiela SS27, charcoal denim or denim jacket look]
 Maison Margiela SS27, Ready to Wear
@@ -50,9 +50,9 @@ Credits: ©Launchmetrics/spotlight
 Miu Miu SS27, Ready to Wear
 Credits: ©Launchmetrics/spotlight
 
-## New York shows the same appetite at a larger scale
+## New York points to the same relaxed trouser
 
-New York had already pointed the same way earlier in the season. According to The Data Fashion Brief's analysis of New York Fashion Week SS27, denim appeared in 38 percent of the shows analysed, most present at Ralph Lauren, Tommy Hilfiger, Calvin Klein, Conner Ives and Thom Browne, where it appeared mostly as a jacket but also as trousers and a coat. Read together, the two cities describe denim at different intensities but with the same message: it has moved from statement to staple, present across a large share of collections without any single house turning it into a season-defining look.
+New York had already pointed the same way earlier in the season. According to The Data Fashion Brief's analysis of New York Fashion Week SS27, denim appeared in 38 percent of the shows analysed, most present at Ralph Lauren, Tommy Hilfiger, Calvin Klein, Conner Ives and Thom Browne, with the relaxed denim trouser the piece that connects it to Paris. Paris spread denim across more of its houses, 63 percent against New York's 38 percent, but both cities describe the same shift: denim has moved from statement to staple, present across a large share of collections without any single house turning it into a season-defining look, and the jean doing that work is relaxed rather than skinny or sculpted.
 
 [Image: Tommy Hilfiger or Calvin Klein SS27 denim look]
 Tommy Hilfiger SS27, Ready to Wear
@@ -106,11 +106,9 @@ Levi Strauss & Co.'s third quarter results, due today, and the holiday quarter t
 
 ### Things to check in the DFB data before this goes anywhere
 
-1. **NYFW denim, jacket or trousers?** The published NYFW piece says denim was "mostly as a jacket but also showing up as trousers and a coat" and lists **Ralph Lauren** among the top houses. Your message today drops Ralph Lauren and leans on relaxed trousers. I followed the published version, tell me if the data changed.
-2. **38 percent of what?** I read it as share of shows (5 of 13, which rounds to 38%). Paris's 4 percent is share of looks. They're not the same measure, so I avoided comparing them directly. If it's 5 of 13 shows, Paris is actually the wider city on reach (10 of 16 houses, 63%), which would be a good line, confirm and I'll add it.
-3. **Margiela: 15 or 14 percent?** Your message says 15%, the Paris trend report draft notes say 14. Left a placeholder.
+Resolved with Carmen: NYFW framed around trousers, 38 percent is 5 of 13 shows (stated as a percent only, Paris reach likewise given as 63 percent of houses), Margiela 15 percent, NYFW house list added.
+
 4. **Barrel on the Paris runway.** The breakdown has straight leg (21) and wide leg (7) out of 33 trousers, which leaves five unaccounted. If any of those are barrel, the "replaced by a straighter leg" line needs softening.
-5. **NYFW house list** for the methodology note, the published piece only gives the count (13).
 
 ### Search data (from your three Google Trends exports, 7 October)
 
