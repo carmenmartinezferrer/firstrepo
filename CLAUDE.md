@@ -48,6 +48,11 @@ listicle or a trend report.
 5. Claude's role in formatting is formatting only, never silent editorial
    rewriting of her voice or argument without being asked.
 
+6. Every time a draft or new version of any piece is handed over, end it
+   with a bullet-point list of every source used in the piece, each with
+   its link (Carmen's standing request). Her own uploads and DFB's
+   unpublished data are listed too, marked "no public link".
+
 ## Voice notes
 
 - First person, genuinely casual, closer to the external trend-autopsy
@@ -196,6 +201,13 @@ comparable, not just their labels.
   whole point rather than something a chart earns the right to include.
   `.claude/skills/dfb-personal-essay` captures the build logic, which
   references point to use for voice versus structure.
+
+- **FashionUnited article** (trade publication, not Substack): DFB data
+  rewritten as neutral, news-led trade journalism, third person, DFB
+  cited as a source, licensed images only (PR, AFP, Launchmetrics).
+  `.claude/skills/fashionunited-article` holds the editor's standing
+  feedback and the structure, the published quiet luxury piece in
+  `reference-articles/` is the reference.
 
 ## HTML build template
 
