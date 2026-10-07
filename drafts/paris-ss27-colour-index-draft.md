@@ -172,3 +172,11 @@ NOTES FOR CARMEN (delete before publishing)
      lipstick red 14 looks season-wide, Tom Ford 4.
    - Dries: graphic print 17, floral print 15. Balmain: animal print 24.
 -->
+
+## Sources
+
+- SS27-paris_4.xlsx, DFB runway tagging of 16 Paris SS27 shows (997 looks), Carmen's upload, no public link
+- Schön, Lacoste SS27 No White Required: https://schonmagazine.com/lacoste-ss27-no-white-required/
+- WWD, Isabel Marant Spring 2027 review: https://wwd.com/runway/spring-2027/paris/isabel-marant/review/
+- The Impression, Miu Miu Spring 2027 review: https://theimpression.com/miu-miu-spring-2027-fashion-show-review/
+- DFB, Paris SS27 trend report (companion piece), link to add

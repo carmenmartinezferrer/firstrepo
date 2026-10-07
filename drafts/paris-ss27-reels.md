@@ -299,3 +299,13 @@ Every Paris palette, house by house, on the Substack, link in bio.
   - Use images you have rights to, as with the article charts.
 - **Confirm before posting:** the four quotes and claims sourced from search summaries (AnOther on Balmain, Schön on Lacoste, The Impression on Miu Miu, plus the reviews list). Everything else is straight from the paris_4 data.
 - **Posting order suggestion:** Reel 1 and Reel 4 first, as the two headline findings, then the Comparison Reveals (3 and 6) a week later for the engagement spike, then Reels 2 and 5.
+
+## Sources
+
+- SS27-paris_4.xlsx, DFB runway tagging of 16 Paris SS27 shows (997 looks), Carmen's upload, no public link
+- RUSSH, Chanel Spring/Summer 2027: https://www.russh.com/chanel-spring-summer-2027/
+- AnOther, Antonin Tron's Balmain SS27 review: https://www.anothermag.com/fashion-beauty/17531/balmain-antonin-tron-ss27-review-paris-fashion-week
+- Schön, Lacoste SS27 No White Required: https://schonmagazine.com/lacoste-ss27-no-white-required/
+- The Impression, Miu Miu Spring 2027 review: https://theimpression.com/miu-miu-spring-2027-fashion-show-review/
+- DFB, Paris SS27 trend report (companion piece), link to add
+- DFB, Paris SS27 colour index (companion piece), link to add

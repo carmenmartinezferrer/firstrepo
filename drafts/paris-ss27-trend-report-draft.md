@@ -231,3 +231,14 @@ NOTES FOR CARMEN (delete before publishing)
    - Pencil skirt by house, skirt lengths, wide-leg, colour, pairings
      and matrix numbers are unchanged from draft 2 (same data).
 -->
+
+## Sources
+
+- SS27-paris_4.xlsx, DFB runway tagging of 16 Paris SS27 shows (997 looks), Carmen's upload, no public link
+- WWD, Dries Van Noten Spring 2027 review: https://wwd.com/runway/spring-2027/paris/dries-van-noten/review/
+- Who What Wear, Balmain Spring 2027: https://www.whowhatwear.com/fashion/runway/balmain-spring-summer-2027
+- RUSSH, Chanel Spring/Summer 2027: https://www.russh.com/chanel-spring-summer-2027/
+- Whitewall, 6 collections from SS27 Paris Fashion Week: https://whitewall.art/fashion/6-collections-from-ss27-paris-fashion-week/
+- AnOther, Antonin Tron's Balmain SS27 review: https://www.anothermag.com/fashion-beauty/17531/balmain-antonin-tron-ss27-review-paris-fashion-week
+- DFB, NYFW SS27 trend report (Carmen's earlier piece), link to add
+- DFB, Paris SS27 colour index (companion piece), link to add
