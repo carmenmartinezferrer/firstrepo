@@ -27,11 +27,11 @@
 <rect x="538.0" y="708" width="68.0" height="50" fill="#3A3A3A"/>
 <text x="620.0" y="745.0" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="34" fill="#222222">+20%</text>
 <text x="336" y="816.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="28" fill="#222222">mom</text>
-<rect x="504.0" y="782" width="34.0" height="50" fill="#3A3A3A"/>
-<text x="490.0" y="819.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="34" fill="#222222">-10%</text>
+<rect x="504.0" y="782" width="34.0" height="50" fill="#B5473F" opacity="0.6"/>
+<text x="490.0" y="819.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="34" fill="#B5473F">-10%</text>
 <text x="336" y="890.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="28" fill="#222222">flared</text>
-<rect x="470.0" y="856" width="68.0" height="50" fill="#3A3A3A"/>
-<text x="456.0" y="893.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="34" fill="#222222">-20%</text>
+<rect x="470.0" y="856" width="68.0" height="50" fill="#B5473F" opacity="0.6"/>
+<text x="456.0" y="893.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="34" fill="#B5473F">-20%</text>
 <line x1="538.0" y1="178" x2="538.0" y2="918" stroke="#BDBDBD" stroke-width="1.5"/>
 <text x="40" y="990" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">Source: The Data Fashion Brief analysis of Google Trends, worldwide, Oct 2025 to Oct 2026</text>
 </svg>

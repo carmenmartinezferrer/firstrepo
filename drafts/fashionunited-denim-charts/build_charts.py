@@ -9,7 +9,7 @@ import sys, html, json, csv, re, datetime, os
 OUT = sys.argv[1]
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-PINK, DARK, INK, MUTED, BLACK = '#D6447A', '#3A3A3A', '#222222', '#6B6B6B', '#111114'
+PINK, DARK, INK, MUTED, BLACK, NEG = '#D6447A', '#3A3A3A', '#222222', '#6B6B6B', '#111114', '#B5473F'
 SERIF = "'Playfair Display', Georgia, serif"
 SANS = "'Century Gothic', 'Questrial', 'Avenir', sans-serif"
 
@@ -89,13 +89,16 @@ def hbar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)
         y = top + i * row
         bh = 50
         col = PINK if i in highlight else DARK
+        op = ''
+        if v < 0:
+            col, op = NEG, ' opacity="0.6"'  # declines in a muted red, softened
         x = zero if v >= 0 else zero - abs(v) * scale
         p.append(f'<text x="{left_lab-24}" y="{y+bh/2+9:.1f}" text-anchor="end" font-family="{SANS}" font-size="28" fill="{INK}">{html.escape(lab)}</text>')
-        p.append(f'<rect x="{x:.1f}" y="{y}" width="{abs(v)*scale:.1f}" height="{bh}" fill="{col}"/>')
+        p.append(f'<rect x="{x:.1f}" y="{y}" width="{abs(v)*scale:.1f}" height="{bh}" fill="{col}"{op}/>')
         if v >= 0:
             p.append(f'<text x="{zero+v*scale+14:.1f}" y="{y+bh/2+12:.1f}" font-family="{SANS}" font-size="34" fill="{INK}">{html.escape(fmt(v))}</text>')
         else:
-            p.append(f'<text x="{x-14:.1f}" y="{y+bh/2+12:.1f}" text-anchor="end" font-family="{SANS}" font-size="34" fill="{INK}">{html.escape(fmt(v))}</text>')
+            p.append(f'<text x="{x-14:.1f}" y="{y+bh/2+12:.1f}" text-anchor="end" font-family="{SANS}" font-size="34" fill="{NEG}">{html.escape(fmt(v))}</text>')
     p.append(f'<line x1="{zero:.1f}" y1="{top-12}" x2="{zero:.1f}" y2="{top+n*row-12}" stroke="#BDBDBD" stroke-width="1.5"/>')
     p.append(f'<text x="40" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(source)}</text>')
     p.append('</svg>')
