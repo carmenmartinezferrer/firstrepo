@@ -23,10 +23,19 @@ Based on The Data Fashion Brief's analysis of Paris Fashion Week SS27, denim app
 
 What it was, overwhelmingly, was the jean itself. Trousers accounted for 33 of the 44 denim pieces (75 percent), and of those, 21 were straight leg and seven were wide leg, with the straight leg concentrated at Maison Margiela, Stella McCartney and Tom Ford. The fit was relaxed on 34 of the 44 pieces (77 percent) and 29 were full length, while there was no sign of a skinny revival, with a single skinny jean in the whole of Paris, at Tom Ford. Mid-wash led the colour story with 24 pieces (55 percent), mostly at Balenciaga and Stella McCartney, followed by indigo with seven, mostly Tom Ford and Miu Miu.
 
-[Chart: denim looks by house, Paris SS27, share of each house's own looks]
+[CHART: 01-denim-by-house.png, % of each house's own looks that include denim, vs the Paris average]
 Credits: The Data Fashion Brief
 
 *Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric and colour. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. The Paris houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total. The New York houses covered: Altuzarra, Calvin Klein, Carolina Herrera, Coach, Conner Ives, Cult Gaia, Khaite, Michael Kors, Ralph Lauren, Thom Browne, Tommy Hilfiger, Tory Burch and Ulla Johnson. Search data comes from Google Trends, worldwide, October 2025 to October 2026, compared with the preceding year.
+
+[CHART: 03-denim-by-piece.png, % of all Paris denim pieces that are each type of piece]
+Credits: The Data Fashion Brief
+
+[CHART: 04-denim-fit.png, % of all Paris denim pieces with each fit or leg shape]
+Credits: The Data Fashion Brief
+
+[CHART: 05-denim-by-wash.png, % of all Paris denim pieces in each wash]
+Credits: The Data Fashion Brief
 
 The styling is where the barrel's successor becomes clear. Wool suiting appears in 23 percent of the denim looks and leather in 14 percent, so the blazer worn with jeans is the formula, especially at Tom Ford and Maison Margiela, and the data shows mid-wash sitting on straight trousers about nine times more often than chance would predict. Tom Ford put indigo jeans under blazers alongside pinstripe jeans, white jeans and denim shorts, Balenciaga showed almost entirely mid-wash jeans with shirts and T-shirts, five wide leg and three straight, and Stella McCartney led on volume with denim in 16 percent of its looks, mostly straight jeans alongside a denim jacket, a denim shirt and palm-printed white jeans.
 
@@ -52,6 +61,9 @@ Credits: ©Launchmetrics/spotlight
 
 New York had already pointed the same way earlier in the season. According to The Data Fashion Brief's analysis of New York Fashion Week SS27, denim appeared in 38 percent of the shows analysed, most present at Ralph Lauren, Tommy Hilfiger, Calvin Klein, Conner Ives and Thom Browne, with the relaxed denim trouser the piece that connects it to Paris. Paris spread denim across more of its houses, 63 percent against New York's 38 percent, but both cities describe the same shift: denim has moved from statement to staple, present across a large share of collections without any single house turning it into a season-defining look, and the jean doing that work is relaxed rather than skinny.
 
+[CHART: 02-denim-reach-by-city.png, % of houses that showed denim at least once]
+Credits: The Data Fashion Brief
+
 [Image: Tommy Hilfiger or Calvin Klein SS27 denim look]
 Tommy Hilfiger SS27, Ready to Wear
 Credits: ©Launchmetrics/spotlight
@@ -66,19 +78,25 @@ None of these companies is selling one silhouette. The growth is coming from a w
 
 Search data adds a nuance the runway alone does not show, which is that the barrel is maturing rather than fading. According to The Data Fashion Brief's analysis of Google Trends data, worldwide search interest in "barrel jeans" peaked in April and has since settled at less than half that peak, but it has stayed higher than the same week a year earlier in every week of the past year, and over the past two months it has run at almost double last year's level. The barrel is no longer accelerating, but the shoppers who discovered it have not left it.
 
+[CHART: 10-barrel-year-on-year.png, weekly search interest in "barrel jeans", past year vs preceding year, Google Trends 0 to 100 scale]
+Credits: The Data Fashion Brief
+
 Where the runway and search do line up is on the straight leg. Among the most searched jeans queries worldwide over the past year, "straight jeans" scores about three times higher than "barrel jeans" on the same scale, and the straight-leg queries are also among the fastest growing, with "straight jeans" up 130 percent, "straight leg jeans" up 150 percent and "straight fit jeans" up 180 percent against the previous period, ahead of the barrel's 120 percent. The skinny jean, meanwhile, has not translated into a lasting return. Search interest jumped sharply in the spring, but by early October it had fallen back to last year's level, which matches the single skinny jean on the Paris runway.
+
+[CHART: 06-most-searched-styles.png, search interest by jeans style, same 0 to 100 scale]
+Credits: The Data Fashion Brief
+
+[CHART: 07-fastest-growing-styles.png, % change in search interest vs the previous period, by jeans style]
+Credits: The Data Fashion Brief
 
 The same list of top searches shows what shoppers are looking for beyond the shape. The most searched jeans query of the past year was "men's jeans", which also grew the fastest of any query on the list, up 700 percent against the previous period, a reminder that the denim conversation is not only a womenswear one. On colour, "black jeans" and "blue jeans" are the most searched after it, but the faster growth sits in lighter and warmer shades, with "white jeans" up 70 percent, "light blue jeans" up 80 percent and "brown jeans" up 110 percent, which lines up with the mid-wash and white denim that Paris put on its runways. The decline is concentrated in the shapes of earlier cycles, with "mom jeans" down 10 percent and "flared jeans" down 20 percent.
 
+[CHART: 09-colour-searches.png, % change in search interest vs the previous period, by jeans colour]
+Credits: The Data Fashion Brief
+
 Brand searches point the same way as the retail results. "Levi's jeans" and "Calvin Klein jeans" are both up 200 percent, "Gap jeans" up 140 percent, and "Old Navy" and "H&M" up 120 percent each, while "Zara jeans" rose a more modest 20 percent. The brands whose searches grew fastest are largely the heritage denim names, which suggests that for a shopper looking for the right pair, a recognised fit from a known denim label carries more weight than a new silhouette.
 
-[Chart: fastest growing jeans searches worldwide, past 12 months, percent increase against the previous period (styles, colours and brands)]
-Credits: The Data Fashion Brief
-
-[Chart: most searched jeans styles worldwide, past 12 months, relative search interest on the same 0 to 100 scale (straight jeans, baggy jeans, skinny jeans, wide leg jeans, bootcut jeans, barrel jeans, flare jeans, mom jeans)]
-Credits: The Data Fashion Brief
-
-[Chart: search interest in "barrel jeans" worldwide, past year against the preceding year, weekly]
+[CHART: 08-brand-searches.png, % change in search interest vs the previous period, brand searches within jeans]
 Credits: The Data Fashion Brief
 
 That is the same instinct the Paris runway reflects, where 77 percent of denim pieces were cut relaxed and the straight leg outnumbered the wide leg three to one: a customer who has already made the straight jean the most searched silhouette, and designers who are now putting it under a blazer.

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#FFFFFF"/>
+<text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">the barrel is maturing, not fading</text>
+<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">weekly search interest in &quot;barrel jeans&quot;, Google Trends 0 to 100 scale</text>
+<circle cx="62" cy="180" r="10" fill="#D6447A"/><text x="82" y="189" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">past year</text>
+<circle cx="258" cy="180" r="10" fill="#111114"/><text x="278" y="189" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">preceding year</text>
+<line x1="110" y1="590.0" x2="1150" y2="590.0" stroke="#D9D9D9" stroke-width="1.5"/>
+<text x="94" y="598.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">0</text>
+<line x1="110" y1="420.0" x2="1150" y2="420.0" stroke="#D9D9D9" stroke-width="1.5" stroke-dasharray="4,6"/>
+<text x="94" y="428.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">50</text>
+<line x1="110" y1="250.0" x2="1150" y2="250.0" stroke="#D9D9D9" stroke-width="1.5" stroke-dasharray="4,6"/>
+<text x="94" y="258.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">100</text>
+<polyline points="110.0,552.6 130.0,552.6 150.0,552.6 170.0,552.6 190.0,556.0 210.0,556.0 230.0,556.0 250.0,559.4 270.0,552.6 290.0,556.0 310.0,549.2 330.0,559.4 350.0,556.0 370.0,545.8 390.0,552.6 410.0,552.6 430.0,545.8 450.0,545.8 470.0,545.8 490.0,545.8 510.0,545.8 530.0,539.0 550.0,539.0 570.0,539.0 590.0,535.6 610.0,535.6 630.0,535.6 650.0,539.0 670.0,539.0 690.0,539.0 710.0,539.0 730.0,542.4 750.0,545.8 770.0,545.8 790.0,545.8 810.0,549.2 830.0,552.6 850.0,552.6 870.0,556.0 890.0,559.4 910.0,552.6 930.0,552.6 950.0,545.8 970.0,535.6 990.0,525.4 1010.0,522.0 1030.0,515.2 1050.0,505.0 1070.0,508.4 1090.0,505.0 1110.0,511.8 1130.0,508.4 1150.0,508.4" fill="none" stroke="#111114" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="110.0,498.2 130.0,501.6 150.0,501.6 170.0,515.2 190.0,511.8 210.0,508.4 230.0,508.4 250.0,501.6 270.0,515.2 290.0,522.0 310.0,522.0 330.0,518.6 350.0,511.8 370.0,515.2 390.0,515.2 410.0,511.8 430.0,511.8 450.0,508.4 470.0,494.8 490.0,498.2 510.0,498.2 530.0,491.4 550.0,488.0 570.0,488.0 590.0,399.6 610.0,307.8 630.0,284.0 650.0,250.0 670.0,287.4 690.0,301.0 710.0,277.2 730.0,280.6 750.0,392.8 770.0,443.8 790.0,440.4 810.0,494.8 830.0,501.6 850.0,511.8 870.0,522.0 890.0,518.6 910.0,522.0 930.0,511.8 950.0,511.8 970.0,501.6 990.0,505.0 1010.0,467.6 1030.0,447.2 1050.0,423.4 1070.0,423.4 1090.0,447.2 1110.0,413.2 1130.0,433.6 1150.0,443.8" fill="none" stroke="#D6447A" stroke-width="4" stroke-linejoin="round"/>
+<text x="110.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Oct</text>
+<text x="290.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Dec</text>
+<text x="450.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Feb</text>
+<text x="630.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Apr</text>
+<text x="810.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Jun</text>
+<text x="970.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Aug</text>
+<text x="1150.0" y="630" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">Oct</text>
+<text x="50" y="680" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">Above the preceding year in 53 of the last 53 weeks, and at 43 vs 24 in the latest week.</text>
+<text x="40" y="730" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">Source: The Data Fashion Brief analysis of Google Trends, worldwide, Oct 2025 to Oct 2026</text>
+</svg>
