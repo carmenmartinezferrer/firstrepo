@@ -48,27 +48,27 @@ Which one are you buying? The full breakdown is in my Paris report, comment PARI
 
 ---
 
-## Reel 3: Paris in 60 seconds, the top 5 trends (about 60s)
+## Reel 3: Paris Fashion Week, backed by data (about 60s)
 
-**Hook (on-screen, frame 1):** PARIS FASHION WEEK IN 60 SECONDS · 997 LOOKS
+**Hook (on-screen, frame 1):** PARIS FASHION WEEK, BACKED BY DATA
 
-If you missed Paris Fashion Week, don't worry, I tagged all 997 looks for you. Here's what actually mattered.
+What if I told you the biggest trends of Paris Fashion Week, backed by actual data? I tagged all 997 looks, and spoiler, Paris didn't get louder, it got more decorated.
 
-First, the fabric. Paris was a suiting city, with wool suiting in a quarter of all looks. And silk came right behind it, mostly as pencil skirts and slip dresses.
+First, the base. Paris was a suiting city, with wool suiting in a quarter of all looks and silk right behind it, and the shape was the column, long and straight, in over a third of everything.
 
-Number one, the pencil skirt. Every single house showed one, mostly at the knee. Chanel put one in half of its looks!
+Number one, the pencil skirt. Every single house showed one, mostly at the knee, and Chanel put one in half of its looks!
 
-Number two, the shape: the column. Long and straight, in over a third of all looks, at every house.
+Number two, pink. Not loud, just everywhere, at 13 of the 16 houses, and ballet pink was the shade.
 
-Number three, pink. Not loud, just everywhere, at 13 of the 16 houses, and ballet pink was the shade.
+Number three, the one nobody's talking about, lingerie on top. Bandeaus, corsets, bodysuits, bras, small on their own, but put together they're 12% of all looks, as big as the wide-leg trouser.
 
-Number four, the one nobody's talking about: lingerie on top. Bandeaus, corsets, bodysuits, bras. Small on their own, but put together they're 12% of all looks, as big as the wide-leg trouser.
+And number four, the biggest one. A third of every look in Paris had ruffles, fringe, sequins or embroidery, at every single house, and Dior did it in 70% of its looks.
 
-And number five, the biggest one. A third of every look in Paris had ruffles, fringe, sequins or embroidery, at every single house. Dior did it in 70% of its looks.
+So if you're shopping, you don't need a new wardrobe, keep the suiting and the column and change what goes on top.
 
-So, quiet base, loud details. That's the 60 second version, and the full report has every material, piece and colour house by house, so comment PARIS and I'll send you the link!
+Paris didn't get louder, it got more decorated. The full report has every material, piece and colour house by house, so comment PARIS and I'll send you the link!
 
-**On-screen, in order:** PARIS FASHION WEEK IN 60 SECONDS · 997 LOOKS · WOOL SUITING 25%, SILK #2 · 1. PENCIL SKIRT: 16/16 HOUSES, CHANEL 49% · 2. THE COLUMN: 35% OF LOOKS · 3. PINK: 13 OF 16 HOUSES, BALLET PINK · 4. LINGERIE ON TOP: 12% · 5. 31% EMBELLISHED, 16/16 HOUSES · COMMENT "PARIS" FOR THE FULL REPORT
+**On-screen, in order:** PARIS FASHION WEEK, BACKED BY DATA · NOT LOUDER, MORE DECORATED · WOOL SUITING 25%, COLUMN 35% · 1. PENCIL SKIRT: 16/16 HOUSES · 2. PINK: 13 OF 16 HOUSES · 3. LINGERIE ON TOP: 12% · 4. 31% EMBELLISHED, 16/16 HOUSES · KEEP THE BASE, CHANGE THE TOP · COMMENT "PARIS" FOR THE FULL REPORT
 
 **Caption:**
 Paris Fashion Week in 60 seconds, 997 looks decoded so you don't have to 🇫🇷
