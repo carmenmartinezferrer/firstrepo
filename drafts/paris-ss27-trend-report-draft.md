@@ -47,6 +47,8 @@ Ok, ok… silk is the second biggest material, but in what shape? This is where 
 
 Just outside the top 10, denim and lace are both in 4% of looks, then sequins and crochet at 3% and brocade at 2%. Denim is the one I'd keep an eye on, because it's light in volume but it reached 10 different houses, with Stella McCartney and Maison Margiela using the most, so it's more of a quiet everywhere than a statement anywhere. Sequins are the same, in 13 houses but never more than about a tenth of any collection, which is what you'd expect from an evening finish rather than a trend. Lace and crochet are much more concentrated, both of them a big Isabel Marant story (each in about a quarter of its looks), with Chloé and Lanvin behind it.
 
+And if you've been seeing python and croc all over your feed, that's mostly one house, because leather and skins reached 15 of the 16 houses but animal print only showed up in 3% of looks, and Balmain alone accounts for almost two thirds of them (python slip dresses, python suits, the lot), with Miu Miu doing the croc and snakeskin.
+
 ## Silhouettes, by piece
 
 ### Paris is officially obsessed with the pencil skirt
