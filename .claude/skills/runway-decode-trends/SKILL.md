@@ -13,7 +13,11 @@ description: >
   new season's data without naming this skill directly. Also trigger if
   she asks to rebuild, extend, or fix the alignment matrix, add a search
   comparison chart, or find real house names behind a silhouette/material
-  count on an existing Runway Decode Trend Report piece.
+  count on an existing Runway Decode Trend Report piece. Also trigger
+  when she sends runway photos to fill the Canva look-collage template
+  (the "PFW pics" design, six looks each labelled trend and designer),
+  even if she just says "put these in the collage" or "fill the
+  imagery for the article".
 ---
 
 # Runway Decode Trend Report
@@ -230,6 +234,15 @@ Confirm with Carmen, don't assume:
    three times in the reference session), say so plainly rather than
    silently overwriting the description of an earlier version.
 
+## Article imagery: the Canva look collage
+
+The runway photos that run in the piece go into a fixed Canva template,
+six looks, each with a pink label giving the trend and the designer.
+Read `canva-look-collage.md` in this folder before touching it, it has
+the template ID, the slot map, the label format, and the rule that the
+designer is never guessed from the clothes. Like every visual step, it
+starts only once the text is approved.
+
 ## House-count rule
 
 Per CLAUDE.md: house-count denominators don't belong in any chart title
@@ -248,3 +261,5 @@ asked each time:
 3. **An SEO meta description for the article** (roughly 150 to 160
    characters, no em or en dashes, no decimal percentages, no
    AI-coded phrasing, same as everywhere else in the piece).
+
+If the Canva look collage was built, its alt text belongs in item 1.
