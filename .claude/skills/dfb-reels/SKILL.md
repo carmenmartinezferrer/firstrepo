@@ -81,3 +81,14 @@ If the user shares their own script, don't rewrite it straight away. Run the thr
 ## Command-line version
 
 The repo also has `reels.py`, which does the same thing in batches through the Claude API (`python reels.py <substack-url>` or `--latest N`). Mention it only if the user wants to process many posts at once.
+
+## Where the Reels go (Carmen's standing request)
+
+Every time Reels are handed over, also put them in a Google Doc in Carmen's
+Drive, inside **DFB > Reels** (folder ID `1pHyLQMj2E5ihqwuuBWUsxgpN9r7wsv9h`,
+under the `DFB` folder `1YSbh78vcIXjlr5LawKhqDoVzV0Bw7P79`). Create the doc
+with Drive `create_file` (`contentMimeType: text/html`, `parentId` set to the
+Reels folder), title it `DFB <season/topic> Reels: <article(s)>`, then read
+it back to check the tables and lists converted. If the folder ID stops
+working, search Drive for the `Reels` folder inside `DFB` rather than
+creating a new one. Keep the markdown copy in `drafts/` too.

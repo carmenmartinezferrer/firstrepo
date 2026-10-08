@@ -53,6 +53,9 @@ listicle or a trend report.
    its link (Carmen's standing request). Her own uploads and DFB's
    unpublished data are listed too, marked "no public link".
 
+7. Reels scripts also go into a Google Doc in Carmen's Drive, always in
+   the **DFB > Reels** folder (see `.claude/skills/dfb-reels`).
+
 ## Voice notes
 
 - First person, genuinely casual, closer to the external trend-autopsy

@@ -127,13 +127,13 @@ Green and olive is the other one, the season's biggest actual colour at 8%, whic
 
 Anyway, the full colour breakdown, house by house, is in my [Paris colour post](LINK TO PARIS COLOUR PIECE).
 
-## The trend matrix: classifying houses by trend alignment and colour intensity
+## The trend matrix: who followed the trends, and who went colourful
 
-[CHART: 07-alignment-matrix.png, across: % of looks in the key trends, up: % of palette in colour]
+[CHART: 07-alignment-matrix.png, trendiness vs colour, across: trendiness (% of looks in the six key pieces), up: % of palette in colour]
 
-The matrix classifies each house by how trend-aligned and how colour-intense it was at Paris SS27. Alignment averages a house's own share of the six named pieces this piece found real, pencil skirt, wide-leg trouser, slip dress, trench, bermuda shorts and bomber jacket, into one number, and colour intensity is the share of its palette that isn't neutral. A house near the top built a real chunk of its collection around what the season was doing, a house near the bottom ran a more independent collection.
+This chart puts every house on two scales at once. Going across is trendiness, how much of a house's collection was built from the six pieces this piece found real (the pencil skirt, wide-leg trouser, slip dress, trench, bermuda shorts and bomber jacket), averaged into one number. Going up is colour, the share of its palette that isn't black, white and cream, grey or brown. So a house on the right followed the season's trends closely, a house on the left went its own way, a house at the top went colourful and a house at the bottom stayed neutral, which gives you four groups: trendy and colourful, trendy and neutral, own path and colourful, and own path and neutral.
 
-Lacoste, Balmain and Dries Van Noten score highest on alignment, and all three are colour-forward too, with Loewe and Maison Margiela joining them in that same top corner (Margiela only just, it sits right next to the colour line). Chanel is the interesting case, high alignment almost entirely because of the pencil skirt, but slightly more neutral than the season, with Balenciaga and Lanvin in the same corner. Miu Miu, Valentino and Stella McCartney go the other way, colour-forward but less tied to the season's named pieces. And Dior, Celine, Tom Ford, Isabel Marant and Chloé ran the most independent collections on shape and stayed neutral on colour, which doesn't mean nothing was happening there (Dior put ruffles and chiffon in nearly half its looks each), it just means what was happening wasn't the season's shared story.
+Lacoste, Balmain and Dries Van Noten are the trendiest houses in Paris, and all three are colourful too, with Loewe and Maison Margiela joining them in that trendy and colourful corner (Margiela only just, it sits right next to the colour line). Chanel is the interesting case, trendy almost entirely because of the pencil skirt, but slightly more neutral than the season, with Balenciaga and Lanvin in the same trendy and neutral corner. Miu Miu, Valentino and Stella McCartney went their own way on shape but went colourful. And Dior, Celine, Tom Ford, Isabel Marant and Chloé went their own way on shape and stayed neutral on colour, which doesn't mean nothing was happening there (Dior put ruffles and chiffon in nearly half its looks each), it just means what was happening wasn't the season's shared story.
 
 ## The Takeaway
 
@@ -162,7 +162,7 @@ Colour uses the colour mix method, where each look is split across up to three c
 
 The unexpected pairings compare how often a fabric, detail or colour sits on a specific garment against how often that garment appears overall, so "18 times more than expected" means 18 times its normal share. I only included pairings seen on at least four pieces, because the very small ones are noise.
 
-The alignment score is the simple average of each house's own share of looks for six named pieces, pencil skirt, wide-leg trouser, slip dress, trench coat, bermuda shorts and bomber jacket. Broad categories like finishes and fits are deliberately left out because they sit at much higher natural levels and would drown out the named trends. Colour intensity is 100 minus each house's neutral share. The quadrant lines sit where the houses split in half on each axis, an alignment score just above 6 and a colour intensity of 39%.
+The trendiness score (called the alignment score in earlier drafts) is the simple average of each house's own share of looks for six named pieces, pencil skirt, wide-leg trouser, slip dress, trench coat, bermuda shorts and bomber jacket. Broad categories like finishes and fits are deliberately left out because they sit at much higher natural levels and would drown out the named trends. Colour intensity is 100 minus each house's neutral share. The quadrant lines sit where the houses split in half on each axis, a trendiness score just above 6 and a colour intensity of 39%.
 
 The search validation layer hasn't been run for Paris yet.
 
@@ -231,3 +231,14 @@ NOTES FOR CARMEN (delete before publishing)
    - Pencil skirt by house, skirt lengths, wide-leg, colour, pairings
      and matrix numbers are unchanged from draft 2 (same data).
 -->
+
+## Sources
+
+- SS27-paris_4.xlsx, DFB runway tagging of 16 Paris SS27 shows (997 looks), Carmen's upload, no public link
+- WWD, Dries Van Noten Spring 2027 review: https://wwd.com/runway/spring-2027/paris/dries-van-noten/review/
+- Who What Wear, Balmain Spring 2027: https://www.whowhatwear.com/fashion/runway/balmain-spring-summer-2027
+- RUSSH, Chanel Spring/Summer 2027: https://www.russh.com/chanel-spring-summer-2027/
+- Whitewall, 6 collections from SS27 Paris Fashion Week: https://whitewall.art/fashion/6-collections-from-ss27-paris-fashion-week/
+- AnOther, Antonin Tron's Balmain SS27 review: https://www.anothermag.com/fashion-beauty/17531/balmain-antonin-tron-ss27-review-paris-fashion-week
+- DFB, NYFW SS27 trend report (Carmen's earlier piece), link to add
+- DFB, Paris SS27 colour index (companion piece), link to add

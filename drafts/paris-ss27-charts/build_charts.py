@@ -105,6 +105,40 @@ charts.append(bar_chart('04-smaller-silhouettes', 'the smaller silhouettes',
     '% of houses that showed each piece at least once',
     [(lab, fw_houses_pct('garment', v)) for v, lab in small], SRC + ', share of houses'))
 
+def hbar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%', highlight=0):
+    """Instagram carousel version: 1080 x 1350 (4:5), horizontal bars, big type."""
+    W, H = 1080, 1350
+    left, right = 64, 64
+    top = 300                      # first bar row starts here
+    foot = 96                      # space for the source line
+    n = len(items)
+    row = (H - top - foot) / n
+    bh = row * 0.62
+    label_w = 330                  # label column, right-aligned to the bars
+    x0 = left + label_w + 24
+    vmax = max(v for _, v in items)
+    bar_max = W - right - x0 - 110 # leave room for the value after the bar
+    p = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">',
+         f'<rect width="{W}" height="{H}" fill="#FFFFFF"/>',
+         f'<text x="{left}" y="120" font-family="{SERIF}" font-weight="700" font-size="76" fill="{INK}">{html.escape(title)}</text>']
+    for j, line in enumerate(wrap(subtitle, 56)):
+        p.append(f'<text x="{left}" y="{180 + j*40}" font-family="{SANS}" font-size="32" fill="{MUTED}">{html.escape(line)}</text>')
+    for i, (lab, v) in enumerate(items):
+        cy = top + row * (i + 0.5)
+        w = max(4, v / vmax * bar_max)
+        col = PINK if i == highlight else DARK
+        p.append(f'<rect x="{x0}" y="{cy - bh/2:.1f}" width="{w:.1f}" height="{bh:.1f}" fill="{col}"/>')
+        p.append(f'<text x="{x0 + w + 16:.1f}" y="{cy:.1f}" dominant-baseline="central" font-family="{SANS}" font-size="40" fill="{INK}">{html.escape(fmt(v))}</text>')
+        lines = wrap(lab, 16)
+        for j, line in enumerate(lines):
+            ly = cy + (j - (len(lines) - 1) / 2) * 36
+            p.append(f'<text x="{x0 - 20}" y="{ly:.1f}" text-anchor="end" dominant-baseline="central" font-family="{SANS}" font-size="33" fill="{INK}">{html.escape(line)}</text>')
+    p.append(f'<line x1="{x0}" y1="{top - 10}" x2="{x0}" y2="{H - foot + 6}" stroke="#BDBDBD" stroke-width="2"/>')
+    for j, line in enumerate(wrap(source, 62)):
+        p.append(f'<text x="{left}" y="{H - 52 + j*28}" font-family="{SANS}" font-size="22" fill="{INK}">{html.escape(line)}</text>')
+    p.append('</svg>')
+    return name, '\n'.join(p), H
+
 # Ranked sections (Carmen, Paris SS27): top 10 + next 5, by share of all looks
 def ranked(cat, skip=()):
     d = fw[(fw.Category == cat) & (~fw.Value.isin(skip))].sort_values('Looks', ascending=False)
@@ -130,6 +164,12 @@ charts.append(bar_chart('12-top-garments', 'top 10 pieces',
 charts.append(bar_chart('13-next-garments', 'the next five pieces',
     '% of all Paris looks that include each piece', [(clean(v), x) for v, x in gars[10:15]], LOOKS))
 charts.append(bar_chart('14-top-shapes', 'top 10 shapes',
+    '% of all Paris looks with each overall silhouette', [(clean(v), x) for v, x in shps[:10]], LOOKS))
+charts.append(hbar_chart('20-insta-top-materials', 'top 10 materials',
+    '% of all Paris looks that include each material', [(clean(v), x) for v, x in mats[:10]], LOOKS))
+charts.append(hbar_chart('21-insta-top-pieces', 'top 10 pieces',
+    '% of all Paris looks that include each piece', [(clean(v), x) for v, x in gars[:10]], LOOKS))
+charts.append(hbar_chart('22-insta-top-shapes', 'top 10 shapes',
     '% of all Paris looks with each overall silhouette', [(clean(v), x) for v, x in shps[:10]], LOOKS))
 print('materials', mats[:15]); print('garments', gars[:15]); print('shapes', shps)
 
@@ -173,15 +213,21 @@ svg_m, groups = build_matrix(align, colour, align_thresh=6.3, colour_thresh=st.m
 inner = svg_m.split('>', 1)[1].rsplit('</svg>', 1)[0]
 inner = inner.replace('Century Gothic, sans-serif', "Century Gothic, Questrial, sans-serif")
 import re
-inner = re.sub(r'(<text x="98" y="40"[^>]*>)INDEPENDENT, COLOUR-FORWARD</text>', r'\1<tspan x="98">INDEPENDENT,</tspan><tspan x="98" dy="15">COLOUR-FORWARD</tspan></text>', inner)
-assert 'COLOUR-FORWARD</tspan>' in inner
+for old, new in [('SEASON-LED, COLOUR-FORWARD', 'TRENDY &amp; COLOURFUL'),
+                 ('INDEPENDENT, COLOUR-FORWARD', 'OWN PATH &amp; COLOURFUL'),
+                 ('SEASON-LED, NEUTRAL', 'TRENDY &amp; NEUTRAL'),
+                 ('INDEPENDENT, NEUTRAL', 'OWN PATH &amp; NEUTRAL'),
+                 ('Low alignment', 'Less trendy'), ('High alignment', 'More trendy'),
+                 ('High colour', 'More colour'), ('Low colour', 'More neutral')]:
+    inner = inner.replace('>' + old + '<', '>' + new + '<')
+assert 'OWN PATH &amp; COLOURFUL' in inner
 inner = re.sub(r'font-size="(\d+)"', lambda m: f'font-size="{round(int(m.group(1))*1.3)}"', inner)
 inner = inner.replace('dy="15"', 'dy="19"')
 mh = 820
 msvg = '\n'.join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {mh}" width="{W}" height="{mh}">',
     f'<rect width="{W}" height="{mh}" fill="#FFFFFF"/>',
-    f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">trend alignment vs colour</text>',
-    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">across: % of looks in the key trends, up: % of palette in colour</text>',
+    f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">trendiness vs colour</text>',
+    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">across: trendiness (% of looks in the six key pieces), up: % of palette in colour</text>',
     f'<g transform="translate(110,165) scale(1.15)">{inner}</g>',
     f'<text x="40" y="{mh-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(SRC)}</text>',
     '</svg>'])
