@@ -28,11 +28,20 @@ def wrap(label, n=14):
     lines.append(cur)
     return lines
 
+def title_lines(title, W):
+    # Playfair bold at 56px runs about 29px per character; wrap onto two lines rather than shrink
+    per_line = int((W - 100) / 29)
+    return wrap(title, per_line)
+
 def head(W, h, title, subtitle):
-    return [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}">',
-            f'<rect width="{W}" height="{h}" fill="#FFFFFF"/>',
-            f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">{html.escape(title)}</text>',
-            f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(subtitle)}</text>']
+    lines = title_lines(title, W)
+    dy = 64 * (len(lines) - 1)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}">',
+           f'<rect width="{W}" height="{h}" fill="#FFFFFF"/>']
+    for i, line in enumerate(lines):
+        out.append(f'<text x="50" y="{78 + 64*i}" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">{html.escape(line)}</text>')
+    out.append(f'<text x="50" y="{124 + dy}" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(subtitle)}</text>')
+    return out
 
 def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}%', highlight=(0,)):
     """items: (label, value); values may be negative (bars drop below the baseline).
@@ -40,6 +49,7 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}
     n = len(items)
     W = max(1000, 100 + n * 150)
     top, plot_h, left, right = 175, 360, 50, 50
+    top += 64 * (len(title_lines(title, W)) - 1)
     slot = min((W - left - right) / n, 165)
     x0 = (W - slot * n) / 2
     bw = min(150, slot * 0.84)
@@ -179,10 +189,10 @@ charts.append(bar_chart('03-denim-by-piece', 'the jean does the work',
     [('trousers', 100 * 33 / 44), ('jackets', 100 * 4 / 44), ('skirts', 100 * 4 / 44)], PARIS))
 
 # 4. Fit and leg, Paris: share of the 44 denim pieces
-charts.append(bar_chart('04-denim-fit', 'relaxed, straight, full length',
+charts.append(bar_chart('04-denim-fit', 'Denim silhouettes spotted on Paris SS27 runway',
     '% of all Paris denim pieces with each fit or leg shape',
-    [('relaxed fit', 100 * 34 / 44), ('full length', 100 * 29 / 44), ('straight leg', 100 * 21 / 44),
-     ('wide leg', 100 * 7 / 44), ('skinny', 100 * 1 / 44)], PARIS))
+    [('relaxed fit', 100 * 34 / 44), ('full length', 100 * 29 / 44), ('straight leg jeans', 100 * 21 / 44),
+     ('wide leg jeans', 100 * 7 / 44), ('skinny jeans', 100 * 1 / 44)], PARIS))
 
 # 5. Wash, Paris: share of the 44 denim pieces
 charts.append(bar_chart('05-denim-by-wash', 'mid-wash leads',
