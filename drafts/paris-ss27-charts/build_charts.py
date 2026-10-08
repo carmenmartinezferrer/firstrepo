@@ -157,8 +157,11 @@ shps = ranked('silhouette')
 LOOKS = SRC + ', share of looks'
 charts.append(bar_chart('10-top-materials', 'top 10 materials',
     '% of all Paris looks that include each material', [(clean(v), x) for v, x in mats[:10]], LOOKS))
+# Carmen: swap crochet for embroidery (a detail tag, not a material), re-sorted by share
+_next = [(clean(v), x) for v, x in mats[10:15] if v != 'crochet'] + [('embroidery', fw_share('detail', 'embroidery'))]
+_next.sort(key=lambda kv: -kv[1])
 charts.append(bar_chart('11-next-materials', 'the next five materials',
-    '% of all Paris looks that include each material', [(clean(v), x) for v, x in mats[10:15]], LOOKS))
+    '% of all Paris looks that include each material or embroidery', _next, LOOKS))
 charts.append(bar_chart('12-top-garments', 'top 10 pieces',
     '% of all Paris looks that include each piece', [(clean(v), x) for v, x in gars[:10]], LOOKS))
 charts.append(bar_chart('13-next-garments', 'the next five pieces',
