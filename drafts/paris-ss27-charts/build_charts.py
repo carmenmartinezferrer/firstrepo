@@ -213,15 +213,21 @@ svg_m, groups = build_matrix(align, colour, align_thresh=6.3, colour_thresh=st.m
 inner = svg_m.split('>', 1)[1].rsplit('</svg>', 1)[0]
 inner = inner.replace('Century Gothic, sans-serif', "Century Gothic, Questrial, sans-serif")
 import re
-inner = re.sub(r'(<text x="98" y="40"[^>]*>)INDEPENDENT, COLOUR-FORWARD</text>', r'\1<tspan x="98">INDEPENDENT,</tspan><tspan x="98" dy="15">COLOUR-FORWARD</tspan></text>', inner)
-assert 'COLOUR-FORWARD</tspan>' in inner
+for old, new in [('SEASON-LED, COLOUR-FORWARD', 'TRENDY &amp; COLOURFUL'),
+                 ('INDEPENDENT, COLOUR-FORWARD', 'OWN PATH &amp; COLOURFUL'),
+                 ('SEASON-LED, NEUTRAL', 'TRENDY &amp; NEUTRAL'),
+                 ('INDEPENDENT, NEUTRAL', 'OWN PATH &amp; NEUTRAL'),
+                 ('Low alignment', 'Less trendy'), ('High alignment', 'More trendy'),
+                 ('High colour', 'More colour'), ('Low colour', 'More neutral')]:
+    inner = inner.replace('>' + old + '<', '>' + new + '<')
+assert 'OWN PATH &amp; COLOURFUL' in inner
 inner = re.sub(r'font-size="(\d+)"', lambda m: f'font-size="{round(int(m.group(1))*1.3)}"', inner)
 inner = inner.replace('dy="15"', 'dy="19"')
 mh = 820
 msvg = '\n'.join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {mh}" width="{W}" height="{mh}">',
     f'<rect width="{W}" height="{mh}" fill="#FFFFFF"/>',
-    f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">trend alignment vs colour</text>',
-    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">across: % of looks in the key trends, up: % of palette in colour</text>',
+    f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">trendiness vs colour</text>',
+    f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">across: trendiness (% of looks in the six key pieces), up: % of palette in colour</text>',
     f'<g transform="translate(110,165) scale(1.15)">{inner}</g>',
     f'<text x="40" y="{mh-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(SRC)}</text>',
     '</svg>'])
