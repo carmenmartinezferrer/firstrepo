@@ -116,3 +116,30 @@ off the feet.
 7. Export only if she asks for a file (PNG for Substack is the usual
    ask), and add the collage's alt text to the closing deliverables list
    in SKILL.md.
+
+## Learned on the Paris SS27 build
+
+- **Network:** uploads POST to `www.canva.com`, which the cloud
+  environment blocks by default. Carmen has allowed it in her
+  environment's network settings. If a new environment gets a 403 on the
+  upload, she needs to allow it again.
+- **Photos sent while Claude is mid-reply** only arrive as pictures, not
+  files, so they can't be uploaded. Ask her to resend them in a message
+  of their own.
+- **One page per trend group, one copy of the template per page.** Fill
+  each copy, then join them with `merge-designs`. Canva accepts only one
+  operation per merge call, so create the new design with page 1, then
+  append each further page with its own `modify_existing_design` call.
+- **Fewer than six looks on a page:** delete the spare frames and labels
+  and make the rest bigger. Two looks go side by side and staggered.
+  Three go in one staggered row. Four go in a staggered 2 x 2 grid of
+  frames about 270 x 405. Move each label along with its frame.
+- **Whole model in view:** the photos are about 0.666 wide to 1 tall,
+  so set each frame to that shape (`resize_element`), then
+  `crop_media` the image box to the full frame from 0,0.
+- **Order:** Carmen wanted the fabric trends first (wool and silk, then
+  chiffon, lace and sequins, then embroidery), followed by the garment
+  trends.
+- **Designer unknown:** if the screenshot is cut off above the house
+  name, put only the trend on the label and ask. She confirmed each one
+  (Lanvin, Loewe, Chloé) during the build.
