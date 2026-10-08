@@ -18,8 +18,9 @@ dst.mkdir(parents=True, exist_ok=True)
 for f in sorted(p for p in src.iterdir() if p.suffix.lower() in {".jpg", ".jpeg", ".png"}):
     im = Image.open(f).convert("RGB")
     a = np.asarray(im).astype(int)
-    # UI rows are almost entirely white, photo rows aren't
-    photo = (a.min(axis=2) > 240).mean(axis=1) < 0.6
+    # UI rows are pure white edge to edge; a pale runway wall is close to
+    # white but not that close, so keep the test strict or heads get cut
+    photo = (a.min(axis=2) > 250).mean(axis=1) < 0.97
     best, start = (0, 0, 0), None
     for y, p in enumerate(list(photo) + [False]):
         if p and start is None:
