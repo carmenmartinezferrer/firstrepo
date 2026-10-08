@@ -28,11 +28,20 @@ def wrap(label, n=14):
     lines.append(cur)
     return lines
 
+def title_lines(title, W):
+    # Playfair bold at 56px runs about 29px per character; wrap onto two lines rather than shrink
+    per_line = int((W - 100) / 29)
+    return wrap(title, per_line)
+
 def head(W, h, title, subtitle):
-    return [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}">',
-            f'<rect width="{W}" height="{h}" fill="#FFFFFF"/>',
-            f'<text x="50" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">{html.escape(title)}</text>',
-            f'<text x="50" y="124" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(subtitle)}</text>']
+    lines = title_lines(title, W)
+    dy = 64 * (len(lines) - 1)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}">',
+           f'<rect width="{W}" height="{h}" fill="#FFFFFF"/>']
+    for i, line in enumerate(lines):
+        out.append(f'<text x="50" y="{78 + 64*i}" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">{html.escape(line)}</text>')
+    out.append(f'<text x="50" y="{124 + dy}" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(subtitle)}</text>')
+    return out
 
 def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}%', highlight=(0,)):
     """items: (label, value); values may be negative (bars drop below the baseline).
@@ -40,6 +49,7 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}
     n = len(items)
     W = max(1000, 100 + n * 150)
     top, plot_h, left, right = 175, 360, 50, 50
+    top += 64 * (len(title_lines(title, W)) - 1)
     slot = min((W - left - right) / n, 165)
     x0 = (W - slot * n) / 2
     bw = min(150, slot * 0.84)
@@ -163,29 +173,29 @@ charts = []
 
 # 1. Denim by house, Paris (Carmen's decode; Margiela confirmed 14). Houses at 1 to 2% left out,
 #    their exact shares aren't in the decode.
-charts.append(bar_chart('01-denim-by-house', 'where the denim lives in paris',
+charts.append(bar_chart('01-denim-by-house', 'Where the denim lives in Paris',
     "% of each house's own looks that include denim, vs the Paris average",
     [('Stella McCartney', 16), ('Maison Margiela', 14), ('Balenciaga', 11), ('Tom Ford', 11),
      ('Miu Miu', 8), ('Isabel Marant', 4), ('Paris average', 4)], PARIS, highlight=(6,)))
 
 # 2. Reach: share of houses/shows with denim, Paris 10 of 16, NYFW 5 of 13
-charts.append(bar_chart('02-denim-reach-by-city', 'denim reached most of paris',
+charts.append(bar_chart('02-denim-reach-by-city', 'Denim reached most of Paris',
     '% of houses that showed denim at least once',
     [('Paris', 100 * 10 / 16), ('New York', 100 * 5 / 13)], BOTH))
 
 # 3. What the denim was, Paris: share of the 44 denim pieces
-charts.append(bar_chart('03-denim-by-piece', 'the jean does the work',
+charts.append(bar_chart('03-denim-by-piece', 'The jean does the work',
     '% of all Paris denim pieces that are each type of piece',
     [('trousers', 100 * 33 / 44), ('jackets', 100 * 4 / 44), ('skirts', 100 * 4 / 44)], PARIS))
 
 # 4. Fit and leg, Paris: share of the 44 denim pieces
-charts.append(bar_chart('04-denim-fit', 'relaxed, straight, full length',
+charts.append(bar_chart('04-denim-fit', 'Denim silhouettes spotted on Paris SS27 runway',
     '% of all Paris denim pieces with each fit or leg shape',
-    [('relaxed fit', 100 * 34 / 44), ('full length', 100 * 29 / 44), ('straight leg', 100 * 21 / 44),
-     ('wide leg', 100 * 7 / 44), ('skinny', 100 * 1 / 44)], PARIS))
+    [('relaxed fit', 100 * 34 / 44), ('full length', 100 * 29 / 44), ('straight leg jeans', 100 * 21 / 44),
+     ('wide leg jeans', 100 * 7 / 44), ('skinny jeans', 100 * 1 / 44)], PARIS))
 
 # 5. Wash, Paris: share of the 44 denim pieces
-charts.append(bar_chart('05-denim-by-wash', 'mid-wash leads',
+charts.append(bar_chart('05-denim-by-wash', 'Mid-wash leads',
     '% of all Paris denim pieces in each wash',
     [('mid-wash', 100 * 24 / 44), ('indigo', 100 * 7 / 44), ('white and off-white', 100 * 6 / 44),
      ('charcoal', 100 * 3 / 44)], PARIS))
@@ -196,31 +206,31 @@ top = {r['query']: (int(r['search interest']), int(r['increase percent'].rstrip(
 styles = ['straight jeans', 'baggy jeans', 'skinny jeans', 'wide leg jeans', 'bootcut jeans',
           'barrel jeans', 'flare jeans', 'mom jeans']
 lab = lambda q: q.replace(' jeans', '')
-charts.append(hbar_chart('06-most-searched-styles', 'straight beats barrel in search',
+charts.append(hbar_chart('06-most-searched-styles', 'Straight beats barrel in search',
     "search interest as a % of the most searched jeans query (men's jeans)",
     [(lab(q), top[q][0]) for q in styles], GT,
     highlight=(0, styles.index('barrel jeans'))))
 growth = ['straight fit jeans', 'straight leg jeans', 'straight jeans', 'barrel jeans', 'bootcut jeans',
           'skinny jeans', 'wide leg jeans', 'baggy jeans', 'mom jeans', 'flared jeans']
-charts.append(hbar_chart('07-fastest-growing-styles', 'the straight leg is growing fastest',
+charts.append(hbar_chart('07-fastest-growing-styles', 'The straight leg is growing fastest',
     '% change in search interest vs the previous period, by jeans style',
     [(lab(q), top[q][1]) for q in growth], GT, fmt=lambda v: f'{"+" if v > 0 else ""}{half_up(v)}%',
     highlight=(0, 1, 2)))
 brands = ["levi's jeans", 'calvin klein jeans', 'gap jeans', 'old navy', 'h&m', 'zara jeans']
 blab = {"levi's jeans": "Levi's", 'calvin klein jeans': 'Calvin Klein', 'gap jeans': 'Gap',
         'old navy': 'Old Navy', 'h&m': 'H&M', 'zara jeans': 'Zara'}
-charts.append(hbar_chart('08-brand-searches', 'heritage denim names grow fastest',
+charts.append(hbar_chart('08-brand-searches', 'Heritage denim names grow fastest',
     '% change in search interest vs the previous period, brand searches within jeans',
     [(blab[q], top[q][1]) for q in brands], GT, fmt=lambda v: f'+{half_up(v)}%', highlight=(0, 1)))
 colours = ['brown jeans', 'light blue jeans', 'white jeans', 'black jeans', 'blue jeans']
-charts.append(hbar_chart('09-colour-searches', 'lighter and warmer washes rise',
+charts.append(hbar_chart('09-colour-searches', 'Lighter and warmer washes rise',
     '% change in search interest vs the previous period, by jeans colour',
     [(lab(q), top[q][1]) for q in colours], GT, fmt=lambda v: f'+{half_up(v)}%', highlight=(0, 1, 2)))
 
 # 10. Barrel jeans, past year vs preceding year
 b = load_series(f'{HERE}/data/barrel_jeans.csv')
 above = sum(1 for _, a, c in b if a > c)
-charts.append(line_chart('10-barrel-year-on-year', 'the barrel is maturing, not fading',
+charts.append(line_chart('10-barrel-year-on-year', 'The barrel is maturing, not fading',
     'weekly search interest in "barrel jeans", Google Trends 0 to 100 scale',
     b, 'past year', 'preceding year',
     f'Above the preceding year in {above} of the last {len(b)} weeks, and at {b[-1][1]} vs {b[-1][2]} in the latest week.',
