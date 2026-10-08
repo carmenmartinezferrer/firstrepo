@@ -17,7 +17,8 @@ match the wording the approved text and charts use.
 - **Never edit the template itself.** Always `copy-design` it first and
   work on the copy, renamed for the piece (e.g. "PFW SS27 looks").
 
-Six image frames in two staggered rows, each with its own text label.
+Six image frames (add a second page with the same layout when there are
+more than six looks) in two staggered rows, each with its own text label.
 Slot numbers run in reading order, top row left to right, then bottom
 row left to right. Element IDs below are from the template at the time
 this was written, a copy can come back with different IDs, so always
@@ -67,6 +68,22 @@ over 4 and 6), keep the layering as it is.
 - Before building, reply with the full slot plan (slot, photo, trend,
   designer) so she can correct it in one pass.
 
+## Cropping the photos first
+
+Carmen usually sends phone screenshots from a runway app, with the
+status bar, the house and season header, the "LOOK n/N" bar and the top
+of the next look still in them. Before uploading, run
+`scripts/crop_runway_screenshots.py <in_dir> <out_dir>`, which keeps
+only the runway photo. Then check a contact sheet by eye: **the whole
+model has to be visible, head to toe**, nothing cut at the head or
+the shoes. The house name in the header is the designer credit, so read
+and note it before cropping it away.
+
+The same rule holds inside Canva: when placing a photo in a frame, the
+whole model stays in view, so crop the frame's image box to fit the
+model's full height rather than letting Canva fill the frame and cut
+off the feet.
+
 ## Getting the photos into Canva
 
 - Photo sent in chat or sitting in the repo (a local file): call
@@ -87,10 +104,9 @@ over 4 and 6), keep the layering as it is.
 3. Per slot: `update_fill` on the frame with the uploaded asset
    (`asset_type: image`, alt text "<Designer> <season> runway look,
    <trend>"), then `replace_text` on its label.
-4. Check the returned thumbnail. Runway photos are taller than the
-   frames, so the default crop can cut off heads or shoes. If the look
-   (the trend item especially) isn't fully in view, `crop_media` to
-   reframe it.
+4. Check the returned thumbnail. The default fill can cut off heads or
+   shoes, and the whole model must be visible, so `crop_media` to
+   reframe any photo where she isn't fully in view head to toe.
 5. If Carmen sent fewer than six looks, ask whether to drop the empty
    frames (`delete_element` on frame and label) or keep the template
    photos there, never leave a template photo under a new label.
