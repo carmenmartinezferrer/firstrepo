@@ -30,6 +30,11 @@ LOOKS = [
     ('18-bottega-veneta-look-18', 'BOTTEGA VENETA SS27', 'Look 18', [('Lavender', '#B49FCC'), ('Cream', '#E2D6CB'), ('Red', '#C12C39')]),
     ('19-saint-laurent-look-06', 'SAINT LAURENT SS27', 'Look 6', [('Gold', '#D6AC59'), ('Honey', '#9A6033')]),
     ('20-roberto-cavalli-look-28', 'ROBERTO CAVALLI SS27', 'Look 28', [('Lilac', '#BBA9C3'), ('Berry', '#6F3844')]),
+    ('21-dries-van-noten-look-40', 'DRIES VAN NOTEN SS27', 'Look 40', [('Sage', '#A6AE8F'), ('Chartreuse', '#B6A003'), ('Lilac', '#C394B2')]),
+    ('22-dries-van-noten-look-13', 'DRIES VAN NOTEN SS27', 'Look 13', [('Gold', '#CC9E6B'), ('Teal', '#547C78')]),
+    ('23-brand-tbc', 'BRAND TBC SS27', 'Look TBC', [('Black', '#131413'), ('Petrol Teal', '#01656A'), ('Off White', '#E1DFD8')]),
+    ('24-balenciaga-look-36', 'BALENCIAGA SS27', 'Look 36', [('Tomato Red', '#CD3929'), ('Sky Blue', '#8099CD'), ('Charcoal', '#4B4544')]),
+    ('25-balenciaga-look-49', 'BALENCIAGA SS27', 'Look 49', [('Bubblegum Pink', '#F299AE'), ('Khaki', '#BA9463')]),
 ]
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">'
 CSS = """
