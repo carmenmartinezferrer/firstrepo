@@ -1,6 +1,6 @@
 """Pantone-style swatch cards for the Colour Combination series.
 
-Two cards per look (the look's two most striking colours), every line of
+Two cards per look (the look's two most striking colours, three where a third is clearly there), every line of
 text in Century Gothic (Questrial as the web fallback when Century Gothic
 isn't installed). Hex codes are sampled from the runway photo itself, the
 median of each garment's pixels, so they are photo colours, not official
@@ -20,10 +20,10 @@ LOOKS = [
     ('08-jil-sander-look-55', 'JIL SANDER SS27', 'Look 55', [('Khaki', '#8D836F'), ('Bubblegum Pink', '#D57690')]),
     ('09-jil-sander-look-60', 'JIL SANDER SS27', 'Look 60', [('Butter Yellow', '#DCD3A4'), ('Dove Grey', '#B3B5AE')]),
     ('10-gucci-look-06', 'GUCCI SS27', 'Look 6', [('Sage Green', '#818F68'), ('Black', '#161715')]),
-    ('11-moschino-look-03', 'MOSCHINO SS27', 'Look 3', [('Chocolate Plum', '#53383B'), ('Jade', '#2EBEAC')]),
+    ('11-moschino-look-03', 'MOSCHINO SS27', 'Look 3', [('Chocolate Plum', '#53383B'), ('Jade', '#2EBEAC'), ('Sunshine Yellow', '#FAD82F')]),
     ('12-moschino-look-07', 'MOSCHINO SS27', 'Look 7', [('Scarlet', '#D00F2D'), ('Marigold', '#F1A438')]),
-    ('13-moschino-look-12', 'MOSCHINO SS27', 'Look 12', [('Rust', '#8F2D20'), ('Lemon Yellow', '#E9D54A')]),
-    ('14-moschino-look-29', 'MOSCHINO SS27', 'Look 29', [('Lime', '#9DD156'), ('Oxblood', '#412E31')]),
+    ('13-moschino-look-12', 'MOSCHINO SS27', 'Look 12', [('Rust', '#8F2D20'), ('Lemon Yellow', '#E9D54A'), ('Raspberry', '#E33850')]),
+    ('14-moschino-look-29', 'MOSCHINO SS27', 'Look 29', [('Lime', '#9DD156'), ('Oxblood', '#412E31'), ('Cream', '#E3DBCD')]),
     ('15-roberto-cavalli-look-07', 'ROBERTO CAVALLI SS27', 'Look 7', [('Magenta', '#812156'), ('Leopard Gold', '#B19E74')]),
 ]
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">'
