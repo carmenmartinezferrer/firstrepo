@@ -35,6 +35,10 @@ LOOKS = [
     ('23-brand-tbc', 'BRAND TBC SS27', 'Look TBC', [('Black', '#131413'), ('Petrol Teal', '#01656A'), ('Off White', '#E1DFD8')]),
     ('24-balenciaga-look-36', 'BALENCIAGA SS27', 'Look 36', [('Tomato Red', '#CD3929'), ('Sky Blue', '#8099CD'), ('Charcoal', '#4B4544')]),
     ('25-balenciaga-look-49', 'BALENCIAGA SS27', 'Look 49', [('Bubblegum Pink', '#F299AE'), ('Khaki', '#BA9463')]),
+    ('26-balenciaga-look-53', 'BALENCIAGA SS27', 'Look 53', [('Plum', '#4C202F'), ('Golden Yellow', '#D0AA35'), ('Cream', '#D0BD9A')]),
+    ('27-loewe-look-22', 'LOEWE SS27', 'Look 22', [('Sunflower Yellow', '#F0C245'), ('Mustard Suede', '#AF8040')]),
+    ('28-loewe-look-40', 'LOEWE SS27', 'Look 40', [('Mint', '#B4D9A9'), ('Chocolate Suede', '#4D3223')]),
+    ('29-valentino-look-75', 'VALENTINO SS27', 'Look 75', [('Deep Purple', '#491A3C'), ('Periwinkle', '#8B96C5'), ('Dusty Rose', '#8B4548')]),
 ]
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">'
 CSS = """
