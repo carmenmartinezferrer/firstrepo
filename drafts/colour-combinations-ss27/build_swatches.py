@@ -15,6 +15,11 @@ LOOKS = [
     ('03-conner-ives-look-07', 'CONNER IVES SS27', 'Look 7', [('Lime', '#AFCB3C'), ('Black', '#19181A')]),
     ('04-conner-ives-look-08', 'CONNER IVES SS27', 'Look 8', [('Lavender', '#9E8CBE'), ('Poppy Red', '#E82B3C')]),
     ('05-conner-ives-look-14', 'CONNER IVES SS27', 'Look 14', [('Aqua', '#ADDEDC'), ('Cherry Red', '#EB052C')]),
+    ('06-burberry-look-01', 'BURBERRY SS27', 'Look 1', [('Dusty Rose', '#B57571'), ('Stone Grey', '#A5958A')]),
+    ('07-jil-sander-look-41', 'JIL SANDER SS27', 'Look 41', [('Powder Blue', '#BECDD3'), ('Ivory', '#DBDBCE')]),
+    ('08-jil-sander-look-55', 'JIL SANDER SS27', 'Look 55', [('Khaki', '#8D836F'), ('Bubblegum Pink', '#D57690')]),
+    ('09-jil-sander-look-60', 'JIL SANDER SS27', 'Look 60', [('Butter Yellow', '#DCD3A4'), ('Dove Grey', '#B3B5AE')]),
+    ('10-gucci-look-06', 'GUCCI SS27', 'Look 6', [('Sage Green', '#818F68'), ('Black', '#161715')]),
 ]
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">'
 CSS = """
