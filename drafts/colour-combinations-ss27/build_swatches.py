@@ -25,6 +25,11 @@ LOOKS = [
     ('13-moschino-look-12', 'MOSCHINO SS27', 'Look 12', [('Rust', '#8F2D20'), ('Lemon Yellow', '#E9D54A'), ('Raspberry', '#E33850')]),
     ('14-moschino-look-29', 'MOSCHINO SS27', 'Look 29', [('Lime', '#9DD156'), ('Oxblood', '#412E31'), ('Cream', '#E3DBCD')]),
     ('15-roberto-cavalli-look-07', 'ROBERTO CAVALLI SS27', 'Look 7', [('Magenta', '#812156'), ('Leopard Gold', '#B19E74')]),
+    ('16-bottega-veneta-look-16', 'BOTTEGA VENETA SS27', 'Look 16', [('Violet', '#5A3777'), ('Orchid Pink', '#D5A0B7')]),
+    ('17-bottega-veneta-look-17', 'BOTTEGA VENETA SS27', 'Look 17', [('Candy Pink', '#E3BEDA'), ('Butter Yellow', '#E8C796'), ('Sky Blue', '#A6BAE8')]),
+    ('18-bottega-veneta-look-18', 'BOTTEGA VENETA SS27', 'Look 18', [('Lavender', '#B49FCC'), ('Cream', '#E2D6CB'), ('Red', '#C12C39')]),
+    ('19-saint-laurent-look-06', 'SAINT LAURENT SS27', 'Look 6', [('Gold', '#D6AC59'), ('Honey', '#9A6033')]),
+    ('20-roberto-cavalli-look-28', 'ROBERTO CAVALLI SS27', 'Look 28', [('Lilac', '#BBA9C3'), ('Berry', '#6F3844')]),
 ]
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">'
 CSS = """
