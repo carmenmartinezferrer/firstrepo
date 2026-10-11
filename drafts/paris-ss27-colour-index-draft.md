@@ -87,6 +87,8 @@ What Paris SS27 actually looked like in colour:
 - Navy and grey are concentrated colours, navy at Miu Miu and Tom Ford, grey at Chanel, Margiela and Dior.
 - Butter yellow is still around, it's just gone pale enough to be filed under cream, and red stayed in New York.
 
+Everyone's talking about maximalism taking over, and honestly, I can see it, because it really feels like the fashion pendulum is swinging that way, with pops of colour, layers and a lot more life on the runway, pink at 13 of the 16 houses and green at 15. But quiet luxury hasn't gone anywhere either, 56% of Paris was still neutral, and houses like Lanvin (89% neutral) and Celine (81%) are still dressing the customer who lives and breathes that side of fashion. So I don't think one is replacing the other, they can absolutely live together, and Paris is kind of the proof.
+
 So, the ballet pink or the bottle green? Tell me which one you'd actually wear, because I already know my answer and it's going to cost me money.
 
 I hope you enjoyed it, and let me know in the comments anything you would like to know, doubts, if there's anything else you would like to know! I read you.
