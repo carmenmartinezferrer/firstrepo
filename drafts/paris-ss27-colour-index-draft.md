@@ -26,7 +26,10 @@ Black leads at 21%, white and cream are right behind it at 17%, and brown and be
 
 After the neutrals, green and olive is the biggest actual colour at 8%, then pink, blue and yellow at 5% each, navy at 4%, and the prints (floral, graphic and animal) adding up to around 9% between them. Red, which New York was so obsessed with, is down at 2%.
 
-And purple, which everyone seems to be obsessed with right now (it was 9% in my New York data), barely made it to Paris at all, 1% of the palette and only 3% of looks, at just five houses, with Balmain (8% of its palette) and Valentino (6%) doing most of it and lavender as the shade. So if you've been seeing purple everywhere on your feed, Paris isn't where it came from.
+And purple, which the press has been calling the colour of the season, barely made it to Paris at all, 1% of the palette and only 3% of looks, at just five houses, with Balmain (8% of its palette) and Valentino (6%) doing most of it and lavender as the shade. So if you've been seeing purple everywhere on your feed, Paris isn't where it came from.
+
+> **In The Press**
+> Refinery29 called purple the biggest colour trend of the New York SS27 runways, in well over 20 collections from violet to lavender and indigo ([Refinery29](https://www.refinery29.com/en-us/new-york-fashion-week-spring-summer-2027-color-trends)), and Marie Claire ran a whole piece on how to wear it, from saturated violet to plum and aubergine ([Marie Claire](https://www.marieclaire.com/fashion/fall-fashion/purple-fashion-trend-2027/)). Both are reading New York, though, and the Paris numbers say the hype didn't travel, purple here is a Balmain and Valentino moment rather than a season story.
 
 ### The neutral houses, and the ones that ignored the memo
 
@@ -183,4 +186,6 @@ NOTES FOR CARMEN (delete before publishing)
 - Schön, Lacoste SS27 No White Required: https://schonmagazine.com/lacoste-ss27-no-white-required/
 - WWD, Isabel Marant Spring 2027 review: https://wwd.com/runway/spring-2027/paris/isabel-marant/review/
 - The Impression, Miu Miu Spring 2027 review: https://theimpression.com/miu-miu-spring-2027-fashion-show-review/
+- Refinery29, NYFW Spring/Summer 2027 colour trends: https://www.refinery29.com/en-us/new-york-fashion-week-spring-summer-2027-color-trends
+- Marie Claire, Purple fashion trend 2027: https://www.marieclaire.com/fashion/fall-fashion/purple-fashion-trend-2027/
 - DFB, Paris SS27 trend report (companion piece), link to add
