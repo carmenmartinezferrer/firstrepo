@@ -205,6 +205,13 @@ comparable, not just their labels.
   `.claude/skills/dfb-personal-essay` captures the build logic, which
   references point to use for voice versus structure.
 
+- **Runway Colour Combos** (Instagram carousel series): single runway looks
+  broken into their two or three most striking colours, "chip + chip = the
+  look", model cutouts, Pantone-style swatch cards with photo-sampled hex
+  codes, and a closing Google search slide. `.claude/skills/runway-colour-combos`
+  holds the build logic and scripts (cutout, colour sampling, swatch cards,
+  search change).
+
 - **FashionUnited article** (trade publication, not Substack): DFB data
   rewritten as neutral, news-led trade journalism, third person, DFB
   cited as a source, licensed images only (PR, AFP, Launchmetrics).
