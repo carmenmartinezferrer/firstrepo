@@ -26,6 +26,8 @@ Black leads at 21%, white and cream are right behind it at 17%, and brown and be
 
 After the neutrals, green and olive is the biggest actual colour at 8%, then pink, blue and yellow at 5% each, navy at 4%, and the prints (floral, graphic and animal) adding up to around 9% between them. Red, which New York was so obsessed with, is down at 2%.
 
+And purple, which everyone seems to be obsessed with right now (it was 9% in my New York data), barely made it to Paris at all, 1% of the palette and only 3% of looks, at just five houses, with Balmain (8% of its palette) and Valentino (6%) doing most of it and lavender as the shade. So if you've been seeing purple everywhere on your feed, Paris isn't where it came from.
+
 ### The neutral houses, and the ones that ignored the memo
 
 Some houses took "neutral" very literally. Lanvin is 89% neutral (half of its whole palette is black, and another third is white and cream), Celine is 81% and Balenciaga 74%, and those three plus Tom Ford are the houses holding the season's black number up, each with black at a third or more of their palette, against 21% for the season.
