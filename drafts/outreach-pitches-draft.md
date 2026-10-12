@@ -87,3 +87,62 @@ Carmen
 
 - **Your Farfetch contract.** Most employment contracts have an outside-work or conflict-of-interest clause, and luxury brands are Farfetch partners, so check whether paid brand partnerships need approval first. Never use anything from your day job's internal data in a pitch or piece.
 - **Disclosure.** Paid or gifted collaborations need clear ad labelling in both the US (FTC) and UK (ASA and CMA).
+
+## Part 3: the pink pitches (Revolve and Charlotte Simone)
+
+All the numbers below are from the Paris SS27 Colour Index (16 houses, 997 looks). Pink is 5% of the season palette and is in 8% of all looks, at 13 of the 16 houses, with ballet pink as the shade that connects the most houses. Purple is 1% of the palette and 3% of looks, at five houses, and red is 2% of the palette and 4% of looks. Green and olive is actually the biggest real colour by weight (8% of the palette), so the pitches say pink is the colour that spread the furthest, rather than calling it the biggest colour of the season.
+
+### Revolve
+
+To: revolveus@karlaotto.com (Karla Otto, Revolve's PR). Check the address on the source page in the tracker before sending.
+
+Subject: Pink beat purple at Paris Fashion Week, and I'd love to build the story around your Simone cardigan
+
+Hi Revolve team,
+
+I'm Carmen, a fashion data analyst in London and the writer of The Data Fashion Brief, where I tag every look on the runway and check it against search data to see which trends are actually real (spoiler, a lot of them aren't!).
+
+My latest finding is all about pink. I broke down every look from 16 houses at Paris Fashion Week SS27, and pink showed up at 13 of them and in 8% of all looks, which puts it well ahead of purple (3% of looks, at five houses), the colour everyone has been calling the colour of the season, and of red (4%).
+
+I'd love to build a story around it featuring your AFRM x Revolve Simone faux fur cardigan in peach pink as one of the picks, because it's exactly the soft, wearable pink that the runway data points to: [product link]
+
+The piece would go out on my Substack and Instagram, and I've attached my media kit with audience numbers and past work. Would you be open to exploring a collaboration?
+
+Thank you so much,
+Carmen
+The Data Fashion Brief
+thedatafashionbrief.substack.com
+
+### Charlotte Simone
+
+To: the press contact named on the brand's London Fashion Week page (Kemana Karpati, no email published), so send it through LinkedIn or the brand's Instagram DMs, or ask the brand for the right press email first.
+
+Subject: Pink was everywhere at Paris Fashion Week, and the Dolly is the perfect pick for my story
+
+Hi Kemana,
+
+I'm Carmen, a fashion data analyst in London and the writer of The Data Fashion Brief, where I use runway and search data to work out which trends are real and which ones are just noise.
+
+My latest analysis is about pink. Across 16 houses at Paris Fashion Week SS27, pink showed up at 13 of them and in 8% of all looks, ahead of both purple (3% of looks) and red (4%), even though purple is the one everyone keeps calling the colour of the season.
+
+I'm building a story around it and I'd love to feature the Dolly in pink as one of the pieces, because it's such a joyful way to wear the colour and it's a London label I genuinely love: [product link]
+
+I've attached my media kit with my audience and past pieces. Would you be open to exploring a collaboration?
+
+Thank you so much,
+Carmen
+The Data Fashion Brief
+thedatafashionbrief.substack.com
+
+### Before you send these
+
+- Attach your media kit and swap in your real audience numbers.
+- Paste each product link where it says [product link]. The Revolve link you sent has a long tracking string after the product code, so cut everything after `AFFM-WK20/`.
+- If you publish the pink piece first, link it in both emails. That's much stronger than a promise of a future story.
+
+Sources for Part 3:
+- DFB Paris SS27 Colour Index draft (`drafts/paris-ss27-colour-index-draft.md`, no public link yet)
+- Revolve product page, AFRM x Revolve Simone faux fur cardigan in peach pink (link from Carmen): https://www.revolve.com/afrm-x-revolve-simone-faux-fur-cardigan-in-peach-pink/dp/AFFM-WK20/
+- Charlotte Simone product page, Dolly in pink (link from Carmen): https://charlottesimone.com/products/dolly-pink
+- Revolve PR contact (Karla Otto), Revolve Q2 2026 results release: https://investors.revolve.com/news/news-details/2026/Revolve-Group-Announces-Second-Quarter-2026-Financial-Results/default.aspx
+- Charlotte Simone press contact, London Fashion Week designer page: https://londonfashionweek.co.uk/designers/charlotte-simone
