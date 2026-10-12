@@ -1,4 +1,4 @@
 date,substack_subscribers,substack_followers,instagram_followers,source
 2026-09-27,7341,12000,21158,metricool (instagram); substack export csv + meta graph api
 2026-09-30,7341,12000,22407,"meta graph api (instagram, month-end); substack carried over from 27 Sep export"
-2026-10-12,7341,12000,25486,meta graph api
+2026-10-12,7600,12000,25486,meta graph api; substack 7.6k as reported by owner
