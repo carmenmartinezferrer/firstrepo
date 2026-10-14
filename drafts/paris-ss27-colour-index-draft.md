@@ -26,6 +26,11 @@ Black leads at 21%, white and cream are right behind it at 17%, and brown and be
 
 After the neutrals, green and olive is the biggest actual colour at 8%, then pink, blue and yellow at 5% each, navy at 4%, and the prints (floral, graphic and animal) adding up to around 9% between them. Red, which New York was so obsessed with, is down at 2%.
 
+And purple, which the press has been calling the colour of the season, barely made it to Paris at all, 1% of the palette and only 3% of looks, at just five houses, with Balmain (8% of its palette) and Valentino (6%) doing most of it and lavender as the shade. So if you've been seeing purple everywhere on your feed, Paris isn't where it came from.
+
+> **In The Press**
+> Refinery29 called purple the biggest colour trend of the New York SS27 runways, in well over 20 collections from violet to lavender and indigo ([Refinery29](https://www.refinery29.com/en-us/new-york-fashion-week-spring-summer-2027-color-trends)), and Marie Claire ran a whole piece on how to wear it, from saturated violet to plum and aubergine ([Marie Claire](https://www.marieclaire.com/fashion/fall-fashion/purple-fashion-trend-2027/)). Both are reading New York, though, and the Paris numbers say the hype didn't travel, purple here is a Balmain and Valentino moment rather than a season story.
+
 ### The neutral houses, and the ones that ignored the memo
 
 Some houses took "neutral" very literally. Lanvin is 89% neutral (half of its whole palette is black, and another third is white and cream), Celine is 81% and Balenciaga 74%, and those three plus Tom Ford are the houses holding the season's black number up, each with black at a third or more of their palette, against 21% for the season.
@@ -86,6 +91,8 @@ What Paris SS27 actually looked like in colour:
 - Green is the biggest single colour, but it's two different greens, dark at Lacoste and fresh at Loewe.
 - Navy and grey are concentrated colours, navy at Miu Miu and Tom Ford, grey at Chanel, Margiela and Dior.
 - Butter yellow is still around, it's just gone pale enough to be filed under cream, and red stayed in New York.
+
+Everyone's talking about maximalism taking over, and honestly, I can see it, because it really feels like the fashion pendulum is swinging that way, with pops of colour, layers and a lot more life on the runway, pink at 13 of the 16 houses and green at 15. But quiet luxury hasn't gone anywhere either, 56% of Paris was still neutral, and houses like Lanvin (89% neutral) and Celine (81%) are still dressing the customer who lives and breathes that side of fashion. So I don't think one is replacing the other, they can absolutely live together, and Paris is kind of the proof.
 
 So, the ballet pink or the bottle green? Tell me which one you'd actually wear, because I already know my answer and it's going to cost me money.
 
@@ -179,4 +186,6 @@ NOTES FOR CARMEN (delete before publishing)
 - Schön, Lacoste SS27 No White Required: https://schonmagazine.com/lacoste-ss27-no-white-required/
 - WWD, Isabel Marant Spring 2027 review: https://wwd.com/runway/spring-2027/paris/isabel-marant/review/
 - The Impression, Miu Miu Spring 2027 review: https://theimpression.com/miu-miu-spring-2027-fashion-show-review/
+- Refinery29, NYFW Spring/Summer 2027 colour trends: https://www.refinery29.com/en-us/new-york-fashion-week-spring-summer-2027-color-trends
+- Marie Claire, Purple fashion trend 2027: https://www.marieclaire.com/fashion/fall-fashion/purple-fashion-trend-2027/
 - DFB, Paris SS27 trend report (companion piece), link to add
