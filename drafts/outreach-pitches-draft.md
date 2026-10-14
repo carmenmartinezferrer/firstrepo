@@ -146,3 +146,71 @@ Sources for Part 3:
 - Charlotte Simone product page, Dolly in pink (link from Carmen): https://charlottesimone.com/products/dolly-pink
 - Revolve PR contact (Karla Otto), Revolve Q2 2026 results release: https://investors.revolve.com/news/news-details/2026/Revolve-Group-Announces-Second-Quarter-2026-Financial-Results/default.aspx
 - Charlotte Simone press contact, London Fashion Week designer page: https://londonfashionweek.co.uk/designers/charlotte-simone
+
+## Part 4: the denim pitch (one email, one line per brand)
+
+### Base email (Carmen's draft, typos fixed)
+
+Subject: What comes after the barrel jean? The data says [Brand] already makes it
+
+Hello [Brand] team,
+
+I'm Carmen, a fashion data analyst in London, and I spend my days working out which trends are actually real and which ones are just noise, connecting fashion, culture, history and strategy through data. I share all of it on The Data Fashion Brief, where I have around 28k very engaged followers (I only started this year, and most of that growth has happened in the past few months), and on my Substack, with over 12k followers and subscribers, and I also write a column for FashionUnited.
+
+I've just finished a deep dive into denim across the Paris and New York SS27 shows, and the answer to the question everyone in the industry is asking, what comes after the barrel jean, is not a more dramatic shape but a quieter one: the relaxed, full-length straight jean, worn with a blazer. Denim reached 63% of the houses in Paris and 38% in New York, almost always as that one relaxed jean, and shoppers are already there too, with the straight jean now searched about three times as often as the barrel.
+
+[Personal line]
+
+I'd love to build the story around [Brand], featuring [product] as the pick that shows where denim is heading, across my Substack and Instagram.
+
+I've attached my media kit with audience numbers and past work. Would you be open to exploring a collaboration, or even a quick coffee chat?
+
+Thank you!
+Carmen
+
+### Per brand
+
+| Brand | Personal line | Product |
+|---|---|---|
+| Calvin Klein | Calvin Klein was one of the houses where denim showed up the most in my New York data, so it felt only right to start with you. | the 90s Straight Jean |
+| Ralph Lauren | Ralph Lauren was one of the houses where denim showed up the most in my New York data, so it felt only right to start with you. | the High-Rise Relaxed Straight Jean |
+| Tommy Hilfiger | Tommy Hilfiger was one of the houses where denim showed up the most in my New York data, so it felt only right to start with you. | the River, your relaxed straight cut |
+| Levi's | The straight leg is your home ground, so the shift in the data feels a lot like denim coming back to where it started. | the Classic Straight and the Easy Dad |
+| Wrangler | The straight leg is your home ground, so the shift in the data feels a lot like denim coming back to where it started. | the High Rise True Straight |
+| Lee | The straight leg is your home ground, so the shift in the data feels a lot like denim coming back to where it started. | the Original Relaxed Fit Straight Leg |
+| Agolde | Premium denim is exactly where this shift is happening, and the Harper is the relaxed straight leg the runway was pointing to. | the Harper Mid Rise Relaxed Straight |
+| Citizens of Humanity | Premium denim is exactly where this shift is happening, and the Lindz is the relaxed straight leg the runway was pointing to. | the Lindz Easy Straight |
+| Re/Done | Premium denim is exactly where this shift is happening, and your 90s loose jean is the relaxed straight leg the runway was pointing to. | the 90s High Rise Loose Jean |
+| Paige | Premium denim is exactly where this shift is happening, and the Doheny is the relaxed straight leg the runway was pointing to. | the Doheny Relaxed Jean |
+| Frame | Premium denim is exactly where this shift is happening, and Le Slouch is the relaxed straight leg the runway was pointing to. | Le Slouch mid-rise straight |
+| Mother | Premium denim is exactly where this shift is happening, and the Rambler is the straight leg the runway was pointing to. | The Rambler |
+| Good American | Fit is the whole story here, and that's what Good American has always been built on. | the Good 90s Relaxed Jean |
+| A.P.C. | It's a very European way of wearing denim, the jean as a wardrobe basic rather than a statement, which is exactly how you've always done it. | the Jean Martin straight leg |
+| E.L.V. Denim | The relaxed straight leg is the jean everyone is coming back to, and you make it from jeans that already exist, which is the most interesting version of the story. | the Match Straight Leg Jean |
+| Acne Studios, Nudie Jeans, MiH Jeans | It's a very European way of wearing denim, the jean as a wardrobe basic rather than a statement, which is exactly how you've always done it. | [pick a relaxed straight style from their site, not verified] |
+
+Notes:
+- Mother's Rambler is a cropped straight leg rather than a relaxed full-length one, so check the current range for a closer match before sending.
+- Tommy's River name comes from Tommy Hilfiger's UK site; check it is in the women's range you are pitching.
+- A.P.C.'s Jean Martin may be a unisex cut.
+- E.L.V.'s Match Straight Leg is described by the brand as a slim fit, so lean on the upcycling angle there.
+- Acne Studios' 1993 is a tapered or cigarette cut, not a relaxed straight, so it's not listed as the pick.
+
+Sources for Part 4:
+- DFB FashionUnited denim draft (`drafts/fashionunited-denim-draft.md`, no public link yet)
+- DFB NYFW SS27 Trend Report (`reference-articles/nyfw-ss27-trend-report-final.md`)
+- Calvin Klein 90s Straight: https://www.johnlewis.com/calvin-klein-signature-90s-straight-jeans-true-indigo/p114091584
+- Ralph Lauren High-Rise Relaxed Straight Jean: https://www.ralphlauren.com/women-clothing/high-rise-relaxed-straight-jean/100045093.html
+- Tommy Hilfiger straight cuts (Denton, Dover, River): https://www.zalando.nl/dameskleding-jeans-relaxed-fit/tommy-hilfiger-online-shop
+- Levi's Classic Straight: https://www.farmandfleet.com/products/g-28009-levis-womens-classic-straight-fit-jeans.html
+- Levi's Easy Dad: https://infrazs.rs/products/levis-womens-easy-dad/237678151/
+- Wrangler High Rise True Straight: https://www.farmandfleet.com/products/1631123-wrangler-womens-high-rise-true-straight-jeans.html
+- Lee Relaxed Fit Straight Leg: https://www.walmart.com/ip/5093387037
+- Agolde Harper: https://www.bloomingdales.com/shop/product/agolde-harper-mid-rise-relaxed-straight-jeans-in-radius?ID=5635775
+- Citizens of Humanity Lindz and Re/Done 90s High Rise Loose: https://www.revolve.com/ca/v/distressed-denim-jeans
+- Paige Doheny and Good American Good 90s Relaxed: https://www.revolve.com/ca/v/relaxed-jeans and https://www.shopbop.com/good-90s-relaxed-jeans-american/vp/v=1/1597854226.htm
+- Frame Le Slouch: https://www.mytheresa.com/eu/en/women/frame-le-slouch-mid-rise-straight-jeans-blue-p00683823
+- Mother The Rambler: https://www.anthropologie.com/shop/mother-the-rambler-high-rise-straight-leg-ankle-jeans2
+- A.P.C. Jean Martin: https://www.stylight.com/A-P-C/Jeans/
+- E.L.V. Denim Match Straight Leg: https://elvdenim.com/products/mid-match-straight-leg-jean
+- Acne Studios 1993: https://www.nssmag.com/en/fashion/21692/acne-studios-new-denim-collection
