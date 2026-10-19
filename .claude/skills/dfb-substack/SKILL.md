@@ -48,3 +48,26 @@ Give, in this order:
 4. **Illustration ideas:** 1 to 3, placed in the post. DFB style: simple painted gouache, Gen Z, white background, black and pink #D6447A only, short hand-lettered labels when useful. Never realistic people or corny line art.
 
 Afterwards, offer a Reel from the post (dfb-reels skill) and, if Notion is connected, to add it to her Behind The Data Fashion Brief content calendar.
+
+## 6. Behind The Data Fashion Brief series
+
+A weekly personal series that reminds readers who Carmen is and what she does, answering the questions she gets asked most (career path, her job, her tools, where her data comes from). Every edition is a package of three:
+
+1. **Substack article** (sections 2 to 5 above).
+2. **Reel** (dfb-reels skill): calm and factual, fluid sentences, a bold factual hook, ~50 seconds.
+3. **Instagram carousel** (below).
+
+### Carousel format
+
+Inspired by personal "advice + recommendations" carousels (e.g. @databutmakeitfashion), but **no memes or film stills**. 8 to 10 slides:
+
+1. **Hook slide:** one bold, factual or slightly provocative line, big text.
+2. **Story slides (3 to 5):** one step per slide, 2 to 4 short sentences each, first person. Underline or pink-highlight the one phrase that matters.
+3. **"What I do today" slide:** the data process (question, SQL, analysis, insights, story, action).
+4. **Value slides (1 or 2):** practical advice or recommendations (skills, books, newsletters, tools). Only her own picks: ask, never invent a recommendation in her name.
+5. **Relatable punchline slide:** one short line people will screenshot.
+6. **CTA slide:** "Read the full story on my Substack (link in bio)" plus a comment question.
+
+Visual style: her own photos (desk, laptop, London, runway screenshots, outfits) with white Century Gothic overlay text, DFB pink #D6447A for highlights, "THE DATA FASHION BRIEF" small at the bottom of every slide. Painted DFB illustrations (white background, black and pink) for diagram slides. Caption: first person, chatty, ending with a question.
+
+Give the carousel as a slide-by-slide table (slide, on-slide text, visual), then the caption.
