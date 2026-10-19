@@ -103,9 +103,9 @@ changes the structure, update this section and the Design log.
 ## Getting Instagram data
 
 ### Which source to use
-**Use the Instagram API token first** (full post history since January, 90-day window). Fall back
-to Metricool if the token fails or has expired, and cross-check the two on overlapping posts
-when the token is first used.
+**Use the Instagram API token only** (full post history since January, 90-day window).
+**Owner's instruction (19 Oct 2026): don't use Metricool, not even for cross-checks.** Only go
+back to it if the token has expired or fails and she agrees.
 
 ### 1. Metricool connector (backup; confirmed working 27 Sep 2026)
 Brand id **7118813** (timezone Europe/London). Call `getAnalyticsDataByMetrics` with ISO dates.
@@ -209,7 +209,7 @@ next refresh.** When the owner asks for a design change:
   tell her to drop it in the folder.
 
 ## The 15-day refresh, step by step
-1. Pull the Instagram data (token first, Metricool as fallback) and add a row to
+1. Pull the Instagram data (token only, no Metricool) and add a row to
    stats_history.csv.
 2. Substack: run fetch_substack.py and read the newest Stats screenshot (references/substack.md). Check the partnerships sheet for new rows. Keep the last
    values if there's nothing new.
