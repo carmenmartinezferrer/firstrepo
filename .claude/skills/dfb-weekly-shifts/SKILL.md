@@ -84,7 +84,7 @@ These are the 5 shifts I'm seeing in fashion right now.
 
 Slide 2
 1. <Headline, max 8 words>
-<1-2 sentences, max 30 words, with exactly one number.>
+<1-2 sentences, max 30 words, led by one number (two at most).>
 
 … (slides 3-6 for shifts 2-5)
 
