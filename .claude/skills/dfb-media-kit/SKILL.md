@@ -194,6 +194,7 @@ next refresh.** When the owner asks for a design change:
 3. Commit, push, update Canva, and add a line under "Design log" below so future refreshes keep it.
 
 ### Design log
+- 2026-10-19: Work with me reworded and approved by the owner (don't revert): 1 Product placement through data · 2 Colour analysis for your product · 3 Newsletter + Instagram placements (Substack article + Instagram post) · 4 Platform reviews from an industry insider · 5 Trend & market analysis. Demellier tile linked to instagram.com/p/DeoUwkyDDk0/. Owner's own links in this section stay untouched. If she edits Canva while a transaction is open, cancel it and re-stage on her latest version, never commit over her edits.
 - 2026-10-01: owner retouched the Canva design (cropped chart frames, new bio and angle, Work-with-me links, Substack numbers); proofread and typo fixes saved the same day (see Canva → Proofreading).
 - 2026-10-01: the owner's Canva design (DAHWa9-H9ck) became the master; numbers are now updated in place there (see Canva). Instagram chart redrawn with 08/26 ≈14.7K and 09/26 >22K.
 - 2026-09-27: reader quote on page 1 (`quote` in data.json). The growth charts show the **running total at each month end** (followers for Instagram, subscribers for Substack) with month-on-month %; the Substack chart starts at 01/26. The header note for each platform is `window_note`.
