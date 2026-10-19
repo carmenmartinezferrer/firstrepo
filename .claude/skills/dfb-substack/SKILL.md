@@ -59,14 +59,13 @@ A weekly personal series that reminds readers who Carmen is and what she does, a
 
 ### Carousel format
 
-Inspired by personal "advice + recommendations" carousels (e.g. @databutmakeitfashion), but **no memes or film stills**. 8 to 10 slides:
+Inspired by personal "advice + recommendations" carousels (e.g. @databutmakeitfashion), but **no memes or film stills**. 6 to 8 slides, never more:
 
 1. **Hook slide:** one bold, factual or slightly provocative line, big text.
-2. **Story slides (3 to 5):** one step per slide, 2 to 4 short sentences each, first person. Underline or pink-highlight the one phrase that matters.
+2. **Story slides (2 to 3):** merge steps so each slide carries one turning point, 2 to 4 short sentences each, first person. Underline or pink-highlight the one phrase that matters.
 3. **"What I do today" slide:** the data process (question, SQL, analysis, insights, story, action).
 4. **Value slides (1 or 2):** practical advice or recommendations (skills, books, newsletters, tools). Only her own picks: ask, never invent a recommendation in her name.
-5. **Relatable punchline slide:** one short line people will screenshot.
-6. **CTA slide:** "Read the full story on my Substack (link in bio)" plus a comment question.
+5. **CTA slide**, with the relatable punchline people will screenshot: "Read the full story on my Substack (link in bio)" plus a comment question.
 
 Visual style: her own photos (desk, laptop, London, runway screenshots, outfits) with white Century Gothic overlay text, DFB pink #D6447A for highlights, "THE DATA FASHION BRIEF" small at the bottom of every slide. Painted DFB illustrations (white background, black and pink) for diagram slides. Caption: first person, chatty, ending with a question.
 
