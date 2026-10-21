@@ -7,9 +7,8 @@
 
 ## Reel 2: Pink + more colour
 - Bottega Veneta Look 16: orchid pink 33%, finished with violet at 67%
-- Bottega Veneta Look 17: candy pink 40%, butter yellow 57%, finished with sky blue at 3%
-- Moschino Look 12: raspberry 10%, lemon yellow 42%, finished with rust at 48%
+- Bottega Veneta Look 17: candy pink 41%, finished with butter yellow at 59%
 
-Measured from the runway photos: share of garment area matching each named colour, named colours only, so each look adds to 100%. Skin, hair, bags and tights excluded. Roberto Cavalli Look 7 left out because the leopard print and brocade can't be measured reliably.
+Measured from the runway photos: share of garment area matching each named colour, named colours only, so each look adds to 100%. Skin, hair, bags and tights excluded. Pink-led looks only, so Moschino Look 12 is out and Bottega Veneta Look 17's small sky blue accent is dropped (pink and yellow re-shared to 100%). Roberto Cavalli Look 7 left out because the leopard print and brocade can't be measured reliably.
 
 Sources: colour shares, DFB measurement from Carmen's runway photos, no public link.
