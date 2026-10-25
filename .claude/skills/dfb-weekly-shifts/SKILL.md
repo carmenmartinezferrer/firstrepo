@@ -54,6 +54,7 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 - **Thesis first.** The opening line is the claim, and the number comes in the first or second sentence.
 - **Direct, no hedging.** Say what it means.
 - **End on a question or a provocation** (Substack shifts and the Reel close).
+- **Spell out why it's news.** Don't lean on context the reader may not have. Write "Hermès was the one luxury house still growing through the slowdown. Not anymore", not "Even Hermès is slowing". Carmen asked for exactly this fix.
 - **Concrete, checkable claims only.** No abstract aphorisms like "control is getting more expensive than growth": Carmen rejected exactly that kind of line. Every reading points at something specific.
 - **Hyphens with spaces** ( - ), never em dashes. No bullet points inside a shift. No URLs in the copy.
 - **Banned phrases:** "in the fashion industry", "it's important to note", "moreover", "furthermore", "additionally", "this raises questions about", "in today's landscape", "game-changer", and any meta-reference to "this article" or "this newsletter".
