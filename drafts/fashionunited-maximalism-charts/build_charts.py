@@ -41,6 +41,15 @@ charts.append(bar_chart('03-embellishment-by-house', 'Where the decoration lives
     "% of each house's looks with at least one embellishment, vs the season average",
     emb, PARIS_SRC + ', Looks tab', highlight=(len(emb) - 1,)))
 
+# 4. Paris season palette, ranked (colour index season numbers, rounded slices)
+palette = [('black', 21), ('white and cream', 17), ('brown and beige', 11), ('green and olive', 8),
+           ('grey', 7), ('pink', 5), ('blue', 5), ('yellow and gold', 5), ('navy', 4),
+           ('floral print', 4), ('orange and rust', 3), ('graphic print', 3), ('red', 2),
+           ('animal print', 2), ('purple', 1), ('burgundy', 1), ('other print', 1)]
+charts.append(hbar_chart('04-paris-palette', 'The Paris palette, more than half neutral',
+    "% of the season's colour palette in each colour family, every look split across up to three colours",
+    palette, PARIS_SRC + ', colour mix', highlight=(0, 1, 2, 4)))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:
