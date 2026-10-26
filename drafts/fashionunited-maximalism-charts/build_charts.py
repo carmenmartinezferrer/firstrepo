@@ -51,24 +51,15 @@ charts.append(hbar_chart('04-paris-palette', 'The Paris palette, more than half 
     palette, PARIS_SRC + ', colour mix', highlight=(0, 1, 2, 4)))
 
 # 5. Season donut with a title: the colour index donut inlined under a FashionUnited head,
-#    with a small legend on the right so the slices can be named without a caption.
+#    no legend, as on the Substack version (Carmen's call).
 import re as _re
 donut = open(f'{HERE}/../paris-ss27-colour/donut-season.svg').read()
 inner = donut[donut.index('>') + 1:donut.rindex('</svg>')]
 slices = _re.findall(r'fill="(#[0-9A-Fa-f]{6})"[^>]*><title>([^<]+)</title>', donut)
-W, H = 1700, 1180
+W, H = 1300, 1180
 p = head(W, H, 'The Paris palette, more than half neutral',
          "% of the season's colour palette in each colour family, every look split across up to three colours")
-p.append(f'<svg x="60" y="200" width="820" height="820" viewBox="-2 -2 814 814">{inner}</svg>')
-lx, ly = 980, 250
-for i, (col, lab) in enumerate(slices):
-    name, pct = lab.rsplit(' ', 1)
-    name = name.replace('/', ' and ').lower()
-    y = ly + i * 46
-    stroke = ' stroke="#D0CCC5" stroke-width="1"' if col.upper() == '#EDEAE3' else ''
-    p.append(f'<rect x="{lx}" y="{y-22}" width="30" height="30" fill="{col}"{stroke}/>')
-    p.append(f'<text x="{lx+46}" y="{y+1}" font-family="{SANS}" font-size="26" fill="{INK}">{html.escape(name)}</text>')
-    p.append(f'<text x="{lx+560}" y="{y+1}" text-anchor="end" font-family="{SANS}" font-size="26" fill="{INK}">{html.escape(pct)}</text>')
+p.append(f'<svg x="{(W-820)/2}" y="200" width="820" height="820" viewBox="-2 -2 814 814">{inner}</svg>')
 p.append(f'<text x="40" y="{H-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(PARIS_SRC + ", colour mix")}</text>')
 p.append('</svg>')
 charts.append(('05-paris-palette-donut', '\n'.join(p), H))
