@@ -80,7 +80,15 @@ notes:
    show, Carmen pulls them from Launchmetrics, AFP or the brand's press
    office.
 
-6. **Every draft ends with a sources list.** Carmen's own standing rule:
+6. **No publication names in the body.** FashionUnited does not name
+   other outlets in its copy. Press coverage can be used for substance
+   and listed in the sources, but the body says "press coverage of the
+   shows", "reviews of the collection", "buyers surveyed after the
+   shows", never "WWD reported" or "according to Who What Wear". The
+   only outlet named in the text is The Data Fashion Brief, as the
+   source of the data. (Carmen, maximalism piece, October 2026.)
+
+7. **Every draft ends with a sources list.** Carmen's own standing rule:
    whenever a version of the article is handed over, close it with a
    bullet-point list of every source used anywhere in the piece, each
    with its link, grouped by what it backs up (runway data, search data,
@@ -205,7 +213,7 @@ CLAUDE.md.
    so it carries into the next piece.
 6. Before handing over, run a final check on the draft: no "I", "my",
    "we", no exclamation points, no em or en dashes, no "%", no decimals
-   unless Carmen approved them, every image credited with a licensed
+   unless Carmen approved them, no publication names in the body, every image credited with a licensed
    source, title matches the actual scope of the piece.
 
 ## What Claude doesn't do here
