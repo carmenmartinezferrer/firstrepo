@@ -1,4 +1,4 @@
-# FashionUnited: maximalism and quiet luxury (clean version 7, rewritten from Carmen's doc text)
+# FashionUnited: maximalism and quiet luxury (final text, version 8)
 
 ## Title options
 
@@ -21,7 +21,7 @@ Across the 997 Paris looks analysed from 16 shows, 31 percent carried ruffles, f
 
 The clearest statement came from Milan, where the Roberto Cavalli collection was reviewed as a burst of fireworks on the runway. The Data Fashion Brief's separate decode of that show puts numbers on it: animal print made up 28 percent of the Cavalli palette, pink 16 percent, red 14 percent and gold 12 percent, and black fell to 6 percent. In Paris, the houses closest to that register are the ones that opted out of a neutral base, Dries Van Noten at 22 percent neutral with graphic and floral print as its two biggest slices, Balmain at 34 percent neutral with animal print as its single largest slice, and Miu Miu at 35 percent.
 
-[Chart: 03-embellishment-by-house.png, % of each house's looks with at least one embellishment, vs the season average. Provisional until the other 13 houses are pulled from the Looks tab]
+[Chart: 03-embellishment-by-house.png, % of each house's looks with at least one embellishment, vs the season average]
 Credits: The Data Fashion Brief
 
 *Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric, finish, colour and detail. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. Colour shares split every look across up to three colours by how much of the outfit each one covers, so each palette adds up to 100 percent, and neutral means black, white and cream, grey, and brown and beige. The houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total. Search data comes from Google Trends, worldwide, 26 October 2025 to 25 October 2026, compared with the preceding year.*
@@ -37,9 +37,9 @@ Credits: The Data Fashion Brief
 
 The runway is responding to a customer who has changed what luxury is for. An industry survey of more than 2,000 luxury clients in the United States and China, published this summer, found the appeal of luxury shifting away from status and visibility towards identity, connection and self-expression, with status signalling and logo recognition in decline in the United States in particular. The same research series reports that 81 percent of luxury customers under 35 name design and creativity as their main reason to buy. A customer buying to express something rather than to signal wealth has a reason to want colour, print and decoration, and quiet luxury, whose whole code was recognition by insiders, has less to offer that customer than it did.
 
-The retail data says the same thing from the other side. Assortment tracking across European brands for summer 2026 recorded sequins up 40 percent and fringe up 34 percent year on year, which the analysts read as a demand for escapism and individuality, and the same report recorded premium basics growing at the same time, T-shirts up 41 percent and denim up 47 percent, a season it framed as split between minimalist and maximalist brands rather than swinging from one to the other. Consumer search points the same way. Pinterest's 2026 forecast names an eighties-inspired maximalism, bigger shoulders and chunkier gold jewellery, as one of the year's fashion trends, with searches for "80s luxury" up 225 percent and "chunky belt" up 65 percent, and The Data Fashion Brief's own Google Trends data agrees: worldwide searches for "chunky belt" averaged almost double the previous year's level, and "80s luxury" rose from almost nothing.
+The retail data says the same thing from the other side. Assortment tracking across European brands for summer 2026 recorded sequins up 40 percent and fringe up 34 percent year on year, which the analysts read as a demand for escapism and individuality, and the same report recorded premium basics growing at the same time, T-shirts up 41 percent and denim up 47 percent, a season it framed as split between minimalist and maximalist brands rather than swinging from one to the other. Consumer search points the same way. According to The Data Fashion Brief's analysis of Google Trends, worldwide searches for "chunky belt" averaged almost double their level of a year earlier, up 93 percent, and "80s luxury", the shorthand for bigger shoulders and chunkier gold jewellery, rose from almost nothing, up more than 400 percent on a small base. Both terms peaked in the spring and have settled back since, but both closed the year well above where they started.
 
-[Chart: 10-loud-terms-year-on-year.png, average weekly search interest in "80s luxury" and "chunky belt", preceding year vs past year, Google Trends index, with the growth]
+[Chart: 10-loud-terms-year-on-year.png, % change in average weekly search interest in "80s luxury" and "chunky belt", past year vs preceding year]
 Credits: The Data Fashion Brief
 
 Price has done some of the work too. Luxury prices rose 61 percent on average between 2019 and 2025, and consultancy forecasts for 2026 describe a sector returning to growth of 3 to 5 percent while warning that those increases left aspirational shoppers feeling let down. A shopper who can no longer justify a plain cashmere piece at a luxury price has little reason to keep dressing in the uniform that justified it, and the houses growing with decoration, colour and visible craft are selling that shopper something that looks like what it costs. None of this is new in fashion's history, since periods of restraint have tended to give way to display once the mood that produced them lifts, and the one rigorous attempt to test fashion against the economic cycle, a study of hemlines from 1921 to 2009, found a weak link with a lag of about three years. Three years on from the 2023 peak of quiet luxury is roughly now.
@@ -48,13 +48,13 @@ Price has done some of the work too. Luxury prices rose 61 percent on average be
 
 The same dataset shows the other customer still being dressed. Black accounted for 21 percent of the Paris palette, white and cream for 17 percent, brown and beige for 11 percent and grey for 7 percent, which puts 56 percent of the season's colour weight in neutrals. Lanvin was 89 percent neutral, with half of its entire palette in black, Celine 81 percent and Balenciaga 74 percent, and those three plus Tom Ford each put black at a third or more of their palettes. Alongside the bold, decorated collections, these were shows built almost entirely on basics, and the season held both without either side looking out of place.
 
-[Chart: 05-paris-palette-donut.png (or 04-paris-palette.png as ranked bars), % of the season's colour palette in each colour family]
+[Chart: 05-paris-palette-donut.png, % of the season's colour palette in each colour family]
 Credits: The Data Fashion Brief
 
 [Chart: 01-neutral-by-house.png, % of each house's colour palette in black, white, cream, grey or brown, vs the season average]
 Credits: The Data Fashion Brief
 
-That fits what The Data Fashion Brief's earlier analysis of quiet luxury's customer found: the shopper buying Loro Piana, Brunello Cucinelli or The Row was never buying neutrals as a trend, and is not leaving now that the trend has moved on. The customer who adopted beige as a performance of wealth is the one walking towards colour and decoration, and that shift is what the runway's louder half is answering. Maximalism is not taking quiet luxury's place, it is taking the space the aspirational customer vacated, and the Paris houses have split along exactly that line, some going bold, some staying very basic, very few trying to do both at once.
+That fits what The Data Fashion Brief found in its earlier analysis of quiet luxury's customer for FashionUnited: the shopper buying Loro Piana, Brunello Cucinelli or The Row was never buying neutrals as a trend, and is not leaving now that the trend has moved on. The customer who adopted beige as a performance of wealth is the one walking towards colour and decoration, and that shift is what the runway's louder half is answering. Maximalism is not taking quiet luxury's place, it is taking the space the aspirational customer vacated, and the Paris houses have split along exactly that line, some going bold, some staying very basic, very few trying to do both at once.
 
 ## Accessories carry the loudest part, starting with sunglasses
 
@@ -79,16 +79,15 @@ Credits: The Data Fashion Brief
 - The Data Fashion Brief, Roberto Cavalli SS27 decode (unpublished data, no public link)
 - The Data Fashion Brief for FashionUnited, quiet luxury to colour (the quiet luxury customer point), published piece, link to add
 
+**Search data**
+- The Data Fashion Brief, Google Trends exports, worldwide, 26 October 2025 to 25 October 2026, past year against preceding year: "quiet luxury" https://trends.google.com/trends/explore?date=today%2012-m&q=quiet%20luxury, "80s luxury" https://trends.google.com/trends/explore?date=today%2012-m&q=80s%20luxury, "chunky belt" https://trends.google.com/trends/explore?date=today%2012-m&q=chunky%20belt
+
 **Why maximalism is working now**
 - BoF Insights and McKinsey, The State of Fashion: Face to Face With Luxury Clients, June 2026: https://www.businessoffashion.com/reports/state-of-luxury-fashion-industry/
 - BoF and McKinsey, The State of Fashion 2026: https://www.mckinsey.com/industries/retail/our-insights/state-of-fashion
 - Lectra / Retviews, summer 2026 fashion trends: https://fashionunited.uk/press/fashion/fashion-trends-2026-between-minimalism-and-maximalism-lectra-presents-a-summer-of-contrasts-and-value/2026061888736
-- Pinterest Predicts 2026, Glamoratti: https://business.pinterest.com/pinterest-predicts/2026/glamoratti/
 - Bain 2026 luxury outlook, reported by BoF: https://www.businessoffashion.com/news/luxury/luxury-sector-to-revive-in-2026-but-price-hikes-leave-shoppers-betrayed-bain-says/
 - Van Baardwijk and Franses, The hemline and the economy, Erasmus University Rotterdam: https://ideas.repec.org/p/ems/eureir/20147.html
-
-**Search data**
-- The Data Fashion Brief, Google Trends exports, worldwide, 26 October 2025 to 25 October 2026, past year against preceding year: "quiet luxury" https://trends.google.com/trends/explore?date=today%2012-m&q=quiet%20luxury, "80s luxury" https://trends.google.com/trends/explore?date=today%2012-m&q=80s%20luxury, "chunky belt" https://trends.google.com/trends/explore?date=today%2012-m&q=chunky%20belt
 
 **Press, Paris and Milan**
 - Fashionista, 10 runway trends from Paris Fashion Week Spring 2027: https://fashionista.com/2026/10/paris-fashion-week-spring-2027-trends
