@@ -85,6 +85,45 @@ charts.append(yoy('06-quiet-luxury-year-on-year', 'quiet_luxury', 'quiet luxury'
 charts.append(yoy('07-80s-luxury-year-on-year', '80s_luxury', '80s luxury', 'Eighties luxury had a spring moment'))
 charts.append(yoy('08-chunky-belt-year-on-year', 'chunky_belt', 'chunky belt', 'The chunky belt spiked twice'))
 
+# 9. Quiet luxury, cropped from its May peak to the latest week (Carmen: show the peak and the now)
+ql = load_series(f'{HERE}/data/quiet_luxury.csv')
+pk_i = max(range(len(ql)), key=lambda i: ql[i][1])
+crop = ql[pk_i:]
+charts.append(line_chart('09-quiet-luxury-peak-to-now', 'Quiet luxury, from its peak to now',
+    'weekly search interest in "quiet luxury", Google Trends 0 to 100 scale, May to October 2026',
+    crop, 'past year', 'preceding year',
+    f'From 100 in the week of 10 May to {crop[-1][1]} in the latest week, below the {crop[-1][2]} of the same week a year earlier.',
+    GT))
+
+# 10. Eighties luxury and chunky belt, last year vs this year, average weekly interest, with growth
+def avg(name):
+    s = load_series(f'{HERE}/data/{name}.csv')
+    return sum(r[2] for r in s) / len(s), sum(r[1] for r in s) / len(s)
+groups = [('80s luxury', *avg('80s_luxury')), ('chunky belt', *avg('chunky_belt'))]
+W, H = 1300, 900
+p = head(W, H, 'The loud terms had their biggest year',
+         'average weekly search interest, Google Trends index, preceding year vs past year')
+p.append(f'<rect x="60" y="165" width="34" height="34" fill="{DARK}"/><text x="108" y="191" font-family="{SANS}" font-size="25" fill="{INK}">preceding year</text>')
+p.append(f'<rect x="330" y="165" width="34" height="34" fill="{PINK}"/><text x="378" y="191" font-family="{SANS}" font-size="25" fill="{INK}">past year</text>')
+top, base, bw, gap = 300, 700, 150, 30
+scale = (base - top - 60) / max(v for _, a, b in groups for v in (a, b))
+for gi, (lab, last, this) in enumerate(groups):
+    gx = 200 + gi * 600
+    for k, (v, col) in enumerate(((last, DARK), (this, PINK))):
+        x = gx + k * (bw + gap)
+        bh = v * scale
+        p.append(f'<rect x="{x}" y="{base-bh:.1f}" width="{bw}" height="{bh:.1f}" fill="{col}"/>')
+        p.append(f'<text x="{x+bw/2:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="40" fill="{INK}">{half_up(v)}</text>')
+    growth = half_up(100 * (this / last - 1))
+    cx = gx + bw + gap / 2
+    p.append(f'<text x="{cx:.1f}" y="{base-this*scale-70:.1f}" text-anchor="middle" font-family="{SANS}" font-size="30" fill="{PINK}">+{growth}% vs last year</text>')
+    p.append(f'<text x="{cx:.1f}" y="{base+46}" text-anchor="middle" font-family="{SANS}" font-size="28" fill="{INK}">"{lab}"</text>')
+p.append(f'<line x1="150" y1="{base}" x2="{W-150}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
+p.append(f'<text x="50" y="{H-80}" font-family="{SANS}" font-size="25" fill="{INK}">Each term is indexed to its own peak, so compare each with its own prior year, not with the other.</text>')
+p.append(f'<text x="40" y="{H-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(GT)}</text>')
+p.append('</svg>')
+charts.append(('10-loud-terms-year-on-year', '\n'.join(p), H))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:
