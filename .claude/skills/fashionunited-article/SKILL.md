@@ -127,8 +127,9 @@ Follow the published reference's shape:
 3. **Deeper analysis**: why this season, who else is doing it (named
    collections, dates, places, all verifiable), search data on the same
    scale where it exists, with the head-to-head finding stated
-   concretely. In The Press style corroboration lives here as linked
-   prose, not a DFB callout block.
+   concretely. In The Press style corroboration lives here as plain
+   prose with no outlet names (standing rule 6), the links go in the
+   sources list, not a DFB callout block.
 4. **Related trends or broader context** (its own subheading, e.g. "A
    closer look at quiet luxury's actual customer"): earnings, consumer
    segments, historical precedent, only where it serves the main angle.
