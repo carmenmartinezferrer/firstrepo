@@ -1,4 +1,4 @@
-# FashionUnited: maximalism and quiet luxury (draft 5, text only, adds why maximalism is working now)
+# FashionUnited: maximalism and quiet luxury (draft 5, charts built in drafts/fashionunited-maximalism-charts/)
 
 ## Title options
 
@@ -21,7 +21,7 @@ The decoration is measurable. Across the 997 Paris looks analysed, 31 percent ca
 
 The clearest statement came from Milan, where Fausto Puglisi's Roberto Cavalli collection was reviewed as a burst of fireworks on the runway. The Data Fashion Brief's separate decode of that show puts numbers on it: animal print made up 28 percent of the Cavalli palette, pink 16 percent, red 14 percent and gold 12 percent, and black fell to 6 percent. In Paris, the houses closest to that register are the ones that opted out of a neutral base, Dries Van Noten at 22 percent neutral with graphic and floral print as its two biggest slices, Balmain at 34 percent neutral with animal print as its single largest slice, and Miu Miu at 35 percent.
 
-[Chart: share of each house's looks with at least one embellishment, against the season average, % of each house's looks with ruffles, fringe, sequins, beading, embroidery, 3D flowers, feathers or appliqué]
+[Chart: 03-embellishment-by-house.png (provisional, three houses plus the season average until the other 13 are pulled from the Looks tab), % of each house's looks with at least one embellishment (ruffles, fringe, sequins, beading, embroidery, 3D flowers, feathers or appliqué), vs the season average]
 Credits: The Data Fashion Brief
 
 *Methodology: The Data Fashion Brief built an AI-assisted tool that scans every look from the Paris Fashion Week SS27 collections and tags it by garment type, fit, fabric, finish, colour and detail. Each trend is measured two ways: how dominant it is within a single designer's own collection, and how present it is across the whole season. Colour shares split every look across up to three colours by how much of the outfit each one covers, so each palette adds up to 100 percent, and neutral means black, white and cream, grey, and brown and beige. The houses covered: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, 997 looks in total.*
@@ -38,7 +38,7 @@ Credits: ©Launchmetrics/spotlight
 
 Colour is the other half of what consumers are asking for, and in Paris it arrived through pink. By palette weight pink is only 5 percent of the season, but it appears in 8 percent of all looks and in 13 of the 16 houses, which makes it the most widely shared colour in Paris beyond the neutrals. Isabel Marant gave pink 16 percent of its palette, more than three times the season average, in a pale, faded register that matches the reviews describing the collection as faded pastels, while Valentino's 13 percent was fuchsia and cerise. The shade that connects the most houses is ballet pink, in 17 looks across six collections, led by Stella McCartney and Chloé. Green was the season's biggest single colour at 8 percent, concentrated at Lacoste and Loewe, and the colours the press expected most were the ones Paris used least, red at 2 percent of the palette and purple at 1 percent.
 
-[Chart: share of each house's colour palette that is pink, against the season average, % of each house's colour palette that is pink]
+[Chart: 02-pink-by-house.png, % of each house's colour palette that is pink, vs the season average]
 Credits: The Data Fashion Brief
 
 [Image: Valentino SS27 ready to wear, a fuchsia or cerise look]
@@ -59,7 +59,7 @@ The same dataset shows the other customer still being dressed. Black accounted f
 
 That fits what The Data Fashion Brief's earlier analysis of quiet luxury's customer found: the shopper buying Loro Piana, Brunello Cucinelli or The Row was never buying neutrals as a trend, and is not leaving now that the trend has moved on. The customer who adopted beige as a performance of wealth is the one walking towards colour and decoration, and that shift is what the runway's louder half is answering. Maximalism is not taking quiet luxury's place, it is taking the space the aspirational customer vacated, and the Paris houses have split along exactly that line, some going bold, some staying very basic, very few trying to do both at once.
 
-[Chart: share of each house's colour palette that is neutral, against the season average, % of each house's colour palette in black, white and cream, grey and brown]
+[Chart: 01-neutral-by-house.png (horizontal ranked list; 01b-neutral-by-house-wide.png is the vertical version), % of each house's colour palette in black, white, cream, grey or brown, vs the season average]
 Credits: The Data Fashion Brief
 
 [Image: Lanvin SS27 ready to wear, a black or cream look]
