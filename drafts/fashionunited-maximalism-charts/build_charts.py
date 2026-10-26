@@ -102,7 +102,7 @@ def avg(name):
 groups = [('80s luxury', *avg('80s_luxury')), ('chunky belt', *avg('chunky_belt'))]
 W, H = 1300, 900
 p = head(W, H, 'The loud terms had their biggest year',
-         'average weekly search interest, Google Trends index, preceding year vs past year')
+         '% change in average weekly search interest, past year vs preceding year, Google Trends')
 p.append(f'<rect x="60" y="165" width="34" height="34" fill="{DARK}"/><text x="108" y="191" font-family="{SANS}" font-size="25" fill="{INK}">preceding year</text>')
 p.append(f'<rect x="330" y="165" width="34" height="34" fill="{PINK}"/><text x="378" y="191" font-family="{SANS}" font-size="25" fill="{INK}">past year</text>')
 top, base, bw, gap = 300, 700, 150, 30
@@ -113,10 +113,10 @@ for gi, (lab, last, this) in enumerate(groups):
         x = gx + k * (bw + gap)
         bh = v * scale
         p.append(f'<rect x="{x}" y="{base-bh:.1f}" width="{bw}" height="{bh:.1f}" fill="{col}"/>')
-        p.append(f'<text x="{x+bw/2:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="40" fill="{INK}">{half_up(v)}</text>')
     growth = half_up(100 * (this / last - 1))
+    px = gx + bw + gap + bw / 2
     cx = gx + bw + gap / 2
-    p.append(f'<text x="{cx:.1f}" y="{base-this*scale-70:.1f}" text-anchor="middle" font-family="{SANS}" font-size="30" fill="{PINK}">+{growth}% vs last year</text>')
+    p.append(f'<text x="{px:.1f}" y="{base-this*scale-18:.1f}" text-anchor="middle" font-family="{SANS}" font-size="40" fill="{INK}">+{growth}%</text>')
     p.append(f'<text x="{cx:.1f}" y="{base+46}" text-anchor="middle" font-family="{SANS}" font-size="28" fill="{INK}">"{lab}"</text>')
 p.append(f'<line x1="150" y1="{base}" x2="{W-150}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
 p.append(f'<text x="50" y="{H-80}" font-family="{SANS}" font-size="25" fill="{INK}">Each term is indexed to its own peak, so compare each with its own prior year, not with the other.</text>')
