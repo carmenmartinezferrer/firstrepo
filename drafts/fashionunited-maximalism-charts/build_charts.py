@@ -9,7 +9,12 @@ import sys, os, json
 OUT = sys.argv[1]
 HERE = os.path.dirname(os.path.abspath(__file__))
 src = open(f'{HERE}/../fashionunited-denim-charts/build_charts.py').read()
-exec(src[:src.index('charts = []')])   # helpers and constants only, none of the denim charts
+src = src[:src.index('charts = []')]
+# the peak annotation divides by the preceding year's value, which is 0 for low-volume terms
+src = src.replace('chg = half_up(100 * (series[pk][1] / series[pk][2] - 1))', 'chg = half_up(100 * (series[pk][1] / series[pk][2] - 1)) if series[pk][2] else None')
+src = src.replace('p.append(f\'<text x="{px+18:.1f}" y="{py+4:.1f}" font-family="{SANS}" font-size="30" fill="{INK}">+{chg}% vs last year</text>\')', 'lab = \'peak\'\n    p.append(f\'<text x="{px+18:.1f}" y="{py+4:.1f}" font-family="{SANS}" font-size="30" fill="{INK}">{lab}</text>\')')
+assert 'if series[pk][2] else None' in src and "lab = 'peak'" in src
+exec(src)   # helpers and constants only, none of the denim charts
 
 PARIS_SRC = 'Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27'
 charts = []
@@ -63,6 +68,22 @@ p.append(f'<svg x="{(W-820)/2}" y="200" width="820" height="820" viewBox="-2 -2 
 p.append(f'<text x="40" y="{H-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(PARIS_SRC + ", colour mix")}</text>')
 p.append('</svg>')
 charts.append(('05-paris-palette-donut', '\n'.join(p), H))
+
+# 6 to 8. Google Trends, past year vs preceding year, one chart per term (separate exports, each
+#    scaled to its own peak, so they are compared with their own prior year, never with each other).
+GT = 'Source: The Data Fashion Brief analysis of Google Trends, worldwide, 26 Oct 2025 to 25 Oct 2026'
+def yoy(name, csvname, term, title):
+    s = load_series(f'{HERE}/data/{csvname}.csv')
+    above = sum(1 for _, a, c in s if a > c)
+    pk = max(s, key=lambda r: r[1])
+    import datetime as _dt
+    pk_m = _dt.date.fromisoformat(pk[0]).strftime('%B')
+    note = f'Peaked in {pk_m}; latest week {s[-1][1]} vs {s[-1][2]} a year earlier; above the preceding year in {above} of {len(s)} weeks.'
+    return line_chart(name, title, f'weekly search interest in "{term}", Google Trends 0 to 100 scale',
+                      s, 'past year', 'preceding year', note, GT)
+charts.append(yoy('06-quiet-luxury-year-on-year', 'quiet_luxury', 'quiet luxury', 'Quiet luxury peaked, then fell back'))
+charts.append(yoy('07-80s-luxury-year-on-year', '80s_luxury', '80s luxury', 'Eighties luxury had a spring moment'))
+charts.append(yoy('08-chunky-belt-year-on-year', 'chunky_belt', 'chunky belt', 'The chunky belt spiked twice'))
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
