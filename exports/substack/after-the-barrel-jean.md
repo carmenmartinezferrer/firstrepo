@@ -1,6 +1,6 @@
-# After the barrel jean, denim settles into the relaxed straight leg
+# The jean you'll keep seeing in 2027 is probably already in your wardrobe
 
-**Runway data from the Spring/Summer 2027 shows and a year of search data suggest the next jean is less about a new shape and more about comfort and fit.**
+**After the barrel, runway data and a year of searches point to the relaxed straight leg. Less a new shape, more about comfort and fit.**
 
 Denim has been one of fashion's most reliable categories over the past few years, carried by a shopper who wants comfort first and has spent several seasons moving away from the skinny jean towards looser shapes, the wide leg, the baggy fit and, most recently, the curved barrel jean that became the season's most popular silhouette. With the fashion month Spring/Summer 2027 shows now complete, the question for the industry is what replaces the barrel, and the runway's answer is not a more dramatic shape but a quieter one: the relaxed, full-length straight jean, worn with a blazer.
 
