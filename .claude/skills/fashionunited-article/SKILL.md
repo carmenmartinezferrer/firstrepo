@@ -88,7 +88,28 @@ notes:
    only outlet named in the text is The Data Fashion Brief, as the
    source of the data. (Carmen, maximalism piece, October 2026.)
 
-7. **Every draft ends with a sources list.** Carmen's own standing rule:
+7. **Look one season ahead.** The editor wants a forward-looking
+   perspective, not only a read of the season just shown: how the
+   trend carries into the next season (FW27 after SS27), whether it
+   can continue, and what the buying and trade fair calendar will
+   test. Build it from sources that work a season ahead (Première
+   Vision and the fabric fairs, the data forecasters, DFB's own search
+   data) and hedge it as forecast rather than runway fact.
+   (Maximalism piece, October 2026.)
+
+8. **Don't re-cover a topic from a recent FashionUnited piece.** If
+   something was the subject of last month's article (quiet luxury in
+   the Bold Color piece), keep it to one concise paragraph, out of the
+   title and the introduction, so it doesn't overshadow the main focus.
+   Check the previous piece before drafting. (Maximalism piece,
+   October 2026.)
+
+9. **A broader view is welcome.** The editor likes a short look at the
+   trend outside fashion (home, interiors) or as a reflection of the
+   economic moment, sourced the same way, as an optional extra, never
+   in place of the main focus. (Maximalism piece, October 2026.)
+
+10. **Every draft ends with a sources list.** Carmen's own standing rule:
    whenever a version of the article is handed over, close it with a
    bullet-point list of every source used anywhere in the piece, each
    with its link, grouped by what it backs up (runway data, search data,
