@@ -1,4 +1,4 @@
-# FashionUnited: maximalism (version 9, the editor's edit: forward look to FW27, quiet luxury trimmed, beyond fashion)
+# FashionUnited: maximalism (version 10, beyond fashion paragraph with year-on-year figures)
 
 ## Title options
 
@@ -47,7 +47,7 @@ Credits: The Data Fashion Brief
 
 Price and the economic mood have done some of the work too. Luxury prices rose 61 percent on average between 2019 and 2025, and consultancy forecasts for 2026 describe a sector returning to growth of 3 to 5 percent while warning that those increases left aspirational shoppers feeling let down, at a time when 46 percent of fashion executives surveyed expected conditions to worsen this year. A shopper who can no longer justify a plain cashmere piece at a luxury price has little reason to keep dressing in the uniform that justified it, and the houses growing with decoration, colour and visible craft are selling that shopper something that looks like what it costs. None of this is new in fashion's history, since periods of restraint have tended to give way to display once the mood that produced them lifts, and the one rigorous attempt to test fashion against the economic cycle, a study of hemlines from 1921 to 2009, found a weak link with a lag of about three years. Three years on from the 2023 peak of quiet luxury is roughly now.
 
-The shift is not confined to clothing. In the most recent annual survey of 468 interior design professionals, maximalism was the most requested style at 39 percent, with eclecticism just behind at 38 percent and chocolate brown named the top trending colour, and the largest furniture retailer in the world built its 2026 style guide around a maximalist look of bold colour and playful pattern. The home is usually slower to turn than the wardrobe, so a maximalist majority among interior clients is a sign of a mood with some duration behind it rather than a single season's styling.
+The shift is not confined to clothing, and it is measurable there too. In the most recent annual survey of 468 interior design professionals, maximalism was the most requested style at 39 percent, up from 33 percent a year earlier, with eclecticism just behind at 38 percent and chocolate brown named the top trending colour, and the largest furniture retailer in the world built its 2026 style guide around a maximalist look of bold colour and playful pattern. The Data Fashion Brief's own Google Trends data shows worldwide searches for "maximalist interior" running about half as high again as a year earlier on average, on a small base. Beauty is moving the same way, with one search tracker reporting "maximalist makeup" up 96 percent year on year as bold colour replaces the pared-back look, and branding coverage now describes the end of the flat, minimal identity that made luxury houses look interchangeable. The home is usually slower to turn than the wardrobe, so a maximalist majority among interior clients is a sign of a mood with some duration behind it rather than a single season's styling.
 
 ## The quiet customer is still there
 
@@ -94,7 +94,13 @@ One season of runway data is a signal, but the signal is consistent across the r
 
 **Beyond fashion**
 - 1stDibs, 2026 Interior Design Trends, Designer Trends Survey (468 design professionals, maximalism 39 percent, eclecticism 38 percent, chocolate brown 33 percent), November 2025: https://investors.1stdibs.com/news/news-details/2025/2026-Interior-Design-Trends-1stDibs-Survey-Identifies-Maximalism-Chocolate-Brown-and-Vintage-Antiques-as-Top-Designer-Choices/default.aspx
+- 1stDibs, The 1stDibs Guide to 2025 Interior Design Trends (maximalism 33 percent the year before): https://www.1stdibs.com/blogs/the-study/interior-design-trends-2025/
 - IKEA 2026 style guide, "joycore", as reported: https://www.homesandgardens.com/shopping/ikea-trends-for-2026
+- The Data Fashion Brief, Google Trends export, "maximalist interior", worldwide, 26 October 2025 to 25 October 2026 against the preceding year (average 54 percent higher, above the prior year in 36 of 53 weeks, low volume): https://trends.google.com/trends/explore?date=today%2012-m&q=maximalist%20interior
+- BeautyMatter, beauty maximalism replaces the clean girl era: https://beautymatter.com/articles/beauty-gets-theatrical-the-return-of-maximalism
+- Hyphen, maximalist beauty is the latest big thing (Spate: "maximalist makeup" searches up 96 percent year on year): https://hyphenonline.com/2026/10/27/maximalist-beauty-is-the-latest-big-thing/
+- Shopify, logo trends 2026 (looser, bolder, more maximalist identities): https://www.shopify.com/blog/logo-trends
+- Schweitzer Designs, luxury branding trends 2026, the end of "blanding": https://www.schweitzerdesigns.com/post/luxury-branding-trends-2026
 
 **Fall/Winter 2027 outlook**
 - Première Vision Paris, AW 27-28 season, September 2026, Living Matter: https://paris.premierevision.com/en/content/details-de-la-saison-ah-27-28-pv-paris-septembre-2026 and colour preview https://www.premierevision.com/articles/350327a8-515e-f111-8fca-000d3a3a75fd/aw-27-28-color-preview-when-color-reveals-a-living-materiality
