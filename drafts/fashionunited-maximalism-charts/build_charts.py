@@ -124,6 +124,35 @@ p.append(f'<text x="40" y="{H-30}" font-family="{SANS}" font-size="20" fill="{IN
 p.append('</svg>')
 charts.append(('10-loud-terms-year-on-year', '\n'.join(p), H))
 
+# 11. Beyond fashion: maximalist interior, preceding year vs past year, growth on the pink bar.
+#     One pair for now; add ('maximalist makeup', *avg('maximalist_makeup')) when Carmen exports it.
+groups2 = [('maximalist interior', *avg('maximalist_interior'))]
+W, H = 1300, 900
+p = head(W, H, 'The home is turning the same way',
+         '% change in average weekly search interest, past year vs preceding year, Google Trends')
+p.append(f'<rect x="60" y="165" width="34" height="34" fill="{DARK}"/><text x="108" y="191" font-family="{SANS}" font-size="25" fill="{INK}">preceding year</text>')
+p.append(f'<rect x="330" y="165" width="34" height="34" fill="{PINK}"/><text x="378" y="191" font-family="{SANS}" font-size="25" fill="{INK}">past year</text>')
+top, base, bw, gap = 300, 700, 150, 30
+scale = (base - top - 60) / max(v for _, a, b in groups2 for v in (a, b))
+n2 = len(groups2); span = n2 * (2 * bw + gap) + (n2 - 1) * 270
+start = (W - span) / 2
+for gi, (lab, last, this) in enumerate(groups2):
+    gx = start + gi * (2 * bw + gap + 270)
+    for k, (v, col) in enumerate(((last, DARK), (this, PINK))):
+        x = gx + k * (bw + gap)
+        bh = v * scale
+        p.append(f'<rect x="{x:.1f}" y="{base-bh:.1f}" width="{bw}" height="{bh:.1f}" fill="{col}"/>')
+    growth = half_up(100 * (this / last - 1))
+    px = gx + bw + gap + bw / 2
+    cx = gx + bw + gap / 2
+    p.append(f'<text x="{px:.1f}" y="{base-this*scale-18:.1f}" text-anchor="middle" font-family="{SANS}" font-size="40" fill="{INK}">+{growth}%</text>')
+    p.append(f'<text x="{cx:.1f}" y="{base+46}" text-anchor="middle" font-family="{SANS}" font-size="28" fill="{INK}">"{lab}"</text>')
+p.append(f'<line x1="150" y1="{base}" x2="{W-150}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
+p.append(f'<text x="50" y="{H-80}" font-family="{SANS}" font-size="25" fill="{INK}">A low-volume term, so the average is indicative; above the preceding year in 36 of 53 weeks.</text>')
+p.append(f'<text x="40" y="{H-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(GT)}</text>')
+p.append('</svg>')
+charts.append(('11-beyond-fashion-search', '\n'.join(p), H))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:
