@@ -1,0 +1,55 @@
+{
+  "brand": "Prada",
+  "season": "SS21",
+  "fashion_week": "Milan Fashion Week",
+  "fashion_week_short": "Milan FW",
+  "show_type": "debut reset",
+  "looks": 40,
+  "palette": [
+    {"label": "White", "pct": 35, "hex": "#F4F2EE"},
+    {"label": "Black", "pct": 25, "hex": "#111111"},
+    {"label": "Butter yellow", "pct": 8, "hex": "#E9D45A"},
+    {"label": "Blush pink", "pct": 8, "hex": "#EFC7CF"},
+    {"label": "Grey", "pct": 5, "hex": "#8C8C8E"},
+    {"label": "Geometric logo print", "pct": 5, "hex": "#D98B4A"},
+    {"label": "Polka dot & abstract print", "pct": 5, "hex": "#CFCBC4"},
+    {"label": "Beige/khaki", "pct": 2, "hex": "#C9B99A"},
+    {"label": "Purple", "pct": 2, "hex": "#7E2A6E"},
+    {"label": "Mint jacquard", "pct": 2, "hex": "#BFD5C3"},
+    {"label": "Navy moire", "pct": 2, "hex": "#1F2340"}
+  ],
+  "silhouette": [
+    {"label": "Nylon wrap + slim trouser", "pct": 18, "keep": true},
+    {"label": "Printed hoodie + pleated midi", "pct": 15},
+    {"label": "Wrap worn as a dress", "pct": 10},
+    {"label": "Cocoon coat", "pct": 10},
+    {"label": "Top + slim trouser", "pct": 10},
+    {"label": "Long coat / trench", "pct": 7},
+    {"label": "Jacket + nylon belt-bag wrap", "pct": 7},
+    {"label": "Cut-out top + midi skirt", "pct": 7},
+    {"label": "Tunic dress + trouser", "pct": 5},
+    {"label": "Satin shift dress", "pct": 5},
+    {"label": "Sweater + full pleated midi", "pct": 5}
+  ],
+  "material": [
+    {"label": "Re-Nylon & gabardine", "pct": 43},
+    {"label": "Satin / duchesse", "pct": 18},
+    {"label": "Sweatshirt jersey", "pct": 13},
+    {"label": "Printed cotton & silk", "pct": 7},
+    {"label": "Wool tailoring", "pct": 7},
+    {"label": "Jacquard", "pct": 5},
+    {"label": "Cotton poplin", "pct": 5},
+    {"label": "Knit", "pct": 2}
+  ],
+  "other": [
+    {"label": "Prints of any kind", "pct": 50},
+    {"label": "Slim trouser as the base", "pct": 43},
+    {"label": "Re-Nylon drape on the body", "pct": 35},
+    {"label": "Punched cut-out holes", "pct": 33, "approx": true},
+    {"label": "Midi length (skirt or dress)", "pct": 28},
+    {"label": "Peter De Potter graphic print", "pct": 23},
+    {"label": "Pleated full midi skirt", "pct": 20},
+    {"label": "Minis / bare legs", "pct": 10}
+  ],
+  "codes": ["the Re-Nylon drape as the gesture", "the slim trouser as the base", "the punched-out hole as the signature"]
+}

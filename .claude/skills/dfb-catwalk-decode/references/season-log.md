@@ -59,6 +59,17 @@ Update this file after every decode: brand line, trackers, pending list.
   - Material: chiffon/tulle 32, suiting/tweed 25, bouclé 11, fringe/feather 8, embellished 8, shirting 8, knit 5, satin 3.
 - → **Recount from the screenshots and keep one set.** Then delete the other set here, and fix the Dior midi tracker value if it changes.
 
+## Archive decodes (not SS27)
+
+#### Prada SS21 (Milan, 24 Sep 2020): debut reset, 40 looks. Miuccia Prada + Raf Simons, first co-signed show.
+- **Palette:** white 35, black 25, butter yellow 8, blush pink 8, grey 5, geometric logo print 5, polka dot & abstract print 5, beige 2, purple 2, mint jacquard 2, navy moire 2 (sums to 99: equal counts kept equal).
+- **Silhouette:** nylon wrap + slim trouser 18, printed hoodie + pleated midi 15, wrap worn as a dress 10, cocoon coat 10, top + slim trouser 10, long coat/trench 7, jacket + nylon belt-bag wrap 7, cut-out top + midi skirt 7, tunic dress + trouser 5, satin shift dress 5, sweater + full pleated midi 5 (sums to 99).
+- **Material:** Re-Nylon & gabardine 43, satin/duchesse 18, sweatshirt jersey 13, printed cotton & silk 7, wool tailoring 7, jacquard 5, cotton poplin 5, knit 2.
+- **Other:** prints of any kind 50%, slim trouser 43%, Re-Nylon drape 35%, punched cut-outs ~33%, midi 28%, neutrals 68%.
+- **The codes are:** the Re-Nylon drape as the gesture, the slim trouser as the base, the punched-out hole as the signature.
+- Decode in `examples/prada-ss21.json`, look log in `exports/ss21/prada-ss21-decode.md`. Canva: copy of the new TEMPLATE (`DAHZS6ez0MM`).
+- ⚠️ **Two Prada SS21 Canva designs exist.** `DAHZeHkKwos` (made earlier on 30 Oct 2026, white 38 / black 28, not from this skill run) and the skill-run copy. Keep one, delete the other.
+
 ## Trackers
 
 ### Midi share (% of looks)
