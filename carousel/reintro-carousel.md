@@ -10,6 +10,15 @@ skill and her Instagram profile as read the same day (32,679 followers, 207 post
 Per the DFB workflow this is **text only**. Photos and the Canva build come after the words
 are approved.
 
+## Canva
+
+Built on a copy of your "How I got into fashion data" carousel (the original is untouched):
+https://www.canva.com/d/prDobSXcev0ed2w
+
+The copy still carries the template's stock photos and illustrations. Swap in your own photos
+(selfie on slides 1 and 8, childhood photo on slide 3, a work or fashion week photo on slide 2)
+before posting. The text is in, in story order.
+
 ## Slides
 
 | # | On-slide text | Visual |
