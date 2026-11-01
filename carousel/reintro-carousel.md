@@ -1,5 +1,11 @@
 # DFB – Hi, I'm Carmen (30K reintro), slide plan
 
+> Superseded. The carousel was built on 1 November 2026 with the `dfb-personal-carousel` skill
+> plus Mia McGrath's story arc. Canva: https://www.canva.com/d/sBgltUULkZqx0-k (design `DAHZs2-q2W8`).
+> The final copy, caption, numbers and to-dos live in the dfb-data repo:
+> `carousels/2026-11-mixed-hi-im-carmen-30k/README.md` on branch `claude/blissful-tesla-xi20u5`.
+> This file is the earlier plan, kept for reference.
+
 Built to the `dfb-personal-carousel` skill in the dfb-data repo (branch `claude/adoring-euler-fw5j2s`):
 reader-first, calm and factual, your own photos and painted illustrations only, pink `#C83670` kickers,
 DFB logo bottom left, one bold claim and one underlined phrase per text block, current employer never named.
