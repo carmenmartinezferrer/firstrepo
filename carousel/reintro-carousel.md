@@ -1,178 +1,65 @@
-# "Re-introducing myself" carousel — The Data Fashion Brief edition
+# Re-introducing myself, a Behind The Data Fashion Brief carousel
 
-A 9-slide Instagram carousel (1080 × 1350 px) that follows the structure of Mia McGrath's
-"re-introducing myself" post, rebuilt for Carmen / @thedatafashionbrief.
+Instagram carousel, 1080 x 1350, built to the Behind The Data Fashion Brief carousel format
+(hook, story slides, what I do today, honesty slide, CTA, 8 slides max), using the structure
+of Mia McGrath's "re-introducing myself" post as the storyline.
 
-Numbers in this file come from your Instagram profile on 1 Nov 2026 (32,679 followers,
-714 following, 207 posts, bio: "a data analyst decoding fashion through data").
-Anything personal I couldn't verify is marked **[FILL: …]**. Swap, don't invent.
+Facts come from the repo style guide, the media kit skill, the fashion week learnings draft
+and your Instagram profile as read on 1 November 2026 (32,679 followers, 207 posts).
+Nothing personal is invented. The few things I couldn't verify are in "To confirm" at the end.
 
----
+Per the DFB workflow this is **text only**. Photos and the Canva build come after you've
+approved the words.
 
-## Why Mia's carousel works (the structure we're copying)
+## Slides
 
-| # | Her slide | Job of the slide | Format |
-|---|---|---|---|
-| 1 | Selfie + arched "re-introducing myself" + 4 orbiting questions | Stop the scroll, promise 4 answers | Photo, white text, arrows |
-| 2 | "hey, i'm Mia" + one-line bio + "but it didn't start there…" | Who she is now + cliffhanger | Grid paper, cut-out photo, collage props |
-| 3 | "i was adopted" + childhood photos | The origin fact nobody expects | Grid paper, serif + handwritten word |
-| 4 | "i became obsessed" | The turning point / why she cares | Text only |
-| 5 | "Worked in fashion" + grad photo + then-vs-now follower screenshots | Credentials + proof of growth | Collage, two screenshots, arrows |
-| 6 | Vogue article + work photos | Social proof / the "I made it" moment | 4-photo grid with a note on top |
-| 7 | "It didn't happen overnight" | The input behind the output (honesty) | Text only |
-| 8 | "It doesn't stop there" | Mission + "if I can do it, so can you" | Taped note |
-| 9 | Same selfie + "comment 'newsletter'" | CTA, free, specific keyword | Photo, arched text |
+| # | On-slide text | Visual |
+|---|---|---|
+| 1 | **re-introducing myself** (arched, white) with four small questions and arrows around your face: *Farfetch?* · *Zara?* · *fashion week invites?* · *32K of you?* | A selfie at home or at your desk, the same one you'll close with. "THE DATA FASHION BRIEF" small at the bottom, as on every slide. |
+| 2 | **hey, i'm Carmen.** I'm a London based data analyst, and I've spent my whole career in data, at Inditex, in finance analytics, at YOOX Net-A-Porter and now as a Senior Data Analyst at Farfetch. The Data Fashion Brief is the thing I do on top of that, and it didn't start at work. | Full length photo of you, cut out, with a laptop and one of your pink bar charts beside it. Pink highlight: **data analyst**. |
+| 3 | **i became obsessed with one question.** Everyone in fashion had a vibe about what was trending, and nobody had the number. So in January 2026 I started tagging runway looks in a spreadsheet after work and posting what I found, to an account with zero followers. | Screenshot of one of your tagging spreadsheets, or a runway screenshot with your tags over it. Pink highlight: **nobody had the number**. |
+| 4 | **it grew faster than I expected.** 3,386 of you in May, 21,107 by the end of September, and 32,679 today, all of it organic and all of it next to a full time job. Somewhere in there FashionUnited asked me to write for them. | Two or three Instagram profile screenshots side by side, May 2026 and today, with handwritten dates underneath. Pink highlight: **all of it organic**. |
+| 5 | **this September I did my first fashion week season.** London came from loads of outreach with my magical spreadsheet, McQueen didn't invite me to the show but did invite me to the after party, and Milan and Paris came to me, Moschino and then Stella McCartney the day before the show. I said no to Stella, for now. | Your fashion week photos (a show seat, the McQueen party, Moschino). Pink highlight: **my magical spreadsheet**. |
+| 6 | **what I actually do today.** Every piece starts with a question, then I tag the looks or pull a year of search data, run the analysis and write the story, with the number first and the opinion second. It goes out as a Substack post, a FashionUnited article, a Reel and a carousel like this one. | Painted DFB illustration, white background, black and pink: question, data, analysis, story, in a loop. Pink highlight: **the number first and the opinion second**. |
+| 7 | **it didn't happen overnight.** Doing this next to a full time job is a lot (don't do it if you can't take the stress lol), but working on something that's yours is so addictive. | A tired-but-happy photo: laptop on the sofa, or you editing on the tube. Pink highlight: **so addictive**. |
+| 8 | **if you've read this far, you're my kind of person.** The full story and the free newsletter are on my Substack, link in bio. What do you want to know about working in fashion data? Ask me below and I'll answer it in the next Behind The Data Fashion Brief. | The slide 1 selfie again, so the carousel loops. Pink highlight: **free newsletter**. |
 
-Pattern: **hook → now → origin → obsession → path → proof → cost → mission → CTA.**
-Each slide title is a bold sans word + one word in handwriting or italic serif.
-Text slides alternate with photo slides so nobody gets bored.
+Slide 7 reuses your own closing line from the fashion week learnings carousel, so it's in
+your words. If you'd rather make slide 7 a value slide (your tools, books or newsletters,
+the way the Behind DFB format allows), send me your three picks and I'll swap it, I won't
+invent recommendations in your name.
 
----
+## Caption
 
-## Your 9 slides (draft copy)
+A lil reintro to me, because 32K of you weren't here in January 🩷
 
-### Slide 1 — Cover
-**Photo:** a selfie, at home or at your desk, laptop or a runway board in the background.
-**Arched text (top):** `re-introducing myself`
-**Four orbiting questions with arrows:**
-- top-left: `counts every runway look?`
-- top-right: `data > vibes?`
-- bottom-left: `FashionUnited writer?`
-- bottom-right: `32k of you?`
+I'm Carmen, a data analyst at Farfetch by day (Inditex and YOOX Net-A-Porter before that), and at the start of this year I got obsessed with the fact that everyone in fashion had a vibe about trends and nobody had the number. So I started tagging runway looks in a spreadsheet after work and posting what I found.
 
-Alternatives for the four hooks: `Spanish in London?` **[FILL: confirm]**, `catwalk decodes?`, `a data analyst… in fashion?`, `free newsletter?`
+Ten months later this account is 32K of you, all organic, there's a newsletter, a FashionUnited column and I've just done my first fashion week season, all next to a full time job (don't do it if you can't take the stress lol).
 
-### Slide 2 — hey, i'm Carmen
-**Title:** `hey, i'm` + *Carmen* (handwritten)
-**Body (left column):**
-> A London-based data analyst decoding fashion through data.
->
-> I run **The Data Fashion Brief**: trend reports, brand breakdowns and catwalk decodes, with the number first and the opinion second.
->
-> But it didn't start with fashion…
+The full story is on my Substack, link in bio. What do you actually want to know about working in fashion data? Ask me below and I'll answer it in the next Behind The Data Fashion Brief 👇
 
-**Right:** cut-out photo of you, full body, in an outfit you'd actually wear.
-**Props to scatter:** laptop, a Vogue Runway screenshot, a pink bar chart (DFB pink `#D6447A`), a calculator or a spreadsheet cell.
+## Design notes
 
-### Slide 3 — the origin fact
-**Title:** `i'm` + *[FILL: one unexpected fact]* (handwritten)
+- Your photos only, white Century Gothic overlay, DFB pink #D6447A for exactly one highlighted phrase per slide, "THE DATA FASHION BRIEF" small at the bottom of every slide. Slide 6 is the only illustrated slide.
+- Same Canva carousel template as the fashion week learnings post (8 pages, two cover options). Delete the spare cover.
+- Mia's trick worth keeping: the cover and the last slide use the same photo, and every slide title is lowercase with one word in your italic or handwritten style.
+- No em or en dashes anywhere on the slides, whole numbers only, UK punctuation.
 
-This is Mia's "i was adopted" slide: the thing about you people don't expect. Options, pick the true one:
-- `i'm` *from [FILL: city/region]* — "Moved to London in **[FILL: year]** with **[FILL: detail]**."
-- `i was` *a numbers kid* — "Spreadsheets before magazines. **[FILL: a childhood detail]**."
-- `i never` *studied fashion* — "**[FILL: what you actually studied]**. The fashion part came later."
+## To confirm before I touch the Canva
 
-**Body:** 2–3 sentences, plain words, one small twist at the end (hers was "I already have them :)").
-**Photos:** one childhood photo in a circle + one black-and-white cut-out, with a handwritten arrow: `data nerd since day 1`.
+1. Career order and years. The style guide lists Inditex/Zara, finance data analytics, YOOX Net-A-Porter and Farfetch, but not the order or how long. Slide 2 and the caption read as chronological, so correct me.
+2. Where you're from. Mia's slide 3 is her origin fact, and I've left yours out rather than guess. If you want it in, it goes on slide 2 ("a [city] girl in London").
+3. Substack subscriber count, if you want the number on slide 8 the way Mia does ("join 2,500+ others").
+4. When FashionUnited started. Slide 4 says "somewhere in there", which is deliberately vague.
+5. The May figure (3,386) comes from the media kit skill's month-end list. Your August number there is only ">15K", so I used May, September and today.
+6. The four Canva drafts I generated earlier were ahead of your workflow (text first, visuals after approval). Ignore them until the words are signed off.
 
-### Slide 4 — i became obsessed
-**Title:** `i became` + *obsessed* (handwritten)
-**Body (text only):**
-> with the idea that fashion isn't random.
->
-> Every "trend" is a count waiting to happen: how many looks, which colours, which silhouettes, which fabrics. Nobody was doing the counting.
->
-> Everyone in fashion had a vibe. I wanted the number.
->
-> Although, **[FILL: where you were at the time, e.g. "sitting in a job that had nothing to do with it"]**, I had no idea how to turn that into anything.
+## Sources
 
-### Slide 5 — the path
-**Title:** `Worked in` + *[FILL: your field]* (italic serif)
-**Collage, three steps with arrows:**
-1. Photo (graduation, or first job) — `Studied [FILL: degree] at [FILL: university].`
-2. Photo of you at a laptop — `[FILL: X] years as a data analyst in [FILL: industry/company type].`
-3. Two Instagram profile screenshots side by side:
-   - left: your earliest screenshot — `[FILL: month year]` · `[FILL: followers]`
-   - right: today — `november 2026` · `32.7K followers · 207 posts`
-   Caption above them: `I started posting the counts on Instagram, as an outlet to talk about it…`
-
-Use real screenshots. If you don't have an old one, search your camera roll or the Wayback Machine for the earliest profile capture.
-
-### Slide 6 — proof
-**Four-photo grid with a torn note on top.**
-- Top-left: your **FashionUnited** byline (article header screenshot).
-- Top-right: a Substack screenshot showing the publication header and subscriber count **[FILL: number]**.
-- Bottom-left: you working (laptop + runway screenshots on screen).
-- Bottom-right: one of your decode charts, the pink bars or the donut.
-
-**Note:**
-> after **[FILL: X]** years of counting looks at night and analysing data by day, I now write for FashionUnited and **[FILL: your current status: "do this full-time" / "run DFB alongside my job"]**.
->
-> My week now looks like this.
-
-### Slide 7 — It didn't happen overnight
-**Title:** `It didn't` + *happen overnight* (italic serif)
-**Body (text only):**
-> you often see people "launching a newsletter". Very few show the input.
->
-> **[FILL: your real routine, e.g. "Counting 60 looks per show, 40 shows a season, in a spreadsheet, after work."]**
->
-> It took **[FILL: time]** of posting to an audience of **[FILL: tiny number]**, getting the odd "who asked" comment, and recounting shows because I didn't trust my own numbers.
->
-> You can't want someone's output without knowing their input.
-
-(That last line is Mia's and it's good; keep it or swap for your own: `A trend is just a count someone bothered to do.`)
-
-### Slide 8 — It doesn't stop there
-**Title:** `It doesn't` + *stop there* (italic serif)
-**Taped note:**
-> I'm determined to make fashion data readable for everyone, not just brands with a research budget.
->
-> This means a decode of every major show, every season, with the number before the opinion.
->
-> **[FILL: your next goal, e.g. "a full trend database by SS28" / "DFB as my full-time job by 30"]**
->
-> If a data analyst can end up in fashion, you can end up wherever you're trying to go.
-
-### Slide 9 — CTA
-**Photo:** same selfie as slide 1 (the loop makes the carousel feel finished).
-**Arched text:** `comment 'brief'`
-**Below:** `to join [FILL: Substack subscribers]+ others getting the data behind the trends`
-**Small handwriting:** `p.s. it's free`
-
-Set up a ManyChat (or similar) auto-DM on the keyword `brief` that sends the Substack link,
-or just reply to every comment with the link for the first 48 hours.
-
----
-
-## Caption (your voice)
-
-> A lil reintro to me 🤍
->
-> A London based data analyst decoding fashion through data 🩷
->
-> I'm from **[FILL]**. Studied **[FILL]**, worked **[FILL: X]** years in data, and spent my evenings counting runway looks in a spreadsheet because nobody else was. That spreadsheet became The Data Fashion Brief.
->
-> Today it's 32K of you here, a newsletter of **[FILL]**+ readers and a byline at @fashionunitedhq. None of it happened overnight: **[FILL: one honest line about the grind]**.
->
-> The rule hasn't changed since post one: the number first, the opinion second.
->
-> Comment 'brief' and I'll send you the newsletter. It's free.
-
-Hashtags (optional, keep them in the first comment if you prefer a clean caption):
-`#fashiondata #fashionanalytics #trendforecasting #fashionweek #catwalkdecode #datafashionbrief #fashionindustry #fashioncareers`
-
----
-
-## Design notes (DFB house style)
-
-- **Size:** 1080 × 1350 px, 9 pages, one Canva design.
-- **Colours:** white background, black text, DFB pink `#D6447A` as the only accent (arrows, one highlighted word, the bar chart on slide 6).
-- **Type:** DM Serif Display for titles and the italic word, Century Gothic for body. For the handwritten word (`Carmen`, `obsessed`), use a Canva script font like *Homemade Apple* or *Caveat*, black.
-- **Background:** Mia uses grid paper. Your version: a faint grid (like a spreadsheet) in `#EDEDED`, which nods to the data side. Keep it very light.
-- **Rhythm:** photo (1) → collage (2) → photo+text (3) → text (4) → collage (5) → grid (6) → text (7) → note (8) → photo (9).
-- **Text slides:** 40–60 words max, centred, generous line spacing, body at 44–48 px so it reads on a phone.
-- **Cover text:** white with a soft shadow so it survives any photo.
-
-## Asset checklist (shoot / screenshot before building)
-
-- [ ] 1 selfie for slides 1 and 9 (same photo, same crop)
-- [ ] 1 full-body photo for the slide 2 cut-out (use Canva background remover)
-- [ ] 1–2 childhood photos (slide 3)
-- [ ] Graduation or first-job photo (slide 5)
-- [ ] You at a laptop with runway screenshots open (slides 5 and 6)
-- [ ] Earliest Instagram profile screenshot + today's (slide 5)
-- [ ] FashionUnited byline screenshot (slide 6)
-- [ ] Substack header screenshot with subscriber count (slide 6)
-- [ ] One DFB chart PNG from `exports/ss27/` (slide 6)
-- [ ] Set up the keyword auto-reply for `brief` (slide 9)
+- Your Instagram profile via the Instagram Graph API, read 1 November 2026: 32,679 followers, 207 posts, bio and FashionUnited mention (no public link beyond https://www.instagram.com/thedatafashionbrief).
+- Repo `CLAUDE.md` on branch `claude/pinterest-summer-2026-trends-wkwxq6`: career (Farfetch, Inditex/Zara, finance analytics, YOOX Net-A-Porter), voice rules, non-negotiables (no public link).
+- `.claude/skills/dfb-media-kit/SKILL.md` on branch `claude/adoring-bohr-tfqlfp`: launch in January 2026, 100% organic, month-end followers May to September 2026 (no public link).
+- `drafts/fashion-week-learnings-carousel.md` on branch `claude/pinterest-summer-2026-trends-wkwxq6`: fashion week facts and the slide 7 line (no public link).
+- `.claude/skills/dfb-substack/SKILL.md` on branch `claude/adoring-euler-fw5j2s`, section 6: the Behind The Data Fashion Brief carousel format (no public link).
+- Mia McGrath's "re-introducing myself" carousel, your screenshots (no public link).
