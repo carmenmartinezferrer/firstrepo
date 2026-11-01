@@ -30,6 +30,12 @@ Search results only show previews, so open the relevant threads with `get_thread
 
 Search each outlet's coverage from the past 7 days, even when Gmail worked for it: BoF, Vogue Business, WWD, Retail Dive (fashion only), Puck's Line Sheet (Lauren Sherman), Modem Online, Modaes, All Things Fashion Tech. Use WebSearch, because WebFetch is blocked for several of these domains (substack.com, fashionunited). If an outlet published nothing relevant that week, skip it. Don't force it.
 
+### The wider press (every week, after the eight outlets)
+
+The eight outlets miss things. Run a second sweep of the past 7 days across: Bloomberg, Reuters and the FT (all paywalled, so search for their figures as quoted by others), Jing Daily (China), FashionNetwork, the UK trade press (Drapers, Retail Gazette, TheIndustry.fashion), Glossy / Modern Retail, and the week's company results releases (search "<company> Q3 results" for whoever reported). One search per outlet is enough. Carmen asked for this after a week when the eight outlets missed the FT's €251bn luxury market-value figure and the Birkin resale premium shrinking.
+
+Also use this sweep to **check earlier shifts**: if new data contradicts something a previous pack said (a premium that was "stable" is now falling), that correction is itself a shift candidate, and say so in the copy.
+
 ### Don't repeat last week
 
 Find last week's doc in the Drive folder (section 4) and read it with `read_file_content`. Don't reuse a shift unless there is genuinely new data, and if there is, lead with what's new.
