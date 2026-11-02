@@ -26,7 +26,7 @@ The customer has changed what luxury is for. The State of Fashion: Face to Face 
 
 **Accessories carry the loudest part**
 
-Buyers surveyed by WWD after the spring shows named belts the season's key statement piece, big at Celine and triple at Gucci, second only to chunky jewellery and maxi sunglasses. Celine showed its signature oversized oval sunglasses without rims this season, alongside bright yellow lenses and very large bug-eye frames, all worn with wide belts, Miu Miu sent out bug-eye frames crossed with a cat-eye shape in a parade of colours, and Balmain put sunglasses on many of its models.
+Buyers surveyed by WWD after the spring shows named the belt the season's key statement piece, oversized at Celine and worn three at a time at Gucci, with chunky jewellery and maxi sunglasses close behind. The sunglasses were the most visible of the three. Celine showed its signature oversized oval frames without rims, alongside bright yellow lenses and very large bug-eye shapes, Miu Miu sent out bug-eye frames crossed with a cat-eye in a parade of colours, and Balmain put sunglasses on most of its models. Shoppers have followed: according to The Data Fashion Brief's analysis of Google Trends, worldwide searches for Celine's round sunglasses are up 190 percent on a year earlier.
 
 [Collage 3: Celine, Miu Miu and Balmain SS27, sunglasses and belts]
 
@@ -44,7 +44,7 @@ So the pink, embellished, bug-eyed Spring/Summer 2027 version hands over to a he
 
 - The Data Fashion Brief, Paris Fashion Week SS27 runway tagging, 16 houses, 997 looks (unpublished data)
 - The Data Fashion Brief, Roberto Cavalli SS27 decode (unpublished data)
-- The Data Fashion Brief, Google Trends, worldwide, 26 October 2025 to 25 October 2026, past year against preceding year: "chunky belt" https://trends.google.com/trends/explore?date=today%2012-m&q=chunky%20belt, "80s luxury" https://trends.google.com/trends/explore?date=today%2012-m&q=80s%20luxury
+- The Data Fashion Brief, Google Trends, worldwide, 26 October 2025 to 25 October 2026, past year against preceding year: "chunky belt" https://trends.google.com/trends/explore?date=today%2012-m&q=chunky%20belt, "80s luxury" https://trends.google.com/trends/explore?date=today%2012-m&q=80s%20luxury, "celine round sunglasses" (Carmen's export, file to add) https://trends.google.com/trends/explore?date=today%2012-m&q=celine%20round%20sunglasses
 - The Business of Fashion and McKinsey, The State of Fashion: Face to Face With Luxury Clients, June 2026: https://www.businessoffashion.com/reports/state-of-luxury-fashion-industry/
 - The Business of Fashion and McKinsey, The State of Fashion 2026: https://www.mckinsey.com/industries/retail/our-insights/state-of-fashion
 - Lectra / Retviews, summer 2026 fashion trends: https://fashionunited.uk/press/fashion/fashion-trends-2026-between-minimalism-and-maximalism-lectra-presents-a-summer-of-contrasts-and-value/2026061888736
