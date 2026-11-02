@@ -36,7 +36,7 @@ Decoration carries, bright colour does not. Première Vision Paris, the fabric f
 
 [Collage 4: SS27 looks that point to FW27, fringe, sequins on tweed and lace, deep colour]
 
-So the pink, embellished, bug-eyed Spring/Summer 2027 version hands over to a heavier one, fringe, fur-effect volume, sequins worked into tweed and lace, and a darker palette, with accessories still doing the work. For buyers, that means taking the decorated layer with confidence for spring deliveries, and shifting the maximalist budget from bright colour to surface for Fall/Winter 2027. One season of runway data is a signal, but it is consistent across the runway, retail, search and now the fabric fairs, and the first test comes at the January trade fairs.
+So the pink, embellished, bug-eyed Spring/Summer 2027 version hands over to a heavier one, fringe, fur-effect volume, sequins worked into tweed and lace, and a darker palette, with accessories still doing the work. For buyers, the spring deliveries are the moment to commit to embellished pieces and statement accessories, and the Fall/Winter 2027 orders are the moment to move that spend from bright colour into fringe, sequins and texture. One season of runway data is a signal, but it is consistent across the runway, retail, search and now the fabric fairs, and the first test comes at the January trade fairs.
 
 ---
 
