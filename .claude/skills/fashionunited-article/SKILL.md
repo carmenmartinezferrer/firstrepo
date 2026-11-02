@@ -87,6 +87,13 @@ notes:
    shows", never "WWD reported" or "according to Who What Wear". The
    only outlet named in the text is The Data Fashion Brief, as the
    source of the data. (Carmen, maximalism piece, October 2026.)
+   Research and data providers are different: the editor asked for the
+   name of the research in the text ("add the name of this research
+   here"), so reports, surveys, forecasters and fairs are named in the
+   body (The State of Fashion by BoF and McKinsey, Lectra, Heuritech,
+   Trendalytics, Première Vision, a WWD buyers' survey), as are
+   Google Trends and Pinterest as data sources. The rule covers other
+   outlets' articles and reviews, not the sources of numbers.
 
 7. **Look one season ahead.** The editor wants a forward-looking
    perspective, not only a read of the season just shown: how the
@@ -109,7 +116,18 @@ notes:
    economic moment, sourced the same way, as an optional extra, never
    in place of the main focus. (Maximalism piece, October 2026.)
 
-10. **Every draft ends with a sources list.** Carmen's own standing rule:
+10. **Short is sufficient.** The editor's length model is a piece of
+    about 500 to 800 words (she pointed to a Future Snoops colour
+    forecast, "After Dusk: why Spring/Summer 2028 is going dark").
+    One focus, no repetition, every section earning its place; cut
+    adjacent topics (a colour section, a quiet luxury section) rather
+    than compressing them. The maximalism piece went from about 2,000
+    words to about 950 at her request. (Editor, 30 October 2026.)
+
+11. **Every draft ends with a sources list,** and the editor checks it:
+    she asked "is this source list still accurate/complete?" when the
+    doc carried five links for a piece with twenty sources. Paste the
+    complete list into the doc with every version. Carmen's own standing rule:
    whenever a version of the article is handed over, close it with a
    bullet-point list of every source used anywhere in the piece, each
    with its link, grouped by what it backs up (runway data, search data,
