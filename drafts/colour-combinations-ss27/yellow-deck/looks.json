@@ -1,0 +1,8 @@
+[
+ {"slug": "y2a-moschino-look-29", "house": "MOSCHINO SS27", "look": "Look 29", "colours": [["Lime", "#9DD156"], ["Oxblood", "#412E31"]]},
+ {"slug": "y2b-loewe-look-40", "house": "LOEWE SS27", "look": "Look 40", "colours": [["Mint", "#B4D9A9"], ["Chocolate Suede", "#4D3223"]]},
+ {"slug": "y3a-moschino-look-12", "house": "MOSCHINO SS27", "look": "Look 12", "colours": [["Rust", "#8F2D20"], ["Lemon Yellow", "#E9D54A"], ["Raspberry", "#E33850"]]},
+ {"slug": "y3b-moschino-look-07", "house": "MOSCHINO SS27", "look": "Look 7", "colours": [["Scarlet", "#D00F2D"], ["Marigold", "#F1A438"]]},
+ {"slug": "y4a-balenciaga-look-53", "house": "BALENCIAGA SS27", "look": "Look 53", "colours": [["Plum", "#4C202F"], ["Golden Yellow", "#D0AA35"]]},
+ {"slug": "y4b-dries-van-noten-look-40", "house": "DRIES VAN NOTEN SS27", "look": "Look 40", "colours": [["Chartreuse", "#B6A003"], ["Lilac", "#C394B2"]]}
+]

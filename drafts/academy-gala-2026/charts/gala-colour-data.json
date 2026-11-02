@@ -1,0 +1,224 @@
+{
+ "palette": [
+  [
+   "black",
+   28,
+   "#181716"
+  ],
+  [
+   "white & cream",
+   15,
+   "#F1E7DF"
+  ],
+  [
+   "red",
+   15,
+   "#DD2A2B"
+  ],
+  [
+   "grey & silver",
+   10,
+   "#9E9D9D"
+  ],
+  [
+   "pink",
+   9,
+   "#F0AEB8"
+  ],
+  [
+   "purple",
+   6,
+   "#852F8A"
+  ],
+  [
+   "orange",
+   5,
+   "#F37F49"
+  ],
+  [
+   "brown",
+   3,
+   "#472D1D"
+  ],
+  [
+   "blue & teal",
+   3,
+   "#39626D"
+  ],
+  [
+   "yellow & gold",
+   2,
+   "#9F916F"
+  ],
+  [
+   "beige & nude",
+   2,
+   "#A68970"
+  ],
+  [
+   "green",
+   2,
+   "#D7D8BC"
+  ]
+ ],
+ "raw": {
+  "purple": 5.82,
+  "brown": 2.77,
+  "white & cream": 14.62,
+  "orange": 4.72,
+  "black": 28.41,
+  "red": 14.82,
+  "pink": 9.6,
+  "yellow & gold": 1.71,
+  "beige & nude": 1.63,
+  "blue & teal": 2.95,
+  "grey & silver": 10.58,
+  "green": 2.34
+ },
+ "lead_counts": {
+  "purple": 2,
+  "brown": 1,
+  "white & cream": 5,
+  "orange": 2,
+  "black": 8,
+  "red": 5,
+  "pink": 4,
+  "yellow & gold": 1,
+  "beige & nude": 0,
+  "blue & teal": 1,
+  "grey & silver": 3,
+  "green": 1
+ },
+ "looks": {
+  "look-01": {
+   "purple": 100.0
+  },
+  "look-02": {
+   "brown": 45.3,
+   "purple": 28.3,
+   "white & cream": 26.3
+  },
+  "look-03": {
+   "orange": 55.8,
+   "black": 28.0,
+   "brown": 16.1
+  },
+  "look-04": {
+   "red": 100.0
+  },
+  "look-05": {
+   "pink": 61.2,
+   "red": 38.8
+  },
+  "look-06": {
+   "red": 100.0
+  },
+  "look-07": {
+   "white & cream": 53.3,
+   "black": 46.7
+  },
+  "look-08": {
+   "yellow & gold": 49.6,
+   "white & cream": 31.4,
+   "beige & nude": 19.0
+  },
+  "look-09": {
+   "blue & teal": 80.4,
+   "black": 19.6
+  },
+  "look-10": {
+   "pink": 100.0
+  },
+  "look-11": {
+   "white & cream": 49.3,
+   "black": 42.3,
+   "grey & silver": 8.4
+  },
+  "look-12": {
+   "black": 92.5,
+   "grey & silver": 7.5
+  },
+  "look-13": {
+   "black": 78.9,
+   "grey & silver": 14.0,
+   "white & cream": 7.0
+  },
+  "look-14": {
+   "pink": 100.0
+  },
+  "look-15": {
+   "orange": 100.0
+  },
+  "look-16": {
+   "white & cream": 100.0
+  },
+  "look-17": {
+   "pink": 44.0,
+   "grey & silver": 41.8,
+   "white & cream": 14.2
+  },
+  "look-18": {
+   "black": 91.9,
+   "white & cream": 8.1
+  },
+  "look-19": {
+   "black": 100.0
+  },
+  "look-20": {
+   "red": 100.0
+  },
+  "look-21": {
+   "black": 100.0
+  },
+  "look-22": {
+   "red": 50.3,
+   "black": 49.7
+  },
+  "look-23": {
+   "black": 35.0,
+   "beige & nude": 34.9,
+   "brown": 30.1
+  },
+  "look-24": {
+   "grey & silver": 59.8,
+   "white & cream": 21.3,
+   "black": 18.9
+  },
+  "look-25": {
+   "black": 100.0
+  },
+  "look-26": {
+   "green": 77.3,
+   "white & cream": 22.7
+  },
+  "look-27": {
+   "red": 100.0
+  },
+  "look-28": {
+   "purple": 63.9,
+   "grey & silver": 24.5,
+   "pink": 11.6
+  },
+  "look-29": {
+   "white & cream": 80.1,
+   "grey & silver": 13.1,
+   "yellow & gold": 6.8
+  },
+  "look-30": {
+   "white & cream": 51.4,
+   "grey & silver": 31.6,
+   "blue & teal": 17.0
+  },
+  "look-31": {
+   "grey & silver": 48.6,
+   "black": 34.1,
+   "white & cream": 17.3
+  },
+  "look-32": {
+   "black": 100.0
+  },
+  "look-33": {
+   "grey & silver": 100.0
+  }
+ }
+}
