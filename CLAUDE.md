@@ -4,6 +4,14 @@ This file is read automatically by Claude Code at the start of every session
 in this repo. It exists so Carmen doesn't have to re-explain her voice,
 workflow and standards every time she starts a new trend piece.
 
+## Which skill, which prompt
+
+`GUIDE.md` in this repo lists every skill, the inputs each one needs and example
+prompts. When Carmen asks what to say, which skill to use or where something
+lives, answer from `GUIDE.md` and keep it up to date when a skill is added or
+moved. All skills live on the `main` branch of this repo, except the research
+dataset and the two Canva carousel skills, which live in the `dfb-data` repo.
+
 ## Who this is for
 
 Carmen Martínez Ferrer, founder of The Data Fashion Brief (DFB) on Substack
