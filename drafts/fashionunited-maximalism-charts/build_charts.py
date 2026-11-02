@@ -42,8 +42,8 @@ charts.append(bar_chart('02-pink-by-house', 'Where the pink actually lives',
 # 3. Embellished share of each house's looks. PROVISIONAL: only the three leaders and the
 #    season average are in the notes, the other 13 houses come from the Looks tab.
 emb = [('Dior', 70), ('Chloé', 69), ('Isabel Marant', 60), ('season average', 31)]
-charts.append(bar_chart('03-embellishment-by-house', 'Where the decoration lives',
-    "% of each house's looks with at least one embellishment, vs the season average",
+charts.append(bar_chart('03-embellishment-by-house', 'The three houses that went all in on decoration',
+    "% of each house's looks with at least one embellishment, the three leaders vs the Paris average",
     emb, PARIS_SRC + ', Looks tab', highlight=(len(emb) - 1,)))
 
 # 4. Paris season palette, ranked (colour index season numbers, rounded slices)
