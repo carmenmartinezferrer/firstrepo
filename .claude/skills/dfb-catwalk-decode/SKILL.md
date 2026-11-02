@@ -22,7 +22,7 @@ Before starting, read:
    - **Material:** give each look its dominant fabric. Sums to 100%. Mention secondary fabrics in the notes.
    - **Trends and details** (fur cuffs, slits, minis, bows): share of looks showing it. These can overlap, so they don't need to sum to 100.
    - **Rounding:** use whole numbers that add up to 100. Round everything down, then hand out the missing points one at a time to the categories with the biggest leftover decimals. **Equal counts get equal %**: categories with the same number of looks move up or down together. If that makes the total 101 or 99, keep it and say so, rather than giving equal counts different %.
-4. **Rebuild categories per show.** Don't force a generic list. If a show runs on one formula (Saint Laurent pencil skirts), split the categories finely enough to show the variations. Name categories the way the house speaks: "velvet jacket + bow + pencil skirt", not "two-piece".
+4. **Rebuild categories per show.** Don't force a generic list. Never use bare piece-counts like "top + skirt", "dress" or "jacket + trouser" (Carmen's rule: too basic). Name the type and the detail that makes it this show's: "crop top + pleated skirt", "blazer + track pants", "crinkled dress / bubble mini", "leather on leather". If a show runs on one formula (Saint Laurent pencil skirts), split the categories finely enough to show the variations. Name categories the way the house speaks: "velvet jacket + bow + pencil skirt", not "two-piece".
 5. **Caption every time**, in the format and voice in `references/house-style.md`.
 
 ## Workflow per brand
@@ -69,8 +69,10 @@ Fill the Catwalk analysis template, following `references/canva-template.md`:
 - **Brand, city and season come from the pasted screenshots** (the Vogue Runway header, e.g. "Saint Laurent Spring 2027 Ready-to-Wear" → Saint Laurent, Paris, SS27). If they aren't visible, ask. Replace them in the **title** (cover), the **mini title** on pages 2–4 (`<Brand> • <City> FW <Season>`), the column header and the design name. No trace of the previous brand may remain.
 - Page 1: cover, "Decoding <Brand>" / "<City> Fashion Week <Season>".
 - Page 2: the colour palette donut, drawn natively in Canva (`dfb_charts.py canva-donut`), with labels in Canva's font, all inside the wedges. Wedges too thin for their number stay unlabelled.
-- Pages 3–4: **fabrics and silhouettes only, no trends.** Put the silhouette and material breakdowns together, rank them by share, and fill the **top 4 on page 3** and the **next 4 on page 4**, each with a pink bar sized to its %. Don't pick or rename rows by hand; `scripts/dfb_charts.py canva decode.json` prints them. If a material and a silhouette are basically the same thing (Knit / Knit sweater), only the bigger one goes in Canva and the next row moves up.
-- The trends list and "The codes are: …" stay in the written decode. They don't go in Canva.
+- Pages 3–4: **fabrics and silhouettes together, no trends** (Carmen's default; don't switch to silhouettes-only unless she asks for that show). Put the silhouette and material breakdowns together, rank them by share, and fill the **top 4 on page 3** and the **next 4 on page 4**, each with a pink bar sized to its %. Don't pick or rename rows by hand; `scripts/dfb_charts.py canva decode.json` prints them. If a material and a silhouette are basically the same thing (Knit / Knit sweater), only the bigger one goes in Canva and the next row moves up.
+- Page 5: **Trends**. The 6 strongest trends from step 4, each with its % (big pink number) and a one-line reading.
+- Page 6: **The codes are**. The three codes, numbered 01/02/03, with "<N> looks decoded" as the footnote.
+- Every decode gets all 6 pages (Carmen's rule: the trends decode always goes in Canva too).
 
 Always work on a **copy** of the template (ID `DAHWx3H429E`), never the master. The skill duplicates it by itself, so Carmen doesn't need to paste the template again. Show Carmen the preview thumbnails and get her OK before committing the edits.
 

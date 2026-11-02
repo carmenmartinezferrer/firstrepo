@@ -1,0 +1,209 @@
+{
+  "brand": "Miu Miu",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "commercial RTW (co-ed)",
+  "looks": 75,
+  "palette": [
+    {
+      "label": "Brown",
+      "pct": 12,
+      "hex": "#5A3A26"
+    },
+    {
+      "label": "Navy",
+      "pct": 12,
+      "hex": "#1F2A4D"
+    },
+    {
+      "label": "Beige/tan/cream",
+      "pct": 12,
+      "hex": "#CDB48C"
+    },
+    {
+      "label": "Red/burgundy",
+      "pct": 10,
+      "hex": "#B3262E"
+    },
+    {
+      "label": "Green/lime/teal",
+      "pct": 8,
+      "hex": "#5FB35A"
+    },
+    {
+      "label": "Yellow/gold",
+      "pct": 8,
+      "hex": "#E8C33A"
+    },
+    {
+      "label": "Black",
+      "pct": 7,
+      "hex": "#111111"
+    },
+    {
+      "label": "Orange",
+      "pct": 7,
+      "hex": "#F07A1A"
+    },
+    {
+      "label": "Print",
+      "pct": 7,
+      "hex": "#B5602E"
+    },
+    {
+      "label": "Pink",
+      "pct": 5,
+      "hex": "#E58AA8"
+    },
+    {
+      "label": "Purple",
+      "pct": 4,
+      "hex": "#5B3A9A"
+    },
+    {
+      "label": "Grey/silver",
+      "pct": 4,
+      "hex": "#A7AAB0"
+    },
+    {
+      "label": "Blue",
+      "pct": 4,
+      "hex": "#2F4FC9"
+    }
+  ],
+  "silhouette": [
+    {
+      "label": "Leather on leather",
+      "pct": 12,
+      "keep": true
+    },
+    {
+      "label": "Crop top + pleated skirt",
+      "pct": 9
+    },
+    {
+      "label": "Crinkled dress / bubble mini",
+      "pct": 9
+    },
+    {
+      "label": "Panel tank or halter dress",
+      "pct": 9
+    },
+    {
+      "label": "Sweater + trouser or jeans",
+      "pct": 9
+    },
+    {
+      "label": "Sporty shorts set",
+      "pct": 8
+    },
+    {
+      "label": "Blazer + track pants",
+      "pct": 7
+    },
+    {
+      "label": "Blazer + tiny shorts",
+      "pct": 7
+    },
+    {
+      "label": "Track jacket + shorts",
+      "pct": 5
+    },
+    {
+      "label": "Jacket + jeans or trouser",
+      "pct": 5
+    },
+    {
+      "label": "Check blazer + plaid skirt",
+      "pct": 4,
+      "keep": true
+    },
+    {
+      "label": "Leather jacket + skirt",
+      "pct": 3,
+      "keep": true
+    },
+    {
+      "label": "Slip dress over sweater",
+      "pct": 3
+    },
+    {
+      "label": "Bow top + metallic skirt",
+      "pct": 3
+    },
+    {
+      "label": "Sweater + mini",
+      "pct": 3
+    },
+    {
+      "label": "Other skirt looks",
+      "pct": 3
+    },
+    {
+      "label": "Dress + track jacket",
+      "pct": 1
+    }
+  ],
+  "material": [
+    {
+      "label": "Leather",
+      "pct": 23
+    },
+    {
+      "label": "Check & plaid wool",
+      "pct": 17
+    },
+    {
+      "label": "Sporty jersey",
+      "pct": 17
+    },
+    {
+      "label": "Silk prints",
+      "pct": 11
+    },
+    {
+      "label": "Tailoring",
+      "pct": 10
+    },
+    {
+      "label": "Crinkled nylon",
+      "pct": 10
+    },
+    {
+      "label": "Denim",
+      "pct": 5
+    },
+    {
+      "label": "Knit & crochet",
+      "pct": 5
+    },
+    {
+      "label": "Satin & metallic",
+      "pct": 3
+    }
+  ],
+  "other": [
+    {
+      "label": "Leather looks",
+      "pct": 23
+    },
+    {
+      "label": "Bare midriff (crop/bra/bow tops)",
+      "pct": 21
+    },
+    {
+      "label": "Shorts",
+      "pct": 20
+    },
+    {
+      "label": "Track jacket or track pants",
+      "pct": 17
+    }
+  ],
+  "codes": [
+    "the tiny short as the signature",
+    "leather as the uniform",
+    "the track jacket as the twist"
+  ]
+}

@@ -38,6 +38,7 @@ Rules:
 - Every % must come from the decode. Never round up for drama.
 - Handles: use the house's and the designer's official Instagram handles. If unsure, write `@[handle?]`.
 - No hashtag block at the end unless Carmen asks for one. The reference caption has none.
+- Keep the Dior-style flow: short conversational paragraphs, no emoji bullet lists, no "X looks, counted" headline. Carmen prefers this format (confirmed after Chanel SS27).
 
 ## Donut spec (one collection) — LOCKED
 

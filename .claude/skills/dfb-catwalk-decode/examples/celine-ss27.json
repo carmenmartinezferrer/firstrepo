@@ -1,0 +1,135 @@
+{
+  "brand": "Celine",
+  "season": "SS27",
+  "fashion_week": "Paris Fashion Week",
+  "fashion_week_short": "Paris FW",
+  "show_type": "house-formula lock (co-ed)",
+  "looks": 71,
+  "palette": [
+    {
+      "label": "Black",
+      "pct": 38,
+      "hex": "#111111"
+    },
+    {
+      "label": "White",
+      "pct": 21,
+      "hex": "#F7F6F2"
+    },
+    {
+      "label": "Camel/brown",
+      "pct": 11,
+      "hex": "#B98A5A"
+    },
+    {
+      "label": "Navy/blue",
+      "pct": 7,
+      "hex": "#1F2A4D"
+    },
+    {
+      "label": "Beige/cream",
+      "pct": 6,
+      "hex": "#D9C9A8"
+    },
+    {
+      "label": "Print",
+      "pct": 6,
+      "hex": "#C85A86"
+    },
+    {
+      "label": "Gold/yellow",
+      "pct": 4,
+      "hex": "#D9A520"
+    },
+    {
+      "label": "Grey",
+      "pct": 3,
+      "hex": "#A7AAB0"
+    },
+    {
+      "label": "Red/pink",
+      "pct": 3,
+      "hex": "#D8263C"
+    },
+    {
+      "label": "Olive",
+      "pct": 1,
+      "hex": "#6E7032"
+    }
+  ],
+  "silhouette": [
+    {
+      "label": "Jacket + trouser",
+      "pct": 35
+    },
+    {
+      "label": "Dress",
+      "pct": 23
+    },
+    {
+      "label": "Top + trouser",
+      "pct": 18
+    },
+    {
+      "label": "Coat",
+      "pct": 17
+    },
+    {
+      "label": "Top + skirt",
+      "pct": 6
+    },
+    {
+      "label": "Top + shorts",
+      "pct": 1
+    }
+  ],
+  "material": [
+    {
+      "label": "Tailoring",
+      "pct": 35
+    },
+    {
+      "label": "Satin & velvet",
+      "pct": 20
+    },
+    {
+      "label": "Cotton & gabardine",
+      "pct": 17
+    },
+    {
+      "label": "Leather & suede",
+      "pct": 8
+    },
+    {
+      "label": "Prints & brocade",
+      "pct": 8
+    },
+    {
+      "label": "Knit",
+      "pct": 6
+    },
+    {
+      "label": "Embellished",
+      "pct": 3
+    },
+    {
+      "label": "Technical",
+      "pct": 3
+    }
+  ],
+  "other": [
+    {
+      "label": "Wide trousers (jacket or top + trouser)",
+      "pct": 54
+    },
+    {
+      "label": "Black + white (monochrome)",
+      "pct": 59
+    }
+  ],
+  "codes": [
+    "black as the uniform",
+    "the blazer over a wide trouser as the formula",
+    "satin for night"
+  ]
+}

@@ -49,6 +49,72 @@ Update this file after every decode: brand line, trackers, pending list.
 - **The codes are:** the bare midriff, volume at the waist, draped jersey for night.
 - Decode in `examples/stella-mccartney-ss27.json`.
 
+#### Chloé SS27 (Chemena Kamali, "Obsession"): commercial RTW, 54 looks
+- **Palette:** white 37, black 24, cream/beige/khaki 13, pink/lilac 9, yellow 5, rust/brown 4, red 2, chartreuse 2, orange 2, grey 2.
+- **Silhouette:** trench/raincoat/cape 28, top + full skirt 18, suit or top + trouser 17, top/jacket + short or mini 15, maxi dress 9, mini dress 7, catsuit 4, bodysuit 2.
+- **Material:** chiffon/tulle/organza 16, tailoring 15, PVC & patent 13, fringe & macramé 11, 3D ruffles & flowers 11, broderie anglaise 11, cotton gabardine 11, leather 4, knit 4, lace 4.
+- **Other:** bare midriff 26%, statement hat 19%, fringe opening (looks 1–8) 11%, bubble-skirt finale (looks 51–54) 7%.
+- **The codes are:** the rain cape as the statement, broderie as the house signature, the bubble skirt as the final word.
+- First pass counted 45 looks (missed the fringe opening screen); recounted from all 6 screenshots.
+- Decode in `examples/chloe-ss27.json`.
+
+#### Isabel Marant SS27: commercial RTW, 50 looks
+- **Palette:** white/cream 34, black 26, pink/blush 16, sage/khaki 10, paisley print 6, yellow/mustard 4, rust 2, beige/gold 2.
+- **Silhouette:** top + shorts 26, top + trouser 18, jacket + trouser 14, top + midi or maxi skirt 14, mini dress 12, jacket + short or mini 10, midi/maxi dress 4, jumpsuit 2.
+- **Material:** crochet & macramé 20, prints (paisley & tie-dye) 16, broderie anglaise 14, lace 14, silk/satin/voile 14, utility cotton twill 10, leather 6, embellished 4, knit 2.
+- **Other:** open-work (crochet + broderie + lace) 48%, shorts 34%, pink/paisley/tie-dye 22%.
+- **The codes are:** the short as the base, open-work as the signature, black as the night shift.
+- Decode in `examples/isabel-marant-ss27.json`.
+
+#### Loewe SS27 (McCollough & Hernandez, 3rd show): commercial RTW, co-ed, 66 looks
+- **Palette:** black 17, mint/green 17, beige/khaki 12, yellow 11, brown 8, ochre/mustard 8, white/cream 6, floral print 6, red/orange 6, blue 6, olive 4 (sums to 101: equal counts kept equal).
+- **Silhouette:** jacket + trouser 24, coat 14, jacket + short or mini 12, mini dress 12, top + trouser 11, slip dress 9, top + skirt 8, top + shorts 6, maxi dress 4.
+- **Material:** knit 18, cotton shirting & gabardine 17, tailoring 15, leather & suede 14, technical nylon 14, sheer slips & glass-bead stripes 12, floral prints 6, fluffy bouclé 4.
+- **Other:** brights (yellow, mint/green, red/orange, blue) 39%, wide trousers 35%, fringed hems 12%.
+- **The codes are:** the jacket over a wide trouser as the uniform, mint and yellow as the signal, the fringed slip as the night.
+- Decode in `examples/loewe-ss27.json`.
+
+#### Celine SS27 (Michael Rider): house-formula lock, co-ed, 71 looks
+- **Palette:** black 38, white 21, camel/brown 11, navy/blue 7, beige/cream 6, print 6, gold/yellow 4, grey 3, red/pink 3, olive 1.
+- **Silhouette:** jacket + trouser 35, dress 23, top + trouser 18, coat 17, top + skirt 6, top + shorts 1.
+- **Material:** tailoring 35, satin & velvet 20, cotton & gabardine 17, leather & suede 8, prints & brocade 8, knit 6, embellished 3, technical 3.
+- **Other:** wide trousers 54%, black + white 59%.
+- **The codes are:** black as the uniform, the blazer over a wide trouser as the formula, satin for night.
+- Decode in `examples/celine-ss27.json`.
+
+#### Miu Miu SS27: commercial RTW, co-ed, 75 looks
+- **Palette:** brown 12, navy 12, beige/tan/cream 12, red/burgundy 10, green/lime/teal 8, yellow/gold 8, black 7, orange 7, print 7, pink 5, purple 4, grey/silver 4, blue 4.
+- **Silhouette:** leather on leather 12, crop top + pleated skirt 9, crinkled dress / bubble mini 9, panel tank or halter dress 9, sweater + trouser or jeans 9, sporty shorts set 8, blazer + track pants 7, blazer + tiny shorts 7, track jacket + shorts 5, jacket + jeans or trouser 5, check blazer + plaid skirt 4, leather jacket + skirt 3, slip dress over sweater 3, bow top + metallic skirt 3, sweater + mini 3, other skirt looks 3, dress + track jacket 1. Canva: pages 3–4 = top 8 silhouette formulas (Carmen's choice); fabrics only in the decode and on the Trends page.
+- **Material:** leather 23, check & plaid wool 17, sporty jersey 17, silk prints 11, tailoring 10, crinkled nylon 10, denim 5, knit & crochet 5, satin & metallic 3 (sums to 101).
+- **Other:** leather 23%, bare midriff 21%, shorts 20%, track jacket/pants 17%.
+- **The codes are:** the tiny short as the signature, leather as the uniform, the track jacket as the twist.
+- Decode in `examples/miu-miu-ss27.json`.
+
+#### Valentino SS27 (Alessandro Michele, "Antibiblioteca", Bibliothèque Sainte-Geneviève): commercial RTW, co-ed, 80 looks
+- **Palette:** black 12, pink/fuchsia 12, cream/beige/nude 12, print 10, emerald green 8, aqua/mint 8, purple/lilac 8, grey/silver 8, red/coral 6, yellow/chartreuse 6, brown/camel 5, cobalt blue 5.
+- **Silhouette:** blazer + pleated wide trouser 14, feather-hem skirt + top 8, column gown + train 8, trench or long coat 6, print or sequin top + trouser 6, bustier + bubble bloomers 5, bustier + column maxi skirt 5, bow or halter top + slim skirt 5, ruffled cocktail dress 5, printed draped dress 5, shirt + pleated wide trouser 5, satin shirt + soft trouser 5, satin bustier + plissé skirt 4, lace bustier + lace skirt 4, fringed skirt + top 4, feather jacket + slip skirt 4, tailored jacket + shorts 4, jacket + mermaid/pencil skirt 2, check wrap dress 2 (sums to 101: equal counts kept equal). Canva: pages 3–4 = fabrics + silhouettes ranked together (Carmen's default; Miu Miu was a one-off).
+- **Material:** satin 18, tailoring 16, feathers/fringe/sequins 13, plissé & chiffon 11, cotton shirting & gabardine 11, lace 9, knit & tweed 7, taffeta & velvet 6, silk prints 5, leather 4.
+- **Other:** wide/pleated trouser 36%, menswear 33%, bustier/strapless top 30%, feather trims 15%, gowns 8%, midi skirt 25% (20/80; 37% of the 54 women's looks), cummerbund/wide waist sash 16% (13), mini top + midi skirt 16% (13); black concentrated in the finale block (looks 64–72).
+- **The codes are:** the bustier as the top, the pleated wide trouser as the men's rule, feathers on the hem.
+- Decode in `examples/valentino-ss27.json`. Canva `DAHXFKQ_hEk`.
+
+#### Mugler SS27 (Miguel Castro Freitas): commercial RTW, 43 looks
+- **Palette:** black 39, animal print 12, lilac/purple 9, brown/bronze 7, green/olive/chartreuse 7, multicolour feather print 5, silver/grey 5, burgundy 5, mint/aqua 5, cream/nude 2, orange 2, pink 2.
+- **Silhouette:** shelf-shoulder jacket + flare 19, fringe or feather dress 9, leather pencil skirt + top 9, mermaid or column gown 9, print or jersey column dress 9, bodysuit + volume skirt/train 9, cut-out jacket + trouser/skirt 7, sculpted jacket + hot pants 7, fringe maxi skirt + top 7, satin shirt-jacket + flare 5, bandeau + leather/python pant 5, sheer or feather top + trouser 5.
+- **Material:** duchesse satin 26, fringe/feathers/fur 23, tailoring 19, leather/croc/python 16, animal-print silk & stretch 7, jersey & drape 7, sheer embroidered tulle 2.
+- **Other:** shelf/sculpted-shoulder jacket 33%, fringe or feathers anywhere 30%, animal skins & prints 19%, cut-outs/under-bust 9%.
+- **The codes are:** the shelf shoulder as the frame, fringe as the movement, black as the base.
+- Decode in `examples/mugler-ss27.json`. Canva `DAHXJOKZlhw`.
+
+#### Chanel SS27 (Matthieu Blazy): house-formula lock, 83 looks
+- **Palette:** black 22, white/cream 17, grey 14, brown/beige/rust 12, red/burgundy 11, print 6, pink 4, yellow 4, pale blue/mint 4, green 4, navy 2, orange 1 (sums to 101: equal counts kept equal).
+- **Silhouette:** contrast jacket + pencil skirt 24, matching tweed skirt suit 16, sheer top + pencil skirt 12, tweed sheath dress 12, jacket or vest + trouser 10, cropped jacket + short 8, sequin or sheer column dress 6, coat or trench 6, gown or tulle ballerina skirt 6.
+- **Material:** tweed & bouclé 47, sheer mesh/knit/lace 13, tailoring 13, satin & silk 10, sequins 5, prints & patchwork 5, leather 4, tulle 4 (sums to 101).
+- **Other:** knee-to-midi pencil skirt 52% (43/83), sheer layer 14%, jacket + trouser 10%, bare midriff under an open jacket 6%.
+- **The codes are:** tweed as the constant, the pencil skirt as the line, sheer as the twist.
+- Order of the first three screenshots couldn't be checked against cut-off rows; count may be off by a row if one was skipped.
+- Decode in `examples/chanel-ss27.json`. Canva `DAHXLFSd8cs`.
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -62,12 +128,12 @@ Update this file after every decode: brand line, trackers, pending list.
 ## Trackers
 
 ### Midi share (% of looks)
-Prada 82 · Gucci 28 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · Burberry 14 · Dior 14 (Set A) · McQueen 10 · MM6 7 · Cavalli 4 · Missoni 3
+Prada 82 · Gucci 28 · Valentino 25 · Jil Sander 18 · Fendi 16 · Moschino 15 · Marni 14 · Burberry 14 · Dior 14 (Set A) · McQueen 10 · MM6 7 · Cavalli 4 · Missoni 3
 
-- Open question: Saint Laurent is a knee-length pencil skirt (~60%), not a midi. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
+- Open question: Saint Laurent (~60%) and Chanel (52%) are knee-to-midi pencil skirts, not true midis. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
-Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black)
+Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black) · Mugler 39 (black)
 
 ## Pending
 - **Balmain:** needs screenshots. The Canva template shows Balmain numbers, but the handover lists Balmain as pending. Ask Carmen whether those numbers are real before using them anywhere.
