@@ -26,7 +26,7 @@ The customer has changed what luxury is for. The State of Fashion: Face to Face 
 
 **Accessories carry the loudest part**
 
-Buyers surveyed by WWD after the spring shows named belts the season's key statement piece, big at Celine and triple at Gucci, second only to chunky jewellery and maxi sunglasses. Celine reworked its oversized oval sunglasses as rimless versions and showed highlighter yellow and bug-eyed styles with enormous belts, Miu Miu sent out bug-eye frames crossed with a cat-eye shape in a parade of colours, and Balmain put sunglasses on many of its models.
+Buyers surveyed by WWD after the spring shows named belts the season's key statement piece, big at Celine and triple at Gucci, second only to chunky jewellery and maxi sunglasses. Celine showed its signature oversized oval sunglasses without rims this season, alongside bright yellow lenses and very large bug-eye frames, all worn with wide belts, Miu Miu sent out bug-eye frames crossed with a cat-eye shape in a parade of colours, and Balmain put sunglasses on many of its models.
 
 [Collage 3: Celine, Miu Miu and Balmain SS27, sunglasses and belts]
 
