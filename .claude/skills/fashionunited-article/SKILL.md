@@ -122,7 +122,7 @@ notes:
     One focus, no repetition, every section earning its place; cut
     adjacent topics (a colour section, a quiet luxury section) rather
     than compressing them. The maximalism piece went from about 2,000
-    words to about 950 at her request. (Editor, 30 October 2026.)
+    words to about 1,200 at her request. (Editor, 30 October 2026.)
 
 11. **Every draft ends with a sources list,** and the editor checks it:
     she asked "is this source list still accurate/complete?" when the
