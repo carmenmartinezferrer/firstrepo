@@ -53,3 +53,7 @@ Edit `prompts/dfb_reels_formula.md`. The generator reads it on every run.
 ## Catwalk decode skill
 
 `.claude/skills/dfb-catwalk-decode/` turns Vogue Runway screenshots into a DFB catwalk decode: look count, palette / silhouette / material shares, trends and "The codes are: …", donut and bar charts (`scripts/dfb_charts.py`), and a filled copy of the Canva "Catwalk analysis" template. The season log with trackers and pending brands lives in `references/season-log.md`.
+
+## Weekly shifts skill
+
+`.claude/skills/dfb-weekly-shifts/` builds the Sunday pack: five fashion shifts from the week's newsletters (BoF, Vogue Business, WWD, Retail Dive, Puck, Modem Online, Modaes, All Things Fashion Tech) plus your own recent Substack posts, written three ways (Substack section, "I'm a fashion data analyst, these are the 5 shifts I'm seeing" carousel, and a Reel script). It saves one Google Doc to Drive › DFB / Weekly Briefings, and a scheduled task runs it every Sunday morning.
