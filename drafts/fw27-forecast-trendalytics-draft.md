@@ -170,7 +170,27 @@ NOTES FOR CARMEN (delete before publishing)
    confirm the Paris pieces are published or compare the PDF to the
    public blog summary.
 
-8. Draft 2 is the shortened version, matrix section removed on
+8. Visual package (Carmen: "give me the charts, take the pictures from
+   there, the colours"): five bar charts, three palette cards (hex
+   sampled from the PDF's own swatches at 150dpi, names and data points
+   as printed), three runway strips (houses as named by Trendalytics),
+   and every runway, fabric and key item image pulled out of the PDF
+   into fw27-forecast-charts/images/. HTML build at
+   drafts/fw27-forecast-build.html (build_html.py regenerates it from
+   this draft, so text fixes flow through).
+
+9. IMAGE RIGHTS, please read. The images are Trendalytics' own
+   reproductions. The report credits them to Instagram accounts
+   (@kathiannabeell), Eco Age, Pinterest, Maia Homes, Reuters, Getty
+   (Dimitrios Kambouris, the Chappell Roan shot), Jingwen Jia & Xinyue
+   Guo, FP Movement, and unnamed runway photographers. None of them are
+   cleared for DFB to republish, the Getty and Reuters ones in particular
+   are not. Treat the runway strips and key item grids as layout
+   placeholders until you swap in images you have rights to (Launchmetrics
+   or brand press images, same as the FashionUnited piece), or decide to
+   run the piece on charts and palette cards only.
+
+10. Draft 2 is the shortened version, matrix section removed on
    Carmen's request. Charts: five built as a first pass (01 search volume, 02 search
    growth, 03 market adoption, 04 metric mix, 05 Paris cross-check), in
    the Paris SS27 style. They'll be rebuilt once the text is corrected,
