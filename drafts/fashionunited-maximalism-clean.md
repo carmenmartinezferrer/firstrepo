@@ -1,4 +1,4 @@
-# FashionUnited: maximalism (version 18, ending with the economic and geopolitical read, no new sources)
+# FashionUnited: maximalism (version 19, short ending)
 
 **Maximalism got bigger, and the data says it carries into Fall/Winter 2027**
 
@@ -38,15 +38,13 @@ Buyers surveyed by WWD after the spring shows named the belt the season's key st
 
 **What carries into Fall/Winter 2027**
 
-Decoration carries, bright colour does not. Première Vision Paris, the fabric fair for Autumn/Winter 2027/28 held in September, built the season on texture and visible craft, with metallic-thread tweeds, sequin-embroidered laces and a palette of deep purples, bordeaux and mineral neutrals, an appetite for depth of colour rather than brightness. The forecasters agree: Heuritech has fringe detailing up 17 percent year on year and expects large sequins to grow 23 percent in adoption over two years, and Trendalytics builds its Fall/Winter 2027 forecast on clashing prints, fringe and tactile textures. So the pink, embellished, bug-eyed Spring/Summer 2027 version hands over to a heavier one, fringe, fur-effect volume, sequins worked into tweed and lace, and a darker palette, with accessories still doing the work.
+Decoration carries, bright colour does not. Première Vision Paris, the fabric fair for Autumn/Winter 2027/28, built the season on texture and visible craft, metallic-thread tweeds, sequin-embroidered laces and a palette of deep purples, bordeaux and mineral neutrals, and the forecasters agree: Heuritech has fringe up 17 percent year on year and expects large sequins to grow 23 percent in adoption over two years. So the pink, embellished, bug-eyed Spring/Summer 2027 version hands over to a heavier one, fringe, sequins worked into tweed and lace, and a darker palette, with accessories still doing the work.
 
-**A trend that reflects the times**
-
-What the runway shows now reaches the high street over the following seasons, and the mood behind it is not only aesthetic. Maximalism tends to return when the world feels unstable, as dressing up becomes a small act of defiance against uncertainty, and this cycle fits the pattern: the analysts who tracked the rise in sequins and fringe read it as a demand for escapism, Trendalytics frames the Fall/Winter 2027 version as a reaction against corporate minimalism and AI-generated imagery, and the luxury clients surveyed by The Business of Fashion and McKinsey say they now buy to express themselves rather than to signal status. In an economic and geopolitical climate that offers little certainty, a piece that shows its colour, its craft and its character is the one worth the money, and that is what the data says shoppers are reaching for.
+The mood behind it is not only aesthetic. Maximalism tends to return when the world feels unstable, and this cycle fits: the analysts who tracked the rise in sequins and fringe read it as a demand for escapism, and the luxury clients surveyed by The Business of Fashion and McKinsey now buy to express themselves rather than to signal status. In uncertain economic and geopolitical times, a piece that shows its colour and its craft is the one worth the money.
 
 **The takeaway for Fall/Winter 2027**
 
-This is not a trend for every brand or every customer. The Paris houses split into a bold camp led by Dries Van Noten and Balmain, a basic camp led by Lanvin and Celine, and a majority that put decoration on an otherwise plain base, and that middle route is the realistic one for most brands and retailers: a plain core with a decorated layer and statement accessories on top. The pieces to expect most from are the ones the fairs, the forecasters and the search data agree on: fringe, large sequins worked into tweed, knit and lace, the oversized belt and chunky gold jewellery that carried the eighties revival this year, and the oversized or bug-eye sunglasses, all in bordeaux, purple and deep neutrals rather than this summer's brights. One season of runway data is a signal, but it is consistent across the runway, retail, search and the fabric fairs, and the first test comes at the January trade fairs.
+This is not a trend for every brand. The Paris houses split into a bold camp led by Dries Van Noten and Balmain, a basic camp led by Lanvin and Celine, and a majority that put decoration on a plain base, and that middle route is the realistic one for most: a plain core with a decorated layer and statement accessories on top. The pieces to back are the ones the fairs, the forecasters and the search data agree on: fringe, sequins on tweed, knit and lace, oversized belts, chunky gold jewellery and bug-eye sunglasses, in bordeaux, purple and deep neutrals rather than this summer's brights. The first test comes at the January trade fairs.
 
 ---
 
