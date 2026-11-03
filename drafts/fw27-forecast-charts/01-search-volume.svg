@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1257 740" width="1257" height="740">
 <rect width="1257" height="740" fill="#FFFFFF"/>
 <text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">the biggest search number is marigold</text>
-<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">search volume as reported by Trendalytics, in thousands of searches</text>
+<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">search volume as printed in the report, in thousands of searches</text>
 <rect x="146.7" y="245.0" width="138.6" height="290.0" fill="#D6447A"/>
 <text x="216.0" y="231.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">126k</text>
 <text x="216.0" y="579" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">marigold</text>

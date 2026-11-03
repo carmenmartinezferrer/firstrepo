@@ -70,7 +70,7 @@ charts = []
 vol = [('marigold', 126, VP), ('lilac', 103, SR), ('fuchsia', 84, SR), ('lace', 78, HC),
        ('forest green', 57, HC), ('dark red', 35, HC)]
 charts.append(bar_chart('01-search-volume', 'the biggest search number is marigold',
-    'search volume as reported by Trendalytics, in thousands of searches',
+    'search volume as printed in the report, in thousands of searches',
     [(l, v) for l, v, _ in vol], SRC + ', search volume', fmt=lambda v: f'{round(v)}k',
     highlight=0, sub=[a for _, _, a in vol]))
 
@@ -80,7 +80,7 @@ gro = [('fringe skirts', 71, SR), ('paisley scarves', 64, HC), ('jacquard jacket
        ('moss green', 23, VP), ('wedges', 23, SR), ('acid wash denim', 21, VP),
        ('cobalt blue', 14, SR), ('terracotta', 7, VP)]
 charts.append(bar_chart('02-search-growth', 'fringe skirts are the top search mover',
-    '% change in searches vs last year, as reported by Trendalytics',
+    '% change in searches vs last year, as printed in the report',
     [(l, v) for l, v, _ in gro], SRC + ', searches vs last year', fmt=lambda v: f'+{round(v)}%',
     highlight=0, sub=[a for _, _, a in gro]))
 
@@ -89,7 +89,7 @@ ado = [('artistic florals', 178, HC), ('slim suits', 133, HC), ('graphic prints'
        ('camouflage', 43, VP), ('nylon', 38, VP), ('feather trim', 36, SR), ('nylon bags', 28, VP),
        ('landscape graphics', 26, VP), ('embellished jeans', 23, SR), ('plaid', 21, HC)]
 charts.append(bar_chart('03-market-adoption', 'florals and slim suits are the real jumps',
-    "% change vs last year in Trendalytics' market adoption measure",
+    "% change vs last year in the report's market adoption measure",
     [(l, v) for l, v, _ in ado], SRC + ', market adoption vs last year', fmt=lambda v: f'+{round(v)}%',
     highlight=0, sub=[a for _, _, a in ado]))
 

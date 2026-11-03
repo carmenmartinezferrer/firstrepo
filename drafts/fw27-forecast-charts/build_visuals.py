@@ -48,13 +48,13 @@ manifest = []
 for key, (name, cols) in PALETTES.items():
     sw = ''.join(f'<div class="sw"><div class="sq" style="background:{hx}"></div><div class="nm">{html.escape(n)}</div>'
                  f'<div class="hx">{hx}</div><div class="dp">{html.escape(dp)}</div></div>' for n, hx, dp in cols)
-    body = (f'<h1>{name.lower()}, the palette</h1><p class="sub">the four colours Trendalytics names for this aesthetic, hex sampled from the report\'s own swatches, with the one data point it gives each</p>'
+    body = (f'<h1>{name.lower()}, the palette</h1><p class="sub">the four colours the forecast names for this aesthetic, hex sampled from its own swatches, with the one data point it gives each</p>'
             f'<div class="row">{sw}</div><div class="src">Source: Trendalytics, Womenswear Forecast Fall/Winter 2027 (October 2026). Colour names and data points as printed.</div>')
     fn = f'06-palette-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 for key, (name, looks) in STRIPS.items():
     lk = ''.join(f'<div class="look"><img src="images/{f}"><div class="chip">{html.escape(h)}</div></div>' for f, h in looks)
-    body = (f'<h1>{name.lower()}, on the SS27 runway</h1><p class="sub">the three shows Trendalytics names as early indicators for this aesthetic</p>'
+    body = (f'<h1>{name.lower()}, on the SS27 runway</h1><p class="sub">the three shows the forecast names as early indicators for this aesthetic</p>'
             f'<div class="row">{lk}</div><div class="src">Images: runway photographs as reproduced in the Trendalytics FW27 forecast. Houses as named by Trendalytics.</div>')
     fn = f'07-runway-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
