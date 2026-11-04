@@ -127,6 +127,15 @@ Update this file after every decode: brand line, trackers, pending list.
 
 ## Archive decodes (not SS27)
 
+#### Coperni SS26 (Paris, 6 Oct 2025): commercial RTW, 40 looks
+- **Palette:** black 33, white/cream 30, blue/denim 10, lime print 7, grey 5, brown 5, red/burgundy 5, floral print 5.
+- **Silhouette:** bomber + slit skirt/trouser 13, top or blazer + legging 13, crossover halter + skirt 10, strapless or cape gown 10, plissé dress/shirt/suit 10, ruched dress or skirt set 10, top + wide trouser 7, slit denim jeans or skirt 7, shirt or blazer + short 7, tank/bodysuit + bubble skirt 7, plaid top + slit trouser 5 (sums to 99: equal counts kept equal).
+- **Material:** jersey & crepe 20, pleated & plissé 15, printed silk-look fabric 15, poplin & shirting 10, parachute nylon 7, tailoring 7, leather 7, denim 7, check & plaid 7, lace & eyelet 3 (sums to 98).
+- **Other:** halter or crossover neckline 30%, slit hems 28%, pleats or plissé anywhere 20%, layer knotted at the waist 18%, bomber 15%, bubble hem 15%, neutrals (black, white, grey, brown) 73%.
+- **The codes are:** the halter as the neckline, the slit as the exit, a knotted layer at the waist.
+- Press framing (brand's own, not from our count): "carewear" and a C+ sub-line with HeiQ. Fibres can't be seen in runway photos, so the material labels are visual.
+- Decode in `examples/coperni-ss26.json`, look log in `exports/ss26/coperni-ss26-decode.md`. Canva copy `DAHZ-VhOsGA` (draft, not committed until Carmen approves).
+
 #### Prada SS21 (Milan, 24 Sep 2020): debut reset, 40 looks. Miuccia Prada + Raf Simons, first co-signed show.
 - **Palette:** white 35, black 25, butter yellow 8, blush pink 8, grey 5, geometric logo print 5, polka dot & abstract print 5, beige 2, purple 2, mint jacquard 2, navy moire 2 (sums to 99: equal counts kept equal).
 - **Silhouette:** nylon wrap + slim trouser 18, printed hoodie + pleated midi 15, wrap worn as a dress 10, cocoon coat 10, top + slim trouser 10, long coat/trench 7, jacket + nylon belt-bag wrap 7, cut-out top + midi skirt 7, tunic dress + trouser 5, satin shift dress 5, sweater + full pleated midi 5 (sums to 99).
