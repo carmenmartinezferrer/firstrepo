@@ -1,5 +1,5 @@
 <!--
-DRAFT 4, TEXT. Shorter again (Carmen). Where a chart carries a full
+DRAFT 5, TEXT. Colour split out into drafts/fw27-forecast-colour-draft.md, this piece now ranks the 24 non-colour items. Shorter again (Carmen). Where a chart carries a full
 ranking, the prose names the top and bottom and the chart holds the
 rest, so no number is lost. Source named once in the intro, once in the
 methodology. Charts in drafts/fw27-forecast-charts/. Notes at the bottom.
@@ -7,19 +7,19 @@ methodology. Charts in drafts/fw27-forecast-charts/. Notes at the bottom.
 
 # Stop Calling Everything a Trend: Fall/Winter 2027 Forecast Edition
 
-## A forecast gave me 36 trends for next autumn, and lining them up on one scale changes which ones look real
+## A forecast gave me 24 trends for next autumn, and lining them up on one scale changes which ones look real
 
-Forecast season is here, and I have a complicated relationship with it. I read every PDF that lands in my inbox (not going to lie), and I also know how they're built, because every item gets the one number that makes it look good. So when the Trendalytics Womenswear Forecast for Fall/Winter 2027 arrived, three aesthetics and 36 named colours, fabrics and key items, I asked which of the 36 are actually moving, which ones my own runway data can already see, and which ones are there because the slide needed a fourth square. Also, I'd decided I'm not buying a plaid anything this year, and then I saw the riding boots on page two, so let's see how long that lasts.
+Forecast season is here, and I have a complicated relationship with it. I read every PDF that lands in my inbox (not going to lie), and I also know how they're built, because every item gets the one number that makes it look good. So when the Trendalytics Womenswear Forecast for Fall/Winter 2027 arrived, three aesthetics and 36 named colours, fabrics and key items, I split the twelve colours off into [their own piece](LINK TO FW27 COLOUR PIECE) and asked which of the other 24 are actually moving, which ones my own runway data can already see, and which ones are there because the slide needed a fourth square. Also, I'd decided I'm not buying a plaid anything this year, and then I saw the riding boots on page two, so let's see how long that lasts.
 
 ## Methodology, the short version
 
-The report splits next autumn into Heritage Craft, Sensory Riot and Veiled Performance, each with four colours, four fabrics or prints, three runway references and four key items, one data point each. Those data points come in six flavours (search volume, search growth on last year, market adoption on last year, TikTok views, growth among key influencers, and a "most saturated in luxury" label with no number), and no item gets more than one. So I sorted all 36 by the metric they share and plotted each group on the same scale, head to head, then checked the overlaps against my own Paris SS27 tagging, 16 houses and 997 looks. Full detail at the bottom.
+The report splits next autumn into Heritage Craft, Sensory Riot and Veiled Performance, each with four colours, four fabrics or prints, three runway references and four key items, one data point each. Those data points come in six flavours (search volume, search growth on last year, market adoption on last year, TikTok views, growth among key influencers, and a "most saturated in luxury" label with no number), and no item gets more than one. So I sorted the 24 fabrics, prints and key items by the metric they share and plotted each group on the same scale, head to head, then checked the overlaps against my own Paris SS27 tagging, 16 houses and 997 looks. Full detail at the bottom.
 
 ## The three aesthetics
 
 ### Heritage Craft: stealth wealth gets a brooch
 
-Brooches, riding boots, a cashmere capelet and peplum silhouettes, in russet red, plum purple, forest green and chestnut brown. Fabrics: plaid, lace, painterly florals and tweed. Runway: Chanel, Ralph Lauren and Acne Studios. Key items: Mary Jane pumps, jacquard jackets, paisley scarves and slim suiting. The reasoning is a move from logos to natural fibres, a European influence the report ties to the EU's ban on destroying unsold goods pushing designer stock into US off-price channels, and economic uncertainty sending people back to classics with a bookish twist.
+Brooches, riding boots, a cashmere capelet and peplum silhouettes. Fabrics: plaid, lace, painterly florals and tweed. Runway: Chanel, Ralph Lauren and Acne Studios. Key items: Mary Jane pumps, jacquard jackets, paisley scarves and slim suiting. The reasoning is a move from logos to natural fibres, a European influence the report ties to the EU's ban on destroying unsold goods pushing designer stock into US off-price channels, and economic uncertainty sending people back to classics with a bookish twist.
 
 The ban is real, large companies have been barred from destroying unsold clothing, accessories and footwear across the EU since 19 July 2026, medium-sized ones follow in 2030 ([Just Style](https://www.just-style.com/news/eu-ends-practice-of-destroying-unsold-clothes-and-shoes-in-july-2026/)). Where that stock ends up is the report's reading, not something the regulation says.
 
@@ -28,7 +28,7 @@ The ban is real, large companies have been barred from destroying unsold clothin
 
 ### Sensory Riot: maximalism, again, and this time it's personal
 
-Bold colour, mixed prints and tactile textures, which is what I've been writing about all autumn, so I came to it with my arms crossed. Chartreuse, fuchsia, lilac and cobalt blue. Fabrics: feather trim, animal stripes, lustrous silk and graphic prints. Runway: Dries Van Noten, Dolce & Gabbana and Valentino. Key items: a daytime boa, a fringe skirt, sculptural wedges and embellished jeans. The reasoning is algorithms rewarding visual impact ("dopamine decor", "printmaxxing"), a rebellion against AI-generated sameness, and minimalism fatigue after years of quiet luxury. The report also credits Chappell Roan, which I haven't checked and won't pretend I have.
+Bold colour, mixed prints and tactile textures, which is what I've been writing about all autumn, so I came to it with my arms crossed. Fabrics: feather trim, animal stripes, lustrous silk and graphic prints. Runway: Dries Van Noten, Dolce & Gabbana and Valentino. Key items: a daytime boa, a fringe skirt, sculptural wedges and embellished jeans. The reasoning is algorithms rewarding visual impact ("dopamine decor", "printmaxxing"), a rebellion against AI-generated sameness, and minimalism fatigue after years of quiet luxury. The report also credits Chappell Roan, which I haven't checked and won't pretend I have.
 
 The fatigue I can check, because it's the argument of my [maximalism piece for FashionUnited](LINK TO FASHIONUNITED MAXIMALISM PIECE): 31% of all Paris SS27 looks carried embellishment (ruffles, fringe, sequins, beading, embroidery, 3D flowers, feathers or appliqué), at every one of the 16 houses, Dior at 70% of its looks, Chloé 69%, Isabel Marant 60%. Retail agrees, Lectra's summer 2026 assortment tracking had sequins up 40% and fringe up 34% on last year ([Lectra, via FashionUnited](https://fashionunited.uk/press/fashion/fashion-trends-2026-between-minimalism-and-maximalism-lectra-presents-a-summer-of-contrasts-and-value/2026061888736)). Three sources on one direction is a stronger claim than any one alone. Where I'd push back is on fatigue meaning minimalism is leaving: 56% of the Paris colour weight was still neutral, and Lanvin, Celine and Balenciaga were three quarters neutral or more. The loud half is growing, and the quiet half hasn't gone anywhere.
 
@@ -37,7 +37,7 @@ The fatigue I can check, because it's the argument of my [maximalism piece for F
 
 ### Veiled Performance: gorpcore grows up and brings an umbrella
 
-Sheers, hoods, balloon pants and low profile sneakers, in marigold, moss green, dove grey and terracotta. Fabrics: nylon and PVC, acid wash denim, landscape graphics and camo. Runway: Jane Wade, Chloé and Lacoste. Key items: drawstring pants, a nylon bag, a funnel neck jacket and rain boots. The reasoning is gorpcore maturing after the sports prep peak of 2026, unpredictable weather pushing rain jackets and waterproof footwear into everyday wardrobes, and outdoor clothes as a signal of health and community.
+Sheers, hoods, balloon pants and low profile sneakers. Fabrics: nylon and PVC, acid wash denim, landscape graphics and camo. Runway: Jane Wade, Chloé and Lacoste. Key items: drawstring pants, a nylon bag, a funnel neck jacket and rain boots. The reasoning is gorpcore maturing after the sports prep peak of 2026, unpredictable weather pushing rain jackets and waterproof footwear into everyday wardrobes, and outdoor clothes as a signal of health and community.
 
 This is where I have the least data of my own, so, upfront: nylon and technical fabric were in 4% of all Paris SS27 looks and 26% of Lacoste's, so the reference is real but mostly one house. PVC was one house too, Chloé, on six trench coats and capes, nobody else touched it. Drawstrings, funnel necks and hoods aren't tags in my taxonomy, so I can't tell you how big they were, and I'd rather say that than make a number up.
 
@@ -46,19 +46,13 @@ This is where I have the least data of my own, so, upfront: nylon and technical 
 
 ## Same scale, head to head: which of the 36 are actually moving?
 
-Ok, ok… 36 items, each with a number next to it, very convincing on the page. But a +7% and a +888% sit on the same slide in the same font size, and a "high" search volume and an "extreme" one turn out to be 35k and 57k. So here's every item that shares a metric, on one scale.
+Ok, ok… 24 items, each with a number next to it, very convincing on the page. But a +21% and a +888% sit on the same slide in the same font size. So here's every item that shares a metric, on one scale.
 
-### Search volume: Veiled Performance owns the biggest number, and Heritage Craft the smallest
-
-[CHART: 01-search-volume.png, search volume as printed in the report, in thousands of searches]
-
-Six items have an absolute search volume, five of them colours. Marigold, from Veiled Performance, is the biggest search number in the whole report at 126k, then lilac at 103k and fuchsia at 84k (both Sensory Riot), lace at 78k, and at the bottom the two colours the Heritage Craft palette is built around, forest green at 57k and dark red at 35k. "Dark red has a high search volume" is doing a lot of work for the smallest number on the chart. The report doesn't say which period or country these cover, so I'm quoting them as given.
-
-### Search growth: fringe skirts lead, and two colours barely moved
+### Search growth: fringe skirts lead, acid wash denim trails
 
 [CHART: 02-search-growth.png, % change in searches vs last year, as printed in the report]
 
-Eleven items have a search change on last year, and Sensory Riot and Heritage Craft take the top three: fringe skirts up 71%, paisley scarves 64%, jacquard jackets 61%. The middle runs from dove grey (43%) down to acid wash denim (21%), and at the bottom sit cobalt blue at 14% and terracotta at 7%. I'm sorry, but a colour whose searches grew 7% in a year is not a forecast, it's a colour that exists. Fringe at the top matches Heuritech in July, fringe detailing up 17% on last year with a further rise forecast for spring 2027 ([Heuritech](https://heuritech.com/articles/copenhagen-fashion-week-ss27-trends/)), and Lectra's summer assortments, so the fringe skirt is the one key item here with three independent sources behind it.
+Six items have a search change on last year, and Sensory Riot and Heritage Craft take the top three: fringe skirts up 71%, paisley scarves 64%, jacquard jackets 61%. Then fur scarves at 30%, wedges at 23% and acid wash denim at 21%, so even the bottom of this chart is moving, which is more than I can say for the colours. Fringe at the top matches Heuritech in July, fringe detailing up 17% on last year with a further rise forecast for spring 2027 ([Heuritech](https://heuritech.com/articles/copenhagen-fashion-week-ss27-trends/)), and Lectra's summer assortments, so the fringe skirt is the one key item here with three independent sources behind it.
 
 ### Market adoption: florals and slim suits are the two real jumps
 
@@ -68,9 +62,9 @@ Ten items are measured by market adoption, the report's own measure of how widel
 
 ### The numbers that don't compare with anything
 
-[CHART: 04-metric-mix.png, number of the 36 named trends measured each way]
+[CHART: 04-metric-mix.png, number of the 24 named trends measured each way]
 
-Nine items come with a metric too rare to rank. Chestnut brown has 196M TikTok views and chartreuse 149M, Mary Jane pumps 3M, and zebra print is "growing by 5M views weekly", a rate rather than a total. Funnel neck jackets are up 888% among key influencers, rain boots 87% and drawstring pants 33%, with no word on how many influencers or from what base, and 888% from almost nothing is exactly how a funnel neck starts to look like a movement. Tweed and silk are each "most saturated in the luxury market" with no number at all. This is my real finding: 36 items, six yardsticks, not one item measured two ways. That's how forecasts are made, not dishonesty, but it means the three aesthetics look equally strong on the page when the shared numbers say Heritage Craft and Sensory Riot are moving and Veiled Performance mostly isn't yet, marigold aside.
+Eight items come with a metric too rare to rank. Lace is the only fabric with a search volume, 78k, so it has nothing to compare with. Mary Jane pumps have 3M TikTok views and zebra print is "growing by 5M views weekly", a rate rather than a total. Funnel neck jackets are up 888% among key influencers, rain boots 87% and drawstring pants 33%, with no word on how many influencers or from what base, and 888% from almost nothing is exactly how a funnel neck starts to look like a movement. Tweed and silk are each "most saturated in the luxury market" with no number at all. This is my real finding: 24 items, six yardsticks, not one item measured two ways. That's how forecasts are made, not dishonesty, but it means the three aesthetics look equally strong on the page when the shared numbers say Heritage Craft and Sensory Riot are moving and Veiled Performance mostly isn't yet.
 
 ## What my own Paris SS27 data can already see
 
@@ -78,17 +72,17 @@ Nine items come with a metric too rare to rank. Chestnut brown has 196M TikTok v
 
 The report calls its runway references early indicators, so checking its fabrics against the SS27 runway is fair, with the caveat that a spring runway was never going to show much tweed. Silk is where the two flat out agree: most saturated fabric in luxury in the report, and in Paris the silk family was in 28% of all looks across 15 of the 16 houses. Tweed is the partial overlap, "most saturated" sounds like everyone, but in Paris it was 5% of looks and almost all Chanel, which put it in 42% of its own collection, so saturated at one house and borrowed by a couple of neighbours. Lace was 4% of looks, mostly Isabel Marant, nylon 4% and mostly Lacoste, denim 4% (I can't separate acid wash from the rest), animal print 3% with Balmain behind two thirds of it, and brocade and jacquard 2%. Plaid, feathers, camo and graphic prints have no clean material tag in my data, so they stay unchecked.
 
-## Colour, briefly
+## Colour
 
-The full Paris breakdown lives in the [Paris SS27 colour index](LINK TO PARIS COLOUR PIECE), so just this: the three palettes are twelve colours, only two near neutral (dove grey and chestnut brown), against a Paris SS27 runway that was 56% neutral by colour weight. Green was Paris's biggest actual colour at 8% (Lacoste 24% of its palette, Loewe 20%), pink 5% but spread across 13 houses, red 2% and purple 1%. So russet red and plum purple, the two Heritage Craft anchors, were nearly absent on the spring runway, which doesn't make them wrong for autumn, it means the signal isn't coming from the runway yet. The fabric fairs are on the forecast's side, Première Vision Paris built its Autumn/Winter 2027/28 season on deep purples, bordeaux and mineral neutrals ([FashionUnited](https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139)), the Heritage Craft palette almost exactly. Anyway, I'll do a proper FW27 colour post once I have runway data for it.
+The twelve forecast colours, which ones are actually searched, which two forecasters agree on, and what Paris SS27 already wore, are all in the [colour edition](LINK TO FW27 COLOUR PIECE). Short version: green, brown and grey are already on the runway, russet and plum are not.
 
 ## The Takeaway
 
-- Heritage Craft has the strongest shared numbers (florals up 178% and slim suits up 133% in adoption, jacquard jackets and paisley scarves both up over 60% in searches), but its two anchor colours have the lowest search volumes on the page and were almost absent in Paris SS27.
+- Heritage Craft has the strongest shared numbers, florals up 178% and slim suits up 133% in adoption, jacquard jackets and paisley scarves both up over 60% in searches.
 - Sensory Riot has the most outside agreement: fringe skirts are the top search mover at 71% and the only item with three independent sources behind it, and my Paris data has embellishment in 31% of looks at every house.
-- Veiled Performance has the single biggest search number (marigold, 126k) and the weakest everything else, with its key items mostly measured by influencer growth from an unstated base. In Paris, nylon and PVC were basically Lacoste and Chloé.
+- Veiled Performance has the weakest shared numbers, with its key items mostly measured by influencer growth from an unstated base. In Paris, nylon and PVC were basically Lacoste and Chloé.
 - Silk is where the forecast and my runway data agree outright, and tweed is a Chanel story wearing a season-wide label.
-- Thirty-six trends, six yardsticks, zero items measured twice. On one scale, the ones clearly moving sit in two of the three aesthetics.
+- Twenty-four trends, six yardsticks, zero items measured twice. On one scale, the ones clearly moving sit in two of the three aesthetics.
 
 If I had to bet on one thing from this report reaching the shops, it's the fringe skirt, because search, retail and the runway all say the same thing. Which one are you already eyeing up? (Asking because I need to know I'm not the only one looking at riding boots.)
 
@@ -96,7 +90,7 @@ I hope you enjoyed it, and let me know in the comments anything you would like t
 
 ## Full methodology
 
-The source is the Trendalytics Womenswear Forecast Fall/Winter 2027, published October 2026, 14 pages: three aesthetics, each with four colours, four fabrics or prints, three SS27 runway references and four key items, 36 named items, each with exactly one data point. Six measures: absolute search volume (six items, five of them colours), change in searches on last year (eleven), change in the report's market adoption measure on last year (ten), TikTok views (four, one a weekly rate), growth among key influencers (three) and a "most saturated in the luxury market" label with no number (two). The charts rank every item within its own measure, exactly as printed, nothing rescaled or estimated. The report doesn't define the period or country behind the search volumes, how market adoption is calculated, or the size of the influencer panel. No search data of my own sits behind this piece.
+The source is the Trendalytics Womenswear Forecast Fall/Winter 2027, published October 2026, 14 pages: three aesthetics, each with four colours, four fabrics or prints, three SS27 runway references and four key items, 36 named items, each with exactly one data point. The twelve colours are covered in the colour edition, this piece ranks the other 24. Six measures across those 24: absolute search volume (one, lace), change in searches on last year (six), change in the report's market adoption measure on last year (ten), TikTok views (two, one a weekly rate), growth among key influencers (three) and a "most saturated in the luxury market" label with no number (two). The charts rank every item within its own measure, exactly as printed, nothing rescaled or estimated. The report doesn't define the period or country behind the search volumes, how market adoption is calculated, or the size of the influencer panel. No search data of my own sits behind this piece.
 
 The runway cross-check uses my own tagging of 16 houses from Paris Fashion Week Spring Summer 2027, 997 looks, every show complete: Balenciaga, Balmain, Celine, Chanel, Chloé, Dior, Dries Van Noten, Isabel Marant, Lacoste, Lanvin, Loewe, Maison Margiela, Miu Miu, Stella McCartney, Tom Ford and Valentino, every garment tagged by type, length, fit, material, finish, colour, pattern and detail. Material shares are the share of all 997 looks that include that material, so they overlap and don't add up to 100, and a single house's figure is its share of its own collection. Embellishment counts any look with ruffles, fringe, sequins, beading, embroidery, three-dimensional flowers, feathers or appliqué. Colour uses the colour mix method, each look split across up to three colours by how much of the outfit each covers, and neutral means black, white and cream, grey, and brown and beige. SS27 is a different season from the one forecast, so the cross-check shows what the spring runway can already see, not whether the forecast is right.
 

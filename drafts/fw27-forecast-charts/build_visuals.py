@@ -58,4 +58,10 @@ for key, (name, looks) in STRIPS.items():
             f'<div class="row">{lk}</div><div class="src">Images: runway photographs as reproduced in the Trendalytics FW27 forecast. Houses as named by Trendalytics.</div>')
     fn = f'07-runway-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
+donuts = [('paris/donut-lacoste.png', 'Lacoste'), ('paris/donut-loewe.png', 'Loewe'), ('paris/donut-miu-miu.png', 'Miu Miu'), ('paris/donut-valentino.png', 'Valentino')]
+dk = ''.join(f'<div style="flex:1;text-align:center"><img src="{f}" style="width:100%"><div style="font-family:{SERIF};font-style:italic;font-size:30px;margin-top:8px">{html.escape(n)}</div></div>' for f, n in donuts)
+body = (f'<h1>the paris houses already wearing fw27</h1><p class="sub">% = share of each house\'s total colour on the Paris SS27 runway, colour mix method</p>'
+        f'<div class="row">{dk}</div><div class="src">Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, colour mix</div>')
+open(f'{OUT}/paris/grid-houses-fw27.html', 'w').write(page(body, 1000).replace('src="paris/', 'src="'))
+manifest.append('paris/grid-houses-fw27')
 json.dump(manifest, open(f'{OUT}/cards.json', 'w')); print(manifest)

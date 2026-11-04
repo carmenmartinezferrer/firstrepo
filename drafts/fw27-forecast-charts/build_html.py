@@ -3,6 +3,7 @@
 import re, sys, html
 sys.dont_write_bytecode = True
 src, dst = sys.argv[1], sys.argv[2]
+COLOUR = 'colour' in src
 md = open(src, encoding='utf-8').read()
 md = re.sub(r'<!--.*?-->', '', md, flags=re.S).strip()
 for bad in ('–', '—'):
@@ -28,11 +29,13 @@ def inline(t):
     return t
 
 def visuals_for(aesthetic):
+    if COLOUR: return ''
     s = SLUG[aesthetic]
     items = ''.join(f'<figure class="item"><img src="{C}images/{f}" alt="{html.escape(n)}, Trendalytics FW27 key item"><figcaption><strong>{html.escape(n)}</strong><br>{html.escape(d)}</figcaption></figure>' for f, n, d in ITEMS[aesthetic])
     return (f'<figure class="chart"><img src="{C}07-runway-{s}.png" alt="The three SS27 runway looks Trendalytics names for {aesthetic}"></figure>'
             f'<div class="items">{items}</div>')
 
+doc_title = re.search(r'^# (.+)$', md, re.M).group(1)
 out, lines, i, current = [], md.split('\n'), 0, None
 title_done = False
 while i < len(lines):
@@ -51,16 +54,13 @@ while i < len(lines):
         if h == 'The Takeaway': out.append('</main><section class="takeaway"><h2>The Takeaway</h2>'); current = 'TAKEAWAY'
         elif h == 'Full methodology': out.append('</section><footer class="method"><h2>Full methodology</h2>'); current = 'METHOD'
         elif h == 'Sources': out.append('<h2>Sources</h2>')
-        elif h == 'Colour, briefly':
-            out.append(f'<h2>{inline(h)}</h2>')
-            out.append('<div class="palettes">' + ''.join(f'<figure class="chart"><img src="{C}06-palette-{s}.png" alt="{a} palette, four colours named by Trendalytics"></figure>' for a, s in SLUG.items()) + '</div>')
         else: out.append(f'<h2>{inline(h)}</h2>')
         i += 1; continue
     if l.startswith('### '):
         if current and current in ITEMS: out.append(visuals_for(current)); current = None
         h = l[4:]
         for a in ITEMS:
-            if h.startswith(a + ':'): current = a
+            if h.startswith(a + ':') and not COLOUR: current = a
         out.append(f'<h3>{inline(h)}</h3>'); i += 1; continue
     m = re.match(r'\[CHART: ([^,]+), (.+)\]', l)
     if m:
@@ -107,6 +107,6 @@ figure.chart img{{width:100%;display:block}} figcaption{{font-size:14px;color:#5
 .method{{font-size:15px;color:#444}} .method h2{{font-size:26px}}
 @media (max-width:640px){{.items{{grid-template-columns:repeat(2,1fr)}} .hero h1{{font-size:34px}}}}
 '''
-page = f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stop Calling Everything a Trend: Fall/Winter 2027 Forecast Edition</title><style>{css}</style></head><body>{"".join(out)}</body></html>'
+page = f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(doc_title)}</title><style>{css}</style></head><body>{"".join(out)}</body></html>'
 assert '—' not in page and '–' not in page
 open(dst, 'w', encoding='utf-8').write(page); print('wrote', dst, len(page))

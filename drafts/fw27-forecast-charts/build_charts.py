@@ -25,7 +25,7 @@ def wrap(label, n=14):
     lines.append(cur.strip())
     return lines
 
-def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%', highlight=0, sub=None):
+def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%', highlight=0, sub=None, colours=None):
     """items: list of (label, value). One bar pink (index `highlight`), rest dark.
     sub: optional list of muted sub-labels (the aesthetic each item belongs to)."""
     n = len(items)
@@ -48,7 +48,7 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%'
     for i, (lab, v) in enumerate(items):
         cx = x0 + slot * (i + 0.5)
         bh = (v / vmax) * (plot_h - 70)
-        col = PINK if i == highlight else DARK
+        col = colours[i] if colours else (PINK if i == highlight else DARK)
         p.append(f'<rect x="{cx-bw/2:.1f}" y="{base-bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" fill="{col}"/>')
         p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="{vs}" fill="{INK}">{html.escape(fmt(v))}</text>')
         lines = wrap(lab, wn)
@@ -67,18 +67,15 @@ HC, SR, VP = 'Heritage Craft', 'Sensory Riot', 'Veiled Performance'
 charts = []
 
 # 1. Search volume, every item that comes with one (thousands)
-vol = [('marigold', 126, VP), ('lilac', 103, SR), ('fuchsia', 84, SR), ('lace', 78, HC),
-       ('forest green', 57, HC), ('dark red', 35, HC)]
-charts.append(bar_chart('01-search-volume', 'the biggest search number is marigold',
-    'search volume as printed in the report, in thousands of searches',
+vol = [('marigold', 126, VP), ('lilac', 103, SR), ('fuchsia', 84, SR), ('forest green', 57, HC), ('dark red', 35, HC)]
+colour_vol = bar_chart('08-colour-search-volume', 'marigold is the most searched',
+    'search volume as printed in the forecast, in thousands of searches, for the five colours measured that way',
     [(l, v) for l, v, _ in vol], SRC + ', search volume', fmt=lambda v: f'{round(v)}k',
-    highlight=0, sub=[a for _, _, a in vol]))
+    highlight=0, sub=[a for _, _, a in vol])
 
 # 2. Year on year change in searches
 gro = [('fringe skirts', 71, SR), ('paisley scarves', 64, HC), ('jacquard jackets', 61, HC),
-       ('dove grey', 43, VP), ('plum purple', 39, HC), ('fur scarves', 30, SR),
-       ('moss green', 23, VP), ('wedges', 23, SR), ('acid wash denim', 21, VP),
-       ('cobalt blue', 14, SR), ('terracotta', 7, VP)]
+       ('fur scarves', 30, SR), ('wedges', 23, SR), ('acid wash denim', 21, VP)]
 charts.append(bar_chart('02-search-growth', 'fringe skirts are the top search mover',
     '% change in searches vs last year, as printed in the report',
     [(l, v) for l, v, _ in gro], SRC + ', searches vs last year', fmt=lambda v: f'+{round(v)}%',
@@ -94,12 +91,12 @@ charts.append(bar_chart('03-market-adoption', 'florals and slim suits are the re
     highlight=0, sub=[a for _, _, a in ado]))
 
 # 4. How the 36 items are measured
-mix = [('searches vs last year', 11), ('market adoption vs last year', 10), ('search volume', 6),
-       ('TikTok views', 4), ('influencer growth', 3), ('"most saturated", no number', 2)]
-assert sum(v for _, v in mix) == 36
+mix = [('market adoption vs last year', 10), ('searches vs last year', 6), ('influencer growth', 3),
+       ('TikTok views', 2), ('"most saturated", no number', 2), ('search volume', 1)]
+assert sum(v for _, v in mix) == 24
 charts.append(bar_chart('04-metric-mix', 'six yardsticks, no item measured twice',
-    'number of the 36 named trends measured each way',
-    mix, SRC + ', count of items per measure', fmt=lambda v: f'{round(v)}', highlight=5))
+    'number of the 24 named trends (colours aside) measured each way',
+    mix, SRC + ', count of items per measure', fmt=lambda v: f'{round(v)}', highlight=4))
 
 # 5. Paris SS27 cross-check, share of looks (DFB tagging, 16 houses, 997 looks)
 par = [('silk (all types)', 28), ('tweed', 5), ('lace', 4), ('denim', 4), ('nylon', 4),
@@ -107,6 +104,21 @@ par = [('silk (all types)', 28), ('tweed', 5), ('lace', 4), ('denim', 4), ('nylo
 charts.append(bar_chart('05-paris-cross-check', 'what the spring runway can already see',
     '% of all Paris SS27 looks that include each material',
     par, 'Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, share of looks', highlight=0))
+
+charts.append(colour_vol)
+cgro = [('dove grey', 43, VP), ('plum purple', 39, HC), ('moss green', 23, VP), ('cobalt blue', 14, SR), ('terracotta', 7, VP)]
+charts.append(bar_chart('09-colour-search-growth', 'dove grey climbs, terracotta barely moves',
+    '% change in searches vs last year, as printed in the forecast, for the five colours measured that way',
+    [(l, v) for l, v, _ in cgro], SRC + ', searches vs last year', fmt=lambda v: f'+{round(v)}%',
+    highlight=0, sub=[a for _, _, a in cgro]))
+fam = [('brown & beige', 11, 'chestnut brown'), ('green & olive', 8, 'forest, moss'), ('grey', 7, 'dove grey'),
+       ('pink', 5, 'fuchsia'), ('blue', 5, 'cobalt'), ('yellow & gold', 5, 'marigold, chartreuse'),
+       ('orange & rust', 3, 'terracotta'), ('red', 2, 'russet'), ('purple', 1, 'plum, lilac')]
+charts.append(bar_chart('10-paris-families', 'what paris ss27 already wore',
+    '% of the Paris SS27 colour palette in each forecast colour family',
+    [(l, v) for l, v, _ in fam], 'Source: The Data Fashion Brief runway tagging, Paris Fashion Week SS27, colour mix, 16 houses',
+    highlight=1, sub=[a for _, _, a in fam],
+    colours=['#7C533C', '#254117', '#838384', '#FF278A', '#4C80FD', '#DFAA4F', '#D38377', '#7B3330', '#583759']))
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
