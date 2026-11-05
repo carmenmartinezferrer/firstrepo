@@ -6,64 +6,213 @@
   "show_type": "commercial RTW",
   "looks": 40,
   "palette": [
-    {"label": "Black", "pct": 33, "hex": "#111111"},
-    {"label": "White/cream", "pct": 30, "hex": "#F4F1EA"},
-    {"label": "Blue/denim", "pct": 10, "hex": "#7FA6D6"},
-    {"label": "Lime print", "pct": 7, "hex": "#BFE02D"},
-    {"label": "Grey", "pct": 5, "hex": "#6B6D70"},
-    {"label": "Brown", "pct": 5, "hex": "#4B2E27"},
-    {"label": "Red/burgundy", "pct": 5, "hex": "#B8322A"},
-    {"label": "Floral print", "pct": 5, "hex": "#8FB6C9"}
+    {
+      "label": "Black",
+      "pct": 33,
+      "hex": "#111111"
+    },
+    {
+      "label": "White/cream",
+      "pct": 30,
+      "hex": "#F4F1EA"
+    },
+    {
+      "label": "Blue/denim",
+      "pct": 10,
+      "hex": "#7FA6D6"
+    },
+    {
+      "label": "Lime print",
+      "pct": 7,
+      "hex": "#BFE02D"
+    },
+    {
+      "label": "Grey",
+      "pct": 5,
+      "hex": "#6B6D70"
+    },
+    {
+      "label": "Brown",
+      "pct": 5,
+      "hex": "#4B2E27"
+    },
+    {
+      "label": "Red/burgundy",
+      "pct": 5,
+      "hex": "#B8322A"
+    },
+    {
+      "label": "Floral print",
+      "pct": 5,
+      "hex": "#8FB6C9"
+    }
   ],
   "silhouette": [
-    {"label": "Bomber + slit skirt/trouser", "pct": 13},
-    {"label": "Top or blazer + legging", "pct": 13},
-    {"label": "Crossover halter + skirt", "pct": 10},
-    {"label": "Strapless or cape gown", "pct": 10},
-    {"label": "Plissé dress, shirt or suit", "pct": 10},
-    {"label": "Ruched dress or skirt set", "pct": 10},
-    {"label": "Top + wide trouser", "pct": 7},
-    {"label": "Slit denim jeans or skirt", "pct": 7},
-    {"label": "Shirt or blazer + short", "pct": 7},
-    {"label": "Tank/bodysuit + bubble skirt", "pct": 7},
-    {"label": "Plaid top + slit trouser", "pct": 5}
+    {
+      "label": "Bomber + slit skirt/trouser",
+      "pct": 13
+    },
+    {
+      "label": "Top or blazer + legging",
+      "pct": 13
+    },
+    {
+      "label": "Crossover halter + skirt",
+      "pct": 10
+    },
+    {
+      "label": "Strapless or cape gown",
+      "pct": 10
+    },
+    {
+      "label": "Plissé dress, shirt or suit",
+      "pct": 10
+    },
+    {
+      "label": "Ruched dress or skirt set",
+      "pct": 10
+    },
+    {
+      "label": "Top + wide trouser",
+      "pct": 7
+    },
+    {
+      "label": "Slit denim jeans or skirt",
+      "pct": 7
+    },
+    {
+      "label": "Shirt or blazer + short",
+      "pct": 7
+    },
+    {
+      "label": "Tank/bodysuit + bubble skirt",
+      "pct": 7
+    },
+    {
+      "label": "Plaid top + slit trouser",
+      "pct": 5
+    }
   ],
   "material": [
-    {"label": "Jersey & crepe", "pct": 20},
-    {"label": "Pleated & plissé", "pct": 15},
-    {"label": "Printed silk-look fabric", "pct": 15},
-    {"label": "Poplin & shirting", "pct": 10},
-    {"label": "Parachute nylon", "pct": 7},
-    {"label": "Tailoring", "pct": 7},
-    {"label": "Leather", "pct": 7},
-    {"label": "Denim", "pct": 7},
-    {"label": "Check & plaid", "pct": 7},
-    {"label": "Lace & eyelet", "pct": 3}
+    {
+      "label": "Jersey & crepe",
+      "pct": 20
+    },
+    {
+      "label": "Pleated & plissé",
+      "pct": 15
+    },
+    {
+      "label": "Printed silk-look fabric",
+      "pct": 15
+    },
+    {
+      "label": "Poplin & shirting",
+      "pct": 10
+    },
+    {
+      "label": "Parachute nylon",
+      "pct": 7
+    },
+    {
+      "label": "Tailoring",
+      "pct": 7
+    },
+    {
+      "label": "Leather",
+      "pct": 7
+    },
+    {
+      "label": "Denim",
+      "pct": 7
+    },
+    {
+      "label": "Check & plaid",
+      "pct": 7
+    },
+    {
+      "label": "Lace & eyelet",
+      "pct": 3
+    }
   ],
   "other": [
-    {"label": "Halter or crossover neckline", "pct": 30},
-    {"label": "Slit hem (trouser, skirt or gown)", "pct": 28},
-    {"label": "Pleats or plissé anywhere", "pct": 20},
-    {"label": "Layer knotted at the waist or hip", "pct": 18},
-    {"label": "Bomber or leather jacket over a top", "pct": 15},
-    {"label": "Bubble hem", "pct": 15},
-    {"label": "Shorts or skort", "pct": 15},
-    {"label": "Prints as the main feature", "pct": 15},
-    {"label": "Leggings", "pct": 13},
-    {"label": "Black + white", "pct": 63}
+    {
+      "label": "Halter or crossover neckline",
+      "pct": 30
+    },
+    {
+      "label": "Slit hem (trouser, skirt or gown)",
+      "pct": 30
+    },
+    {
+      "label": "Pleats or plissé anywhere",
+      "pct": 20
+    },
+    {
+      "label": "Layer knotted at the waist or hip",
+      "pct": 13
+    },
+    {
+      "label": "Bomber or leather jacket over a top",
+      "pct": 15
+    },
+    {
+      "label": "Bubble hem",
+      "pct": 15
+    },
+    {
+      "label": "Shorts or skort",
+      "pct": 15
+    },
+    {
+      "label": "Prints as the main feature",
+      "pct": 15
+    },
+    {
+      "label": "Leggings",
+      "pct": 13
+    },
+    {
+      "label": "Black + white",
+      "pct": 63
+    }
   ],
   "trends": [
-    {"label": "Halter or crossover neckline", "pct": 30, "note": "12 of 40 looks, from the first halter bodysuit to the final plissé halter dresses"},
-    {"label": "Slit hems", "pct": 28, "note": "trousers, skirts and gowns, 11 of 40 looks"},
-    {"label": "Pleats and plissé", "pct": 20, "note": "pleated minis early, plissé closing the show"},
-    {"label": "Layer knotted at the waist", "pct": 18, "note": "cardigans, shirts and scarves, 7 of 40 looks"},
-    {"label": "Bomber over everything", "pct": 15, "note": "6 of 40 looks, leather or nylon, worn off the shoulder"},
-    {"label": "Bubble hems", "pct": 15, "note": "from the drawstring skirts to the cape gowns, 6 of 40 looks"}
+    {
+      "label": "Halter or crossover neckline",
+      "pct": 30,
+      "note": "12 of 40 looks, from the first halter bodysuit to the final plissé halter dresses"
+    },
+    {
+      "label": "Slits on trousers, skirts and gowns",
+      "pct": 30,
+      "note": "12 of 40 looks"
+    },
+    {
+      "label": "Pleats and plissé",
+      "pct": 20,
+      "note": "8 of 40 looks, pleated minis early, plissé closing the show"
+    },
+    {
+      "label": "Bomber over the top",
+      "pct": 15,
+      "note": "6 of 40 looks, leather or nylon"
+    },
+    {
+      "label": "Bubble hems",
+      "pct": 15,
+      "note": "6 of 40 looks, from the drawstring skirts to the cape gowns"
+    },
+    {
+      "label": "A layer knotted at the waist",
+      "pct": 13,
+      "note": "5 of 40 looks, 5 of the first 11 (looks 6 to 9 and 11)"
+    }
   ],
   "codes": [
     "the halter as the neckline",
     "the slit as the exit",
     "a knotted layer at the waist"
   ],
-  "notes": "40 looks from 5 screenshots (13 full rows of 3 plus look 40, then the designers' bow, which is not counted). No partial rows left unresolved. Palette sums to 100. Silhouette sums to 99 and material to 98: equal counts kept equal (40 looks means 2.5% per look, so every odd count ends in .5). Material labels are what the photos show; fibres can't be confirmed from runway images."
+  "notes": "40 looks from 5 screenshots (13 full rows of 3 plus look 40, then the designers' bow, which is not counted). No partial rows left unresolved. Palette sums to 100. Silhouette sums to 99 and material to 98: equal counts kept equal (40 looks means 2.5% per look, so every odd count ends in .5). Material labels are what the photos show; fibres can't be confirmed from runway images. Corrected after recheck: slit hems are 12 of 40 (look 13 has a trouser slit), knotted layers are 5 of 40 (looks 13 and 14 wear the shirt open, not tied)."
 }

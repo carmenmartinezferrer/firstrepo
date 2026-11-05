@@ -131,7 +131,7 @@ Update this file after every decode: brand line, trackers, pending list.
 - **Palette:** black 33, white/cream 30, blue/denim 10, lime print 7, grey 5, brown 5, red/burgundy 5, floral print 5.
 - **Silhouette:** bomber + slit skirt/trouser 13, top or blazer + legging 13, crossover halter + skirt 10, strapless or cape gown 10, plissé dress/shirt/suit 10, ruched dress or skirt set 10, top + wide trouser 7, slit denim jeans or skirt 7, shirt or blazer + short 7, tank/bodysuit + bubble skirt 7, plaid top + slit trouser 5 (sums to 99: equal counts kept equal).
 - **Material:** jersey & crepe 20, pleated & plissé 15, printed silk-look fabric 15, poplin & shirting 10, parachute nylon 7, tailoring 7, leather 7, denim 7, check & plaid 7, lace & eyelet 3 (sums to 98).
-- **Other:** halter or crossover neckline 30%, slit hems 28%, pleats or plissé anywhere 20%, layer knotted at the waist 18%, bomber 15%, bubble hem 15%, neutrals (black, white, grey, brown) 73%.
+- **Other:** halter or crossover neckline 30%, slit hems 30% (12/40), pleats or plissé anywhere 20%, layer knotted at the waist 13% (5/40), bomber 15%, bubble hem 15%, neutrals (black, white, grey, brown) 73%.
 - **The codes are:** the halter as the neckline, the slit as the exit, a knotted layer at the waist.
 - Press framing (brand's own, not from our count): "carewear" and a C+ sub-line with HeiQ. Fibres can't be seen in runway photos, so the material labels are visual.
 - Decode in `examples/coperni-ss26.json`, look log in `exports/ss26/coperni-ss26-decode.md`. Canva copy `DAHZ-VhOsGA` (draft, not committed until Carmen approves).
