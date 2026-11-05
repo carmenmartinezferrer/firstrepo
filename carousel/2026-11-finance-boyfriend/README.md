@@ -4,13 +4,15 @@
 
 | # | Slide | Chat |
 |---|---|---|
-| 1 | Cover | "my finance boyfriend reacting to this week's fashion news" |
+| 1 | Cover | "my finance boyfriend reacting to this week's fashion news (he googled Coperni)" |
 | 2 | 1 / 6 | Coperni has closed down |
-| 3 | 2 / 6 | Gucci sales and the Demna hire |
-| 4 | 3 / 6 | Hermès bubble |
-| 5 | 4 / 6 | Chanel Cruise in Australia |
-| 6 | 5 / 6 | Holiday campaigns in 2D animation |
-| 7 | 6 / 6 | Piccioli out of Balenciaga |
+| 3 | 2 / 6 | Hermès bubble |
+| 4 | 3 / 6 | Gucci sales and the Demna hire |
+| 5 | 4 / 6 | Piccioli out of Balenciaga |
+| 6 | 5 / 6 | Chanel Cruise in Australia |
+| 7 | 6 / 6 | Holiday campaigns in 2D animation (ends on "Both") |
+
+Reordered so the best finance-boyfriend moments (Coperni, Hermès) come first and the warmest chat closes the deck.
 
 The holiday campaigns chat was uploaded twice, the first copy cut off before "Both", so the longer version is used.
 
