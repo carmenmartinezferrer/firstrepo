@@ -115,6 +115,17 @@ Update this file after every decode: brand line, trackers, pending list.
 - Order of the first three screenshots couldn't be checked against cut-off rows; count may be off by a row if one was skipped.
 - Decode in `examples/chanel-ss27.json`. Canva `DAHXLFSd8cs`.
 
+#### Chanel Resort 2027 (Matthieu Blazy, Biarritz): commercial RTW, destination resort show, 73 looks
+- Separate collection from Chanel SS27 (Paris, 83 looks) above. Don't merge the two.
+- **Palette:** black 29, print 15, stripe 12, white/cream 10, gold/camel/brown 10, red/burgundy 10, blue/mint/teal 7, grey/navy 4, pink 1, green 1, orange/coral 1.
+- **Silhouette:** matching set, not tweed 14, tweed skirt suit + braid trim 12, long coat or duster 12, top or jacket + contrast skirt 11, striped set + skirt or short 8, wide trouser + blazer or top 8, piped or sashed draped dress 8, print/check/stripe dress 7, knit/crochet/fringe dress 7, gown or long evening dress 7, jacket or playsuit + shorts 6 (counts 10, 9, 9, 8, 6, 6, 6, 5, 5, 5, 4 of 73; sums to 100).
+- **Material:** silk/satin/crepe 27, tweed & bouclé 21, cotton/linen/denim 18, knit/crochet/lace 11, fringe/feathers/ruffles 7, leather 5, tailoring 4, tartan & check wool 4, sequins 3.
+- **Other:** matching jacket or vest + skirt 26% (19), stripe on the main garment 15% (11), swim caps/beanies/head wraps 12% (9), shorts 8% (6), fringe or feather trim 8% (6), newsprint print 4% (3).
+- **The codes are:** tweed as the signature, not the rule; stripes as the sea; the swim cap as the accent.
+- Tweed is 21% of the fabric here against 47% at Chanel SS27 (Paris), same method, different collection.
+- Looks 10 to 12 were only visible head to thigh in the first screenshot (grid scrolled exactly one screen). Fabric and silhouette read from thumbnails.
+- Decode in `examples/chanel-resort-2027.json`, look log in `exports/resort27/chanel-resort-2027-decode.md`. Canva `DAHaCD5xFbE` (edits staged, not yet committed).
+
 #### ⚠️ Dior SS27: two versions exist. Reconcile before posting.
 - **Set A** (the charts were built on this):
   - Silhouette: jacket + mini 25, dress 24, jacket + trouser 16, blouse + full skirt 13, long coat 11, jacket + long skirt 6, blouse + trouser 5.
@@ -144,7 +155,7 @@ Prada 82 · Gucci 28 · Valentino 25 · Jil Sander 18 · Fendi 16 · Moschino 15
 - Open question: Saint Laurent (~60%) and Chanel (52%) are knee-to-midi pencil skirts, not true midis. Carmen decides whether it counts. Until she does, chart it separately or footnote it.
 
 ### Single tonal family (% of looks in one colour family)
-Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black) · Mugler 39 (black)
+Saint Laurent 79 (metallic: gold + bronze) · Ferragamo 50 (brown) · Fendi 42 (black) · Balenciaga 37 (black) · Chloé 37 (white) · Isabel Marant 34 (white) · Celine 38 (black) · Mugler 39 (black) · Chanel Resort 2027 29 (black)
 
 ## Pending
 - **Balmain:** needs screenshots. The Canva template shows Balmain numbers, but the handover lists Balmain as pending. Ask Carmen whether those numbers are real before using them anywhere.
