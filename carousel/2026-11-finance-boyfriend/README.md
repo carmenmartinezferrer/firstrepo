@@ -31,3 +31,8 @@ The news claims on the slides are Carmen's own words in the chats, so they are n
 ## Sources
 
 - Carmen's WhatsApp chats, 7 screenshots uploaded 5 November 2026 (no public link).
+
+## Canva
+
+Design `DAHaIYSz2Ps` (7 pages, 1080x1350, one slide image per page, full-bleed): https://www.canva.com/d/KatAEsdSDJIzPZZ
+The slides are flat images, so text is not editable in Canva. To change wording, edit `build.py`'s source slides here and re-upload, or tell Claude.
