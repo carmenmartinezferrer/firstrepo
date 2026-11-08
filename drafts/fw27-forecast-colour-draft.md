@@ -25,7 +25,7 @@ The twelve colours come from the Trendalytics Womenswear Forecast for Fall/Winte
 
 Stealth wealth is evolving into heritage craft. Shoppers are moving from logos to natural fabrics, with cotton up 90% and cashmere up 80% in Google searches this year against last, because what people want is a timeless wardrobe of tried and true luxury, clothes that work as an enduring staple rather than a season's statement. My Paris SS27 tagging sees the foundation of it already: wool suiting was in 25% of all looks, the biggest material of the season. The craft side shows in jacquard jackets (up 61% in searches on last year), lace (4% of all Paris looks), shrunken blazers and peplum jackets (up 24% in Google searches over the last three months) and the equestrian tall boot look, with harness boots up 476% this year. Autumn leaves and riding boots, basically, and the palette is exactly that.
 
-The colours: **plum purple** is the one moving, up 39% in searches on last year in the forecast's own figure, and up 50% on Google and 154% on TikTok in my own pull, which makes it the safest bet of the four. **Forest green** and **russet red** are the two with a search volume rather than a growth figure, and on a shared scale they are the two least searched of the five colours that have one, 14% and 9% of the combined searches. **Chestnut brown** only comes with TikTok views, which tells you people are watching it, not that they're searching for it, so it stays unranked.
+The colours, in my own Google searches: **plum purple** is the one moving, up 60% (and up 154% on TikTok), which makes it the safest bet of the four, with **dark red** and **forest green** both up 50% behind it and **chestnut brown** barely moving at 10%. The forecast's own numbers tell the same story from a different angle, plum up 39% on last year, while forest green and dark red are the two least searched of the five colours it gives a volume to, 14% and 9% of the combined searches. Brown is everywhere on TikTok and nowhere in search, which is the difference between a colour people watch and a colour people go looking for.
 
 ### Sensory Riot: dressing in things you can actually feel
 
@@ -91,7 +91,7 @@ What the FW27 colour forecast is actually made of:
 - Three moods with real reasons behind them: quiet luxury growing up into craft, a maximalist reaction to AI sameness and minimalism fatigue, and gorpcore maturing into rain-ready utility.
 - Four colours two forecasters agree on: russet red, lilac, a maize or marigold yellow, and forest green. That's the shortlist.
 - Of those four, search backs two, marigold (31% of the combined searches) and lilac (25%), and shrugs at forest green (14%) and dark red (9%).
-- Plum purple is the safest Heritage Craft bet, up 39% on last year in the forecast and 50% on Google in my own pull, on the back of this autumn's purple runways, even though its anchor cousin russet has the weakest number on the page.
+- Plum purple is the safest Heritage Craft bet, up 60% in my own Google pull and 39% in the forecast's, on the back of this autumn's purple runways, with dark red and forest green both up 50% behind it and chestnut brown at 10%.
 - Paris SS27 already wore green (8% of the palette, Lacoste 24%, Loewe 20%), brown (11%, Miu Miu 20%) and grey (7%, Margiela 16%), and almost no red or purple, so the heritage reds and plums are a fabric fair story, not a runway one yet.
 - Twelve colours, three yardsticks, none measured twice. Line them up and the ones worth your money are marigold, lilac and plum.
 
@@ -103,7 +103,7 @@ I hope you enjoyed it, and let me know in the comments anything you would like t
 
 The twelve colours and the three aesthetics are from the Trendalytics Womenswear Forecast Fall/Winter 2027, published October 2026, which prints one data point next to each colour: an absolute search volume for five (marigold, lilac, fuchsia, forest green, dark red), a year on year change in searches for five (dove grey, plum purple, moss green, cobalt blue, terracotta) and TikTok views for two (chestnut brown, chartreuse). To make them readable I show the five volumes as each colour's share of their combined total (the donut), the five growth figures as printed, and leave the two view counts out of the charts, because views and searches don't compare. The forecast doesn't define the period or country behind the search volumes, and the piece says so. Hex codes on the palette cards are sampled from the forecast's own swatches.
 
-The extra search figures in the palette sections (cotton up 90% and cashmere up 80% this year against last, jacquard jackets up 61% on last year, peplum jackets up 24%, blush pink up 20%, amberglow up 50% and blue up 33% over the last three months, harness boots up 476% this year, plum purple up 50% on Google and 154% on TikTok) are my own Google Trends and TikTok pulls, worldwide, periods as stated, and they sit alongside the forecast's figures rather than replacing them, which is why plum purple carries two growth numbers.
+The extra search figures in the palette sections (cotton up 90% and cashmere up 80% this year against last, jacquard jackets up 61% on last year, peplum jackets up 24%, blush pink up 20%, amberglow up 50% and blue up 33% over the last three months, harness boots up 476% this year, plum purple up 60% on Google and 154% on TikTok, dark red up 50%, forest green up 50%, chestnut brown up 10%) are my own Google Trends and TikTok pulls, worldwide, periods as stated, and they sit alongside the forecast's figures rather than replacing them, which is why plum purple carries two growth numbers.
 
 The WGSN and Coloro Autumn/Winter 2027/28 key colours (Russet, Peaceful Lilac, Maize, Deep Green) are from their September 2025 announcement as reported by FashionUnited, and the match to the forecast's colours is my reading of the names and swatches, not a measured colour distance.
 
@@ -112,7 +112,7 @@ The runway cross-check uses my own tagging of 16 houses from Paris Fashion Week 
 ## Sources
 
 - Trendalytics, Womenswear Forecast Fall/Winter 2027, October 2026 (Carmen's upload, no public link; public summary at https://blog.trendalytics.co/fw27-womenswear-trend-forecast-intelligence)
-- The Data Fashion Brief, Google Trends and TikTok pulls for cotton, cashmere, jacquard jackets, peplum jackets, harness boots, blush pink, amberglow, blue and plum purple (Carmen's own data, no public link)
+- The Data Fashion Brief, Google Trends and TikTok pulls for cotton, cashmere, jacquard jackets, peplum jackets, harness boots, blush pink, amberglow, blue, plum purple, dark red, forest green and chestnut brown (Carmen's own data, no public link)
 - The Data Fashion Brief, Paris Fashion Week SS27 runway tagging, SS27-paris_4.xlsx, 16 houses, 997 looks (Carmen's upload, no public link)
 - The Data Fashion Brief, Stop Calling Everything a Trend: The Paris FW Colour Index: https://thedatafashionbrief.substack.com/p/stop-calling-everything-a-trend-the-5fd
 - The Data Fashion Brief, Is pink actually back, or just another Barbie moment?: https://thedatafashionbrief.substack.com/p/is-pink-actually-back-or-just-another
