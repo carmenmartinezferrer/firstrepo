@@ -120,6 +120,14 @@ charts.append(bar_chart('10-paris-families', 'what paris ss27 already wore',
     highlight=1, sub=[a for _, _, a in fam],
     colours=['#7C533C', '#254117', '#838384', '#FF278A', '#4C80FD', '#DFAA4F', '#D38377', '#7B3330', '#583759']))
 
+growth12 = [('plum purple', 60, HC, '#583759'), ('moss green', 60, VP, '#7E8C53'), ('dark red', 50, HC, '#7B3330'), ('forest green', 50, HC, '#254117'),
+            ('cobalt blue', 30, SR, '#4C80FD'), ('marigold', 30, VP, '#DFAA4F'), ('dove grey', 30, VP, '#838384'), ('fuchsia', 20, SR, '#FF278A'),
+            ('lilac', 10, SR, '#927EC3'), ('chartreuse', 10, SR, '#C7D344'), ('chestnut brown', 10, HC, '#7C533C'), ('terracotta', 10, VP, '#D38377')]
+charts.append(bar_chart('12-colour-growth-all', 'plum and moss green are the climbers',
+    '% change in Google searches this year vs last, all twelve colours on one scale',
+    [(l, v) for l, v, _, _ in growth12], '', fmt=lambda v: f'+{round(v)}%',
+    sub=[a for _, _, a, _ in growth12], colours=[c for _, _, _, c in growth12]))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:

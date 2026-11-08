@@ -11,19 +11,21 @@ def lum(hx):
     f = lambda c: c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
     return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
 
-HC = [('russet red', '#7B3330', 'search volume 35k'), ('plum purple', '#583759', 'searches +39% on last year'),
-      ('forest green', '#254117', 'search volume 57k'), ('chestnut brown', '#7C533C', '196M TikTok views')]
-SR = [('chartreuse', '#C7D344', '149M TikTok views'), ('fuchsia', '#FF278A', 'search volume 84k'),
-      ('lilac', '#927EC3', 'search volume 103k'), ('cobalt blue', '#4C80FD', 'searches +14% on last year')]
-VP = [('marigold', '#DFAA4F', 'search volume 126k'), ('moss green', '#7E8C53', 'searches +23% on last year'),
-      ('dove grey', '#838384', 'searches +43% on last year'), ('terracotta', '#D38377', 'searches +7% on last year')]
+HC = [('russet red', '#7B3330', 'searches +50% this year vs last'), ('plum purple', '#583759', 'searches +60% this year vs last'),
+      ('forest green', '#254117', 'searches +50% this year vs last'), ('chestnut brown', '#7C533C', 'searches +10%, but 196M TikTok views')]
+SR = [('chartreuse', '#C7D344', 'searches +10%, but 149M TikTok views'), ('fuchsia', '#FF278A', 'searches +20% this year vs last'),
+      ('lilac', '#927EC3', 'searches +10% this year vs last'), ('cobalt blue', '#4C80FD', 'searches +30% this year vs last')]
+VP = [('marigold', '#DFAA4F', 'searches +30%, and the most searched of the twelve'), ('moss green', '#7E8C53', 'searches +60% this year vs last'),
+      ('dove grey', '#838384', 'searches +30% this year vs last'), ('terracotta', '#D38377', 'searches +10% this year vs last')]
+GROWTH = {'russet red': 50, 'plum purple': 60, 'forest green': 50, 'chestnut brown': 10, 'chartreuse': 10, 'fuchsia': 20, 'lilac': 10, 'cobalt blue': 30,
+          'marigold': 30, 'moss green': 60, 'dove grey': 30, 'terracotta': 10}
 AES = [('Heritage Craft', 'stealth wealth with an artisanal touch', HC),
        ('Sensory Riot', 'maximalism, bold colour, clashing prints', SR),
        ('Veiled Performance', 'sportswear meets rugged utility', VP)]
 
 
 import math
-def ring(groups, R=400, w=0.42, gap=3.0, label_r=None, size=1000, font=26, show_names=True):
+def ring(groups, R=400, w=0.42, gap=3.0, label_r=None, size=1000, font=26, show_names=True, values=None, vfont=30):
     """groups: list of lists of (name, hex). Equal wedges, a small gap between groups, largest arc starting at 12 o'clock, clockwise.
     A colour map, not a share chart: every wedge is the same size on purpose."""
     n = sum(len(g) for g in groups); ng = len(groups)
@@ -42,6 +44,11 @@ def ring(groups, R=400, w=0.42, gap=3.0, label_r=None, size=1000, font=26, show_
             d = f'M{p0[0]:.1f} {p0[1]:.1f} A{r_out} {r_out} 0 {large} 1 {p1[0]:.1f} {p1[1]:.1f} L{q1[0]:.1f} {q1[1]:.1f} A{r_in} {r_in} 0 {large} 0 {q0[0]:.1f} {q0[1]:.1f} Z'
             stroke = f' stroke="{OUTLINE}" stroke-width="2"' if lum(hx) > 0.82 else ''
             out.append(f'<path d="{d}" fill="{hx}"{stroke}/>')
+            if values and name in values:
+                mm = math.radians((a0 + a1) / 2); vr = (r_out + r_in) / 2
+                vx, vy = cx + vr * math.cos(mm), cy + vr * math.sin(mm)
+                vcol = '#FFFFFF' if lum(hx) < 0.55 else '#000000'
+                out.append(f'<text x="{vx:.1f}" y="{vy + vfont*0.35:.1f}" text-anchor="middle" font-family="Arimo, Arial, sans-serif" font-size="{vfont}" fill="{vcol}">+{values[name]}%</text>')
             if show_names:
                 m = math.radians((a0 + a1) / 2); lx, ly = cx + lr * math.cos(m), cy + lr * math.sin(m)
                 anchor = 'start' if math.cos(m) > 0.25 else ('end' if math.cos(m) < -0.25 else 'middle')
@@ -125,8 +132,10 @@ def bars(items, fmt, colour=lambda i, it: None, small=False):
 slides = {}
 # ---------- Carousel A: colour ----------
 
-cover_ring = ring([[(n, hx) for n, hx, _ in cols] for _, _, cols in AES], R=290, label_r=330, font=26)
-slides['A2-colour-map'] = page(f'<p class="kicker">The full palette</p><h1>The <em>Fall/Winter 2027</em> colour map</h1><p class="sub" style="margin-bottom:0">Twelve colours, three moods, one ring. Only five of them come with a search volume, which is why the donut on the cover has five wedges.</p><div class="ringwrap">{cover_ring}</div><div class="grp"><span><b>Heritage Craft</b> top right</span><span><b>Sensory Riot</b> bottom</span><span><b>Veiled Performance</b> top left</span></div><div class="foot">A colour map, not a share chart: every wedge is the same size on purpose.</div><div class="pg">2/7</div>')
+cover_ring = ring([[(n, hx) for n, hx, _ in cols] for _, _, cols in AES], R=300, w=0.5, label_r=340, font=26, values=GROWTH, vfont=28)
+slides['A1-cover'] = page(f'<p class="kicker">Stop calling everything a trend</p><h1>The <em>Fall/Winter 2027</em> colours, and how fast each one is growing</h1><p class="sub" style="margin-bottom:0">Twelve colours, three moods, one ring. The number in each wedge is the growth in Google searches this year against last.</p><div class="ringwrap">{cover_ring}</div><div class="grp"><span><b>Heritage Craft</b> top right</span><span><b>Sensory Riot</b> bottom</span><span><b>Veiled Performance</b> top left</span></div><div class="foot">Wedges are the same size on purpose: this is a colour map with growth written on it, not a share chart.</div>')
+g12 = sorted([(n, GROWTH[n], hx) for _, _, cols in AES for n, hx, _ in cols], key=lambda x: -x[1])
+slides['A2-growth-all'] = page(f'<p class="kicker">Same scale, all twelve</p><h2>Plum and moss green are the climbers, four colours barely move</h2><p class="sub">% change in Google searches this year vs last, all twelve colours on one scale.</p>{bars(g12, lambda v: f"+{v}%", colour=lambda i, it: it[2], small=True)}<div class="pg">2/7</div>')
 for k, (name, desc, cols) in enumerate(AES, start=3):
     r4 = ring([[(n, hx) for n, hx, _ in cols]], R=330, w=0.46, gap=0, label_r=390, font=34)
     legend = ''.join(f'<div style="display:flex;align-items:center;gap:14px;font-size:24px;line-height:1.25"><span style="display:inline-block;width:26px;height:26px;border-radius:50%;background:{hx};flex:none"></span><span><b style="font-family:\'DM Serif Display\',Georgia,serif;font-weight:normal;font-size:26px">{n}</b> <span style="color:{MUTED}">{hx}</span><br>{d}</span></div>' for n, hx, d in cols)
@@ -136,14 +145,13 @@ vol = [('marigold', 126, '#DFAA4F'), ('lilac', 103, '#927EC3'), ('fuchsia', 84, 
 dsvg, dpct = donut(vol)
 dleg = ''.join('<div style="display:flex;align-items:center;gap:12px;font-size:24px"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background:' + hx + ';flex:none"></span><span><b style="font-family:DM Serif Display,Georgia,serif;font-weight:normal;font-size:26px">' + n + '</b> <span style="color:' + MUTED + '">' + str(v) + 'k searches</span></span></div>' for (n, v, hx), p in zip(vol, dpct))
 dsmall = dsvg.replace('width="810" height="810"', 'width="740" height="740"')
-cover_title = "The <em>Fall/Winter 2027</em> colours, ranked by searches"
+cover_title = "Growth is one thing, volume is another: the five with a published search volume"
 cover_foot = "% = each colour's share of the combined searches for the five colours that come with a search volume. The other seven have no published volume."
-slides['A1-cover'] = page('<p class="kicker">Stop calling everything a trend</p><h1>' + cover_title + '</h1><div class="ringwrap donut" style="flex:none;margin:10px 0 30px">' + dsvg + '</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin-top:auto">' + dleg + '</div><div class="foot">' + cover_foot + '</div>')
+slides['A6-search-share'] = page('<p class="kicker">And by volume</p><h1>' + cover_title + '</h1><div class="ringwrap donut" style="flex:none;margin:10px 0 30px">' + dsvg + '</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin-top:auto">' + dleg + '</div><div class="foot">' + cover_foot + '</div><div class="pg">6/7</div>')
 print('donut shares', dict(zip([n for n,_,_ in vol], dpct)))
 _unused = (f'<p class="kicker">Ordered by searches</p><h2>Marigold is the most searched of the twelve</h2><p class="sub">Search volume, in thousands of searches. Only five of the twelve colours come with one.</p>{bars(vol, lambda v: f"{v}k", colour=lambda i, it: it[2])}<div class="foot">No period or country is published for these volumes, so they are quoted as given.</div><div class="pg">5/7</div>')
 gro = [('dove grey', 43, '#838384'), ('plum purple', 39, '#583759'), ('moss green', 23, '#7E8C53'), ('cobalt blue', 14, '#4C80FD'), ('terracotta', 7, '#D38377')]
-slides['A6-search-growth'] = page(f'<p class="kicker">Ordered by search growth</p><h2>Dove grey is the fastest climber, terracotta barely moved</h2><p class="sub">% change in searches vs last year, for the five colours measured that way.</p>{bars(gro, lambda v: f"+{v}%", colour=lambda i, it: it[2])}<div class="foot">A colour whose searches grew 7% in a year is not a forecast, it is a colour that exists.</div><div class="pg">6/7</div>')
-slides['A7-close'] = page(f'<p class="kicker">And the last two</p><h2>Chestnut brown and chartreuse only have TikTok views</h2><div class="stat"><div class="n">196M</div><div class="t">views for chestnut brown</div></div><div class="stat"><div class="n">149M</div><div class="t">views for chartreuse</div></div><p class="body" style="margin-top:30px">Twelve colours, three different yardsticks, not one colour measured twice. That is why I line them up on one scale before I call any of them a trend.</p><p class="body" style="margin-top:20px">On my own Paris SS27 tagging, red was 2% of the palette and purple 1%. The runway is not where the Heritage Craft signal is coming from yet.</p><div class="pill">Full piece on Substack</div><div class="pg">7/7</div>', dark=True)
+slides['A7-close'] = page(f'<p class="kicker">The takeaway</p><h2>The ones that exist, and the ones that are moving</h2><div class="stat"><div class="n">+60%</div><div class="t">plum purple and moss green, the fastest climbers</div></div><div class="stat"><div class="n">+10%</div><div class="t">lilac, chartreuse, chestnut brown and terracotta</div></div><p class="body" style="margin-top:30px">Twelve colours, three different yardsticks in the forecast, not one measured twice. So I pulled all twelve myself: plum and moss green up 60%, dark red and forest green up 50%, and four colours up just 10%.</p><p class="body" style="margin-top:20px">A colour whose searches grew 10% in a year is not a forecast, it is a colour that exists. My bet: marigold for volume, plum for growth.</p><div class="pill">Full piece on Substack</div><div class="pg">7/7</div>', dark=True)
 
 # ---------- Carousel B: trends ----------
 slides['B1-cover'] = page(f'<p class="kicker">Stop calling everything a trend</p><h1>The <em>Fall/Winter 2027</em> trends you\'ll see on next year\'s runways, ranked by the numbers</h1><p class="sub">A forecast gave me 36 trends. I put every one on the same scale to see which are actually moving.</p><div class="big" style="color:{PINK}">36</div><p class="body">named trends, six different yardsticks, zero measured twice</p><div class="foot">The Data Fashion Brief</div>')
