@@ -58,7 +58,7 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{round(v)}%'
             for k, line in enumerate(wrap(sub[i], wn + 2)):
                 p.append(f'<text x="{cx:.1f}" y="{base+44+label_lines*31+k*24-4}" text-anchor="middle" font-family="{SANS}" font-size="19" fill="{MUTED}">{html.escape(line)}</text>')
     p.append(f'<line x1="{x0-10:.1f}" y1="{base}" x2="{x0+slot*n+10:.1f}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
-    p.append(f'<text x="{left-10}" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(source)}</text>')
+    if source: p.append(f'<text x="{left-10}" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(source)}</text>')
     p.append('</svg>')
     return name, '\n'.join(p), h
 
@@ -70,7 +70,7 @@ charts = []
 vol = [('marigold', 126, VP), ('lilac', 103, SR), ('fuchsia', 84, SR), ('forest green', 57, HC), ('dark red', 35, HC)]
 colour_vol = bar_chart('08-colour-search-volume', 'marigold is the most searched',
     'search volume, in thousands of searches, for the five colours measured that way',
-    [(l, v) for l, v, _ in vol], SRC + ', search volume', fmt=lambda v: f'{round(v)}k',
+    [(l, v) for l, v, _ in vol], '', fmt=lambda v: f'{round(v)}k',
     highlight=0, sub=[a for _, _, a in vol], colours=['#DFAA4F', '#927EC3', '#FF278A', '#254117', '#7B3330'])
 
 # 2. Year on year change in searches
@@ -109,7 +109,7 @@ charts.append(colour_vol)
 cgro = [('dove grey', 43, VP), ('plum purple', 39, HC), ('moss green', 23, VP), ('cobalt blue', 14, SR), ('terracotta', 7, VP)]
 charts.append(bar_chart('09-colour-search-growth', 'dove grey climbs, terracotta barely moves',
     '% change in searches vs last year, for the five colours measured that way',
-    [(l, v) for l, v, _ in cgro], SRC + ', searches vs last year', fmt=lambda v: f'+{round(v)}%',
+    [(l, v) for l, v, _ in cgro], '', fmt=lambda v: f'+{round(v)}%',
     highlight=0, sub=[a for _, _, a in cgro], colours=['#838384', '#583759', '#7E8C53', '#4C80FD', '#D38377']))
 fam = [('brown & beige', 11, 'chestnut brown'), ('green & olive', 8, 'forest, moss'), ('grey', 7, 'dove grey'),
        ('pink', 5, 'fuchsia'), ('blue', 5, 'cobalt'), ('yellow & gold', 5, 'marigold, chartreuse'),

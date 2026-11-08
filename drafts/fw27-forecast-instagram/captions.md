@@ -2,13 +2,13 @@
 
 Source credited once, at the end of each caption, not on the slides. Numbers as printed in the forecast, Paris figures from the DFB SS27 tagging.
 
-## Post A: the 12 colours (carousel A1 to A7)
+## Post A: the 12 colours (carousel A1 to A7, cover is the search-share donut, slide 2 the twelve-colour map)
 
 Stop calling everything a trend: the Fall/Winter 2027 colour edition
 
 Ok ok ok guys, a forecast just handed me the 12 colours we'll apparently see on next autumn's runways, split into three moods: Heritage Craft (russet red, plum purple, forest green, chestnut brown), Sensory Riot (chartreuse, fuchsia, lilac, cobalt blue) and Veiled Performance (marigold, moss green, dove grey, terracotta).
 
-The bit I care about is why these twelve, so I lined them up by the number each one comes with. Only five have an actual search volume, and marigold wins it at 126k, then lilac 103k and fuchsia 84k, with the two heritage colours last, forest green 57k and dark red 35k.
+The bit I care about is why these twelve, so I lined them up by the number each one comes with. Only five have an actual search volume, and marigold wins it at 126k, then lilac 103k and fuchsia 84k, with the two heritage colours last, forest green 57k and dark red 35k. The donut on the first slide is those five as a share of their combined searches, marigold 31%, lilac 25%, fuchsia 21%, forest green 14%, dark red 9%. Not a runway share, a search share, and only for the five that have one.
 
 Five more only have search growth: dove grey +43%, plum purple +39%, moss green +23%, cobalt blue +14% and terracotta +7%. A colour whose searches grew 7% in a year is not a forecast, it's a colour that exists.
 

@@ -21,6 +21,58 @@ AES = [('Heritage Craft', 'stealth wealth with an artisanal touch', HC),
        ('Sensory Riot', 'maximalism, bold colour, clashing prints', SR),
        ('Veiled Performance', 'sportswear meets rugged utility', VP)]
 
+
+import math
+def ring(groups, R=400, w=0.42, gap=3.0, label_r=None, size=1000, font=26, show_names=True):
+    """groups: list of lists of (name, hex). Equal wedges, a small gap between groups, largest arc starting at 12 o'clock, clockwise.
+    A colour map, not a share chart: every wedge is the same size on purpose."""
+    n = sum(len(g) for g in groups); ng = len(groups)
+    span = (360 - gap * (ng if ng > 1 else 0)) / n
+    cx = cy = size / 2; r_out = R; r_in = R * (1 - w); lr = label_r or (R + 48)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}" overflow="visible" style="overflow:visible">']
+    a = -90.0
+    for g in groups:
+        for name, hx in g:
+            a0, a1 = a, a + span
+            p0 = (cx + r_out * math.cos(math.radians(a0)), cy + r_out * math.sin(math.radians(a0)))
+            p1 = (cx + r_out * math.cos(math.radians(a1)), cy + r_out * math.sin(math.radians(a1)))
+            q1 = (cx + r_in * math.cos(math.radians(a1)), cy + r_in * math.sin(math.radians(a1)))
+            q0 = (cx + r_in * math.cos(math.radians(a0)), cy + r_in * math.sin(math.radians(a0)))
+            large = 1 if span > 180 else 0
+            d = f'M{p0[0]:.1f} {p0[1]:.1f} A{r_out} {r_out} 0 {large} 1 {p1[0]:.1f} {p1[1]:.1f} L{q1[0]:.1f} {q1[1]:.1f} A{r_in} {r_in} 0 {large} 0 {q0[0]:.1f} {q0[1]:.1f} Z'
+            stroke = f' stroke="{OUTLINE}" stroke-width="2"' if lum(hx) > 0.82 else ''
+            out.append(f'<path d="{d}" fill="{hx}"{stroke}/>')
+            if show_names:
+                m = math.radians((a0 + a1) / 2); lx, ly = cx + lr * math.cos(m), cy + lr * math.sin(m)
+                anchor = 'start' if math.cos(m) > 0.25 else ('end' if math.cos(m) < -0.25 else 'middle')
+                out.append(f'<text x="{lx:.1f}" y="{ly + font*0.35:.1f}" text-anchor="{anchor}" font-family="Century Gothic, Questrial, sans-serif" font-size="{font}" fill="{INK}">{html.escape(name)}</text>')
+            a = a1
+        a += gap
+    out.append('</svg>'); return '\n'.join(out)
+
+def donut(items, size=810):
+    """Carmen's locked DFB donut: ring 42% of radius, largest wedge at 12 o'clock clockwise, whole-number %
+    labels inside at 79% of the radius, 42px if >= 15, 32px if >= 8, else 24, white if luminance < 0.55."""
+    total = sum(v for _, v, _ in items); R = size / 2; r_in = R * 0.58; cx = cy = R
+    pct = [round(100 * v / total) for _, v, _ in items]
+    diff = 100 - sum(pct); pct[0] += diff
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}">']
+    a = -90.0
+    for (name, v, hx), p in zip(items, pct):
+        span = 360 * p / 100; a0, a1 = a, a + span
+        P = lambda r, ang: (cx + r * math.cos(math.radians(ang)), cy + r * math.sin(math.radians(ang)))
+        p0, p1, q1, q0 = P(R, a0), P(R, a1), P(r_in, a1), P(r_in, a0)
+        large = 1 if span > 180 else 0
+        d = f'M{p0[0]:.1f} {p0[1]:.1f} A{R} {R} 0 {large} 1 {p1[0]:.1f} {p1[1]:.1f} L{q1[0]:.1f} {q1[1]:.1f} A{r_in} {r_in} 0 {large} 0 {q0[0]:.1f} {q0[1]:.1f} Z'
+        stroke = f' stroke="{OUTLINE}" stroke-width="1.2"' if lum(hx) > 0.82 else ''
+        out.append(f'<path d="{d}" fill="{hx}"{stroke}/>')
+        fs = 42 if p >= 15 else (32 if p >= 8 else 24)
+        lx, ly = P(R * 0.79, (a0 + a1) / 2)
+        col = '#FFFFFF' if lum(hx) < 0.55 else '#000000'
+        out.append(f'<text x="{lx:.1f}" y="{ly + fs * 0.35:.1f}" text-anchor="middle" font-family="Arimo, Arial, sans-serif" font-size="{fs}" fill="{col}">{p}%</text>')
+        a = a1
+    out.append('</svg>'); return '\n'.join(out), pct
+
 CSS = f'''
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Questrial&display=swap');
 body{{margin:0;background:#fff}}
@@ -49,6 +101,8 @@ h2{{font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:56px;
 .pill{{display:inline-block;background:{PINK};color:#fff;padding:10px 22px;font-size:24px;letter-spacing:2px;text-transform:uppercase;margin-top:auto}}
 .list{{font-size:30px;line-height:1.45;margin:0;padding-left:0;list-style:none}} .list li{{margin-bottom:22px}} .list b{{font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:38px;display:block}}
 .pg{{position:absolute;right:72px;top:84px;font-size:22px;color:{MUTED}}}
+.ringwrap{{flex:1;display:flex;align-items:center;justify-content:center}} .ringwrap svg{{width:940px;height:940px;overflow:visible}} .ringwrap.small svg{{width:620px;height:620px}} .ringwrap.donut svg{{width:700px;height:700px}}
+.grp{{display:flex;justify-content:space-between;font-size:22px;color:{MUTED};margin-top:-10px}} .grp b{{color:{INK};font-weight:normal}}
 '''
 
 def page(inner, dark=False):
@@ -70,13 +124,23 @@ def bars(items, fmt, colour=lambda i, it: None, small=False):
 
 slides = {}
 # ---------- Carousel A: colour ----------
-grid = ''.join(f'<div>{swatch(hx)}<div class="nm">{n}</div></div>' for _, _, cols in AES for n, hx, _ in cols)
-slides['A1-cover'] = page(f'<p class="kicker">Stop calling everything a trend</p><h1>The 12 colours you\'ll see on the <em>Fall/Winter 2027</em> runways</h1><p class="sub">Three aesthetics, four colours each. Swipe for why these twelve, and which ones are actually being searched.</p><div class="grid">{grid}</div><div class="foot">The Data Fashion Brief</div>')
-for k, (name, desc, cols) in enumerate(AES, start=2):
-    sw = ''.join(f'<div>{swatch(hx)}<div class="nm">{n}</div><div class="hx">{hx}</div><div class="dp">{d}</div></div>' for n, hx, d in cols)
-    slides[f'A{k}-{name.lower().replace(" ", "-")}'] = page(f'<p class="kicker">{name}</p><h2>{desc}</h2><p class="sub">The four colours of this aesthetic, and the one number behind each.</p><div class="sw4">{sw}</div><div class="foot">Hex sampled from the forecast\'s own swatches. Data points as printed in the forecast.</div><div class="pg">{k}/7</div>')
+
+cover_ring = ring([[(n, hx) for n, hx, _ in cols] for _, _, cols in AES], R=290, label_r=330, font=26)
+slides['A2-colour-map'] = page(f'<p class="kicker">The full palette</p><h1>The <em>Fall/Winter 2027</em> colour map</h1><p class="sub" style="margin-bottom:0">Twelve colours, three moods, one ring. Only five of them come with a search volume, which is why the donut on the cover has five wedges.</p><div class="ringwrap">{cover_ring}</div><div class="grp"><span><b>Heritage Craft</b> top right</span><span><b>Sensory Riot</b> bottom</span><span><b>Veiled Performance</b> top left</span></div><div class="foot">A colour map, not a share chart: every wedge is the same size on purpose.</div><div class="pg">2/7</div>')
+for k, (name, desc, cols) in enumerate(AES, start=3):
+    r4 = ring([[(n, hx) for n, hx, _ in cols]], R=330, w=0.46, gap=0, label_r=390, font=34)
+    legend = ''.join(f'<div style="display:flex;align-items:center;gap:14px;font-size:24px;line-height:1.25"><span style="display:inline-block;width:26px;height:26px;border-radius:50%;background:{hx};flex:none"></span><span><b style="font-family:\'DM Serif Display\',Georgia,serif;font-weight:normal;font-size:26px">{n}</b> <span style="color:{MUTED}">{hx}</span><br>{d}</span></div>' for n, hx, d in cols)
+    slides[f'A{k}-{name.lower().replace(" ", "-")}'] = page(f'<p class="kicker">{name}</p><h2>{desc}</h2><div class="ringwrap small" style="flex:none;margin:30px 0 40px">{r4}</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:22px 28px;margin-top:auto">{legend}</div><div class="pg">{k}/7</div>')
+
 vol = [('marigold', 126, '#DFAA4F'), ('lilac', 103, '#927EC3'), ('fuchsia', 84, '#FF278A'), ('forest green', 57, '#254117'), ('dark red', 35, '#7B3330')]
-slides['A5-search-volume'] = page(f'<p class="kicker">Ordered by searches</p><h2>Marigold is the most searched of the twelve</h2><p class="sub">Search volume, in thousands of searches. Only five of the twelve colours come with one.</p>{bars(vol, lambda v: f"{v}k", colour=lambda i, it: it[2])}<div class="foot">The forecast gives no period or country for these volumes, so they are quoted as printed.</div><div class="pg">5/7</div>')
+dsvg, dpct = donut(vol)
+dleg = ''.join('<div style="display:flex;align-items:center;gap:12px;font-size:24px"><span style="display:inline-block;width:24px;height:24px;border-radius:50%;background:' + hx + ';flex:none"></span><span><b style="font-family:DM Serif Display,Georgia,serif;font-weight:normal;font-size:26px">' + n + '</b> <span style="color:' + MUTED + '">' + str(v) + 'k searches</span></span></div>' for (n, v, hx), p in zip(vol, dpct))
+dsmall = dsvg.replace('width="810" height="810"', 'width="740" height="740"')
+cover_title = "The <em>Fall/Winter 2027</em> colours, ranked by searches"
+cover_foot = "% = each colour's share of the combined searches for the five colours that come with a search volume. The other seven have no published volume."
+slides['A1-cover'] = page('<p class="kicker">Stop calling everything a trend</p><h1>' + cover_title + '</h1><div class="ringwrap donut" style="flex:none;margin:10px 0 30px">' + dsvg + '</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin-top:auto">' + dleg + '</div><div class="foot">' + cover_foot + '</div>')
+print('donut shares', dict(zip([n for n,_,_ in vol], dpct)))
+_unused = (f'<p class="kicker">Ordered by searches</p><h2>Marigold is the most searched of the twelve</h2><p class="sub">Search volume, in thousands of searches. Only five of the twelve colours come with one.</p>{bars(vol, lambda v: f"{v}k", colour=lambda i, it: it[2])}<div class="foot">No period or country is published for these volumes, so they are quoted as given.</div><div class="pg">5/7</div>')
 gro = [('dove grey', 43, '#838384'), ('plum purple', 39, '#583759'), ('moss green', 23, '#7E8C53'), ('cobalt blue', 14, '#4C80FD'), ('terracotta', 7, '#D38377')]
 slides['A6-search-growth'] = page(f'<p class="kicker">Ordered by search growth</p><h2>Dove grey is the fastest climber, terracotta barely moved</h2><p class="sub">% change in searches vs last year, for the five colours measured that way.</p>{bars(gro, lambda v: f"+{v}%", colour=lambda i, it: it[2])}<div class="foot">A colour whose searches grew 7% in a year is not a forecast, it is a colour that exists.</div><div class="pg">6/7</div>')
 slides['A7-close'] = page(f'<p class="kicker">And the last two</p><h2>Chestnut brown and chartreuse only have TikTok views</h2><div class="stat"><div class="n">196M</div><div class="t">views for chestnut brown</div></div><div class="stat"><div class="n">149M</div><div class="t">views for chartreuse</div></div><p class="body" style="margin-top:30px">Twelve colours, three different yardsticks, not one colour measured twice. That is why I line them up on one scale before I call any of them a trend.</p><p class="body" style="margin-top:20px">On my own Paris SS27 tagging, red was 2% of the palette and purple 1%. The runway is not where the Heritage Craft signal is coming from yet.</p><div class="pill">Full piece on Substack</div><div class="pg">7/7</div>', dark=True)
