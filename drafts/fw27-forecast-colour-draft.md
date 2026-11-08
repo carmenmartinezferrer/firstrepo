@@ -1,5 +1,5 @@
 <!--
-DRAFT 3, TEXT. All twelve colours now carry Carmen's own Google year on year growth, charted on one scale (12-colour-growth-all.png). Colour edition rewritten on Carmen's notes: her intro
+DRAFT 4, TEXT. Tail from 'By search growth' cut hard on Carmen's request. All twelve colours now carry Carmen's own Google year on year growth, charted on one scale (12-colour-growth-all.png). Colour edition rewritten on Carmen's notes: her intro
 kept, each palette opens with why it's called that (modelled on her Elle
 paragraphs, her own Google Trends numbers used as she gave them), every
 colour expressed as a % (share of searches or growth), no raw volumes or
@@ -54,46 +54,34 @@ Ok, ok… twelve colours, three moods, each with a number next to it, very convi
 
 [CHART: 12-colour-growth-all.png, % change in Google searches this year vs last, all twelve colours on one scale, DFB pull]
 
-Plum purple and moss green are both up 60%, dark red and forest green both up 50%, then cobalt blue, marigold and dove grey at 30%, fuchsia at 20%, and four colours at 10%: lilac, chartreuse, chestnut brown and terracotta. Which rearranges the forecast a bit. Heritage Craft is the mood that's actually moving, three of its four colours in the top four, and the colour both forecasters agreed on that search has least time for is lilac, heavily searched already but growing 10%.
+Plum purple and moss green up 60%, dark red and forest green up 50%, cobalt blue, marigold and dove grey at 30%, fuchsia at 20%, and four colours at 10%: lilac, chartreuse, chestnut brown and terracotta. So Heritage Craft is the mood that's actually moving, three of its four colours in the top four, and lilac, one of the four colours both forecasters agreed on, is the one search has least time for.
 
-### By share of searches: marigold first, the heritage colours last
+### By share of searches: marigold first
 
 [CHART: 11-colour-search-share.png, each colour's share of the combined searches for the five colours the forecast gives a volume to]
 
-Volume tells a different story from growth, which is exactly why you need both. Of the five colours the forecast gives a search volume to, marigold takes 31% of the combined searches, lilac 25%, fuchsia 21%, forest green 14% and dark red 9%. So marigold and lilac are the big colours today, and plum, dark red and forest green are the ones growing into next autumn. The two TikTok colours, chestnut brown and chartreuse, are watched rather than searched, 196M and 149M views against 10% growth each. Twelve colours, three yardsticks in the forecast, not one colour measured twice, which is exactly why I don't call all twelve a trend until I've put them on my own scale.
+Volume is the other half. Of the five colours with a published search volume, marigold takes 31% of the combined searches, lilac 25%, fuchsia 21%, forest green 14% and dark red 9%. Marigold and lilac are the big colours today, plum, dark red and forest green are the ones growing into next autumn, and chestnut brown and chartreuse are watched on TikTok rather than searched.
 
 > **In The Press**
-> Plum and purple are already this autumn's story. Who What Wear has been calling plum the elegant cousin of burgundy for Winter 2026 ([Who What Wear](https://www.whowhatwear.com/fashion/trends/plum-color-trend-winter-2026-womens-outfits)), and Coveteur had royal purple taking red's place as the colour of the Fall/Winter 2026 season, worn head to toe at Loewe, Ferragamo and Tory Burch ([Coveteur](https://coveteur.com/royal-purple-trend)). So plum purple's growth is riding a wave that started on the FW26 runways, which makes it the safest bet in the Heritage Craft palette even though its cousin russet has the weakest search number.
+> Plum is already this autumn's story. Who What Wear calls it the elegant cousin of burgundy for Winter 2026 ([Who What Wear](https://www.whowhatwear.com/fashion/trends/plum-color-trend-winter-2026-womens-outfits)), and Coveteur had royal purple taking red's place for Fall/Winter 2026, head to toe at Loewe, Ferragamo and Tory Burch ([Coveteur](https://coveteur.com/royal-purple-trend)). Plum's 60% is riding a wave that started on the FW26 runways.
 
 ## What the Paris SS27 runway can already see
 
 [CHART: paris/donut-season.png, the Paris SS27 season palette, % = share of all colour on the runway across 16 houses]
 
-The forecast calls its runway references early indicators, so it's fair to check the twelve colours against the SS27 runway I tagged, with the caveat that spring and autumn palettes are different animals. Grouping the twelve into the families my data uses, brown and beige was 11% of the Paris palette (chestnut brown's family), green and olive 8% (forest and moss), grey 7% (dove grey), pink, blue and yellow 5% each (fuchsia, cobalt, marigold and chartreuse), orange and rust 3% (terracotta), red 2% (russet) and purple 1% (plum and lilac). So the only forecast colour Paris was already properly wearing is green, the biggest real colour of the season, and the Heritage Craft anchors, russet and plum, were close to absent, which doesn't make them wrong for autumn, it means the runway isn't where that signal is coming from yet. The fabric fairs are: Première Vision Paris built its Autumn/Winter 2027/28 season on deep purples, bordeaux and mineral neutrals ([FashionUnited](https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139)), which is the Heritage Craft palette almost exactly.
+Spring and autumn palettes are different animals, but the forecast calls its runway references early indicators, so here is the check. Grouped into my colour families, Paris SS27 was 11% brown and beige (chestnut brown), 8% green and olive (forest and moss), 7% grey (dove grey), 5% each for pink, blue and yellow (fuchsia, cobalt, marigold and chartreuse), 3% orange and rust (terracotta), 2% red (russet) and 1% purple (plum and lilac). So green is the only forecast colour Paris was already properly wearing, and the Heritage Craft anchors, russet and plum, were close to absent, which doesn't make them wrong for autumn, it means the signal is coming from the fabric fairs, where Première Vision built its Autumn/Winter 2027/28 season on deep purples, bordeaux and mineral neutrals ([FashionUnited](https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139)), not from the runway yet.
 
-### House by house, the Paris houses already wearing next autumn
-
-This is my favourite bit, because the season average hides where the colour actually lives, and a few Paris houses were already in the FW27 palette without knowing it.
-
-- **Lacoste** is the Veiled Performance house. Green is its biggest slice at 24% of its palette, mostly khaki and bottle green, orange and rust is 12% and literally tagged as terracotta, clay and rust, and yellow is 11%, mostly chartreuse. Three of the forecast's twelve colours in one collection, against a season average of 8%, 3% and 5%.
-- **Loewe** owns marigold's family, yellow and gold at 15% of its palette (canary and lemon sorbet), three times the season average, and green at 20%, though Loewe's green is jade and pistachio, nothing like forest.
-- **Miu Miu** is the chestnut brown house, brown and beige at 20% of its palette, tagged as chocolate, brown check and chestnut leather, against 11% for the season.
-- **Valentino** did the Sensory Riot colours, pink at 13% of its palette and specifically fuchsia and cerise, plus lavender at 6% of its palette, which with Balmain's 8% is where almost all of Paris's purple came from.
-- **Chanel, Maison Margiela and Dior** are the dove grey houses, 15%, 16% and 13% against 7% for the season.
-- **Russet red** has no house. Red was 2% of Paris and Chanel and Lanvin gave it 7% each, scarlet and lacquer red, neither of them a russet. If the forecasters are right about russet, it's coming from nowhere on the spring runway.
+A few houses were already in next autumn's palette without knowing it. **Lacoste** is the Veiled Performance house, green 24% of its palette (khaki and bottle green), orange and rust 12% (tagged terracotta, clay and rust) and yellow 11% (mostly chartreuse), against season averages of 8%, 3% and 5%. **Loewe** owns marigold's family, yellow and gold at 15%, three times the season average. **Miu Miu** is the chestnut brown house at 20% brown and beige. **Valentino** did the Sensory Riot colours, fuchsia and cerise at 13% and lavender at 6%. **Chanel, Maison Margiela and Dior** are the dove grey houses at 15%, 16% and 13% against 7%. And russet red has no house at all: red was 2% of Paris, scarlet at Chanel and lacquer red at Lanvin, neither of them a russet.
 
 [CHART: paris/grid-houses-fw27.png, Lacoste, Loewe, Miu Miu and Valentino SS27 palettes, % = share of each house's total colour on the runway]
 
 ## The Takeaway
 
-What the FW27 colour forecast is actually made of:
-
 - Three moods with real reasons behind them: quiet luxury growing up into craft, a maximalist reaction to AI sameness and minimalism fatigue, and gorpcore maturing into rain-ready utility.
-- Four colours two forecasters agree on: russet red, lilac, a maize or marigold yellow, and forest green. That's the shortlist.
-- Of those four, volume backs marigold (31% of the combined searches) and lilac (25%), growth backs forest green and dark red (both up 50% in my own Google pull), and lilac is the odd one out, heavily searched but growing just 10%.
-- Plum purple and moss green are the fastest climbers of the twelve, both up 60% in Google searches this year against last, with dark red and forest green at 50%. Plum rides this autumn's purple runways, moss green is the one nobody is talking about yet.
-- Paris SS27 already wore green (8% of the palette, Lacoste 24%, Loewe 20%), brown (11%, Miu Miu 20%) and grey (7%, Margiela 16%), and almost no red or purple, so the heritage reds and plums are a fabric fair story, not a runway one yet.
-- Twelve colours, three yardsticks in the forecast, none measured twice. On one scale, the ones worth your money are plum and moss green for growth, marigold for volume, and lilac, chartreuse, chestnut brown and terracotta are colours that exist.
+- Four colours two forecasters agree on: russet red, lilac, a maize or marigold yellow, and forest green. Volume backs marigold and lilac, growth backs forest green and dark red, and lilac is heavily searched but growing just 10%.
+- Plum purple and moss green are the fastest climbers, both up 60% in Google searches this year against last. Plum rides this autumn's purple runways, moss green is the one nobody is talking about yet.
+- Paris SS27 already wore green, brown and grey, and almost no red or purple, so the heritage reds and plums are a fabric fair story for now.
+- Twelve colours, three yardsticks in the forecast, none measured twice. On one scale: plum and moss green for growth, marigold for volume, and lilac, chartreuse, chestnut brown and terracotta are colours that exist.
 
 If I'm buying one colour for next autumn it's marigold, because two forecasters agree on it, it's the most searched of the twelve and still growing 30%, and Loewe already did it. If I'm buying two, the second is plum. Which one are you betting on? (I need to know I'm not the only one who's going to look like a tiny sun.)
 
