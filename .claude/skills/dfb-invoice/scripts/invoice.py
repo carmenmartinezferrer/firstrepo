@@ -61,6 +61,19 @@ def next_number(log, year):
     return f"DFB-{year}-{(max(nums) + 1 if nums else 1):03d}"
 
 
+def month_number(log, d):
+    """Carmen's own scheme (2026-09, 2026-10 ...); a second invoice in the same month becomes 2026-11-2."""
+    base, taken = f"{d.year}-{d.month:02d}", set()
+    if log.exists():
+        with log.open(newline="", encoding="utf-8") as f:
+            taken = {r["number"] for r in csv.DictReader(f)}
+    n, num = 1, base
+    while num in taken:
+        n += 1
+        num = f"{base}-{n}"
+    return num
+
+
 def build_html(inv, prof):
     cur = inv["currency"]
     rows = "".join(
@@ -76,7 +89,7 @@ def build_html(inv, prof):
     c = inv["client"]
     pay = "".join(
         f"<div><b>{k}</b> {escape(prof[key])}</div>"
-        for k, key in (("Account holder", "account_holder"), ("IBAN", "iban"), ("BIC", "bic"), ("Bank", "bank"))
+        for k, key in (("Account holder", "account_holder"), ("IBAN", "iban"), ("BIC", "bic"), ("Bank", "bank"), ("Bank address", "bank_address"))
         if prof.get(key)
     )
     tax = f"<div>{escape(prof['tax_id_label'])}: {escape(prof['tax_id'])}</div>" if prof.get("tax_id") else ""
@@ -119,7 +132,7 @@ td:first-child {{ width: 52% }}
   </div>
 </div>
 <div class="parties">
-  <div><h3>From</h3><div class="name">{escape(prof['name'])}</div>{lines(prof['address'])}{tax}<div>{escape(prof['email'])}</div></div>
+  <div><h3>From</h3><div class="name">{escape(prof['name'])}</div>{lines(prof['address'])}{tax}{('<div>' + escape(prof['email']) + '</div>') if prof.get('email') else ''}</div>
   <div><h3>Billed to</h3><div class="name">{escape(c['name'])}</div>{lines(c.get('address'))}{ctax}{('<div>' + escape(c['email']) + '</div>') if c.get('email') else ''}</div>
 </div>
 <table><thead><tr><th>Description</th><th class="n">Qty</th><th class="n">Unit price</th><th class="n">Amount</th></tr></thead>
@@ -133,6 +146,61 @@ td:first-child {{ width: 52% }}
 <div class="pay"><h3>How to pay</h3>{pay}<div><b>Reference</b> {inv['number']}</div></div>
 {notes}
 <div class="foot"><span>The Data Fashion Brief · @thedatafashionbrief</span><span>{inv['number']}</span></div>
+</body></html>"""
+
+
+def build_plain_html(inv, prof):
+    """Carmen's established plain layout (the September 2026 FashionUnited invoice): Arial, no colour."""
+    cur = inv["currency"]
+    c = inv["client"]
+    rows = "".join(
+        f"<tr><td>{escape(i['description'])}</td><td class='n'>{i['qty']:g}</td>"
+        f"<td class='n'>{fmt(i['unit'], cur)}</td><td class='n'>{fmt(i['amount'], cur)}</td></tr>"
+        for i in inv["items"]
+    )
+    vat_row = (f"<tr><td colspan='3' class='n'>VAT ({inv['vat_rate']:g}%)</td><td class='n'>{fmt(inv['vat'], cur)}</td></tr>"
+               if inv["vat_rate"] else "")
+    pay = "".join(
+        f"<div>{k}: {escape(prof[key])}</div>"
+        for k, key in (("Account holder", "account_holder"), ("IBAN", "iban"), ("BIC", "bic"),
+                       ("Bank", "bank"), ("Bank address", "bank_address"))
+        if prof.get(key)
+    )
+    extra = "".join(f"<p class='small'>{escape(inv[k])}</p>" for k in ("vat_note", "notes") if inv.get(k))
+    po = f"<div>Your reference: {escape(inv['po_ref'])}</div>" if inv.get("po_ref") else ""
+    return f"""<!doctype html><html><head><meta charset="utf-8"><title>Invoice {inv['number']}</title>
+<style>
+@page {{ size: A4; margin: 0 }}
+* {{ box-sizing: border-box; margin: 0; padding: 0 }}
+body {{ font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 10pt; line-height: 1.45; padding: 24mm 24mm 18mm }}
+h1 {{ font-size: 22pt; margin-bottom: 8pt }}
+h2 {{ font-size: 10pt; margin-bottom: 4pt }}
+.parties {{ display: flex; margin-top: 16mm }} .parties > div {{ flex: 1 }}
+table {{ width: 100%; border-collapse: collapse; margin-top: 16mm }}
+th {{ text-align: left; font-size: 10pt; padding: 0 0 6pt; border-bottom: .75pt solid #000 }}
+th.n, td.n {{ text-align: right; white-space: nowrap }}
+td {{ padding: 7pt 0; vertical-align: top }} td:first-child {{ width: 56% }} td.n {{ padding-left: 8pt }}
+tr.total td {{ border-top: .75pt solid #000; font-weight: 700; padding-top: 8pt }}
+tbody tr:last-child td {{ padding-bottom: 8pt }}
+.pay {{ margin-top: 20mm }}
+.small {{ margin-top: 10mm; font-size: 8.5pt; color: #555 }}
+</style></head><body>
+<h1>INVOICE</h1>
+<div>Invoice number: {inv['number']}</div>
+<div>Invoice date: {long_date(inv['date'])}</div>
+{('<div>Payment due: ' + long_date(inv['due']) + '</div>') if inv['due_given'] else ''}
+{po}
+<div class="parties">
+  <div><h2>From</h2><div>{escape(prof['name'])}</div>{lines(prof['address'])}{('<div>' + escape(prof['tax_id_label'] + ': ' + prof['tax_id']) + '</div>') if prof.get('tax_id') else ''}</div>
+  <div><h2>To</h2><div>{escape(c['name'])}</div>{lines(c.get('address'))}{('<div>VAT ID: ' + escape(c['vat_id']) + '</div>') if c.get('vat_id') else ''}</div>
+</div>
+<table><thead><tr><th>Description</th><th class="n">Qty</th><th class="n">Rate</th><th class="n">Amount</th></tr></thead>
+<tbody>{rows}</tbody>
+{vat_row}
+<tr class="total"><td></td><td></td><td class="n">Total</td><td class="n">{fmt(inv['total'], cur)}</td></tr></table>
+<div class="pay"><h2>Payment details</h2>{pay}</div>
+<p class="small">Please settle this invoice by bank transfer to the account above. Thank you.</p>
+{extra}
 </body></html>"""
 
 
@@ -154,6 +222,8 @@ def main():
     ap.add_argument("--number", help="force an invoice number instead of the next free one")
     ap.add_argument("--profile", default=str(INVOICES / "profile.json"))
     ap.add_argument("--out-dir", default=str(INVOICES))
+    ap.add_argument("--style", choices=["dfb", "plain"], help="dfb = DFB look, plain = Carmen's plain FashionUnited layout "
+                    "(default: job's 'style', else profile's 'style', else dfb)")
     ap.add_argument("--no-log", action="store_true", help="build the PDF without adding a row to log.csv")
     a = ap.parse_args()
 
@@ -163,7 +233,7 @@ def main():
                  "and fill in Carmen's real details first. Never invent them.")
     prof = json.loads(prof_path.read_text(encoding="utf-8"))
     job = json.loads(Path(a.job).read_text(encoding="utf-8"))
-    for k in ("name", "address", "email"):
+    for k in ("name", "address"):
         if not prof.get(k) or "TODO" in str(prof[k]):
             sys.exit(f"profile.json is missing a real '{k}'.")
     if not prof.get("iban") or "TODO" in prof["iban"]:
@@ -184,10 +254,13 @@ def main():
         items.append({"description": it["description"], "qty": float(qty), "unit": unit, "amount": amount})
     vat = money(subtotal * vat_rate / 100)
     inv = {
-        "number": a.number or next_number(Path(a.out_dir) / "log.csv", issued.year), "date": issued, "due": due,
+        "number": a.number or (month_number(Path(a.out_dir) / "log.csv", issued)
+                               if prof.get("number_style") == "year-month"
+                               else next_number(Path(a.out_dir) / "log.csv", issued.year)), "date": issued, "due": due,
         "currency": cur, "client": job["client"], "items": items, "subtotal": subtotal,
         "vat_rate": float(vat_rate), "vat": vat, "total": subtotal + vat,
-        "po_ref": job.get("po_ref", ""), "vat_note": job.get("vat_note", ""), "notes": job.get("notes", ""),
+        "po_ref": job.get("po_ref", ""), "style": a.style or job.get("style") or prof.get("style") or "dfb",
+        "due_given": bool(job.get("due_date") or job.get("due_days")), "vat_note": job.get("vat_note", ""), "notes": job.get("notes", ""),
     }
     check_no_dashes(json.dumps(job, ensure_ascii=False), json.dumps(prof, ensure_ascii=False))
 
@@ -197,7 +270,7 @@ def main():
     if pdf.exists() and not a.number:
         sys.exit(f"{pdf} already exists.")
     html = out / f".{inv['number']}.html"
-    html.write_text(build_html(inv, prof), encoding="utf-8")
+    html.write_text((build_plain_html if inv["style"] == "plain" else build_html)(inv, prof), encoding="utf-8")
     try:
         html_to_pdf(html, pdf)
     finally:

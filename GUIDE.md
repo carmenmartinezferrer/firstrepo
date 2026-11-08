@@ -177,13 +177,13 @@ You don't need to name the skill. It loads when your message matches. Naming it 
 
 ### 2.13 `dfb-invoice` (invoices PDF)
 
-- **Attach:** nothing, just the job. First time only, Claude asks for your legal name, address, tax number and IBAN and saves them in `invoices/profile.json` (keep the repo private). Per client it needs their legal name, address, VAT ID if any, what the work was, the amount and whether VAT applies. You confirm the VAT treatment, Claude never decides it.
+- **Attach:** nothing, just the job. First time only, Claude asks for your legal name, address, tax number and IBAN and saves them in `invoices/profile.json`, which is git-ignored because the repo is public (a new cloud session won't have it, so re-attach an old invoice). Per client it needs their legal name, address, VAT ID if any, what the work was, the amount and whether VAT applies. You confirm the VAT treatment, Claude never decides it.
 - **Prompts:**
   - "Invoice FashionUnited 600 euros for the maximalism piece."
   - "Invoice [brand]: 1 sponsored carousel at 850 and 2 story sets at 120 each, 30 days."
   - "Who hasn't paid me yet?" / "ASOS paid."
   - "Credit note for invoice DFB-2026-003."
-- **You get:** a one-page PDF in `invoices/` (numbered `DFB-2026-001`, `-002`, ...), totals worked out by the script, a row in `invoices/log.csv`, and an offer to draft the email to the client in Gmail (a draft, never sent for you).
+- **You get:** a one-page PDF in `invoices/` (numbered `DFB-2026-001`, `-002`, ...), totals worked out by the script, a row in `invoices/log.csv` (PDFs and the log are never pushed to GitHub), and an offer to draft the email to the client in Gmail (a draft, never sent for you).
 
 ### 2.13 `dfb-carousel` (data carousel in Canva, repo `dfb-data`)
 

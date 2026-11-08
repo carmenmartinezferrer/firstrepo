@@ -5,3 +5,10 @@ __pycache__/
 media-kit/media_kit.html
 media-kit/media_kit_preview.png
 media-kit/.substack_raw/
+
+# Invoices hold bank details and client data, and this repo is public. Never commit these.
+invoices/profile.json
+invoices/clients.json
+invoices/log.csv
+invoices/*.pdf
+invoices/draft*.json

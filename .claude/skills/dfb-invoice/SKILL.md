@@ -20,6 +20,9 @@ and keeps a running log. Everything lives in `invoices/` in this repo; the build
 - **No em dashes or en dashes** anywhere on the invoice (the script refuses to build if one is present), and no decimal
   percentages in the copy. Money keeps its two decimals, that is a price and not a percentage.
 - **Only the amounts Carmen states.** Totals are computed by the script from quantity and unit price, never typed by hand.
+- **Bank details and invoices never go into git.** This repo is public. `profile.json`, `clients.json`, `log.csv` and every
+  invoice PDF are in `.gitignore`: never `git add -f` them, never paste an IBAN into a commit, a PR or a GitHub comment.
+  Hand the PDF over in chat. Only the script, the skill, the templates and `example-job.json` are committed.
 - **Drafts only leave the repo when she says so.** Building the PDF is safe. Emailing it to a client is a separate step
   she has to ask for, and then it goes as a Gmail draft for her to read, never sent directly.
 
@@ -27,17 +30,18 @@ and keeps a running log. Everything lives in `invoices/` in this repo; the build
 
 | File | What it is |
 |---|---|
-| `invoices/profile.json` | Carmen's own details: name, address, email, tax ID, account holder, IBAN, BIC, bank, default currency. **Created on first use from her answers**, template in `profile.example.json`. |
+| `invoices/profile.json` | Carmen's own details: name, address, tax ID, account holder, IBAN, BIC, bank, bank address, default currency, `number_style` (`year-month` gives 2026-11, her own scheme) and optional default `style`. **Built from her answers or from an invoice she uploaded**, template in `profile.example.json`. |
 | `invoices/clients.json` | Optional memory of each client's legal name, address, VAT ID, email, usual VAT treatment and payment terms, so she doesn't repeat them. |
 | `invoices/log.csv` | One row per invoice: number, dates, client, currency, subtotal, VAT, total, status, file. Statuses: `sent-pending`, `paid`, `overdue`, `cancelled`. |
-| `invoices/DFB-<year>-<nnn>.pdf` | The invoices. Numbers run on from the log, never reuse or skip one. |
+| `invoices/<number>.pdf` | The invoices. Numbers run on from the log, never reuse or skip one. Default `DFB-2026-001`, or `2026-11` with `year-month`. |
 | `invoices/example-job.json` | The job format, copy it. |
 
 ## Workflow
 
 1. **First ever use:** `invoices/profile.json` doesn't exist. Ask Carmen for her legal name, address, email, tax number
-   (and its label, e.g. NIF), account holder, IBAN, BIC, bank and usual currency, write the file, and tell her it
-   holds bank details so the repo has to stay private. The script stops with a clear message if the IBAN is still a TODO.
+   (and its label, e.g. NIF), account holder, IBAN, BIC, bank and usual currency, or read them off an earlier invoice she
+   uploads, and write the file. It is git-ignored, so in a fresh cloud session it won't be there: ask for an earlier
+   invoice or the details again. The script stops with a clear message if the IBAN is still a TODO.
 2. **Collect the job.** Needed: client (legal name, address, VAT ID if they have one, billing email), what the work was
    (one line per deliverable, in plain words the client will recognise, e.g. "Sponsored Instagram carousel, runway
    colour combos"), quantity and unit price per line, currency, VAT treatment, payment terms (default 30 days), and
@@ -51,7 +55,7 @@ and keeps a running log. Everything lives in `invoices/` in this repo; the build
    Re-read the total against the amounts she gave you.
 6. **Hand it over:** the PDF, then a two-line summary (number, client, total, due date). Ask whether she wants a Gmail
    draft to the client with it attached. Don't offer anything else.
-7. **Commit and push** the PDF, `log.csv` and `clients.json` to `main` only if she asks.
+7. **Do not commit the invoice, log or profile** (public repo, see above). Send the PDF to her with SendUserFile.
 
 ## Other things she may ask
 
@@ -66,4 +70,11 @@ and keeps a running log. Everything lives in `invoices/` in this repo; the build
 
 `client` (name, address with `\n` line breaks, vat_id, email), `date` (ISO, default today), `due_days` (default 30) or
 `due_date`, `currency` (EUR, GBP, USD or any code), `po_ref`, `vat_rate` (whole number, 0 for none), `vat_note`, `notes`,
-`items` (list of `description`, `quantity`, `unit_price`).
+`items` (list of `description`, `quantity`, `unit_price`), `style` (`dfb` is the designed look, `plain` is her plain
+layout that FashionUnited already gets, `--style` on the command line overrides it).
+
+## FashionUnited
+
+Standing details are in `invoices/clients.json`: Hoogoorddreef 56, 1101 BE Amsterdam, euros, 180 per article, `plain` style,
+no VAT. One line per article: `Article for FashionUnited: "<exact published title>", published on <date>`. The title and
+publication date come from Carmen or the published page, never guessed. Her old invoices used a dash before "published", use a comma.
