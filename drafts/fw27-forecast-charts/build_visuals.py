@@ -10,6 +10,30 @@ FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:w
 SERIF = "'Playfair Display', Georgia, serif"
 SANS = "'Century Gothic', 'Questrial', 'Avenir', sans-serif"
 
+
+import math
+def _lum(hx):
+    r, g, b = (int(hx[i:i+2], 16) / 255 for i in (1, 3, 5))
+    f = lambda c: c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
+def donut_svg(items, size=810):
+    total = sum(v for _, v, _ in items); R = size / 2; r_in = R * 0.58; cx = cy = R
+    pct = [round(100 * v / total) for _, v, _ in items]; pct[0] += 100 - sum(pct)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}">']
+    a = -90.0
+    for (name, v, hx), p in zip(items, pct):
+        span = 360 * p / 100; a0, a1 = a, a + span
+        P = lambda r, ang: (cx + r * math.cos(math.radians(ang)), cy + r * math.sin(math.radians(ang)))
+        p0, p1, q1, q0 = P(R, a0), P(R, a1), P(r_in, a1), P(r_in, a0)
+        large = 1 if span > 180 else 0
+        d = f'M{p0[0]:.1f} {p0[1]:.1f} A{R} {R} 0 {large} 1 {p1[0]:.1f} {p1[1]:.1f} L{q1[0]:.1f} {q1[1]:.1f} A{r_in} {r_in} 0 {large} 0 {q0[0]:.1f} {q0[1]:.1f} Z'
+        out.append(f'<path d="{d}" fill="{hx}"/>')
+        fs = 42 if p >= 15 else (32 if p >= 8 else 24); lx, ly = P(R * 0.79, (a0 + a1) / 2)
+        col = '#FFFFFF' if _lum(hx) < 0.55 else '#000000'
+        out.append(f'<text x="{lx:.1f}" y="{ly + fs * 0.35:.1f}" text-anchor="middle" font-family="Arimo, Arial, sans-serif" font-size="{fs}" fill="{col}">{p}%</text>')
+        a = a1
+    out.append('</svg>'); return '\n'.join(out), pct
+
 PALETTES = {
  'heritage-craft': ('Heritage Craft', [
    ('russet red', '#7B3330', 'dark red: "high" search volume of 35k'),
@@ -58,6 +82,12 @@ for key, (name, looks) in STRIPS.items():
             f'<div class="row">{lk}</div><div class="src">Images: runway photographs as reproduced in the Trendalytics FW27 forecast. Houses as named by Trendalytics.</div>')
     fn = f'07-runway-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
+vol = [('marigold', 126, '#DFAA4F'), ('lilac', 103, '#927EC3'), ('fuchsia', 84, '#FF278A'), ('forest green', 57, '#254117'), ('dark red', 35, '#7B3330')]
+dsvg, dpct = donut_svg(vol)
+leg = ''.join(f'<div style="display:flex;align-items:center;gap:12px;font-size:23px;margin-bottom:14px"><span style="display:inline-block;width:22px;height:22px;border-radius:50%;background:{hx}"></span><span><b style="font-family:{SERIF};font-size:25px">{n}</b> <span style="color:{MUTED}">{p}% of searches</span></span></div>' for (n, _, hx), p in zip(vol, dpct))
+body = (f'<h1>marigold is the most searched</h1><p class="sub">% = each colour\'s share of the combined searches for the five colours that come with a search volume. The other seven have none.</p>'
+        '<div class="row" style="align-items:center"><div style="flex:0 0 520px">' + dsvg.replace('width="810" height="810"', 'width="520" height="520"') + '</div><div style="flex:1">' + leg + '</div></div>')
+open(f'{OUT}/11-colour-search-share.html', 'w').write(page(body, 1000)); manifest.append('11-colour-search-share')
 donuts = [('paris/donut-lacoste.png', 'Lacoste'), ('paris/donut-loewe.png', 'Loewe'), ('paris/donut-miu-miu.png', 'Miu Miu'), ('paris/donut-valentino.png', 'Valentino')]
 dk = ''.join(f'<div style="flex:1;text-align:center"><img src="{f}" style="width:100%"><div style="font-family:{SERIF};font-style:italic;font-size:30px;margin-top:8px">{html.escape(n)}</div></div>' for f, n in donuts)
 body = (f'<h1>the paris houses already wearing fw27</h1><p class="sub">% = share of each house\'s total colour on the Paris SS27 runway, colour mix method</p>'
