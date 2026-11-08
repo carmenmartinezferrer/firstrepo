@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "mcp__Canva",
+      "mcp__Google_Drive__search_files",
+      "mcp__Google_Drive__read_file_content",
+      "mcp__Google_Drive__create_file",
+      "mcp__Google_Sheets__get_values",
+      "mcp__Notion__notion-search",
+      "mcp__Notion__notion-fetch",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsDataByMetrics",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
