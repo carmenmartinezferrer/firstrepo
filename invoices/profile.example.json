@@ -1,0 +1,12 @@
+{
+  "name": "TODO full legal name or trading name",
+  "address": "TODO street and number\nTODO postcode and city\nTODO country",
+  "email": "TODO invoicing email",
+  "tax_id_label": "NIF",
+  "tax_id": "TODO tax number, or leave empty if none should appear",
+  "account_holder": "TODO name on the bank account",
+  "iban": "TODO",
+  "bic": "TODO",
+  "bank": "TODO bank name",
+  "currency": "EUR"
+}

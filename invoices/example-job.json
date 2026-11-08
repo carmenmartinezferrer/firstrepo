@@ -1,0 +1,18 @@
+{
+  "client": {
+    "name": "Example Brand Ltd",
+    "address": "1 Example Street\nLondon\nUnited Kingdom",
+    "vat_id": "",
+    "email": "accounts@example.com"
+  },
+  "date": "2026-11-08",
+  "due_days": 30,
+  "currency": "EUR",
+  "po_ref": "",
+  "vat_rate": 0,
+  "vat_note": "",
+  "notes": "",
+  "items": [
+    { "description": "Example line: replace with the real work", "quantity": 1, "unit_price": 100 }
+  ]
+}

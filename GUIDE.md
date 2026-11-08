@@ -1,6 +1,6 @@
 # DFB skills guide: which repo, what to say
 
-Last updated: 2 November 2026, after merging every branch into `main`.
+Last updated: 8 November 2026, added the `dfb-invoice` skill.
 
 ---
 
@@ -13,7 +13,7 @@ Which repo:
 
 | Repo | Use it for |
 |---|---|
-| **`firstrepo`** | Everything you publish or send: Instagram decodes, Reels, Substack, FashionUnited, weekly shifts, media kit, calendar. 11 skills. |
+| **`firstrepo`** | Everything you publish or send: Instagram decodes, Reels, Substack, FashionUnited, weekly shifts, media kit, calendar, invoices. 12 skills. |
 | **`dfb-data`** | Tagging shows into the research dataset, dataset questions, and the two Canva carousel skills. 3 skills. |
 
 `dfb-trend-tagger` is the tagger web page and `thedatafashionbrief` is old. Neither has skills.
@@ -35,6 +35,7 @@ Which repo:
 | A personal essay, no charts | firstrepo | `dfb-personal-essay` | "Something more personal about…" |
 | Refresh the media kit (1st and 15th) | firstrepo | `dfb-media-kit` | "Refresh the media kit" |
 | Put a deadline or meeting in Notion / Google Calendar | firstrepo | `calendar-assistant` | "FashionUnited wants the piece by Friday" |
+| Make an invoice, or see what I've invoiced | firstrepo | `dfb-invoice` | "Invoice FashionUnited 600 euros for the maximalism piece" |
 | Tag a show into the dataset | dfb-data | `dfb-dataset` | "Dior SS27" + screenshots, one house per message |
 | Ask the dataset a question | dfb-data | `dfb-dataset` | "What share of Paris SS27 looks were black?" |
 | A data carousel in Canva (Trends CSV, results) | dfb-data | `dfb-carousel` | "Carousel on the ballet flat" + CSV |
@@ -173,6 +174,16 @@ You don't need to name the skill. It loads when your message matches. Naming it 
 - **You get:** the look log to check, `data/<season>/<city>/<house>.json`, rebuilt workbooks (`build/SS27/SS27-paris.xlsx`), palette slices, top materials and formulas, committed and pushed.
 - **In the dataset now:** 16 Paris SS27 shows (1,037 looks with Prada SS21). Balmain, Dior and Dries Van Noten are tagged here even though their Instagram decodes are still pending in firstrepo.
 - **Not this skill:** charts, captions, Canva. Those are `dfb-catwalk-decode` in firstrepo.
+
+### 2.13 `dfb-invoice` (invoices PDF)
+
+- **Attach:** nothing, just the job. First time only, Claude asks for your legal name, address, tax number and IBAN and saves them in `invoices/profile.json` (keep the repo private). Per client it needs their legal name, address, VAT ID if any, what the work was, the amount and whether VAT applies. You confirm the VAT treatment, Claude never decides it.
+- **Prompts:**
+  - "Invoice FashionUnited 600 euros for the maximalism piece."
+  - "Invoice [brand]: 1 sponsored carousel at 850 and 2 story sets at 120 each, 30 days."
+  - "Who hasn't paid me yet?" / "ASOS paid."
+  - "Credit note for invoice DFB-2026-003."
+- **You get:** a one-page PDF in `invoices/` (numbered `DFB-2026-001`, `-002`, ...), totals worked out by the script, a row in `invoices/log.csv`, and an offer to draft the email to the client in Gmail (a draft, never sent for you).
 
 ### 2.13 `dfb-carousel` (data carousel in Canva, repo `dfb-data`)
 
