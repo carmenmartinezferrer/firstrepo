@@ -1,3 +1,9 @@
+## Canva designs
+
+- Colour carousel, editable native build (donut, bars and mood rings are Canva shapes and text, copied from Carmen's reference design DAHXm5VB6sQ): https://www.canva.com/d/bBfvgXHiEKYDJPL
+- Colour carousel, PNG slide version: https://www.canva.com/d/46Nee9VzZ17hdmd
+- Trends carousel, PNG slide version: https://www.canva.com/d/kevsxATTsRWhP4n
+
 # Instagram captions, FW27 forecast posts
 
 Source credited once, at the end of each caption, not on the slides. Numbers as printed in the forecast, Paris figures from the DFB SS27 tagging.
