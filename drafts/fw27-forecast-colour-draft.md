@@ -19,9 +19,9 @@ The twelve colours come from the Trendalytics Womenswear Forecast for Fall/Winte
 
 ## The three palettes, and why they're called that
 
-### Heritage Craft: quiet luxury grows up, and for winter it comes in deep colour
+[CHART: 13-palette-rows.png, the three palettes colour by colour, % = growth in Google searches this year vs last, each palette's four colours, biggest mover first]
 
-[CHART: 06-palette-heritage-craft.png, the four Heritage Craft colours, russet red, plum purple, forest green and chestnut brown]
+### Heritage Craft: quiet luxury grows up, and for winter it comes in deep colour
 
 Stealth wealth is evolving into heritage craft. Shoppers are moving from logos to natural fabrics, with cotton up 90% and cashmere up 80% in Google searches this year against last, because what people want is a timeless wardrobe of tried and true luxury, clothes that work as an enduring staple rather than a season's statement. My Paris SS27 tagging sees the foundation of it already: wool suiting was in 25% of all looks, the biggest material of the season. The craft side shows in jacquard jackets (up 61% in searches on last year), lace (4% of all Paris looks), shrunken blazers and peplum jackets (up 24% in Google searches over the last three months) and the equestrian tall boot look, with harness boots up 476% this year. Autumn leaves and riding boots, basically, and the palette is exactly that.
 
@@ -29,15 +29,11 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 ### Sensory Riot: dressing in things you can actually feel
 
-[CHART: 06-palette-sensory-riot.png, the four Sensory Riot colours, chartreuse, fuchsia, lilac and cobalt blue]
-
 This is the maximalist palette, and the reasoning behind it is three things at once. Shoppers tired of generic AI imagery are turning to tactile, layered, clashing-print dressing that a machine can't replicate, years of quiet luxury have dissolved into corporate sameness, and effort is back, clothes that visibly took time to make. My data agrees on the direction: 31% of the Paris SS27 looks I tagged carried embellishment (ruffles, fringe, sequins, beading, embroidery, feathers or appliqué), at every one of the 16 houses, and the fringe skirt is the clearest signal, up 71% in searches on last year and the biggest mover among the items the forecast measured that way. Minimalism isn't over though, 56% of the Paris colour weight was still neutral, so the loud side grows while the quiet side stays.
 
 The colours, in Google searches this year against last: **cobalt blue** is the climber at 30%, and it's crossing from fashion into beauty, then **fuchsia** at 20%, with **lilac** and **chartreuse** both up just 10%. The context changes the picture a little. Lilac and fuchsia are the two most searched colours in the whole forecast after marigold, 25% and 21% of the combined searches, so lilac is a colour people already search for a lot that isn't growing much, while fuchsia is big and still moving, which is no surprise to anyone here, because I already told you [pink is back](https://thedatafashionbrief.substack.com/p/is-pink-actually-back-or-just-another), pink was in 8% of Paris looks and present at 81% of the shows I analysed, and blush pink searches are up 20% over the last three months. Cobalt's 30% matches the forecast's own 14% on last year in direction, and blue in general is up 33% over the last three months. Chartreuse has 149M views on TikTok and a 10% rise in searches, watched rather than searched, same as chestnut brown.
 
 ### Veiled Performance: gorpcore grows up and brings an umbrella
-
-[CHART: 06-palette-veiled-performance.png, the four Veiled Performance colours, marigold, moss green, dove grey and terracotta]
 
 The sporty, rain-ready palette, and the name is less poetic than it sounds. Gorpcore has matured past the sports-prep peak of 2026 into sleek utility, nylon, drawstrings, hoods, and unpredictable weather is pushing rain jackets and waterproof footwear into everyday wardrobes. On my Paris tagging it's still a one-house story, nylon and technical fabric were in 4% of all looks and 26% of Lacoste's, and PVC was Chloé alone, on six trench coats and capes. So the clothes are early, but the colours aren't.
 

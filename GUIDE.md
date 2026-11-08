@@ -122,7 +122,8 @@ You don't need to name the skill. It loads when your message matches. Naming it 
   - "Give me the colour piece for Paris SS27."
   - "Rebuild the season palette and swap in the Loewe donut."
   - "Does the red finding hold up against what the press said?"
-- **You get:** season palette, per-house donuts, swatch grid, per-colour over-indexing deep dive.
+  - "Put the three palettes in the swatch grid style, one line each."
+- **You get:** season palette, per-house donuts, swatch grid, palette swatch rows (one row per palette or mood, the number inside each block), per-colour over-indexing deep dive.
 
 ### 2.8 `fashionunited-article` (trade article)
 
@@ -193,7 +194,8 @@ You don't need to name the skill. It loads when your message matches. Naming it 
   - "Carousel on the ballet flat, here's the Trends export."
   - "DeMellier carousel: made in Spain, +65% revenue, searches 4x. Build it in Canva."
   - "5 slides, title asks the question, last slide answers it."
-- **You get:** the slide plan for your OK, the Canva design (5 slides, 6 max), charts as PNGs with labels left as Canva elements, caption, and `carousels/<yyyy-mm>-<slug>/README.md`.
+  - "Colour palette carousel, I want to edit the donut chunks in Canva." (the colour palette type: native donut, bars and rings, built from your Colour palette design)
+- **You get:** the slide plan for your OK, the Canva design (5 slides, 6 max), charts as PNGs with labels left as Canva elements, caption, and `carousels/<yyyy-mm>-<slug>/README.md`. The colour palette type gives 4 slides where every wedge, bar and number is an editable Canva element.
 
 ### 2.14 `dfb-personal-carousel` (Behind DFB carousel in Canva, repo `dfb-data`)
 

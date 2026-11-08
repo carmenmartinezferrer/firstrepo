@@ -85,6 +85,20 @@ house names in italic Playfair):
   slices carry a small "floral print" / "graphic print" tag, because their
   blended hex otherwise reads as a plain colour.
 
+**Palette swatch rows** (`scripts/build_palette_rows.py` + the same
+`render_grids.js`): the swatch grid style reused for a forecast's palettes,
+or for anything that is "a few named groups of colours, one line each".
+One row per palette (italic Playfair label), its colours as solid blocks,
+the number printed big inside the block with the colour name small under
+it, biggest mover first. Takes a small JSON spec (title, subtitle, value
+format such as "+{v}%", rows of [name, hex, value]) so it works for growth
+one month and share the next. Carmen asked for this on the FW27 colour
+edition, "the 3 colours in this style, 3 colours in one line", after
+seeing the Paris swatch grid, and it replaced the three separate palette
+cards there: one chart carries all twelve colours, so it also does the
+"everything on one scale" job. Pale blocks get the #D0CCC5 inset edge,
+text goes black when luminance is above 0.55. Render at 2x.
+
 **Every chart says what its numbers measure**, in the subtitle: "% =
 share of each house's total colour on the runway", "% of each house's
 colour palette that is pink, vs the season average". Never a bare %.
