@@ -31,6 +31,7 @@ Which repo:
 | A Runway Colour Combos carousel (cut-outs, hex swatches) | firstrepo | `runway-colour-combos` | "Colour combinations for these looks" + screenshots |
 | A Runway Decode Trend Report for Substack | firstrepo | `runway-decode-trends` | "Trend report for Paris SS27, text first" + workbook |
 | A Runway Decode Colour Index for Substack | firstrepo | `runway-decode-colour` | "The colour piece for Paris SS27" + colour data |
+| A trends and/or colour piece from a Trendalytics forecast report | firstrepo | `trendalytics-forecast-decode` | "Here's the FW27 forecast, article in my voice, text first" + the PDF |
 | A FashionUnited article or a revision | firstrepo | `fashionunited-article` | "FashionUnited version of the maximalism piece" |
 | A personal essay, no charts | firstrepo | `dfb-personal-essay` | "Something more personal about…" |
 | Refresh the media kit (1st and 15th) | firstrepo | `dfb-media-kit` | "Refresh the media kit" |
@@ -124,6 +125,20 @@ You don't need to name the skill. It loads when your message matches. Naming it 
   - "Does the red finding hold up against what the press said?"
   - "Put the three palettes in the swatch grid style, one line each."
 - **You get:** season palette, per-house donuts, swatch grid, palette swatch rows (one row per palette or mood, the number inside each block), per-colour over-indexing deep dive.
+
+### 2.7b `trendalytics-forecast-decode` (forecast report to Substack, carousel and Reels)
+
+- **Attach:** the Trendalytics report PDF (or export). Your own Google Trends year-on-year pulls for each colour or item when you have them, they put everything on one scale.
+- **Connectors:** Canva (editable colour carousel), Google Drive (Reels doc).
+- **Prompts:**
+  - "Here's the FW27 forecast, do the article in my voice, text first."
+  - "One article for trends and another for colours."
+  - "Explain the Trendalytics methodology in the piece."
+  - "Put the three palettes in the swatch grid style, one line each."
+  - "Colour carousel I can edit in Canva, plus a Reel."
+- **You get:** trends piece and/or colour piece (series title Stop Calling Everything a Trend, Forecast Edition), charts (same-scale growth bars, share donut, palette swatch rows, runway cross-check), HTML build, native Canva carousel, Reels in DFB > Reels, sources list.
+- **Rules it enforces:** Trendalytics named once in the intro and once in the methodology, never on charts; percentages, not raw volumes or views; every palette explains why it has that name; your own Trends pulls where the report leaves gaps; text approved before any visual.
+- **Reference:** the FW27 pair in `drafts/fw27-forecast-trendalytics-draft.md` and `drafts/fw27-forecast-colour-draft.md`.
 
 ### 2.8 `fashionunited-article` (trade article)
 

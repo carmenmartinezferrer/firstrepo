@@ -15,7 +15,7 @@ The ULTIMATE forecast FW 2027 is here!! I scraped the internet, social media, th
 
 ## Methodology, the short version
 
-The twelve colours come from the Trendalytics Womenswear Forecast for Fall/Winter 2027, four for each of its three aesthetics, Heritage Craft, Sensory Riot and Veiled Performance. Each colour arrives with one number, and the numbers come in three different kinds, so I've turned them all into percentages a reader can actually compare: the colours with a search volume are shown as their share of the combined searches, the colours with a growth figure as % change on last year, and I've added my own Google Trends pulls where they fill a gap. Then I checked the twelve against two outside sources: the WGSN and Coloro key colours for the same season, and my own Paris SS27 colour tagging, 16 houses and 997 looks, where every look is split across up to three colours by how much of the outfit each covers. Full detail at the bottom.
+The twelve colours come from the Trendalytics Womenswear Forecast for Fall/Winter 2027, four for each of its three aesthetics, Heritage Craft, Sensory Riot and Veiled Performance. A quick word on where the forecast's numbers come from, because each colour arrives with exactly one and it took me a minute to understand them. Trendalytics is a trend intelligence platform that pulls demand data from across the internet, Google searches, TikTok, Instagram and Pinterest, plus what retailers actually have on their shelves, and combines it all into one view per colour or item. From there it looks for patterns: how big the search volume is right now, how fast it is growing or declining, and how that compares with the same point last year, and it then cross-references the data with what is actually being said about the colour, in the press, on blogs, on Reddit, as a second layer. What lands in the report, though, is one number per colour, and the numbers come in three different kinds: a search volume for five colours, a growth figure for five and TikTok views for two. So I've turned them into percentages a reader can actually compare, the volumes as each colour's share of the combined searches, the growth figures as % change on last year, and I've added my own Google Trends pulls for all twelve so they sit on one scale. Then I checked the twelve against two outside sources: the WGSN and Coloro key colours for the same season, and my own Paris SS27 colour tagging, 16 houses and 997 looks, where every look is split across up to three colours by how much of the outfit each covers. Full detail at the bottom.
 
 ## The three palettes, and why they're called that
 
@@ -85,6 +85,8 @@ I hope you enjoyed it, and let me know in the comments anything you would like t
 
 ## Full methodology
 
+How Trendalytics gets to its numbers: the platform aggregates consumer demand signals from Google searches, social platforms (TikTok, Instagram, Pinterest) and retail assortment data, then tracks each colour or item on volume today, speed of growth or decline, and the change against the same period last year, with press, blogs and forum conversation used as a second, qualitative layer. Three of its measures appear in this piece: search volume (printed as an absolute figure with no period or country stated), change in searches on last year, and TikTok views. In the companion trends piece there are three more: market adoption, which Trendalytics uses for how many retailers carry an item compared with last year, growth among key influencers, and a luxury-saturation label. I'm describing the method as Trendalytics presents it, the report itself prints only the final figures.
+
 The twelve colours and the three aesthetics are from the Trendalytics Womenswear Forecast Fall/Winter 2027, published October 2026, which prints one data point next to each colour: an absolute search volume for five (marigold, lilac, fuchsia, forest green, dark red), a year on year change in searches for five (dove grey, plum purple, moss green, cobalt blue, terracotta) and TikTok views for two (chestnut brown, chartreuse). To make them readable I show the five volumes as each colour's share of their combined total (the donut), the five growth figures as printed, and keep the two view counts as context in the prose only, because views and searches don't compare on a chart. The forecast doesn't define the period or country behind the search volumes, and the piece says so. Hex codes on the palette cards are sampled from the forecast's own swatches.
 
 The extra search figures in the palette sections (cotton up 90% and cashmere up 80% this year against last, jacquard jackets up 61% on last year, peplum jackets up 24%, blush pink up 20%, amberglow up 50% and blue up 33% over the last three months, harness boots up 476% this year, and all twelve colours) are my own Google Trends and TikTok pulls, worldwide; the twelve colour figures are Google searches this year against last (plum purple 60, moss green 60, dark red 50, forest green 50, cobalt blue 30, marigold 30, dove grey 30, fuchsia 20, lilac 10, chartreuse 10, chestnut brown 10, terracotta 10), the other periods are as stated in the text, and they sit alongside the forecast's figures rather than replacing them, which is why plum purple carries two growth numbers.
@@ -107,6 +109,14 @@ The runway cross-check uses my own tagging of 16 houses from Paris Fashion Week 
 
 <!--
 NOTES FOR CARMEN (delete before publishing)
+
+00. Draft 5. Trendalytics methodology explained in the short and full
+   methodology, in your words. Trendalytics' own pages confirm the
+   search, social (TikTok, Instagram, Pinterest) and retail/SKU inputs
+   and the market adoption meaning; the press, blogs and Reddit "second
+   layer" is your description and I could not confirm it on their site,
+   so if you are not sure of it, cut that clause. The report itself has
+   no methodology page, which the text now says.
 
 0. Draft 2. Your intro kept word for word. Each palette now opens with
    the why, built from your Elle paragraphs, and your own Google Trends

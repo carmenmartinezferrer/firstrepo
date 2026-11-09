@@ -198,6 +198,15 @@ comparable, not just their labels.
   scripts. Use them rather than re-deriving the matrix/donut pixel math
   from scratch, that's exactly the kind of thing that went wrong more
   than once before they existed.
+- **Forecast Edition** (Trendalytics report as the source, not Carmen's
+  tagging): a trends piece and a colour piece, each item arriving with one
+  number of one of several kinds, so the job is to explain where the
+  numbers come from, group items by metric and plot each group on one
+  scale, add Carmen's own Google Trends pulls where the report leaves
+  gaps, and cross-check against the runway dataset and the press.
+  Trendalytics is named once in the intro and once in the methodology,
+  never on charts. `.claude/skills/trendalytics-forecast-decode` holds
+  the build logic and the FW27 reference scripts.
 - **"Stop Calling Everything a Trend"** is the recurring series title, not
   a structural format on its own. It gets reused across whatever the
   underlying data source is that month, a Pinterest report, Trendalytics,

@@ -1,0 +1,11 @@
+{"name": "13-palette-rows",
+ "title": "the three palettes, colour by colour",
+ "subtitle": "% = growth in Google searches this year vs last, each palette's four colours, biggest mover first",
+ "source": "",
+ "value_fmt": "+{v}%",
+ "sort": true,
+ "rows": [
+  {"label": "Heritage Craft", "colours": [["dark red", "#7B3330", 50], ["plum purple", "#583759", 60], ["forest green", "#254117", 50], ["chestnut brown", "#7C533C", 10]]},
+  {"label": "Sensory Riot", "colours": [["chartreuse", "#C7D344", 10], ["fuchsia", "#FF278A", 20], ["lilac", "#927EC3", 10], ["cobalt blue", "#4C80FD", 30]]},
+  {"label": "Veiled Performance", "colours": [["marigold", "#DFAA4F", 30], ["moss green", "#7E8C53", 60], ["dove grey", "#838384", 30], ["terracotta", "#D38377", 10]]}
+ ]}
