@@ -148,6 +148,44 @@ charts.append(bar_chart('16-three-month-movers', 'what moved in the last three m
     '% change in Google searches over the last three months vs the three before',
     [('amberglow', 50), ('blue', 33), ('peplum jacket', 24), ('blush pink', 20)], '', fmt=lambda v: f'+{round(v)}%', highlight=0))
 
+# 17. Bridge: Paris SS27 runway share vs FW27 forecast colours' share of searches, by colour family
+def paired_chart(name, title, subtitle, rows, note, c1=DARK, c2=PINK, l1='Paris SS27 runway', l2='FW27 forecast colours, searches now'):
+    """rows: list of (family, runway_pct, search_pct, members)."""
+    n = len(rows); W = max(1000, 100 + n * 150, 110 + len(title) * 31)
+    top, plot_h, left, right = 245, 360, 50, 50
+    base = top + plot_h; slot = min((W - left - right) / n, 165); x0 = (W - slot * n) / 2
+    bw = min(58, slot * 0.34); vmax = max(max(r[1], r[2]) for r in rows)
+    wn = max(8, int(slot / 12.5))
+    label_lines = max(len(wrap(r[0], wn)) for r in rows); sub_lines = max(len(wrap(r[3], wn + 2)) for r in rows)
+    h = base + 46 + label_lines * 31 + sub_lines * 24 + 90
+    p = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}">', f'<rect width="{W}" height="{h}" fill="#FFFFFF"/>',
+         f'<text x="{left}" y="78" font-family="{SERIF}" font-weight="700" font-size="56" fill="{INK}">{html.escape(title)}</text>',
+         *[f'<text x="{left}" y="{124+k*32}" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(line)}</text>' for k, line in enumerate(subtitle.split('|'))],
+         f'<rect x="{left}" y="190" width="22" height="22" fill="{c1}"/><text x="{left+32}" y="209" font-family="{SANS}" font-size="22" fill="{INK}">{html.escape(l1)}</text>']
+    lx = left + 32 + len(l1) * 12 + 40
+    p.append(f'<rect x="{lx}" y="190" width="22" height="22" fill="{c2}"/><text x="{lx+32}" y="209" font-family="{SANS}" font-size="22" fill="{INK}">{html.escape(l2)}</text>')
+    for i, (fam, a, b, mem) in enumerate(rows):
+        cx = x0 + slot * (i + 0.5)
+        for j, (v, col) in enumerate(((a, c1), (b, c2))):
+            bx = cx - bw - 3 if j == 0 else cx + 3
+            bh = (v / vmax) * (plot_h - 70)
+            p.append(f'<rect x="{bx:.1f}" y="{base-bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" fill="{col}"/>')
+            p.append(f'<text x="{bx+bw/2:.1f}" y="{base-bh-12:.1f}" text-anchor="middle" font-family="{SANS}" font-size="26" fill="{INK}">{round(v)}%</text>')
+        for k, line in enumerate(wrap(fam, wn)):
+            p.append(f'<text x="{cx:.1f}" y="{base+44+k*31}" text-anchor="middle" font-family="{SANS}" font-size="25" fill="{INK}">{html.escape(line)}</text>')
+        for k, line in enumerate(wrap(mem, wn + 2)):
+            p.append(f'<text x="{cx:.1f}" y="{base+44+label_lines*31+k*24-4}" text-anchor="middle" font-family="{SANS}" font-size="19" fill="{MUTED}">{html.escape(line)}</text>')
+    p.append(f'<line x1="{x0-10:.1f}" y1="{base}" x2="{x0+slot*n+10:.1f}" y2="{base}" stroke="#BDBDBD" stroke-width="1.5"/>')
+    if note: p.append(f'<text x="{left-10}" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(note)}</text>')
+    p.append('</svg>'); return name, '\n'.join(p), h
+
+bridge = [('yellow & gold', 5, 27, 'marigold, chartreuse'), ('grey', 7, 19, 'dove grey'), ('purple', 1, 18, 'plum, lilac'),
+          ('orange & rust', 3, 11, 'terracotta'), ('green & olive', 8, 8, 'forest, moss'), ('pink', 5, 6, 'fuchsia'),
+          ('brown & beige', 11, 4, 'chestnut brown'), ('blue', 5, 4, 'cobalt'), ('red', 2, 3, 'dark red')]
+charts.append(paired_chart('17-bridge-ss27-fw27', 'the spring runway vs what people search now',
+    '% of all colour on the Paris SS27 runway, next to % of combined Google searches for the|twelve forecast colours over the last three months, grouped into colour families',
+    bridge, 'Runway shares leave out black, white and the neutrals, 56% of the Paris palette. Search shares add up to 100 across the twelve colours.'))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:
