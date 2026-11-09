@@ -31,11 +31,9 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 [CHART: 14-colours-heritage-craft.png, the four Heritage Craft colours, % change in Google searches this year vs last]
 
-**What's new in Heritage Craft**
+**What's new in Heritage Craft.** On the runway: Chanel, Ralph Lauren and Acne Studios. Key items: Mary Jane pumps, jacquard jacket, paisley scarf and tailored suiting.
 
-[CHART: 07-runway-heritage-craft.png, Heritage Craft on the SS27 runway, Chanel, Ralph Lauren and Acne Studios]
-
-[CHART: 18-items-heritage-craft.png, Heritage Craft key items, Mary Jane pumps, jacquard jacket, paisley scarf and tailored suiting]
+[CHART: 19-mood-heritage-craft.png, Heritage Craft, the mood, nine looks from Carmen's Pinterest board for this palette]
 
 ### Sensory Riot: dressing in things you can actually feel
 
@@ -45,11 +43,9 @@ The colours, in Google searches this year against last: **cobalt blue** is the c
 
 [CHART: 14-colours-sensory-riot.png, the four Sensory Riot colours, % change in Google searches this year vs last]
 
-**What's new in Sensory Riot**
+**What's new in Sensory Riot.** On the runway: Dries Van Noten, Dolce & Gabbana and Valentino. Key items: daytime boa, fringe skirt, sculptural wedges and embellished jeans.
 
-[CHART: 07-runway-sensory-riot.png, Sensory Riot on the SS27 runway, Dries Van Noten, Dolce & Gabbana and Valentino]
-
-[CHART: 18-items-sensory-riot.png, Sensory Riot key items, daytime boa, fringe skirt, sculptural wedges and embellished jeans]
+[CHART: 19-mood-sensory-riot.png, Sensory Riot, the mood, nine looks from Carmen's Pinterest board for this palette]
 
 ### Veiled Performance: gorpcore grows up and brings an umbrella
 
@@ -59,11 +55,9 @@ The colours, in Google searches this year against last: **moss green** is the su
 
 [CHART: 14-colours-veiled-performance.png, the four Veiled Performance colours, % change in Google searches this year vs last]
 
-**What's new in Veiled Performance**
+**What's new in Veiled Performance.** On the runway: Jane Wade, Chloé and Lacoste. Key items: drawstring pants, nylon bag, funnel neck jacket and rain boots.
 
-[CHART: 07-runway-veiled-performance.png, Veiled Performance on the SS27 runway, Jane Wade, Chloé and Lacoste]
-
-[CHART: 18-items-veiled-performance.png, Veiled Performance key items, drawstring pants, nylon bag, funnel neck jacket and rain boots]
+[CHART: 19-mood-veiled-performance.png, Veiled Performance, the mood, nine looks from Carmen's Pinterest board for this palette]
 
 > **In The Press**
 > Here's the part I didn't expect. WGSN and Coloro published their four key colours for Autumn/Winter 2027/28 back in September 2025, a full year before this forecast: Russet, Peaceful Lilac, Maize and Deep Green ([FashionUnited](https://fashionunited.uk/news/fashion/wgsn-and-coloro-key-colours-for-autumn-winter-2027-28/2025091783967)). That's russet red and forest green from Heritage Craft, lilac from Sensory Riot, and a maize yellow sitting right next to Veiled Performance's marigold. Two forecasters with different methods, one colour from each mood plus a second from Heritage Craft. When two independent sources land on the same four colours, that's a stronger claim than either alone, and it's the shortlist I'd actually take seriously.
