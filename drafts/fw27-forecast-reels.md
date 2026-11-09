@@ -1,6 +1,6 @@
 # DFB FW27 Forecast Reels: Stop Calling Everything a Trend, Fall/Winter 2027 Edition
 
-**Article in two sentences:** A fashion forecast names 36 trends for Fall/Winter 2027 (three aesthetics, each with four colours, four fabrics, four key items) and gives every item exactly one number, drawn from six different yardsticks, so nothing is comparable until you line it up. Lined up, the strongest movers are fringe skirts (+71% searches), painterly florals (+178% market adoption) and slim suits (+133%); on colour, Carmen's own Google pull has plum purple and moss green up 60% and four colours up 10%, while dove grey and marigold are the most searched (18% and 16% of the combined searches), and the DFB Paris SS27 tagging backs silk (28% of looks) and embellishment (31% of looks at every house) but shows tweed as a Chanel story (5% of looks, 42% of Chanel's own).
+**Article in two sentences:** A fashion forecast names 36 trends for Fall/Winter 2027 (three aesthetics, each with four colours, four fabrics, four key items) and gives every item exactly one number, drawn from six different yardsticks, so nothing is comparable until you line it up. Lined up, the strongest movers are fringe skirts (+71% searches), painterly florals (+178% market adoption) and slim suits (+133%); on colour, Carmen's own Google pull has plum purple and moss green up 60% and four colours up 10%, while dove grey and marigold are the most searched (19% and 16% of the combined searches), and the DFB Paris SS27 tagging backs silk (28% of looks) and embellishment (31% of looks at every house) but shows tweed as a Chanel story (5% of looks, 42% of Chanel's own).
 
 Two Master DFB Formula Reels, one on colour and one on trends, as Carmen asked. No Comparison Reveal: the article compares metrics, not two brands, so a guessing game would be forced.
 
@@ -49,7 +49,7 @@ Full breakdown on the Substack, link in bio.
 **Data check:**
 - ✅ 12 colours in three aesthetics, the forecast's three palette pages
 - ✅ plum purple 60, moss green 60, dark red 50, forest green 50, cobalt blue 30, marigold 30, dove grey 30, fuchsia 20, lilac 10, chartreuse 10, chestnut brown 10, terracotta 10, Carmen's Google Trends pull, this year vs last
-- ✅ marigold 16% of the combined Google searches over the last three months for the twelve colours (177 of 1,114k), dove grey (as dark grey) 18%, Carmen's Trendalytics platform export, four colours on the nearest search term
+- ✅ marigold 16% of the combined Google searches over the last three months for the twelve colours (177 of 1,114k), dove grey (as dark grey) 19%, Carmen's Trendalytics platform export, four colours on the nearest search term
 - ⚠️ the forecast's own growth figures (dove grey 43, plum 39, moss 23, cobalt 14, terracotta 7) differ from Carmen's pull; the Reel uses Carmen's, the article carries both and says so
 
 ## Reel 2: Stop Calling Everything a Trend, the 36 trends, Master DFB Formula
