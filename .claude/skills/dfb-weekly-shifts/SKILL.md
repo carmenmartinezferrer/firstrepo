@@ -83,7 +83,7 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 ### 3.1 Substack: "This Week in Fashion Data"
 
 ```
-This Week in Fashion Data #DD/MM
+This Week in Fashion Data: 5 Shifts #DD/MM
 
 Subtitle: <Under 160 characters, hard limit. Name the week's biggest names or themes, then what the reader gets. Count it.>
 
@@ -100,7 +100,7 @@ Each paragraph has four parts, in order: the facts, the **why** (one or two sent
 
 End the Substack section with a `Tags` line: 6-8 Substack tags, comma-separated. Always include `Fashion`, `Luxury`, `Fashion Industry`, `Data`, `Retail`; then 2-3 tags for this week's biggest names or themes (a brand, a group, a market). Example: `Tags: Fashion, Luxury, Fashion Industry, Data, Retail, Kering, Dior, Inditex`.
 
-The post title must survive an email subject line on a phone (about 45 characters), so keep the weekly title short and fixed, and put the week's hook in the subtitle. **The subtitle is under 160 characters, always**: Substack cuts it there. The first 90 characters are what shows in the inbox preview, so the hook goes first. Count the characters before saving (`printf '%s' "<subtitle>" | wc -m`) and write the count next to the label in the doc. The one-sentence summary of all five shifts is too long for a subtitle; it is the opening paragraph of the post. Carmen's chosen fixed title, once she confirms it, goes here.
+The post title must survive an email subject line on a phone (about 45 characters), so keep the weekly title short and fixed, and put the week's hook in the subtitle. **The subtitle is under 160 characters, always**: Substack cuts it there. The first 90 characters are what shows in the inbox preview, so the hook goes first. Count the characters before saving (`printf '%s' "<subtitle>" | wc -m`) and write the count next to the label in the doc. The one-sentence summary of all five shifts is too long for a subtitle; it is the opening paragraph of the post. **The fixed title is "This Week in Fashion Data: 5 Shifts #DD/MM"** (Carmen's choice, first used on the 9 Nov 2026 post, 43 characters including the date). Only the date changes; use the publish date.
 
 ### 3.2 Instagram carousel: lead with the shift
 
