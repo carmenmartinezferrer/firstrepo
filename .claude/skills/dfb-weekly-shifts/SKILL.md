@@ -86,7 +86,9 @@ End the Substack section with a `Tags` line: 6-8 Substack tags, comma-separated.
 
 The post title must survive an email subject line on a phone (about 45 characters), so keep the weekly title short and fixed, and put the week's hook in the subtitle (under 90 characters shows in the preview). Carmen's chosen pair, once she confirms it, goes here.
 
-### 3.2 Instagram carousel
+### 3.2 Instagram carousel: lead with the shift
+
+A reader told Carmen the carousel was "talking about data points, not shifts". The Substack paragraphs explain each shift; the slides were listing numbers. The carousel carries the shifts, the Reel carries the numbers (3.3). They are not the same script.
 
 ```
 Slide 1
@@ -94,8 +96,10 @@ I'm a fashion data analyst.
 These are the 5 shifts I'm seeing in fashion right now.
 
 Slide 2
-1. <Headline, max 8 words>
-<1-2 sentences, max 30 words, led by one number (two at most).>
+1. <Headline = the verdict, max 8 words, no number>
+<Body: number, mechanism, consequence, in that order, max three sentences.>
+**<Shift line: the last sentence of the Substack paragraph, the "so what" before the question.>**
+Chart: <2-3 numbers for native Canva bars or tiles, with source; mark the highlight>
 
 … (slides 3-6 for shifts 2-5)
 
@@ -106,9 +110,20 @@ Caption
 <2-4 short lines, first person, chatty, with one number and a soft pointer to the Substack. No hashtag block unless she asks for one.>
 ```
 
-Each slide has to stand on its own when read in two seconds. Lead with the number when the number is the story.
+Rules:
+1. **Headline = the verdict, not the count.** "Kering is rewinding, not resetting." "China isn't the problem, the price is." "Hand-drawn is now a claim you can get caught on." "The brands in the middle are one partner away from closing." "Spanish brands are winning everywhere except Spain." The number ("a third creative director in four weeks", "+35%") goes in the body or on the chart, never in the headline.
+2. **Every slide ends on the shift line, in bold:** the last sentence of the Substack paragraph before the question. "She changed price point." "Not a new direction, a return to the one that sold." "Depend on one distributor or on footfall, and you're one partner away from closing." "The customer they can most afford to lose." It must work with the number covered up.
+3. **Body = number + mechanism + consequence**, in that order, max three sentences. Cut any sentence that is none of the three.
+4. **Never repeat the headline's idea as a number in the body.** That space is for the shift.
+5. **List slides end on the pattern.** When a slide lists cases (closures, exits), the last bullet is "One pattern." plus the mechanism, not a fourth case. The weakest case moves to the Substack.
+6. **Name the exception** when one case doesn't fit ("Loewe makes sense: three Ghibli capsules since 2021, it would have done this AI debate or not"). It makes the pattern credible.
+7. **Chart line under every slide:** two or three numbers that can be drawn as native bars or tiles in Canva, each with its source, and the highlight marked. Only numbers that are in the Substack text or Behind the scenes.
 
-### 3.3 Instagram Reel (about 45 seconds)
+**Check before handing over:** for each slide, cover the number. Can a reader still say what changed, for whom, and why it matters? If not, rewrite the headline or add the shift line.
+
+### 3.3 Instagram Reel (about 45 seconds): keep the numbers
+
+The Reel is the fast, number-led version: one number per shift. It does not reuse the carousel's slide copy.
 
 Use the DFB Reels method from `.claude/skills/dfb-reels/references/formula.md`, section 3 (Master formula) and section 6 (three acts, rising attention peaks, every sentence has a job), adapted to a five-shift list:
 
