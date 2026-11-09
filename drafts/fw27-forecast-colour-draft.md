@@ -31,7 +31,9 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 [CHART: 14-colours-heritage-craft.png, the four Heritage Craft colours, % change in Google searches this year vs last]
 
-**What's new in Heritage Craft.** On the runway: Chanel, Ralph Lauren and Acne Studios. Key items, each with the one number the forecast gives it: Mary Jane pumps (3M views on TikTok), jacquard jacket (searches up 61% on last year), paisley scarf (searches up 64% on last year) and tailored suiting (slim suits up 133% in market adoption on last year). The full read on the items is in the trends edition.
+**What's new in Heritage Craft.** On the runway: Chanel, Ralph Lauren and Acne Studios. The key items below each carry the one number the forecast gives it, on its own measure.
+
+[CHART: 18-items-heritage-craft.png, Heritage Craft key items with the forecast's figure for each]
 
 [CHART: 19-mood-heritage-craft.png, Heritage Craft, the mood, eight looks from Carmen's Pinterest board for this palette]
 
@@ -43,7 +45,9 @@ The colours, in Google searches this year against last: **cobalt blue** is the c
 
 [CHART: 14-colours-sensory-riot.png, the four Sensory Riot colours, % change in Google searches this year vs last]
 
-**What's new in Sensory Riot.** On the runway: Dries Van Noten, Dolce & Gabbana and Valentino. Key items, each with the one number the forecast gives it: daytime boa (fur scarf searches up 30% on last year), fringe skirt (searches up 71% on last year), sculptural wedges (searches up 23% on last year) and embellished jeans (up 23% in market adoption on last year).
+**What's new in Sensory Riot.** On the runway: Dries Van Noten, Dolce & Gabbana and Valentino. The key items below each carry the one number the forecast gives it, on its own measure.
+
+[CHART: 18-items-sensory-riot.png, Sensory Riot key items with the forecast's figure for each]
 
 [CHART: 19-mood-sensory-riot.png, Sensory Riot, the mood, eight looks from Carmen's Pinterest board for this palette]
 
@@ -55,7 +59,9 @@ The colours, in Google searches this year against last: **moss green** is the su
 
 [CHART: 14-colours-veiled-performance.png, the four Veiled Performance colours, % change in Google searches this year vs last]
 
-**What's new in Veiled Performance.** On the runway: Jane Wade, Chloé and Lacoste. Key items, each with the one number the forecast gives it: drawstring pants (up 33% among key influencers), nylon bag (up 28% in market adoption on last year), funnel neck jacket (up 888% among key influencers, from a base the forecast doesn't state) and rain boots (up 87% among key influencers).
+**What's new in Veiled Performance.** On the runway: Jane Wade, Chloé and Lacoste. The key items below each carry the one number the forecast gives it, on its own measure.
+
+[CHART: 18-items-veiled-performance.png, Veiled Performance key items with the forecast's figure for each]
 
 [CHART: 19-mood-veiled-performance.png, Veiled Performance, the mood, eight looks from Carmen's Pinterest board for this palette]
 

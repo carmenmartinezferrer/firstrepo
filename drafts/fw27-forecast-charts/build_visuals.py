@@ -84,13 +84,13 @@ for key, (name, looks) in STRIPS.items():
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 
 ITEMS = {
- 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps'), ('item-jacquard-jacket.png', 'Jacquard jacket'), ('item-paisley-scarf.png', 'Paisley scarf'), ('item-tailored-suiting.png', 'Tailored suiting')]),
- 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa'), ('item-fringe-skirt.png', 'Fringe skirt'), ('item-sculptural-wedges.png', 'Sculptural wedges'), ('item-embellished-jeans.png', 'Embellished jeans')]),
- 'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants'), ('item-nylon-bag.png', 'Nylon bag'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket'), ('item-rain-boots.png', 'Rain boots')]),
+ 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps', '3M views on TikTok'), ('item-jacquard-jacket.png', 'Jacquard jacket', 'searches up 61% on last year'), ('item-paisley-scarf.png', 'Paisley scarf', 'searches up 64% on last year'), ('item-tailored-suiting.png', 'Tailored suiting', 'slim suits up 133% in market adoption')]),
+ 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa', 'fur scarf searches up 30% on last year'), ('item-fringe-skirt.png', 'Fringe skirt', 'searches up 71% on last year'), ('item-sculptural-wedges.png', 'Sculptural wedges', 'searches up 23% on last year'), ('item-embellished-jeans.png', 'Embellished jeans', 'up 23% in market adoption')]),
+ 'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants', 'up 33% among key influencers'), ('item-nylon-bag.png', 'Nylon bag', 'up 28% in market adoption'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket', 'up 888% among key influencers, base not stated'), ('item-rain-boots.png', 'Rain boots', 'up 87% among key influencers')]),
 }
 for key, (name, items) in ITEMS.items():
-    it = ''.join(f'<div class="look"><img src="images/{f}" style="height:400px;object-fit:cover;object-position:top"><div class="chip">{html.escape(n)}</div></div>' for f, n in items)
-    body = (f'<h1>{name.lower()}: what\'s new, key items</h1><p class="sub">the four pieces the forecast puts behind this mood</p>'
+    it = ''.join(f'<div class="sw"><div class="look"><img src="images/{f}" style="height:340px"></div><div class="nm" style="font-size:26px;margin-top:14px">{html.escape(n)}</div><div class="dp" style="font-size:20px;color:{MUTED}">{html.escape(d)}</div></div>' for f, n, d in items)
+    body = (f'<h1>{name.lower()}: what\'s new, key items</h1><p class="sub">the one number the forecast gives each piece, as printed, each on its own measure</p>'
             f'<div class="row">{it}</div>')
     fn = f'18-items-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
