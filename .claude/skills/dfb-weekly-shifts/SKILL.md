@@ -46,6 +46,15 @@ Exactly **5**. The series name is **shifts**, never "signals".
 
 **A shift is a change in behaviour, not a reading of one event.** Test every shift line: does it describe something now true of the industry or the customer that wasn't before? "The hire is the tell" fails. "A creative director no longer gets time to build" passes. "The Chinese shopper hasn't stopped buying, she has moved down the price ladder" passes. If the line only explains this week's news, it isn't the shift yet; keep asking what changed.
 
+**Reference set (8 Nov 2026, as Carmen stated them after the carousel review).** Match this level:
+- Kering: a creative director no longer gets time to build. Vaccarello had ten years, McGirr three, Piccioli under eighteen months. Kering gives a vision 18 months to sell, then buys back the one that did (Rose worked with Demna at Balenciaga 2015 to 2018).
+- American brands: the Chinese shopper hasn't stopped buying, she has moved down the price ladder. The growth now goes to $200, not €2,000.
+- Hand-drawn Christmas: the customer craves things that took effort to make. It's the same pull behind the 80s nostalgia and maximalism. Loewe got there first (three Ghibli capsules, 2021 to 2023).
+- Closures: the middle has no cushion left. Depend on one distributor or on footfall and you're one partner away from closing.
+- Spain: the brands grew up abroad, so the Spanish shopper is now the customer they can most afford to lose.
+
+Each names who changed (a group, a shopper, a market), what they now do, and the number that proves it. Don't reuse these lines in later weeks unless the story genuinely moves on; use them as the bar.
+
 A shift qualifies when it has all three:
 - **A pattern**: more than one source, company or data point points the same way. Name the category-level pattern, not just the company ("fast fashion is getting regulated", not "Shein's IPO").
 - **A hard number or a named quote**: a percentage, a euro or dollar figure, a share, a date.
@@ -65,7 +74,7 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 - **Direct, no hedging.** Say what it means.
 - **End on a question or a provocation** (Substack shifts and the Reel close).
 - **Spell out why it's news.** Don't lean on context the reader may not have. Write "Hermès was the one luxury house still growing through the slowdown. Not anymore", not "Even Hermès is slowing". Carmen asked for exactly this fix.
-- **Name the measure and its scope.** A market index is not a company's sales: Acotex's figure is "fashion retail sales in Spain, the whole market", not "Inditex in Spain". A region is not a country: "Asia excluding Japan" stays "Asia excluding Japan". Say what the number measures the first time you use it.
+- **Name the measure and its scope.** A market index is not a company's sales: Acotex's figure is "fashion retail sales in Spain, the whole market", not "Inditex in Spain" or Mango's Spain sales. Write "the Spanish market". A region is not a country: "Asia excluding Japan" stays "Asia excluding Japan". Say what the number measures the first time you use it, and carry the publisher's own explanation when it gives one (Acotex blamed September 2026 on warm weather delaying autumn buying, October on uncertainty and shoppers waiting for Black Friday).
 - **Concrete, checkable claims only.** No abstract aphorisms like "control is getting more expensive than growth": Carmen rejected exactly that kind of line. Every reading points at something specific.
 - **Hyphens with spaces** ( - ), never em dashes. No bullet points inside a shift. No URLs in the copy.
 - **Banned phrases:** "in the fashion industry", "it's important to note", "moreover", "furthermore", "additionally", "this raises questions about", "in today's landscape", "game-changer", and any meta-reference to "this article" or "this newsletter".
