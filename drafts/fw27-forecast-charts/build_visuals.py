@@ -64,8 +64,8 @@ def page(body, w):
             f'.sub{{font-size:22px;color:{MUTED};margin:0 0 34px}} .src{{font-size:20px;margin-top:34px}}'
             '.row{display:flex;gap:28px} .sw{flex:1} .sq{height:200px;border-radius:2px}'
             f'.nm{{font-family:{SERIF};font-weight:700;font-size:28px;margin:16px 0 4px}} .hx{{font-size:19px;color:{MUTED};margin:0 0 8px}} .dp{{font-size:21px;line-height:1.3}}'
-            '.look{flex:1;position:relative} .look img{width:100%;height:440px;object-fit:cover;object-position:top;display:block}'
-            f'.chip{{position:absolute;left:0;bottom:0;background:{PINK};color:#fff;font-size:20px;letter-spacing:1px;text-transform:uppercase;padding:8px 14px}}'
+            '.look{flex:1;position:relative;border-radius:22px;overflow:hidden} .look img{width:100%;height:440px;object-fit:cover;object-position:top;display:block}'
+            f'.chip{{position:absolute;left:14px;bottom:14px;background:{PINK};color:#fff;font-size:20px;letter-spacing:1px;text-transform:uppercase;padding:8px 14px;border-radius:12px}}'
             f'</style></head><body><div id="card">{body}</div></body></html>')
 
 manifest = []
