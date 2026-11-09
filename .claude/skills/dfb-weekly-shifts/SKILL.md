@@ -82,6 +82,10 @@ This Week in Fashion Data #DD/MM
 
 Briefly explained means **60-90 words per shift**. Cut rather than pad. No "worth digging into" lines here: research ideas go in Behind the scenes.
 
+End the Substack section with a `Tags` line: 6-8 Substack tags, comma-separated. Always include `Fashion`, `Luxury`, `Fashion Industry`, `Data`, `Retail`; then 2-3 tags for this week's biggest names or themes (a brand, a group, a market). Example: `Tags: Fashion, Luxury, Fashion Industry, Data, Retail, Kering, Dior, Inditex`.
+
+The post title must survive an email subject line on a phone (about 45 characters), so keep the weekly title short and fixed, and put the week's hook in the subtitle (under 90 characters shows in the preview). Carmen's chosen pair, once she confirms it, goes here.
+
 ### 3.2 Instagram carousel
 
 ```
