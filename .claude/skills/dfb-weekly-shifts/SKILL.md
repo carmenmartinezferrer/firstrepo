@@ -85,7 +85,9 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 ```
 This Week in Fashion Data #DD/MM
 
-<One subtitle sentence naming all five shifts in plain words.>
+Subtitle: <Under 160 characters, hard limit. Name the week's biggest names or themes, then what the reader gets. Count it.>
+
+<Opening paragraph: one sentence naming all five shifts in plain words. This is the first line of the post body, not the subtitle.>
 
 01 <Headline = the verdict, max 10 words>
 <90-120 words: what happened (the numbers), then "Why:" the mechanism in one or two sentences, then "The shift:" one sentence naming what changed and for whom, then the closing question.>
@@ -98,7 +100,7 @@ Each paragraph has four parts, in order: the facts, the **why** (one or two sent
 
 End the Substack section with a `Tags` line: 6-8 Substack tags, comma-separated. Always include `Fashion`, `Luxury`, `Fashion Industry`, `Data`, `Retail`; then 2-3 tags for this week's biggest names or themes (a brand, a group, a market). Example: `Tags: Fashion, Luxury, Fashion Industry, Data, Retail, Kering, Dior, Inditex`.
 
-The post title must survive an email subject line on a phone (about 45 characters), so keep the weekly title short and fixed, and put the week's hook in the subtitle (under 90 characters shows in the preview). Carmen's chosen pair, once she confirms it, goes here.
+The post title must survive an email subject line on a phone (about 45 characters), so keep the weekly title short and fixed, and put the week's hook in the subtitle. **The subtitle is under 160 characters, always**: Substack cuts it there. The first 90 characters are what shows in the inbox preview, so the hook goes first. Count the characters before saving (`printf '%s' "<subtitle>" | wc -m`) and write the count next to the label in the doc. The one-sentence summary of all five shifts is too long for a subtitle; it is the opening paragraph of the post. Carmen's chosen fixed title, once she confirms it, goes here.
 
 ### 3.2 Instagram carousel: lead with the shift
 
