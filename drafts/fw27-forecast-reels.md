@@ -18,11 +18,11 @@ Two Master DFB Formula Reels, one on colour and one on trends, as Carmen asked. 
 | Nudo | Evidence 1 | 6-12s | Three moods: heritage reds and plums, a maximalist riot of fuchsia and lilac, and a sporty marigold, moss, grey and terracotta. | Heritage Craft / Sensory Riot / Veiled Performance | Slides A3, A4, A5 in quick cuts | ●●○○○ |
 | Nudo | Evidence 2 | 12-18s | In Google searches this year against last, plum purple and moss green are up 60%, dark red and forest green 50%. | plum +60%, moss green +60%, dark red +50%, forest green +50% | Slide A2, top four bars | ●●●○○ |
 | Nudo | Hard stat | 18-22s | And four of the twelve grew just 10%: lilac, chartreuse, chestnut brown and terracotta. That's not a forecast, that's a colour that exists. | +10%: lilac, chartreuse, chestnut brown, terracotta | Slide A2, bottom four bars | ●●●●○ |
-| Nudo | Zoom out | 22-27s | Marigold is the most searched of the lot, 31% of the combined searches, and it's still growing 30%. Volume and growth at once. | marigold: 31% of searches, +30% | Slide A6, the share donut | ●●●●● |
+| Nudo | Zoom out | 22-27s | Marigold is the most searched of the lot, 24% of the combined searches, and it's still growing 30%. Volume and growth at once. | marigold: 24% of searches, +30% | Slide A6, the share donut | ●●●●● |
 | Desenlace | Close | 27-30s | So: marigold for volume, plum for growth. Which one are you betting on? | marigold for volume, plum for growth | Marigold and plum swatches | payoff |
 
 **Full script (read-through):**
-A forecast just told me the 12 colours of next autumn. I put all twelve on one scale. Because the forecast measures them three different ways, and that's how everything looks like a trend. Three moods: heritage reds and plums, a maximalist riot of fuchsia and lilac, and a sporty marigold, moss, grey and terracotta. In Google searches this year against last, plum purple and moss green are up 60%, dark red and forest green 50%. And four of the twelve grew just 10%: lilac, chartreuse, chestnut brown and terracotta. That's not a forecast, that's a colour that exists. Marigold is the most searched of the lot, 31% of the combined searches, and it's still growing 30%. Volume and growth at once. So: marigold for volume, plum for growth. Which one are you betting on?
+A forecast just told me the 12 colours of next autumn. I put all twelve on one scale. Because the forecast measures them three different ways, and that's how everything looks like a trend. Three moods: heritage reds and plums, a maximalist riot of fuchsia and lilac, and a sporty marigold, moss, grey and terracotta. In Google searches this year against last, plum purple and moss green are up 60%, dark red and forest green 50%. And four of the twelve grew just 10%: lilac, chartreuse, chestnut brown and terracotta. That's not a forecast, that's a colour that exists. Marigold is the most searched of the lot, 24% of the combined searches, and it's still growing 30%. Volume and growth at once. So: marigold for volume, plum for growth. Which one are you betting on?
 
 (About 115 words, roughly 32 seconds. To hit 30, cut "Volume and growth at once.")
 
@@ -32,7 +32,7 @@ A forecast just told me the 12 colours of next autumn. I put all twelve on one s
 - Three moods _[structure]_ → **recognition**
 - Plum and moss green +60, dark red and forest green +50 _[data]_ → **surprise, the quiet colours win**
 - Four colours +10 _[data]_ + a colour that exists _[reframe]_ → **the laugh, top of the climb**
-- Marigold 31% of searches and +30% _[data]_ + volume and growth at once _[synthesis]_ → **authority**
+- Marigold 24% of searches and +30% _[data]_ + volume and growth at once _[synthesis]_ → **authority**
 - Marigold for volume, plum for growth _[verdict]_ + which one are you betting on _[CTA]_ → **comments**
 
 **Cut (no goal):** "each colour comes with one number" (the chart shows it); the TikTok view counts (context for the caption, too slow spoken).
@@ -49,7 +49,7 @@ Full breakdown on the Substack, link in bio.
 **Data check:**
 - ✅ 12 colours in three aesthetics, the forecast's three palette pages
 - ✅ plum purple 60, moss green 60, dark red 50, forest green 50, cobalt blue 30, marigold 30, dove grey 30, fuchsia 20, lilac 10, chartreuse 10, chestnut brown 10, terracotta 10, Carmen's Google Trends pull, this year vs last
-- ✅ marigold 31% of the combined searches for the five colours with a published volume (126 of 405k), as printed in the forecast
+- ✅ marigold 24% of the combined Google searches over the last three months for the eight colours with a volume (177 of 729k), Carmen's Trendalytics platform export
 - ⚠️ the forecast's own growth figures (dove grey 43, plum 39, moss 23, cobalt 14, terracotta 7) differ from Carmen's pull; the Reel uses Carmen's, the article carries both and says so
 
 ## Reel 2: Stop Calling Everything a Trend, the 36 trends, Master DFB Formula
