@@ -128,6 +128,26 @@ charts.append(bar_chart('12-colour-growth-all', 'plum and moss green are the cli
     [(l, v) for l, v, _, _ in growth12], '', fmt=lambda v: f'+{round(v)}%',
     sub=[a for _, _, a, _ in growth12], colours=[c for _, _, _, c in growth12]))
 
+# 14. Colours by palette, each palette's four colours on growth, own hex (Carmen's Google Trends pulls)
+pal_growth = {
+ 'heritage-craft': ('heritage craft, colour by colour', [('plum purple', 60, '#583759'), ('dark red', 50, '#7B3330'), ('forest green', 50, '#254117'), ('chestnut brown', 10, '#7C533C')]),
+ 'sensory-riot': ('sensory riot, colour by colour', [('cobalt blue', 30, '#4C80FD'), ('fuchsia', 20, '#FF278A'), ('lilac', 10, '#927EC3'), ('chartreuse', 10, '#C7D344')]),
+ 'veiled-performance': ('veiled performance, colour by colour', [('moss green', 60, '#7E8C53'), ('marigold', 30, '#DFAA4F'), ('dove grey', 30, '#838384'), ('terracotta', 10, '#D38377')]),
+}
+for key, (title, cols) in pal_growth.items():
+    charts.append(bar_chart(f'14-colours-{key}', title, '% change in Google searches this year vs last, the four colours of this palette',
+        [(l, v) for l, v, _ in cols], '', fmt=lambda v: f'+{round(v)}%', colours=[c for _, _, c in cols]))
+
+# 15. Heritage Craft, the fabrics and pieces behind the palette (Carmen's Google Trends pulls, this year vs last)
+charts.append(bar_chart('15-heritage-craft-searches', 'the heritage craft wardrobe is being searched',
+    '% change in Google searches this year vs last, the fabrics and pieces behind the palette',
+    [('harness boots', 476), ('cotton', 90), ('cashmere', 80), ('jacquard jacket', 61)], '', fmt=lambda v: f'+{round(v)}%', highlight=0))
+
+# 16. What moved in the last three months (Carmen's Google Trends pulls, same period, same scale)
+charts.append(bar_chart('16-three-month-movers', 'what moved in the last three months',
+    '% change in Google searches over the last three months vs the three before',
+    [('amberglow', 50), ('blue', 33), ('peplum jacket', 24), ('blush pink', 20)], '', fmt=lambda v: f'+{round(v)}%', highlight=0))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:

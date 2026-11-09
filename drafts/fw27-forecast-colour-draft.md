@@ -25,7 +25,11 @@ The twelve colours come from the Trendalytics Womenswear Forecast for Fall/Winte
 
 Stealth wealth is evolving into heritage craft. Shoppers are moving from logos to natural fabrics, with cotton up 90% and cashmere up 80% in Google searches this year against last, because what people want is a timeless wardrobe of tried and true luxury, clothes that work as an enduring staple rather than a season's statement. My Paris SS27 tagging sees the foundation of it already: wool suiting was in 25% of all looks, the biggest material of the season. The craft side shows in jacquard jackets (up 61% in searches on last year), lace (4% of all Paris looks), shrunken blazers and peplum jackets (up 24% in Google searches over the last three months) and the equestrian tall boot look, with harness boots up 476% this year. Autumn leaves and riding boots, basically, and the palette is exactly that.
 
+[CHART: 15-heritage-craft-searches.png, the fabrics and pieces behind Heritage Craft, % change in Google searches this year vs last, harness boots, cotton, cashmere and jacquard jacket]
+
 The colours, in Google searches this year against last: **plum purple** is the one moving, up 60%, which makes it the safest bet of the four, with **dark red** and **forest green** both up 50% behind it and **chestnut brown** barely moving at 10%. The context backs the order. Plum is also up 154% on TikTok, and the forecast's own numbers have it up 39% on last year while forest green and dark red are the two least searched of the five colours it gives a volume to, 14% and 9% of the combined searches. Chestnut brown is the odd one out: 196M views on TikTok and a 10% rise in searches, which is the difference between a colour people watch and a colour people go looking for.
+
+[CHART: 14-colours-heritage-craft.png, the four Heritage Craft colours, % change in Google searches this year vs last]
 
 ### Sensory Riot: dressing in things you can actually feel
 
@@ -33,11 +37,15 @@ This is the maximalist palette, and the reasoning behind it is three things at o
 
 The colours, in Google searches this year against last: **cobalt blue** is the climber at 30%, and it's crossing from fashion into beauty, then **fuchsia** at 20%, with **lilac** and **chartreuse** both up just 10%. The context changes the picture a little. Lilac and fuchsia are the two most searched colours in the whole forecast after marigold, 25% and 21% of the combined searches, so lilac is a colour people already search for a lot that isn't growing much, while fuchsia is big and still moving, which is no surprise to anyone here, because I already told you [pink is back](https://thedatafashionbrief.substack.com/p/is-pink-actually-back-or-just-another), pink was in 8% of Paris looks and present at 81% of the shows I analysed, and blush pink searches are up 20% over the last three months. Cobalt's 30% matches the forecast's own 14% on last year in direction, and blue in general is up 33% over the last three months. Chartreuse has 149M views on TikTok and a 10% rise in searches, watched rather than searched, same as chestnut brown.
 
+[CHART: 14-colours-sensory-riot.png, the four Sensory Riot colours, % change in Google searches this year vs last]
+
 ### Veiled Performance: gorpcore grows up and brings an umbrella
 
 The sporty, rain-ready palette, and the name is less poetic than it sounds. Gorpcore has matured past the sports-prep peak of 2026 into sleek utility, nylon, drawstrings, hoods, and unpredictable weather is pushing rain jackets and waterproof footwear into everyday wardrobes. On my Paris tagging it's still a one-house story, nylon and technical fabric were in 4% of all looks and 26% of Lacoste's, and PVC was Chloé alone, on six trench coats and capes. So the clothes are early, but the colours aren't.
 
 The colours, in Google searches this year against last: **moss green** is the surprise, up 60%, level with plum purple as the fastest climber of all twelve, then **marigold** and **dove grey** both up 30%, and **terracotta** up 10%. The context: marigold is also the most searched colour in the entire forecast, 31% of the combined searches for the five colours that have a volume, and its neighbour amberglow is up 50% over the last three months, so it has volume and growth at once. The forecast's own figures have dove grey up 43%, moss green up 23% and terracotta up 7%, so we agree on the order at the bottom. I'm sorry, but a colour whose searches grew 10% in a year is not a forecast, it's a colour that exists.
+
+[CHART: 14-colours-veiled-performance.png, the four Veiled Performance colours, % change in Google searches this year vs last]
 
 > **In The Press**
 > Here's the part I didn't expect. WGSN and Coloro published their four key colours for Autumn/Winter 2027/28 back in September 2025, a full year before this forecast: Russet, Peaceful Lilac, Maize and Deep Green ([FashionUnited](https://fashionunited.uk/news/fashion/wgsn-and-coloro-key-colours-for-autumn-winter-2027-28/2025091783967)). That's russet red and forest green from Heritage Craft, lilac from Sensory Riot, and a maize yellow sitting right next to Veiled Performance's marigold. Two forecasters with different methods, one colour from each mood plus a second from Heritage Craft. When two independent sources land on the same four colours, that's a stronger claim than either alone, and it's the shortlist I'd actually take seriously.
@@ -49,6 +57,8 @@ Ok, ok… twelve colours, three moods, each with a number next to it, very convi
 ### By search growth: plum and moss green lead, four colours barely move
 
 [CHART: 12-colour-growth-all.png, % change in Google searches this year vs last, all twelve colours on one scale, DFB pull]
+
+[CHART: 16-three-month-movers.png, what moved in the last three months, % change in Google searches over the last three months vs the three before, amberglow, blue, peplum jacket and blush pink]
 
 Plum purple and moss green up 60%, dark red and forest green up 50%, cobalt blue, marigold and dove grey at 30%, fuchsia at 20%, and four colours at 10%: lilac, chartreuse, chestnut brown and terracotta. So Heritage Craft is the mood that's actually moving, three of its four colours in the top four, and lilac, one of the four colours both forecasters agreed on, is the one search has least time for.
 
