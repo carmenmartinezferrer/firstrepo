@@ -31,6 +31,12 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 [CHART: 14-colours-heritage-craft.png, the four Heritage Craft colours, % change in Google searches this year vs last]
 
+**What's new in Heritage Craft**
+
+[CHART: 07-runway-heritage-craft.png, Heritage Craft on the SS27 runway, Chanel, Ralph Lauren and Acne Studios]
+
+[CHART: 18-items-heritage-craft.png, Heritage Craft key items, Mary Jane pumps, jacquard jacket, paisley scarf and tailored suiting]
+
 ### Sensory Riot: dressing in things you can actually feel
 
 This is the maximalist palette, and the reasoning behind it is three things at once. Shoppers tired of generic AI imagery are turning to tactile, layered, clashing-print dressing that a machine can't replicate, years of quiet luxury have dissolved into corporate sameness, and effort is back, clothes that visibly took time to make. My data agrees on the direction: 31% of the Paris SS27 looks I tagged carried embellishment (ruffles, fringe, sequins, beading, embroidery, feathers or appliqué), at every one of the 16 houses, and the fringe skirt is the clearest signal, up 71% in searches on last year and the biggest mover among the items the forecast measured that way. Minimalism isn't over though, 56% of the Paris colour weight was still neutral, so the loud side grows while the quiet side stays.
@@ -39,6 +45,12 @@ The colours, in Google searches this year against last: **cobalt blue** is the c
 
 [CHART: 14-colours-sensory-riot.png, the four Sensory Riot colours, % change in Google searches this year vs last]
 
+**What's new in Sensory Riot**
+
+[CHART: 07-runway-sensory-riot.png, Sensory Riot on the SS27 runway, Dries Van Noten, Dolce & Gabbana and Valentino]
+
+[CHART: 18-items-sensory-riot.png, Sensory Riot key items, daytime boa, fringe skirt, sculptural wedges and embellished jeans]
+
 ### Veiled Performance: gorpcore grows up and brings an umbrella
 
 The sporty, rain-ready palette, and the name is less poetic than it sounds. Gorpcore has matured past the sports-prep peak of 2026 into sleek utility, nylon, drawstrings, hoods, and unpredictable weather is pushing rain jackets and waterproof footwear into everyday wardrobes. On my Paris tagging it's still a one-house story, nylon and technical fabric were in 4% of all looks and 26% of Lacoste's, and PVC was Chloé alone, on six trench coats and capes. So the clothes are early, but the colours aren't.
@@ -46,6 +58,12 @@ The sporty, rain-ready palette, and the name is less poetic than it sounds. Gorp
 The colours, in Google searches this year against last: **moss green** is the surprise, up 60%, level with plum purple as the fastest climber of all twelve, then **marigold** and **dove grey** both up 30%, and **terracotta** up 10%. The context: marigold is also the second most searched colour of the twelve, 16% of the combined searches, beaten only by dove grey at 19%, and grey is grey, and its neighbour amberglow is up 50% over the last three months, so it has volume and growth at once. The forecast's own figures have dove grey up 43%, moss green up 23% and terracotta up 7%, so we agree on the order at the bottom. Terracotta is the one to watch here though, because it's barely growing but already takes 11% of the combined searches, level with chartreuse, so it's big and flat rather than small, and moss green, the fastest climber, is the least searched of the twelve at 3%, so it's climbing from almost nothing. I'm sorry, but a colour whose searches grew 10% in a year is not a forecast, it's a colour that exists.
 
 [CHART: 14-colours-veiled-performance.png, the four Veiled Performance colours, % change in Google searches this year vs last]
+
+**What's new in Veiled Performance**
+
+[CHART: 07-runway-veiled-performance.png, Veiled Performance on the SS27 runway, Jane Wade, Chloé and Lacoste]
+
+[CHART: 18-items-veiled-performance.png, Veiled Performance key items, drawstring pants, nylon bag, funnel neck jacket and rain boots]
 
 > **In The Press**
 > Here's the part I didn't expect. WGSN and Coloro published their four key colours for Autumn/Winter 2027/28 back in September 2025, a full year before this forecast: Russet, Peaceful Lilac, Maize and Deep Green ([FashionUnited](https://fashionunited.uk/news/fashion/wgsn-and-coloro-key-colours-for-autumn-winter-2027-28/2025091783967)). That's russet red and forest green from Heritage Craft, lilac from Sensory Riot, and a maize yellow sitting right next to Veiled Performance's marigold. Two forecasters with different methods, one colour from each mood plus a second from Heritage Craft. When two independent sources land on the same four colours, that's a stronger claim than either alone, and it's the shortlist I'd actually take seriously.

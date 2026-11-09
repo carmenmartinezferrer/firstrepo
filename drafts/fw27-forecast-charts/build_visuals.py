@@ -78,9 +78,21 @@ for key, (name, cols) in PALETTES.items():
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 for key, (name, looks) in STRIPS.items():
     lk = ''.join(f'<div class="look"><img src="images/{f}"><div class="chip">{html.escape(h)}</div></div>' for f, h in looks)
-    body = (f'<h1>{name.lower()}, on the SS27 runway</h1><p class="sub">the three shows the forecast names as early indicators for this aesthetic</p>'
-            f'<div class="row">{lk}</div><div class="src">Images: runway photographs as reproduced in the Trendalytics FW27 forecast. Houses as named by Trendalytics.</div>')
+    body = (f'<h1>{name.lower()}: what\'s new on the runway</h1><p class="sub">the three SS27 shows named as early indicators of this mood</p>'
+            f'<div class="row">{lk}</div>')
     fn = f'07-runway-{key}'
+    open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
+
+ITEMS = {
+ 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps'), ('item-jacquard-jacket.png', 'Jacquard jacket'), ('item-paisley-scarf.png', 'Paisley scarf'), ('item-tailored-suiting.png', 'Tailored suiting')]),
+ 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa'), ('item-fringe-skirt.png', 'Fringe skirt'), ('item-sculptural-wedges.png', 'Sculptural wedges'), ('item-embellished-jeans.png', 'Embellished jeans')]),
+ 'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants'), ('item-nylon-bag.png', 'Nylon bag'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket'), ('item-rain-boots.png', 'Rain boots')]),
+}
+for key, (name, items) in ITEMS.items():
+    it = ''.join(f'<div class="look"><img src="images/{f}" style="height:400px;object-fit:cover;object-position:top"><div class="chip">{html.escape(n)}</div></div>' for f, n in items)
+    body = (f'<h1>{name.lower()}: what\'s new, key items</h1><p class="sub">the four pieces the forecast puts behind this mood</p>'
+            f'<div class="row">{it}</div>')
+    fn = f'18-items-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 vol = [('dove grey', 202, '#838384'), ('marigold', 177, '#DFAA4F'), ('chartreuse', 124, '#C7D344'), ('terracotta', 123, '#D38377'), ('plum purple', 103, '#583759'), ('lilac', 101, '#927EC3'), ('fuchsia', 69, '#FF278A'), ('forest green', 55, '#254117'), ('cobalt blue', 43, '#4C80FD'), ('chestnut brown', 43, '#7C533C'), ('dark red', 37, '#7B3330'), ('moss green', 37, '#7E8C53')]  # Google search volume, last 3 months, thousands, Carmen's platform export; dove grey=dark grey, plum purple=deep purple, chestnut brown=dark brown, moss green=dark green
 dsvg, dpct = donut_svg(vol)
