@@ -73,14 +73,14 @@ This Week in Fashion Data #DD/MM
 
 <One subtitle sentence naming all five shifts in plain words.>
 
-01 <Shift headline, max 10 words>
-<60-90 words: thesis, number, reading, closing question.>
+01 <Headline = the verdict, max 10 words>
+<90-120 words: what happened (the numbers), then "Why:" the mechanism in one or two sentences, then "The shift:" one sentence naming what changed and for whom, then the closing question.>
 
 02 …
 (through 05)
 ```
 
-Briefly explained means **60-90 words per shift**. Cut rather than pad. No "worth digging into" lines here: research ideas go in Behind the scenes.
+Each paragraph has four parts, in order: the facts, the **why** (one or two sentences starting "Why:" or "Why now:"), **"The shift:"** (one sentence, explicit, naming what changed and for whom), and the question. Carmen's readers said the old version gave the facts but not the why or the shift; the explicit "The shift:" sentence is the fix, and it is also what the carousel slide ends on. **90-120 words per shift.** Cut rather than pad. No "worth digging into" lines here: research ideas go in Behind the scenes.
 
 End the Substack section with a `Tags` line: 6-8 Substack tags, comma-separated. Always include `Fashion`, `Luxury`, `Fashion Industry`, `Data`, `Retail`; then 2-3 tags for this week's biggest names or themes (a brand, a group, a market). Example: `Tags: Fashion, Luxury, Fashion Industry, Data, Retail, Kering, Dior, Inditex`.
 
