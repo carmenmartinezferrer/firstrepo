@@ -33,7 +33,7 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 **What's new in Heritage Craft.** On the runway: Chanel, Ralph Lauren and Acne Studios. Key items, each with the one number the forecast gives it: Mary Jane pumps (3M views on TikTok), jacquard jacket (searches up 61% on last year), paisley scarf (searches up 64% on last year) and tailored suiting (slim suits up 133% in market adoption on last year). The full read on the items is in the trends edition.
 
-[CHART: 19-mood-heritage-craft.png, Heritage Craft, the mood, nine looks from Carmen's Pinterest board for this palette]
+[CHART: 19-mood-heritage-craft.png, Heritage Craft, the mood, eight looks from Carmen's Pinterest board for this palette]
 
 ### Sensory Riot: dressing in things you can actually feel
 
@@ -45,7 +45,7 @@ The colours, in Google searches this year against last: **cobalt blue** is the c
 
 **What's new in Sensory Riot.** On the runway: Dries Van Noten, Dolce & Gabbana and Valentino. Key items, each with the one number the forecast gives it: daytime boa (fur scarf searches up 30% on last year), fringe skirt (searches up 71% on last year), sculptural wedges (searches up 23% on last year) and embellished jeans (up 23% in market adoption on last year).
 
-[CHART: 19-mood-sensory-riot.png, Sensory Riot, the mood, nine looks from Carmen's Pinterest board for this palette]
+[CHART: 19-mood-sensory-riot.png, Sensory Riot, the mood, eight looks from Carmen's Pinterest board for this palette]
 
 ### Veiled Performance: gorpcore grows up and brings an umbrella
 
@@ -57,7 +57,7 @@ The colours, in Google searches this year against last: **moss green** is the su
 
 **What's new in Veiled Performance.** On the runway: Jane Wade, Chloé and Lacoste. Key items, each with the one number the forecast gives it: drawstring pants (up 33% among key influencers), nylon bag (up 28% in market adoption on last year), funnel neck jacket (up 888% among key influencers, from a base the forecast doesn't state) and rain boots (up 87% among key influencers).
 
-[CHART: 19-mood-veiled-performance.png, Veiled Performance, the mood, nine looks from Carmen's Pinterest board for this palette]
+[CHART: 19-mood-veiled-performance.png, Veiled Performance, the mood, eight looks from Carmen's Pinterest board for this palette]
 
 > **In The Press**
 > Here's the part I didn't expect. WGSN and Coloro published their four key colours for Autumn/Winter 2027/28 back in September 2025, a full year before this forecast: Russet, Peaceful Lilac, Maize and Deep Green ([FashionUnited](https://fashionunited.uk/news/fashion/wgsn-and-coloro-key-colours-for-autumn-winter-2027-28/2025091783967)). That's russet red and forest green from Heritage Craft, lilac from Sensory Riot, and a maize yellow sitting right next to Veiled Performance's marigold. Two forecasters with different methods, one colour from each mood plus a second from Heritage Craft. When two independent sources land on the same four colours, that's a stronger claim than either alone, and it's the shortlist I'd actually take seriously.
