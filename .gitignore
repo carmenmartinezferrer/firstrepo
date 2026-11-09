@@ -12,3 +12,5 @@ invoices/clients.json
 invoices/log.csv
 invoices/*.pdf
 invoices/draft*.json
+drafts/fw27-forecast-colour-edition-complete.html
+drafts/fw27-forecast-colour-edition.zip
