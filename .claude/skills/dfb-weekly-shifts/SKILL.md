@@ -42,7 +42,11 @@ Find last week's doc in the Drive folder (section 4) and read it with `read_file
 
 ## 2. Pick the five shifts
 
-Exactly **5**. A shift qualifies when it has all three:
+Exactly **5**. The series name is **shifts**, never "signals".
+
+**A shift is a change in behaviour, not a reading of one event.** Test every shift line: does it describe something now true of the industry or the customer that wasn't before? "The hire is the tell" fails. "A creative director no longer gets time to build" passes. "The Chinese shopper hasn't stopped buying, she has moved down the price ladder" passes. If the line only explains this week's news, it isn't the shift yet; keep asking what changed.
+
+A shift qualifies when it has all three:
 - **A pattern**: more than one source, company or data point points the same way. Name the category-level pattern, not just the company ("fast fashion is getting regulated", not "Shein's IPO").
 - **A hard number or a named quote**: a percentage, a euro or dollar figure, a share, a date.
 - **An angle**: a real reading of what it means, not a summary of the news.
@@ -61,6 +65,7 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 - **Direct, no hedging.** Say what it means.
 - **End on a question or a provocation** (Substack shifts and the Reel close).
 - **Spell out why it's news.** Don't lean on context the reader may not have. Write "Hermès was the one luxury house still growing through the slowdown. Not anymore", not "Even Hermès is slowing". Carmen asked for exactly this fix.
+- **Name the measure and its scope.** A market index is not a company's sales: Acotex's figure is "fashion retail sales in Spain, the whole market", not "Inditex in Spain". A region is not a country: "Asia excluding Japan" stays "Asia excluding Japan". Say what the number measures the first time you use it.
 - **Concrete, checkable claims only.** No abstract aphorisms like "control is getting more expensive than growth": Carmen rejected exactly that kind of line. Every reading points at something specific.
 - **Hyphens with spaces** ( - ), never em dashes. No bullet points inside a shift. No URLs in the copy.
 - **Banned phrases:** "in the fashion industry", "it's important to note", "moreover", "furthermore", "additionally", "this raises questions about", "in today's landscape", "game-changer", and any meta-reference to "this article" or "this newsletter".
@@ -112,23 +117,24 @@ Caption
 
 Rules:
 1. **Headline = the verdict, not the count.** "Kering is rewinding, not resetting." "China isn't the problem, the price is." "Hand-drawn is now a claim you can get caught on." "The brands in the middle are one partner away from closing." "Spanish brands are winning everywhere except Spain." The number ("a third creative director in four weeks", "+35%") goes in the body or on the chart, never in the headline.
-2. **Every slide ends on the shift line, in bold:** the last sentence of the Substack paragraph before the question. "She changed price point." "Not a new direction, a return to the one that sold." "Depend on one distributor or on footfall, and you're one partner away from closing." "The customer they can most afford to lose." It must work with the number covered up.
+2. **Every slide ends on the shift line, in bold, introduced by "The shift:".** It is the "The shift:" sentence from the Substack paragraph, and it names a change in behaviour (section 2), never a reading of one event. "The shift: a creative director no longer gets time to build." "The shift: the Chinese shopper has moved down the price ladder." "The shift: the middle has no cushion left." "The shift: the Spanish shopper is now the customer Spanish brands can most afford to lose." It must work with the number covered up.
 3. **Body = number + mechanism + consequence**, in that order, max three sentences. Cut any sentence that is none of the three.
 4. **Never repeat the headline's idea as a number in the body.** That space is for the shift.
 5. **List slides end on the pattern.** When a slide lists cases (closures, exits), the last bullet is "One pattern." plus the mechanism, not a fourth case. The weakest case moves to the Substack.
 6. **Name the exception** when one case doesn't fit ("Loewe makes sense: three Ghibli capsules since 2021, it would have done this AI debate or not"). It makes the pattern credible.
 7. **Chart line under every slide:** two or three numbers that can be drawn as native bars or tiles in Canva, each with its source, and the highlight marked. Only numbers that are in the Substack text or Behind the scenes.
+8. **Like against like on every chart:** same region, same measure, same period. Ralph Lauren China +35% sits next to Louis Vuitton's Chinese clients down mid-teens (drawn at -15%, starred as "mid-teens"), not next to Gucci worldwide. Worldwide figures go in the body. **Never add an unconfirmed number to complete a chart**: a single-source figure stays off the chart even if it would make the bars line up.
 
 **Check before handing over:** for each slide, cover the number. Can a reader still say what changed, for whom, and why it matters? If not, rewrite the headline or add the shift line.
 
 ### 3.3 Instagram Reel (about 45 seconds): keep the numbers
 
-The Reel is the fast, number-led version: one number per shift. It does not reuse the carousel's slide copy.
+**The voice says the shift, the screen shows the number.** Each beat's voiceover is the shift line (the behaviour change), spoken plainly; the on-screen text carries that shift's number. **One spoken number in the whole Reel**, the hard stat, placed at the peak (the last beat before the close). Everything else is shown, not said. It does not reuse the carousel's slide copy.
 
 Use the DFB Reels method from `.claude/skills/dfb-reels/references/formula.md`, section 3 (Master formula) and section 6 (three acts, rising attention peaks, every sentence has a job), adapted to a five-shift list:
 
 - **Hook (0-3s):** "I'm a fashion data analyst, and these are the 5 shifts I'm seeing right now." Or a sharper tension-first line if the week has one. The on-screen hook text has to work with the sound off.
-- **Five beats (about 7s each):** one spoken sentence or two per shift, each with its number. **Order them so the attention peaks climb**: put the most surprising number last, not first.
+- **Five beats (about 7s each):** one spoken sentence or two per shift, the shift itself, with its number on screen. **Order them so the attention peaks climb**: the beat with the spoken hard stat goes last.
 - **Close (last 3-5s):** one quotable line plus "follow for the data behind the drama" or a question to drive comments.
 - 110-130 spoken words in total. Short sentences. No greeting.
 
