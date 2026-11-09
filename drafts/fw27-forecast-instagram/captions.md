@@ -16,7 +16,7 @@ Ok ok ok guys, a forecast just handed me the 12 colours we'll apparently see on 
 
 The forecast measures them three different ways, so I pulled all twelve myself, Google searches this year against last, and put them on one scale. Plum purple and moss green are the climbers, both up 60%. Dark red and forest green are up 50%, cobalt blue, marigold and dove grey 30%, fuchsia 20%, and four colours are up just 10%: lilac, chartreuse, chestnut brown and terracotta.
 
-Volume is a different story. Of the eight colours I have a Google search volume for, marigold takes 24% of the combined searches, chartreuse and terracotta 17% each, lilac 14%, fuchsia 9%, forest green 8%, cobalt blue 6% and dark red 5%. So marigold, chartreuse and terracotta are the big colours today, and plum, dark red and forest green are the ones growing into next autumn. Chartreuse is the odd one: hundreds of millions of TikTok views, 17% of searches, and only a 10% rise.
+Volume is a different story. Of the eight colours I have a Google search volume for, marigold takes 24% of the combined searches, chartreuse and terracotta 17% each, lilac 14%, fuchsia 9%, forest green 8%, cobalt blue 6% and dark red 5%. So marigold, chartreuse and terracotta are the big colours today, and plum, dark red and forest green are the ones growing into next autumn. Chartreuse is the odd one: hundreds of millions of TikTok views, 17% of searches, and only a 10% rise. And plum purple, moss green, dove grey and chestnut brown don't register as search terms at all, so the climbers are climbing from almost nothing.
 
 A colour whose searches grew 10% in a year is not a forecast, it's a colour that exists. My bet: marigold for volume, plum for growth. (your take: edit)
 

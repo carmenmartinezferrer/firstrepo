@@ -85,7 +85,7 @@ for key, (name, looks) in STRIPS.items():
 vol = [('marigold', 177, '#DFAA4F'), ('chartreuse', 124, '#C7D344'), ('terracotta', 123, '#D38377'), ('lilac', 101, '#927EC3'), ('fuchsia', 69, '#FF278A'), ('forest green', 55, '#254117'), ('cobalt blue', 43, '#4C80FD'), ('dark red', 37, '#7B3330')]  # Google search volume, last 3 months, thousands, Carmen's platform export
 dsvg, dpct = donut_svg(vol)
 leg = ''.join(f'<div style="display:flex;align-items:center;gap:12px;font-size:23px;margin-bottom:14px"><span style="display:inline-block;width:22px;height:22px;border-radius:50%;background:{hx}"></span><span><b style="font-family:{SERIF};font-size:25px">{n}</b> <span style="color:{MUTED}">{p}% of searches</span></span></div>' for (n, _, hx), p in zip(vol, dpct))
-body = (f'<h1>marigold is the most searched</h1><p class="sub">% = each colour\'s share of the combined Google searches over the last three months, the eight colours with a search volume. The other four have none.</p>'
+body = (f'<h1>marigold is the most searched</h1><p class="sub">% = each colour\'s share of the combined Google searches over the last three months, the eight colours with a search volume. The other four don\'t register as search terms.</p>'
         '<div class="row" style="align-items:center"><div style="flex:0 0 520px">' + dsvg.replace('width="810" height="810"', 'width="520" height="520"') + '</div><div style="flex:1">' + leg + '</div></div>')
 open(f'{OUT}/11-colour-search-share.html', 'w').write(page(body, 1000)); manifest.append('11-colour-search-share')
 donuts = [('paris/donut-lacoste.png', 'Lacoste'), ('paris/donut-loewe.png', 'Loewe'), ('paris/donut-miu-miu.png', 'Miu Miu'), ('paris/donut-valentino.png', 'Valentino')]
