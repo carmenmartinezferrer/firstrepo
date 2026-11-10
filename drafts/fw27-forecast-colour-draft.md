@@ -118,10 +118,10 @@ A few houses were already in next autumn's palette without knowing it. **Lacoste
 ## The Takeaway
 
 - Three moods with real reasons behind them: quiet luxury growing up into craft, a maximalist reaction to AI sameness and minimalism fatigue, and gorpcore maturing into rain-ready utility.
-- Four colours two forecasters agree on: russet red, lilac, a maize or marigold yellow, and forest green. Volume backs marigold and lilac, growth backs forest green and dark red, and lilac is heavily searched but growing just 10%.
+- Four colours two forecasters agree on: russet red, lilac, a maize or marigold yellow, and forest green. Volume backs marigold and lilac, growth backs forest green and dark red, and lilac has the volume but is growing just 10%.
 - Plum purple and moss green are the fastest climbers, both up 60% in searches this year against last. Plum rides this autumn's purple runways, moss green is the one nobody is talking about yet.
 - Paris SS27 already wore green, brown and grey, and almost no red or purple, so the heritage reds and plums are a fabric fair story for now.
-- Twelve colours, three yardsticks in the forecast, none measured twice. On one scale: plum and moss green for growth, grey and marigold for volume, chartreuse and terracotta big but flat, and lilac and chestnut brown are colours that exist.
+- On one scale: plum and moss green for growth, grey and marigold for volume, chartreuse and terracotta big but flat, and lilac and chestnut brown are colours that exist.
 
 If I'm buying one colour for next autumn it's marigold, because two forecasters agree on it, it's the second most searched of the twelve, only grey beats it, and it's still growing 30%, and Loewe already did it. If I'm buying two, the second is plum. Which one are you betting on? (I need to know I'm not the only one who's going to look like a tiny sun.)
 
