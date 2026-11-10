@@ -89,18 +89,23 @@ ITEMS = {
  'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants', 'up 33% among key influencers'), ('item-nylon-bag.png', 'Nylon bag', 'up 28% in market adoption'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket', 'up 888% among key influencers, base not stated'), ('item-rain-boots.png', 'Rain boots', 'up 87% among key influencers')]),
 }
 for key, (name, items) in ITEMS.items():
-    it = ''.join(f'<div class="sw" style="border-top:4px solid {PINK};padding-top:16px"><div class="nm" style="font-size:28px;margin:0 0 8px">{html.escape(n)}</div><div class="dp" style="font-size:21px;color:{MUTED}">{html.escape(d)}</div></div>' for f, n, d in items)
-    body = (f'<h1>{name.lower()}: what\'s new, key items</h1><p class="sub">the one number the forecast gives each piece, as printed, each on its own measure</p>'
+    it = ''.join(f'<div class="sw"><div class="look"><img src="pinterest/items/{f.replace("item-","").replace(".png",".jpg")}" style="height:340px"></div><div class="nm" style="font-size:26px;margin-top:14px">{html.escape(n)}</div><div class="dp" style="font-size:20px;color:{MUTED}">{html.escape(d)}</div></div>' for f, n, d in items)
+    body = (f'<h1>{name.lower()}: what\'s new, key items</h1><p class="sub">the one number the forecast gives each piece, as printed, each on its own measure; pictures from my Pinterest board, the closest look to each piece</p>'
             f'<div class="row">{it}</div>')
     fn = f'18-items-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 
-# 22. All nine runway looks in one tall picture, one row per mood, in the order of the piece
+# 22. All nine runway looks in one tall picture, one row per mood, from Carmen's Pinterest boards
+RUNWAY = {
+ 'Heritage Craft': [('pinterest/runway/heritage-1.jpg', ''), ('pinterest/runway/heritage-2.jpg', ''), ('pinterest/runway/heritage-3.jpg', '')],
+ 'Sensory Riot': [('pinterest/runway/sensory-valentino.jpg', 'Valentino'), ('pinterest/runway/sensory-dolce-gabbana.jpg', 'Dolce & Gabbana'), ('pinterest/runway/sensory-prada.jpg', 'Prada')],
+ 'Veiled Performance': [('pinterest/runway/veiled-lacoste.jpg', 'Lacoste'), ('pinterest/runway/veiled-chloe.jpg', 'Chloé'), ('pinterest/runway/veiled-miu-miu.jpg', 'Miu Miu')],
+}
 rows = ''
-for key, (name, looks) in STRIPS.items():
-    lk = ''.join(f'<div class="look"><img src="images/{f}"><div class="chip">{html.escape(h)}</div></div>' for f, h in looks)
+for name, looks in RUNWAY.items():
+    lk = ''.join(f'<div class="look"><img src="{f}">' + (f'<div class="chip">{html.escape(h)}</div>' if h else '') + '</div>' for f, h in looks)
     rows += f'<div class="nm" style="font-size:30px;margin:26px 0 12px">{html.escape(name)}</div><div class="row">{lk}</div>'
-body = (f'<h1>what\'s new on the runway</h1><p class="sub">the SS27 shows named as early indicators of each mood, three per palette</p>{rows}')
+body = (f'<h1>what\'s new on the runway</h1><p class="sub">SS27 looks that already carry each mood, three per palette</p>{rows}')
 open(f'{OUT}/22-runway-all.html', 'w').write(page(body, 1000)); manifest.append('22-runway-all')
 vol = [('dove grey', 202, '#838384'), ('marigold', 177, '#DFAA4F'), ('chartreuse', 124, '#C7D344'), ('terracotta', 123, '#D38377'), ('plum purple', 103, '#583759'), ('lilac', 101, '#927EC3'), ('fuchsia', 69, '#FF278A'), ('forest green', 55, '#254117'), ('cobalt blue', 43, '#4C80FD'), ('chestnut brown', 43, '#7C533C'), ('dark red', 37, '#7B3330'), ('moss green', 37, '#7E8C53')]  # Google search volume, last 3 months, thousands, Carmen's platform export; dove grey=dark grey, plum purple=deep purple, chestnut brown=dark brown, moss green=dark green
 dsvg, dpct = donut_svg(vol)
