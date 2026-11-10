@@ -84,8 +84,8 @@ for key, (name, looks) in STRIPS.items():
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 
 ITEMS = {
- 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps', '3M views on TikTok'), ('item-jacquard-jacket.png', 'Jacquard jacket', ''), ('item-paisley-scarf.png', 'Paisley scarf', ''), ('item-tailored-suiting.png', 'Tailored suiting', 'slim suits up 133% in market adoption')]),
- 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa', 'fur scarf searches up 30% on last year'), ('item-fringe-skirt.png', 'Fringe skirt', ''), ('item-sculptural-wedges.png', 'Sculptural wedges', ''), ('item-embellished-jeans.png', 'Embellished jeans', 'up 23% in market adoption')]),
+ 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps', '3M views on TikTok'), ('item-jacquard-jacket.png', 'Jacquard jacket', 'searches up 61% on last year'), ('item-paisley-scarf.png', 'Paisley scarf', 'searches up 64% on last year'), ('item-tailored-suiting.png', 'Tailored suiting', 'slim suits up 133% in market adoption')]),
+ 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa', 'fur scarf searches up 30% on last year'), ('item-fringe-skirt.png', 'Fringe skirt', 'searches up 71% on last year'), ('item-sculptural-wedges.png', 'Sculptural wedges', 'searches up 23% on last year'), ('item-embellished-jeans.png', 'Embellished jeans', 'up 23% in market adoption')]),
  'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants', 'up 33% among key influencers'), ('item-nylon-bag.png', 'Nylon bag', 'up 28% in market adoption'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket', 'up 888% among key influencers, base not stated'), ('item-rain-boots.png', 'Rain boots', 'up 87% among key influencers')]),
 }
 for key, (name, items) in ITEMS.items():
