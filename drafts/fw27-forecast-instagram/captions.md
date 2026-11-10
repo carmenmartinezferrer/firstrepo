@@ -19,13 +19,11 @@ Twelve colours are being forecast for next autumn, split into three aesthetics: 
 ✨ Chartreuse and terracotta are big but flat, and lilac and chestnut brown barely move
 ✨ Paris SS27 already wore green, brown and grey, and almost no red or purple
 
-And what to do with it:
+And in the full article, what to do with it:
 
-👉 If you work in fashion: put marigold and plum in the assortment now, go deep on tailored suiting and on fringe and embellishment, keep grey as your base, and hold the rain gear and chestnut brown to a small test
-👉 If you just love it: one marigold piece, one plum piece, a fringed or embellished skirt, and skip anything sold to you as "new" in lilac, chartreuse or terracotta, you already own those
-👉 If you want to be early: moss green and harness boots, both climbing fast from almost nothing
-
-If I'm buying one colour for next autumn it's marigold, and if I'm buying two, the second is plum. Which one are you betting on?
+👉 If you work in fashion: which colours and pieces to put in the assortment now, which to test small, and which to leave alone, with the number behind each call
+👉 If you just love fashion: the two colours worth buying first, the one piece to add, and the "new" colours you can safely ignore because you already own them
+👉 If you like being early: the two signals climbing fastest from almost nothing
 
 Comment FW27 and I'll send you the link to the full article on my Substack!
 
