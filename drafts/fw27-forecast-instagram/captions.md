@@ -12,16 +12,20 @@ Source credited once, at the end of each caption, not on the slides. Numbers as 
 
 Stop Calling Everything a Trend: The FW27 Colour and Trend Index is here!
 
-Twelve colours are being forecast for next autumn, split into three aesthetics. I put all twelve on one scale, a year of Google searches, to find out which ones people are actually looking for, which ones are only growing on paper, and which ones the Paris SS27 runway I tagged myself was already wearing.
+Twelve colours are being forecast for next autumn, split into three aesthetics: heritage craft, sensory riot and veiled performance. I put all twelve on one scale, a year of Google searches, and checked them against the Paris SS27 runway I tagged myself. These are the insights:
 
-Inside you'll find:
-✨ The three aesthetics and the four colours behind each one: heritage craft, sensory riot and veiled performance
-✨ Which colours are growing fastest in searches (two are up 60%, four barely move)
-✨ Which colours people search for most right now (spoiler, it's not the one on the mood boards)
-✨ The key pieces for each aesthetic, with the one number behind each
-✨ What Paris SS27 already wore, and which colours were nowhere to be seen
+✨ Plum purple and moss green are the fastest climbers, both up 60% in searches this year against last
+✨ Dove grey is the most searched colour of the twelve, with marigold second
+✨ Chartreuse and terracotta are big but flat, and lilac and chestnut brown barely move
+✨ Paris SS27 already wore green, brown and grey, and almost no red or purple
 
-It comes with the charts, the hex codes and the pieces behind every number, so whether you work in fashion and are planning next autumn, or you just want to know which colour to buy first, this one's for you.
+And what to do with it:
+
+👉 If you work in fashion: put marigold and plum in the assortment now, go deep on tailored suiting and on fringe and embellishment, keep grey as your base, and hold the rain gear and chestnut brown to a small test
+👉 If you just love it: one marigold piece, one plum piece, a fringed or embellished skirt, and skip anything sold to you as "new" in lilac, chartreuse or terracotta, you already own those
+👉 If you want to be early: moss green and harness boots, both climbing fast from almost nothing
+
+If I'm buying one colour for next autumn it's marigold, and if I'm buying two, the second is plum. Which one are you betting on?
 
 Comment FW27 and I'll send you the link to the full article on my Substack!
 
