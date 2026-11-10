@@ -1,6 +1,6 @@
 {"name": "13-palette-rows",
  "title": "the three palettes, colour by colour",
- "subtitle": "% = growth in Google searches this year vs last, each palette's four colours, biggest mover first",
+ "subtitle": "% = growth in searches this year vs last, each palette's four colours, biggest mover first",
  "source": "",
  "value_fmt": "+{v}%",
  "sort": true,

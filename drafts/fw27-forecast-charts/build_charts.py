@@ -124,7 +124,7 @@ growth12 = [('plum purple', 60, HC, '#583759'), ('moss green', 60, VP, '#7E8C53'
             ('cobalt blue', 30, SR, '#4C80FD'), ('marigold', 30, VP, '#DFAA4F'), ('dove grey', 30, VP, '#838384'), ('fuchsia', 20, SR, '#FF278A'),
             ('lilac', 10, SR, '#927EC3'), ('chartreuse', 10, SR, '#C7D344'), ('chestnut brown', 10, HC, '#7C533C'), ('terracotta', 10, VP, '#D38377')]
 charts.append(bar_chart('12-colour-growth-all', 'plum and moss green are the climbers',
-    '% change in Google searches this year vs last, all twelve colours on one scale',
+    '% change in searches this year vs last, all twelve colours on one scale',
     [(l, v) for l, v, _, _ in growth12], '', fmt=lambda v: f'+{round(v)}%',
     sub=[a for _, _, a, _ in growth12], colours=[c for _, _, _, c in growth12]))
 
@@ -135,17 +135,17 @@ pal_growth = {
  'veiled-performance': ('veiled performance, colour by colour', [('moss green', 60, '#7E8C53'), ('marigold', 30, '#DFAA4F'), ('dove grey', 30, '#838384'), ('terracotta', 10, '#D38377')]),
 }
 for key, (title, cols) in pal_growth.items():
-    charts.append(bar_chart(f'14-colours-{key}', title, '% change in Google searches this year vs last, the four colours of this palette',
+    charts.append(bar_chart(f'14-colours-{key}', title, '% change in searches this year vs last, the four colours of this palette',
         [(l, v) for l, v, _ in cols], '', fmt=lambda v: f'+{round(v)}%', colours=[c for _, _, c in cols]))
 
 # 15. Heritage Craft, the fabrics and pieces behind the palette (Carmen's Google Trends pulls, this year vs last)
 charts.append(bar_chart('15-heritage-craft-searches', 'the heritage craft wardrobe is being searched',
-    '% change in Google searches this year vs last, the fabrics and pieces behind the palette',
+    '% change in searches this year vs last, the fabrics and pieces behind the palette',
     [('harness boots', 476), ('cotton', 90), ('cashmere', 80), ('jacquard jacket', 61)], '', fmt=lambda v: f'+{round(v)}%', highlight=0))
 
 # 16. What moved in the last three months (Carmen's Google Trends pulls, same period, same scale)
 charts.append(bar_chart('16-three-month-movers', 'what moved in the last three months',
-    '% change in Google searches over the last three months vs the three before',
+    '% change in searches over the last three months vs the three before',
     [('amberglow', 50), ('blue', 33), ('peplum jacket', 24), ('blush pink', 20)], '', fmt=lambda v: f'+{round(v)}%', highlight=0))
 
 # 17. Bridge: Paris SS27 runway share vs FW27 forecast colours' share of searches, by colour family
@@ -183,15 +183,15 @@ bridge = [('yellow & gold', 5, 27, 'marigold, chartreuse'), ('grey', 7, 19, 'dov
           ('orange & rust', 3, 11, 'terracotta'), ('green & olive', 8, 8, 'forest, moss'), ('pink', 5, 6, 'fuchsia'),
           ('brown & beige', 11, 4, 'chestnut brown'), ('blue', 5, 4, 'cobalt'), ('red', 2, 3, 'dark red')]
 charts.append(paired_chart('17-bridge-ss27-fw27', 'the spring runway vs what people search now',
-    '% of all colour on the Paris SS27 runway, next to % of combined Google searches for the|twelve forecast colours over the last three months, grouped into colour families',
+    '% of all colour on the Paris SS27 runway, next to % of combined searches for the|twelve forecast colours over the last three months, grouped into colour families',
     bridge, 'Runway shares leave out black, white and the neutrals, 56% of the Paris palette. Search shares add up to 100 across the twelve colours.'))
 
-# 20/21. Most searched: share of combined Google searches over the last three months, all twelve ranked, then by palette
+# 20/21. Most searched: share of combined searches over the last three months, all twelve ranked, then by palette
 share12 = [('dove grey', 19, VP, '#838384'), ('marigold', 16, VP, '#DFAA4F'), ('chartreuse', 11, SR, '#C7D344'), ('terracotta', 11, VP, '#D38377'),
            ('plum purple', 9, HC, '#583759'), ('lilac', 9, SR, '#927EC3'), ('fuchsia', 6, SR, '#FF278A'), ('forest green', 5, HC, '#254117'),
            ('cobalt blue', 4, SR, '#4C80FD'), ('chestnut brown', 4, HC, '#7C533C'), ('dark red', 3, HC, '#7B3330'), ('moss green', 3, VP, '#7E8C53')]
 charts.append(bar_chart('20-colour-search-share-bars', 'the most searched colours, grey first, marigold second',
-    '% of combined Google searches over the last three months, all twelve colours; dove grey, plum purple, chestnut brown and moss green use the nearest search term',
+    '% of combined searches over the last three months, all twelve colours; dove grey, plum purple, chestnut brown and moss green use the nearest search term',
     [(l, v) for l, v, _, _ in share12], '', fmt=lambda v: f'{round(v)}%', sub=[a for _, _, a, _ in share12], colours=[c for _, _, _, c in share12]))
 share_pal = {
  'heritage-craft': ('heritage craft, most searched colour', [('plum purple', 9, '#583759'), ('forest green', 5, '#254117'), ('chestnut brown', 4, '#7C533C'), ('dark red', 3, '#7B3330')]),
@@ -199,7 +199,7 @@ share_pal = {
  'veiled-performance': ('veiled performance, most searched colour', [('dove grey', 19, '#838384'), ('marigold', 16, '#DFAA4F'), ('terracotta', 11, '#D38377'), ('moss green', 3, '#7E8C53')]),
 }
 for key, (title, cols) in share_pal.items():
-    charts.append(bar_chart(f'21-share-{key}', title, '% of the combined Google searches for all twelve forecast colours, last three months',
+    charts.append(bar_chart(f'21-share-{key}', title, '% of the combined searches for all twelve forecast colours, last three months',
         [(l, v) for l, v, _ in cols], '', fmt=lambda v: f'{round(v)}%', colours=[c for _, _, c in cols]))
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
