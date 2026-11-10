@@ -148,7 +148,7 @@ charts.append(bar_chart('16-three-month-movers', 'what moved in the last three m
     '% change in searches over the last three months vs the three before',
     [('amberglow', 50), ('blue', 33), ('peplum jacket', 24), ('blush pink', 20)], '', fmt=lambda v: f'+{round(v)}%', highlight=0))
 
-# 17. Bridge: Paris SS27 runway share vs FW27 forecast colours' share of searches, by colour family
+# 17. Bridge: Paris SS27 runway share vs FW27 forecast colours' search growth (Carmen's pulls), by colour family
 def paired_chart(name, title, subtitle, rows, note, c1=DARK, c2=PINK, l1='Paris SS27 runway', l2='FW27 forecast colours, searches now'):
     """rows: list of (family, runway_pct, search_pct, members)."""
     n = len(rows); W = max(1000, 100 + n * 150, 110 + len(title) * 31)
@@ -179,12 +179,13 @@ def paired_chart(name, title, subtitle, rows, note, c1=DARK, c2=PINK, l1='Paris 
     if note: p.append(f'<text x="{left-10}" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(note)}</text>')
     p.append('</svg>'); return name, '\n'.join(p), h
 
-bridge = [('yellow & gold', 5, 27, 'marigold, chartreuse'), ('grey', 7, 19, 'dove grey'), ('purple', 1, 18, 'plum, lilac'),
-          ('orange & rust', 3, 11, 'terracotta'), ('green & olive', 8, 8, 'forest, moss'), ('pink', 5, 6, 'fuchsia'),
-          ('brown & beige', 11, 4, 'chestnut brown'), ('blue', 5, 4, 'cobalt'), ('red', 2, 3, 'dark red')]
-charts.append(paired_chart('17-bridge-ss27-fw27', 'the spring runway vs what people search now',
-    '% of all colour on the Paris SS27 runway, next to % of combined searches for the|twelve forecast colours over the last three months, grouped into colour families',
-    bridge, 'Runway shares leave out black, white and the neutrals, 56% of the Paris palette. Search shares add up to 100 across the twelve colours.'))
+bridge = [('green & olive', 8, 55, 'forest, moss'), ('red', 2, 50, 'dark red'), ('purple', 1, 35, 'plum, lilac'),
+          ('grey', 7, 30, 'dove grey'), ('blue', 5, 30, 'cobalt'), ('yellow & gold', 5, 20, 'marigold, chartreuse'),
+          ('pink', 5, 20, 'fuchsia'), ('brown & beige', 11, 10, 'chestnut brown'), ('orange & rust', 3, 10, 'terracotta')]
+charts.append(paired_chart('17-bridge-ss27-fw27', "the spring runway vs what's growing in searches",
+    '% of all colour on the Paris SS27 runway, next to % change in searches this year vs last for the|twelve forecast colours, grouped into colour families, averaged where a family has two colours',
+    bridge, 'Runway shares leave out black, white and the neutrals, 56% of the Paris palette. The two bars measure different things, a share and a growth rate.',
+    l2='FW27 forecast colours, search growth'))
 
 # 20/21. Most searched: share of combined searches over the last three months, all twelve ranked, then by palette
 share12 = [('dove grey', 19, VP, '#838384'), ('marigold', 16, VP, '#DFAA4F'), ('chartreuse', 11, SR, '#C7D344'), ('terracotta', 11, VP, '#D38377'),
