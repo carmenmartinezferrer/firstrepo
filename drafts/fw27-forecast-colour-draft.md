@@ -117,18 +117,18 @@ A few houses were already in next autumn's palette without knowing it. **Lacoste
 
 ## The Takeaway
 
-- Three moods with real reasons behind them: quiet luxury growing up into craft, a maximalist reaction to AI sameness and minimalism fatigue, and gorpcore maturing into rain-ready utility.
-- The colours, on one scale: plum purple and moss green are the fastest climbers, both up 60% in searches this year against last, grey and marigold are the ones people actually search for, 19% and 16% of the combined searches, chartreuse and terracotta are big but flat, and lilac and chestnut brown are colours that exist.
-- Where the two forecasters overlap with the data: WGSN and Coloro's four colours are russet, lilac, maize and deep green, and of those only marigold (their maize) and forest green hold up on my numbers, marigold with volume and 30% growth, forest green with 50% growth. Lilac is on both shortlists and growing just 10%, so agreement between forecasters is not the same thing as demand.
-- Paris SS27 already wore green, brown and grey, and almost no red or purple, so the heritage reds and plums are a fabric fair story for now.
+- Fastest growing: plum purple and moss green, both up 60% in searches this year against last.
+- Most searched: dove grey at 19% of the combined searches, then marigold at 16%.
+- Big but flat: chartreuse and terracotta, 11% each and up just 10%. Lilac and chestnut brown barely move.
+- Paris SS27 already wore green, brown and grey, almost no red or purple.
 
-**Safe to buy for next autumn.** Marigold, because it is the one colour where everything lines up, two forecasters, the second biggest search volume of the twelve, 30% growth, and Loewe already did it. Plum purple, up 60% and riding this autumn's purple runways. Tailored suiting, which was the biggest material story in Paris at 25% of all looks and is up 133% in market adoption. Anything fringed or embellished, since the fringe skirt is up 71% in searches and 31% of the Paris looks I tagged carried embellishment, at every one of the 16 houses. And the craft jackets, jacquard up 61% and paisley scarves up 64%.
+**Safe to buy**: marigold (volume, growth and Loewe already did it), plum purple, tailored suiting (25% of Paris looks, up 133% in market adoption), anything fringed or embellished (fringe skirt up 71%, embellishment in 31% of Paris looks), jacquard jackets and paisley scarves (up 61% and 64%).
 
-**Worth a bet, not a wardrobe.** Moss green, up 60% but from the smallest base of the twelve, 3% of the searches. Dark red and forest green, both up 50% on tiny volume and barely on the Paris runway. Harness boots, up 476% on a single search pull, and Mary Jane pumps, 3M views on TikTok and no search figure to back them.
+**Worth a bet**: moss green, dark red and forest green, growing fast from small volumes, and harness boots, up 476%.
 
-**Not yet.** The rain-ready side of Veiled Performance: nylon and technical fabric were 4% of Paris looks and a quarter of Lacoste's alone, PVC was one house, and the funnel neck jacket's 888% is among key influencers, not shoppers. Chestnut brown, 196M TikTok views and 10% growth, a colour people watch rather than buy. And lilac, chartreuse and terracotta as anything new, they are already searched, they just are not searched more than last year.
+**Not yet**: the rain gear (nylon was 4% of Paris looks, nearly all Lacoste), chestnut brown (watched on TikTok, not searched), and lilac, chartreuse and terracotta as anything new.
 
-If I'm buying one colour for next autumn it's marigold, and if I'm buying two, the second is plum. Which one are you betting on? (I need to know I'm not the only one who's going to look like a tiny sun.)
+If I'm buying one colour for next autumn it's marigold, and if I'm buying two, the second is plum. Which one are you betting on?
 
 I hope you enjoyed it, and let me know in the comments anything you would like to know, doubts, if there's anything else you would like to know! I read you.
 
