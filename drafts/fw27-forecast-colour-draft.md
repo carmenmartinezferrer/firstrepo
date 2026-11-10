@@ -11,6 +11,8 @@ view counts in the body. Charts: 06 palette cards, 11 search-share donut,
 
 ## The twelve colours and the key pieces forecasted for next fall/winter, split into three aesthetics, checked against the Paris SS27 runway, whether you work in fashion or just love it
 
+Shoppers have changed what they want from their clothes. The pieces that sell now have to feel like something, last longer than a season and work on a Tuesday as well as a Saturday, and that is exactly why anyone planning an assortment for next autumn wants hard market data rather than a mood board. The Trendalytics Womenswear Forecast for Fall/Winter 2027 is built for that job: it takes what people are searching for, what they engage with on social media and what retailers are actually putting on the shelf, and turns all of it into three macro themes, Heritage Craft, Sensory Riot and Veiled Performance, each with its own colours, key items and fabrics. I've spent the last few weeks taking it apart.
+
 The ULTIMATE forecast FW 2027 is here!! I scraped the internet, social media, the press, and crunched the numbers to give you the twelve colours for next autumn, split into three moods. So this piece is about why those three moods exist at all, which of the twelve the forecasters agree on, which ones people are actually searching for, and which ones the [Paris SS27 runway](https://thedatafashionbrief.substack.com/p/stop-calling-everything-a-trend-the-5fd), the one I tagged myself, can already see.
 
 ## Methodology, the short version
