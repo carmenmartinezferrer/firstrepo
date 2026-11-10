@@ -117,16 +117,19 @@ A few houses were already in next autumn's palette without knowing it. **Lacoste
 
 ## The Takeaway
 
+The insights:
+
+- Three moods with real reasons behind them: quiet luxury growing up into craft, a maximalist reaction to AI sameness and minimalism fatigue, and gorpcore maturing into rain-ready utility.
 - Fastest growing: plum purple and moss green, both up 60% in searches this year against last.
 - Most searched: dove grey at 19% of the combined searches, then marigold at 16%.
 - Big but flat: chartreuse and terracotta, 11% each and up just 10%. Lilac and chestnut brown barely move.
 - Paris SS27 already wore green, brown and grey, almost no red or purple.
 
-**Safe to buy**: marigold (volume, growth and Loewe already did it), plum purple, tailored suiting (25% of Paris looks, up 133% in market adoption), anything fringed or embellished (fringe skirt up 71%, embellishment in 31% of Paris looks), jacquard jackets and paisley scarves (up 61% and 64%).
+The recommendations:
 
-**Worth a bet**: moss green, dark red and forest green, growing fast from small volumes, and harness boots, up 476%.
-
-**Not yet**: the rain gear (nylon was 4% of Paris looks, nearly all Lacoste), chestnut brown (watched on TikTok, not searched), and lilac, chartreuse and terracotta as anything new.
+- **If you buy for a brand**: put marigold and plum in the assortment now, they are the two colours with volume and growth behind them. Go deep on tailored suiting and on fringe and embellishment, the two pieces where the runway and the searches already agree. Keep grey as your base, it is the most searched colour of the twelve. Hold the rain gear and the chestnut brown to a small test, the demand is not there yet.
+- **If you buy for yourself**: one marigold piece, one plum piece, a fringed or embellished skirt, and a jacquard jacket or a paisley scarf if you want the craft look. Skip anything sold to you as "new" in lilac, chartreuse or terracotta, you already own those colours and nobody is searching for them more than last year.
+- **If you want to be early**: moss green, up 60% from the smallest base of the twelve, and harness boots, up 476%. Both could go either way, which is the point.
 
 If I'm buying one colour for next autumn it's marigold, and if I'm buying two, the second is plum. Which one are you betting on?
 
