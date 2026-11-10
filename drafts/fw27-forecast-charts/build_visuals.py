@@ -36,20 +36,20 @@ def donut_svg(items, size=810):
 
 PALETTES = {
  'heritage-craft': ('Heritage Craft', [
-   ('russet red', '#7B3330', 'dark red: "high" search volume of 35k'),
-   ('plum purple', '#583759', 'plum purple: searches up 39% on last year'),
-   ('forest green', '#254117', 'forest green: "extreme" search volume of 57k'),
-   ('chestnut brown', '#7C533C', 'chestnut brown: 196M views on TikTok')]),
+   ('russet red', '#7B3330', 'searches up 50% on last year'),
+   ('plum purple', '#583759', 'searches up 60% on last year'),
+   ('forest green', '#254117', 'searches up 50% on last year'),
+   ('chestnut brown', '#7C533C', 'searches up 10% on last year')]),
  'sensory-riot': ('Sensory Riot', [
-   ('chartreuse', '#C7D344', 'chartreuse: 149M views on TikTok'),
-   ('fuchsia', '#FF278A', 'fuchsia: "extreme" search volume of 84k'),
-   ('lilac', '#927EC3', 'lilac: "extreme" search volume of 103k'),
-   ('cobalt blue', '#4C80FD', 'cobalt blue: searches up 14% on last year')]),
+   ('chartreuse', '#C7D344', 'searches up 10% on last year'),
+   ('fuchsia', '#FF278A', 'searches up 20% on last year'),
+   ('lilac', '#927EC3', 'searches up 10% on last year'),
+   ('cobalt blue', '#4C80FD', 'searches up 30% on last year')]),
  'veiled-performance': ('Veiled Performance', [
-   ('marigold', '#DFAA4F', 'marigold: "extreme" search volume of 126k'),
-   ('moss green', '#7E8C53', 'moss green: searches up 23% on last year'),
-   ('dove grey', '#838384', 'dove grey: searches up 43% on last year'),
-   ('terracotta clay', '#D38377', 'terracotta: searches up 7% on last year')]),
+   ('marigold', '#DFAA4F', 'searches up 30% on last year'),
+   ('moss green', '#7E8C53', 'searches up 60% on last year'),
+   ('dove grey', '#838384', 'searches up 30% on last year'),
+   ('terracotta clay', '#D38377', 'searches up 10% on last year')]),
 }
 STRIPS = {
  'heritage-craft': ('Heritage Craft', [('runway-chanel.png', 'Chanel'), ('runway-ralph-lauren.png', 'Ralph Lauren'), ('runway-acne-studios.png', 'Acne Studios')]),
@@ -72,7 +72,7 @@ manifest = []
 for key, (name, cols) in PALETTES.items():
     sw = ''.join(f'<div class="sw"><div class="sq" style="background:{hx}"></div><div class="nm">{html.escape(n)}</div>'
                  f'<div class="hx">{hx}</div><div class="dp">{html.escape(dp)}</div></div>' for n, hx, dp in cols)
-    body = (f'<h1>{name.lower()}, the palette</h1><p class="sub">the four colours of this aesthetic, with the one number behind each</p>'
+    body = (f'<h1>{name.lower()}, the palette</h1><p class="sub">the four colours of this aesthetic, % change in searches this year vs last</p>'
             f'<div class="row">{sw}</div>')
     fn = f'06-palette-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
