@@ -36,20 +36,20 @@ def donut_svg(items, size=810):
 
 PALETTES = {
  'heritage-craft': ('Heritage Craft', [
-   ('russet red', '#7B3330', 'searches up 50% on last year'),
-   ('plum purple', '#583759', 'searches up 60% on last year'),
-   ('forest green', '#254117', 'searches up 50% on last year'),
-   ('chestnut brown', '#7C533C', 'searches up 10% on last year')]),
+   ('russet red', '#7B3330', ''),
+   ('plum purple', '#583759', ''),
+   ('forest green', '#254117', ''),
+   ('chestnut brown', '#7C533C', '196M views on TikTok')]),
  'sensory-riot': ('Sensory Riot', [
-   ('chartreuse', '#C7D344', 'searches up 10% on last year'),
-   ('fuchsia', '#FF278A', 'searches up 20% on last year'),
-   ('lilac', '#927EC3', 'searches up 10% on last year'),
-   ('cobalt blue', '#4C80FD', 'searches up 30% on last year')]),
+   ('chartreuse', '#C7D344', '149M views on TikTok'),
+   ('fuchsia', '#FF278A', ''),
+   ('lilac', '#927EC3', ''),
+   ('cobalt blue', '#4C80FD', '')]),
  'veiled-performance': ('Veiled Performance', [
-   ('marigold', '#DFAA4F', 'searches up 30% on last year'),
-   ('moss green', '#7E8C53', 'searches up 60% on last year'),
-   ('dove grey', '#838384', 'searches up 30% on last year'),
-   ('terracotta clay', '#D38377', 'searches up 10% on last year')]),
+   ('marigold', '#DFAA4F', ''),
+   ('moss green', '#7E8C53', ''),
+   ('dove grey', '#838384', ''),
+   ('terracotta clay', '#D38377', '')]),
 }
 STRIPS = {
  'heritage-craft': ('Heritage Craft', [('runway-chanel.png', 'Chanel'), ('runway-ralph-lauren.png', 'Ralph Lauren'), ('runway-acne-studios.png', 'Acne Studios')]),
@@ -72,7 +72,7 @@ manifest = []
 for key, (name, cols) in PALETTES.items():
     sw = ''.join(f'<div class="sw"><div class="sq" style="background:{hx}"></div><div class="nm">{html.escape(n)}</div>'
                  f'<div class="hx">{hx}</div><div class="dp">{html.escape(dp)}</div></div>' for n, hx, dp in cols)
-    body = (f'<h1>{name.lower()}, the palette</h1><p class="sub">the four colours of this aesthetic, % change in searches this year vs last</p>'
+    body = (f'<h1>{name.lower()}, the palette</h1><p class="sub">the four colours of this aesthetic</p>'
             f'<div class="row">{sw}</div>')
     fn = f'06-palette-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
@@ -84,8 +84,8 @@ for key, (name, looks) in STRIPS.items():
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
 
 ITEMS = {
- 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps', '3M views on TikTok'), ('item-jacquard-jacket.png', 'Jacquard jacket', 'searches up 61% on last year'), ('item-paisley-scarf.png', 'Paisley scarf', 'searches up 64% on last year'), ('item-tailored-suiting.png', 'Tailored suiting', 'slim suits up 133% in market adoption')]),
- 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa', 'fur scarf searches up 30% on last year'), ('item-fringe-skirt.png', 'Fringe skirt', 'searches up 71% on last year'), ('item-sculptural-wedges.png', 'Sculptural wedges', 'searches up 23% on last year'), ('item-embellished-jeans.png', 'Embellished jeans', 'up 23% in market adoption')]),
+ 'heritage-craft': ('Heritage Craft', [('item-mary-jane-pumps.png', 'Mary Jane pumps', '3M views on TikTok'), ('item-jacquard-jacket.png', 'Jacquard jacket', ''), ('item-paisley-scarf.png', 'Paisley scarf', ''), ('item-tailored-suiting.png', 'Tailored suiting', 'slim suits up 133% in market adoption')]),
+ 'sensory-riot': ('Sensory Riot', [('item-daytime-boa.png', 'Daytime boa', 'fur scarf searches up 30% on last year'), ('item-fringe-skirt.png', 'Fringe skirt', ''), ('item-sculptural-wedges.png', 'Sculptural wedges', ''), ('item-embellished-jeans.png', 'Embellished jeans', 'up 23% in market adoption')]),
  'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants', 'up 33% among key influencers'), ('item-nylon-bag.png', 'Nylon bag', 'up 28% in market adoption'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket', 'up 888% among key influencers, base not stated'), ('item-rain-boots.png', 'Rain boots', 'up 87% among key influencers')]),
 }
 for key, (name, items) in ITEMS.items():
