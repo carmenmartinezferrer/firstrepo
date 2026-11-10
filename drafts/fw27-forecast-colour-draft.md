@@ -21,6 +21,8 @@ The twelve colours come from the Trendalytics Womenswear Forecast for Fall/Winte
 
 [CHART: 13-palette-rows.png, the three palettes colour by colour, % = growth in Google searches this year vs last, each palette's four colours, biggest mover first]
 
+[CHART: 22-runway-all.png, what's new on the runway, the three SS27 shows named as early indicators of each mood, Heritage Craft, Sensory Riot and Veiled Performance]
+
 ### Heritage Craft: quiet luxury grows up, and for winter it comes in deep colour
 
 Stealth wealth is evolving into heritage craft. Shoppers are moving from logos to natural fabrics, with cotton up 90% and cashmere up 80% in Google searches this year against last, because what people want is a timeless wardrobe of tried and true luxury, clothes that work as an enduring staple rather than a season's statement. My Paris SS27 tagging sees the foundation of it already: wool suiting was in 25% of all looks, the biggest material of the season. The craft side shows in jacquard jackets (up 61% in searches on last year), lace (4% of all Paris looks), shrunken blazers and peplum jackets (up 24% in Google searches over the last three months) and the equestrian tall boot look, with harness boots up 476% this year. Autumn leaves and riding boots, basically, and the palette is exactly that.
@@ -35,7 +37,7 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 **What's new in Heritage Craft.** On the runway: Chanel, Ralph Lauren and Acne Studios. The key items below each carry the one number the forecast gives it, on its own measure.
 
-[CHART: 18-items-heritage-craft.png, Heritage Craft key items with the forecast's figure for each]
+[CHART: 18-items-heritage-craft.png, Heritage Craft key items, name and the forecast's figure for each]
 
 [CHART: 19-mood-heritage-craft.png, Heritage Craft, the mood, eight looks from Carmen's Pinterest board for this palette]
 
@@ -51,7 +53,7 @@ The colours, in Google searches this year against last: **cobalt blue** is the c
 
 **What's new in Sensory Riot.** On the runway: Dries Van Noten, Dolce & Gabbana and Valentino. The key items below each carry the one number the forecast gives it, on its own measure.
 
-[CHART: 18-items-sensory-riot.png, Sensory Riot key items with the forecast's figure for each]
+[CHART: 18-items-sensory-riot.png, Sensory Riot key items, name and the forecast's figure for each]
 
 [CHART: 19-mood-sensory-riot.png, Sensory Riot, the mood, eight looks from Carmen's Pinterest board for this palette]
 
@@ -67,7 +69,7 @@ The colours, in Google searches this year against last: **moss green** is the su
 
 **What's new in Veiled Performance.** On the runway: Jane Wade, Chloé and Lacoste. The key items below each carry the one number the forecast gives it, on its own measure.
 
-[CHART: 18-items-veiled-performance.png, Veiled Performance key items with the forecast's figure for each]
+[CHART: 18-items-veiled-performance.png, Veiled Performance key items, name and the forecast's figure for each]
 
 [CHART: 19-mood-veiled-performance.png, Veiled Performance, the mood, eight looks from Carmen's Pinterest board for this palette]
 

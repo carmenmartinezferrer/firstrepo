@@ -89,11 +89,19 @@ ITEMS = {
  'veiled-performance': ('Veiled Performance', [('item-drawstring-pants.png', 'Drawstring pants', 'up 33% among key influencers'), ('item-nylon-bag.png', 'Nylon bag', 'up 28% in market adoption'), ('item-funnel-neck-jacket.png', 'Funnel neck jacket', 'up 888% among key influencers, base not stated'), ('item-rain-boots.png', 'Rain boots', 'up 87% among key influencers')]),
 }
 for key, (name, items) in ITEMS.items():
-    it = ''.join(f'<div class="sw"><div class="look"><img src="images/{f}" style="height:340px"></div><div class="nm" style="font-size:26px;margin-top:14px">{html.escape(n)}</div><div class="dp" style="font-size:20px;color:{MUTED}">{html.escape(d)}</div></div>' for f, n, d in items)
+    it = ''.join(f'<div class="sw" style="border-top:4px solid {PINK};padding-top:16px"><div class="nm" style="font-size:28px;margin:0 0 8px">{html.escape(n)}</div><div class="dp" style="font-size:21px;color:{MUTED}">{html.escape(d)}</div></div>' for f, n, d in items)
     body = (f'<h1>{name.lower()}: what\'s new, key items</h1><p class="sub">the one number the forecast gives each piece, as printed, each on its own measure</p>'
             f'<div class="row">{it}</div>')
     fn = f'18-items-{key}'
     open(f'{OUT}/{fn}.html', 'w').write(page(body, 1000)); manifest.append(fn)
+
+# 22. All nine runway looks in one tall picture, one row per mood, in the order of the piece
+rows = ''
+for key, (name, looks) in STRIPS.items():
+    lk = ''.join(f'<div class="look"><img src="images/{f}"><div class="chip">{html.escape(h)}</div></div>' for f, h in looks)
+    rows += f'<div class="nm" style="font-size:30px;margin:26px 0 12px">{html.escape(name)}</div><div class="row">{lk}</div>'
+body = (f'<h1>what\'s new on the runway</h1><p class="sub">the SS27 shows named as early indicators of each mood, three per palette</p>{rows}')
+open(f'{OUT}/22-runway-all.html', 'w').write(page(body, 1000)); manifest.append('22-runway-all')
 vol = [('dove grey', 202, '#838384'), ('marigold', 177, '#DFAA4F'), ('chartreuse', 124, '#C7D344'), ('terracotta', 123, '#D38377'), ('plum purple', 103, '#583759'), ('lilac', 101, '#927EC3'), ('fuchsia', 69, '#FF278A'), ('forest green', 55, '#254117'), ('cobalt blue', 43, '#4C80FD'), ('chestnut brown', 43, '#7C533C'), ('dark red', 37, '#7B3330'), ('moss green', 37, '#7E8C53')]  # Google search volume, last 3 months, thousands, Carmen's platform export; dove grey=dark grey, plum purple=deep purple, chestnut brown=dark brown, moss green=dark green
 dsvg, dpct = donut_svg(vol)
 leg = ''.join(f'<div style="display:flex;align-items:center;gap:12px;font-size:23px;margin-bottom:14px"><span style="display:inline-block;width:22px;height:22px;border-radius:50%;background:{hx}"></span><span><b style="font-family:{SERIF};font-size:25px">{n}</b> <span style="color:{MUTED}">{p}% of searches</span></span></div>' for (n, _, hx), p in zip(vol, dpct))
