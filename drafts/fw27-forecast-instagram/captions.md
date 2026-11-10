@@ -8,19 +8,24 @@
 
 Source credited once, at the end of each caption, not on the slides. Numbers as printed in the forecast, Paris figures from the DFB SS27 tagging.
 
-## Post A: the 12 colours (carousel A1 to A7: growth ring cover, twelve-colour growth bars, one ring per mood, the search-share donut, the close)
+## Post A: the 12 colours (native Canva carousel DAHaX8K3I1M: share donut cover, growth bars, mood rings, palette rows, close)
 
-Stop calling everything a trend: the Fall/Winter 2027 colour edition
+Stop Calling Everything a Trend: The FW27 Colour and Trend Index is here!
 
-Ok ok ok guys, a forecast just handed me the 12 colours we'll apparently see on next autumn's runways, split into three moods: Heritage Craft (russet red, plum purple, forest green, chestnut brown), Sensory Riot (chartreuse, fuchsia, lilac, cobalt blue) and Veiled Performance (marigold, moss green, dove grey, terracotta).
+Twelve colours are being forecast for next autumn, split into three aesthetics. I put all twelve on one scale, a year of Google searches, to find out which ones people are actually looking for, which ones are only growing on paper, and which ones the Paris SS27 runway I tagged myself was already wearing.
 
-The forecast measures them three different ways, so I pulled all twelve myself, Google searches this year against last, and put them on one scale. Plum purple and moss green are the climbers, both up 60%. Dark red and forest green are up 50%, cobalt blue, marigold and dove grey 30%, fuchsia 20%, and four colours are up just 10%: lilac, chartreuse, chestnut brown and terracotta.
+Inside you'll find:
+✨ The three aesthetics and the four colours behind each one: heritage craft, sensory riot and veiled performance
+✨ Which colours are growing fastest in searches (two are up 60%, four barely move)
+✨ Which colours people search for most right now (spoiler, it's not the one on the mood boards)
+✨ The key pieces for each aesthetic, with the one number behind each
+✨ What Paris SS27 already wore, and which colours were nowhere to be seen
 
-Volume is a different story. On Google search volume over the last three months, all twelve on one chart, dove grey takes 19% of the combined searches, marigold 16%, chartreuse and terracotta 11% each, plum purple and lilac 9%, fuchsia 6%, forest green 5%, cobalt blue and chestnut brown 4%, dark red and moss green 3%. So grey and marigold are the big colours today, plum, dark red and forest green are the ones growing, and moss green is climbing 60% from the smallest base of the lot. (Four shade names were too specific to register, so dark grey, deep purple, dark brown and dark green stand in.)
+It comes with the charts, the hex codes and the pieces behind every number, so whether you work in fashion and are planning next autumn, or you just want to know which colour to buy first, this one's for you.
 
-A colour whose searches grew 10% in a year is not a forecast, it's a colour that exists. My bet: marigold for volume, plum for growth. (your take: edit)
+Comment FW27 and I'll send you the link to the full article on my Substack!
 
-Full piece on Substack, link in bio. Colour list and volumes from the Trendalytics FW27 womenswear forecast, growth from my own Google Trends pull, this year against last.
+#fw27 #colourtrends #fashionforecast #trendforecasting #colourforecast #fashiondata
 
 ## Post B: the trends (carousel B1 to B7)
 
