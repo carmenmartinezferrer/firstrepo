@@ -9,7 +9,7 @@ view counts in the body. Charts: 06 palette cards, 11 search-share donut,
 
 # Stop Calling Everything a Trend: The FW27 Colour and Trend Index
 
-## The twelve colours and the key pieces the forecast gives next autumn, split into three moods, checked against a year of Google searches and the Paris SS27 runway I tagged myself
+## The twelve colours and the key pieces forecasted for next fall/winter, split into three aesthetics, checked against the Paris SS27 runway, whether you work in fashion or just love it
 
 The ULTIMATE forecast FW 2027 is here!! I scraped the internet, social media, the press, and crunched the numbers to give you the twelve colours for next autumn, split into three moods. So this piece is about why those three moods exist at all, which of the twelve the forecasters agree on, which ones people are actually searching for, and which ones the [Paris SS27 runway](https://thedatafashionbrief.substack.com/p/stop-calling-everything-a-trend-the-5fd), the one I tagged myself, can already see.
 
