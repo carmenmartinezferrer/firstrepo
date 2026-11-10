@@ -31,6 +31,8 @@ The colours, in Google searches this year against last: **plum purple** is the o
 
 [CHART: 14-colours-heritage-craft.png, the four Heritage Craft colours, % change in Google searches this year vs last]
 
+[CHART: 21-share-heritage-craft.png, the four Heritage Craft colours by share of the combined Google searches for all twelve forecast colours, last three months]
+
 **What's new in Heritage Craft.** On the runway: Chanel, Ralph Lauren and Acne Studios. The key items below each carry the one number the forecast gives it, on its own measure.
 
 [CHART: 18-items-heritage-craft.png, Heritage Craft key items with the forecast's figure for each]
@@ -45,6 +47,8 @@ The colours, in Google searches this year against last: **cobalt blue** is the c
 
 [CHART: 14-colours-sensory-riot.png, the four Sensory Riot colours, % change in Google searches this year vs last]
 
+[CHART: 21-share-sensory-riot.png, the four Sensory Riot colours by share of the combined Google searches for all twelve forecast colours, last three months]
+
 **What's new in Sensory Riot.** On the runway: Dries Van Noten, Dolce & Gabbana and Valentino. The key items below each carry the one number the forecast gives it, on its own measure.
 
 [CHART: 18-items-sensory-riot.png, Sensory Riot key items with the forecast's figure for each]
@@ -58,6 +62,8 @@ The sporty, rain-ready palette, and the name is less poetic than it sounds. Gorp
 The colours, in Google searches this year against last: **moss green** is the surprise, up 60%, level with plum purple as the fastest climber of all twelve, then **marigold** and **dove grey** both up 30%, and **terracotta** up 10%. The context: marigold is also the second most searched colour of the twelve, 16% of the combined searches, beaten only by dove grey at 19%, and grey is grey, and its neighbour amberglow is up 50% over the last three months, so it has volume and growth at once. The forecast's own figures have dove grey up 43%, moss green up 23% and terracotta up 7%, so we agree on the order at the bottom. Terracotta is the one to watch here though, because it's barely growing but already takes 11% of the combined searches, level with chartreuse, so it's big and flat rather than small, and moss green, the fastest climber, is the least searched of the twelve at 3%, so it's climbing from almost nothing. I'm sorry, but a colour whose searches grew 10% in a year is not a forecast, it's a colour that exists.
 
 [CHART: 14-colours-veiled-performance.png, the four Veiled Performance colours, % change in Google searches this year vs last]
+
+[CHART: 21-share-veiled-performance.png, the four Veiled Performance colours by share of the combined Google searches for all twelve forecast colours, last three months]
 
 **What's new in Veiled Performance.** On the runway: Jane Wade, Chloé and Lacoste. The key items below each carry the one number the forecast gives it, on its own measure.
 
@@ -81,6 +87,8 @@ Ok, ok… twelve colours, three moods, each with a number next to it, very convi
 Plum purple and moss green up 60%, dark red and forest green up 50%, cobalt blue, marigold and dove grey at 30%, fuchsia at 20%, and four colours at 10%: lilac, chartreuse, chestnut brown and terracotta. So Heritage Craft is the mood that's actually moving, three of its four colours in the top four, and lilac, one of the four colours both forecasters agreed on, is the one search has least time for.
 
 ### By share of searches: grey first, marigold second
+
+[CHART: 20-colour-search-share-bars.png, the twelve colours ranked by share of combined Google searches over the last three months, four on the nearest search term]
 
 [CHART: 11-colour-search-share.png, each colour's share of the combined Google searches over the last three months, all twelve colours, four of them on the nearest search term]
 

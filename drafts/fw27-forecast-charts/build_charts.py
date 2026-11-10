@@ -186,6 +186,22 @@ charts.append(paired_chart('17-bridge-ss27-fw27', 'the spring runway vs what peo
     '% of all colour on the Paris SS27 runway, next to % of combined Google searches for the|twelve forecast colours over the last three months, grouped into colour families',
     bridge, 'Runway shares leave out black, white and the neutrals, 56% of the Paris palette. Search shares add up to 100 across the twelve colours.'))
 
+# 20/21. Most searched: share of combined Google searches over the last three months, all twelve ranked, then by palette
+share12 = [('dove grey', 19, VP, '#838384'), ('marigold', 16, VP, '#DFAA4F'), ('chartreuse', 11, SR, '#C7D344'), ('terracotta', 11, VP, '#D38377'),
+           ('plum purple', 9, HC, '#583759'), ('lilac', 9, SR, '#927EC3'), ('fuchsia', 6, SR, '#FF278A'), ('forest green', 5, HC, '#254117'),
+           ('cobalt blue', 4, SR, '#4C80FD'), ('chestnut brown', 4, HC, '#7C533C'), ('dark red', 3, HC, '#7B3330'), ('moss green', 3, VP, '#7E8C53')]
+charts.append(bar_chart('20-colour-search-share-bars', 'the most searched colours, grey first, marigold second',
+    '% of combined Google searches over the last three months, all twelve colours; dove grey, plum purple, chestnut brown and moss green use the nearest search term',
+    [(l, v) for l, v, _, _ in share12], '', fmt=lambda v: f'{round(v)}%', sub=[a for _, _, a, _ in share12], colours=[c for _, _, _, c in share12]))
+share_pal = {
+ 'heritage-craft': ('heritage craft, most searched colour', [('plum purple', 9, '#583759'), ('forest green', 5, '#254117'), ('chestnut brown', 4, '#7C533C'), ('dark red', 3, '#7B3330')]),
+ 'sensory-riot': ('sensory riot, most searched colour', [('chartreuse', 11, '#C7D344'), ('lilac', 9, '#927EC3'), ('fuchsia', 6, '#FF278A'), ('cobalt blue', 4, '#4C80FD')]),
+ 'veiled-performance': ('veiled performance, most searched colour', [('dove grey', 19, '#838384'), ('marigold', 16, '#DFAA4F'), ('terracotta', 11, '#D38377'), ('moss green', 3, '#7E8C53')]),
+}
+for key, (title, cols) in share_pal.items():
+    charts.append(bar_chart(f'21-share-{key}', title, '% of the combined Google searches for all twelve forecast colours, last three months',
+        [(l, v) for l, v, _ in cols], '', fmt=lambda v: f'{round(v)}%', colours=[c for _, _, c in cols]))
+
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
 for name, svg, h in charts:
