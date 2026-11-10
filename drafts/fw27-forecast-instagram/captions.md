@@ -12,18 +12,17 @@ Source credited once, at the end of each caption, not on the slides. Numbers as 
 
 Stop Calling Everything a Trend: The FW27 Colour and Trend Index is here!
 
-Twelve colours are being forecast for next autumn, split into three aesthetics: heritage craft, sensory riot and veiled performance. I put all twelve on one scale, a year of Google searches, and checked them against the Paris SS27 runway I tagged myself. These are the insights:
+Twelve colours are being forecast for next autumn. I put all of them on one scale, a year of Google searches, and checked them against the Paris SS27 runway I tagged myself, to find out which ones people are actually looking for and which ones only exist on a mood board.
 
-✨ Plum purple and moss green are the fastest climbers, both up 60% in searches this year against last
-✨ Dove grey is the most searched colour of the twelve, with marigold second
-✨ Chartreuse and terracotta are big but flat, and lilac and chestnut brown barely move
-✨ Paris SS27 already wore green, brown and grey, and almost no red or purple
+Inside you'll find:
+✨ The three aesthetics for FW27, heritage craft, sensory riot and veiled performance, and the four colours behind each one
+✨ Which colours are growing fastest in searches and which ones barely move
+✨ Which colours people search for most right now, all twelve ranked
+✨ The key pieces for each aesthetic, with the one number behind each
+✨ What the Paris SS27 runway already wore, house by house, and what it didn't
+✨ A buy list for next autumn: what's safe, what's a bet and what's not there yet
 
-And in the full article, what to do with it:
-
-👉 If you work in fashion: which colours and pieces to put in the assortment now, which to test small, and which to leave alone, with the number behind each call
-👉 If you just love fashion: the two colours worth buying first, the one piece to add, and the "new" colours you can safely ignore because you already own them
-👉 If you like being early: the two signals climbing fastest from almost nothing
+So if you work in fashion, you get what to put in the assortment, what to test small and what to leave alone, with the data behind every call. And if you just love it, you get which colour to buy first, which piece to add and which "new" colours you can skip because you already own them.
 
 Comment FW27 and I'll send you the link to the full article on my Substack!
 
