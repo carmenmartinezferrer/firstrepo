@@ -28,6 +28,18 @@ Comment FW27 and I'll send you the link to the full article on my Substack!
 
 #fw27 #colourtrends #fashionforecast #trendforecasting #colourforecast #fashiondata
 
+### Post A, Carmen's hook version
+
+The future is colourful, matchy and wild. The forecast for next FW27 is here and I crunched the data to give it to you.
+
+Twelve colours for next autumn, split into three moods: heritage craft, the quiet luxury one that comes in plum, dark red, forest green and chestnut brown, sensory riot, the maximalist one in fuchsia, lilac, chartreuse and cobalt, and veiled performance, the rain-ready one in marigold, moss green, dove grey and terracotta. I put all twelve on one scale, a year of Google searches, and checked them against the Paris SS27 runway I tagged myself, so you get which colours are actually growing, which ones people search for most, the key pieces behind each mood and what Paris already wore.
+
+Swipe for the twelve on one chart. Full article, with what to buy and what to skip whether you work in fashion or just love it, on my Substack.
+
+Comment FW27 and I'll send you the link!
+
+#fw27 #colourtrends #fashionforecast #trendforecasting #colourforecast #fashiondata
+
 ## Post B: the trends (carousel B1 to B7)
 
 Stop calling everything a trend: the Fall/Winter 2027 edition
