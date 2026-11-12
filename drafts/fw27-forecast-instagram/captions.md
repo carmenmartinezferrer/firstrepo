@@ -1,7 +1,7 @@
 ## Canva designs
-- FW27 Heritage Craft carousel (one per aesthetic, Pinterest images): https://www.canva.com/d/nBrbBA8tR4sfGs3 (design DAHard0nd0Y)
-- FW27 Sensory Riot carousel: https://www.canva.com/d/xKeQrQ8Kbjta5X1 (design DAHarfrRbXs)
-- FW27 Veiled Performance carousel: https://www.canva.com/d/ZV2oQOEGuCjOZSp (design DAHarclf9H0)
+- FW27 Heritage Craft carousel (one per aesthetic, Pinterest images): https://www.canva.com/d/BGVZ384ElRRPLvq (design DAHarROPkn0, v2 with white-outlined cutouts and bold data runs; the first version DAHard0nd0Y can be deleted)
+- FW27 Sensory Riot carousel: https://www.canva.com/d/nhsgVJO7YsTp2KG (design DAHarQgNZpw, v2; the first version DAHarfrRbXs can be deleted)
+- FW27 Veiled Performance carousel: https://www.canva.com/d/ECrbbYHjQpY0crT (design DAHare78O1k, v2; the first version DAHarclf9H0 can be deleted)
 - FW27 trends carousel (copy of the Paris SS27 trends format, Pinterest images): https://www.canva.com/d/v5yH9XIynR3_FQS (design DAHarJnOH4I)
 
 - Colour carousel, editable native build (donut, bars and mood rings are Canva shapes and text, copied from Carmen's reference design DAHXm5VB6sQ): https://www.canva.com/d/bBfvgXHiEKYDJPL
