@@ -1,4 +1,7 @@
 ## Canva designs
+- FW27 Heritage Craft carousel (one per aesthetic, Pinterest images): https://www.canva.com/d/nBrbBA8tR4sfGs3 (design DAHard0nd0Y)
+- FW27 Sensory Riot carousel: https://www.canva.com/d/xKeQrQ8Kbjta5X1 (design DAHarfrRbXs)
+- FW27 Veiled Performance carousel: https://www.canva.com/d/ZV2oQOEGuCjOZSp (design DAHarclf9H0)
 - FW27 trends carousel (copy of the Paris SS27 trends format, Pinterest images): https://www.canva.com/d/v5yH9XIynR3_FQS (design DAHarJnOH4I)
 
 - Colour carousel, editable native build (donut, bars and mood rings are Canva shapes and text, copied from Carmen's reference design DAHXm5VB6sQ): https://www.canva.com/d/bBfvgXHiEKYDJPL
@@ -80,3 +83,59 @@ In the full article: all 36 on one scale, which ones are real and which are a co
 Comment FW27 and I'll send you the link!
 
 #fw27 #trendforecast #fashionforecast #stopcallingeverythingatrend #fashiondata
+
+## Posts D, E, F: one carousel per aesthetic, posted through the week (8 slides each: cover, key items 1 and 2, the fabrics or the Paris check, key items 3 and 4, colour decode, close)
+
+### D, Heritage Craft (DAHard0nd0Y)
+
+Stop Calling Everything a Trend: Heritage Craft for FW27.
+
+The first of next autumn's three moods, and the one for people who want clothes that look made by hand. Quiet luxury growing up into craft, in plum, dark red, forest green and chestnut brown.
+
+The four key items, with the number behind each:
+✨ Mary Jane pumps, 3M views on TikTok
+✨ The jacquard jacket, searches up 61% on last year
+✨ The paisley scarf, searches up 64%
+✨ Tailored suiting, slim suits up 133% in stores, and wool suiting already in 25% of Paris SS27 looks
+
+Plus the fabrics underneath it: cotton searches up 90%, cashmere up 80%. And the colours: plum purple up 60%, dark red and forest green up 50%.
+
+Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send you the link to the full article!
+
+#fw27 #heritagecraft #quietluxury #trendforecast #fashiondata #stopcallingeverythingatrend
+
+### E, Sensory Riot (DAHarfrRbXs)
+
+Stop Calling Everything a Trend: Sensory Riot for FW27.
+
+The second mood of next autumn, the maximalist one, for people tired of clothes that all look the same. Fuchsia, lilac, chartreuse and cobalt, and things you can actually touch.
+
+The four key items, with the number behind each:
+✨ The fringe skirt, searches up 71%, the biggest mover of the whole forecast
+✨ The daytime boa, fur scarves up 30% in searches
+✨ Sculptural wedges, searches up 23%
+✨ Embellished jeans, up 23% in stores
+
+And the check: 31% of the Paris SS27 looks I tagged carried embellishment, at every one of the 16 houses. The colours: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
+
+Comment FW27 and I'll send you the link to the full article!
+
+#fw27 #sensoryriot #maximalism #trendforecast #fashiondata #stopcallingeverythingatrend
+
+### F, Veiled Performance (DAHarclf9H0)
+
+Stop Calling Everything a Trend: Veiled Performance for FW27.
+
+The third mood of next autumn, for people who dress for the weather. Gorpcore grown up into sleek utility, in marigold, moss green, dove grey and terracotta.
+
+The four key items, with the number behind each:
+✨ Rain boots, up 87% among key influencers
+✨ The funnel neck jacket, up 888% among key influencers, from a base nobody states
+✨ The nylon bag, up 28% in stores
+✨ Drawstring trousers, up 33% among key influencers
+
+And the honest check: on the Paris SS27 runway, nylon was in 4% of looks and 26% of Lacoste's. The clothes are early, the colours aren't: moss green is up 60% in searches, marigold and dove grey up 30%.
+
+Comment FW27 and I'll send you the link to the full article!
+
+#fw27 #veiledperformance #gorpcore #trendforecast #fashiondata #stopcallingeverythingatrend
