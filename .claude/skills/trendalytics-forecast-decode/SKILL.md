@@ -189,7 +189,7 @@ placeholder links, image rights.
 Built for FW27 after the first five-trend carousel: Carmen asked for one
 carousel per aesthetic, in the format of her Paris SS27 trends carousel
 (`DAHXUHfg7lM`), with Pinterest images, cutouts on the cover and the
-template's bold runs. Final versions: Heritage Craft `DAHarROPkn0`,
+template's bold runs. Final versions: Heritage Craft, retitled "handmade and crafted aesthetic" on the slides at Carmen's request, `DAHarROPkn0`,
 Sensory Riot `DAHarQgNZpw`, Veiled Performance `DAHare78O1k`.
 
 **Images.** Carmen keeps one Pinterest board per mood. Pull the board
