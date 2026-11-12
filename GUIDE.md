@@ -136,7 +136,8 @@ You don't need to name the skill. It loads when your message matches. Naming it 
   - "Explain the Trendalytics methodology in the piece."
   - "Put the three palettes in the swatch grid style, one line each."
   - "Colour carousel I can edit in Canva, plus a Reel."
-- **You get:** trends piece and/or colour piece (series title Stop Calling Everything a Trend, Forecast Edition), charts (same-scale growth bars, share donut, palette swatch rows, runway cross-check), HTML build, native Canva carousel, Reels in DFB > Reels, sources list.
+  - "One carousel per aesthetic, in the format of my Paris trends carousel, with Pinterest images, cutouts on the cover and the bold runs." (send the Pinterest board links or pins)
+- **You get:** trends piece and/or colour piece (series title Stop Calling Everything a Trend, Forecast Edition), charts (same-scale growth bars, share donut, palette swatch rows, runway cross-check), HTML build, native Canva colour carousel, one carousel per aesthetic (cover with white-outlined cutouts, one code per slide with the forecast's trend name and every photo's number in the body), Reels in DFB > Reels, sources list.
 - **Rules it enforces:** Trendalytics named once in the intro and once in the methodology, never on charts; percentages, not raw volumes or views; every palette explains why it has that name; your own Trends pulls where the report leaves gaps; text approved before any visual.
 - **Reference:** the FW27 pair in `drafts/fw27-forecast-trendalytics-draft.md` and `drafts/fw27-forecast-colour-draft.md`.
 
