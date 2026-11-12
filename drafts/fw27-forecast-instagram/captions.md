@@ -86,7 +86,7 @@ Comment FW27 and I'll send you the link!
 
 ## Posts D, E, F: one carousel per aesthetic, posted through the week (8 slides each: cover, key items 1 and 2, the fabrics or the Paris check, key items 3 and 4, colour decode, close)
 
-### D, Heritage Craft (DAHard0nd0Y)
+### D, Heritage Craft (DAHarROPkn0)
 
 Stop Calling Everything a Trend: Heritage Craft for FW27.
 
@@ -104,7 +104,7 @@ Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send 
 
 #fw27 #heritagecraft #quietluxury #trendforecast #fashiondata #stopcallingeverythingatrend
 
-### E, Sensory Riot (DAHarfrRbXs)
+### E, Sensory Riot (DAHarQgNZpw)
 
 Stop Calling Everything a Trend: Sensory Riot for FW27.
 
@@ -122,7 +122,7 @@ Comment FW27 and I'll send you the link to the full article!
 
 #fw27 #sensoryriot #maximalism #trendforecast #fashiondata #stopcallingeverythingatrend
 
-### F, Veiled Performance (DAHarclf9H0)
+### F, Veiled Performance (DAHare78O1k)
 
 Stop Calling Everything a Trend: Veiled Performance for FW27.
 
