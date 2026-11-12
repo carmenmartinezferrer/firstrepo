@@ -92,13 +92,14 @@ Stop Calling Everything a Trend: Heritage Craft for FW27.
 
 The first of next autumn's three moods, and the one for people who want clothes that look made by hand. Quiet luxury growing up into craft, in plum, dark red, forest green and chestnut brown.
 
-The four key items, with the number behind each:
-✨ Mary Jane pumps, 3M views on TikTok
-✨ The jacquard jacket, searches up 61% on last year
-✨ The paisley scarf, searches up 64%
-✨ Tailored suiting, slim suits up 133% in stores, and wool suiting already in 25% of Paris SS27 looks
+The five codes of the mood, and the number the forecast puts behind each:
+✨ Preppy, collars and lace: Mary Jane pumps at 3M views on TikTok, harness boots up 476% in searches
+✨ Tweed and jacquard: the jacquard jacket up 61% in searches on last year
+✨ The knits: cotton searches up 90%, cashmere up 80%
+✨ The finishing touch: the paisley scarf up 64%, the cheapest way in
+✨ Tailored suiting: slim suits up 133% in stores, and wool suiting already in 25% of Paris SS27 looks
 
-Plus the fabrics underneath it: cotton searches up 90%, cashmere up 80%. And the colours: plum purple up 60%, dark red and forest green up 50%.
+And the colours: plum purple up 60%, dark red and forest green up 50%.
 
 Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send you the link to the full article!
 
