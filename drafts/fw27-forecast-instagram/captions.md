@@ -109,15 +109,16 @@ Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send 
 
 Stop Calling Everything a Trend: Sensory Riot for FW27.
 
-The second mood of next autumn, the maximalist one, for people tired of clothes that all look the same. Fuchsia, lilac, chartreuse and cobalt, and things you can actually touch.
+The second mood of next autumn, the maximalist one, for people who want clothes you can feel from across a room. Fuchsia, lilac, chartreuse and cobalt, and things you can actually touch.
 
-The four key items, with the number behind each:
-✨ The fringe skirt, searches up 71%, the biggest mover of the whole forecast
-✨ The daytime boa, fur scarves up 30% in searches
-✨ Sculptural wedges, searches up 23%
-✨ Embellished jeans, up 23% in stores
+The five codes of the mood, and the number behind each:
+✨ Fringe: fringe skirts up 71% in searches, the biggest mover of the whole forecast
+✨ Feathers and fur: the daytime boa, fur scarves up 30% in searches
+✨ Embellishment: 31% of the Paris SS27 looks I tagged carried it, at every one of the 16 houses, and Lectra has sequins up 40% in stores
+✨ Sculptural wedges: searches up 23%, with zebra print growing by 5M TikTok views a week beside them
+✨ Embellished denim: up 23% in stores, graphic prints up 51%
 
-And the check: 31% of the Paris SS27 looks I tagged carried embellishment, at every one of the 16 houses. The colours: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
+The colours: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
 
 Comment FW27 and I'll send you the link to the full article!
 
@@ -127,15 +128,16 @@ Comment FW27 and I'll send you the link to the full article!
 
 Stop Calling Everything a Trend: Veiled Performance for FW27.
 
-The third mood of next autumn, for people who dress for the weather. Gorpcore grown up into sleek utility, in marigold, moss green, dove grey and terracotta.
+The third mood of next autumn, for people who want clothes that work in the rain. Gorpcore grown up into sleek utility, in marigold, moss green, dove grey and terracotta.
 
-The four key items, with the number behind each:
-✨ Rain boots, up 87% among key influencers
-✨ The funnel neck jacket, up 888% among key influencers, from a base nobody states
-✨ The nylon bag, up 28% in stores
-✨ Drawstring trousers, up 33% among key influencers
+The five codes of the mood, and the number behind each:
+✨ Rain boots: up 87% among key influencers
+✨ Funnel neck: jackets up 888% among key influencers, from a base nobody states
+✨ Nylon and PVC: nylon in 4% of Paris SS27 looks and 26% of Lacoste's, PVC was Chloé alone
+✨ Nylon bag: up 28% in stores
+✨ Drawstring: pants up 33% among key influencers
 
-And the honest check: on the Paris SS27 runway, nylon was in 4% of looks and 26% of Lacoste's. The clothes are early, the colours aren't: moss green is up 60% in searches, marigold and dove grey up 30%.
+The clothes are early, the colours aren't: moss green is up 60% in searches, marigold and dove grey up 30%.
 
 Comment FW27 and I'll send you the link to the full article!
 

@@ -184,6 +184,63 @@ placeholder links, image rights.
 - Captions (`scripts/build_slides.py` has the FW27 pair): source credited
   once at the end, never on the slides.
 
+## Step 7: the per-aesthetic carousels (one per mood, posted through the week)
+
+Built for FW27 after the first five-trend carousel: Carmen asked for one
+carousel per aesthetic, in the format of her Paris SS27 trends carousel
+(`DAHXUHfg7lM`), with Pinterest images, cutouts on the cover and the
+template's bold runs. Final versions: Heritage Craft `DAHarROPkn0`,
+Sensory Riot `DAHarQgNZpw`, Veiled Performance `DAHare78O1k`.
+
+**Images.** Carmen keeps one Pinterest board per mood. Pull the board
+with its RSS feed (`https://www.pinterest.com/<user>/<board-slug>.rss`,
+then `i.pinimg.com/originals/...` for each pin), make a contact sheet,
+pick. A single pin link (`pin.it/...`) resolves to `pinterest.co.uk`,
+which the proxy blocks; fetch `https://www.pinterest.com/pin/<id>/` with
+a browser user agent instead and grep the `originals` URL.
+
+**Build.** Copy the Paris template fresh for every mood (never edit the
+original), the copy keeps the same page and element IDs. Then, per page:
+- Cover: `find_and_replace_text` on the title keeps its two runs; Carmen
+  writes it "Stop calling everything a trend: FW27" + the mood name in
+  lowercase pink. Four cutout slots sit above the photo grid; fill them
+  with `scripts/cutout_outline.py` PNGs (big one left, three smaller
+  across), then `layer_element` to front for the big cutout, the dark
+  overlay, the title and the DFB mark, in that order. The template's old
+  48px subtitle box (`LBg7sRfJc2KhcL96`) is reused as the one-line
+  explanation of the mood under the title ("the mood for people who want
+  clothes that look made by hand").
+- Slides 2 to 6: kicker, title, four photos with their small labels, and
+  the body. The body texts are multi-run (bold data lead, normal
+  explanation, bold closer; slide 2 is 45px with underlined phrases), so
+  rewrite them with one `find_and_replace_text` per run, never
+  `replace_text`, which flattens the formatting. Widen labels to 220 and
+  any title or kicker that wraps to 860.
+- Slide 7 is the mood's colour bar chart, slide 8 "Comment FW27".
+
+**Framing (Carmen's rules after three rounds).**
+- Each slide is a code of the aesthetic, not a product: the title is the
+  trend named the way the forecast names it ("Natural fibers, FW27",
+  "Jacquard, FW27", "Embellishment, FW27"), never a description I made
+  up ("Collars and lace" was rejected).
+- The kicker explains the mood every time: "Heritage Craft, the handmade
+  mood, code 3". The cover carries the explanation line too.
+- The photos set the mood, the body names every other trend visible in
+  them with its own number: the key item's forecast figure first (bold),
+  then the fabrics or neighbours in the other three photos with their
+  figures (Paris share, Lectra, search growth), then the closer. No
+  photo on a slide without a number somewhere in the text that explains
+  why it is there.
+- Captions D/E/F list the five codes with one number each.
+
+**Canva mechanics that bit.** Editing transactions expire after a few
+minutes idle and die on worker restarts; open, send every page in one
+go, commit immediately, and re-read the kicker of each page before
+re-sending anything. `format_text` needs a `formatting` object and still
+would not change the font size on the reused subtitle box, so the cover
+line stays at the template's 48px; break it into two lines by hand.
+Parallel edit calls do apply, but check the result before committing.
+
 ## Lessons from FW27 (don't repeat)
 
 - Trendalytics named everywhere: strip it to intro and methodology.
@@ -195,6 +252,10 @@ placeholder links, image rights.
   grep every output for the report's name before handing over.
 - Hero `<br><em>` escaped in HTML: build the title HTML directly.
 - Chart titles overflowing: width rule `max(1000, 100+n*150, 110+len(title)*31)`.
+- Carousel slides whose photos don't match the text: pick photos for the
+  mood, then write the body so every photo's trend has its number.
+- Slide titles invented by me ('Collars and lace'): use the forecast's
+  own trend names.
 
 ## Hand-over
 
