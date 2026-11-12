@@ -1,5 +1,5 @@
 ## Canva designs
-- FW27 Handmade and crafted aesthetic (Heritage Craft) carousel (one per aesthetic, Pinterest images): https://www.canva.com/d/BGVZ384ElRRPLvq (design DAHarROPkn0, v2 with white-outlined cutouts and bold data runs; the first version DAHard0nd0Y can be deleted)
+- FW27 Craft aesthetic (Heritage Craft in the forecast) carousel (one per aesthetic, Pinterest images): https://www.canva.com/d/BGVZ384ElRRPLvq (design DAHarROPkn0, v2 with white-outlined cutouts and bold data runs; the first version DAHard0nd0Y can be deleted)
 - FW27 Sensory Riot carousel: https://www.canva.com/d/nhsgVJO7YsTp2KG (design DAHarQgNZpw, v2; the first version DAHarfrRbXs can be deleted)
 - FW27 Veiled Performance carousel: https://www.canva.com/d/ECrbbYHjQpY0crT (design DAHare78O1k, v2; the first version DAHarclf9H0 can be deleted)
 - FW27 trends carousel (copy of the Paris SS27 trends format, Pinterest images): https://www.canva.com/d/v5yH9XIynR3_FQS (design DAHarJnOH4I)
@@ -86,9 +86,9 @@ Comment FW27 and I'll send you the link!
 
 ## Posts D, E, F: one carousel per aesthetic, posted through the week (8 slides each: cover, key items 1 and 2, the fabrics or the Paris check, key items 3 and 4, colour decode, close)
 
-### D, Handmade and crafted aesthetic (DAHarROPkn0)
+### D, Craft aesthetic (DAHarROPkn0)
 
-Stop Calling Everything a Trend: the handmade and crafted aesthetic for FW27.
+Stop Calling Everything a Trend: the craft aesthetic for FW27.
 
 The first of next autumn's three moods, and the one for people who want clothes that look made by hand. Quiet luxury growing up into craft, in plum, dark red, forest green and chestnut brown.
 
@@ -103,7 +103,7 @@ And the colours: plum purple up 60%, dark red and forest green up 50%.
 
 Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send you the link to the full article!
 
-#fw27 #handmade #heritagecraft #quietluxury #trendforecast #fashiondata #stopcallingeverythingatrend
+#fw27 #craftaesthetic #heritagecraft #quietluxury #trendforecast #fashiondata #stopcallingeverythingatrend
 
 ### E, Sensory Riot (DAHarQgNZpw)
 
