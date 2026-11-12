@@ -93,8 +93,8 @@ Stop Calling Everything a Trend: the craft aesthetic for FW27.
 The first of next autumn's three moods, and the one for people who want clothes that look made by hand. Quiet luxury growing up into craft, in plum, dark red, forest green and chestnut brown.
 
 The five codes of the mood, and the number the forecast puts behind each:
-✨ Preppy, collars and lace: Mary Jane pumps at 3M views on TikTok, harness boots up 476% in searches
-✨ Tweed and jacquard: the jacquard jacket up 61% in searches on last year
+✨ Harness boots: up 476% in searches, the biggest jump in the whole forecast
+✨ Tweed and jacquard: the jacquard jacket up 61% in searches on last year, with Mary Jane pumps at 3M views on TikTok as the shoe under it
 ✨ The knits: cotton searches up 90%, cashmere up 80%
 ✨ The finishing touch: the paisley scarf up 64%, the cheapest way in
 ✨ Tailored suiting: slim suits up 133% in stores, and wool suiting already in 25% of Paris SS27 looks
