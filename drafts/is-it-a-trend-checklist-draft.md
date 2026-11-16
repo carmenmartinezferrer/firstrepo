@@ -1,12 +1,12 @@
 <!--
-DRAFT 2, TEXT ONLY, shorter (Carmen: "shorter without losing info"). Every number from draft 1 is still in, only repetition and setup were cut. Series title "Stop Calling Everything a Trend", edition name "The Checklist Edition" (rename if you prefer). No charts, no HTML until the text is approved. Notes at the bottom.
+DRAFT 2, TEXT ONLY, shorter (Carmen: "shorter without losing info"). Every number from draft 1 is still in, only repetition and setup were cut. Title changed in this version: no "Stop Calling Everything a Trend" branding (Carmen). It is the general method she applies to every article, not tied to one season. No charts, no HTML until the text is approved. Notes at the bottom.
 -->
 
-# Stop Calling Everything a Trend: The Checklist Edition
+# Is It a Trend, or Just One House Having a Moment?
 
-## Is it a trend, or just one house having a moment?
+## The six questions I ask before anything in my articles gets called a trend
 
-*Six questions I ask my runway and search data before I call anything real, and the examples that taught me each one.*
+*What my runway and search data taught me about telling what's real from what's loud, with the examples behind each question.*
 
 Tweed was in 5% of the looks I tagged in Paris this season and in 42% of Chanel's own collection, which is how a fabric ends up on every trend list while being one house's signature that a couple of neighbours borrowed.
 
