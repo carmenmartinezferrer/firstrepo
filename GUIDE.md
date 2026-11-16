@@ -1,6 +1,6 @@
 # DFB skills guide: which repo, what to say
 
-Last updated: 8 November 2026, added the `dfb-invoice` skill.
+Last updated: 16 November 2026, after merging every branch into `main` again.
 
 ---
 
