@@ -66,6 +66,8 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 
 **Never invent or round a number.** DFB's credibility is the whole brand. If a shift needs a number you can't verify, drop the shift and pick another.
 
+**Never infer a price from a neighbouring measure.** If the shift claims a premium, a discount or "the money went to X", the copy must carry the price of X itself, from a named source. A search spike is not a price, a listings count is not a price, and another house's archive price is not this house's price. On 15 Nov 2026 the first draft said the resale premium sat on the archive and not on Blazy's new Chanel, because it had Blazy searches and other houses' archive prices but no Blazy price; Fashionphile had his bags at 13-15% above retail, and the shift was the opposite. Carmen caught it. If the price for the thing you are claiming about doesn't exist, say so in Behind the scenes and claim less.
+
 ## 3. Write the three pieces
 
 ### Voice (all three pieces)
