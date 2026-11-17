@@ -52,4 +52,11 @@ Carmen rewrote the slides in Canva, reordered them (green and gold now sits befo
 7. Brown and burgundy, 16%: Brown at 9% and burgundy at 7%, and I did not expect the autumn darks at a premiere this theatrical, but chocolate suits, burgundy coats and velvet were everywhere.
 8. Everything else, 10%: Pink 5%, grey and silver 4%, purple 1%, and red under 1%. (full stop added; photo rows swapped so the pink looks sit at the bottom)
 
-Unverified, Carmen's own additions, sources still needed: the Jennifer Lawrence and Dior credit, the opera coat 110% figure (what it measures and where it comes from), and blue as a key colour for 2027.
+Source status of Carmen's three additions (17 Nov 2026):
+
+- Jennifer Lawrence in Dior: verified by press. Black Dior Pre-Fall 2026 coat with a white shearling collar, floral embroidery and a train (Red Carpet Fashion Awards, theFashionSpot, Fashion Times).
+  - https://www.redcarpet-fashionawards.com/2026/11/17/jennifer-lawrence-revisits-her-hunger-games-roots-in-dior/
+  - https://www.thefashionspot.com/fashion-news/984111-jennifer-lawrence-high-slit-coat-dior-hunger-games-premiere
+  - https://www.fashiontimes.com/jennifer-lawrence-josh-hutcherson-reunite-hunger-games-premiere-dior-black-tailoring-15361
+- Opera coat up 110% vs 2025: Carmen's own Google Trends pull (no public link, export not in the repo, search term and date range not recorded here).
+- Blue as a key colour for 2027: Carmen's own fashion week forecast (DFB, no public link).
