@@ -36,3 +36,5 @@ Pink 5%, grey and silver 4%, purple 1%, and red under 1%, when it was 15% and th
 ## Canva build (17 Nov 2026)
 
 Built on a copy of the gala report: design `DAHbKG0alEA`, https://www.canva.com/d/7whVG06ArJCyyOm (8 slides). The cover title was shortened to "the Hunger Games premiere" to fit the title box. Each colour slide carries one strip image from `canva/` (cut-outs plus colour bars), the donut is `canva/donut-hunger-games-premiere.png`. The design still carries the gala's title in Canva and needs renaming by hand.
+
+Second pass, same day: on Carmen's request the six colour slides now use a two-by-two photo grid (`canva/grid-*.jpg`, four looks per colour group) under a 45% black overlay with all text in white, instead of the cut-out strips. The strips stay in `canva/` in case she wants them back.
