@@ -105,11 +105,11 @@ Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send 
 
 #fw27 #craftaesthetic #heritagecraft #quietluxury #trendforecast #fashiondata #stopcallingeverythingatrend
 
-### E, Sensory Riot (DAHarQgNZpw)
+### E, The maximalist mood (DAHarQgNZpw)
 
-Stop Calling Everything a Trend: Sensory Riot for FW27.
+Stop Calling Everything a Trend: FW27 for the maximalists.
 
-The second mood of next autumn, the maximalist one, for people who want clothes you can feel from across a room. Fuchsia, lilac, chartreuse and cobalt, and things you can actually touch.
+The second mood of next autumn, the one for people who want clothes you can feel from across a room. Fuchsia, lilac, chartreuse and cobalt, and things you can actually touch.
 
 The five codes of the mood, and the number behind each:
 ✨ Fringe: fringe skirts up 71% in searches, the biggest mover of the whole forecast
@@ -122,7 +122,7 @@ The colours: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
 
 Comment FW27 and I'll send you the link to the full article!
 
-#fw27 #sensoryriot #maximalism #trendforecast #fashiondata #stopcallingeverythingatrend
+#fw27 #maximalism #maximalistfashion #trendforecast #fashiondata #stopcallingeverythingatrend
 
 ### F, Veiled Performance (DAHare78O1k)
 
