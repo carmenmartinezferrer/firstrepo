@@ -38,3 +38,18 @@ Pink 5%, grey and silver 4%, purple 1%, and red under 1%, when it was 15% and th
 Built on a copy of the gala report: design `DAHbKG0alEA`, https://www.canva.com/d/7whVG06ArJCyyOm (8 slides). The cover title was shortened to "the Hunger Games premiere" to fit the title box. Each colour slide carries one strip image from `canva/` (cut-outs plus colour bars), the donut is `canva/donut-hunger-games-premiere.png`. The design still carries the gala's title in Canva and needs renaming by hand.
 
 Second pass, same day: on Carmen's request the six colour slides now use a two-by-two photo grid (`canva/grid-*.jpg`, four looks per colour group) under a 45% black overlay with all text in white, instead of the cut-out strips. The strips stay in `canva/` in case she wants them back.
+
+## Copy as it stands in Canva after Carmen's rewrite and a grammar pass (17 Nov 2026)
+
+Carmen rewrote the slides in Canva, reordered them (green and gold now sits before brown and burgundy) and restyled several layouts herself. The grammar pass changed only the four lines marked "edited".
+
+1. Cover: I analysed the Hunger Games premiere, so here's what people actually wore (edited: double space removed)
+2. Donut: The Hunger Games premiere colour palette. % = share of all outfit colour across the 45 looks I measured
+3. Black, 23%: Still the biggest colour on the carpet, with Jennifer Lawrence wearing a Dior coat as a dress, while the opera coat jumped 110% in popularity vs 2025. (edited)
+4. Blue and navy, 13%: The second colour of the night, which runs from navy suits to a royal blue velvet gown and a pair of feather wings. It's one key colour for 2027, moving from bright blues into dustier, darker ones. (edited)
+5. Nude, cream and white, 21%: Nude and beige at 11% and white and cream at 10%, which means tulle, champagne satin and feathers took up a fifth of the carpet. It's the soft side of the Capitol, a maximalist, handcrafted look that's very aligned with today's trends. (edited)
+6. Green and gold, 17%: Green at 9% and gold at 8%, mostly liquid satin and sequins.
+7. Brown and burgundy, 16%: Brown at 9% and burgundy at 7%, and I did not expect the autumn darks at a premiere this theatrical, but chocolate suits, burgundy coats and velvet were everywhere.
+8. Everything else, 10%: Pink 5%, grey and silver 4%, purple 1%, and red under 1%. (full stop added; photo rows swapped so the pink looks sit at the bottom)
+
+Unverified, Carmen's own additions, sources still needed: the Jennifer Lawrence and Dior credit, the opera coat 110% figure (what it measures and where it comes from), and blue as a key colour for 2027.

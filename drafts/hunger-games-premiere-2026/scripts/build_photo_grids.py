@@ -6,7 +6,7 @@ from PIL import Image
 S, D = sys.argv[1], sys.argv[2]
 GRIDS = {'1-black': ['l17', 'l14', 'l19', 'l18'], '2-blue-navy': ['l30b', 'l35', 'l15', 'l16'],
          '3-nude-cream-white': ['l13', 'l20', 'l21', 'l01'], '4-brown-burgundy': ['l11', 'l32', 'l45', 'l07'],
-         '5-green-gold': ['l12', 'l31', 'l24', 'l43'], '6-everything-else': ['l04', 'l29', 'l22', 'l38']}
+         '5-green-gold': ['l12', 'l31', 'l24', 'l43'], '6-everything-else': ['l22', 'l38', 'l04', 'l29']}
 def crop(n):
     im = Image.open(f'{S}/src/{n}.png').convert('RGB'); W, H = im.size
     try: bb = Image.open(f'{S}/cut/{n}_full.png').getbbox()
