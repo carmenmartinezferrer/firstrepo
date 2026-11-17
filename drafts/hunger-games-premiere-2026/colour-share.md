@@ -70,6 +70,6 @@ Same method as the Academy Museum Gala report: every look weighs the same, up to
 - Each photo was cut out of the backdrop, skin and hair were masked out, the garment pixels were grouped into five colour clusters and each cluster was named by eye. The automatic colour naming from the gala script read burgundy, chocolate and navy as black on these small thumbnails, so it was not used.
 - Burgundy is a new family here (it was not needed at the gala). Blue & teal is renamed blue & navy.
 - Judgement calls: three dark suits read as navy rather than black (l15, l16, l25); champagne satin and peach feathers sit in beige & nude (l20, l21); the pale butter dress sits in white & cream, as butter yellow did in the gala report (l03); the dark trousers on l38 are called brown.
-- 17 of the 45 looks are three-quarter crops (cut at the thigh), because that is how Getty framed them.
+- 14 of the 45 looks are three-quarter crops (cut at the thigh), because that is how Getty framed them.
 - Donut and bar colours are display colours chosen per family, not sampled medians, the thumbnails were too small for clean medians.
 - Nobody is named. Names and designer credits need the Getty captions.
