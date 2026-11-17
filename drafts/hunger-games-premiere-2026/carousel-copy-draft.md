@@ -32,3 +32,7 @@ Green at 9% and gold at 8%, mostly liquid satin and sequins, and honestly these 
 **Slide 8**
 Title: Everything else, 10%
 Pink 5%, grey and silver 4%, purple 1%, and red under 1%, when it was 15% and the real star at the Academy Museum Gala. Which one would you wear?
+
+## Canva build (17 Nov 2026)
+
+Built on a copy of the gala report: design `DAHbKG0alEA`, https://www.canva.com/d/7whVG06ArJCyyOm (8 slides). The cover title was shortened to "the Hunger Games premiere" to fit the title box. Each colour slide carries one strip image from `canva/` (cut-outs plus colour bars), the donut is `canva/donut-hunger-games-premiere.png`. The design still carries the gala's title in Canva and needs renaming by hand.
