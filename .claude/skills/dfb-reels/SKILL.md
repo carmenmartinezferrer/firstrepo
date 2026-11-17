@@ -1,13 +1,13 @@
 ---
 name: dfb-reels
-description: Turns DFB (fashion data analyst) Substack articles, drafts or trend notes into ~30-second Instagram Reels / TikTok scripts using the DFB Reels Formula. It uses the Master "Shift I'm Seeing" formula and the Comparison Reveal, built on three acts (inicio/nudo/desenlace), rising attention peaks, and a component breakdown of every sentence. Use this whenever the user wants Reels, TikToks, short-form video, a video script, hooks or captions from a Substack post, newsletter, article, draft or piece of fashion/brand data, even if they don't say "formula" (e.g. "make a reel from this post", "turn this into a video", "guion para un reel", "what hook should I use for this"). Also use it to review or improve a Reel script they already wrote.
+description: Turns DFB (fashion data analyst) Substack articles, drafts or trend notes into ~30-second Instagram Reels / TikTok scripts using the DFB Reels Formula. It uses the Master "Shift I'm Seeing" formula, the Comparison Reveal and the Story Reel (a narrative two-brand case study with a verdict hook, a "should have… and yet" twist and a values question), all built on three acts (inicio/nudo/desenlace), rising attention peaks, and a component breakdown of every sentence. Use this whenever the user wants Reels, TikToks, short-form video, a video script, hooks or captions from a Substack post, newsletter, article, draft or piece of fashion/brand data, even if they don't say "formula" (e.g. "make a reel from this post", "turn this into a video", "guion para un reel", "what hook should I use for this", "tell this campaign as a story", "a storytelling reel about Dior vs Prada"). Also use it to review or improve a Reel script they already wrote.
 ---
 
 # DFB Reels
 
 You write short-form video scripts for DFB, a fashion data analyst's Substack. DFB's edge over other fashion accounts is **having the number while they have a vibe**. Every script should make that edge visible: tension up front, receipts in the middle, a quotable reframe at the end.
 
-The full formula is in `references/formula.md`. Read it before writing: it has the beat tables, timings, fill-in templates, example scripts, and section 6 (three acts / attention peaks / sentence components). This file tells you how to apply it.
+The full formula is in `references/formula.md`. Read it before writing: it has the beat tables, timings, fill-in templates, example scripts, section 6 (three acts / attention peaks / sentence components) and section 7 (the Story Reel, with an annotated viral example). This file tells you how to apply it.
 
 ## 1. Get the article
 
@@ -28,14 +28,31 @@ Pull these out first, because the scripts are only as good as this inventory:
 
 Unless the user asks for something else, write **2 Master DFB Formula Reels + 1 Comparison Reveal**. Each Reel must take a genuinely different angle (different hook, different peak order), not reword the same script. Only write a Comparison Reveal if the article really supports a comparison. Otherwise, say so and write a third Master Reel.
 
+**Write a Story Reel (formula section 7)** when the material is a story rather than a trend: a campaign, launch, show or backlash with a news peg ("this week…"), ideally two brands doing a similar thing with opposite results. It replaces the Comparison Reveal in the default set, or is the only Reel if the user asks for one story. It runs 45–75 seconds (about 150–220 words) instead of 30, because the story earns the time. Its beats: verdict hook → news peg → paradox → signpost → character A with receipts → what it means → character B escalates → "should have… and yet" → the evidence → "long story short" verdict → values question.
+
+### Hooks and storytelling devices (any format)
+
+These come from the Story Reel's source video and lift every format, so reach for them in Master and Comparison Reels too:
+- **Verdict hook:** open on the outcome with named brands and a judgement. "[Brand] just made one of the biggest mistakes of the year, and [rival] showed them exactly where they went wrong."
+- **Paradox:** same input, opposite outcomes. "Two houses did [the same thing]. One got a standing ovation, the other got accused of [X]."
+- **"Should have… and yet":** say out loud what everyone expected, then break it. The break is the top attention peak.
+- **Signposting:** "Let's start with X", "Then Y went bigger", "Long story short". It keeps a longer Reel easy to follow.
+- **Antithesis pairs** ("analog vs AI, luxury vs lazy") make the quotable line.
+- **One sensory detail** (a sound, a close-up) puts the viewer in the scene; **define jargon in one breath**.
+- **Close on a values question** ("What's your stance on AI in creativity?") rather than a yes/no. People comment to state where they stand.
+
+Offer one or two alternative hooks with each Reel, built from these patterns.
+
 ## 4. Write each Reel with the section 6 method
 
 1. **Three acts.** Map the beats: Hook + Thesis = *inicio* (context + a problem); Evidence → Zoom out = *nudo*; Close = *desenlace* (conclusion or CTA). If the inicio has no problem, viewers have no reason to wait for the answer.
 2. **Attention peaks climb.** List the interesting moments (a myth busted, a surprising number, an unexpected brand move) and order them so each is bigger than the last, with the top of the climb just before the close. Front-loading the best fact makes the rest feel downhill, and people swipe.
 3. **Every sentence has a job.** Break each line into components (context, characteristic, result, data, contrast…) and name its goal (curiosity, surprise, recognition, urgency). Cut any line without a goal and list what you cut, so the creator learns what filler looks like.
-4. **Spoken, not written.** Short sentences, about 75–90 words for 30 seconds. No greeting, no "hey guys". The first on-screen text has to work with the sound off.
+4. **Spoken, not written.** Short sentences, about 75–90 words for 30 seconds (Story Reels: 150–220 words for 45–75 seconds). No greeting, no "hey guys". The first on-screen text has to work with the sound off.
 
 **Never invent facts.** DFB's credibility is the whole brand: a made-up stat in a Reel is worse than no Reel. Use only what's in the article. When a beat needs a number or example the article lacks, write `[NEEDS DATA: what's needed]` and flag it in the data check.
+
+**Attribute accusations.** In a story about a backlash, write what people are saying ("has been accused of", "people zooming in are spotting"), not that the brand did it, unless the source proves it. Stating an unproven accusation as fact is a credibility risk (and a legal one), and attribution keeps the drama without the risk.
 
 Write in the article's language unless the user asks otherwise. Keep formula terms like *inicio / nudo / desenlace* as they are.
 
@@ -44,7 +61,7 @@ Write in the article's language unless the user asks otherwise. Keep formula ter
 Use this structure for each Reel:
 
 ```markdown
-## Reel N: <series, e.g. Shift I'm Seeing> — <Master DFB Formula | Comparison Reveal>
+## Reel N: <series, e.g. Shift I'm Seeing> — <Master DFB Formula | Comparison Reveal | Story Reel>
 
 **Angle:** <one sentence on the tension>
 **Hook (on-screen, frame 1):** <sound-off text>

@@ -171,12 +171,12 @@ class DataPoint(BaseModel):
 
 
 class Reel(BaseModel):
-    format: Literal["Master DFB Formula", "Comparison Reveal"]
+    format: Literal["Master DFB Formula", "Comparison Reveal", "Story Reel"]
     series: str = Field(description="Content series, e.g. 'Shift I'm Seeing', 'Stop Calling Everything a Trend', 'Catwalk Decode', 'Brand Case Study'.")
     angle: str = Field(description="One-sentence summary of the tension/angle this Reel takes.")
     hook_on_screen_text: str = Field(description="The sound-off hook text shown in the first frame.")
     beats: List[Beat]
-    full_script: str = Field(description="Full voiceover as one continuous read, ~30 seconds (about 75-90 words).")
+    full_script: str = Field(description="Full voiceover as one continuous read: ~30 seconds (75-90 words), or 45-75 seconds (150-220 words) for a Story Reel.")
     sentence_breakdown: List[SentenceCheck] = Field(description="Every sentence of full_script broken into components with a goal (section 6, layer 3). Sentences without a goal must have been cut before this point.")
     cut_lines: List[str] = Field(description="Lines you drafted but removed because they had no goal. Empty if none.")
     quotable_close: str = Field(description="The one line you want quoted in the comments.")
@@ -212,15 +212,19 @@ How to work:
 </dfb_reels_formula>"""
 
 
-def build_request(article: Article, n_master: int, n_comparison: int, language: Optional[str], notes: Optional[str]) -> str:
+def build_request(article: Article, n_master: int, n_comparison: int, n_story: int, language: Optional[str], notes: Optional[str]) -> str:
     wanted = []
     if n_master:
         wanted.append(f"{n_master} Reel(s) using the Master DFB Formula (section 3)")
     if n_comparison:
         wanted.append(f"{n_comparison} Reel(s) using the Comparison Reveal formula (section 4)")
+    if n_story:
+        wanted.append(f"{n_story} Story Reel(s) (section 7, 45-75 seconds)")
     parts = [f"Write {' and '.join(wanted)} from this article."]
     if n_comparison:
         parts.append("For a Comparison Reveal, only use it if the article contains (or clearly implies) two approaches to compare; otherwise build the closest honest version and flag missing data.")
+    if n_story:
+        parts.append("For a Story Reel, follow section 7: verdict hook, news peg, paradox, two characters, 'should have... and yet' turn, 'long story short' verdict, values question. Attribute any accusation to who is making it.")
     if language:
         parts.append(f"Write the scripts in {language}.")
     if notes:
@@ -348,6 +352,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--file", help="Use a local .md/.txt/.html file instead of a URL (e.g. drafts or paid posts).")
     parser.add_argument("--latest", type=int, metavar="N", help="Generate for the N most recent posts of the publication.")
     parser.add_argument("--master", type=int, default=2, help="Number of Master DFB Formula Reels per article (default 2).")
+    parser.add_argument("--story", type=int, default=0, help="Number of Story Reels (narrative case study, 45-75s) per article (default 0).")
     parser.add_argument("--comparison", type=int, default=1, help="Number of Comparison Reveal Reels per article (default 1).")
     parser.add_argument("--language", help="Script language (default: same as the article).")
     parser.add_argument("--notes", help="Extra direction, e.g. 'focus on the Prada data' or 'more playful hooks'.")
@@ -358,7 +363,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     if not args.file and not args.url:
         parser.error("give a Substack URL or --file")
-    if args.master + args.comparison < 1:
+    if args.master + args.comparison + args.story < 1:
         parser.error("ask for at least one Reel")
 
     if args.file:
@@ -382,7 +387,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         try:
             pack = generate(
                 client, args.model, args.effort, article,
-                n_master=args.master, n_comparison=args.comparison,
+                n_master=args.master, n_comparison=args.comparison, n_story=args.story,
                 language=args.language, notes=args.notes,
             )
         except (anthropic.APIError, RuntimeError) as e:

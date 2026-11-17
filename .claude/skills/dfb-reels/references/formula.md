@@ -107,4 +107,51 @@ In the Master DFB Formula: Hook + Thesis = inicio; Evidence 1, Evidence 2, Hard 
 
 **The original closing move:** the Reel ends by resolving what it set up and then rewarding the viewer for staying ("si te has quedado hasta aquí, deberías seguirnos": if you stayed this long, you should follow us).
 
-*Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale. Apply section 6 to every script, whichever formula it uses.*
+---
+
+## 7. Story Reel: the narrative case study (use for news, campaigns, controversies, two-brand stories)
+
+Source: a viral fashion-commentary Reel on Dior vs Prada's Christmas 2026 animated ads (full transcript below). It works because it tells a story with two characters, a twist and a verdict, not a list of facts. Use this format when there's a **news peg** (a campaign, a show, a launch, a backlash this week) and **two brands that did a similar thing with opposite results**. It runs longer than the 30-second formulas: **45–75 seconds, about 150–220 words**, because the story earns the time.
+
+### The beats
+
+| Beat | What it does | From the Dior/Prada Reel |
+|---|---|---|
+| **Verdict hook** | Open on the outcome, not the setup: a named brand, a superlative judgement, and a rival who "showed them" the answer. Drama between big names stops the scroll. | "Dior just made one of the biggest mistakes of the year, and Prada showed them exactly where they went wrong." |
+| **News peg** | Why this, why now, in one line. Makes it feel current, not evergreen. | "So this week, all the Christmas adverts have come out." |
+| **The paradox (open loop)** | Same input, opposite outcomes. Viewers stay to find out why. | "Two of the world's oldest fashion houses have made old-school cartoons for Christmas, but one got a standing ovation while the other's been accused of cheating." |
+| **Signpost** | Tell the viewer where the story goes next, so a long Reel never feels lost. | "Let's talk about Prada first." / "Then Dior went bigger." |
+| **Character A, with receipts** | Stack specific, checkable details: a number, a named person, their credentials, one sensory detail. Specificity is what makes it feel reported, not gossip. | "a 54-second Christmas video" · "Disney veteran animator John Pomeroy… The Rescuers, Winnie the Pooh" · "teasing this with the sound of pencil on paper" |
+| **Meaning** | Say what A's choices *mean*, in antithesis pairs that are easy to repeat. | "The point is the craftsmanship, more so than the product, more so than the vibe… analog versus AI, luxury versus lazy." |
+| **Character B escalates** | B does the same thing, but bigger. Stack the scale (length, stars, director, story) so B looks like the favourite. | "7 minutes long… Robert Pattinson narrates it… directed by Oscar-nominated Sylvain Chomet… set in 1949 Paris" |
+| **Expectation, then the turn** | Say out loud that B *should* have won, then flip it. This is the top attention peak. | "All things considered, the Dior campaign should have been a big success. And yet, when people zoom in…" |
+| **The evidence of the turn** | What people actually spotted, then explain any jargon in one line so nobody is lost. | "warped lettering… strange hands and fingers… in-betweening, which is the process of creating frames between an animator's key drawings" |
+| **"Long story short" verdict** | Name the mechanism, the strategic reason, and tie it back to the hook. This is the analyst moment. | "Dior came across as trying to capitalise on a trend and… completely missed the point of the trend, which is human touch." |
+| **Values question** | Close on a question about a belief, not a yes/no. People comment to state their position. | "What's your stance on AI in creativity?" |
+
+### Narrative devices to reuse in any format
+
+- **Cold open on the verdict.** Start with how it ended ("X just made the biggest mistake of the year"), then rewind.
+- **Two characters, one test.** Put two brands through the same situation. Contrast does the explaining.
+- **Signposting** ("Let's talk about X first", "Then Y went bigger", "Long story short").
+- **"Should have… and yet."** State the expected outcome, then break it. The break is the peak.
+- **Antithesis pairs** ("analog vs AI, luxury vs lazy"). They become the quotable line.
+- **One sensory detail** (the sound of pencil on paper, zooming in on the hands). It puts the viewer in the scene.
+- **Define jargon in one breath.** Never leave a term unexplained.
+- **Attribute accusations.** "Has been accused of", "people are spotting": report a controversy as what people say, never as a fact you've established, unless you have the proof.
+
+### How it maps to the three acts (section 6)
+
+- **Inicio:** verdict hook + news peg + paradox. The problem is the paradox: why did the same idea land so differently?
+- **Nudo:** character A → meaning → character B escalates → "should have… and yet" → the evidence. Peaks climb: A's craft story is interesting, B's star power is bigger, the turn is the top.
+- **Desenlace:** "long story short" verdict + values question.
+
+### DFB version
+
+Keep DFB's edge: the receipts are the data. Where the source Reel says "a 54-second video" vs "7 minutes long", use DFB's numbers too: share of looks, search change, engagement, sell-through. A DFB Story Reel is a **Brand Case Study told as a story**, and the "long story short" verdict should say what a brand manager should learn.
+
+### Source transcript (kept for reference)
+
+"Dior just made one of the biggest mistakes of the year, and Prada showed them exactly where they went wrong. So this week, all the Christmas adverts have come out. Two of the world's oldest fashion houses have made old-school cartoons for Christmas, but one got a standing ovation while the other's been accused of cheating. Let's talk about Prada first. Prada just released a 54-second Christmas video created by Disney veteran animator John Pomeroy. Now this guy, he hand-draws animations. He's the guy behind The Rescuers, Winnie the Pooh, The Fox and the Hound, and before you even see the film, Prada's teasing this with the sound of pencil on paper. The point is the craftsmanship, more so than the product, more so than the vibe. They are trying to communicate their stance on analog versus AI, luxury versus lazy. They created a winter wonderland full of well-known actors interacting with 2D animated woodland animals, and it's pretty magical. Then Dior went bigger. Now their animation is 7 minutes long. It's arguably more star-studded than Prada. Robert Pattinson narrates it. It's got Josh O'Connor in it, who might be our next James Bond. Directed by Oscar-nominated director Sylvain Chomet. Set in 1949 Paris. It tells the story of the founder of Dior, Christian Dior's relationship with the famous film star Marlene Dietrich, and having to create a dress for her really quickly out of pretty much thin air and fly it to LA. Dior used to call his seamstresses his bees. So there are little cartoon bees that appear as the seamstresses that help him create this magical dress. And actually, the dress that he creates in the advert is something that Jonathan Anderson used as inspiration for his last show. Beautiful dress. All things considered, the Dior campaign should have been a big success. And yet, when people zoom in, they're seeing warped lettering, unusual details, strange hands and fingers, traits synonymous with generative AI. Dior's now been accused of in-betweening, which is the process of creating frames between an animator's key drawings, and something AI could have very easily played a role in. So long story short, Dior's come across as trying to capitalise on a trend, and in doing so, completely missed the point of the trend, which is human touch, human-made craftsmanship, which is why two adverts with such similar vibes have had two very different reactions. What's your stance on AI in creativity?"
+
+*Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale. Apply section 6 to every script, whichever formula it uses. Use section 7 (Story Reel) when there's a news peg and two brands with opposite outcomes, and borrow its hooks and devices in any format.*
