@@ -1,0 +1,262 @@
+{
+  "brand": "Chanel",
+  "season": "Resort 2027",
+  "fashion_week": "Biarritz Resort 2027",
+  "fashion_week_short": "Biarritz",
+  "show_type": "commercial RTW (destination resort show)",
+  "looks": 73,
+  "palette": [
+    {
+      "label": "Black",
+      "pct": 29,
+      "count": 21,
+      "hex": "#111111"
+    },
+    {
+      "label": "Print",
+      "pct": 15,
+      "count": 11,
+      "hex": "#7A3B55"
+    },
+    {
+      "label": "Stripe",
+      "pct": 12,
+      "count": 9,
+      "hex": "#C45A4A"
+    },
+    {
+      "label": "White/cream",
+      "pct": 10,
+      "count": 7,
+      "hex": "#F4F1EA"
+    },
+    {
+      "label": "Gold/camel/brown",
+      "pct": 10,
+      "count": 7,
+      "hex": "#C2A15A"
+    },
+    {
+      "label": "Red/burgundy",
+      "pct": 10,
+      "count": 7,
+      "hex": "#8C1F2D"
+    },
+    {
+      "label": "Blue/mint/teal",
+      "pct": 7,
+      "count": 5,
+      "hex": "#9FD2C8"
+    },
+    {
+      "label": "Grey/navy",
+      "pct": 4,
+      "count": 3,
+      "hex": "#7D8493"
+    },
+    {
+      "label": "Pink",
+      "pct": 1,
+      "count": 1,
+      "hex": "#E8A0B8"
+    },
+    {
+      "label": "Green",
+      "pct": 1,
+      "count": 1,
+      "hex": "#4FB36C"
+    },
+    {
+      "label": "Orange/coral",
+      "pct": 1,
+      "count": 1,
+      "hex": "#E8742A"
+    }
+  ],
+  "silhouette": [
+    {
+      "label": "Matching set, not tweed",
+      "pct": 14,
+      "count": 10,
+      "keep": true
+    },
+    {
+      "label": "Tweed skirt suit + braid trim",
+      "pct": 12,
+      "count": 9
+    },
+    {
+      "label": "Long coat or duster",
+      "pct": 12,
+      "count": 9
+    },
+    {
+      "label": "Top or jacket + contrast skirt",
+      "pct": 11,
+      "count": 8
+    },
+    {
+      "label": "Striped set + skirt or short",
+      "pct": 8,
+      "count": 6
+    },
+    {
+      "label": "Wide trouser + blazer or top",
+      "pct": 8,
+      "count": 6
+    },
+    {
+      "label": "Piped or sashed draped dress",
+      "pct": 8,
+      "count": 6
+    },
+    {
+      "label": "Print, check or stripe dress",
+      "pct": 7,
+      "count": 5
+    },
+    {
+      "label": "Knit, crochet or fringe dress",
+      "pct": 7,
+      "count": 5
+    },
+    {
+      "label": "Gown or long evening dress",
+      "pct": 7,
+      "count": 5
+    },
+    {
+      "label": "Jacket or playsuit + shorts",
+      "pct": 6,
+      "count": 4
+    }
+  ],
+  "material": [
+    {
+      "label": "Silk, satin & crepe",
+      "pct": 27,
+      "count": 20
+    },
+    {
+      "label": "Tweed & bouclé",
+      "pct": 21,
+      "count": 15
+    },
+    {
+      "label": "Cotton, linen & denim",
+      "pct": 18,
+      "count": 13
+    },
+    {
+      "label": "Knit, crochet & lace",
+      "pct": 11,
+      "count": 8
+    },
+    {
+      "label": "Fringe, feathers & ruffles",
+      "pct": 7,
+      "count": 5
+    },
+    {
+      "label": "Leather",
+      "pct": 5,
+      "count": 4
+    },
+    {
+      "label": "Tailoring",
+      "pct": 4,
+      "count": 3
+    },
+    {
+      "label": "Tartan & check wool",
+      "pct": 4,
+      "count": 3
+    },
+    {
+      "label": "Sequins",
+      "pct": 3,
+      "count": 2
+    }
+  ],
+  "other": [
+    {
+      "label": "Matching jacket or vest + skirt (any fabric)",
+      "pct": 26,
+      "count": 19
+    },
+    {
+      "label": "Tweed or bouclé as the main fabric",
+      "pct": 21,
+      "count": 15
+    },
+    {
+      "label": "Stripe on the main garment",
+      "pct": 15,
+      "count": 11
+    },
+    {
+      "label": "Swim caps, beanies and head wraps",
+      "pct": 12,
+      "count": 9
+    },
+    {
+      "label": "Shorts, bermudas or playsuit",
+      "pct": 8,
+      "count": 6
+    },
+    {
+      "label": "Fringe or feather trim",
+      "pct": 8,
+      "count": 6
+    },
+    {
+      "label": "Newsprint print",
+      "pct": 4,
+      "count": 3
+    }
+  ],
+  "trends": [
+    {
+      "label": "Matching jacket or vest + skirt",
+      "pct": 26,
+      "count": 19,
+      "reading": "a quarter of the show is a two-piece, tweed or not"
+    },
+    {
+      "label": "Tweed as the main fabric",
+      "pct": 21,
+      "count": 15,
+      "reading": "the house fabric, but not the only one"
+    },
+    {
+      "label": "Stripes on the main garment",
+      "pct": 15,
+      "count": 11,
+      "reading": "the Atlantic beach, in cotton and knit"
+    },
+    {
+      "label": "Swim caps and head wraps",
+      "pct": 12,
+      "count": 9,
+      "reading": "the accessory nobody asked for and everyone will copy"
+    },
+    {
+      "label": "Shorts and bermudas",
+      "pct": 8,
+      "count": 6,
+      "reading": "a Chanel shorts moment"
+    },
+    {
+      "label": "Fringe or feather trim",
+      "pct": 8,
+      "count": 6,
+      "reading": "movement at the hem"
+    }
+  ],
+  "codes": [
+    "tweed as the signature, not the rule",
+    "stripes as the sea",
+    "the swim cap as the accent"
+  ],
+  "notes": "73 looks from 8 screenshots (Blazy bow not counted). Looks 10 to 12 only visible head to thigh. Dominant-colour/fabric/formula read from thumbnails."
+}

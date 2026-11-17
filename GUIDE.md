@@ -1,6 +1,6 @@
 # DFB skills guide: which repo, what to say
 
-Last updated: 8 November 2026, added the `dfb-invoice` skill.
+Last updated: 16 November 2026, after merging every branch into `main` again.
 
 ---
 
@@ -13,7 +13,7 @@ Which repo:
 
 | Repo | Use it for |
 |---|---|
-| **`firstrepo`** | Everything you publish or send: Instagram decodes, Reels, Substack, FashionUnited, weekly shifts, media kit, calendar, invoices. 12 skills. |
+| **`firstrepo`** | Everything you publish or send: Instagram decodes, Reels, Substack, FashionUnited, weekly shifts, media kit, calendar, invoices, Trendalytics forecast pieces. 13 skills. |
 | **`dfb-data`** | Tagging shows into the research dataset, dataset questions, and the two Canva carousel skills. 3 skills. |
 
 `dfb-trend-tagger` is the tagger web page and `thedatafashionbrief` is old. Neither has skills.
@@ -93,7 +93,8 @@ You don't need to name the skill. It loads when your message matches. Naming it 
   - "Weekly shifts for this week."
   - "This week in fashion data, the five shifts, save the doc."
   - "Run the weekly shifts but make shift 3 about the Hermès slowdown."
-- **You get:** one Google Doc with SUBSTACK (5 shifts, 60 to 90 words each), CAROUSEL (7 slides), REEL (about 45 seconds), BEHIND THE SCENES, plus a 3 to 4 line report in chat.
+- **You get:** one Google Doc with SUBSTACK (fixed title "This Week in Fashion Data: 5 Shifts #DD/MM", subtitle under 160 characters, 5 shifts of 90 to 120 words each with a "Why:" and a "The shift:" line, a Tags line), CAROUSEL (7 slides: headline = the verdict, body = number + mechanism + consequence, every slide ends on the shift line in bold, a chart line with 2 or 3 numbers), REEL (about 45 seconds: the voice says the shift, the screen shows the number), BEHIND THE SCENES, plus a 3 to 4 line report in chat.
+- **What counts as a shift (from 9 Nov):** a change in behaviour, not a reading of one event. Who changed, what they now do, and the number that proves it. Never "signals". Never a price inferred from a neighbouring measure, and a market index is never a company's number.
 
 ### 2.5 `runway-colour-combos` (Instagram colour carousel)
 
