@@ -108,3 +108,49 @@ In the Master DFB Formula: Hook + Thesis = inicio; Evidence 1, Evidence 2, Hard 
 **The original closing move:** the Reel ends by resolving what it set up and then rewarding the viewer for staying ("si te has quedado hasta aquí, deberías seguirnos": if you stayed this long, you should follow us).
 
 *Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale. Apply section 6 to every script, whichever formula it uses.*
+
+---
+
+## 7. Proven DFB script: "The jean you'll keep seeing next year" (talking head, Nov 2026)
+
+Carmen's best-performing talking-head Reel so far (about 12K views in 24 hours, several times her usual). Use it as the reference for the **withheld-answer trend Reel**: hook promises a payoff, the nudo walks through the old trend's rise and stall, the reveal lands in the middle, the "why" follows, the close returns to the hook. Treat this structure as the default for consumer trend Reels built from a DFB Substack post.
+
+**Script as posted (about 130 words, ~40s):**
+
+> Just hear me out on this one, because the jean that you'll keep seeing next year, it's probably already in your closet.
+> Remember the start of 2026 when everyone was obsessed with the barrel jean and searches jumped over 500%? Well, now the barrel stopped growing and matured into a closet basic.
+> Meanwhile, on the runway, something else is taking over. 48% of the denim shown this season was a straight leg, and the most repeated formula was mid-wash under a blazer. Straight jeans are growing much faster than barrel jeans.
+> But why? After years of statement shapes, the customer wants just comfort and fit, not a whole new silhouette in their closet.
+> So the barrel jean isn't over, but the next jean is already in your closet.
+> I'm a fashion data analyst, so if you want to understand fashion differently, follow me for more.
+
+**Beat map:**
+
+| Act | Beat | Line | Job |
+|---|---|---|---|
+| Inicio | Hook | "Just hear me out… probably already in your closet" | Promise + personal stake; works sound-off |
+| Inicio | Problem | "Remember the start of 2026… over 500%?" | Shared memory, rhetorical question keeps them nodding |
+| Nudo | Turn | "now the barrel stopped growing and matured into a closet basic" | First peak: the thing everyone bought has stalled |
+| Nudo | Reveal | "Meanwhile, on the runway… 48%… straight leg… mid-wash under a blazer" | Second peak: the answer to the hook, with the number and the formula |
+| Nudo | Proof | "Straight jeans are growing much faster" | Shoppers confirm the runway |
+| Nudo | Why | "But why? … comfort and fit, not a whole new silhouette" | The DFB read; turns numbers into an insight |
+| Desenlace | Reframe | "the barrel isn't over, but the next jean is already in your closet" | Resolves the hook with the same words |
+| Desenlace | CTA | "I'm a fashion data analyst… follow me for more" | Identity line + follow |
+
+**What to repeat:**
+- **Conversational opener before the hook.** "Just hear me out on this one" buys half a second of attention without wasting the hook; the hook itself is the second clause.
+- **Hold the answer.** Name the old trend first, give it its rise and its stall, then reveal the replacement. Revealing the answer in sentence two killed earlier drafts.
+- **"Remember when…?" as the problem beat.** Shared memory plus a rhetorical question is a cheap, strong inicio for any trend Reel.
+- **One number per beat, three numbers total** (500%, 48%, "much faster"). More than that and the talking head reads like a chart.
+- **"But why?"** as a spoken beat. It gives the viewer the question right before you answer it; the answer is the zoom-out.
+- **Close on the hook's words.** "Already in your closet" opens and closes the Reel. The loop is what makes it feel finished.
+- **Identity CTA.** "I'm a fashion data analyst, so if you want to understand fashion differently, follow me" states the edge (the number, not the vibe) and asks for the follow in one line.
+
+**Fill-in template of the same structure:**
+
+> Just hear me out on this one, because [PAYOFF PROMISE that flatters the viewer].
+> Remember [TIME] when everyone was obsessed with [OLD TREND] and [METRIC jumped X%]? Well, now [OLD TREND] [stalled / matured into…].
+> Meanwhile, [SOURCE: runway / searches / results], something else is taking over. [HARD STAT] and [THE FORMULA in five words].
+> [SECOND SOURCE confirms it]. But why? [THE DFB READ: what the customer actually wants].
+> So [OLD TREND] isn't over, but [REFRAME that reuses the hook's words].
+> I'm a fashion data analyst, so if you want to understand fashion differently, follow me for more.
