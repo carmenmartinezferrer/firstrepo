@@ -1,0 +1,207 @@
+[
+ {
+  "slug": "01-conner-ives-ivory-coat",
+  "house": "CONNER IVES",
+  "look": "Ivory embroidered coat",
+  "colours": [
+   [
+    "Ivory",
+    "#CFC9C0"
+   ],
+   [
+    "Blossom Pink",
+    "#E8979B"
+   ],
+   [
+    "Fox Fur",
+    "#D5BD9C"
+   ]
+  ]
+ },
+ {
+  "slug": "02-conner-ives-butter-coat",
+  "house": "CONNER IVES",
+  "look": "Butter yellow crane coat",
+  "colours": [
+   [
+    "Butter Yellow",
+    "#C7B084"
+   ],
+   [
+    "Coral",
+    "#A96E5C"
+   ]
+  ]
+ },
+ {
+  "slug": "03-conner-ives-grey-coat",
+  "house": "CONNER IVES",
+  "look": "Grey coat with gold embroidery",
+  "colours": [
+   [
+    "Warm Grey",
+    "#C5AB8B"
+   ],
+   [
+    "Gold Thread",
+    "#EECA8F"
+   ]
+  ]
+ },
+ {
+  "slug": "04-conner-ives-cream-coat",
+  "house": "CONNER IVES",
+  "look": "Cream coat with white fox",
+  "colours": [
+   [
+    "Cream",
+    "#C7B9A5"
+   ],
+   [
+    "Slate Blue",
+    "#838C95"
+   ]
+  ]
+ },
+ {
+  "slug": "05-the-garment",
+  "house": "THE GARMENT SS27",
+  "look": "Mandarin collar jacket",
+  "colours": [
+   [
+    "Off-White",
+    "#E6E6ED"
+   ]
+  ]
+ },
+ {
+  "slug": "06-christian-cowan",
+  "house": "CHRISTIAN COWAN SS27",
+  "look": "Cropped jacket, frog closures",
+  "colours": [
+   [
+    "Off-White",
+    "#ECE2D5"
+   ],
+   [
+    "Black",
+    "#0D0D0D"
+   ]
+  ]
+ },
+ {
+  "slug": "07-ralph-lauren",
+  "house": "RALPH LAUREN SS27",
+  "look": "Jacquard cutaway jacket",
+  "colours": [
+   [
+    "Ivory",
+    "#D8DDD8"
+   ],
+   [
+    "Navy",
+    "#1B2333"
+   ]
+  ]
+ },
+ {
+  "slug": "08-susan-fang",
+  "house": "SUSAN FANG SS27",
+  "look": "Lace qipao-style dress",
+  "colours": [
+   [
+    "White",
+    "#D9D8DA"
+   ]
+  ]
+ },
+ {
+  "slug": "09-mame-kurogouchi",
+  "house": "MAME KUROGOUCHI SS27",
+  "look": "Tunic with knot closures",
+  "colours": [
+   [
+    "White",
+    "#DCE2E6"
+   ],
+   [
+    "Ink",
+    "#34323D"
+   ]
+  ]
+ },
+ {
+  "slug": "10-alberta-ferretti",
+  "house": "ALBERTA FERRETTI SS27",
+  "look": "Satin pajama suit",
+  "colours": [
+   [
+    "Champagne",
+    "#D6CEC0"
+   ]
+  ]
+ },
+ {
+  "slug": "11-onori",
+  "house": "ONORI SS27",
+  "look": "Mandarin collar dress",
+  "colours": [
+   [
+    "Pale Yellow",
+    "#E0D6BA"
+   ]
+  ]
+ },
+ {
+  "slug": "12-kim-shui",
+  "house": "KIM SHUI SS27",
+  "look": "Jacquard top and skirt",
+  "colours": [
+   [
+    "Pale Gold",
+    "#E8D7BE"
+   ],
+   [
+    "Blossom Pink",
+    "#EEB8C4"
+   ]
+  ]
+ },
+ {
+  "slug": "13-ao-yes",
+  "house": "AO YES SS27",
+  "look": "Floral blouse",
+  "colours": [
+   [
+    "Blush Cream",
+    "#C4B4AD"
+   ]
+  ]
+ },
+ {
+  "slug": "14-hui",
+  "house": "HUI SS27",
+  "look": "Top with frog closures",
+  "colours": [
+   [
+    "Sage",
+    "#C7C9B4"
+   ]
+  ]
+ },
+ {
+  "slug": "15-elie-saab",
+  "house": "ELIE SAAB SS27",
+  "look": "Cropped jacket and skirt",
+  "colours": [
+   [
+    "Olive",
+    "#524F32"
+   ],
+   [
+    "Pastel Green",
+    "#AEB591"
+   ]
+  ]
+ }
+]

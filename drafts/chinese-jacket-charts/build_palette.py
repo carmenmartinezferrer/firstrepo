@@ -1,4 +1,4 @@
-"""Palette card for the Chinese jacket piece. Hex codes are photo samples
+"""Overview palette card. Hex codes come from the runway-colour-combos sampling script
 (see data/palette.json), never Pantone codes."""
 import json, os
 HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -25,10 +25,10 @@ def card(name, hx, house=""):
     return f'<div class="card"><div class="chip" style="background:{hx}"></div><div class="info"><div class="name">{name}</div>{h}<div class="hex">{hx}</div></div></div>'
 ci = "".join(card(n, h) for n, h in P["conner_ives"])
 ss = "".join(card(c, h, house) for house, c, h in P["ss27"])
-title = "Ivory, butter yellow and blossom pink are the colours of the new Chinese jacket"
+title = "Ivory, butter yellow and blossom pink are the colours of the Asian-inspired jacket"
 html = f'''<!doctype html><html><head><meta charset="utf-8"><title>{title}</title><style>{CSS}</style></head><body><div class="block">
 <h2>{title}</h2>
-<p class="sub">Each swatch is a colour sampled from a photo of the piece, shown with its hex code. Lighting in the photo affects the result, and these are not Pantone codes.</p>
+<p class="sub">Each swatch is a colour sampled from a photo of the piece, shown with its hex code. These are mid-tones as the photo holds them, so runway lighting can make them duller than in real life, and they are not Pantone codes.</p>
 <div class="lab">Conner Ives coats, satin, fur and embroidery</div><div class="row" style="grid-template-columns:repeat(9,1fr)">{ci}</div>
 <div class="lab">SS27 runways, main garment colours</div><div class="row" style="grid-template-columns:repeat(7,1fr)">{ss}</div>
 <p class="src">Source: photos collected by The Data Fashion Brief (Conner Ives) and runway images from FashionUnited, credit Launchmetrics/spotlight (SS27).</p>

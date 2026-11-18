@@ -1,112 +1,122 @@
 {
  "conner_ives": [
   [
-   "Ivory satin",
-   "#EBE6E0"
+   "Ivory",
+   "#CFC9C0"
   ],
   [
-   "Butter yellow satin",
-   "#E3CEA7"
-  ],
-  [
-   "Cream satin",
-   "#CCC0AD"
-  ],
-  [
-   "Warm grey satin",
-   "#CBB192"
-  ],
-  [
-   "Fox fur",
-   "#DCC6A6"
-  ],
-  [
-   "Blossom pink",
+   "Blossom Pink",
    "#E8979B"
   ],
   [
-   "Gold thread",
-   "#EECA8F"
+   "Fox Fur",
+   "#D5BD9C"
+  ],
+  [
+   "Butter Yellow",
+   "#C7B084"
   ],
   [
    "Coral",
-   "#AE7462"
+   "#A96E5C"
   ],
   [
-   "Slate blue",
+   "Warm Grey",
+   "#C5AB8B"
+  ],
+  [
+   "Gold Thread",
+   "#EECA8F"
+  ],
+  [
+   "Cream",
+   "#C7B9A5"
+  ],
+  [
+   "Slate Blue",
    "#838C95"
   ]
  ],
  "ss27": [
   [
    "The Garment",
-   "Off-white",
-   "#E7E8EF"
+   "Off-White",
+   "#E6E6ED"
   ],
   [
    "Christian Cowan",
-   "Off-white",
-   "#EFE6DA"
+   "Off-White",
+   "#ECE2D5"
+  ],
+  [
+   "Christian Cowan",
+   "Black",
+   "#0D0D0D"
   ],
   [
    "Ralph Lauren",
    "Ivory",
-   "#DEE3E0"
+   "#D8DDD8"
   ],
   [
    "Ralph Lauren",
    "Navy",
-   "#192030"
+   "#1B2333"
   ],
   [
    "Susan Fang",
    "White",
-   "#DEDEE1"
+   "#D9D8DA"
   ],
   [
    "Mame Kurogouchi",
    "White",
-   "#E0E7EA"
+   "#DCE2E6"
   ],
   [
    "Mame Kurogouchi",
    "Ink",
-   "#33303C"
+   "#34323D"
   ],
   [
    "Alberta Ferretti",
    "Champagne",
-   "#E4DFD4"
+   "#D6CEC0"
   ],
   [
    "Onori",
-   "Pale yellow",
-   "#E2D9BC"
+   "Pale Yellow",
+   "#E0D6BA"
   ],
   [
    "Kim Shui",
-   "Pale gold",
-   "#F2E0D1"
+   "Pale Gold",
+   "#E8D7BE"
   ],
   [
    "Kim Shui",
-   "Blossom pink",
+   "Blossom Pink",
    "#EEB8C4"
   ],
   [
    "Ao Yes",
-   "Blush cream",
-   "#C7B7B0"
+   "Blush Cream",
+   "#C4B4AD"
   ],
   [
    "Hui",
    "Sage",
-   "#C7C7B3"
+   "#C7C9B4"
   ],
   [
    "Elie Saab",
    "Olive",
-   "#585638"
+   "#524F32"
+  ],
+  [
+   "Elie Saab",
+   "Pastel Green",
+   "#AEB591"
   ]
  ]
 }
