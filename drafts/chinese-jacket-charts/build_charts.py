@@ -57,30 +57,15 @@ def bar_chart(name, title, subtitle, items, highlight=0):
     p.append(f'<text x="{left-10}" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(SRC)}</text></svg>')
     return name, "\n".join(p)
 
-# How the percentages are built (kept off the charts, stated once in the article's methodology):
-#   late 2025 = average of the weeks from 16 Nov to 28 Dec 2025 (the part of the export that falls in 2025)
-#   peak      = each term's busiest four weeks in a row in 2026
-#   now       = the latest four weeks, 25 Oct to 15 Nov 2026
-TERMS = [("mandarin jacket", "mandarin_jacket"), ("opera jacket", "opera_jacket"), ("qipao", "qipao"), ("conner ives", "conner_ives"), ("chinamaxxing", "chinamaxxing")]
-S = {}
-for label, f in TERMS:
-    rows = load(f); v = [x for _, x in rows]
-    y25 = [x for d, x in rows if d < "2026-01-01"]
-    bi = max(range(len(v) - 3), key=lambda i: sum(v[i:i + 4]))
-    S[label] = dict(y25=sum(y25) / len(y25), best=sum(v[bi:bi + 4]) / 4, last=sum(v[-4:]) / 4)
-pct = lambda a, b: (a / b - 1) * 100
-jump = sorted([(k, pct(s["best"], s["y25"])) for k, s in S.items() if s["y25"] > 0], key=lambda t: -t[1])
-fall = sorted([(k, pct(s["last"], s["best"])) for k, s in S.items() if s["last"] < s["best"]], key=lambda t: t[1])
-now = sorted([(k, pct(s["last"], s["y25"])) for k, s in S.items() if s["y25"] > 0], key=lambda t: -t[1])
-for nm, d in (("jump", jump), ("fall", fall), ("now", now)): print(nm, [(k, round(x)) for k, x in d])
-idx = lambda d, k: [a for a, _ in d].index(k); val = lambda d, k: round(dict(d)[k])
+# Year on year search growth, this year vs last year. These five figures are Carmen's own
+# readings from Google Trends (given 19 Nov 2026). The exports in data/ only cover the last
+# 12 months, so they cannot reproduce a full year on year figure: replace this list from a
+# two-year export once she sends it, and state the exact periods in the article's methodology.
+YOY = [("mandarin jacket", 180), ("fur trim jacket", 160), ("opera jacket", 130), ("faux fur jacket", 30), ("conner ives", 30)]
+SRC = 'Source: Google Trends'
 charts = [
- bar_chart("01-search-jump", f"the jacket jumped {val(jump, 'mandarin jacket')}% in spring",
-           "% rise in Google searches at this year's peak, vs last year", jump, highlight=idx(jump, "mandarin jacket")),
- bar_chart("02-search-since-peak", f"the meme has lost {-val(fall, 'chinamaxxing')}% of its searches",
-           "% fall in Google searches since this year's peak", fall, highlight=idx(fall, "chinamaxxing")),
- bar_chart("03-search-now", f"conner ives is up {val(now, 'conner ives')}% on last year",
-           "% change in Google searches, this year vs last year", now, highlight=idx(now, "conner ives")),
+ bar_chart("01-search-year-on-year", "mandarin jacket searches are up 180%",
+           "% change in Google searches, this year vs last year", YOY, highlight=0),
 ]
 def page(body, w):
     return (f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>body{{margin:0;background:#fff}}'

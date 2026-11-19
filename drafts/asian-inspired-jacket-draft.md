@@ -20,17 +20,11 @@ The year starts with Lunar New Year. Searches for "qipao" and "opera jacket" bot
 
 What is not usual is what happened next, which is Chinamaxxing. That is the TikTok name for adopting Chinese habits as a lifestyle, with people filming themselves wearing house slippers indoors, swapping iced drinks for warm water with goji berries and trying Tai Chi, usually with the catchphrase "You've met me at a very Chinese time in my life". As a search it did not exist until early February, and it went from zero to its peak in two weeks, by 22 February, before losing two thirds of that the week after.
 
-Then the jacket took over. Searches for "mandarin jacket" peaked in the week of 12 April, seven weeks after the meme, and stayed close to that level from late March to mid May, 159% above where they sat last year. "Opera jacket" had a second bump in May too, and "qipao" stayed high right through August, so people kept the clothes and dropped the joke.
+Then the jacket took over. Searches for "mandarin jacket" peaked in the week of 12 April, seven weeks after the meme, and stayed close to that level from late March to mid May. "Opera jacket" had a second bump in May too, and "qipao" stayed high right through August, so people kept the clothes and dropped the joke, and the meme itself has since lost 85% of its searches.
 
-[CHART: 01-search-jump.png, % rise in Google searches at this year's peak, vs last year]
+Over the whole year the picture is very clear. Searches for "mandarin jacket" are up 180% on last year and "opera jacket" is up 130%, and the fur that goes with them is rising too, with "fur trim jacket" up 160% and "faux fur jacket" up 30%. The designer end is moving as well, because searches for Conner Ives jumped in the week of the New York show in September, hit their highest point of the year in late October, and are up 30% on last year.
 
-Since then the meme has lost 85% of its searches and the jacket 68%, although jacket searches did pick up again in August and September, right on the shows.
-
-[CHART: 02-search-since-peak.png, % fall in Google searches since this year's peak]
-
-Today jacket searches sit 16% below last year. What is rising is the designer end, because searches for Conner Ives jumped in the week of the New York show in September, hit their highest point of the year in late October, and are now 158% above last year.
-
-[CHART: 03-search-now.png, % change in Google searches, this year vs last year]
+[CHART: 01-search-year-on-year.png, % change in Google searches, this year vs last year]
 
 ## THE HISTORY
 
@@ -58,7 +52,7 @@ The bigger shift behind all of this is that the coat has become the outfit. What
 
 **If you run a brand or design for one**, make it quiet and wearable like the runways did, in pale neutrals with one soft accent, and credit it properly (the jacket is a tangzhuang and the closures are pankou), because the brands being criticised are the ones selling it with no mention of where it comes from.
 
-**If you are a buyer**, the simple satin version had its peak in spring. I would buy narrow on that and put the money into the next step, which is the tailored jacket and the longer embroidered coat.
+**If you are a buyer**, searches for the jacket are far above last year, so it has earned its place in the buy. I would add depth in the next step, which is the tailored jacket, the fur trim and the longer embroidered coat.
 
 **If you are a customer**, put your money into one statement coat and wear it over the basics you already own, and it does not have to be a new one! This shape has been made for decades, so a vintage one is the same trend, and if you bought yours in spring, the designers are only now catching up with you.
 
@@ -75,8 +69,8 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 
 - Where you first mentioned the frog jacket (link or date).
 - The Conner Ives description comes from your pictures. I have no source for where his fabrics or references come from, so the piece does not say whether they are Chinese or Japanese.
-- How the search percentages are built, kept off the charts: "last year" is the average of the weeks from 16 November to 28 December 2025, "this year's peak" is each term's busiest four weeks in a row in 2026, and "this year" or "now" is the latest four weeks, 25 October to 15 November 2026. Each term is only ever compared with itself.
-- Chinamaxxing has no rise figure because it had no searches before February 2026.
+- The year on year search figures (mandarin jacket up 180%, fur trim jacket up 160%, opera jacket up 130%, faux fur jacket up 30%, Conner Ives up 30%) are Carmen's own readings from Google Trends. The exports saved with this piece only cover 12 months, so they cannot reproduce them. Before publishing, save the two-year exports and state the exact periods compared in the methodology.
+- The peak weeks and the "meme has lost 85%" figure come from the 12 month exports (latest four weeks against the busiest four weeks).
 - I do not know what caused the Conner Ives search peak in late October.
 - The history, Time, CNN and China Daily facts come from search results, not pages opened first-hand.
 - The Japanese side of the history (kimono, haori) is not researched or included.
