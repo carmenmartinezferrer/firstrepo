@@ -20,17 +20,17 @@ The year starts with Lunar New Year. Searches for "qipao" and "opera jacket" bot
 
 What is not usual is what happened next, which is Chinamaxxing. That is the TikTok name for adopting Chinese habits as a lifestyle, with people filming themselves wearing house slippers indoors, swapping iced drinks for warm water with goji berries and trying Tai Chi, usually with the catchphrase "You've met me at a very Chinese time in my life". As a search it did not exist until early February, and it went from zero to its peak in two weeks, by 22 February, before losing two thirds of that the week after.
 
-Then the jacket took over. Searches for "mandarin jacket" peaked in the week of 12 April, seven weeks after the meme, and stayed close to that level from late March to mid May, 150% above where they sat in the winter. "Opera jacket" had a second bump in May too, and "qipao" stayed high right through August, so people kept the clothes and dropped the joke.
+Then the jacket took over. Searches for "mandarin jacket" peaked in the week of 12 April, seven weeks after the meme, and stayed close to that level from late March to mid May, 159% above where they sat last year. "Opera jacket" had a second bump in May too, and "qipao" stayed high right through August, so people kept the clothes and dropped the joke.
 
-[CHART: 01-search-jump.png, % rise in weekly Google searches, each term's busiest four weeks vs its own November 2025 to January 2026 average]
+[CHART: 01-search-jump.png, % rise in Google searches at this year's peak, vs last year]
 
 Since then the meme has lost 85% of its searches and the jacket 68%, although jacket searches did pick up again in August and September, right on the shows.
 
-[CHART: 02-search-since-peak.png, % fall in weekly Google searches, the latest four weeks vs each term's own busiest four weeks]
+[CHART: 02-search-since-peak.png, % fall in Google searches since this year's peak]
 
-Today jacket searches sit 19% below last winter. What is rising is the designer end, because searches for Conner Ives jumped in the week of the New York show in September, hit their highest point of the year in late October, and are now 201% above last winter, which is about three times the level.
+Today jacket searches sit 16% below last year. What is rising is the designer end, because searches for Conner Ives jumped in the week of the New York show in September, hit their highest point of the year in late October, and are now 158% above last year.
 
-[CHART: 03-search-now.png, % change in weekly Google searches, the latest four weeks vs each term's own November 2025 to January 2026 average]
+[CHART: 03-search-now.png, % change in Google searches, this year vs last year]
 
 ## THE HISTORY
 
@@ -73,8 +73,7 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 
 - Where you first mentioned the frog jacket (link or date).
 - The Conner Ives description comes from your pictures. I have no source for where his fabrics or references come from, so the piece does not say whether they are Chinese or Japanese.
-- Every search percentage compares a term with itself at another time (its busiest four weeks, its latest four weeks, or its November 2025 to January 2026 average). The exports can't say which term is bigger, so the piece never claims that.
-- "Last winter" means November 2025 to January 2026, the first 11 weeks of the exports, so it is not a full year on year comparison.
+- How the search percentages are built, kept off the charts: "last year" is the average of the weeks from 16 November to 28 December 2025, "this year's peak" is each term's busiest four weeks in a row in 2026, and "this year" or "now" is the latest four weeks, 25 October to 15 November 2026. Each term is only ever compared with itself.
 - Chinamaxxing has no rise figure because it had no searches before February 2026.
 - I do not know what caused the Conner Ives search peak in late October.
 - The history, Time, CNN and China Daily facts come from search results, not pages opened first-hand.
