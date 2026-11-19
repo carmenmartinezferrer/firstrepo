@@ -46,6 +46,8 @@ The second is the mood in the West. Time read Chinamaxxing as a growing fascinat
 
 The third is nostalgia, and this one is my own reading. After seasons of quiet luxury people want clothes with character and a past, and a shape fashion has loved since 1977 gives them exactly that. Traditional Chinese dress is also wonderfully theatrical (think of the opera costumes, the heavy embroidery, the birds and the flowers), which puts it right in line with the maximalism and the escapism I keep writing about [NEEDS DATA: link to your maximalism piece]. That is the Conner Ives end of this trend, all embroidery and fur, while the runways took the same references and made them quiet.
 
+[IMAGE: 06-traditional-chinese-dress-met.png, six Chinese theatrical jackets and women's robes from the 18th to early 20th century, The Met, public domain]
+
 ## WHAT THIS MEANS FOR YOU
 
 **If you run a brand or design for one**, make it quiet and wearable like the runways did, in pale neutrals with one soft accent, and credit it properly (the jacket is a tangzhuang and the closures are pankou), because the brands being criticised are the ones selling it with no mention of where it comes from.
@@ -75,6 +77,7 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 
 - Google Trends, worldwide, November 2025 to November 2026, Carmen's five exports for "mandarin jacket", "opera jacket", "qipao", "chinamaxxing" and "conner ives" (no public link)
 - Carmen's Conner Ives pictures (no public link)
+- [The Metropolitan Museum of Art, Open Access collection](https://www.metmuseum.org/art/collection), objects [69006](https://www.metmuseum.org/art/collection/search/69006), [42110](https://www.metmuseum.org/art/collection/search/42110), [69002](https://www.metmuseum.org/art/collection/search/69002), [42109](https://www.metmuseum.org/art/collection/search/42109), [69744](https://www.metmuseum.org/art/collection/search/69744) and [70383](https://www.metmuseum.org/art/collection/search/70383)
 - [SS27 trend: Chinamaxxing and the rise of 'new Chinese style', FashionUnited](https://fashionunited.com/news/fashion/ss27-trend-chinamaxxing-and-the-rise-of-new-chinese-style/2026111175658)
 - [Tangzhuang, Wikipedia](https://en.wikipedia.org/wiki/Tangzhuang)
 - [Magua, Wikipedia](https://en.wikipedia.org/wiki/Magua_(clothing))
