@@ -44,7 +44,11 @@ The first reason is that this time it starts in Asia. Young Chinese consumers ha
 
 The second is the mood in the West. Time read Chinamaxxing as a growing fascination with China as its soft power rises, although other writers think it says more about young Westerners being tired of their own politics, and I suspect it is a bit of both.
 
-The third is nostalgia, and this one is my own reading. After seasons of quiet luxury people want clothes with character and a past, and a shape fashion has loved since 1977 gives them exactly that. Traditional Chinese dress is also wonderfully theatrical (think of the opera costumes, the heavy embroidery, the birds and the flowers), which puts it right in line with the maximalism and the escapism I keep writing about [NEEDS DATA: link to your maximalism piece]. That is the Conner Ives end of this trend, all embroidery and fur, while the runways took the same references and made them quiet.
+The third is maximalism, and this is the one I think explains why it is trending this much. The version people are actually wearing is not the plain mandarin jacket, it is the Asian-inspired piece with everything else piled on top: satin and jacquard, heavy embroidery, fur collars, fur or feather cuffs. That is exactly the dressed-up, more-is-more mood I have been writing about [NEEDS DATA: link to your maximalism piece], where Lectra's tracking of European brands had sequins up 40% and fringe up 34% on last summer and the analysts read it as a demand for escapism. Traditional Chinese dress is wonderfully theatrical to begin with (think of the opera costumes, the embroidery, the birds and the flowers), so it gives maximalism a ready-made shape. This part is my own reading and my own Pinterest board, not a data point, but once you see the fur and the jacquard together you cannot unsee it.
+
+[IMAGE: 07-asianmaxxing-moodboard.png, eight looks from my Pinterest board "Asianmaxxing aesthetic", Asian-inspired jackets and coats in satin, jacquard and velvet with fur trim and embroidery]
+
+The fourth is nostalgia, which is also my own reading. After seasons of quiet luxury people want clothes with character and a past, and a shape fashion has loved since 1977 gives them exactly that. Conner Ives sits at the maximalist end of this, all embroidery and fur, while the runways took the same references and made them quiet.
 
 [IMAGE: 06-traditional-chinese-dress-met.png, six Chinese theatrical jackets and women's robes from the 18th to early 20th century, The Met, public domain]
 
@@ -64,6 +68,9 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 
 ## Things to check
 
+- The Pinterest moodboard images carry no creator credit, so they need permission or credit before publishing. One shows a "Harris Tapper" watermark.
+- The Lectra figures (sequins up 40%, fringe up 34%) are taken from your maximalism draft, not re-opened at the source in this session.
+
 - Where you first mentioned the frog jacket (link or date).
 - The Conner Ives description comes from your pictures. I have no source for where his fabrics or references come from, so the piece does not say whether they are Chinese or Japanese.
 - Every search percentage compares a term with itself at another time (its busiest four weeks, its latest four weeks, or its November 2025 to January 2026 average). The exports can't say which term is bigger, so the piece never claims that.
@@ -77,6 +84,8 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 
 - Google Trends, worldwide, November 2025 to November 2026, Carmen's five exports for "mandarin jacket", "opera jacket", "qipao", "chinamaxxing" and "conner ives" (no public link)
 - Carmen's Conner Ives pictures (no public link)
+- [Carmen's Pinterest board, Asianmaxxing aesthetic](https://uk.pinterest.com/user_ih0009/asianmaxxing-aesthetic/)
+- [Lectra / Retviews, summer 2026 fashion trends, via FashionUnited](https://fashionunited.uk/press/fashion/fashion-trends-2026-between-minimalism-and-maximalism-lectra-presents-a-summer-of-contrasts-and-value/2026061888736), as cited in Carmen's maximalism piece
 - [The Metropolitan Museum of Art, Open Access collection](https://www.metmuseum.org/art/collection), objects [69006](https://www.metmuseum.org/art/collection/search/69006), [42110](https://www.metmuseum.org/art/collection/search/42110), [69002](https://www.metmuseum.org/art/collection/search/69002), [42109](https://www.metmuseum.org/art/collection/search/42109), [69744](https://www.metmuseum.org/art/collection/search/69744) and [70383](https://www.metmuseum.org/art/collection/search/70383)
 - [SS27 trend: Chinamaxxing and the rise of 'new Chinese style', FashionUnited](https://fashionunited.com/news/fashion/ss27-trend-chinamaxxing-and-the-rise-of-new-chinese-style/2026111175658)
 - [Tangzhuang, Wikipedia](https://en.wikipedia.org/wiki/Tangzhuang)
