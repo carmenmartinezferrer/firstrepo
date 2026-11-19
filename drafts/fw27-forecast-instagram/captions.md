@@ -105,24 +105,17 @@ Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send 
 
 #fw27 #craftaesthetic #heritagecraft #quietluxury #trendforecast #fashiondata #stopcallingeverythingatrend
 
-### E, Sensory Riot (DAHarQgNZpw)
+### E, The maximalist mood (DAHarQgNZpw)
 
-Stop Calling Everything a Trend: Sensory Riot for FW27.
+Stop Calling Everything a Trend: FW27 for the maximalists.
 
-The second mood of next autumn, the maximalist one, for people who want clothes you can feel from across a room. Fuchsia, lilac, chartreuse and cobalt, and things you can actually touch.
+The second big theme I keep talking about is maximalism, but "maximalism" tells you nothing about what to buy. Inside the FW27 forecast there are a handful of key items actually spiking, fringe skirts up 71% in searches for a start, then feathers, embellishment, sculptural wedges and animal print, and I break down each one with the data behind it.
 
-The five codes of the mood, and the number behind each:
-✨ Fringe: fringe skirts up 71% in searches, the biggest mover of the whole forecast
-✨ Feathers and fur: the daytime boa, fur scarves up 30% in searches
-✨ Embellishment: 31% of the Paris SS27 looks I tagged carried it, at every one of the 16 houses, and Lectra has sequins up 40% in stores
-✨ Sculptural wedges: searches up 23%, with zebra print growing by 5M TikTok views a week beside them
-✨ Embellished denim: up 23% in stores, graphic prints up 51%
+Whether you buy for a brand, work in fashion or just love clothes, this is the part you need to understand to make better decisions.
 
-The colours: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
+Comment FW27 and I'll send you the full article!
 
-Comment FW27 and I'll send you the link to the full article!
-
-#fw27 #sensoryriot #maximalism #trendforecast #fashiondata #stopcallingeverythingatrend
+#fw27 #maximalism #maximalistfashion #trendforecast #fashiondata #stopcallingeverythingatrend
 
 ### F, Veiled Performance (DAHare78O1k)
 
