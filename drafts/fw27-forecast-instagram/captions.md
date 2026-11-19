@@ -114,9 +114,9 @@ The second mood of next autumn, the one for people who want clothes you can feel
 The five codes of the mood, and the number behind each:
 ✨ Fringe: fringe skirts up 71% in searches, the biggest mover of the whole forecast
 ✨ Feathers and fur: the daytime boa, fur scarves up 30% in searches
-✨ Embellishment: 31% of the Paris SS27 looks I tagged carried it, at every one of the 16 houses, and Lectra has sequins up 40% in stores
-✨ Sculptural wedges: searches up 23%, with zebra print growing by 5M TikTok views a week beside them
-✨ Embellished denim: up 23% in stores, graphic prints up 51%
+✨ Embellishment: 31% of the Paris SS27 looks I tagged carried it, at every one of the 16 houses, Lectra has sequins up 40% in stores, and embellished jeans are up 23% in market adoption
+✨ Sculptural wedges: searches up 23%, the shoe that reads as an object
+✨ Animal print: 3% of Paris SS27 looks, two thirds of it Balmain, but zebra print is growing by 5M TikTok views a week and graphic prints are up 51% in market adoption
 
 The colours: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
 
