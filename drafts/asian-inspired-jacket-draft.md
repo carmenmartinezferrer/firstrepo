@@ -1,4 +1,4 @@
-# The jacket you'll keep seeing in 2027 is probably in a vintage shop near you
+# The jacket you'll keep seeing in 2027 is in a vintage shop
 
 *After Chinamaxxing, runway data and a year of searches point to the Asian-inspired jacket. Less a costume, more embroidered satin you can wear with jeans.*
 

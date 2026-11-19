@@ -18,7 +18,7 @@ h1 em{{color:#D6447A;font-style:italic}}
 .cap{{position:absolute;right:22px;bottom:14px;font-size:15px;color:#fff;text-shadow:0 0 6px rgba(0,0,0,.55)}}
 </style></head><body><div id="card">
 <div class="txt"><div class="k">The Data Fashion Brief</div>
-<h1>The jacket you'll keep seeing<br>in <em>2027</em> is probably in a<br><em>vintage shop</em> near you</h1></div>
+<h1>The jacket you'll keep seeing<br>in <em>2027</em> is in a <em>vintage shop</em></h1></div>
 <div class="im"><img src="file://{HERE}/met/69006.jpg"><div class="cap">Theatrical jacket, China, 18th century. The Met, public domain</div></div>
 </div></body></html>'''
 assert "—" not in page and "–" not in page
