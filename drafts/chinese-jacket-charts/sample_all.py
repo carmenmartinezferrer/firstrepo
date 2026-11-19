@@ -11,15 +11,15 @@ L = [
    ("Ivory", "conner-ives-1", (.72,.62,.9,.75), *WHITE),
    ("Blossom Pink", "conner-ives-1", (.1,.55,.95,1), "-30,10", "0.25,1", "0.6,1"),
    ("Fox Fur", "conner-ives-1", (.38,.4,.62,.6), "20,50", "0.1,0.5", "0.5,1")]),
- ("02-conner-ives-butter-coat", "CONNER IVES", "Butter yellow crane coat", [
-   ("Butter Yellow", "conner-ives-4", (.2,.2,.85,.95), "38,65", "0.18,0.7", "0.6,1"),
+ ("02-conner-ives-gold-coat", "CONNER IVES", "Gold crane coat", [
+   ("Gold", "conner-ives-4", (.2,.2,.85,.95), "38,65", "0.18,0.7", "0.6,1"),
    ("Coral", "conner-ives-4", (.28,.3,.6,.68), "-20,20", "0.3,1", "0.55,1")]),
- ("03-conner-ives-grey-coat", "CONNER IVES", "Grey coat with gold embroidery", [
-   ("Warm Grey", "conner-ives-3", (.72,.42,.78,.85), "0,360", "0,0.4", "0.5,1"),
-   ("Gold Thread", "conner-ives-3", (.24,.27,.4,.42), "35,60", "0.3,1", "0.6,1")]),
- ("04-conner-ives-cream-coat", "CONNER IVES", "Cream coat with white fox", [
-   ("Cream", "conner-ives-5", (.44,.72,.58,.92), "25,60", "0.08,0.5", "0.6,1"),
-   ("Slate Blue", "conner-ives-5", (.56,.25,.74,.65), "180,250", "0.08,1", "0.5,0.98")]),
+ ("03-conner-ives-camel-coat", "CONNER IVES", "Camel coat with yellow embroidery", [
+   ("Camel", "conner-ives-3", (.72,.42,.78,.85), "0,360", "0,0.4", "0.5,1"),
+   ("Butter Yellow", "conner-ives-3", (.24,.27,.4,.42), "35,60", "0.3,1", "0.6,1")]),
+ ("04-conner-ives-beige-coat", "CONNER IVES", "Beige coat with white fox", [
+   ("Dark Beige", "conner-ives-5", (.44,.72,.58,.92), "25,60", "0.08,0.5", "0.6,1"),
+   ("Blue Grey", "conner-ives-5", (.56,.25,.74,.65), "180,250", "0.08,1", "0.5,0.98")]),
  ("05-the-garment", "THE GARMENT SS27", "Mandarin collar jacket", [("Off-White", "the-garment", (.44,.26,.6,.44), *WHITE)]),
  ("06-christian-cowan", "CHRISTIAN COWAN SS27", "Cropped jacket, frog closures", [
    ("Off-White", "cowan", (.33,.24,.43,.4), "0,360", "0,0.2", "0.6,1"),

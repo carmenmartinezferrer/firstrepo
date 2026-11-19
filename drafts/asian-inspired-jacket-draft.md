@@ -2,7 +2,7 @@
 
 *Mandarin collars, frog closures and embroidered satin were all over the SS27 runways, so I looked at where the look comes from, why it is back and whether it will last.*
 
-There is one kind of jacket I keep seeing, and once you notice it you cannot stop. The pieces I see most are Conner Ives's satin coats, embroidered with cranes, wisteria and blossom and trimmed in fur, in ivory, butter yellow and cream.
+There is one kind of jacket I keep seeing, and once you notice it you cannot stop. The pieces I see most are Conner Ives's satin coats, embroidered with cranes, wisteria and blossom and trimmed in fur, in ivory, gold and beige.
 
 Then the SS27 runways did their own version. Ralph Lauren showed an ivory jacquard cutaway with a mandarin collar, Christian Cowan cropped it in off-white with a black high collar and cord frog closures, The Garment made a soft off-white version with the same closures, and Elie Saab did it in olive with floral embroidery. It is not only China either, because Alberta Ferretti's version comes with kimono-style sleeves, so the reference is East Asian dress more broadly.
 

@@ -19,12 +19,12 @@
   ]
  },
  {
-  "slug": "02-conner-ives-butter-coat",
+  "slug": "02-conner-ives-gold-coat",
   "house": "CONNER IVES",
-  "look": "Butter yellow crane coat",
+  "look": "Gold crane coat",
   "colours": [
    [
-    "Butter Yellow",
+    "Gold",
     "#C7B084"
    ],
    [
@@ -34,31 +34,31 @@
   ]
  },
  {
-  "slug": "03-conner-ives-grey-coat",
+  "slug": "03-conner-ives-camel-coat",
   "house": "CONNER IVES",
-  "look": "Grey coat with gold embroidery",
+  "look": "Camel coat with yellow embroidery",
   "colours": [
    [
-    "Warm Grey",
+    "Camel",
     "#C5AB8B"
    ],
    [
-    "Gold Thread",
+    "Butter Yellow",
     "#EECA8F"
    ]
   ]
  },
  {
-  "slug": "04-conner-ives-cream-coat",
+  "slug": "04-conner-ives-beige-coat",
   "house": "CONNER IVES",
-  "look": "Cream coat with white fox",
+  "look": "Beige coat with white fox",
   "colours": [
    [
-    "Cream",
+    "Dark Beige",
     "#C7B9A5"
    ],
    [
-    "Slate Blue",
+    "Blue Grey",
     "#838C95"
    ]
   ]
