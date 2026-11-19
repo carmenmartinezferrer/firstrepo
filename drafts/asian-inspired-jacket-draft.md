@@ -54,11 +54,13 @@ The fourth is nostalgia, which is also my own reading. After seasons of quiet lu
 
 ## WHAT THIS MEANS FOR YOU
 
+The bigger shift behind all of this is that the coat has become the outfit. What I keep seeing is very laid-back basics, a white T-shirt and jeans, under one huge statement coat, and at night the coat is simply worn closed as a dress with nothing else going on (Who What Wear has just called the opera coat this winter's coat trend for exactly that reason). So if there is one thing to really invest in, it is the statement coat or jacket, because it now does the job of the whole look.
+
 **If you run a brand or design for one**, make it quiet and wearable like the runways did, in pale neutrals with one soft accent, and credit it properly (the jacket is a tangzhuang and the closures are pankou), because the brands being criticised are the ones selling it with no mention of where it comes from.
 
 **If you are a buyer**, the simple satin version had its peak in spring. I would buy narrow on that and put the money into the next step, which is the tailored jacket and the longer embroidered coat.
 
-**If you are a customer**, you do not need a new one! This shape has been made for decades, so a vintage one is the same trend, and if you bought yours in spring, the designers are only now catching up with you.
+**If you are a customer**, put your money into one statement coat and wear it over the basics you already own, and it does not have to be a new one! This shape has been made for decades, so a vintage one is the same trend, and if you bought yours in spring, the designers are only now catching up with you.
 
 So is this one more Western fantasy of Asia, or the first time the trend is actually being led from there? I think it is the second, which is why I expect it to last longer than the meme did.
 
@@ -86,6 +88,7 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 - [Carmen's Pinterest board, Asianmaxxing aesthetic](https://uk.pinterest.com/user_ih0009/asianmaxxing-aesthetic/)
 - [Lectra / Retviews, summer 2026 fashion trends, via FashionUnited](https://fashionunited.uk/press/fashion/fashion-trends-2026-between-minimalism-and-maximalism-lectra-presents-a-summer-of-contrasts-and-value/2026061888736), as cited in Carmen's maximalism piece
 - [The Metropolitan Museum of Art, Open Access collection](https://www.metmuseum.org/art/collection), objects [69006](https://www.metmuseum.org/art/collection/search/69006), [42110](https://www.metmuseum.org/art/collection/search/42110), [69002](https://www.metmuseum.org/art/collection/search/69002), [42109](https://www.metmuseum.org/art/collection/search/42109), [69744](https://www.metmuseum.org/art/collection/search/69744) and [70383](https://www.metmuseum.org/art/collection/search/70383)
+- [It Girls Are Wearing Winter's Most Beautiful Coat Trend With Absolutely Nothing Underneath, Who What Wear, 17 November 2026](https://www.whowhatwear.com/fashion/celebrity-style/opera-coat-trend-jennifer-lawrence-2026)
 - [SS27 trend: Chinamaxxing and the rise of 'new Chinese style', FashionUnited](https://fashionunited.com/news/fashion/ss27-trend-chinamaxxing-and-the-rise-of-new-chinese-style/2026111175658)
 - [Tangzhuang, Wikipedia](https://en.wikipedia.org/wiki/Tangzhuang)
 - [Magua, Wikipedia](https://en.wikipedia.org/wiki/Magua_(clothing))
