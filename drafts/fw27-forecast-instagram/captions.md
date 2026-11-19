@@ -109,20 +109,11 @@ Sensory Riot and Veiled Performance later this week. Comment FW27 and I'll send 
 
 Stop Calling Everything a Trend: FW27 for the maximalists.
 
-The second big theme I keep coming back to is maximalism, and it is not going anywhere next autumn. But "maximalism" on its own tells you nothing about what to buy, so I went into the FW27 forecast and pulled out the key items inside it that are actually spiking, with the number behind each one.
+The second big theme I keep talking about is maximalism, but "maximalism" tells you nothing about what to buy. Inside the FW27 forecast there are a handful of key items actually spiking, fringe skirts up 71% in searches for a start, then feathers, embellishment, sculptural wedges and animal print, and I break down each one with the data behind it.
 
-Whether you buy for a brand, work anywhere in fashion or just love clothes, this is the part you need to understand to make better decisions, because the mood is the easy bit and the items are where the money goes.
+Whether you buy for a brand, work in fashion or just love clothes, this is the part you need to understand to make better decisions.
 
-The five codes of the maximalist mood for FW27:
-✨ Fringe: fringe skirts up 71% in searches, the biggest mover of the whole forecast
-✨ Feathers and fur: the daytime boa, fur scarves up 30% in searches
-✨ Embellishment: 31% of the Paris SS27 looks I tagged carried it, at every one of the 16 houses, Lectra has sequins up 40% in stores, and embellished jeans are up 23% in market adoption
-✨ Sculptural wedges: searches up 23%, the shoe that reads as an object
-✨ Animal print: 3% of Paris SS27 looks, two thirds of it Balmain, but zebra print is growing by 5M TikTok views a week and graphic prints are up 51% in market adoption
-
-And the colours it comes in: cobalt blue up 30%, fuchsia up 20%, lilac and chartreuse up 10%.
-
-The full breakdown, with the craft mood and the weatherproof one, is in the article. Comment FW27 and I'll send you the link!
+Comment FW27 and I'll send you the full article!
 
 #fw27 #maximalism #maximalistfashion #trendforecast #fashiondata #stopcallingeverythingatrend
 
