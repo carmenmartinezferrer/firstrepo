@@ -50,11 +50,13 @@ The fourth is nostalgia, which is also my own reading. After seasons of quiet lu
 
 The big message is that yes, we love the Asian aesthetic and we feel inspired by it, and since maximalism and nostalgia are two huge themes that I expect to carry on through 2027, these looks are going to keep appealing in Western countries. The cool part is that you do not need a new one. There are plenty of these jackets already made and waiting in vintage shops, so please, do not buy a new one!
 
+What I find most interesting, though, is the jacket itself. Right now we want relaxed jeans, minimal pieces and really good basics, and of course we still want to feel different. So through autumn and winter the jacket becomes the accessory, more than the bag, because it is the one piece that sets the outfit apart. That is what we are seeing with the Asian look, in the opera coats, the fur coats and the fur trim jackets, with searches for "opera jacket" up 130% and "fur trim jacket" up 160% on last year.
+
 **If you run a brand or design for one**, make it quiet and wearable like the runways did, in pale neutrals with one soft accent, and credit it properly (the jacket is a tangzhuang and the closures are pankou), because the brands being criticised are the ones selling it with no mention of where it comes from.
 
 **If you are a buyer**, searches for the jacket are far above last year, so it has earned its place in the buy. I would add depth in the next step, which is the tailored jacket, the fur trim and the longer embroidered coat.
 
-**If you are a customer**, one statement coat over the jeans and T-shirt you already own is the whole outfit now (it even works worn closed, as a dress), and a vintage one is the same trend. If you bought yours in spring, the designers are only now catching up with you.
+**If you are a customer**, wear it over the jeans and T-shirt you already own (it even works worn closed, as a dress), and remember that a vintage one is the same trend. If you bought yours in spring, the designers are only now catching up with you.
 
 So is this one more Western fantasy of Asia, or the first time the trend is actually being led from there?
 
