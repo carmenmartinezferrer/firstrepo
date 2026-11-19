@@ -1,6 +1,6 @@
-# Every Designer Is Suddenly Making the Same Asian-Inspired Jacket (And There Is a Very 2026 Reason Why)
+# The jacket you'll keep seeing in 2027 is probably in a vintage shop near you
 
-*Mandarin collars, frog closures and embroidered satin were all over the SS27 runways, so I looked at where the look comes from, why it is back and whether it will last.*
+*After Chinamaxxing, runway data and a year of searches point to the Asian-inspired jacket. Less a costume, more embroidered satin you can wear with jeans.*
 
 There is one kind of jacket I keep seeing, and once you notice it you cannot stop. The pieces I see most are Conner Ives's satin coats, embroidered with cranes, wisteria and blossom and trimmed in fur, in ivory, gold and beige.
 
