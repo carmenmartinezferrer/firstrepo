@@ -18,7 +18,7 @@ I already told you the frog jacket was everywhere [NEEDS DATA: link or date of w
 
 The year starts with Lunar New Year. Searches for "qipao" and "opera jacket" both hit their highest point of the year in the week of 15 February 2026, which is the usual seasonal moment for Chinese dress.
 
-What is not usual is what happened next. "Chinamaxxing" did not exist as a search until early February, and it went from zero to its peak in two weeks, by 22 February, before losing two thirds of that the week after.
+What is not usual is what happened next, which is Chinamaxxing. That is the TikTok name for adopting Chinese habits as a lifestyle, with people filming themselves wearing house slippers indoors, swapping iced drinks for warm water with goji berries and trying Tai Chi, usually with the catchphrase "You've met me at a very Chinese time in my life". As a search it did not exist until early February, and it went from zero to its peak in two weeks, by 22 February, before losing two thirds of that the week after.
 
 Then the jacket took over. Searches for "mandarin jacket" peaked in the week of 12 April, seven weeks after the meme, and stayed close to that level from late March to mid May, 150% above where they sat in the winter. "Opera jacket" had a second bump in May too, and "qipao" stayed high right through August, so people kept the clothes and dropped the joke.
 
@@ -44,7 +44,7 @@ The first reason is that this time it starts in Asia. Young Chinese consumers ha
 
 The second is the mood in the West. Time read Chinamaxxing as a growing fascination with China as its soft power rises, although other writers think it says more about young Westerners being tired of their own politics, and I suspect it is a bit of both.
 
-The third is nostalgia, and this one is my own reading. After seasons of quiet luxury people want clothes with character and a past, and a shape fashion has loved since 1977 gives them exactly that.
+The third is nostalgia, and this one is my own reading. After seasons of quiet luxury people want clothes with character and a past, and a shape fashion has loved since 1977 gives them exactly that. Traditional Chinese dress is also wonderfully theatrical (think of the opera costumes, the heavy embroidery, the birds and the flowers), which puts it right in line with the maximalism and the escapism I keep writing about [NEEDS DATA: link to your maximalism piece]. That is the Conner Ives end of this trend, all embroidery and fur, while the runways took the same references and made them quiet.
 
 ## WHAT THIS MEANS FOR YOU
 
