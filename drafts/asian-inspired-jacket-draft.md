@@ -38,7 +38,7 @@ The first reason is that this time it starts in Asia. Young Chinese consumers ha
 
 The second is the mood in the West. Time read Chinamaxxing as a growing fascination with China as its soft power rises, although other writers think it says more about young Westerners being tired of their own politics, and I suspect it is a bit of both.
 
-The third is maximalism, and this is the one I think explains why it is trending this much. The version people are actually wearing is not the plain mandarin jacket, it is the Asian-inspired piece with everything else piled on top: satin and jacquard, heavy embroidery, fur collars, fur or feather cuffs. That is exactly the dressed-up, more-is-more mood I have been writing about [NEEDS DATA: link to your maximalism piece], where Lectra's tracking of European brands had sequins up 40% and fringe up 34% on last summer and the analysts read it as a demand for escapism. Traditional Chinese dress is wonderfully theatrical to begin with (think of the opera costumes, the embroidery, the birds and the flowers), so it gives maximalism a ready-made shape. This part is my own reading and my own Pinterest board, not a data point, but once you see the fur and the jacquard together you cannot unsee it.
+The third is maximalism and craft, and this is the one I think explains why it is trending this much. The version people are actually wearing is not the plain mandarin jacket, it is the Asian-inspired piece with everything else piled on top: satin and jacquard, heavy embroidery, fur collars, fur or feather cuffs. That is exactly the dressed-up, more-is-more mood I have been [writing about](https://thedatafashionbrief.substack.com/p/stop-calling-everything-a-trend-the-64a), and the numbers in that forecast for Fall/Winter 2027 line up with it. In the aesthetic it calls Heritage Craft, searches for jacquard jackets are up 61% on last year and artistic florals are up 178% in market adoption, and elsewhere in the same forecast fur scarves are up 30% in searches. Traditional Chinese dress is wonderfully theatrical to begin with (think of the opera costumes, the embroidery, the birds and the flowers), and it is craft through and through, so it gives maximalism a ready-made shape. Once you see the fur and the jacquard together, you cannot unsee it.
 
 [IMAGE: 07-asianmaxxing-moodboard.png, eight looks from my Pinterest board "Asianmaxxing aesthetic", Asian-inspired jackets and coats in satin, jacquard and velvet with fur trim and embroidery]
 
@@ -48,15 +48,15 @@ The fourth is nostalgia, which is also my own reading. After seasons of quiet lu
 
 ## WHAT THIS MEANS FOR YOU
 
-The bigger shift behind all of this is that the coat has become the outfit. What I keep seeing is very laid-back basics, a white T-shirt and jeans, under one huge statement coat, and at night the coat is simply worn closed as a dress with nothing else going on (Who What Wear has just called the opera coat this winter's coat trend for exactly that reason). So if there is one thing to really invest in, it is the statement coat or jacket, because it now does the job of the whole look.
+The big message is that yes, we love the Asian aesthetic and we feel inspired by it, and since maximalism and nostalgia are two huge themes that I expect to carry on through 2027, these looks are going to keep appealing in Western countries. The cool part is that you do not need a new one. There are plenty of these jackets already made and waiting in vintage shops, so please, do not buy a new one!
 
 **If you run a brand or design for one**, make it quiet and wearable like the runways did, in pale neutrals with one soft accent, and credit it properly (the jacket is a tangzhuang and the closures are pankou), because the brands being criticised are the ones selling it with no mention of where it comes from.
 
 **If you are a buyer**, searches for the jacket are far above last year, so it has earned its place in the buy. I would add depth in the next step, which is the tailored jacket, the fur trim and the longer embroidered coat.
 
-**If you are a customer**, put your money into one statement coat and wear it over the basics you already own, and it does not have to be a new one! This shape has been made for decades, so a vintage one is the same trend, and if you bought yours in spring, the designers are only now catching up with you.
+**If you are a customer**, one statement coat over the jeans and T-shirt you already own is the whole outfit now (it even works worn closed, as a dress), and a vintage one is the same trend. If you bought yours in spring, the designers are only now catching up with you.
 
-So is this one more Western fantasy of Asia, or the first time the trend is actually being led from there? I think it is the second, which is why I expect it to last longer than the meme did.
+So is this one more Western fantasy of Asia, or the first time the trend is actually being led from there?
 
 **Next week:** [your next piece]. Did you buy the frog jacket this year?
 
@@ -65,7 +65,7 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 ## Things to check
 
 - The Pinterest moodboard images carry no creator credit, so they need permission or credit before publishing. One shows a "Harris Tapper" watermark.
-- The Lectra figures (sequins up 40%, fringe up 34%) are taken from your maximalism draft, not re-opened at the source in this session.
+- The forecast figures (jacquard jackets up 61%, artistic florals up 178% in market adoption, fur scarves up 30%) are taken from your Fall/Winter 2027 forecast draft in this repo. I could not open the Substack link, so please confirm it is that piece. Fur scarves sit under Sensory Riot in that forecast, not Heritage Craft, which is why the sentence says "elsewhere".
 
 - Where you first mentioned the frog jacket (link or date).
 - The Conner Ives description comes from your pictures. I have no source for where his fabrics or references come from, so the piece does not say whether they are Chinese or Japanese.
@@ -80,7 +80,7 @@ So is this one more Western fantasy of Asia, or the first time the trend is actu
 - Google Trends, worldwide, November 2025 to November 2026, Carmen's five exports for "mandarin jacket", "opera jacket", "qipao", "chinamaxxing" and "conner ives" (no public link)
 - Carmen's Conner Ives pictures (no public link)
 - [Carmen's Pinterest board, Asianmaxxing aesthetic](https://uk.pinterest.com/user_ih0009/asianmaxxing-aesthetic/)
-- [Lectra / Retviews, summer 2026 fashion trends, via FashionUnited](https://fashionunited.uk/press/fashion/fashion-trends-2026-between-minimalism-and-maximalism-lectra-presents-a-summer-of-contrasts-and-value/2026061888736), as cited in Carmen's maximalism piece
+- [Stop Calling Everything a Trend: Fall/Winter 2027 Forecast Edition, The Data Fashion Brief](https://thedatafashionbrief.substack.com/p/stop-calling-everything-a-trend-the-64a), for the Heritage Craft figures (Trendalytics Womenswear Forecast Fall/Winter 2027, as printed in the report)
 - [The Metropolitan Museum of Art, Open Access collection](https://www.metmuseum.org/art/collection), objects [69006](https://www.metmuseum.org/art/collection/search/69006), [42110](https://www.metmuseum.org/art/collection/search/42110), [69002](https://www.metmuseum.org/art/collection/search/69002), [42109](https://www.metmuseum.org/art/collection/search/42109), [69744](https://www.metmuseum.org/art/collection/search/69744) and [70383](https://www.metmuseum.org/art/collection/search/70383)
 - [It Girls Are Wearing Winter's Most Beautiful Coat Trend With Absolutely Nothing Underneath, Who What Wear, 17 November 2026](https://www.whowhatwear.com/fashion/celebrity-style/opera-coat-trend-jennifer-lawrence-2026)
 - [SS27 trend: Chinamaxxing and the rise of 'new Chinese style', FashionUnited](https://fashionunited.com/news/fashion/ss27-trend-chinamaxxing-and-the-rise-of-new-chinese-style/2026111175658)
