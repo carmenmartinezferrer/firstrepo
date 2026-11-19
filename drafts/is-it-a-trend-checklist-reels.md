@@ -1,157 +1,159 @@
 # Reels: "Is It a Trend, or Just One House Having a Moment?"
 
-**What the article argues.** Most things called a trend are one house, one loud number or one spike, so before I call anything real I ask six questions: how many houses wear it and how much of each collection it is, whether it still wins on the same scale as its rival, whether it survives the post-show spike, whether an independent source agrees, whether the average is hiding a few loud houses, and whether the source can even say what the thing is. The strongest numbers are tweed (5% of Paris looks but 42% of Chanel's own collection), the column shape (35% of looks at every house), slip dress beating midi skirt in 50 of the last 53 weeks, and a forecast that put a +21% next to a +888% on the same slide.
+**What the article argues.** This is about my process, not about any one trend: before I call anything real I run it through six questions (how many houses wear it and how much of each collection it is, whether it still wins on the same scale as its rival, whether it survives the post-show spike, whether an independent source agrees, whether the average is hiding a few loud houses, and whether the source can even say what the thing is). The examples (tweed, red, slip dress against midi skirt, a forecast's +888%) are there only as proof that each question catches something.
 
-Three Reels, each with a different angle and a different order of peaks: two on the Master DFB Formula and one Comparison Reveal (the article does support one, the slip dress against the midi skirt). All three close by sending people to the article with the keyword CHECKLIST, the same mechanism as your PARIS Reels.
+Draft 2 of these Reels is rewritten around the process. Three Reels with different angles and a different order of peaks: the whole process in one Reel, one step in depth (the same-scale step, the one that finds the story), and a Comparison Reveal that shows the first question working. All three close by sending people to the article with the keyword CHECKLIST, the same mechanism as your PARIS Reels.
 
 ---
 
-## Reel 1: Master DFB Formula, "Tweed is not a trend" (about 45s)
+## Reel 1: Master DFB Formula, "How I tell if something is actually a trend" (about 55s)
 
-**Angle:** the thing on every trend list is one house's signature, and the numbers show how to tell.
-**Hook (on-screen, frame 1):** TWEED IS NOT A TREND. HERE'S THE MATH
+**Angle:** nothing on a trend list gets believed until it has passed six questions, and each one has caught a real "trend" before.
+**Hook (on-screen, frame 1):** HOW I TELL IF SOMETHING IS ACTUALLY A TREND
 
 | Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |
 |---|---|---|---|---|---|---|
-| Inicio | Hook | 0-3s | Tweed is not a trend. | TWEED IS NOT A TREND | Big text on white, pink underline | ●○○○○ setup |
-| Inicio | Thesis | 3-8s | It's one house's signature that a couple of neighbours borrowed, and the numbers show it. | ONE HOUSE'S SIGNATURE | Same frame, text swaps | ●●○○○ tension |
-| Nudo | Evidence 1 | 8-17s | Tweed was in 5% of the looks I tagged in Paris, but Chanel put it in 42% of its own collection. PVC is the same story, six pieces at Chloé and nobody else. | TWEED: 5% OF LOOKS · CHANEL: 42% · PVC: 6 PIECES, 1 HOUSE | Two bars, 5% against 42%, then a single dot labelled Chloé | ●●●○○ myth busted |
-| Nudo | Evidence 2 | 17-25s | Denim is the opposite, only 4% of looks but at 63% of the houses, which makes it a basic and not a trend. | DENIM: 4% OF LOOKS · 63% OF HOUSES | Denim dot placed on the 2x2 chart | ●●●●○ flips the logic |
-| Nudo | Hard stat | 25-31s | The real one was the column shape, 35% of all looks and at every single house. | COLUMN: 35% OF LOOKS · EVERY HOUSE | Column dot lands top right, turns pink | ●●●●● top of the climb |
-| Nudo | Zoom out | 31-39s | So count the houses first, then count how much of each collection it is, and it only counts as a trend when it's wide and heavy. | WIDE + HEAVY = TREND | The full 2x2 with its four labels | ●●●●○ payoff |
-| Desenlace | Close | 39-45s | That's one of the six questions I ask before I call anything a trend, comment CHECKLIST and I'll send you all of them. | COMMENT "CHECKLIST" FOR ALL SIX | Text on white | CTA |
+| Inicio | Hook | 0-3s | Every season someone sends me a list of trends, and I don't believe a word of it yet. | HOW I TELL IF SOMETHING IS ACTUALLY A TREND | Big text on white, pink underline | ●○○○○ setup |
+| Inicio | Thesis | 3-8s | It has to pass six questions first, and each one has caught a fake. | SIX QUESTIONS | Number 6 in pink | ●●○○○ tension |
+| Nudo | Evidence 1 | 8-20s | First, how many houses wear it and how much of each collection it is, because tweed was 5% of Paris looks but 42% of Chanel's, which makes it a signature and not a trend. | 1. HOW MANY HOUSES? HOW MUCH OF EACH? · TWEED: 5% OF LOOKS · CHANEL: 42% | Two bars, 5% against 42% | ●●●○○ myth busted |
+| Nudo | Evidence 2 | 20-33s | Second, does it still win next to its rival on the same scale. Third, is it still there once the post-show spike has passed. Fourth, does a source that doesn't depend on the first one say the same. | 2. SAME SCALE · 3. AFTER THE SPIKE · 4. INDEPENDENT SOURCE | Three cards drop in one after another | ●●●○○ rhythm |
+| Nudo | Hard stat | 33-43s | Fifth, is the average hiding a few loud houses, because red was 9% of New York's colour weight but 16% at Tommy Hilfiger. | 5. RED: 9% OF THE SEASON · 16% AT TOMMY HILFIGER | Season bar next to a taller house bar | ●●●●● top of the climb |
+| Nudo | Zoom out | 43-50s | And sixth, can the source even say what the thing is, because a trend I can't measure goes in the unverified pile. | 6. CAN THE DATA SAY WHAT IT IS? | Card stamped "unverified" | ●●●●○ payoff |
+| Desenlace | Close | 50-57s | Pass most of them and it's a trend, pass only one and it's a moment. Comment CHECKLIST and I'll send you all six with the data behind each. | COMMENT "CHECKLIST" FOR ALL SIX | Text on white | CTA |
 
 **Full script (read-through):**
-Tweed is not a trend. It's one house's signature that a couple of neighbours borrowed, and the numbers show it. Tweed was in 5% of the looks I tagged in Paris, but Chanel put it in 42% of its own collection. PVC is the same story, six pieces at Chloé and nobody else. Denim is the opposite, only 4% of looks but at 63% of the houses, which makes it a basic and not a trend. The real one was the column shape, 35% of all looks and at every single house. So count the houses first, then count how much of each collection it is, and it only counts as a trend when it's wide and heavy. That's one of the six questions I ask before I call anything a trend, comment CHECKLIST and I'll send you all of them.
+Every season someone sends me a list of trends, and I don't believe a word of it yet. It has to pass six questions first, and each one has caught a fake. First, how many houses wear it and how much of each collection it is, because tweed was 5% of Paris looks but 42% of Chanel's, which makes it a signature and not a trend. Second, does it still win next to its rival on the same scale. Third, is it still there once the post-show spike has passed. Fourth, does a source that doesn't depend on the first one say the same. Fifth, is the average hiding a few loud houses, because red was 9% of New York's colour weight but 16% at Tommy Hilfiger. And sixth, can the source even say what the thing is, because a trend I can't measure goes in the unverified pile. Pass most of them and it's a trend, pass only one and it's a moment. Comment CHECKLIST and I'll send you all six with the data behind each.
 
 **Sentence breakdown (every line has a job):**
-- "Tweed is not a trend" _[claim]_ → **tension, works with sound off**
-- "one house's signature" _[characteristic]_ + "a couple of neighbours borrowed" _[result]_ → **the reframe people will quote**
-- "5% of looks" _[data]_ + "Chanel 42%" _[contrast]_ → **surprise, the gap is the proof**
-- "PVC, six pieces at Chloé" _[named example]_ → **second proof of the same pattern, fast**
-- "Denim, 4% of looks, 63% of houses" _[contrast with the last two]_ → **recognition, the opposite case**
-- "Column, 35%, every house" _[data]_ → **payoff, what a real one looks like**
-- "Count the houses, then how much of each" _[method]_ → **something the viewer can use today**
+- "I don't believe a word of it yet" _[claim]_ → **tension, works with sound off**
+- "six questions, each has caught a fake" _[characteristic]_ + _[result]_ → **a reason to stay for all six**
+- "tweed 5% of looks, 42% of Chanel's" _[data]_ + "a signature, not a trend" _[result]_ → **proof the first question works**
+- "same scale, after the spike, independent source" _[method]_ → **keeps the list moving, one beat each**
+- "red 9% against 16% at Tommy Hilfiger" _[contrast]_ → **the highest peak, an average that lied**
+- "a trend I can't measure goes in the unverified pile" _[opinion]_ → **shows the standard is honest**
+- "pass most, it's a trend, pass one, it's a moment" _[rule]_ → **a usable rule to screenshot**
 
-**Cut (no goal):** the pencil skirt "Chanel 49%, Lacoste showed one" example, which is a good second-order point but would have flattened the climb, and the "staple, signature, noise" four-way sorting beyond the one line on wide and heavy.
+**Cut (no goal):** the fringe skirt and embellishment example for the independent source (it needs three sources said aloud), and the explanation of what "wide and heavy" means.
 
-**Quotable close:** Count the houses first, then count how much of each collection it is.
-**Comment prompt:** Which "trend" turned out to be one brand for you?
+**Quotable close:** Pass most of them and it's a trend, pass only one and it's a moment.
+**Comment prompt:** Which of the six would catch the "trend" you're most sceptical about?
 **Caption:**
-Tweed was in 5% of Paris looks and 42% of Chanel's own collection, so is it a trend or a house signature? 👀
-The six questions I ask before I call anything a trend are in my latest post, comment CHECKLIST and I'll send you the link.
-#fashiondata #trendforecasting #parisfashionweek #fashiontrends #ss27
+Before I call anything a trend, it has to pass six questions, and tweed, red and a few others have already failed or passed them in my data 👀
+All six are in my latest post, comment CHECKLIST and I'll send you the link.
+#fashiondata #trendforecasting #fashiontrends #fashionanalyst #ss27
 
 **Data check:**
-- ✅ Tweed 5% of Paris looks, Chanel 42% of its own looks: checklist draft section 1, from Paris SS27 trend report draft 3
-- ✅ PVC six pieces at Chloé only: Paris trend report draft 3 (pure house signature list)
+- ✅ Tweed 5% of Paris looks, Chanel 42% of its own looks: Paris SS27 trend report draft 3, used in the article's question 1
+- ✅ Red 9% of New York's colour weight, Tommy Hilfiger 16%: NYFW SS27 trend report final, used in the article's question 5
+- ✅ The six questions and the pass most / pass one rule: the checklist article's closing section
+- ⚠️ "Each one has caught a fake" is a summary of the article's examples, so check you're happy with it as a claim
+
+---
+
+## Reel 2: Master DFB Formula, "The step that finds the story" (about 45s)
+
+**Angle:** the single step in my process that does the most work is putting everything on one scale, because something can look strong alone and barely register next to something else.
+**Hook (on-screen, frame 1):** THE ONE STEP THAT FINDS THE STORY IN TREND DATA
+
+| Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |
+|---|---|---|---|---|---|---|
+| Inicio | Hook | 0-4s | The one step that finds the story in my data is putting everything on the same scale. | THE STEP THAT FINDS THE STORY | Big text on white | ●●○○○ tension |
+| Inicio | Thesis | 4-9s | Because a trend can look strong alone and still barely register next to another one. | STRONG ALONE ≠ STRONG NEXT TO IT | Two bars, one dwarfing the other | ●●○○○ setup |
+| Nudo | Evidence 1 | 9-17s | In New York the midi skirt was at every single house, so on the runway it looks like the winner. | MIDI SKIRT: EVERY HOUSE | Midi bar fills to full | ●●●○○ looks like a winner |
+| Nudo | Evidence 2 | 17-27s | But on Google's own scale the slip dress ran higher in 50 of the last 53 weeks, and outside the show spike it averaged 25 against 9. | SLIP DRESS: 50 OF 53 WEEKS · 25 vs 9 | Line chart, pink slip dress above black midi skirt | ●●●●○ flips it |
+| Nudo | Hard stat | 27-36s | I do the same to forecasts, where one report had 24 items and six different kinds of number, with a +21% sitting next to a +888% and nothing measured twice. | 24 ITEMS · 6 KINDS OF NUMBER · +21% NEXT TO +888% | Counters tick up, two bars of wildly different height | ●●●●● top of the climb |
+| Nudo | Zoom out | 36-42s | Only when I group items by what they share can I see what's actually moving. | GROUP BY WHAT THEY SHARE | Items sort into columns | ●●●●○ payoff |
+| Desenlace | Close | 42-48s | So when someone shows you one big number, ask what it's sitting next to. Comment CHECKLIST for the other five questions. | COMMENT "CHECKLIST" | Text on white | CTA |
+
+**Full script (read-through):**
+The one step that finds the story in my data is putting everything on the same scale. Because a trend can look strong alone and still barely register next to another one. In New York the midi skirt was at every single house, so on the runway it looks like the winner. But on Google's own scale the slip dress ran higher in 50 of the last 53 weeks, and outside the show spike it averaged 25 against 9. I do the same to forecasts, where one report had 24 items and six different kinds of number, with a +21% sitting next to a +888% and nothing measured twice. Only when I group items by what they share can I see what's actually moving. So when someone shows you one big number, ask what it's sitting next to. Comment CHECKLIST for the other five questions.
+
+**Sentence breakdown (every line has a job):**
+- "The one step that finds the story" _[claim]_ → **curiosity, a promise of the method**
+- "strong alone, barely registers next to another" _[characteristic]_ + _[contrast]_ → **the line people will quote**
+- "midi skirt at every house" _[data]_ → **sets up the obvious winner**
+- "slip dress, 50 of 53 weeks, 25 against 9" _[data]_ → **the flip, proof the step works**
+- "24 items, six kinds of number, +21% next to +888%" _[data]_ → **the same step catching a different kind of trap**
+- "group by what they share" _[method]_ → **what the viewer can do tomorrow**
+- "ask what it's sitting next to" _[reframe]_ → **language the viewer didn't have**
+
+**Cut (no goal):** the February to May dates (the chart carries them), the three aesthetics' names and which two were moving, and the Trendalytics name.
+
+**Quotable close:** When someone shows you one big number, ask what it's sitting next to.
+**Comment prompt:** What's the biggest number you've seen on a trend slide?
+**Caption:**
+A trend can look strong alone and barely register next to another, and putting everything on one scale is the step that finds the story 👀
+The other five questions I ask are in my latest post, comment CHECKLIST and I'll send you the link.
+#fashiondata #trendforecasting #fashiontrends #fashionanalyst #nyfw
+
+**Data check:**
+- ✅ Midi skirt in every NYFW SS27 house: NYFW SS27 trend report final
+- ✅ Slip dress higher in 50 of the last 53 weeks, 25 against 9 outside the Feb to May spike: NYFW SS27 trend report final (Google Trends, worldwide)
+- ✅ 24 items, six kinds of number, +21% next to +888%, none measured twice: FW27 forecast draft 5
+- ⚠️ The forecast report isn't named on screen or in the voiceover, following your rule that it's named only in the article's intro and methodology
+
+---
+
+## Reel 3: Comparison Reveal, "Tweed or denim, which one is the real trend?" (about 45s)
+
+**Angle:** two things with nearly the same share of looks can be completely different, and the first question in my process shows why.
+**Hook (on-screen, frame 1):** TWEED OR DENIM: WHICH ONE IS THE REAL TREND?
+
+| Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |
+|---|---|---|---|---|---|---|
+| Inicio | Set-up | 0-6s | Tweed was in 5% of Paris looks and denim in 4%. Which one is the real trend? | TWEED 5% · DENIM 4% OF LOOKS | Two bars side by side, almost equal | ●●○○○ game |
+| Nudo | Example A | 6-12s | Tweed, in 5% of looks. | TWEED: 5% | Tweed bar highlighted | ●●○○○ looks like the winner |
+| Nudo | Example B | 12-18s | Denim, in 4% of looks. | DENIM: 4% | Denim bar highlighted | ●●○○○ looks close |
+| Nudo | Pause | 18-21s | Which did you pick? | WHICH ONE? | Beat of silence, countdown dot | ●●●○○ |
+| Nudo | Reveal | 21-32s | Neither. Tweed is 42% of one house, Chanel, and denim is at 63% of the houses but barely there in each. | NEITHER · TWEED: 42% OF CHANEL · DENIM: 63% OF HOUSES | Tweed dot moves to "one house", denim dot to "everywhere but light" | ●●●●○ flips it |
+| Desenlace | Mechanism | 32-42s | That's why I always check two numbers, how many houses wear it and how much of each collection it is, and it only counts as a trend when it's both, like the column shape, 35% of looks at every house. | COLUMN: 35% OF LOOKS · EVERY HOUSE | 2x2 with the column dot in the top right corner | ●●●●● top of the climb |
+| Desenlace | CTA | 42-47s | Comment CHECKLIST and I'll send you the other five questions I ask. | COMMENT "CHECKLIST" | Text on white | CTA |
+
+**Full script (read-through):**
+Tweed was in 5% of Paris looks and denim in 4%. Which one is the real trend? Tweed, in 5% of looks. Denim, in 4% of looks. Which did you pick? Neither. Tweed is 42% of one house, Chanel, and denim is at 63% of the houses but barely there in each. That's why I always check two numbers, how many houses wear it and how much of each collection it is, and it only counts as a trend when it's both, like the column shape, 35% of looks at every house. Comment CHECKLIST and I'll send you the other five questions I ask.
+
+**Sentence breakdown (every line has a job):**
+- "Tweed 5%, denim 4%, which is the real trend" _[data]_ + _[game]_ → **a reason to wait for the answer**
+- "Which did you pick?" _[pause]_ → **commitment, comments**
+- "Neither" _[reveal]_ → **surprise, the answer nobody offered**
+- "42% of one house, 63% of houses but barely there" _[contrast]_ → **the two numbers made visible**
+- "two numbers, both, column 35% every house" _[method]_ + _[example]_ → **a rule and what passing looks like**
+
+**Cut (no goal):** PVC at Chloé as a third example, and the pencil skirt at 49% of Chanel and one look at Lacoste.
+
+**Quotable close:** It only counts as a trend when it's wide and heavy.
+**Comment prompt:** Which one did you pick before the reveal?
+**Caption:**
+Tweed 5% of looks, denim 4%, so which one is the real trend? Neither, and here's why 👀
+The two numbers I check first, plus the other five questions, are in my latest post, comment CHECKLIST and I'll send you the link.
+#fashiondata #trendforecasting #parisfashionweek #fashiontrends #fashionanalyst
+
+**Data check:**
+- ✅ Tweed 5% of Paris looks, Chanel 42% of its own looks: Paris SS27 trend report draft 3
 - ✅ Denim 4% of Paris looks at 63% of houses: FashionUnited denim article
-- ✅ Column 35% of looks, every house: Paris trend report draft 3
-- ⚠️ "A couple of neighbours borrowed" is the article's own phrase, fine, but if the Paris numbers changed after draft 3 this Reel changes too
-
----
-
-## Reel 2: Master DFB Formula, "The +888% that I don't believe yet" (about 45s)
-
-**Angle:** a huge number with no starting point is a headline, and putting items on one scale is how you find out what's moving.
-**Hook (on-screen, frame 1):** A FORECAST SAYS +888%. I DON'T BELIEVE IT YET
-
-| Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |
-|---|---|---|---|---|---|---|
-| Inicio | Hook | 0-3s | A forecast I read said funnel neck jackets are up 888%. | FUNNEL NECK JACKETS: +888% | Big pink number | ●●○○○ tension |
-| Inicio | Thesis | 3-8s | Before you believe it, look at what was on the same slide. | LOOK AT THE SAME SLIDE | Number shrinks to one corner | ●●○○○ setup |
-| Nudo | Evidence 1 | 8-16s | A plus 21% sat right next to it, and they're not even the same kind of number. | +21% NEXT TO +888% | Two bars, wildly different heights, labelled "not the same measure" | ●●●○○ recognition |
-| Nudo | Evidence 2 | 16-26s | That forecast had 24 items and six different kinds of number, and not one item was measured two ways. | 24 ITEMS · 6 KINDS OF NUMBER · 0 MEASURED TWICE | Three counters tick up | ●●●●○ surprise |
-| Nudo | Hard stat | 26-34s | The 888% was growth among influencers, with no word on how many or what they started from, and 888% from almost nothing is how a funnel neck starts to look like a movement. | 888% FROM ALMOST NOTHING | The pink bar shrinks to a thin sliver | ●●●●● top of the climb |
-| Nudo | Zoom out | 34-39s | Put the items on one scale and only two of the three aesthetics were really moving. | ONE SCALE: 2 OF 3 MOVING | Three small bars, two tall and one flat | ●●●●○ payoff |
-| Desenlace | Close | 39-45s | A big number with no starting point isn't a trend, it's a headline. Comment CHECKLIST for all six questions I ask. | COMMENT "CHECKLIST" | Text on white | CTA |
-
-**Full script (read-through):**
-A forecast I read said funnel neck jackets are up 888%. Before you believe it, look at what was on the same slide. A plus 21% sat right next to it, and they're not even the same kind of number. That forecast had 24 items and six different kinds of number, and not one item was measured two ways. The 888% was growth among influencers, with no word on how many or what they started from, and 888% from almost nothing is how a funnel neck starts to look like a movement. Put the items on one scale and only two of the three aesthetics were really moving. A big number with no starting point isn't a trend, it's a headline. Comment CHECKLIST for all six questions I ask.
-
-**Sentence breakdown (every line has a job):**
-- "Funnel neck jackets up 888%" _[data]_ → **curiosity, the number as bait**
-- "Look at what was on the same slide" _[instruction]_ → **a reason to keep watching**
-- "+21% next to +888%" _[contrast]_ + "not the same kind of number" _[result]_ → **recognition, the trap is visible**
-- "24 items, six kinds of number, none measured twice" _[data]_ → **the surprising structure behind the slide**
-- "888% from almost nothing" _[characteristic]_ → **the line people will quote**
-- "One scale, two of three moving" _[result]_ → **payoff, what the fix finds**
-
-**Cut (no goal):** the aesthetics' names (Heritage Craft, Sensory Riot, Veiled Performance), which would take seconds and need a screen of context, and the fringe skirt as the top search mover.
-
-**Quotable close:** A big number with no starting point isn't a trend, it's a headline.
-**Comment prompt:** What's the biggest number you've seen on a forecast slide?
-**Caption:**
-+21% and +888% on the same slide, same font size, different kinds of number 👀
-How I put forecast numbers on one scale is in my latest post, comment CHECKLIST and I'll send you the link.
-#fashiondata #trendforecasting #fashiontrends #fashionforecast #fw27
-
-**Data check:**
-- ✅ Funnel neck jackets +888%, growth among key influencers, no stated starting point: FW27 forecast trends draft 5, as printed in the report
-- ✅ +21% (acid wash denim, search growth), 24 items, six kinds of number, none measured twice: same draft, "The numbers that don't compare with anything"
-- ✅ Grouped by shared metric, Heritage Craft and Sensory Riot moving, Veiled Performance mostly not: same draft, the takeaway
-- ⚠️ The report is not named on screen or in the voiceover, following your rule that it's named only in the article's intro and methodology. If you want to say "Trendalytics" aloud, the article is where it lives.
-
----
-
-## Reel 3: Comparison Reveal, "Midi skirt or slip dress?" (about 45s)
-
-**Angle:** the silhouette on every runway wasn't the one people were searching for.
-**Hook (on-screen, frame 1):** MIDI SKIRT OR SLIP DRESS: GUESS THE BIGGER TREND
-
-| Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |
-|---|---|---|---|---|---|---|
-| Inicio | Set-up | 0-6s | Which is the bigger trend, the midi skirt or the slip dress? Guess before I tell you. | MIDI SKIRT OR SLIP DRESS? | Two labelled cards side by side | ●●○○○ game |
-| Nudo | Example A | 6-14s | The midi skirt was at every single house at New York Fashion Week, the only silhouette with no gaps. | MIDI SKIRT: EVERY HOUSE | Midi bar fills to full | ●●●○○ looks like a winner |
-| Nudo | Example B | 14-20s | The slip dress was one of the top silhouettes too, but it didn't reach every house. | SLIP DRESS: TOP 3 SILHOUETTES, NOT EVERY HOUSE | Slip dress bar fills part way | ●●○○○ looks like the underdog |
-| Nudo | Pause | 20-23s | Which did you pick? | WHICH ONE? | Beat of silence, countdown dot | ●●●○○ |
-| Nudo | Reveal | 23-34s | It's the slip dress. On Google's own scale it ran higher than the midi skirt in 50 of the last 53 weeks, and outside the show season spike it averaged 25 against 9, nearly three times the interest. | SLIP DRESS: 50 OF 53 WEEKS · 25 vs 9 | Line chart, same 0 to 100 scale, pink slip dress above black midi | ●●●●● top of the climb |
-| Desenlace | Mechanism | 34-42s | The runway says what designers showed, search says what people want, and when they disagree, that gap is the finding. The slip dress is the settled one, the midi skirt is the one I'd bet on building. | RUNWAY ≠ SEARCH · THE GAP IS THE FINDING | Two arrows pointing apart | ●●●●○ payoff |
-| Desenlace | CTA | 42-47s | Comment CHECKLIST and I'll send you the six questions I ask before I call anything a trend. | COMMENT "CHECKLIST" | Text on white | CTA |
-
-**Full script (read-through):**
-Which is the bigger trend, the midi skirt or the slip dress? Guess before I tell you. The midi skirt was at every single house at New York Fashion Week, the only silhouette with no gaps. The slip dress was one of the top silhouettes too, but it didn't reach every house. Which did you pick? It's the slip dress. On Google's own scale it ran higher than the midi skirt in 50 of the last 53 weeks, and outside the show season spike it averaged 25 against 9, nearly three times the interest. The runway says what designers showed, search says what people want, and when they disagree, that gap is the finding. The slip dress is the settled one, the midi skirt is the one I'd bet on building. Comment CHECKLIST and I'll send you the six questions I ask before I call anything a trend.
-
-**Sentence breakdown (every line has a job):**
-- "Guess before I tell you" _[instruction]_ → **a reason to wait for the answer**
-- "Midi skirt, every house, no gaps" _[data]_ → **sets up the obvious pick**
-- "Slip dress, top silhouettes, not every house" _[contrast]_ → **makes the viewer commit**
-- "50 of 53 weeks, 25 against 9" _[data]_ → **reveal, the number that flips it**
-- "Runway says, search says, the gap is the finding" _[reframe]_ → **language the viewer didn't have**
-- "Settled one, the one I'd bet on building" _[opinion]_ → **a usable take, not just a result**
-
-**Cut (no goal):** the February to May dates (the on-screen chart carries them) and the "nearly three times" arithmetic spoken twice.
-
-**Quotable close:** The runway says what designers showed, search says what people want.
-**Comment prompt:** Which did you pick before the reveal?
-**Caption:**
-Midi skirt at every house, slip dress higher in search in 50 of the last 53 weeks, so which one is the bigger trend? 👀
-The six questions I ask before I call anything a trend are in my latest post, comment CHECKLIST and I'll send you the link.
-#fashiondata #trendforecasting #nyfw #slipdress #midiskirt #fashiontrends
-
-**Data check:**
-- ✅ Midi skirt in every NYFW SS27 house, the only silhouette with no gaps: NYFW SS27 trend report final
-- ✅ Slip dress among the top silhouettes: NYFW SS27 trend report final
-- ✅ Slip dress ran higher in 50 of the last 53 weeks, 25 against 9 outside the Feb to May spike: NYFW SS27 trend report final (Google Trends, worldwide)
-- ⚠️ "The one I'd bet on building" is your own line from the NYFW piece, so confirm you still stand by it now that the Paris data is out
+- ✅ Column 35% of looks, every house: Paris SS27 trend report draft 3
+- ⚠️ "Barely there in each" is a plain-words version of 4% of looks across 10 houses, so check you're happy with the wording
 
 ---
 
 ## Filming notes
 
-- **Charts to make (nothing is built yet, text approved first):** (1) the 2x2 for Reel 1, houses against share of looks, with tweed, PVC, denim and column placed on it, (2) a bar pair for Reel 2, +21% against +888%, then the 888% bar shrinking, (3) the slip dress against midi skirt line chart from the NYFW piece, same 0 to 100 scale, pink for the slip dress and black for the midi skirt, for Reel 3.
+- **Charts to make (nothing is built yet, text approved first):** (1) six simple numbered cards for Reel 1, plus the tweed and red bar pairs, (2) the slip dress against midi skirt line chart from the NYFW piece for Reel 2, same 0 to 100 scale, pink for the slip dress and black for the midi skirt, plus a +21% against +888% bar pair, (3) the 2x2 for Reel 3, houses against share of looks, with tweed, denim and the column placed on it.
 - **No runway photos unless you hold the rights.** Use the white background and charts, in DFB's black and pink only, or Launchmetrics images as in your FashionUnited pieces.
-- **Posting order:** Reel 3 (the game) is the most comment-friendly, so it could go first. Reels 1 and 2 are both "here's a number to doubt", so post them a few days apart.
+- **Posting order:** Reel 3 (the game) is the most comment-friendly, so it could go first, then Reel 1, then Reel 2. Reels 1 and 3 share the tweed example, so post them a few days apart.
 - **Auto-DM:** set the keyword CHECKLIST to the article link before the first Reel goes up, and confirm whether the post is free or paid (it changes how you word the CTA).
 - **Hashtags:** I left out #stopcallingeverythingatrend, since you dropped that series name for this piece. Add it back if you want it for search.
 
 ## Sources
 
 - The Data Fashion Brief, Paris Fashion Week SS27 runway tagging, SS27-paris_4.xlsx, 16 houses, 997 looks (Carmen's own data, no public link)
-- The Data Fashion Brief, "Is It a Trend, or Just One House Having a Moment?" (the checklist article, `drafts/is-it-a-trend-checklist-draft.md`, unpublished, no public link)
+- The Data Fashion Brief, New York Fashion Week SS27 runway tagging, 13 houses (Carmen's own data, no public link)
+- The Data Fashion Brief, "Is It a Trend, or Just One House Having a Moment?" (the checklist article, drafts/is-it-a-trend-checklist-draft.md, unpublished, no public link)
 - The Data Fashion Brief, Paris SS27 trend report draft 3 (unpublished, no public link)
-- The Data Fashion Brief, NYFW SS27 trend report, `reference-articles/nyfw-ss27-trend-report-final.md` (link to add)
+- The Data Fashion Brief, NYFW SS27 trend report, reference-articles/nyfw-ss27-trend-report-final.md (link to add)
 - The Data Fashion Brief for FashionUnited, "The jean you'll keep seeing in 2027 is probably already in your wardrobe" (link to add)
-- The Data Fashion Brief, FW27 forecast trends draft 5, `drafts/fw27-forecast-trendalytics-draft.md` (unpublished, no public link)
+- The Data Fashion Brief, FW27 forecast trends draft 5, drafts/fw27-forecast-trendalytics-draft.md (unpublished, no public link)
 - Trendalytics, Womenswear Forecast Fall/Winter 2027, October 2026 (Carmen's upload, no public link; public summary: https://blog.trendalytics.co/fw27-womenswear-trend-forecast-intelligence)
 - The Data Fashion Brief, Google Trends exports for slip dress and midi skirt (Carmen's own pulls, no public link)
+- Marie Claire, red taking over NYFW SS27 street style: https://www.marieclaire.com/fashion/new-york-fashion-week-street-style-trend-spring-summer-2027-red-color/
+- WWD, Pantone's NYFW Spring 2027 colour report: https://wwd.com/fashion-news/fashion-trends/pantone-nyfw-spring-2027-color-trends-1239203317/
