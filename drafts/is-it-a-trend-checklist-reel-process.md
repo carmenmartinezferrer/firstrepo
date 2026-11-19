@@ -7,15 +7,15 @@ I'M A FASHION DATA ANALYST AND THIS IS HOW I TELL A TREND FROM A MOMENT
 
 | On screen (one card per thing, each stays up while you speak, cards get bigger and pinker as they climb) | Voiceover |
 |---|---|
-| **1. SCRAPE THE INTERNET AND SOCIAL MEDIA**<br>what people are actually talking about | I'm a fashion data analyst and this is how I tell a trend from a moment. One, I scrape the internet and social media to see what people are actually talking about. |
-| **2. WAIT FOR THE SPIKE**<br>what's left after the show buzz | Two, I wait for the spike to pass, because what's left after the show buzz is the real signal. |
-| **3. AN INDEPENDENT SOURCE**<br>does someone else say the same | Three, I look for an independent source, like retail data or search, because two methods agreeing is stronger than one. |
-| **4. COUNT TWO NUMBERS**<br>how many houses wear it<br>how much of each collection it is | Four, I count how many houses wear it and how much of each collection it is, because one house going all in isn't a trend. |
+| **1. SCRAPE THE INTERNET AND SOCIAL MEDIA**<br>what people are actually talking about | I'm a fashion data analyst and this is how I tell a trend from a moment. One, I scrape the internet and social media to see what people are talking about. |
+| **2. WAIT FOR THE SPIKE**<br>what's left after the show buzz | Two, I wait for the spike to pass, because what's left after the buzz is the real signal. |
+| **3. AN INDEPENDENT SOURCE**<br>does someone else say the same | Three, I look for an independent source, like retail data. |
+| **4. COUNT TWO NUMBERS**<br>how many houses wear it<br>how much of each collection it is | Four, I count how many houses wear it and how much of each collection it is. |
 | **5. SAME SCALE**<br>THE ONE THAT MATTERS MOST<br>next to its closest rival | And five, the one that matters most, I put it next to its closest rival on the same scale, because something can look huge alone and barely register next to another. |
-| **IF YOU WANT TO KNOW MORE, LET ME KNOW**<br>COMMENT "CHECKLIST" | If you want to know more, let me know, and comment CHECKLIST for the full list. |
+| **IF YOU WANT TO KNOW MORE, LET ME KNOW**<br>COMMENT "CHECKLIST" | If you want to know more, let me know. |
 
-**Full voiceover (read-through, about 125 words):**
-I'm a fashion data analyst and this is how I tell a trend from a moment. One, I scrape the internet and social media to see what people are actually talking about. Two, I wait for the spike to pass, because what's left after the show buzz is the real signal. Three, I look for an independent source, like retail data or search, because two methods agreeing is stronger than one. Four, I count how many houses wear it and how much of each collection it is, because one house going all in isn't a trend. And five, the one that matters most, I put it next to its closest rival on the same scale, because something can look huge alone and barely register next to another. If you want to know more, let me know, and comment CHECKLIST for the full list.
+**Full voiceover (read-through, about 120 words):**
+I'm a fashion data analyst and this is how I tell a trend from a moment. One, I scrape the internet and social media to see what people are talking about. Two, I wait for the spike to pass, because what's left after the buzz is the real signal. Three, I look for an independent source, like retail data. Four, I count how many houses wear it and how much of each collection it is. And five, the one that matters most, I put it next to its closest rival on the same scale, because something can look huge alone and barely register next to another. If you want to know more, let me know.
 
 **Caption:**
 How I tell a trend from a moment, in five steps 👀
