@@ -1,4 +1,73 @@
-# A Coruña Reel, draft v3 (text only, for Carmen to correct)
+# A Coruña Reel, draft v4 (text only, for Carmen to correct)
+
+**What changed in v4, from your note:** the hook is now your question, "did you know that one of the biggest fashion companies in the world has its headquarters here, in A Coruña?", with the sales figure filling your xxx (almost 40 billion euros), followed by "Why here?". The history now answers that why, then the "everyone works for Zara" check and the people numbers, and Reel 2's close. Earlier versions are kept below.
+
+**Hook (on-screen, frame 1):** ONE OF THE BIGGEST FASHION COMPANIES IN THE WORLD IS RUN FROM HERE. WHY?
+
+| Act | Beat | Voiceover | On-screen text | Visual | Peak |
+|---|---|---|---|---|---|
+| Inicio | Hook | Did you know that one of the biggest fashion companies in the world, one that sold almost 40 billion euros of clothes last year, has its headquarters here, in A Coruña, a city of about 249,000 people in the rainy corner of Spain? | ONE OF THE BIGGEST FASHION COMPANIES IN THE WORLD IS RUN FROM HERE. ALMOST €40 BILLION. | You walking, María Pita or the glass galleries on the Marina | ●●○○○ setup |
+| Inicio | The question | Why here? | WHY HERE? | You to camera, stop walking | ●●○○○ the problem |
+| Nudo | History 1 | The honest answer is that it simply never left, because the founder grew up on these streets, worked as a teenager at a local shirt shop called Gala, and started making quilted dressing gowns here in 1963. | 1963: QUILTED DRESSING GOWNS | The Gala corner if it is still there, old town streets | ●●●○○ the answer |
+| Nudo | History 2 | In 1975 he opened a shop on this street that he wanted to call Zorba, until a bar down the road with the same name complained and he rearranged the letters on the sign into Zara, and the headquarters is still 13 kilometres from here. | ZORBA → ZARA, then HQ: 13 KM FROM HERE | You on Calle Juan Flórez, letters rearranging on screen | ●●●●○ delight |
+| Nudo | Myth check | Everyone will tell you the whole city works for them, but press estimates put the headquarters at around 5,000 people, which is roughly 2 in every 100. | 2 IN EVERY 100. NOT "EVERYONE". | Crowd on Calle Real, two people highlighted | ●●●●○ myth busted |
+| Nudo | Hard stat | Those few thousand sit at the top of a group of 163,000 people and 174 nationalities, | 163,000 PEOPLE. 174 NATIONALITIES. | Numbers over the seafront | ●●●●● top of the climb |
+| Desenlace | Close / POV | so whatever you think of fast fashion, a small, very elegant city on the Atlantic quietly became one of the most international offices in the industry. Would you move here? | WOULD YOU MOVE HERE? | You to camera, the sea behind you | ●●●○○ payoff + CTA |
+
+**Full script (read-through, 200 words, about 80 seconds at your relaxed pace):**
+
+Did you know that one of the biggest fashion companies in the world, one that sold almost 40 billion euros of clothes last year, has its headquarters here, in A Coruña, a city of about 249,000 people in the rainy corner of Spain? Why here? The honest answer is that it simply never left, because the founder grew up on these streets, worked as a teenager at a local shirt shop called Gala, and started making quilted dressing gowns here in 1963. In 1975 he opened a shop on this street that he wanted to call Zorba, until a bar down the road with the same name complained and he rearranged the letters on the sign into Zara, and the headquarters is still 13 kilometres from here. Everyone will tell you the whole city works for them, but press estimates put the headquarters at around 5,000 people, which is roughly 2 in every 100. Those few thousand sit at the top of a group of 163,000 people and 174 nationalities, so whatever you think of fast fashion, a small, very elegant city on the Atlantic quietly became one of the most international offices in the industry. Would you move here?
+
+**Shorter cut (120 words, about 48 seconds):**
+
+Did you know that one of the biggest fashion companies in the world, one that sold almost 40 billion euros of clothes last year, has its headquarters here, in A Coruña? Why here? Because it simply never left, the founder grew up on these streets, started with quilted dressing gowns in 1963, and in 1975 opened a shop on this street that was nearly called Zorba, until a bar with the same name complained and the letters on the sign got rearranged into Zara. Everyone says the whole city works for them, but the headquarters has around 5,000 people, roughly 2 in every 100, at the top of a group of 163,000 people and 174 nationalities. Would you move here?
+
+**Cut (no goal):** "this is the street where the first Zara opened" as the opening line (the street now arrives inside the history), the supermarket and the store's closure, the Gala shop in the shorter cut.
+
+**Quotable close:** "A small, very elegant city on the Atlantic quietly became one of the most international offices in the industry."
+**Comment prompt:** Would you move here for a fashion job?
+
+**Caption:**
+One of the biggest fashion companies in the world is run from a city of about 249,000 people, and the reason is that it never left.
+Quilted dressing gowns in 1963, a shop nearly called Zorba in 1975, and roughly 2 in every 100 at the headquarters today.
+The numbers behind the fashion, minus the hype, on The Data Fashion Brief (link in bio).
+\#acoruña \#fashiondata \#fashionhistory \#fashionbusiness \#inditex
+
+**Data check:**
+
+- ✅ Sales of 39.9 billion euros in fiscal 2025 (year to 31 January 2026), FashionUnited, said as "almost 40 billion". "Sold" is revenue, if by "makes" you meant profit, that was 6.22 billion euros in the same source.
+- ✅ A Coruña, about 249,000 residents (249,255 in 2024), IGE with INE data.
+- ✅ Confecciones Goa founded in 1963, making quilted dressing gowns, Britannica and Wikipedia.
+- ✅ First Zara opened on Calle Juan Flórez in 1975, Euronews and El Debate. The shop closed in January 2026, so the script says "opened a shop on this street" and never that you are inside it.
+- ✅ 163,047 employees and 174 nationalities, group-wide, Inditex 2025 reports.
+- ⚠️ The headquarters is in Arteixo, about 13 km outside the city (Business of Fashion), so "has its headquarters here, in A Coruña" is loose. The script says "13 kilometres from here" later, which corrects it, but if you want the hook exact, say "is run from here" or "just outside A Coruña".
+- ⚠️ "One of the biggest fashion companies in the world" is safe wording, I did not source a ranking, so do not upgrade it to "the biggest".
+- ⚠️ "It simply never left" and "the founder grew up on these streets" are the reading of the biography (born in León, raised in A Coruña, every step of the business started there), not a reason Inditex has stated.
+- ⚠️ Zorba: the bar story is the widely repeated version (Marie Claire, Wikipedia), Ara says the name was already taken in the trademark registry. "The story goes that" makes it safe.
+- ⚠️ Gala: biographies agree he worked there as a teenager and disagree on the job. I have not confirmed the shop is open today.
+- ⚠️ NEEDS DATA: an official headquarters headcount. "Around 5,000" is Business Insider (2018), Business of Fashion has about 4,600.
+- ⚠️ "2 in every 100" compares the headquarters with the city's population only, and leaves out factories, logistics and suppliers in the area.
+- ⚠️ "One of the most international offices in the industry" is your judgement, the 174 nationalities figure is for the whole group.
+
+## Sources used (v4)
+
+- FashionUnited, Inditex fiscal 2025 results: https://fashionunited.com/news/business/inditex-posts-6-22-billion-euro-profit-in-2025-and-3-19-percent-sales-growth/2026031171084
+- IGE municipal sheet for A Coruña, population 2024 from INE: https://ige.gal/igebdt/fichas/municipais/ficha_15030.pdf
+- Inditex Annual Report 2025, "Our Drivers": https://annualreport.inditex.com/anrpxxvui/en/our-drivers
+- Inditex 2025 Consolidated Statement of Non-Financial Information: https://www.inditex.com/itxcomweb/api/media/f8d28973-3e94-45a5-9b0f-9e4d4b1c14b3/SustainabilityReport.pdf?t=1773404719972
+- Euronews, the first Zara store in A Coruña: https://es.euronews.com/2026/01/29/zara-cierra-la-primera-tienda-abierta-por-su-fundador-amancio-ortega-en-la-coruna
+- El Debate, the first Zara (opened 9 May 1975, Juan Flórez 64 to 66): https://www.eldebate.com/estilo-vida/moda/20260130/asi-sido-ultimo-dia-primer-zara-historia-amancio-ortega-abrio-1975_380066.html
+- Britannica, Amancio Ortega (born in León, Confecciones Goa, 1963): https://www.britannica.com/biography/Amancio-Ortega
+- Wikipedia, Amancio Ortega (the Gala shirt shop): https://en.wikipedia.org/wiki/Amancio_Ortega
+- Marie Claire, why Zara is called Zara: https://www.marieclaire.co.uk/news/fashion-news/why-zara-is-called-zara-515328
+- Ara, fifty years of Zara (the trademark version): https://en.ara.cat/business/fifty-years-of-zara-the-fashion-juggernaut_130_5578215.html
+- Business Insider, 2018, more than 5,000 at the headquarters: https://www.businessinsider.in/zara-has-completely-altered-daily-life-for-this-sleepy-spanish-town-heres-what-residents-think-about-it-/articleshow/65822533.cms
+- The Business of Fashion, about 4,600 at Arteixo, about 13 km from A Coruña: https://www.businessoffashion.com/news/global-markets/zara-hipsters-transform-their-hometown-into-a-spanish-powerhouse/
+- Carmen's notes in this conversation, no public link.
+
+---
+
+# Draft v3 (superseded by v4, kept for reference)
 
 **What changed in v3, from your correction:** the hook is now the one from Reel 3 (you on the street where the first Zara opened), without the supermarket, joined to the argument of Reel 2 (everyone says the whole city works for Zara, so you checked), with the history and the numbers from v2. The four-capitals hook is gone, and the close is Reel 2's. Earlier versions are kept below.
 
