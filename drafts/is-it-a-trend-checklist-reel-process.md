@@ -1,4 +1,4 @@
-# Reel: how I tell a trend from a moment, Master DFB Formula (about 48s)
+# Reel: how I tell a trend from a moment, Master DFB Formula (about 50s)
 
 Process only, no specific trends or numbers. Five steps climb in importance, and the last one is the intersection of data and fashion, which is Carmen.
 
@@ -16,7 +16,7 @@ Process only, no specific trends or numbers. Five steps climb in importance, and
 | Nudo | Step 5 | 31-42s | And five, the one you cannot miss, the intersection of data and fashion, because I'm an analyst but I'm also a creative who loves fashion, and that intersection is what I am. | 5. DATA + FASHION · THE ONE YOU CANNOT MISS | Full pink card, two overlapping circles labelled DATA and FASHION, "ME" in the overlap | ●●●●● top of the climb |
 | Desenlace | Close | 42-48s | If you want to know more, let me know. | IF YOU WANT TO KNOW MORE, LET ME KNOW · COMMENT "CHECKLIST" | Text on white | CTA |
 
-**Full script (read-through, about 125 words):**
+**Full script (read-through, about 135 words):**
 I'm a fashion data analyst and this is how I tell a trend from a moment. It takes five steps, and the last one is the one you cannot miss. One, I scrape the internet and social media to see what people are talking about. Two, I wait for the spike to pass, because what's left after the buzz is the real signal. Three, I look for an independent source, like retail data. Four, I cross reference it with my own fashion week analysis, and put it next to its closest rival on the same scale. And five, the one you cannot miss, the intersection of data and fashion, because I'm an analyst but I'm also a creative who loves fashion, and that intersection is what I am. If you want to know more, let me know.
 
 **Sentence breakdown (every line has a job):**
