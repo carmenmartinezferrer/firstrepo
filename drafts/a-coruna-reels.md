@@ -1,4 +1,70 @@
-# A Coruña Reels, draft v2 (text only, for Carmen to correct)
+# A Coruña Reel, draft v3 (text only, for Carmen to correct)
+
+**What changed in v3, from your correction:** the hook is now the one from Reel 3 (you on the street where the first Zara opened), without the supermarket, joined to the argument of Reel 2 (everyone says the whole city works for Zara, so you checked), with the history and the numbers from v2. The four-capitals hook is gone, and the close is Reel 2's. Earlier versions are kept below.
+
+**Hook (on-screen, frame 1):** THE FIRST ZARA IN THE WORLD OPENED ON THIS STREET
+
+| Act | Beat | Voiceover | On-screen text | Visual | Peak |
+|---|---|---|---|---|---|
+| Inicio | Hook and problem | This is the street where the first Zara in the world opened, and everyone will tell you this whole city works for them, so obviously I went and checked. | THE FIRST ZARA IN THE WORLD OPENED ON THIS STREET, then "THE WHOLE CITY WORKS FOR ZARA". I CHECKED. | You on Calle Juan Flórez, street sign in shot, walking | ●●○○○ the question |
+| Nudo | History 1 | The story starts with a teenager working at a local shirt shop called Gala, who began making quilted dressing gowns here in 1963, | 1963: QUILTED DRESSING GOWNS | The Gala corner if it is still there, old town streets | ●●○○○ recognition |
+| Nudo | History 2 | and in 1975 opened a shop he wanted to call Zorba, until a bar down the road with the same name complained and he rearranged the letters on the sign into Zara. | ZORBA → ZARA | Letters rearranging on screen | ●●●○○ delight |
+| Nudo | Myth check | The headquarters is still 13 kilometres from here, and press estimates put it at around 5,000 people in a city of about 249,000, which is roughly 2 in every 100 and nowhere near everyone. | 2 IN EVERY 100. NOT "EVERYONE". | Crowd on Calle Real, two people highlighted | ●●●●○ myth busted |
+| Nudo | Hard stat | Those few thousand sit at the top of a group of 163,000 people and 174 nationalities that sold almost 40 billion euros last year, | 163,000 PEOPLE. 174 NATIONALITIES. ALMOST €40 BILLION. | Numbers over the seafront or the elegant façades | ●●●●● top of the climb |
+| Desenlace | Close / POV | so no, not everyone here works in fashion, and whatever you think of fast fashion, a small, very elegant city on the Atlantic quietly became one of the most international offices in the industry. Would you move here? | WOULD YOU MOVE HERE? | You to camera, the sea behind you | ●●●○○ payoff + CTA |
+
+**Full script (read-through, 180 words, about 72 seconds at your relaxed pace):**
+
+This is the street where the first Zara in the world opened, and everyone will tell you this whole city works for them, so obviously I went and checked. The story starts with a teenager working at a local shirt shop called Gala, who began making quilted dressing gowns here in 1963, and in 1975 opened a shop he wanted to call Zorba, until a bar down the road with the same name complained and he rearranged the letters on the sign into Zara. The headquarters is still 13 kilometres from here, and press estimates put it at around 5,000 people in a city of about 249,000, which is roughly 2 in every 100 and nowhere near everyone. Those few thousand sit at the top of a group of 163,000 people and 174 nationalities that sold almost 40 billion euros last year, so no, not everyone here works in fashion, and whatever you think of fast fashion, a small, very elegant city on the Atlantic quietly became one of the most international offices in the industry. Would you move here?
+
+**Shorter cut (128 words, about 51 seconds):**
+
+This is the street where the first Zara in the world opened, and everyone will tell you this whole city works for them, so obviously I checked. It opened in 1975 and was nearly called Zorba, until a bar down the road with the same name complained and the letters on the sign got rearranged. The headquarters is 13 kilometres from here with around 5,000 people, in a city of about 249,000, which is roughly 2 in every 100. Those few thousand sit at the top of a group of 163,000 people and 174 nationalities, so no, not everyone here works in fashion, it's that a small, very elegant city on the Atlantic quietly became one of the most international offices in the industry. Would you move here?
+
+**Cut (no goal):** the supermarket and the store's closure (your note), the Paris, Milan, London, New York hook, "fashion's capitals are wherever the decisions get made", the 57 markets and the store count, the Zarasmus nickname.
+
+**Quotable close:** "A small, very elegant city on the Atlantic quietly became one of the most international offices in the industry."
+**Comment prompt:** Would you move here for a fashion job?
+
+**Caption:**
+"The whole city works for Zara" is the first thing anyone tells you about A Coruña, so I checked.
+It started with quilted dressing gowns in 1963 and a shop that was nearly called Zorba, and the headcount today is roughly 2 in every 100.
+The numbers behind the fashion, minus the hype, on The Data Fashion Brief (link in bio).
+\#acoruña \#fashiondata \#fashionhistory \#fashionbusiness \#inditex
+
+**Data check:**
+
+- ✅ First Zara opened on Calle Juan Flórez in 1975 (9 May, numbers 64 to 66), Euronews and El Debate. The shop closed on 30 January 2026, so the script says "the street where it opened" and never "I'm in the first Zara".
+- ✅ Confecciones Goa founded in 1963, making quilted dressing gowns, Britannica and Wikipedia.
+- ✅ A Coruña, about 249,000 residents (249,255 in 2024), IGE with INE data.
+- ✅ Headquarters in Arteixo, about 13 km from the city, Business of Fashion.
+- ✅ 163,047 employees and 174 nationalities, group-wide, Inditex 2025 reports.
+- ✅ Sales of 39.9 billion euros in fiscal 2025, FashionUnited, said as "almost 40 billion".
+- ⚠️ Zorba: the bar story is the widely repeated version (Marie Claire, Wikipedia), but Ara says the name was already taken in the trademark registry instead. "The story goes that" makes it safe.
+- ⚠️ Gala: biographies agree he worked there as a teenager and disagree on the job, so the script says "working at". I have not confirmed the shop is open today.
+- ⚠️ NEEDS DATA: an official headquarters headcount. "Around 5,000" is Business Insider (2018), Business of Fashion has about 4,600. Swap in the real number if you know it and can say it.
+- ⚠️ "2 in every 100" compares the headquarters with the city's population only, and leaves out factories, logistics and suppliers in the area.
+- ⚠️ "One of the most international offices in the industry" is your judgement, not a measured ranking, the 174 nationalities figure is for the whole group.
+
+## Sources used (v3)
+
+- IGE municipal sheet for A Coruña, population 2024 from INE: https://ige.gal/igebdt/fichas/municipais/ficha_15030.pdf
+- Inditex Annual Report 2025, "Our Drivers": https://annualreport.inditex.com/anrpxxvui/en/our-drivers
+- Inditex 2025 Consolidated Statement of Non-Financial Information: https://www.inditex.com/itxcomweb/api/media/f8d28973-3e94-45a5-9b0f-9e4d4b1c14b3/SustainabilityReport.pdf?t=1773404719972
+- FashionUnited, Inditex fiscal 2025 results: https://fashionunited.com/news/business/inditex-posts-6-22-billion-euro-profit-in-2025-and-3-19-percent-sales-growth/2026031171084
+- Euronews, the first Zara store in A Coruña: https://es.euronews.com/2026/01/29/zara-cierra-la-primera-tienda-abierta-por-su-fundador-amancio-ortega-en-la-coruna
+- El Debate, the first Zara (opened 9 May 1975, Juan Flórez 64 to 66): https://www.eldebate.com/estilo-vida/moda/20260130/asi-sido-ultimo-dia-primer-zara-historia-amancio-ortega-abrio-1975_380066.html
+- Britannica, Amancio Ortega (Confecciones Goa, 1963): https://www.britannica.com/biography/Amancio-Ortega
+- Wikipedia, Amancio Ortega (the Gala shirt shop): https://en.wikipedia.org/wiki/Amancio_Ortega
+- Marie Claire, why Zara is called Zara: https://www.marieclaire.co.uk/news/fashion-news/why-zara-is-called-zara-515328
+- Ara, fifty years of Zara (the trademark version): https://en.ara.cat/business/fifty-years-of-zara-the-fashion-juggernaut_130_5578215.html
+- Business Insider, 2018, more than 5,000 at the headquarters: https://www.businessinsider.in/zara-has-completely-altered-daily-life-for-this-sleepy-spanish-town-heres-what-residents-think-about-it-/articleshow/65822533.cms
+- The Business of Fashion, about 4,600 at Arteixo, about 13 km from A Coruña: https://www.businessoffashion.com/news/global-markets/zara-hipsters-transform-their-hometown-into-a-spanish-powerhouse/
+- Carmen's notes in this conversation, no public link.
+
+---
+
+# Draft v2 (superseded by v3, kept for reference)
 
 **What changed in v2, from your note:** one Reel instead of three. It keeps the hook of Reel 1 (the four capitals and the city nobody lists), puts you on the street of the first Zara without the supermarket, carries the "everyone here works for Zara" argument from Reel 2, and adds the history you asked for (the shirt shop, the dressing gowns in 1963, the Zorba name) next to the numbers. The three v1 Reels are kept below, unchanged.
 
