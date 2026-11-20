@@ -7,7 +7,7 @@ It started in February with Chinamaxxing, a TikTok joke about living the Chinese
 → This time it comes with maximalism: fur trim jackets up 160%, jacquard jackets up 61%
 → And it comes soft: 8 of 11 runway looks in white, ivory or pale yellow
 
-My take: the jacket is the new accessory. We wear basics and relaxed jeans, and this is the piece that makes the outfit.
+My take: we are still obsessed with the Asian aesthetic, it has just moved on. The big spike in April was the frog jacket, and after fashion week it is the Conner Ives version we want, with fur, jacquard and embroidery. The jacket is the accessory now, and this one has everything to be a hit this season and next.
 
 Would you wear it, or do you already own one? 👇
 
