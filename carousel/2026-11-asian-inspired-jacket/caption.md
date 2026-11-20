@@ -1,6 +1,6 @@
 Asianmaxxing? The jacket of 2027 might be at a vintage shop right now.
 
-It started in February with Chinamaxxing, a TikTok joke about living the Chinese way. The joke faded in weeks. The jacket did not.
+It started in February with Chinamaxxing, a TikTok joke about living the Chinese way. The joke faded in weeks, but people kept the jacket.
 
 → Searches for "mandarin jacket" are up 180% on last year, and "opera jacket" 130%
 → It is not new: Saint Laurent did it in 1977, Tom Ford in 2004
