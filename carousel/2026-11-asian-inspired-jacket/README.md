@@ -9,12 +9,12 @@ Companion to the Substack draft `drafts/asian-inspired-jacket-draft.md`. Built w
 | # | Headline | Number behind it | Visual |
 |---|---|---|---|
 | 1 | Asianmaxxing? The next jacket of 2027 might be at a vintage shop now! | | Four SS27 runway cut-outs over a dark embroidered satin background |
-| 2 | Why are we so obsessed with Asian fashion right now? | mandarin jacket +180%, opera jacket +130% on last year | `chart-asian-style-up.png` (two bars) |
-| 3 | We are seeing it everywhere, but it is not new | | Two Pinterest looks |
-| 4 | But the mandarin jacket comes from China: fashion has borrowed it for decades | Qing dynasty, 1977, 2004, 2025, 2026 | Met theatrical jacket, darkened |
-| 5 | Because this time it comes with maximalism | fur trim jacket +160%, jacquard jackets +61%, faux fur jacket +30% | `chart-maximalism-bare.png` + Conner Ives cut-out |
-| 6 | And it comes in soft colours | ivory #CFC9C0, gold #C7B084, blossom pink #E8979B; 8 of 11 runway looks pale | Three Canva circles |
-| 7 | My take: the April spike was the frog jacket, now it is the Conner Ives version | peak week 12 April 2026 | `chart-mandarin-weekly-white.png` with two labels, then Comment "jacket" for the link |
+| 2 | Why are we so obsessed with Asian fashion right now? | mandarin jacket +180%, opera jacket +130% on last year | `chart-asian-style-up-bare.png` (two bars, percentages typed in Canva) |
+| 3 | We are seeing it everywhere, but it is not new | | Two Pinterest looks (green jacquard coat, yellow satin coat with fur collar) |
+| 4 | Fashion has borrowed it for decades: what changed is how we see China | riding jacket in Qing dynasty China, Saint Laurent 1977; the perception line is Carmen's own reading, unsourced | Met theatrical jacket, darkened |
+| 5 | It is working now because it comes with maximalism | fur trim jacket +160%, jacquard jackets +61%, faux fur jacket +30% | `chart-maximalism-bare.png` + Conner Ives cut-out |
+| 6 | And it comes in soft colours | ivory #CFC9C0, gold #C7B084, blossom pink #E8979B, butter yellow #EECA8F, coral #A96E5C, blue grey #838C95; 8 of 11 runway looks pale | Six Canva circles |
+| 7 | My take: the April spike was the frog jacket, now it is the Conner Ives version | peak week 12 April 2026 | `chart-mandarin-weekly-whiteline.png` (white line) with two labels, then Comment "jacket" for the link |
 
 ## Data
 
@@ -29,6 +29,6 @@ Companion to the Substack draft `drafts/asian-inspired-jacket-draft.md`. Built w
 - Substack versions of the two charts (`scripts/substack_charts.py` in `dfb-data`).
 - Image rights: runway cut-outs (Launchmetrics/spotlight via FashionUnited), Pinterest looks (no creator credit) and Conner Ives pictures need a licence or credit before posting. The Met jacket is public domain.
 - The italic cover line is still the denim blue from the jean carousel.
-- The two chart labels and the chart caption on slide 7 are in Canva's default font: switch them to the deck font in the editor.
+- The bar labels on slide 2 and the two chart labels and chart caption on slide 7 are in Canva's default font: switch them to the deck font in the editor.
 
 Caption: see `caption.md`.
