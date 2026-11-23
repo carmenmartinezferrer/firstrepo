@@ -74,6 +74,8 @@ Order the five from sharpest to softest for the Substack version. The Reel reord
 
 - **Thesis first.** The opening line is the claim, and the number comes in the first or second sentence.
 - **Direct, no hedging.** Say what it means.
+- **"The customer" or "the consumer", never "she" or "her" for the shopper.** Carmen asked for this on 23 Nov 2026. Rewrite the sentence rather than swap the pronoun.
+- **A revision is never longer than the version it replaces.** When Carmen asks for a change, apply it and cut something else so the slide or paragraph ends up the same length or shorter. She flagged this twice.
 - **End on a question or a provocation** (Substack shifts and the Reel close).
 - **Spell out why it's news.** Don't lean on context the reader may not have. Write "Hermès was the one luxury house still growing through the slowdown. Not anymore", not "Even Hermès is slowing". Carmen asked for exactly this fix.
 - **Name the measure and its scope.** A market index is not a company's sales: Acotex's figure is "fashion retail sales in Spain, the whole market", not "Inditex in Spain" or Mango's Spain sales. Write "the Spanish market". A region is not a country: "Asia excluding Japan" stays "Asia excluding Japan". Say what the number measures the first time you use it, and carry the publisher's own explanation when it gives one (Acotex blamed September 2026 on warm weather delaying autumn buying, October on uncertainty and shoppers waiting for Black Friday).
