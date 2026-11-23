@@ -160,7 +160,7 @@ Keep DFB's edge: the receipts are the data. Where the source Reel says "a 54-sec
 
 ---
 
-## 7. Proven DFB script: "The jean you'll keep seeing next year" (talking head, Nov 2026)
+## 8. Proven DFB script: "The jean you'll keep seeing next year" (talking head, Nov 2026)
 
 Carmen's best-performing talking-head Reel so far (about 12K views in 24 hours, several times her usual). Use it as the reference for the **withheld-answer trend Reel**: hook promises a payoff, the nudo walks through the old trend's rise and stall, the reveal lands in the middle, the "why" follows, the close returns to the hook. Treat this structure as the default for consumer trend Reels built from a DFB Substack post.
 

@@ -1,6 +1,6 @@
 # DFB skills guide: which repo, what to say
 
-Last updated: 16 November 2026, after merging every branch into `main` again.
+Last updated: 23 November 2026, after merging every branch into `main` again. A scheduled task now does this every Sunday evening.
 
 ---
 
@@ -71,6 +71,8 @@ You don't need to name the skill. It loads when your message matches. Naming it 
   - "Guion para un reel de este artículo, en español."
   - "Review my Reel script, don't rewrite it, tell me what to cut."
 - **You get:** 2 Master "Shift I'm Seeing" Reels + 1 Comparison Reveal as beat tables (act, time, voiceover, on-screen text, visual, attention peak), read-through, sentence breakdown, caption, data check with `[NEEDS DATA]` flags, filming notes.
+- **Formats (from 18 Nov):** Master "Shift I'm Seeing" and Comparison Reveal as before, plus the **Story Reel** for news, campaigns, launches or backlashes, ideally two brands doing the same thing with opposite outcomes (verdict hook, news peg, paradox, "should have… and yet" twist, values question; 150 to 220 words for 45 to 75 seconds). Every Reel comes with one or two alternative hooks built from the storytelling devices (verdict hook, paradox, signposting, antithesis pairs). Accusations are attributed ("has been accused of"), never stated as fact.
+- **Reference script:** the formula file keeps Carmen's best-performing talking-head Reel ("The jean you'll keep seeing next year", Nov 2026) as the model for the withheld-answer trend Reel. Say "like the jean Reel" to get that shape.
 - **Batch option:** `python reels.py --latest 3 https://thedatafashionbrief.substack.com` on your computer (needs an Anthropic API key).
 
 ### 2.3 `dfb-substack` (regular Substack posts)
