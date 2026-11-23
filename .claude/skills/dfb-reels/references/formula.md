@@ -155,3 +155,51 @@ Keep DFB's edge: the receipts are the data. Where the source Reel says "a 54-sec
 "Dior just made one of the biggest mistakes of the year, and Prada showed them exactly where they went wrong. So this week, all the Christmas adverts have come out. Two of the world's oldest fashion houses have made old-school cartoons for Christmas, but one got a standing ovation while the other's been accused of cheating. Let's talk about Prada first. Prada just released a 54-second Christmas video created by Disney veteran animator John Pomeroy. Now this guy, he hand-draws animations. He's the guy behind The Rescuers, Winnie the Pooh, The Fox and the Hound, and before you even see the film, Prada's teasing this with the sound of pencil on paper. The point is the craftsmanship, more so than the product, more so than the vibe. They are trying to communicate their stance on analog versus AI, luxury versus lazy. They created a winter wonderland full of well-known actors interacting with 2D animated woodland animals, and it's pretty magical. Then Dior went bigger. Now their animation is 7 minutes long. It's arguably more star-studded than Prada. Robert Pattinson narrates it. It's got Josh O'Connor in it, who might be our next James Bond. Directed by Oscar-nominated director Sylvain Chomet. Set in 1949 Paris. It tells the story of the founder of Dior, Christian Dior's relationship with the famous film star Marlene Dietrich, and having to create a dress for her really quickly out of pretty much thin air and fly it to LA. Dior used to call his seamstresses his bees. So there are little cartoon bees that appear as the seamstresses that help him create this magical dress. And actually, the dress that he creates in the advert is something that Jonathan Anderson used as inspiration for his last show. Beautiful dress. All things considered, the Dior campaign should have been a big success. And yet, when people zoom in, they're seeing warped lettering, unusual details, strange hands and fingers, traits synonymous with generative AI. Dior's now been accused of in-betweening, which is the process of creating frames between an animator's key drawings, and something AI could have very easily played a role in. So long story short, Dior's come across as trying to capitalise on a trend, and in doing so, completely missed the point of the trend, which is human touch, human-made craftsmanship, which is why two adverts with such similar vibes have had two very different reactions. What's your stance on AI in creativity?"
 
 *Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale. Apply section 6 to every script, whichever formula it uses. Use section 7 (Story Reel) when there's a news peg and two brands with opposite outcomes, and borrow its hooks and devices in any format.*
+
+*Use section 3 as the default template for weekly Reels. Rotate in section 4 every 2–3 weeks to keep the format from going stale. Apply section 6 to every script, whichever formula it uses.*
+
+---
+
+## 7. Proven DFB script: "The jean you'll keep seeing next year" (talking head, Nov 2026)
+
+Carmen's best-performing talking-head Reel so far (about 12K views in 24 hours, several times her usual). Use it as the reference for the **withheld-answer trend Reel**: hook promises a payoff, the nudo walks through the old trend's rise and stall, the reveal lands in the middle, the "why" follows, the close returns to the hook. Treat this structure as the default for consumer trend Reels built from a DFB Substack post.
+
+**Script as posted (about 130 words, ~40s):**
+
+> Just hear me out on this one, because the jean that you'll keep seeing next year, it's probably already in your closet.
+> Remember the start of 2026 when everyone was obsessed with the barrel jean and searches jumped over 500%? Well, now the barrel stopped growing and matured into a closet basic.
+> Meanwhile, on the runway, something else is taking over. 48% of the denim shown this season was a straight leg, and the most repeated formula was mid-wash under a blazer. Straight jeans are growing much faster than barrel jeans.
+> But why? After years of statement shapes, the customer wants just comfort and fit, not a whole new silhouette in their closet.
+> So the barrel jean isn't over, but the next jean is already in your closet.
+> I'm a fashion data analyst, so if you want to understand fashion differently, follow me for more.
+
+**Beat map:**
+
+| Act | Beat | Line | Job |
+|---|---|---|---|
+| Inicio | Hook | "Just hear me out… probably already in your closet" | Promise + personal stake; works sound-off |
+| Inicio | Problem | "Remember the start of 2026… over 500%?" | Shared memory, rhetorical question keeps them nodding |
+| Nudo | Turn | "now the barrel stopped growing and matured into a closet basic" | First peak: the thing everyone bought has stalled |
+| Nudo | Reveal | "Meanwhile, on the runway… 48%… straight leg… mid-wash under a blazer" | Second peak: the answer to the hook, with the number and the formula |
+| Nudo | Proof | "Straight jeans are growing much faster" | Shoppers confirm the runway |
+| Nudo | Why | "But why? … comfort and fit, not a whole new silhouette" | The DFB read; turns numbers into an insight |
+| Desenlace | Reframe | "the barrel isn't over, but the next jean is already in your closet" | Resolves the hook with the same words |
+| Desenlace | CTA | "I'm a fashion data analyst… follow me for more" | Identity line + follow |
+
+**What to repeat:**
+- **Conversational opener before the hook.** "Just hear me out on this one" buys half a second of attention without wasting the hook; the hook itself is the second clause.
+- **Hold the answer.** Name the old trend first, give it its rise and its stall, then reveal the replacement. Revealing the answer in sentence two killed earlier drafts.
+- **"Remember when…?" as the problem beat.** Shared memory plus a rhetorical question is a cheap, strong inicio for any trend Reel.
+- **One number per beat, three numbers total** (500%, 48%, "much faster"). More than that and the talking head reads like a chart.
+- **"But why?"** as a spoken beat. It gives the viewer the question right before you answer it; the answer is the zoom-out.
+- **Close on the hook's words.** "Already in your closet" opens and closes the Reel. The loop is what makes it feel finished.
+- **Identity CTA.** "I'm a fashion data analyst, so if you want to understand fashion differently, follow me" states the edge (the number, not the vibe) and asks for the follow in one line.
+
+**Fill-in template of the same structure:**
+
+> Just hear me out on this one, because [PAYOFF PROMISE that flatters the viewer].
+> Remember [TIME] when everyone was obsessed with [OLD TREND] and [METRIC jumped X%]? Well, now [OLD TREND] [stalled / matured into…].
+> Meanwhile, [SOURCE: runway / searches / results], something else is taking over. [HARD STAT] and [THE FORMULA in five words].
+> [SECOND SOURCE confirms it]. But why? [THE DFB READ: what the customer actually wants].
+> So [OLD TREND] isn't over, but [REFRAME that reuses the hook's words].
+> I'm a fashion data analyst, so if you want to understand fashion differently, follow me for more.
