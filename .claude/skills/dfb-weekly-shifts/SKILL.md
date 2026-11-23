@@ -91,16 +91,19 @@ This Week in Fashion Data: 5 Shifts #DD/MM
 
 Subtitle: <Under 160 characters, hard limit. Name the week's biggest names or themes, then what the reader gets. Count it.>
 
-<Opening paragraph: one sentence naming all five shifts in plain words. This is the first line of the post body, not the subtitle.>
+<Intro paragraph, first line of the post body: "I'm a fashion data analyst. These are the five shifts I'm seeing this week, each one with the numbers behind it. Read them and the week's headlines make sense:" then the five shifts in one sentence, in plain words.>
 
-01 <Headline = the verdict, max 10 words>
-<90-120 words: what happened (the numbers), then "Why:" the mechanism in one or two sentences, then "The shift:" one sentence naming what changed and for whom, then the closing question.>
+**1. <Headline sentence = the verdict, max 10 words, bold, with the number.>** <The facts as a short story, in the order they happened, with the numbers. 60-90 words.>
 
-02 …
-(through 05)
+**Why:** <the mechanism in one or two sentences.>
+
+**The shift:** <one sentence naming what changed and for whom, then the closing question.>
+
+**2. …**
+(through 5)
 ```
 
-Each paragraph has four parts, in order: the facts, the **why** (one or two sentences starting "Why:" or "Why now:"), **"The shift:"** (one sentence, explicit, naming what changed and for whom), and the question. Carmen's readers said the old version gave the facts but not the why or the shift; the explicit "The shift:" sentence is the fix, and it is also what the carousel slide ends on. **90-120 words per shift.** Cut rather than pad. No "worth digging into" lines here: research ideas go in Behind the scenes.
+Each shift is three paragraphs, copied straight into Substack: the bold headline sentence followed by the facts in the same paragraph, then a **Why:** paragraph, then a **The shift:** paragraph (labels in bold). Carmen set this format on 23 Nov 2026 and asked for "the facts told as a clear and concise story that will lead their week", not a pile of clauses: one event per sentence, in the order it happened, nothing clever. Carmen's readers said the old version gave the facts but not the why or the shift; the explicit "The shift:" sentence is the fix, and it is also what the carousel slide ends on. **No more than about 170 words per shift, all three paragraphs together.** Cut rather than pad. No "worth digging into" lines here: research ideas go in Behind the scenes.
 
 End the Substack section with a `Tags` line: 6-8 Substack tags, comma-separated. Always include `Fashion`, `Luxury`, `Fashion Industry`, `Data`, `Retail`; then 2-3 tags for this week's biggest names or themes (a brand, a group, a market). Example: `Tags: Fashion, Luxury, Fashion Industry, Data, Retail, Kering, Dior, Inditex`.
 
@@ -166,9 +169,9 @@ Format it as a table: `Time | Voiceover | On-screen text`. Then the full read-th
 
 - **Folder:** "DFB / Weekly Briefings", folder ID `1OmNOBqzof3F_lMj-os1yI8UD2eIeD4xv`. If that ID fails, search Drive for `title = 'Weekly Briefings' and mimeType = 'application/vnd.google-apps.folder'`.
 - **Title:** `DFB Weekly Shifts — Week of <DD Month YYYY>`, using the run's date (the Sunday).
-- **Body:** plain text, in this order, with each heading on its own line: `SUBSTACK`, `CAROUSEL`, `REEL`, `BEHIND THE SCENES`.
-- **Call:** `create_file` with `parentId` = the folder, `contentMimeType: "text/plain"`, `textContent`, and **no** `disableConversionToGoogleType`. Drive converts plain text into a native Google Doc. Don't pass `application/vnd.google-apps.document` as the content type together with content: Drive rejects that ("requires an external mime type").
-- If that call errors, retry **once** with `disableConversionToGoogleType: true` (this saves a .txt file) and say it's a .txt fallback in the report.
+- **Body:** in this order, with each heading on its own line: `SUBSTACK`, `CAROUSEL`, `REEL`, `BEHIND THE SCENES`.
+- **Bold must survive**, because Carmen pastes the Substack section straight into the editor (bold headline sentence, bold "Why:" and "The shift:", bold shift line on each carousel slide). So the doc is uploaded as HTML, not plain text: write the pack as a scratch `.md` file (`# ` section, `## ` sub-heading, `**bold**`, `---` rule), convert it with `python3 .claude/skills/dfb-weekly-shifts/scripts/md_to_html.py pack.md pack.html` (one line per `<p>`, `**bold**` to `<b>`), get the file's sha256 with `sha256sum`, then call `create_file` with `parentId` = the folder, `contentMimeType: "text/html"`, `base64Content` as a file reference `sha256:<hex>:<absolute path>`, and **no** `disableConversionToGoogleType`. Drive converts the HTML into a native Google Doc with the bold intact (confirmed on the 22 Nov v6 doc).
+- Fallback if the HTML upload errors: `contentMimeType: "text/plain"` with `textContent` (bold is lost, say so in the report). Don't pass `application/vnd.google-apps.document` as the content type together with content: Drive rejects that ("requires an external mime type").
 - Before saving, write the full text to a scratch file, so nothing is lost if the Drive call fails.
 
 ## 5. Report
