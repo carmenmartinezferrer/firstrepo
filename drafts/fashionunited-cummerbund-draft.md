@@ -101,7 +101,7 @@ Still no resale, rental or search figure behind it. It now rests on your own ana
 
 ### Length and shape
 
-About 850 words in the body, against roughly 1,300 for the published denim piece, in the same order: news and angle, the DFB runway finding with the methodology note, the wider analysis, and "What this means for brands and retailers".
+About 900 words in the body, methodology note included, against roughly 1,300 for the published denim piece, in the same order: news and angle, the DFB runway finding with the methodology note, the wider analysis, and "What this means for brands and retailers".
 
 ### Image slots
 
