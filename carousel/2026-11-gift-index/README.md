@@ -8,7 +8,7 @@ Status: 6 slides built, every grey box waiting for Carmen's product images. Not 
 
 | # | Kicker | Headline | Body | Number | Image slots |
 |---|---|---|---|---|---|
-| 1 | | Deinfluencing you with data. If you are investing in something, make it these items | | | 6 template icons to swap for cut-outs of the picks |
+| 1 | | Deinfluencing you with data. The only things I'd buy this Black Friday | | | 6 template icons to swap for cut-outs of the picks |
 | 2 | The fabric | Buy the fabric, not the logo | Natural fibres are the safest thing you can give. | Cotton +90%, cashmere +80% (% change in searches, this year vs last) | 2 (the Uniqlo pieces) |
 | 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search. | Fringe skirt +71%, paisley scarf +64%, jacquard jacket +61% (% change in searches vs last year) | 3 |
 | 4 | The early bet | For whoever likes to be early | The biggest jump in my data this year, from a small base. | Harness boots +476% (% change in searches, this year vs last) | 1 |
@@ -27,7 +27,7 @@ Status: 6 slides built, every grey box waiting for Carmen's product images. Not 
 ## Caption
 
 ```
-Deinfluencing you with data: if you're investing in something this season, make it these items.
+Deinfluencing you with data: the only things I'd buy this Black Friday.
 
 Every gift guide wants you to buy more, so I built mine from what I've actually measured this year, a year of search data and the 997 Paris SS27 looks I tagged by hand, to help you buy less and better.
 
