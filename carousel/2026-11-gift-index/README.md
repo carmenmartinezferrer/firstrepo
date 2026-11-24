@@ -12,7 +12,7 @@ Layout from 24 Nov: horizontal bar charts (native Canva shapes), Carmen pastes t
 |---|---|---|---|---|
 | 1 | | Deinfluencing you with data. The only things I'd buy this Black Friday | | |
 | 2 | The fabric | Buy the fabric, not the logo | Natural fibres are the safest thing you can give. | Wool +100%, cotton +90%, cashmere +80% (% change in searches, this year vs last) |
-| 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search | Fur trim jacket +160%, fringe skirt +71%, paisley scarf +64% (% change in searches vs last year) |
+| 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search | Midi skirt +250%, fur trim jacket +160%, paisley scarf +64% (% change in searches vs last year) |
 | 4 | The early bets | For whoever likes to be early | Harness boots are the biggest jump in my data this year, and rain boots are the one to watch. | Harness boots +476% searches; rain boots +87% among key influencers (two image boxes) |
 | 5 | The accessories | The small things doing the most | Accessories are moving faster than the clothes. | Celine round sunglasses +190%, chunky belt +93%, fur scarf +30% (% change in searches vs last year) |
 | 6 | The colours | These are the new neutrals | If you buy something, buy it in one of these. | Plum +60%, dark red +50%, forest green +50%, cobalt blue +30% (% change in searches, this year vs last), bars in each colour |
@@ -35,6 +35,9 @@ Layout from 24 Nov: horizontal bar charts (native Canva shapes), Carmen pastes t
 - Wool +100%: Carmen's own Google Trends reading, searches vs last year, given in chat on 24 Nov 2026, no export saved. Its label and number on slide 2 are in Canva's default font and need the template font applied.
 - Colours: dark red and forest green +50%, cobalt blue +30%, Carmen's own pulls (colour draft). The data term is "dark red", there is no separate number for burgundy. "New neutrals" is Carmen's framing; dove grey is still the most searched colour. Moss green (+60%) was left out because she named cobalt.
 
+- Midi skirt +250%: Carmen's own Google Trends reading, searches year over year, given in chat on 24 Nov 2026, no export saved. It replaced fringe skirt +71% on slide 3, whose headline and body still talk about texture.
+- 24 Nov: slides 3, 5 and 6 matched to slide 2's sizes (bar height 67, longest bar 585 wide, labels 37px, numbers 49px, rows 139 apart). Source lines removed from the chart slides, as Carmen did on slide 2; the caption carries the data line.
+
 ## Caption
 
 ```
@@ -43,7 +46,7 @@ Deinfluencing you with data: the only things I'd buy this Black Friday.
 Every gift guide wants you to buy more, so I built mine from what I've actually measured this year, a year of search data and the 997 Paris SS27 looks I tagged by hand, to help you buy less and better.
 
 → Natural fibres first: searches for wool are up 100%, cotton 90% and cashmere 80% on last year
-→ Texture next: fur trim jackets +160%, fringe skirts +71%, paisley scarves +64%
+→ The pieces to invest in: midi skirts +250%, fur trim jackets +160%, paisley scarves +64%
 → If they like to be early: harness boots, +476% from a small base
 → The new neutrals: plum +60%, dark red and forest green +50%, cobalt blue +30%
 → And the one I'd give anyone: a scarf, on the runway at 3 in 4 Paris houses
