@@ -2,7 +2,7 @@
 
 Canva: https://www.canva.com/design/DAHb2O0qJVU/edit (design `DAHb2O0qJVU`, "DFB – Deinfluencing you with data")
 Built with `dfb-carousel` from `TEMPLATE – Trend story (Pink is back layout)`, image-led after Lyst's Gift Index 2026 carousel (structure only, no Lyst images, copy or data).
-Status: 6 slides built, every grey box waiting for Carmen's product images. Not yet moved to a family folder.
+Status: 7 slides built (accessories slide added 24 Nov, Carmen still deciding whether to keep it), every grey box waiting for Carmen's product images. Not yet moved to a family folder.
 
 ## Slides
 
@@ -12,8 +12,9 @@ Status: 6 slides built, every grey box waiting for Carmen's product images. Not 
 | 2 | The fabric | Buy the fabric, not the logo | Natural fibres are the safest thing you can give. | Cotton +90%, cashmere +80% (% change in searches, this year vs last) | 2 (the Uniqlo pieces) |
 | 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search. | Fringe skirt +71%, paisley scarf +64%, jacquard jacket +61% (% change in searches vs last year) | 3 |
 | 4 | The early bet | For whoever likes to be early | The biggest jump in my data this year, from a small base. | Harness boots +476% (% change in searches, this year vs last) | 1 |
-| 5 | The colour | And whatever it is, make it plum | The safest colour bet in my data right now. | Plum purple +60% (% change in searches, this year vs last), number set in plum #6B2D5C | 1 |
-| 6 | The accessory | The perfect gift: a silk scarf | One gift that works four ways, all year round. | 75% (% of Paris SS27 houses that showed a scarf at least once) | 4: at the neck, as a cummerbund, in the hair, on the bag |
+| 5 | The accessories | The small things doing the most | Accessories are moving faster than the clothes. | Celine round sunglasses +190%, chunky belt +93%, fur scarf +30% (% change in searches vs last year) | 3 |
+| 6 | The colour | And whatever it is, make it plum | The safest colour bet in my data right now. | Plum purple +60% (% change in searches, this year vs last), number set in plum #6B2D5C | 1 |
+| 7 | The accessory | The perfect gift: a silk scarf | One gift that works four ways, all year round. | 75% (% of Paris SS27 houses that showed a scarf at least once) | 4: at the neck, as a cummerbund, in the hair, on the bag |
 
 ## Numbers and bases
 
@@ -22,7 +23,8 @@ Status: 6 slides built, every grey box waiting for Carmen's product images. Not 
 - Scarf: tagged in 67 of 997 Paris SS27 looks (7%), at 12 of 16 houses (75%), Dior 24 of 63 looks. Cummerbund or sash: 24 looks at 6 houses, 11 at Valentino. Counted from `dfb-data/data/SS27/paris/*.json` on 24 Nov 2026.
 - The dataset tags "scarf", not the fibre, so it cannot say how many were silk. "Silk scarf" is Carmen's pick, not the runway count.
 - Plum purple +60%: Carmen's own search pull, body of `drafts/fw27-forecast-colour-draft.md`. The same draft's notes say +50% on Google and +154% on TikTok: to confirm before posting.
-- Left out to stay at 6 slides: fur scarf +30%, chunky belt +93%, Celine round sunglasses +190%, the "what I wouldn't gift" slide.
+- Accessories slide mixes two sources: Celine round sunglasses +190% and chunky belt +93% are DFB Google Trends, worldwide, 26 Oct 2025 to 25 Oct 2026 vs the year before (sunglasses export still "file to add"); fur scarf +30% is the FW27 forecast report as printed. There is no number for "oval glasses" (the search term is "celine round sunglasses") and the report says "fur scarves", not faux fur.
+- Left out: the "what I wouldn't gift" slide. Jacket numbers from the Asian-inspired jacket piece (fur trim jacket +160%, faux fur jacket +30%, mandarin +180%, opera +130%) are not on a slide yet.
 
 ## Caption
 
