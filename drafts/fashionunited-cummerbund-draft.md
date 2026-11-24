@@ -27,19 +27,23 @@ Credits: ©Launchmetrics/spotlight
 
 *Methodology: The Data Fashion Brief counts every look in a collection and tags it by garment type, fit, fabric, colour and styling detail, then reports each detail as a share of that house's own looks. The cummerbund figure covers Valentino's Spring/Summer 2027 ready to wear show, 80 looks in total, and counts both structured cummerbunds and wide fabric sashes worn at the waist. It is a single-house figure, not a season-wide one.*
 
-Valentino is not alone. The piece appeared on the Autumn/Winter 2026 runways of The Row and Celine, where it was shown in colour and with knitwear rather than with evening tailoring, and it returned for Spring/Summer 2027 in New York at Conner Ives, Kallmeyer, Heirlome and Polo Ralph Lauren. Press coverage of the New York shows described silk cummerbunds reworked as a waist-defining belt, including one worn at Conner Ives with a fish-print silk dress. Two consecutive seasons across Paris and New York is what separates the cummerbund from a one-show styling idea.
+Valentino is not alone. Celine's Spring/Summer 2027 menswear show put satin cummerbunds in fuchsia and sky blue over plain crew-neck knitwear and relaxed trousers, which took the piece out of evening tailoring altogether, and it appeared in New York the same season at Conner Ives, Kallmeyer, Heirlome and Polo Ralph Lauren, with Heirlome showing a white pleated version over a white shirt and dark trousers. Fendi's Autumn/Winter 2026 haute couture collection paired a black pleated cummerbund with an embroidered silk shirt, and the Spring/Summer 2026 collections of Stella Jean, Burç Akyol and Matières Fécales had already shown wide sashes at the waist a year earlier. Three seasons across Paris, Milan and New York is what separates the cummerbund from a one-show styling idea.
 
-[Image: Conner Ives SS27, silk cummerbund worn with the fish-print dress]
-Conner Ives SS27, Ready to Wear
+[Image: Celine SS27 menswear, fuchsia cummerbund over a camel knit (Celine m PO S27 070) and sky blue cummerbund over a black knit (Celine m PO S27 009)]
+Celine SS27, Menswear
 Credits: ©Launchmetrics/spotlight
 
-[Image: Celine AW26 menswear, coloured sash worn over knitwear]
-Celine AW26, Menswear
+[Image: Heirlome SS27, white pleated cummerbund over a white shirt, and Fendi FW26 haute couture, black cummerbund with a silk shirt (Fendi HC clp F26 073)]
+Heirlome SS27, Ready to Wear, and Fendi FW26, Haute Couture
 Credits: ©Launchmetrics/spotlight
 
 ## An update that does not need a new purchase
 
-The cummerbund follows directly from the silk scarf belt of 2025, when printed scarves were folded in half and wrapped around the waist over jeans, skirts and dresses, and the newer version keeps the same logic with a wider, more formal band. That lineage is the practical argument for the party season, because a folded silk scarf, a length of satin or a cummerbund from an existing formalwear set produces the same line at the waist as a new one, and street style during the Spring/Summer 2027 shows had it worn with a slouchy knit or with a crisp shirt and jeans rather than with eveningwear.
+The cummerbund follows directly from the silk scarf belt of 2025, when printed scarves were folded in half and wrapped around the waist over jeans, skirts and dresses, and the newer version keeps the same logic with a wider, more formal band. That lineage is the practical argument for the party season, because a folded silk scarf, a length of satin or a cummerbund from an existing formalwear set produces the same line at the waist as a new one. Marco Rambaldi made the point on the Spring/Summer 2027 runway, where printed fabric sashes were knotted at the waist over faded jeans and a metallic skirt, and street style during the same shows had the cummerbund worn with a slouchy knit or with a crisp shirt and jeans rather than with eveningwear.
+
+[Image: Marco Rambaldi SS27, printed sash tied over jeans (Marco Rambaldi clp S27 075)]
+Marco Rambaldi SS27, Ready to Wear
+Credits: ©Launchmetrics/spotlight
 
 The data has limits that are worth stating. The Lyst figure measures one month against the previous one, so it shows a sharp acceleration rather than a full year of sustained demand, and there is no resale or rental data yet that isolates the cummerbund, which means the claim that shoppers are reusing what they own rests on how the piece is constructed and styled rather than on a measured figure.
 
@@ -61,8 +65,9 @@ The first test is holiday trading over the coming weeks, which will show whether
 - Lyst, cummerbund demand up 65 percent from August to September 2026, linked to Dries Van Noten, Giorgio Armani and Valentino, as published in: [Who What Wear, The Street Style Report, 31 October 2026](https://www.whowhatwear.com/fashion/street-style/street-style-trends-fall-winter-2027)
 
 **Press (used for substance, not named in the body)**
-- The Row and Celine AW26, Kallmeyer and Polo Ralph Lauren SS27, street style worn with "a slouchy knit or a crisp shirt and jeans": [Who What Wear, 31 October 2026](https://www.whowhatwear.com/fashion/street-style/street-style-trends-fall-winter-2027)
-- Celine AW26 menswear as an early sighting, Conner Ives, Kallmeyer and Heirlome SS27 in New York: [Who What Wear, 8 October 2026](https://www.whowhatwear.com/fashion/outfit-ideas/how-to-style-cummerbunds)
+- Carmen's Launchmetrics Spotlight references (Celine SS27 menswear, Heirlome, Fendi FW26 haute couture, Marco Rambaldi SS27, Stella Jean, Burç Akyol and Matières Fécales SS26; also Di Petsa, Nafsika Skourti, Adriana Capasso, Moldovan Collective, Uma Wang and Elie Saab, not used in the text), no public link, subscription
+- Kallmeyer and Polo Ralph Lauren SS27, street style worn with "a slouchy knit or a crisp shirt and jeans": [Who What Wear, 31 October 2026](https://www.whowhatwear.com/fashion/street-style/street-style-trends-fall-winter-2027)
+- Conner Ives, Kallmeyer and Heirlome SS27 in New York: [Who What Wear, 8 October 2026](https://www.whowhatwear.com/fashion/outfit-ideas/how-to-style-cummerbunds)
 - The silk scarf belt of spring and summer 2025 as the forerunner: [Who What Wear, 10 December 2025](https://www.whowhatwear.com/fashion/trends/cummerbund-for-women-trend)
 - Conner Ives silk bands at the waist: [Coveteur, NYFW SS27 trends](https://coveteur.com/nyfw-trends-ss27) (seen in search results only, page not opened)
 
@@ -86,7 +91,7 @@ The first test is holiday trading over the coming weeks, which will show whether
 
 **Left out because the pages could not be opened from this session** (the sites are blocked here, so only search snippets were visible):
 - Dobell, the UK formalwear retailer, reporting cummerbund sales volumes up 122 percent and revenue up 70 percent between 1 September and 8 November against the same period last year. It would be the strongest commercial number in the piece and fits the party angle, so it is worth adding if you can open the release and confirm the figures. [One of the mirrors](https://neconnected.co.uk/the-cummerbund-is-coming-to-town-as-sales-surge-122-ahead-of-christmas/).
-- The Celine look described in the press as a plum and pink silk sash with balloon trousers. Sources disagree on whether that was AW26 or SS27 menswear, so the draft only uses AW26, which is the season confirmed on a page that was read.
+- The Row AW26, named in press alongside Celine AW26. Your Launchmetrics captions put the Celine cummerbunds in SS27 menswear, so the draft uses that and drops the AW26 claim for both houses.
 - Dries Van Noten brocade cummerbunds over black blazers, By Malene Birger and fringed versions in Copenhagen, Thom Browne cummerbund dresses, and a Zara sash belt reported as sold out in several colours (one editor's remark).
 
 ### The "you don't have to buy a new one" angle
@@ -100,8 +105,8 @@ There is no data that measures this. No resale, rental or search figure isolates
 
 ### Length and shape
 
-About 700 words in the body, against roughly 1,300 for the published denim piece, with the same order: news and angle in two opening paragraphs, the DFB runway finding with the methodology note, the wider analysis, and "What this means for brands and retailers" to close. One focus throughout, no first person, "percent" spelled out, no decimals, no publication names in the body (Lyst is named as the data source).
+About 800 words in the body, against roughly 1,300 for the published denim piece, with the same order: news and angle in two opening paragraphs, the DFB runway finding with the methodology note, the wider analysis, and "What this means for brands and retailers" to close. One focus throughout, no first person, "percent" spelled out, no decimals, no publication names in the body (Lyst is named as the data source).
 
 ### Image slots
 
-Three Launchmetrics runway images (Valentino SS27, Conner Ives SS27, Celine AW26 menswear). A brand-supplied product image of a cummerbund would also work as the closing image, requested from the press office with its own credit line.
+Four Launchmetrics slots built from your references (Valentino SS27, the two Celine SS27 menswear looks, Heirlome with Fendi couture, Marco Rambaldi). The bottom row of your second screenshot is cut off, so the seasons for Heirlome, Uma Wang and Elie Saab need confirming; Heirlome is written as SS27 because the press places it there. A brand-supplied product image of a cummerbund would also work as the closing image, requested from the press office with its own credit line.
