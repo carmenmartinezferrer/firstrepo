@@ -10,8 +10,8 @@ Status: 7 slides built (accessories slide added 24 Nov, Carmen still deciding wh
 |---|---|---|---|---|---|
 | 1 | | Deinfluencing you with data. The only things I'd buy this Black Friday | | | 6 template icons to swap for cut-outs of the picks |
 | 2 | The fabric | Buy the fabric, not the logo | Natural fibres are the safest thing you can give. | Cotton +90%, cashmere +80% (% change in searches, this year vs last) | 2 (the Uniqlo pieces) |
-| 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search. | Fringe skirt +71%, paisley scarf +64%, jacquard jacket +61% (% change in searches vs last year) | 3 |
-| 4 | The early bet | For whoever likes to be early | The biggest jump in my data this year, from a small base. | Harness boots +476% (% change in searches, this year vs last) | 1 |
+| 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search. | Fur trim jacket +160%, fringe skirt +71%, paisley scarf +64% (% change in searches vs last year) | 3 |
+| 4 | The early bets | For whoever likes to be early | Harness boots are the biggest jump in my data this year, and rain boots are the one to watch. | Harness boots +476% (% change in searches, this year vs last); rain boots +87% among key influencers | 2 |
 | 5 | The accessories | The small things doing the most | Accessories are moving faster than the clothes. | Celine round sunglasses +190%, chunky belt +93%, fur scarf +30% (% change in searches vs last year) | 3 |
 | 6 | The colour | And whatever it is, make it plum | The safest colour bet in my data right now. | Plum purple +60% (% change in searches, this year vs last), number set in plum #6B2D5C | 1 |
 | 7 | The accessory | The perfect gift: a silk scarf | One gift that works four ways, all year round. | 75% (% of Paris SS27 houses that showed a scarf at least once) | 4: at the neck, as a cummerbund, in the hair, on the bag |
@@ -26,6 +26,10 @@ Status: 7 slides built (accessories slide added 24 Nov, Carmen still deciding wh
 - Accessories slide mixes two sources: Celine round sunglasses +190% and chunky belt +93% are DFB Google Trends, worldwide, 26 Oct 2025 to 25 Oct 2026 vs the year before (sunglasses export still "file to add"); fur scarf +30% is the FW27 forecast report as printed. There is no number for "oval glasses" (the search term is "celine round sunglasses") and the report says "fur scarves", not faux fur.
 - Left out: the "what I wouldn't gift" slide. Jacket numbers from the Asian-inspired jacket piece (fur trim jacket +160%, faux fur jacket +30%, mandarin +180%, opera +130%) are not on a slide yet.
 
+- Fur trim jacket +160%: Carmen's own Google Trends reading from the Asian-inspired jacket piece; the saved exports cover only 12 months, so it cannot be reproduced from the files. It replaced jacquard jacket +61% on the texture slide.
+- Rain boots +87%: growth among key influencers, FW27 forecast report as printed, base and number of influencers not stated. A different measure from the harness boots search figure, labelled as such on the slide.
+- Carmen asked not to mention Mary Jane pumps anywhere (24 Nov).
+
 ## Caption
 
 ```
@@ -34,7 +38,7 @@ Deinfluencing you with data: the only things I'd buy this Black Friday.
 Every gift guide wants you to buy more, so I built mine from what I've actually measured this year, a year of search data and the 997 Paris SS27 looks I tagged by hand, to help you buy less and better.
 
 → Natural fibres first: searches for cotton are up 90% and cashmere 80% on last year
-→ Texture next: fringe skirts +71%, paisley scarves +64%, jacquard jackets +61%
+→ Texture next: fur trim jackets +160%, fringe skirts +71%, paisley scarves +64%
 → If they like to be early: harness boots, +476% from a small base
 → In doubt on colour: plum, searches up 60% on last year
 → And the one I'd give anyone: a scarf, on the runway at 3 in 4 Paris houses
