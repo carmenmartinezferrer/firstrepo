@@ -92,7 +92,8 @@ def line_chart(name, title, subtitle, series, note, source, ref=None, marks=()):
         prev = val[f'{int(dte[:4]) - (int(dte[:4]) - 2024)}{dte[4:]}']   # same month of 2024, the flat baseline year
         chg = half_up(100 * (val[dte] / prev - 1))
         p.append(f'<circle cx="{xp(i):.1f}" cy="{yp(val[dte]):.1f}" r="8" fill="{PINK}"/>')
-        p.append(f'<text x="{xp(i)+dx:.1f}" y="{yp(val[dte])+dy:.1f}" text-anchor="{anchor}" font-family="{SANS}" font-size="24" fill="{INK}">April {dte[:4]}: +{chg}% vs April 2024</text>')
+        for k, line in enumerate((f'April {dte[:4]}', f'+{chg}% vs April 2024')):
+            p.append(f'<text x="{xp(i)+dx:.1f}" y="{yp(val[dte])+dy+k*30:.1f}" text-anchor="{anchor}" font-family="{SANS}" font-size="24" fill="{INK}">{line}</text>')
     for i, (dte, _) in enumerate(series):
         if dte[5:7] == '01':
             p.append(f'<line x1="{xp(i):.1f}" y1="{y1}" x2="{xp(i):.1f}" y2="{y1+8}" stroke="#BDBDBD" stroke-width="1.5"/>')
@@ -122,7 +123,7 @@ charts.append(line_chart('02-cummerbund-search', 'Search interest has settled hi
     'monthly search interest in "cummerbund", Google Trends 0 to 100 scale',
     rows, f'Above its 2024 average in every one of the {len(since)} months since August 2025.', GT,
     ref=('2024 average', a2024),
-    marks=(('2025-04-01', 'end', -18, 8), ('2026-04-01', 'middle', 0, -22))))
+    marks=(('2025-04-01', 'end', -18, 4), ('2026-04-01', 'middle', 0, -50))))
 
 jan_nov = range(1, 12)
 years = [(str(y), avg(y, jan_nov)) for y in (2022, 2023, 2024, 2025, 2026)]
