@@ -51,6 +51,20 @@ What I don't think works is lowering the price of the ultra luxury pieces, becau
 
 Would you buy it at the new price? / Follow for more fashion insights
 
+## PROPOSED new slide, "The customers" (not built yet, goes between slide 3 and My take)
+
+Small label: **The customers**
+
+**Luxury lost 15 million customers in a year**  [NUMBER PENDING: Carmen to confirm in Bain's press release, see check 12]
+
+The shoppers who treated themselves to a luxury piece for roughly $2,000 to $3,000 a year are the ones Bain says luxury has been losing, and the latest Bain and Altagamma study counts about 315 million luxury customers, down from about 330 million a year earlier. Where they went isn't in the data, but one place to look is Coach, whose sales rose 16% in the quarter to September while Gucci's fell 6%.
+
+Illustration (two simple bar pairs on one slide, same style as the price slide):
+- Luxury customers, in millions: about 330 (2025) and about 315 (2026). Subtitle: "Personal luxury goods customers, millions".
+- Revenue growth in the quarter to September 2026: Coach +16%, Gucci -6%. Subtitle: "Coach reported revenue growth, Gucci comparable revenue growth, so not the same measure".
+
+"Where did they go?" stays a question on the slide, not a claim.
+
 ## Things to check before posting
 
 1. **Slide count.** With the cover there are five slides, one more than part 1. If you want exactly four, the easiest merge is slides 3 and 4, but slide 3 is already full.
@@ -65,6 +79,11 @@ Would you buy it at the new price? / Follow for more fashion insights
 10. **Slide 6 of diet_prada's carousel** wasn't in your screenshots. If it has anything you want in, send it.
 11. **Left out:** "13 consecutive quarters of underperforming sales" (part 1 charts seven quarters and I can't source thirteen), the Louis Vuitton "debating similar cuts" line (reported by diet_prada, contradicted by Forbes' headline that Louis Vuitton isn't following), a Chinese-language report of cuts of up to 40% in France, and diet_prada's closing opinion line about customers taking back "an ounce" of their power.
 
+12. **The luxury customer count (new slide).** The only source I found for 330 million to 315 million is a Luxury Tribune article on the Altagamma and Bain study presented on 18 November 2026 (https://www.luxurytribune.com/en/luxury-market-2026). I could not open it or Bain's own page from here, so it is unverified. The 2025 edition is also inconsistent about the 2025 base, with Bain's press release saying about 340 million and other coverage saying 330 million. Please check the 2026 figure in Bain's press release before it goes on a slide, and tell me the exact number and the year it compares against.
+13. **The period is not 2025 to 2026 in the older data.** The 2025 edition counted the fall from about 400 million customers in 2022 to about 340 million in 2025 (Bain and Altagamma, November 2025), which is a three-year loss and not one year. The one-year loss of 15 million is only in the unverified 2026 figure above.
+14. **Coach is a growth number, not proof of trading down.** Tapestry's quarter to 26 September 2026: Coach revenue +16% reported, Kate Spade -10%. Reuters links the growth to wealthier US shoppers and Gen Z, and I found no data showing that former Gucci customers moved to Coach. Coach's new-customer count also differs by source (about 2.1 million versus about 500,000), so I left it out. The Gucci figure is comparable growth (Kering) and Coach's is reported growth, so the slide says they are not the same measure.
+15. **DeMellier is left out.** I found no sourced evidence on its sales or on customers moving to it, only modelled revenue estimates, so it isn't on any slide. Same for the claim that either brand is "entry level", which I haven't verified.
+
 ## Sources
 
 - Kering quarterly releases, Gucci comparable revenue growth (Q1 2025 to Q3 2026, own stores -9%, 125 store closures), carried over from part 1: no link in the Canva notes, Carmen to add the Kering release URL
@@ -76,4 +95,7 @@ Would you buy it at the new price? / Follow for more fashion insights
 - TheIndustry.fashion, "Gucci reportedly cuts prices as turnaround pressure builds" (Padlock, Bernstein): https://www.theindustry.fashion/gucci-reportedly-cuts-prices-as-turnaround-pressure-builds/
 - Net-a-Porter US, Gucci Beatrix embellished leather tote, brown, $3,300 (corroborates the October 2025 price): https://www.net-a-porter.com/en-us/shop/product/gucci/bags/tote-bags/beautrix-maxi-horsebit-detailed-leather-trimmed-debossed-suede-tote/46376663162962094
 - Materials Evidence, "The Great Gucci Discount That Wasn't" (Beatrix large totes EUR 2,600 to EUR 1,820 and the caveat on how many bags were cut; found in search, page not opened): https://materialsevidence.substack.com/p/the-great-gucci-discount-that-wasnt
+- Bain and Altagamma, Luxury Goods Worldwide Market Study (November 2025: customers about 400 million in 2022 to about 340 million in 2025): https://www.bain.com/about/media-center/press-releases/20252/global-luxury-stays-resilient-despite-economic-headwinds-and-shifting-consumer-trends-that-reshape-marketbain--company-and-altagamma/
+- Luxury Tribune, on the Altagamma and Bain monitor presented 18 November 2026 (customers 330 million to 315 million, unverified, page not opened): https://www.luxurytribune.com/en/luxury-market-2026
+- Tapestry, Q1 fiscal 2027 results, quarter ended 26 September 2026 (Coach +16%, Kate Spade -10%), via FashionUnited: https://fashionunited.com/news/business/tapestry-raises-full-year-outlook-as-coach-sales-jump-16-percent/2026110575587
 - diet_prada, "How Much Is Gucci Worth?" Instagram carousel (the route to the Beatrix prices, the carryover claim and the WSJ quote): no public link in the screenshots, Carmen to add the post URL
