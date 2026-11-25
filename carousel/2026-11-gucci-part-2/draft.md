@@ -51,16 +51,16 @@ What I don't think works is lowering the price of the ultra luxury pieces, becau
 
 Would you buy it at the new price? / Follow for more fashion insights
 
-## PROPOSED new slide, "The customers" (not built yet, goes between slide 3 and My take)
+## Slide 4, "The customers" (new, built in Canva, goes between the public-notices slide and My take)
 
 Small label: **The customers**
 
-**Luxury lost 15 million customers in a year**  [NUMBER PENDING: Carmen to confirm in Bain's press release, see check 12]
+**Luxury lost 15 million customers**
 
-The shoppers who treated themselves to a luxury piece for roughly $2,000 to $3,000 a year are the ones Bain says luxury has been losing, and the latest Bain and Altagamma study counts about 315 million luxury customers, down from about 330 million a year earlier. Where they went isn't in the data, but one place to look is Coach, whose sales rose 16% in the quarter to September while Gucci's fell 6%.
+The latest Altagamma and Bain study counts about 315 million luxury customers, down from about 330 million a year earlier, which is 5% fewer. Gucci's answer was to cut some prices by 30%, but where those customers went isn't in the data.
 
 Illustration (two simple bar pairs on one slide, same style as the price slide):
-- Luxury customers, in millions: about 330 (2025) and about 315 (2026). Subtitle: "Personal luxury goods customers, millions".
+- Luxury customers, in millions: 330 million in 2025 and 315 million in 2026, labelled "5% fewer" (15 of 330 is 4.5%, shown as 5% under the whole-number rule). Carmen gave 330 and 15 million fewer; I read her "350" as 315.
 - Revenue growth in the quarter to September 2026: Coach +16%, Gucci -6%. Subtitle: "Coach reported revenue growth, Gucci comparable revenue growth, so not the same measure".
 
 "Where did they go?" stays a question on the slide, not a claim.
@@ -79,10 +79,10 @@ Illustration (two simple bar pairs on one slide, same style as the price slide):
 10. **Slide 6 of diet_prada's carousel** wasn't in your screenshots. If it has anything you want in, send it.
 11. **Left out:** "13 consecutive quarters of underperforming sales" (part 1 charts seven quarters and I can't source thirteen), the Louis Vuitton "debating similar cuts" line (reported by diet_prada, contradicted by Forbes' headline that Louis Vuitton isn't following), a Chinese-language report of cuts of up to 40% in France, and diet_prada's closing opinion line about customers taking back "an ounce" of their power.
 
-12. **The luxury customer count (new slide).** The only source I found for 330 million to 315 million is a Luxury Tribune article on the Altagamma and Bain study presented on 18 November 2026 (https://www.luxurytribune.com/en/luxury-market-2026). I could not open it or Bain's own page from here, so it is unverified. The 2025 edition is also inconsistent about the 2025 base, with Bain's press release saying about 340 million and other coverage saying 330 million. Please check the 2026 figure in Bain's press release before it goes on a slide, and tell me the exact number and the year it compares against.
+12. **The luxury customer count (new slide), Carmen to confirm.** Carmen supplied 330 million in 2025 and a loss of 15 million (she said "350" for 2026, read as 315). The only published source I found is The only source I found for 330 million to 315 million is a Luxury Tribune article on the Altagamma and Bain study presented on 18 November 2026 (https://www.luxurytribune.com/en/luxury-market-2026). I could not open it or Bain's own page from here, so it is unverified. The 2025 edition is also inconsistent about the 2025 base, with Bain's press release saying about 340 million and other coverage saying 330 million. Please check the 2026 figure in Bain's press release before it goes on a slide, and tell me the exact number and the year it compares against.
 13. **The period is not 2025 to 2026 in the older data.** The 2025 edition counted the fall from about 400 million customers in 2022 to about 340 million in 2025 (Bain and Altagamma, November 2025), which is a three-year loss and not one year. The one-year loss of 15 million is only in the unverified 2026 figure above.
 14. **Coach is a growth number, not proof of trading down.** Tapestry's quarter to 26 September 2026: Coach revenue +16% reported, Kate Spade -10%. Reuters links the growth to wealthier US shoppers and Gen Z, and I found no data showing that former Gucci customers moved to Coach. Coach's new-customer count also differs by source (about 2.1 million versus about 500,000), so I left it out. The Gucci figure is comparable growth (Kering) and Coach's is reported growth, so the slide says they are not the same measure.
-15. **DeMellier is left out.** I found no sourced evidence on its sales or on customers moving to it, only modelled revenue estimates, so it isn't on any slide. Same for the claim that either brand is "entry level", which I haven't verified.
+15. **DeMellier is left out** (Carmen asked for it not to be mentioned). I found no sourced evidence on its sales or on customers moving to it, only modelled revenue estimates, so it isn't on any slide. Same for the claim that either brand is "entry level", which I haven't verified.
 
 ## Sources
 
