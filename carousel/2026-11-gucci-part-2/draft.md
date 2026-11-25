@@ -1,7 +1,7 @@
-# Gucci part 2: the price cut (text draft, draft 3, no build yet)
+# Gucci part 2: the price cut (final text, built in Canva DAHb6ZgMrko)
 
 Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY, 4 slides, 1080 x 1350).
-Same four slides as part 1, same look. Slide 1 reuses part 1's sales-by-quarter slide (same photo, same bar chart) with the text updated. Text only, for Carmen to correct before anything goes into Canva.
+Same four slides as part 1, same look. Slide 1 reuses part 1's sales-by-quarter slide (same photo, same bar chart) with the text updated. Built in Canva as a copy of part 1 (original untouched): https://www.canva.com/d/ap11cvcz2QWFrjk
 
 Built from Carmen's brief and the diet_prada screenshots, with each claim traced to the source diet_prada cites. diet_prada is never named as a source on the slides.
 
@@ -27,7 +27,7 @@ Two price tags, each with its old and new price and the 30% marked:
 - **Padlock small bag, France:** EUR 3,500 to EUR 2,450
 - **Beatrix large tote, brown suede, US:** $3,300 (October 2025) to $2,310 (November 2026)
 
-Subtitle: "Gucci retail prices, before and after, 30% lower". Each tag says its own market and currency, so France is in euros and the US in dollars.
+Subtitle: "Gucci retail prices, before and after". Each tag says its own market and currency, so France is in euros and the US in dollars.
 
 ## Slide 3, The public notices (small label: "The problem")
 
@@ -37,13 +37,15 @@ Shoppers have started to see it, since the cuts were spotted on price listings a
 
 ## Slide 4, My take
 
-**Cutting the price of the most expensive pieces won't fix this**
+**Cutting the price of the most expensive pieces won't fix this.**
 
-The strategy isn't working because people have cut their spending for economic reasons, and the middle-market shopper who used to stretch to something super luxurious has gone down to mid-price instead. A luxury brand can go one of two ways, either it focuses on the super wealthy and makes them feel something, or it offers real mid-range entry-level prices, and [Carmen: Burberry or something like that, which product and price?] is the kind of example I mean. What I don't think works is lowering the price of the ultra luxury pieces, because the fix has to connect with the customer, and a discount on a $3,000 bag isn't a reason to love the brand again.
+The strategy isn't working because people have cut their spending for economic reasons, and the middle-market shopper who used to stretch to something super luxurious has gone down to mid-price instead. A luxury brand can go one of two ways, either it focuses on the super wealthy and makes them feel something, or it offers real mid-range entry-level prices.
+
+What I don't think works is lowering the price of the ultra luxury pieces, because the fix has to connect with the customer, and a discount on a bag isn't a reason to love the brand again.
 
 Would you buy it at the new price? / Follow for more fashion insights
 
-## Things to check or decide before this goes in Canva
+## Things to check before posting
 
 1. **Slide count and cover.** You said "we start with the sales quarter", so I made the sales slide slide 1 with the headline doing the cover's job, which keeps the four slides. If you want part 1's cover first, tell me which slide to merge or drop, since slide 3 is the fullest.
 2. **"The mail" in your message.** I couldn't tell what it meant. I assumed it was the de Meo quote, so it sits in slide 1's text. If it was something else, tell me.
@@ -53,7 +55,7 @@ Would you buy it at the new price? / Follow for more fashion insights
 6. **The de Meo admission.** I found his remark that price rises were pushed too far, but not a date or exact wording for the version in the diet_prada slide (which says August), so I left the month out. Please confirm the quote and date.
 7. **Carryover styles and "Europe, the US and China"** are removed, as you asked. Slide 3 now says the cuts were spotted on price listings and social media, which is how Forbes describes it.
 8. **The WSJ and Bernstein figures** (more than half of sales, $2,000 to $3,000 a year) come from the screenshot. I could not find the original WSJ article, only a Czech Forbes write-up citing it, so please check the wording against the original.
-9. **Burberry in the take.** I haven't verified any Burberry entry-level product or price. Either give me a product and where the price comes from, or I'd write the sentence without a named brand.
+9. **Burberry in the take** is left out, because I haven't verified any Burberry entry-level product or price. If you want it in, give me a product and a price source first.
 10. **Slide 6 of diet_prada's carousel** wasn't in your screenshots. If it has anything you want in, send it.
 11. **Left out:** "13 consecutive quarters of underperforming sales" (part 1 charts seven quarters and I can't source thirteen), the Louis Vuitton "debating similar cuts" line (reported by diet_prada, contradicted by Forbes' headline that Louis Vuitton isn't following), a Chinese-language report of cuts of up to 40% in France, and diet_prada's closing opinion line about customers taking back "an ounce" of their power.
 
