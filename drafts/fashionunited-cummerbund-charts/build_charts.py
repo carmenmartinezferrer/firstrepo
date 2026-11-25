@@ -67,7 +67,7 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}
     p.append('</svg>')
     return name, '\n'.join(p), h
 
-def line_chart(name, title, subtitle, series, note, source, ref=None):
+def line_chart(name, title, subtitle, series, note, source, ref=None, marks=()):
     """One monthly series on Google Trends' own 0 to 100 scale, pink line, dashed gridlines at
     0/50/100, a tick per year, optional dashed reference level, one-line chart note."""
     W, h = 1200, 740
@@ -86,9 +86,13 @@ def line_chart(name, title, subtitle, series, note, source, ref=None):
         p.append(f'<text x="{x0+10}" y="{yp(val)+30:.1f}" font-family="{SANS}" font-size="22" fill="{INK}">{html.escape(lab)}</text>')
     d = 'M' + ' L'.join(f'{xp(i):.1f},{yp(v):.1f}' for i, (_, v) in enumerate(series))
     p.append(f'<path d="{d}" fill="none" stroke="{PINK}" stroke-width="4.5" stroke-linejoin="round"/>')
-    pk = max(range(n), key=lambda i: series[i][1])
-    p.append(f'<circle cx="{xp(pk):.1f}" cy="{yp(series[pk][1]):.1f}" r="8" fill="{PINK}"/>')
-    p.append(f'<text x="{xp(pk)+18:.1f}" y="{yp(series[pk][1])+10:.1f}" font-family="{SANS}" font-size="26" fill="{INK}">April 2025</text>')
+    val = dict(series)
+    for dte, anchor, dx, dy in marks:
+        i = [d for d, _ in series].index(dte)
+        prev = val[f'{int(dte[:4]) - (int(dte[:4]) - 2024)}{dte[4:]}']   # same month of 2024, the flat baseline year
+        chg = half_up(100 * (val[dte] / prev - 1))
+        p.append(f'<circle cx="{xp(i):.1f}" cy="{yp(val[dte]):.1f}" r="8" fill="{PINK}"/>')
+        p.append(f'<text x="{xp(i)+dx:.1f}" y="{yp(val[dte])+dy:.1f}" text-anchor="{anchor}" font-family="{SANS}" font-size="24" fill="{INK}">April {dte[:4]}: +{chg}% vs April 2024</text>')
     for i, (dte, _) in enumerate(series):
         if dte[5:7] == '01':
             p.append(f'<line x1="{xp(i):.1f}" y1="{y1}" x2="{xp(i):.1f}" y2="{y1+8}" stroke="#BDBDBD" stroke-width="1.5"/>')
@@ -117,7 +121,8 @@ assert all(v > a2024 for _, v in since)
 charts.append(line_chart('02-cummerbund-search', 'Search interest has settled higher',
     'monthly search interest in "cummerbund", Google Trends 0 to 100 scale',
     rows, f'Above its 2024 average in every one of the {len(since)} months since August 2025.', GT,
-    ref=('2024 average', a2024)))
+    ref=('2024 average', a2024),
+    marks=(('2025-04-01', 'end', -18, 8), ('2026-04-01', 'middle', 0, -22))))
 
 jan_nov = range(1, 12)
 years = [(str(y), avg(y, jan_nov)) for y in (2022, 2023, 2024, 2025, 2026)]

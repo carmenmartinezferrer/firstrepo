@@ -12,7 +12,9 @@
 <text x="120" y="460.2" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">2024 average</text>
 <path d="M110.0,431.3 L127.3,434.6 L144.7,431.3 L162.0,428.0 L179.3,391.7 L196.7,398.3 L214.0,411.5 L231.3,431.3 L248.7,434.6 L266.0,447.8 L283.3,431.3 L300.7,404.9 L318.0,421.4 L335.3,401.6 L352.7,434.6 L370.0,444.5 L387.3,424.7 L404.7,431.3 L422.0,431.3 L439.3,441.2 L456.7,444.5 L474.0,447.8 L491.3,444.5 L508.7,428.0 L526.0,424.7 L543.3,424.7 L560.7,447.8 L578.0,434.6 L595.3,421.4 L612.7,424.7 L630.0,431.3 L647.3,434.6 L664.7,444.5 L682.0,434.6 L699.3,421.4 L716.7,424.7 L734.0,421.4 L751.3,421.4 L768.7,418.1 L786.0,424.7 L803.3,408.2 L820.7,230.0 L838.0,404.9 L855.3,424.7 L872.7,421.4 L890.0,391.7 L907.3,388.4 L924.7,378.5 L942.0,375.2 L959.3,385.1 L976.7,395.0 L994.0,355.4 L1011.3,371.9 L1028.7,319.1 L1046.0,342.2 L1063.3,375.2 L1080.7,411.5 L1098.0,401.6 L1115.3,358.7 L1132.7,375.2 L1150.0,365.3" fill="none" stroke="#D6447A" stroke-width="4.5" stroke-linejoin="round"/>
 <circle cx="820.7" cy="230.0" r="8" fill="#D6447A"/>
-<text x="838.7" y="240.0" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="26" fill="#222222">April 2025</text>
+<text x="802.7" y="238.0" text-anchor="end" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="24" fill="#222222">April 2025: +144% vs April 2024</text>
+<circle cx="1028.7" cy="319.1" r="8" fill="#D6447A"/>
+<text x="1028.7" y="297.1" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="24" fill="#222222">April 2026: +78% vs April 2024</text>
 <line x1="144.7" y1="560" x2="144.7" y2="568" stroke="#BDBDBD" stroke-width="1.5"/>
 <text x="144.7" y="600" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="22" fill="#222222">2022</text>
 <line x1="352.7" y1="560" x2="352.7" y2="568" stroke="#BDBDBD" stroke-width="1.5"/>
