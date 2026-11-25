@@ -12,7 +12,7 @@ What's going on with Gucci?? *It cut some prices by 30%, but the problem goes be
 
 **Gucci now admits the prices went too far**
 
-Demna arrived in July 2025 and the decline narrowed every quarter. But in Q3: -6%, as the newness wore off. **Sales in Gucci's own stores fell 9%.** Now even Kering's CEO admits that price rises went too far. So what did Gucci do?
+Demna arrived in July 2025, and the decline narrowed every quarter. **But in Q3, sales fell 6% again,** as the newness wore off. Now even Kering's CEO admits that price rises went too far. So what did Gucci do?
 
 Chart as part 1. Source: Kering quarterly releases, Gucci comparable revenue growth.
 
@@ -20,16 +20,16 @@ Chart as part 1. Source: Kering quarterly releases, Gucci comparable revenue gro
 
 **So Gucci cut some prices by 30%**
 
-No announcement, shoppers just noticed. But the fix isn't only about price.
+There was no announcement, but shoppers noticed. And the fix isn't only about price.
 
 - Padlock small bag, France: EUR 3,500 in July, EUR 2,450 now, 30% less
 - Beatrix large tote, brown suede, US: $3,300 in October 2025, $2,310 in November 2026, 30% less
 
 ## 4. The customers
 
-**Luxury lost 15 million customers**
+**The luxury market lost 15 million customers**
 
-The shoppers who spend roughly $2,000 to $3,000 a year on occasional treats make up more than half of sales at Gucci and Louis Vuitton. So where did they go?
+The shoppers who spend roughly $2,000 to $3,000 a year on occasional treats make up more than half of sales at Gucci. So where did they go?
 
 Luxury customers, millions: 330 million in 2025, 315 million in 2026, 5% fewer (15 of 330 rounds to 5%).
 
@@ -52,11 +52,15 @@ Source line: Tapestry (Coach, reported revenue growth), Burberry (comparable ret
 
 The fix for Gucci is much more than cutting prices.
 
-It's about rethinking the whole strategy: who Gucci is for, and what makes the shopper who spends $2,000 to $3,000 a year choose it again. Burberry is betting on entry-level scarves, and Coach is growing.
+It's about rethinking the whole strategy: who Gucci is for, what makes the shopper who spends $2,000 to $3,000 a year choose it again, and how to connect with the buyer. That takes strategic thinking, not a 30% price cut.
+
+Burberry is betting on entry-level scarves, and Coach is growing.
 
 Would you buy it at the new price?
 
 ## Things to check before posting
+
+00. **Prices on the websites (slide 3).** I cannot open gucci.com or the Wayback Machine from here, so neither price is confirmed against the website. Search results conflict: some sources give the Padlock at EUR 2,450 as the medium size (small was about EUR 2,100 new), while Forbes and Bernstein say small. Net-a-Porter US lists a brown suede "maxi" Beatrix at $3,300, not a "large". Carmen to screenshot gucci.com (France for the Padlock, US for the Beatrix) and confirm product name, size, colour and price, then I update the slide to match exactly.
 
 0. **The chart (slide 5).** Burberry +4% is comparable retail sales for its Q2 FY27 (26 weeks to 26 September 2026, interim results of 12 November 2026; Q1 was +5%), taken from search coverage (Qz, FashionNetwork, Investing.com). Check it against Burberry's interim results announcement. The three numbers are not the same measure: Coach is reported revenue growth, Burberry and Gucci are comparable growth, so the source line says so. The chart shows who is growing, not that Gucci's lost customers moved there.
 
