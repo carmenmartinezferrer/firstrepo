@@ -1,6 +1,6 @@
 # Gucci part 2 (final text, built in Canva DAHb6ZgMrko)
 
-Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY). Six slides, one idea each, every slide ending on a question or a hook that leads into the next, so people keep swiping. Canva: https://www.canva.com/d/p4JuIw-Bg2wcIIg
+Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY). Seven slides, one idea each, every slide ending on a question or a hook that leads into the next, so people keep swiping. Canva: https://www.canva.com/d/p4JuIw-Bg2wcIIg
 
 ## 1. Cover
 
@@ -43,7 +43,19 @@ Luxury customers, millions: 330 million in 2025, 315 million in 2026, 5% fewer (
 
 We can't prove these are the same shoppers, but the market suggests mid-range brands are taking a bigger slice of the pie.
 
-## 6. My take
+## 6. The numbers (white chart)
+
+**Who's growing, and who isn't**
+
+Sales growth in the quarter to September 2026. So is cutting prices really the fix?
+
+- Coach: +16%
+- Burberry: +4%
+- Gucci: -6%
+
+All three on one scale with a zero line. Source line: Tapestry (Coach, reported revenue growth), Burberry (comparable retail sales), Kering (Gucci, comparable revenue growth).
+
+## 7. My take
 
 The fix for Gucci is much more than cutting prices.
 
@@ -52,6 +64,8 @@ It's about rethinking the whole strategy: who Gucci is for, and what makes the s
 Would you buy it at the new price?
 
 ## Things to check before posting
+
+0. **The chart (slide 6).** Burberry +4% is comparable retail sales for its Q2 FY27 (26 weeks to 26 September 2026, interim results of 12 November 2026; Q1 was +5%), taken from search coverage (Qz, FashionNetwork, Investing.com). Check it against Burberry's interim results announcement. The three numbers are not the same measure: Coach is reported revenue growth, Burberry and Gucci are comparable growth, so the source line says so. The chart shows who is growing, not that Gucci's lost customers moved there.
 
 1. **Luxury customer numbers (slide 4).** 330 million and 315 million came from Carmen (she said "350" for 2026, read as 315, since she said 15 million fewer). The only published source I found is a Luxury Tribune article on the Altagamma and Bain monitor presented on 18 November 2026, which I could not open. Bain's 2025 press release said about 340 million for 2025 and other coverage says 330 million. Confirm both figures in Bain's own press release.
 2. **"Shoppers spending $2,000 to $3,000 a year make up more than half of sales at Gucci and Louis Vuitton" (slide 4).** Bernstein as reported by the Wall Street Journal. This is the mid-price luxury buyer, not the ultra rich, so the slides never say "ultra luxury". Only one year of customer loss is sourced, so it says "lost 15 million", never "each year". The wording comes from diet_prada's screenshot and I could not find the original article. Check it.
@@ -77,6 +91,7 @@ Would you buy it at the new price?
 - Luxury Tribune, on the Altagamma and Bain monitor presented 18 November 2026 (330 million to 315 million, page not opened): https://www.luxurytribune.com/en/luxury-market-2026
 - Bain and Altagamma press release, November 2025: https://www.bain.com/about/media-center/press-releases/20252/global-luxury-stays-resilient-despite-economic-headwinds-and-shifting-consumer-trends-that-reshape-marketbain--company-and-altagamma/
 - Wall Street Journal, on middle-class shoppers at Gucci and Louis Vuitton, citing Bernstein: original not found, Carmen to add. A Czech Forbes write-up citing it: https://forbes.cz/neslychane-gucci-zlevnuje-kabelky-louis-vuitton-se-luxusnimu-tabu-brani/
+- Burberry interim results for the 26 weeks to 26 September 2026, 12 November 2026 (Q2 comparable retail sales +4%), via FashionNetwork: https://us.fashionnetwork.com/news/Burberry-recovery-continues-defies-tough-market-despite-emeia-weakness,1884304.html
 - Tapestry, Q1 fiscal 2027 results (Coach +16%), via FashionUnited: https://fashionunited.com/news/business/tapestry-raises-full-year-outlook-as-coach-sales-jump-16-percent/2026110575587
 - Burberry FY26 preliminary results transcript, 14 May 2026 (scarves from GBP 195): https://www.marketscreener.com/news/burberry-preliminary-results-2025-2026-transcript-ce7f5bddd18ef22d
 - diet_prada, "How Much Is Gucci Worth?" Instagram carousel (route to the Beatrix prices and the WSJ quote): no public link in the screenshots, Carmen to add the post URL
