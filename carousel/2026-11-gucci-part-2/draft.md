@@ -1,101 +1,82 @@
-# Gucci part 2: the price cut (final text, built in Canva DAHb6ZgMrko)
+# Gucci part 2 (final text, built in Canva DAHb6ZgMrko)
 
-Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY, 4 slides, 1080 x 1350).
-Five slides: part 1's cover plus the four content slides below, same look as part 1. Slide 1 reuses part 1's sales-by-quarter slide (same photo, same bar chart) with the text updated. Built in Canva as a copy of part 1 (original untouched): https://www.canva.com/d/ap11cvcz2QWFrjk
+Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY). Six slides, one idea each, every slide ending on a question or a hook that leads into the next, so people keep swiping. Canva: https://www.canva.com/d/p4JuIw-Bg2wcIIg
 
-Built from Carmen's brief and the diet_prada screenshots, with each claim traced to the source diet_prada cites. diet_prada is never named as a source on the slides.
+## 1. Cover
 
-## Cover (reuse part 1's cover)
+What's going on with Gucci?? *It cut some prices by 30%, but the problem goes beyond that...*
 
-**What's going on with Gucci??** *Part 2: it cut some prices by 30%*
+(The four cut-outs are still Saint Laurent placeholders from part 1, to be swapped for Demna Gucci looks.)
 
-The four cut-outs are still Saint Laurent placeholders from part 1, to be swapped for Demna Gucci looks.
+## 2. The sales
 
-## Slide 1, The sales (reuse part 1's slide 2, change the text)
+**Gucci now admits the prices went too far**
 
-Small label: **The sales**
+Demna arrived in July 2025 and the decline narrowed every quarter. But in Q3: -6%, as the newness wore off. **Sales in Gucci's own stores fell 9%.** Now even Kering's CEO admits that price rises went too far. So what did Gucci do?
 
-**Gucci got Demna, and now it admits the prices went too far**
+Chart as part 1. Source: Kering quarterly releases, Gucci comparable revenue growth.
 
-Demna arrived in July 2025 and the decline narrowed every quarter, but in Q3 2026 sales fell 6% again as the newness wore off, and sales in Gucci's own stores fell 9%. Kering's first answer was to close 125 stores, and now its CEO Luca de Meo has admitted that price rises may have gone further than they needed to.
+## 3. The price
 
-Chart: exactly as part 1 (Q1 25 -25%, Q2 25 -25%, Q3 25 -14%, Q4 25 -10%, Q1 26 -8%, Q2 26 -2%, Q3 26 -6%, with "first collection in stores" and "the newness wore off" labels). Source line as part 1: "Kering quarterly releases, Gucci comparable revenue growth".
+**So Gucci cut some prices by 30%**
 
-## Slide 2, The price (reuse part 1's slide 3 layout, two bags instead of four)
+No announcement, shoppers just noticed. But did it bring the customers back?
 
-Small label: **The price**
+- Padlock small bag, France: EUR 3,500 in July, EUR 2,450 now, 30% less
+- Beatrix large tote, brown suede, US: $3,300 in October 2025, $2,310 in November 2026, 30% less
 
-**So Gucci cut some of them, by 30%**
-
-Gucci has quietly started lowering prices on select handbags, and the exact numbers show how far it went. Gucci hasn't announced any of it.
-
-Two price tags, each with its old and new price and the 30% marked:
-- **Padlock small bag, France:** EUR 3,500 to EUR 2,450
-- **Beatrix large tote, brown suede, US:** $3,300 (October 2025) to $2,310 (November 2026)
-
-Subtitle: "Gucci retail prices, before and after". Each tag says its own market and currency, so France is in euros and the US in dollars.
-
-## Slide 3, The public notices (small label: "The problem")
-
-**The public is starting to notice, and the problem is bigger than Gucci**
-
-Shoppers have started to see it, since the cuts were spotted on price listings and social media and not through any announcement from Gucci. The problem for Louis Vuitton and Gucci is that growth in the mid-price part of the luxury market has evaporated, and both brands make more than half of their sales from middle-class shoppers who spend roughly $2,000 to $3,000 a year on occasional treats like a handbag or a piece of jewellery, according to Bernstein as reported by the Wall Street Journal.
-
-## Slide 4, My take
-
-**Cutting the price of the most expensive pieces won't fix this.**
-
-The strategy isn't working because people have cut their spending for economic reasons, and the middle-market shopper who used to stretch to something super luxurious has gone down to mid-price instead. A luxury brand can go one of two ways, either it focuses on the super wealthy and makes them feel something, or it offers real mid-range entry-level prices.
-
-What I don't think works is lowering the price of the ultra luxury pieces, because the fix has to connect with the customer, and a discount on a bag isn't a reason to love the brand again.
-
-Would you buy it at the new price? / Follow for more fashion insights
-
-## Slide 4, "The customers" (new, built in Canva, goes between the public-notices slide and My take)
-
-Small label: **The customers**
+## 4. The customers
 
 **Luxury lost 15 million customers**
 
-The latest Altagamma and Bain study counts about 315 million luxury customers, down from about 330 million a year earlier, which is 5% fewer. Gucci's answer was to cut some prices by 30%, but where those customers went isn't in the data.
+Gucci makes more than half of its sales from shoppers who spend roughly $2,000 to $3,000 a year on luxury. So where did they go?
 
-Illustration (two simple bar pairs on one slide, same style as the price slide):
-- Luxury customers, in millions: 330 million in 2025 and 315 million in 2026, labelled "5% fewer" (15 of 330 rounds to 5% under the whole-number rule). Carmen gave 330 and 15 million fewer; I read her "350" as 315.
-- Revenue growth in the quarter to September 2026: Coach +16%, Gucci -6%. Subtitle: "Coach reported revenue growth, Gucci comparable revenue growth, so not the same measure".
+Luxury customers, millions: 330 million in 2025, 315 million in 2026, 5% fewer (15 of 330 rounds to 5%).
 
-"Where did they go?" stays a question on the slide, not a claim.
+## 5. Where did they go?
+
+**Where did they go? We don't know, but look at who's growing**
+
+- Coach: sales up 16% in the quarter to September
+- Gucci: sales down 6% in the same quarter
+- Burberry: scarves from GBP 195, an entry point for new shoppers
+
+The market suggests that brands with lower entry prices are taking a bigger slice of the pie.
+
+## 6. My take
+
+Cutting the price of the most expensive pieces won't fix this.
+
+Luxury can focus on the super wealthy and make them feel something, or offer real entry-level prices, the way Burberry's scarves do. Either way, it has to connect with the customer.
+
+Would you buy it at the new price?
 
 ## Things to check before posting
 
-1. **Slide count.** With the cover there are five slides, one more than part 1. If you want exactly four, the easiest merge is slides 3 and 4, but slide 3 is already full.
-2. **"The mail" in your message.** I couldn't tell what it meant. I assumed it was the de Meo quote, so it sits in slide 1's text. If it was something else, tell me.
-3. **The Beatrix prices ($3,300 and $2,310) rest on your source.** They come from the Wayback Machine capture (October 2025) and gucci.com (November 2026) shown in the diet_prada slide, and I could not open either page from here, so I have no second source for the exact $2,310. What I did find fits them: the brown suede Beatrix is listed at $3,300 on Net-a-Porter's US site, $3,300 less 30% is exactly $2,310, and a Substack audit (snippet only, I couldn't open the page) reports two Beatrix large totes cut from EUR 2,600 to EUR 1,820 in Europe, which is also 30%. Please screenshot the Wayback capture and the gucci.com page yourself, so the slide can carry your own screenshots as the source, and confirm product name, colour and both prices.
-4. **The Padlock price (EUR 3,500 in July to EUR 2,450, France)** is well sourced: Bernstein's Luca Solca flagged it, and Forbes, Inc, the WSJ and TheIndustry.fashion all report it. It is a France price, so the slide labels it as that. One report says the new price is the regular selling price and not an end-of-season markdown.
-5. **A caveat to keep in mind.** The same Substack audit argues the "30% price cuts" headlines overstate things, because Gucci has cut only a small share of its bags. That is why the slide says "some" and "select handbags" and never "Gucci cut its prices by 30%".
-6. **The de Meo admission.** I found his remark that price rises were pushed too far, but not a date or exact wording for the version in the diet_prada slide (which says August), so I left the month out. Please confirm the quote and date.
-7. **Carryover styles and "Europe, the US and China"** are removed, as you asked. Slide 3 now says the cuts were spotted on price listings and social media, which is how Forbes describes it.
-8. **The WSJ and Bernstein figures** (more than half of sales, $2,000 to $3,000 a year) come from the screenshot. I could not find the original WSJ article, only a Czech Forbes write-up citing it, so please check the wording against the original.
-9. **Burberry in the take** is left out, because I haven't verified any Burberry entry-level product or price. If you want it in, give me a product and a price source first.
-10. **Slide 6 of diet_prada's carousel** wasn't in your screenshots. If it has anything you want in, send it.
-11. **Left out:** "13 consecutive quarters of underperforming sales" (part 1 charts seven quarters and I can't source thirteen), the Louis Vuitton "debating similar cuts" line (reported by diet_prada, contradicted by Forbes' headline that Louis Vuitton isn't following), a Chinese-language report of cuts of up to 40% in France, and diet_prada's closing opinion line about customers taking back "an ounce" of their power.
-
-12. **The luxury customer count (new slide), Carmen to confirm.** Carmen supplied 330 million in 2025 and a loss of 15 million (she said "350" for 2026, read as 315). The only published source I found is The only source I found for 330 million to 315 million is a Luxury Tribune article on the Altagamma and Bain study presented on 18 November 2026 (https://www.luxurytribune.com/en/luxury-market-2026). I could not open it or Bain's own page from here, so it is unverified. The 2025 edition is also inconsistent about the 2025 base, with Bain's press release saying about 340 million and other coverage saying 330 million. Please check the 2026 figure in Bain's press release before it goes on a slide, and tell me the exact number and the year it compares against.
-13. **The period is not 2025 to 2026 in the older data.** The 2025 edition counted the fall from about 400 million customers in 2022 to about 340 million in 2025 (Bain and Altagamma, November 2025), which is a three-year loss and not one year. The one-year loss of 15 million is only in the unverified 2026 figure above.
-14. **Coach is a growth number, not proof of trading down.** Tapestry's quarter to 26 September 2026: Coach revenue +16% reported, Kate Spade -10%. Reuters links the growth to wealthier US shoppers and Gen Z, and I found no data showing that former Gucci customers moved to Coach. Coach's new-customer count also differs by source (about 2.1 million versus about 500,000), so I left it out. The Gucci figure is comparable growth (Kering) and Coach's is reported growth, so the slide says they are not the same measure.
-15. **DeMellier is left out** (Carmen asked for it not to be mentioned). I found no sourced evidence on its sales or on customers moving to it, only modelled revenue estimates, so it isn't on any slide. Same for the claim that either brand is "entry level", which I haven't verified.
+1. **Luxury customer numbers (slide 4).** 330 million and 315 million came from Carmen (she said "350" for 2026, read as 315, since she said 15 million fewer). The only published source I found is a Luxury Tribune article on the Altagamma and Bain monitor presented on 18 November 2026, which I could not open. Bain's 2025 press release said about 340 million for 2025 and other coverage says 330 million. Confirm both figures in Bain's own press release.
+2. **"More than half of Gucci's sales from shoppers spending $2,000 to $3,000 a year" (slide 4).** Bernstein as reported by the Wall Street Journal, which says this of both Gucci and Louis Vuitton. The wording comes from diet_prada's screenshot and I could not find the original article. Check it.
+3. **Beatrix prices (slide 3).** $3,300 and $2,310 come from diet_prada's screenshots of the Wayback Machine (October 2025) and gucci.com (November 2026). I found no independent source for $2,310. The brown suede Beatrix is listed at $3,300 on Net-a-Porter's US site, and $3,300 less 30% is exactly $2,310. Screenshot both pages yourself and confirm product, colour and prices.
+4. **Padlock (slide 3)** is well sourced: Bernstein's Luca Solca flagged it, and Forbes, Inc, the WSJ and TheIndustry.fashion report it. Only some bags were cut, hence "some prices", never "Gucci cut its prices by 30%".
+5. **de Meo (slide 2).** I found his remark that price rises were pushed too far, but not the date or exact wording, so no month is on the slide. Confirm the quote and date.
+6. **Coach and Gucci (slide 5).** Coach +16% is Tapestry's reported revenue growth for the quarter ended 26 September 2026. Gucci -6% is Kering's comparable growth for Q3 2026. They are not the same measure. Reuters ties Coach's growth to wealthier US shoppers and Gen Z, and no data shows former Gucci customers moved to Coach, so the slide says "we don't know".
+7. **Burberry (slides 5 and 6).** At its FY26 results on 14 May 2026, Burberry's CEO Joshua Schulman said scarves start with a skinny silk scarf at GBP 195, and Burberry has described scarves as an accessible entry point that brings Gen Z into the brand. US coverage quotes different prices, so check the price on Burberry.com before posting.
+8. **"Lower entry prices are taking a bigger slice of the pie" (slide 5)** is a hypothesis, not a market share figure. It rests on analyst commentary (Morgan Stanley said luxury has given oxygen to more accessible brands such as Coach, Toteme and Polene) and on Coach's growth. The slide says "the market suggests".
+9. **DeMellier is left out** (Carmen asked, and there is no sourced evidence).
+10. **Left out as unverified or unsourced:** "13 consecutive quarters of underperforming sales", "carryover styles down 30% in Europe, the US and China", "LVMH debating similar cuts at Louis Vuitton" (Forbes says Louis Vuitton isn't following), and a Chinese-language report of cuts up to 40% in France.
+11. **Visuals.** Slides 5 and 6 still use the template's Tokyo street video, to be swapped for a dark Gucci image. The small labels and source lines on slides 3 and 4 use Canva's default font, since the tool could not set Century Gothic.
 
 ## Sources
 
-- Kering quarterly releases, Gucci comparable revenue growth (Q1 2025 to Q3 2026, own stores -9%, 125 store closures), carried over from part 1: no link in the Canva notes, Carmen to add the Kering release URL
-- Reuters Breakingviews, "Kering's pricing mea culpa tests luxury's playbook" (Luca de Meo on pricing), via a syndication page: https://www.itiger.com/news/2610492196
-- Forbes, "Gucci Price Cuts Break Luxury's Biggest Taboo. Louis Vuitton Isn't Following" (17 November 2026, Padlock bag): https://www.forbes.com/sites/gabrielalinzainescu/2026/11/17/gucci-price-cuts-break-luxurys-biggest-taboo-louis-vuitton-isnt-following/
-- Inc, "Gucci Cut Bag Prices By 30%. The Future of Luxury May Not Be About Cost at All" (Padlock bag, EUR 2,450): https://www.inc.com/kamya-marwah/gucci-price-cuts-luxury-market-shift/91438141
-- Gucci Beatrix large tote, brown suede, price in October 2025 via the Internet Archive Wayback Machine and in November 2026 via gucci.com: Carmen to add the capture link and the gucci.com product link
-- Wall Street Journal, on middle-class shoppers and mid-price growth at Gucci and Louis Vuitton, citing Bernstein: no public link found, Carmen to add. A Czech Forbes write-up that cites it: https://forbes.cz/neslychane-gucci-zlevnuje-kabelky-louis-vuitton-se-luxusnimu-tabu-brani/
-- TheIndustry.fashion, "Gucci reportedly cuts prices as turnaround pressure builds" (Padlock, Bernstein): https://www.theindustry.fashion/gucci-reportedly-cuts-prices-as-turnaround-pressure-builds/
-- Net-a-Porter US, Gucci Beatrix embellished leather tote, brown, $3,300 (corroborates the October 2025 price): https://www.net-a-porter.com/en-us/shop/product/gucci/bags/tote-bags/beautrix-maxi-horsebit-detailed-leather-trimmed-debossed-suede-tote/46376663162962094
-- Materials Evidence, "The Great Gucci Discount That Wasn't" (Beatrix large totes EUR 2,600 to EUR 1,820 and the caveat on how many bags were cut; found in search, page not opened): https://materialsevidence.substack.com/p/the-great-gucci-discount-that-wasnt
-- Bain and Altagamma, Luxury Goods Worldwide Market Study (November 2025: customers about 400 million in 2022 to about 340 million in 2025): https://www.bain.com/about/media-center/press-releases/20252/global-luxury-stays-resilient-despite-economic-headwinds-and-shifting-consumer-trends-that-reshape-marketbain--company-and-altagamma/
-- Luxury Tribune, on the Altagamma and Bain monitor presented 18 November 2026 (customers 330 million to 315 million, unverified, page not opened): https://www.luxurytribune.com/en/luxury-market-2026
-- Tapestry, Q1 fiscal 2027 results, quarter ended 26 September 2026 (Coach +16%, Kate Spade -10%), via FashionUnited: https://fashionunited.com/news/business/tapestry-raises-full-year-outlook-as-coach-sales-jump-16-percent/2026110575587
-- diet_prada, "How Much Is Gucci Worth?" Instagram carousel (the route to the Beatrix prices, the carryover claim and the WSJ quote): no public link in the screenshots, Carmen to add the post URL
+- Kering quarterly releases, Gucci comparable revenue growth (Q1 2025 to Q3 2026, own stores -9%), from part 1: no link in the Canva notes, Carmen to add the Kering release URL
+- Reuters Breakingviews, "Kering's pricing mea culpa tests luxury's playbook" (de Meo on pricing), via a syndication page: https://www.itiger.com/news/2610492196
+- Forbes, "Gucci Price Cuts Break Luxury's Biggest Taboo. Louis Vuitton Isn't Following" (17 November 2026): https://www.forbes.com/sites/gabrielalinzainescu/2026/11/17/gucci-price-cuts-break-luxurys-biggest-taboo-louis-vuitton-isnt-following/
+- Inc, "Gucci Cut Bag Prices By 30%" (Padlock bag): https://www.inc.com/kamya-marwah/gucci-price-cuts-luxury-market-shift/91438141
+- TheIndustry.fashion, "Gucci reportedly cuts prices as turnaround pressure builds": https://www.theindustry.fashion/gucci-reportedly-cuts-prices-as-turnaround-pressure-builds/
+- Net-a-Porter US, Gucci Beatrix brown suede tote, $3,300: https://www.net-a-porter.com/en-us/shop/product/gucci/bags/tote-bags/beautrix-maxi-horsebit-detailed-leather-trimmed-debossed-suede-tote/46376663162962094
+- Gucci Beatrix large tote price, October 2025 (Internet Archive Wayback Machine) and November 2026 (gucci.com): Carmen to add the capture and product links
+- Luxury Tribune, on the Altagamma and Bain monitor presented 18 November 2026 (330 million to 315 million, page not opened): https://www.luxurytribune.com/en/luxury-market-2026
+- Bain and Altagamma press release, November 2025: https://www.bain.com/about/media-center/press-releases/20252/global-luxury-stays-resilient-despite-economic-headwinds-and-shifting-consumer-trends-that-reshape-marketbain--company-and-altagamma/
+- Wall Street Journal, on middle-class shoppers at Gucci and Louis Vuitton, citing Bernstein: original not found, Carmen to add. A Czech Forbes write-up citing it: https://forbes.cz/neslychane-gucci-zlevnuje-kabelky-louis-vuitton-se-luxusnimu-tabu-brani/
+- Tapestry, Q1 fiscal 2027 results (Coach +16%), via FashionUnited: https://fashionunited.com/news/business/tapestry-raises-full-year-outlook-as-coach-sales-jump-16-percent/2026110575587
+- Burberry FY26 preliminary results transcript, 14 May 2026 (scarves from GBP 195): https://www.marketscreener.com/news/burberry-preliminary-results-2025-2026-transcript-ce7f5bddd18ef22d
+- diet_prada, "How Much Is Gucci Worth?" Instagram carousel (route to the Beatrix prices and the WSJ quote): no public link in the screenshots, Carmen to add the post URL
