@@ -1,6 +1,6 @@
 # Gucci part 2 (final text, built in Canva DAHb6ZgMrko)
 
-Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY). Seven slides, one idea each, every slide ending on a question or a hook that leads into the next, so people keep swiping. Canva: https://www.canva.com/d/p4JuIw-Bg2wcIIg
+Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY). Six slides, one idea each, every slide ending on a question or a hook that leads into the next, so people keep swiping. Canva: https://www.canva.com/d/p4JuIw-Bg2wcIIg
 
 ## 1. Cover
 
@@ -33,29 +33,22 @@ The shoppers who spend roughly $2,000 to $3,000 a year on occasional treats make
 
 Luxury customers, millions: 330 million in 2025, 315 million in 2026, 5% fewer (15 of 330 rounds to 5%).
 
-## 5. Where did they go?
+## 5. Where did they go? (dark slide with the chart in white)
 
 **Where did they go? The market points to lower entry prices**
 
-- Coach: sales up 16% in the quarter to September
-- Burberry: scarves from GBP 195, an entry point for new shoppers
-- Gucci: sales down 6% in the same quarter
+Burberry: scarves from GBP 195, an entry point for new shoppers
 
 We can't prove these are the same shoppers, but the market suggests mid-range brands are taking a bigger slice of the pie.
 
-## 6. The numbers (white chart)
-
-**Who's growing, and who isn't**
-
-Sales growth in the quarter to September 2026. So is cutting prices really the fix?
-
+Chart on the same slide, white bars on a dark panel, "Sales growth, quarter to September 2026", one scale and a zero line:
 - Coach: +16%
 - Burberry: +4%
-- Gucci: -6%
+- Gucci: -6% (pink)
 
-All three on one scale with a zero line. Source line: Tapestry (Coach, reported revenue growth), Burberry (comparable retail sales), Kering (Gucci, comparable revenue growth).
+Source line: Tapestry (Coach, reported revenue growth), Burberry (comparable retail sales), Kering (Gucci, comparable revenue growth).
 
-## 7. My take
+## 6. My take
 
 The fix for Gucci is much more than cutting prices.
 
@@ -65,14 +58,14 @@ Would you buy it at the new price?
 
 ## Things to check before posting
 
-0. **The chart (slide 6).** Burberry +4% is comparable retail sales for its Q2 FY27 (26 weeks to 26 September 2026, interim results of 12 November 2026; Q1 was +5%), taken from search coverage (Qz, FashionNetwork, Investing.com). Check it against Burberry's interim results announcement. The three numbers are not the same measure: Coach is reported revenue growth, Burberry and Gucci are comparable growth, so the source line says so. The chart shows who is growing, not that Gucci's lost customers moved there.
+0. **The chart (slide 5).** Burberry +4% is comparable retail sales for its Q2 FY27 (26 weeks to 26 September 2026, interim results of 12 November 2026; Q1 was +5%), taken from search coverage (Qz, FashionNetwork, Investing.com). Check it against Burberry's interim results announcement. The three numbers are not the same measure: Coach is reported revenue growth, Burberry and Gucci are comparable growth, so the source line says so. The chart shows who is growing, not that Gucci's lost customers moved there.
 
 1. **Luxury customer numbers (slide 4).** 330 million and 315 million came from Carmen (she said "350" for 2026, read as 315, since she said 15 million fewer). The only published source I found is a Luxury Tribune article on the Altagamma and Bain monitor presented on 18 November 2026, which I could not open. Bain's 2025 press release said about 340 million for 2025 and other coverage says 330 million. Confirm both figures in Bain's own press release.
 2. **"Shoppers spending $2,000 to $3,000 a year make up more than half of sales at Gucci and Louis Vuitton" (slide 4).** Bernstein as reported by the Wall Street Journal. This is the mid-price luxury buyer, not the ultra rich, so the slides never say "ultra luxury". Only one year of customer loss is sourced, so it says "lost 15 million", never "each year". The wording comes from diet_prada's screenshot and I could not find the original article. Check it.
 3. **Beatrix prices (slide 3).** $3,300 and $2,310 come from diet_prada's screenshots of the Wayback Machine (October 2025) and gucci.com (November 2026). I found no independent source for $2,310. The brown suede Beatrix is listed at $3,300 on Net-a-Porter's US site, and $3,300 less 30% is exactly $2,310. Screenshot both pages yourself and confirm product, colour and prices.
 4. **Padlock (slide 3)** is well sourced: Bernstein's Luca Solca flagged it, and Forbes, Inc, the WSJ and TheIndustry.fashion report it. Only some bags were cut, hence "some prices", never "Gucci cut its prices by 30%".
 5. **de Meo (slide 2).** I found his remark that price rises were pushed too far, but not the date or exact wording, so no month is on the slide. Confirm the quote and date.
-6. **Coach and Gucci (slide 5).** Coach +16% is Tapestry's reported revenue growth for the quarter ended 26 September 2026. Gucci -6% is Kering's comparable growth for Q3 2026. They are not the same measure. Reuters ties Coach's growth to wealthier US shoppers and Gen Z, and no data shows former Gucci customers moved to Coach, so the slide says "we don't know".
+6. **Coach and Gucci (slide 5 chart).** Coach +16% is Tapestry's reported revenue growth for the quarter ended 26 September 2026. Gucci -6% is Kering's comparable growth for Q3 2026. They are not the same measure. Reuters ties Coach's growth to wealthier US shoppers and Gen Z, and no data shows former Gucci customers moved to Coach, so the slide says "we don't know".
 7. **Burberry (slides 5 and 6).** At its FY26 results on 14 May 2026, Burberry's CEO Joshua Schulman said scarves start with a skinny silk scarf at GBP 195, and Burberry has described scarves as an accessible entry point that brings Gen Z into the brand. US coverage quotes different prices, so check the price on Burberry.com before posting.
 8. **"Lower entry prices are taking a bigger slice of the pie" (slide 5)** is a hypothesis, not a market share figure. It rests on analyst commentary (Morgan Stanley said luxury has given oxygen to more accessible brands such as Coach, Toteme and Polene) and on Coach's growth. The slide says "the market suggests".
 9. **DeMellier is left out** (Carmen asked, and there is no sourced evidence).
