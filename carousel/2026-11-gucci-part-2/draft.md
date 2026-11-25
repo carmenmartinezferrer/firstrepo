@@ -60,7 +60,7 @@ Small label: **The customers**
 The latest Altagamma and Bain study counts about 315 million luxury customers, down from about 330 million a year earlier, which is 5% fewer. Gucci's answer was to cut some prices by 30%, but where those customers went isn't in the data.
 
 Illustration (two simple bar pairs on one slide, same style as the price slide):
-- Luxury customers, in millions: 330 million in 2025 and 315 million in 2026, labelled "5% fewer" (15 of 330 is 4.5%, shown as 5% under the whole-number rule). Carmen gave 330 and 15 million fewer; I read her "350" as 315.
+- Luxury customers, in millions: 330 million in 2025 and 315 million in 2026, labelled "5% fewer" (15 of 330 rounds to 5% under the whole-number rule). Carmen gave 330 and 15 million fewer; I read her "350" as 315.
 - Revenue growth in the quarter to September 2026: Coach +16%, Gucci -6%. Subtitle: "Coach reported revenue growth, Gucci comparable revenue growth, so not the same measure".
 
 "Where did they go?" stays a question on the slide, not a claim.
