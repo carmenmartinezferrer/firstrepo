@@ -4,7 +4,7 @@ Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY). Six slides, 
 
 ## 1. Cover
 
-What's going on with Gucci?? *It cut some prices by 30%, but the problem goes beyond that...*
+What's going on with Gucci?? *It cut some prices by 30%, but price is not the only problem*
 
 (The four cut-outs are still Saint Laurent placeholders from part 1, to be swapped for Demna Gucci looks.)
 
