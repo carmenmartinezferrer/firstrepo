@@ -20,7 +20,7 @@ Chart as part 1. Source: Kering quarterly releases, Gucci comparable revenue gro
 
 **So Gucci cut some prices by 30%**
 
-No announcement, shoppers just noticed. But did it bring the customers back?
+No announcement, shoppers just noticed. But the fix isn't only about price.
 
 - Padlock small bag, France: EUR 3,500 in July, EUR 2,450 now, 30% less
 - Beatrix large tote, brown suede, US: $3,300 in October 2025, $2,310 in November 2026, 30% less
@@ -29,32 +29,32 @@ No announcement, shoppers just noticed. But did it bring the customers back?
 
 **Luxury lost 15 million customers**
 
-Gucci makes more than half of its sales from shoppers who spend roughly $2,000 to $3,000 a year on luxury. So where did they go?
+The shoppers who spend roughly $2,000 to $3,000 a year on occasional treats make up more than half of sales at Gucci and Louis Vuitton. So where did they go?
 
 Luxury customers, millions: 330 million in 2025, 315 million in 2026, 5% fewer (15 of 330 rounds to 5%).
 
 ## 5. Where did they go?
 
-**Where did they go? We don't know, but look at who's growing**
+**Where did they go? The market points to lower entry prices**
 
 - Coach: sales up 16% in the quarter to September
-- Gucci: sales down 6% in the same quarter
 - Burberry: scarves from GBP 195, an entry point for new shoppers
+- Gucci: sales down 6% in the same quarter
 
-The market suggests that brands with lower entry prices are taking a bigger slice of the pie.
+We can't prove these are the same shoppers, but the market suggests mid-range brands are taking a bigger slice of the pie.
 
 ## 6. My take
 
-Cutting the price of the most expensive pieces won't fix this.
+The fix for Gucci is much more than cutting prices.
 
-Luxury can focus on the super wealthy and make them feel something, or offer real entry-level prices, the way Burberry's scarves do. Either way, it has to connect with the customer.
+It's about rethinking the whole strategy: who Gucci is for, and what makes the shopper who spends $2,000 to $3,000 a year choose it again. Burberry is betting on entry-level scarves, and Coach is growing.
 
 Would you buy it at the new price?
 
 ## Things to check before posting
 
 1. **Luxury customer numbers (slide 4).** 330 million and 315 million came from Carmen (she said "350" for 2026, read as 315, since she said 15 million fewer). The only published source I found is a Luxury Tribune article on the Altagamma and Bain monitor presented on 18 November 2026, which I could not open. Bain's 2025 press release said about 340 million for 2025 and other coverage says 330 million. Confirm both figures in Bain's own press release.
-2. **"More than half of Gucci's sales from shoppers spending $2,000 to $3,000 a year" (slide 4).** Bernstein as reported by the Wall Street Journal, which says this of both Gucci and Louis Vuitton. The wording comes from diet_prada's screenshot and I could not find the original article. Check it.
+2. **"Shoppers spending $2,000 to $3,000 a year make up more than half of sales at Gucci and Louis Vuitton" (slide 4).** Bernstein as reported by the Wall Street Journal. This is the mid-price luxury buyer, not the ultra rich, so the slides never say "ultra luxury". Only one year of customer loss is sourced, so it says "lost 15 million", never "each year". The wording comes from diet_prada's screenshot and I could not find the original article. Check it.
 3. **Beatrix prices (slide 3).** $3,300 and $2,310 come from diet_prada's screenshots of the Wayback Machine (October 2025) and gucci.com (November 2026). I found no independent source for $2,310. The brown suede Beatrix is listed at $3,300 on Net-a-Porter's US site, and $3,300 less 30% is exactly $2,310. Screenshot both pages yourself and confirm product, colour and prices.
 4. **Padlock (slide 3)** is well sourced: Bernstein's Luca Solca flagged it, and Forbes, Inc, the WSJ and TheIndustry.fashion report it. Only some bags were cut, hence "some prices", never "Gucci cut its prices by 30%".
 5. **de Meo (slide 2).** I found his remark that price rises were pushed too far, but not the date or exact wording, so no month is on the slide. Confirm the quote and date.
