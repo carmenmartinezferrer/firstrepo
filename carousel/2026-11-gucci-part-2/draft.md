@@ -1,9 +1,15 @@
 # Gucci part 2: the price cut (final text, built in Canva DAHb6ZgMrko)
 
 Follows part 1 ("What's going on with Gucci??", Canva DAHZ8HCfJHY, 4 slides, 1080 x 1350).
-Same four slides as part 1, same look. Slide 1 reuses part 1's sales-by-quarter slide (same photo, same bar chart) with the text updated. Built in Canva as a copy of part 1 (original untouched): https://www.canva.com/d/ap11cvcz2QWFrjk
+Five slides: part 1's cover plus the four content slides below, same look as part 1. Slide 1 reuses part 1's sales-by-quarter slide (same photo, same bar chart) with the text updated. Built in Canva as a copy of part 1 (original untouched): https://www.canva.com/d/ap11cvcz2QWFrjk
 
 Built from Carmen's brief and the diet_prada screenshots, with each claim traced to the source diet_prada cites. diet_prada is never named as a source on the slides.
+
+## Cover (reuse part 1's cover)
+
+**What's going on with Gucci??** *Part 2: it cut some prices by 30%*
+
+The four cut-outs are still Saint Laurent placeholders from part 1, to be swapped for Demna Gucci looks.
 
 ## Slide 1, The sales (reuse part 1's slide 2, change the text)
 
@@ -47,7 +53,7 @@ Would you buy it at the new price? / Follow for more fashion insights
 
 ## Things to check before posting
 
-1. **Slide count and cover.** You said "we start with the sales quarter", so I made the sales slide slide 1 with the headline doing the cover's job, which keeps the four slides. If you want part 1's cover first, tell me which slide to merge or drop, since slide 3 is the fullest.
+1. **Slide count.** With the cover there are five slides, one more than part 1. If you want exactly four, the easiest merge is slides 3 and 4, but slide 3 is already full.
 2. **"The mail" in your message.** I couldn't tell what it meant. I assumed it was the de Meo quote, so it sits in slide 1's text. If it was something else, tell me.
 3. **The Beatrix prices ($3,300 and $2,310) rest on your source.** They come from the Wayback Machine capture (October 2025) and gucci.com (November 2026) shown in the diet_prada slide, and I could not open either page from here, so I have no second source for the exact $2,310. What I did find fits them: the brown suede Beatrix is listed at $3,300 on Net-a-Porter's US site, $3,300 less 30% is exactly $2,310, and a Substack audit (snippet only, I couldn't open the page) reports two Beatrix large totes cut from EUR 2,600 to EUR 1,820 in Europe, which is also 30%. Please screenshot the Wayback capture and the gucci.com page yourself, so the slide can carry your own screenshots as the source, and confirm product name, colour and both prices.
 4. **The Padlock price (EUR 3,500 in July to EUR 2,450, France)** is well sourced: Bernstein's Luca Solca flagged it, and Forbes, Inc, the WSJ and TheIndustry.fashion all report it. It is a France price, so the slide labels it as that. One report says the new price is the regular selling price and not an end-of-season markdown.
