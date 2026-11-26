@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Your data goes to an AI agent, which does the repeat work and repeats it on a schedule while you check the result">
+  <title>AI automating your data work</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <text x="540" y="150" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="64" font-weight="700" fill="#111111">AI automating your data</text>
+  <text x="540" y="215" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#777777">you ask once, it does the repeat work</text>
+
+  <!-- 1 your data -->
+  <circle cx="100" cy="330" r="28" fill="#D6447A"/><text x="100" y="343" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="150" y="343" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222">Your data</text>
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="5" stroke-linejoin="round">
+    <rect x="185" y="400" width="110" height="100" rx="8"/>
+    <path d="M800 400 L850 400 L880 430 L880 500 L800 500 Z"/>
+  </g>
+  <rect x="185" y="400" width="110" height="26" rx="8" fill="#111111"/><rect x="185" y="412" width="110" height="14" fill="#111111"/>
+  <g stroke="#DDDDDD" stroke-width="3"><line x1="222" y1="426" x2="222" y2="498"/><line x1="259" y1="426" x2="259" y2="498"/><line x1="187" y1="451" x2="293" y2="451"/><line x1="187" y1="476" x2="293" y2="476"/></g>
+  <rect x="510" y="415" width="60" height="70" fill="#111111"/><ellipse cx="540" cy="485" rx="30" ry="10" fill="#111111"/><ellipse cx="540" cy="415" rx="30" ry="10" fill="#333333"/>
+  <path d="M510 440 A30 10 0 0 0 570 440" fill="none" stroke="#D6447A" stroke-width="5"/><path d="M510 462 A30 10 0 0 0 570 462" fill="none" stroke="#D6447A" stroke-width="5"/>
+  <path d="M850 400 L850 430 L880 430" fill="none" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#D9D9D9"><rect x="815" y="448" width="50" height="8" rx="4"/><rect x="815" y="466" width="50" height="8" rx="4"/><rect x="815" y="484" width="34" height="8" rx="4"/></g>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" fill="#777777" text-anchor="middle"><text x="240" y="548">spreadsheets</text><text x="540" y="548">databases</text><text x="840" y="548">files</text></g>
+  <line x1="540" y1="575" x2="540" y2="624" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="516,620 564,620 540,646" fill="#D6447A"/>
+
+  <!-- 2 the AI agent -->
+  <circle cx="100" cy="700" r="28" fill="#D6447A"/><text x="100" y="713" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="150" y="713" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222">An AI agent, told what you need</text>
+  <rect x="140" y="760" width="800" height="360" rx="40" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <g transform="translate(330,940) scale(0.85)">
+    <g fill="#111111">
+      <rect x="-14" y="-100" width="28" height="36" rx="6"/><rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(45)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(90)"/><rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(135)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(180)"/><rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(225)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(270)"/><rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(315)"/>
+      <circle r="74"/>
+    </g>
+    <circle r="32" fill="#FFFFFF"/><circle r="14" fill="#D6447A"/>
+  </g>
+  <path d="M330 815 A125 125 0 1 1 212.5 982.8" fill="none" stroke="#D6447A" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="204,958 196,990 228,979" fill="#D6447A"/>
+  <rect x="520" y="835" width="380" height="140" rx="30" fill="#111111"/>
+  <polygon points="520,925 480,950 530,960" fill="#111111"/>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF"><text x="552" y="893">clean it, run it,</text><text x="552" y="937">chart it</text></g>
+  <text x="710" y="1040" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" fill="#777777">you ask once</text>
+  <line x1="540" y1="1130" x2="540" y2="1180" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="516,1176 564,1176 540,1202" fill="#D6447A"/>
+
+  <!-- 3 the repeat work -->
+  <circle cx="100" cy="1260" r="28" fill="#D6447A"/><text x="100" y="1273" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="150" y="1273" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222">The repeat work gets done</text>
+  <rect x="140" y="1320" width="800" height="340" rx="36" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <text x="905" y="1356" text-anchor="end" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="24" fill="#777777">examples</text>
+  <g fill="#D6447A"><circle cx="195" cy="1395" r="24"/><circle cx="195" cy="1465" r="24"/><circle cx="195" cy="1535" r="24"/><circle cx="195" cy="1605" r="24"/></g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184 1396 L192 1405 L207 1386"/><path d="M184 1466 L192 1475 L207 1456"/><path d="M184 1536 L192 1545 L207 1526"/><path d="M184 1606 L192 1615 L207 1596"/>
+  </g>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="34" font-weight="700" fill="#111111"><text x="245" y="1407">cleans the file</text><text x="245" y="1477">runs the code</text><text x="245" y="1547">builds the chart</text><text x="245" y="1617">sends the summary</text></g>
+
+  <!-- repeat + human check -->
+  <rect x="140" y="1700" width="800" height="90" rx="45" fill="#D6447A"/>
+  <text x="540" y="1757" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">and it repeats on a schedule</text>
+  <text x="540" y="1850" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" font-weight="700" fill="#111111">then you check the result</text>
+</svg>
