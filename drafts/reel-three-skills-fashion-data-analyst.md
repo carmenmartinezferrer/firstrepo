@@ -82,7 +82,7 @@ Asking the right questions opens the climb because it is the most recognisable a
 
 - B-roll, in the order it appears: a spreadsheet with rows visible and a question on screen getting more specific (for example a broad one narrowing to a concrete one, written by you), a rising line chart with a spike, then a Substack draft or carousel slide for the storytelling beat. Use any real chart you like, there is no number in the voiceover, so the chart does not need to match a specific figure.
 - The hook frame has to carry the whole premise with sound off, so put "3 skills" and "fashion data analyst" on frame 1.
-- The full version is about 84 seconds, so the shorter cut is the one to film if you want to stay near 60 seconds.
+- The full version is about 81 seconds, so the shorter cut is the one to film if you want to stay near 60 seconds.
 - Hold the on-screen numbers 1, 2 and 3 for the whole beat, they do half the work for people watching without sound.
 
 ## Sources used
