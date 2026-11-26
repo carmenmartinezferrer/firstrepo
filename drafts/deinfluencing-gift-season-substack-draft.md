@@ -2,11 +2,11 @@
 
 Subtitle: Wool, a midi skirt, a plum anything and one silk scarf, which is honestly the whole list.
 
-Status: text draft v1, 26 Nov 2026, waiting for Carmen's corrections and product links. No visuals yet.
+Status: text draft v2, 26 Nov 2026, waiting for Carmen's corrections and product links. No visuals yet.
 
 ---
 
-Every gift guide in your inbox this week wants you to buy more, and this one wants you to buy less (I know, terrible business model). I've spent the year pulling search data and tagging 997 Paris runway looks by hand, so before buying anything this season I checked what the numbers actually back, and the list turned out to be short.
+Every gift guide in your inbox this week wants you to buy more, and this one wants you to buy less (I know, terrible business model). I've spent the year pulling search data and tagging runway looks by hand, so before buying anything this season I checked what the numbers actually back, and the list turned out to be short.
 
 ### Buy the fabric, not the logo
 
@@ -26,7 +26,7 @@ Accessories are moving faster than the clothes, with searches for Celine's round
 
 ### And if you only buy one thing
 
-Make it a silk scarf. Three in four of the Paris houses I tagged showed a scarf at least once, and it works at the neck, in the hair, on a bag or tied at the waist as a cummerbund, which is my favourite trend right now. [LINK: Carmen's pick]
+Make it a silk scarf, because my favourite trend right now is the cummerbund, and a scarf tied at the waist does exactly the same job. Silk cummerbunds came back in New York this season as a belt that defines the waist (Conner Ives put one over a silky fish-print dress), and at Valentino a cummerbund or wide sash was on 16% of the looks, so one scarf gets you the look and still works at the neck, in the hair or on a bag. [LINK: Carmen's pick]
 
 So before you buy anything this month, ask whether it's a natural fibre, whether it's a colour you'll still wear in two years, and whether you'd want it without the discount, and if the answer is no, you can leave it in the basket.
 
@@ -34,7 +34,7 @@ Which one is going on your list? Tell me in the comments.
 
 Next week: [NEEDS: next week's topic]
 
-*Where the numbers come from: the search figures are the % change in searches against last year, from my own Google Trends pulls, except paisley scarves and fur scarves, which come from the Trendalytics Womenswear Forecast for Fall/Winter 2027. The scarf figure is from my own tagging of 16 Paris SS27 shows.*
+*Where the numbers come from: the search figures are the % change in searches against last year, from my own Google Trends pulls, except paisley scarves and fur scarves, which come from the Trendalytics Womenswear Forecast for Fall/Winter 2027. The cummerbund notes are from my own decodes of the New York and Valentino SS27 shows.*
 
 ---
 
@@ -44,7 +44,7 @@ Next week: [NEEDS: next week's topic]
 - Dates behind "this year against last" for wool, cotton, cashmere and the four colours are not saved.
 - Plum: +60% in the colour draft's body, +50% in its notes.
 - "Dark red" is the data term, there is no separate number for burgundy.
-- The scarf count is all scarves, the dataset does not tag which were silk.
+- Cummerbund section (v2, 26 Nov): Carmen asked for the cummerbund point from her FashionUnited article in place of the 75% scarf figure. FashionUnited could not be opened from this session, so the section uses her NYFW SS27 trend report (silk cummerbunds as a waist-defining belt, Conner Ives fish-print dress) and her Valentino SS27 decode (cummerbund or wide waist sash on 13 of 80 looks, 16%). Swap in her FashionUnited wording if it differs.
 - Celine round sunglasses +190%: export still marked "file to add".
 - "Which I read as people checking the label inside" and the three closing questions are interpretation, not data.
 - Every [LINK] is Carmen's to supply. "Next week" needs her topic.
@@ -54,4 +54,5 @@ Next week: [NEEDS: next week's topic]
 - Carmen's own Google Trends pulls, worldwide (wool, cotton, cashmere, midi skirt, fur trim jacket, plum, dark red, forest green, cobalt blue): no public link
 - DFB analysis of Google Trends, worldwide, 26 Oct 2025 to 25 Oct 2026 (Celine round sunglasses, chunky belt): no public link
 - Trendalytics Womenswear Forecast Fall/Winter 2027 (paisley scarves, fur scarves): Carmen's upload, no public link
-- DFB runway dataset, Paris SS27, 16 houses, 997 looks (scarves at 12 of 16 houses): no public link
+- DFB NYFW SS27 trend report (silk cummerbunds, Conner Ives): `reference-articles/nyfw-ss27-trend-report-final.md`, link to the published post to add
+- DFB Valentino SS27 catwalk decode (cummerbund or wide waist sash, 13 of 80 looks): no public link
