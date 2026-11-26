@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="You ask, the agent runs the code, and it repeats the routine">
+  <title>An AI agent that runs and repeats</title>
+  <rect x="40" y="200" width="240" height="300" rx="28" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <g fill="none" stroke="#222222" stroke-width="5"><rect x="75" y="240" width="34" height="34" rx="8"/><rect x="75" y="320" width="34" height="34" rx="8"/><rect x="75" y="400" width="34" height="34" rx="8"/></g>
+  <rect x="75" y="320" width="34" height="34" rx="8" fill="#D6447A"/>
+  <path d="M82 337 L90 346 L104 328" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#D9D9D9"><rect x="130" y="249" width="120" height="16" rx="8"/><rect x="130" y="329" width="100" height="16" rx="8"/><rect x="130" y="409" width="110" height="16" rx="8"/></g>
+  <line x1="290" y1="350" x2="345" y2="350" stroke="#D6447A" stroke-width="8" stroke-dasharray="12 9" stroke-linecap="round"/>
+  <polygon points="340,334 368,350 340,366" fill="#D6447A"/>
+  <g transform="translate(500,350)">
+    <g fill="#111111">
+      <rect x="-14" y="-100" width="28" height="36" rx="6"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(45)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(90)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(135)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(180)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(225)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(270)"/>
+      <rect x="-14" y="-100" width="28" height="36" rx="6" transform="rotate(315)"/>
+      <circle r="74"/>
+    </g>
+    <circle r="32" fill="#FFFFFF"/><circle r="14" fill="#D6447A"/>
+  </g>
+  <path d="M500 190 A160 160 0 1 1 352 411" fill="none" stroke="#D6447A" stroke-width="12" stroke-linecap="round"/>
+  <polygon points="342,384 336,420 372,408" fill="#D6447A"/>
+  <line x1="655" y1="350" x2="710" y2="350" stroke="#D6447A" stroke-width="8" stroke-dasharray="12 9" stroke-linecap="round"/>
+  <polygon points="705,334 733,350 705,366" fill="#D6447A"/>
+  <rect x="740" y="200" width="220" height="300" rx="28" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="850" cy="350" r="62" fill="#D6447A"/>
+  <path d="M820 352 L843 376 L882 328" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" font-weight="700">
+    <text x="160" y="590">you ask</text><text x="500" y="590">the agent runs the code</text><text x="850" y="590">and repeats it</text>
+  </g>
+</svg>

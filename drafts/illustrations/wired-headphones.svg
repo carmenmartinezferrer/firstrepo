@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="Wired headphones with a battery crossed out">
+  <title>Wired headphones</title>
+  <path d="M250 400 A250 250 0 0 1 750 400" fill="none" stroke="#111111" stroke-width="34" stroke-linecap="round"/>
+  <rect x="190" y="370" width="130" height="220" rx="46" fill="#111111"/><rect x="680" y="370" width="130" height="220" rx="46" fill="#111111"/>
+  <circle cx="255" cy="480" r="30" fill="#D6447A"/><circle cx="745" cy="480" r="30" fill="#D6447A"/>
+  <path d="M255 590 C255 690 430 690 520 640 S 690 590 760 650" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <rect x="760" y="626" width="110" height="48" rx="12" fill="#BDBDBD"/><rect x="870" y="640" width="40" height="20" rx="6" fill="#D6447A"/>
+  <rect x="740" y="60" width="150" height="80" rx="14" fill="none" stroke="#222222" stroke-width="8"/><rect x="890" y="86" width="16" height="28" rx="4" fill="#222222"/>
+  <line x1="725" y1="40" x2="905" y2="160" stroke="#D6447A" stroke-width="14" stroke-linecap="round"/>
+  <text x="815" y="200" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="700" fill="#777777">never needs charging</text>
+</svg>

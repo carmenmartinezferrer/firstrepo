@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="A staircase of four steps: SQL, Python, Excel, AI tools">
+  <title>A learning path</title>
+  <text x="60" y="80" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#222222">learn to code, step by step</text>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="60" y="510" width="220" height="110" fill="#111111"/><text x="170" y="580">SQL</text>
+    <rect x="280" y="400" width="220" height="220" fill="#111111"/><text x="390" y="470">Python</text>
+    <rect x="500" y="290" width="220" height="330" fill="#111111"/><text x="610" y="360">Excel</text>
+    <rect x="720" y="180" width="220" height="440" fill="#D6447A"/><text x="830" y="250">AI tools</text>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="4"><line x1="280" y1="400" x2="280" y2="620"/><line x1="500" y1="290" x2="500" y2="620"/><line x1="720" y1="180" x2="720" y2="620"/></g>
+  <line x1="40" y1="620" x2="960" y2="620" stroke="#222222" stroke-width="6" stroke-linecap="round"/>
+</svg>

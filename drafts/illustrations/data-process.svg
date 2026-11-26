@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="The data process: ask, get data, analyse, tell the story">
+  <title>The data process</title>
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="6"><circle cx="130" cy="300" r="85"/><circle cx="370" cy="300" r="85"/><circle cx="610" cy="300" r="85"/><circle cx="850" cy="300" r="85"/></g>
+  <g stroke="#D6447A" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round"><line x1="226" y1="300" x2="262" y2="300"/><line x1="466" y1="300" x2="502" y2="300"/><line x1="706" y1="300" x2="742" y2="300"/></g>
+  <g fill="#D6447A"><polygon points="258,286 280,300 258,314"/><polygon points="498,286 520,300 498,314"/><polygon points="738,286 760,300 738,314"/></g>
+  <g fill="#D6447A"><circle cx="70" cy="225" r="24"/><circle cx="310" cy="225" r="24"/><circle cx="550" cy="225" r="24"/><circle cx="790" cy="225" r="24"/></g>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle"><text x="70" y="235">1</text><text x="310" y="235">2</text><text x="550" y="235">3</text><text x="790" y="235">4</text></g>
+  <text x="130" y="338" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="110" font-weight="700" fill="#D6447A">?</text>
+  <rect x="338" y="288" width="64" height="62" fill="#111111"/><ellipse cx="370" cy="350" rx="32" ry="11" fill="#111111"/><ellipse cx="370" cy="288" rx="32" ry="11" fill="#333333"/>
+  <path d="M338 312 A32 11 0 0 0 402 312" fill="none" stroke="#D6447A" stroke-width="5"/><path d="M338 332 A32 11 0 0 0 402 332" fill="none" stroke="#D6447A" stroke-width="5"/>
+  <rect x="570" y="310" width="24" height="40" fill="#111111"/><rect x="602" y="280" width="24" height="70" fill="#111111"/><rect x="634" y="250" width="24" height="100" fill="#D6447A"/><line x1="560" y1="352" x2="668" y2="352" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+  <rect x="802" y="262" width="96" height="66" rx="18" fill="#111111"/><polygon points="828,324 814,350 850,324" fill="#111111"/>
+  <g fill="#FFFFFF"><circle cx="834" cy="295" r="7"/><circle cx="850" cy="295" r="7"/><circle cx="866" cy="295" r="7"/></g>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle"><text x="130" y="450">ask the right</text><text x="130" y="488">question</text><text x="370" y="450">get the data</text><text x="610" y="450">analyse it</text><text x="850" y="450">tell the story</text></g>
+</svg>
