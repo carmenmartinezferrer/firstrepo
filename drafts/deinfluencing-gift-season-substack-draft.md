@@ -1,4 +1,4 @@
-# Deinfluencing You With Data: The Only Things I'd Buy This Gift Season
+# Deinfluencing You With Data: How to Buy Less This Gift Season
 
 Subtitle: Wool, a midi skirt, a plum anything and one silk scarf, which is honestly the whole list.
 

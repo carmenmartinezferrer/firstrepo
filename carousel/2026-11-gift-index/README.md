@@ -10,7 +10,7 @@ Layout from 24 Nov: horizontal bar charts (native Canva shapes), Carmen pastes t
 
 | # | Kicker | Headline | Body | Numbers |
 |---|---|---|---|---|
-| 1 | | Deinfluencing you with data. The only things I'd buy this Black Friday | | |
+| 1 | | Deinfluencing you with data: how to buy less this gift season (Carmen's own cover, four photos, white and cream type) | | |
 | 2 | The fabric | Buy the fabric, not the logo | Natural fibres are the safest thing you can give. | Wool +100%, cotton +90%, cashmere +80% (% change in searches, this year vs last) |
 | 3 | The texture | Give them something to touch | The textured pieces are climbing fastest in search | Midi skirt +250%, fur trim jacket +160%, paisley scarf +64% (% change in searches vs last year) |
 | 4 | The early bets | For whoever likes to be early | Harness boots are the biggest jump in my data this year, and rain boots are the one to watch. | Harness boots +476% searches; rain boots +87% among key influencers (two image boxes) |
