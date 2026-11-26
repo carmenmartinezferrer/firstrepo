@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-label="A laptop showing a SQL query">
+  <title>Laptop with SQL code</title>
+  <g transform="translate(-130,-170)">
+    <rect x="210" y="190" width="660" height="330" rx="24" fill="#111111"/>
+    <rect x="232" y="212" width="616" height="286" rx="10" fill="#1E1E1E"/>
+    <g font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="34">
+      <text x="262" y="275"><tspan fill="#D6447A" font-weight="700">SELECT</tspan><tspan fill="#FFFFFF"> brand, colour</tspan></text>
+      <text x="262" y="325"><tspan fill="#D6447A" font-weight="700">FROM</tspan><tspan fill="#FFFFFF"> runway_looks</tspan></text>
+      <text x="262" y="375"><tspan fill="#D6447A" font-weight="700">WHERE</tspan><tspan fill="#FFFFFF"> season = 'SS27';</tspan></text>
+    </g>
+    <rect x="262" y="405" width="16" height="34" fill="#D6447A"/>
+    <rect x="150" y="520" width="780" height="26" rx="13" fill="#BDBDBD"/>
+  </g>
+</svg>
