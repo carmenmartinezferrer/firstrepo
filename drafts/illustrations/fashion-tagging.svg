@@ -2,7 +2,7 @@
   <title>Every look gets tagged</title>
   <rect width="1080" height="1920" fill="#FFFFFF"/>
 
-  <text x="540" y="170" text-anchor="middle" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="74" fill="#111111">Every look gets tagged</text>
+  <text x="540" y="170" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="62" font-weight="700" fill="#111111">Every look gets tagged</text>
   <text x="540" y="238" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#777777">garment, fit, fabric, colour, detail</text>
 
   <!-- rail -->
@@ -53,8 +53,7 @@
   </g>
 
   <!-- what gets recorded -->
-  <rect x="60" y="1170" width="960" height="640" rx="40" fill="#F7F6F4" stroke="#ECEAE6" stroke-width="2"/>
-  <text x="110" y="1250" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="46" fill="#222222">One row per look</text>
+  <text x="110" y="1250" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#222222">One row per look</text>
   <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#222222">
     <text x="110" y="1340">garment</text>
     <text x="110" y="1420">fit</text>
