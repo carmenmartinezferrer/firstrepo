@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="5 things worth investing in: fashion data analyst starter tech pack">
-  <title>5 things worth investing in</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="5 things I'd actually spend money on as a fashion data analyst">
+  <title>5 things I'd actually spend money on as a fashion data analyst</title>
   <rect width="1080" height="1920" fill="#FFFFFF"/>
   <rect width="1080" height="16" fill="#D6447A"/>
 
-  <rect x="80" y="170" width="300" height="64" rx="32" fill="#D6447A"/>
-  <text x="230" y="212" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3" fill="#FFFFFF">BLACK FRIDAY</text>
+  <text x="64" y="800" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="600" font-weight="700" fill="#D6447A">5</text>
+  <text x="80" y="930" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="72" font-weight="700" fill="#111111">things I'd actually</text>
+  <text x="80" y="1020" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="72" font-weight="700" fill="#111111">spend money on</text>
 
-  <text x="68" y="800" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="560" fill="#D6447A">5</text>
-  <text x="80" y="930" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="96" fill="#111111">things worth</text>
-  <text x="80" y="1036" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="96" fill="#111111">investing in</text>
+  <rect x="80" y="1076" width="140" height="8" fill="#D6447A"/>
 
-  <rect x="80" y="1100" width="140" height="8" fill="#D6447A"/>
-
-  <text x="80" y="1210" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="74" font-style="italic" fill="#D6447A">Fashion data analyst</text>
-  <text x="80" y="1298" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="74" font-style="italic" fill="#D6447A">starter tech pack</text>
+  <text x="80" y="1170" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="58" fill="#D6447A">as a fashion data analyst</text>
 
   <text x="80" y="1790" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#777777">@thedatafashionbrief</text>
 </svg>
