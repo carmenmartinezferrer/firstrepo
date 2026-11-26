@@ -119,16 +119,16 @@ avg = lambda y, months: sum(v for d, v in rows if d[:4] == str(y) and int(d[5:7]
 a2024 = avg(2024, range(1, 13))
 since = [(d, v) for d, v in rows if d >= '2025-08-01']
 assert all(v > a2024 for _, v in since)
-charts.append(line_chart('02-cummerbund-search', 'Search interest has settled higher',
-    'monthly search interest in "cummerbund", Google Trends 0 to 100 scale',
-    rows, f'Above its 2024 average in every one of the {len(since)} months since August 2025.', GT,
-    ref=('2024 average', a2024),
-    marks=(('2025-04-01', 'end', -18, 4), ('2026-04-01', 'middle', 0, -50))))
-
 jan_nov = range(1, 12)
 years = [(str(y), avg(y, jan_nov)) for y in (2022, 2023, 2024, 2025, 2026)]
 up24 = half_up(100 * (years[4][1] / years[2][1] - 1)); up25 = half_up(100 * (years[4][1] / years[3][1] - 1))
 print('2026 vs 2024', up24, '2026 vs 2025', up25, [(y, round(v, 1)) for y, v in years])
+charts.append(line_chart('02-cummerbund-search', 'Search interest has settled higher',
+    'monthly search interest in "cummerbund", Google Trends 0 to 100 scale',
+    rows, f'January to November 2026 averages {up24}% above 2024 and {up25}% above 2025.', GT,
+    ref=('2024 average', a2024),
+    marks=(('2025-04-01', 'end', -18, 4), ('2026-04-01', 'middle', 0, -50))))
+
 charts.append(bar_chart('03-search-by-year', 'A higher level since 2025',
     'average monthly search interest in "cummerbund", January to November, Google Trends 0 to 100 scale',
     years, GT, fmt=lambda v: f'{half_up(v)}', highlight=(4,), W=1300))
