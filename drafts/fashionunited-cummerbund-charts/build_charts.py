@@ -129,9 +129,9 @@ charts.append(line_chart('02-cummerbund-search', 'Search interest has settled hi
     ref=('2024 average', a2024),
     marks=(('2025-04-01', 'end', -18, 4), ('2026-04-01', 'middle', 0, -50))))
 
-charts.append(bar_chart('03-search-by-year', 'A higher level since 2025',
-    'average monthly search interest in "cummerbund", January to November, Google Trends 0 to 100 scale',
-    years, GT, fmt=lambda v: f'{half_up(v)}', highlight=(4,), W=1300))
+charts.append(bar_chart('03-search-by-year', 'Searches are up on both years',
+    '% change in search interest in "cummerbund", January to November 2026 vs each year',
+    [('vs 2024', up24), ('vs 2025', up25)], GT, fmt=lambda v: f'+{half_up(v)}%', highlight=(0,), W=1100))
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
