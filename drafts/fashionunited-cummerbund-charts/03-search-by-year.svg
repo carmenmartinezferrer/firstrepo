@@ -1,13 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 692" width="1100" height="692">
-<rect width="1100" height="692" fill="#FFFFFF"/>
-<text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">Searches are up on both years</text>
-<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">% change in search interest in &quot;cummerbund&quot;, January to November 2026 vs each year</text>
-<rect x="380.0" y="245.0" width="150.0" height="290.0" fill="#D6447A"/>
-<text x="455.0" y="231.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">+47%</text>
-<text x="455.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">vs 2024</text>
-<rect x="570.0" y="473.3" width="150.0" height="61.7" fill="#3A3A3A"/>
-<text x="645.0" y="459.3" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">+10%</text>
-<text x="645.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">vs 2025</text>
-<line x1="350.0" y1="535.0" x2="750.0" y2="535.0" stroke="#BDBDBD" stroke-width="1.5"/>
-<text x="40" y="662" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">Source: The Data Fashion Brief analysis of Google Trends, worldwide, Nov 2021 to Nov 2026</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 742" width="1300" height="742">
+<rect width="1300" height="742" fill="#FFFFFF"/>
+<text x="50" y="78" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="56" fill="#222222">A higher level since 2025</text>
+<text x="50" y="124" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#6B6B6B">average search interest in &quot;cummerbund&quot;, January to November, with the % change on the year before</text>
+<rect x="195.0" y="322.9" width="150.0" height="212.1" fill="#3A3A3A"/>
+<text x="270.0" y="308.9" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222"></text>
+<text x="270.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">2022</text>
+<rect x="385.0" y="345.8" width="150.0" height="189.2" fill="#3A3A3A"/>
+<text x="460.0" y="331.8" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">-11%</text>
+<text x="460.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">2023</text>
+<rect x="575.0" y="338.0" width="150.0" height="197.0" fill="#3A3A3A"/>
+<text x="650.0" y="324.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">+4%</text>
+<text x="650.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">2024</text>
+<rect x="765.0" y="272.0" width="150.0" height="263.0" fill="#3A3A3A"/>
+<text x="840.0" y="258.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">+33%</text>
+<text x="840.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">2025</text>
+<rect x="955.0" y="245.0" width="150.0" height="290.0" fill="#D6447A"/>
+<text x="1030.0" y="231.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="42" fill="#222222">+10%</text>
+<text x="1030.0" y="579.0" text-anchor="middle" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">2026</text>
+<line x1="165.0" y1="535.0" x2="1135.0" y2="535.0" stroke="#BDBDBD" stroke-width="1.5"/>
+<text x="50" y="662" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="25" fill="#222222">2026 is 47% above 2024 and 10% above 2025.</text>
+<text x="40" y="712" font-family="'Century Gothic', 'Questrial', 'Avenir', sans-serif" font-size="20" fill="#222222">Source: The Data Fashion Brief analysis of Google Trends, worldwide, Nov 2021 to Nov 2026</text>
 </svg>

@@ -39,7 +39,7 @@ def head(W, h, title, subtitle):
     out.append(f'<text x="50" y="{124 + dy}" font-family="{SANS}" font-size="25" fill="{MUTED}">{html.escape(subtitle)}</text>')
     return out, dy
 
-def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}%', highlight=(0,), W=None):
+def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}%', highlight=(0,), W=None, labels=None, note=None):
     n = len(items)
     W = W or max(1000, 100 + n * 150)
     out, dy = head(W, 0, title, subtitle)
@@ -52,17 +52,19 @@ def bar_chart(name, title, subtitle, items, source, fmt=lambda v: f'{half_up(v)}
     base = top + plot_h
     wn = max(8, int(slot / 12.5))
     label_lines = max(len(wrap(l, wn)) for l, _ in items)
-    h = int(base + 46 + label_lines * 31 + 80)
+    h = int(base + 46 + label_lines * 31 + 80 + (50 if note else 0))
     p, _ = head(W, h, title, subtitle)
     for i, (lab, v) in enumerate(items):
         cx = x0 + slot * (i + 0.5)
         bh = v * scale
         col = PINK if i in highlight else DARK
         p.append(f'<rect x="{cx-bw/2:.1f}" y="{base-bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" fill="{col}"/>')
-        p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="42" fill="{INK}">{html.escape(fmt(v))}</text>')
+        p.append(f'<text x="{cx:.1f}" y="{base-bh-14:.1f}" text-anchor="middle" font-family="{SANS}" font-size="42" fill="{INK}">{html.escape(labels[i] if labels else fmt(v))}</text>')
         for j, line in enumerate(wrap(lab, wn)):
             p.append(f'<text x="{cx:.1f}" y="{base+44+j*31:.1f}" text-anchor="middle" font-family="{SANS}" font-size="25" fill="{INK}">{html.escape(line)}</text>')
     p.append(f'<line x1="{x0-10:.1f}" y1="{base:.1f}" x2="{x0+slot*n+10:.1f}" y2="{base:.1f}" stroke="#BDBDBD" stroke-width="1.5"/>')
+    if note:
+        p.append(f'<text x="50" y="{h-80}" font-family="{SANS}" font-size="25" fill="{INK}">{html.escape(note)}</text>')
     p.append(f'<text x="40" y="{h-30}" font-family="{SANS}" font-size="20" fill="{INK}">{html.escape(source)}</text>')
     p.append('</svg>')
     return name, '\n'.join(p), h
@@ -129,9 +131,12 @@ charts.append(line_chart('02-cummerbund-search', 'Search interest has settled hi
     ref=('2024 average', a2024),
     marks=(('2025-04-01', 'end', -18, 4), ('2026-04-01', 'middle', 0, -50))))
 
-charts.append(bar_chart('03-search-by-year', 'Searches are up on both years',
-    '% change in search interest in "cummerbund", January to November 2026 vs each year',
-    [('vs 2024', up24), ('vs 2025', up25)], GT, fmt=lambda v: f'+{half_up(v)}%', highlight=(0,), W=1100))
+yoy = [''] + [f'{"+" if years[i][1] >= years[i-1][1] else "-"}{abs(half_up(100 * (years[i][1] / years[i-1][1] - 1)))}%' for i in range(1, 5)]
+print('year on year', yoy)
+charts.append(bar_chart('03-search-by-year', 'A higher level since 2025',
+    'average search interest in "cummerbund", January to November, with the % change on the year before',
+    years, GT, highlight=(4,), W=1300, labels=yoy,
+    note=f'2026 is {up24}% above 2024 and {up25}% above 2025.'))
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Questrial&display=swap" rel="stylesheet">'
 manifest = []
