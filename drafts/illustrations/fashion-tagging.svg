@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Five dresses on a rail, each tagged with a silhouette, and a card showing what gets recorded for every look">
+  <title>Every look gets tagged</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+
+  <text x="540" y="170" text-anchor="middle" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="74" fill="#111111">Every look gets tagged</text>
+  <text x="540" y="238" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#777777">garment, fit, fabric, colour, detail</text>
+
+  <!-- rail -->
+  <line x1="70" y1="420" x2="1010" y2="420" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- hangers -->
+  <g fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 420 L180 446 M135 472 L180 446 L225 472"/>
+    <path d="M360 420 L360 446 M315 472 L360 446 L405 472"/>
+    <path d="M540 420 L540 446 M495 472 L540 446 L585 472"/>
+    <path d="M720 420 L720 446 M675 472 L720 446 L765 472"/>
+    <path d="M900 420 L900 446 M855 472 L900 446 L945 472"/>
+  </g>
+
+  <!-- 1 mini A-line, pink -->
+  <g>
+    <path d="M158 472 L158 502 M202 472 L202 502" stroke="#D6447A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M148 500 L212 500 L214 562 L255 700 Q180 716 105 700 L146 562 Z" fill="#D6447A"/>
+  </g>
+  <!-- 2 slip midi, black -->
+  <g>
+    <path d="M345 472 L345 497 M375 472 L375 497" stroke="#111111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M332 495 L388 495 L400 590 L412 820 Q360 834 308 820 L320 590 Z" fill="#111111"/>
+  </g>
+  <!-- 3 maxi, nude -->
+  <g>
+    <path d="M520 472 L520 502 M560 472 L560 502" stroke="#CDB59C" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M510 500 L570 500 L572 565 L635 990 Q540 1012 445 990 L508 565 Z" fill="#E3CDB8"/>
+  </g>
+  <!-- 4 fit and flare midi, grey -->
+  <g>
+    <path d="M700 472 L700 502 M740 472 L740 502" stroke="#9A9A9A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M690 500 L750 500 L752 562 Q822 640 812 810 Q720 830 628 810 Q618 640 688 562 Z" fill="#BDBDBD"/>
+  </g>
+  <!-- 5 shift mini, light pink -->
+  <g>
+    <path d="M880 472 L880 497 M920 472 L920 497" stroke="#E79DB8" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M864 495 L936 495 L946 660 Q900 670 854 660 Z" fill="#F0B7CB"/>
+  </g>
+
+  <!-- silhouette chips -->
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="26" fill="#FFFFFF" text-anchor="middle">
+    <rect x="115" y="1046" width="130" height="54" rx="27" fill="#111111"/><text x="180" y="1081">mini</text>
+    <rect x="295" y="1046" width="130" height="54" rx="27" fill="#111111"/><text x="360" y="1081">slip</text>
+    <rect x="475" y="1046" width="130" height="54" rx="27" fill="#111111"/><text x="540" y="1081">maxi</text>
+    <rect x="655" y="1046" width="130" height="54" rx="27" fill="#111111"/><text x="720" y="1081">flare</text>
+    <rect x="835" y="1046" width="130" height="54" rx="27" fill="#111111"/><text x="900" y="1081">shift</text>
+  </g>
+
+  <!-- what gets recorded -->
+  <rect x="60" y="1170" width="960" height="640" rx="40" fill="#F7F6F4" stroke="#ECEAE6" stroke-width="2"/>
+  <text x="110" y="1250" font-family="'DM Serif Display', 'TeX Gyre Pagella', Georgia, serif" font-size="46" fill="#222222">One row per look</text>
+  <g font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#222222">
+    <text x="110" y="1340">garment</text>
+    <text x="110" y="1420">fit</text>
+    <text x="110" y="1500">fabric</text>
+    <text x="110" y="1580">colour</text>
+    <text x="110" y="1660">detail</text>
+  </g>
+  <g fill="#D9D9D9">
+    <rect x="380" y="1321" width="420" height="22" rx="11"/>
+    <rect x="380" y="1401" width="320" height="22" rx="11"/>
+    <rect x="380" y="1481" width="380" height="22" rx="11"/>
+    <rect x="380" y="1641" width="260" height="22" rx="11"/>
+  </g>
+  <g>
+    <circle cx="400" cy="1572" r="20" fill="#D6447A"/>
+    <circle cx="460" cy="1572" r="20" fill="#111111"/>
+    <circle cx="520" cy="1572" r="20" fill="#E3CDB8"/>
+    <circle cx="580" cy="1572" r="20" fill="#BDBDBD"/>
+    <circle cx="640" cy="1572" r="20" fill="#F0B7CB"/>
+  </g>
+  <text x="540" y="1752" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" fill="#777777">then you count what repeats</text>
+</svg>
