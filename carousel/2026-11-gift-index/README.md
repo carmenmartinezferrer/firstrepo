@@ -38,26 +38,26 @@ Layout from 24 Nov: horizontal bar charts (native Canva shapes), Carmen pastes t
 - Midi skirt +250%: Carmen's own Google Trends reading, searches year over year, given in chat on 24 Nov 2026, no export saved. It replaced fringe skirt +71% on slide 3, whose headline and body still talk about texture.
 - 24 Nov: slides 3, 5 and 6 matched to slide 2's sizes (bar height 67, longest bar 585 wide, labels 37px, numbers 49px, rows 139 apart). Source lines removed from the chart slides, as Carmen did on slide 2; the caption carries the data line.
 
-## Caption
+## Caption (v3, 26 Nov, from Carmen's dictation)
 
 ```
-Deinfluencing you with data: the only things I'd buy this Black Friday.
+Since I look at fashion through data, I only buy things that last.
 
-Every gift guide wants you to buy more, so I built mine from what I've actually measured this year, a year of search data and the 997 Paris SS27 looks I tagged by hand, to help you buy less and better.
+But if I had to spend money on something this gift season, this Black Friday or even vintage, these are the pieces and the principles I'd look for:
 
 → Natural fibres first: searches for wool are up 100%, cotton 90% and cashmere 80% on last year
-→ The pieces to invest in: midi skirts +250%, fur trim jackets +160%, paisley scarves +64%
-→ If they like to be early: harness boots, +476% from a small base
 → The new neutrals: plum +60%, dark red and forest green +50%, cobalt blue +30%
-→ And the one I'd give anyone: a scarf, on the runway at 3 in 4 Paris houses
+→ One piece to invest in: the midi skirt, searches up 250%
+→ The small things: Celine round sunglasses +190%, chunky belts +93%
+→ And the one I'd give anyone: a silk scarf, tied at the waist as a cummerbund
 
-My take: buy the fabric, not the logo, and if you really can't decide, a silk scarf works at the neck, in the hair, on the bag or tied at the waist as a cummerbund.
+I've collected every piece I've seen online that follows these principles and put them in one list, and the full Substack article is coming very soon.
 
-Which one is going on your list? 👇
+Comment LINK and I'll send you the list, and tell me which one is your favourite 👇
 
-Data: DFB search data, worldwide, this year vs last, and the DFB runway dataset, Paris SS27
+Data: DFB search data, worldwide, this year vs last, and DFB runway decodes, SS27
 
-#Deinfluencing #GiftGuide #SilkScarf #Cashmere #HarnessBoots #Plum #FashionData #TheDataFashionBrief
+#Deinfluencing #GiftGuide #BlackFriday #SilkScarf #MidiSkirt #FashionData #TheDataFashionBrief
 ```
 
 ## Sources
