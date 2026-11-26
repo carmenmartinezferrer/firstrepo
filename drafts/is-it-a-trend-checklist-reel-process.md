@@ -1,29 +1,49 @@
-# Reel: how I tell a trend from a moment (about 40s)
+# Reel: how I tell a trend from a moment, Master DFB Formula (about 50s)
 
-Process only, no specific trends or numbers. Hook first, then straight into the 4 things, which sit on screen one card at a time.
+Process only, no specific trends or numbers. Five steps climb in importance, and the last one is the intersection of data and fashion, which is Carmen.
 
-**Hook (on-screen, frame 1, and the first line you say):**
-I'M A FASHION DATA ANALYST AND THIS IS HOW I TELL A TREND FROM A MOMENT
+**Angle:** anyone can call something a trend, so here is the five-step process I use to tell the difference, and the last step is the one only I can do, because I'm both a data analyst and someone who loves fashion.
+**Hook (on-screen, frame 1):** HOW I TELL A TREND FROM A MOMENT
 
-| On screen (one card per thing, each stays up while you speak) | Voiceover |
-|---|---|
-| **1. COUNT TWO NUMBERS**<br>how many houses wear it<br>how much of each collection it is | I'm a fashion data analyst and this is how I tell a trend from a moment. One, I count how many houses wear it and how much of each collection it is, because one house going all in isn't a trend. |
-| **2. SAME SCALE**<br>put it next to its closest rival | Two, I put it next to its closest rival on the same scale, because something can look huge alone and barely register next to another. |
-| **3. WAIT FOR THE SPIKE**<br>what's left after the show buzz | Three, I wait for the spike to pass, because what's left after the show buzz is the real signal. |
-| **4. AN INDEPENDENT SOURCE**<br>does someone else say the same | Four, I look for an independent source, like retail data or search. |
-| **PASS MOST = TREND · PASS ONE = MOMENT**<br>COMMENT "CHECKLIST" FOR THE FULL LIST | Pass most and it's a trend, pass one and it's a moment. Comment CHECKLIST for the full list. |
+| Act | Beat | Time | Voiceover | On-screen text | Visual | Peak |
+|---|---|---|---|---|---|---|
+| Inicio | Hook | 0-3s | I'm a fashion data analyst and this is how I tell a trend from a moment. | HOW I TELL A TREND FROM A MOMENT | Big text on white, pink underline | ●○○○○ setup |
+| Inicio | Thesis | 3-7s | It takes five steps, and the last one is the one you cannot miss. | 5 STEPS · THE LAST ONE YOU CANNOT MISS | Five empty cards stacked, the last one pink | ●●○○○ promise |
+| Nudo | Step 1 | 7-12s | One, I scrape the internet and social media to see what people are talking about. | 1. SCRAPE THE INTERNET AND SOCIAL MEDIA | Small card drops in | ●●○○○ |
+| Nudo | Step 2 | 12-17s | Two, I wait for the spike to pass, because what's left after the buzz is the real signal. | 2. WAIT FOR THE SPIKE TO PASS | Card slightly bigger, a spike flattening | ●●●○○ |
+| Nudo | Step 3 | 17-22s | Three, I look for an independent source, like retail data. | 3. FIND AN INDEPENDENT SOURCE | Card bigger again | ●●●○○ |
+| Nudo | Step 4 | 22-31s | Four, I cross reference it with my own fashion week analysis, and put it next to its closest rival on the same scale. | 4. CROSS REFERENCE WITH MY FASHION WEEK ANALYSIS · SAME SCALE AS ITS RIVAL | Card bigger, two bars on one axis, one tiny next to the other | ●●●●○ concrete |
+| Nudo | Step 5 | 31-42s | And five, the one you cannot miss, the intersection of data and fashion, because I'm an analyst but I'm also a creative who loves fashion, and that intersection is what I am. | 5. DATA + FASHION · THE ONE YOU CANNOT MISS | Full pink card, two overlapping circles labelled DATA and FASHION, "ME" in the overlap | ●●●●● top of the climb |
+| Desenlace | Close | 42-48s | If you want to know more, let me know. | IF YOU WANT TO KNOW MORE, LET ME KNOW · COMMENT "CHECKLIST" | Text on white | CTA |
 
-**Full voiceover (read-through, about 105 words):**
-I'm a fashion data analyst and this is how I tell a trend from a moment. One, I count how many houses wear it and how much of each collection it is, because one house going all in isn't a trend. Two, I put it next to its closest rival on the same scale, because something can look huge alone and barely register next to another. Three, I wait for the spike to pass, because what's left after the show buzz is the real signal. Four, I look for an independent source, like retail data or search. Pass most and it's a trend, pass one and it's a moment. Comment CHECKLIST for the full list.
+**Full script (read-through, about 135 words):**
+I'm a fashion data analyst and this is how I tell a trend from a moment. It takes five steps, and the last one is the one you cannot miss. One, I scrape the internet and social media to see what people are talking about. Two, I wait for the spike to pass, because what's left after the buzz is the real signal. Three, I look for an independent source, like retail data. Four, I cross reference it with my own fashion week analysis, and put it next to its closest rival on the same scale. And five, the one you cannot miss, the intersection of data and fashion, because I'm an analyst but I'm also a creative who loves fashion, and that intersection is what I am. If you want to know more, let me know.
 
+**Sentence breakdown (every line has a job):**
+- "I'm a fashion data analyst" _[authority]_ + "how I tell a trend from a moment" _[promise]_ → **hook, works with sound off**
+- "five steps, and the last one you cannot miss" _[structure]_ → **a reason to stay to the end, the viewer knows where the peak is**
+- "I scrape the internet and social media" _[method]_ → **credibility, the data behind the process**
+- "I wait for the spike to pass" _[method]_ + "what's left is the real signal" _[result]_ → **patience as a method**
+- "an independent source, like retail data" _[method]_ → **raises the bar, one source isn't enough**
+- "cross reference with my own fashion week analysis" _[method]_ + "next to its closest rival on the same scale" _[method]_ → **the concrete step, her own data as the proof**
+- "the intersection of data and fashion, which is what I am" _[identity]_ → **the quotable line and the highest peak, why this account is different**
+- "If you want to know more, let me know" _[CTA]_ → **invites comments, no summary**
+
+**Cut (no goal):** every specific example, the "pass most it's a trend, pass one it's a moment" rule, and the "if the data can't say what it is, I say so" line.
+
+**Quotable close:** The intersection of data and fashion, which is what I am.
+**Comment prompt:** Are you more data or more fashion?
 **Caption:**
-How I tell a trend from a moment, in four checks 👀
-The full list, with the data behind each, is in my latest post, comment CHECKLIST and I'll send you the link.
+How I tell a trend from a moment, in five steps, and the last one is the one you cannot miss 👀
+If you want to know more, let me know, comment CHECKLIST and I'll send you the full list.
 #fashiondata #trendforecasting #fashiontrends #fashionanalyst
 
 **Data check:**
-- ✅ No data claims in this Reel, it describes the process only, taken from the checklist article's questions 1 to 4
-- ⚠️ The article's other two questions are not in the Reel: question 5 (the average hiding a few loud houses) is folded into "how much of each collection it is", and question 6 (if the data can't say what it is, it stays unverified) was cut for length
+- ✅ No data claims, it describes the process only
+- ⚠️ Step 1 (scraping) and step 4 (cross referencing with your fashion week analysis) come from your own description, and the checklist article doesn't mention either yet
+- ⚠️ I read "fit" in your note as the fashion side of you, so the last step is the intersection of data and fashion. If you meant something specific about fit (how a garment fits, or outfits), tell me and I'll change it
+- ⚠️ "Same scale" moved into step 4, so the five steps are: scrape, wait for the spike, independent source, cross reference plus same scale, and the intersection
 
 **Sources:**
 - The Data Fashion Brief, "Is It a Trend, or Just One House Having a Moment?" (the checklist article, drafts/is-it-a-trend-checklist-draft.md, unpublished, no public link)
+- Carmen's own description of her process (scraping, cross referencing her fashion week analysis, data and fashion), from this session

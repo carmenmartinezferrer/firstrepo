@@ -74,6 +74,7 @@ Options:
 |---|---|
 | `--master N` | Number of Master Formula Reels (default 2) |
 | `--comparison N` | Number of Comparison Reveal Reels (default 1; use `0` to skip) |
+| `--story N` | Number of Story Reels: a 45–75s narrative case study (verdict hook, two brands, "should have… and yet" twist). Default 0 |
 | `--language Spanish` | Write scripts in a specific language (default: same as the article) |
 | `--notes "..."` | Extra direction, e.g. `"focus on the Prada numbers"` or `"more provocative hooks"` |
 | `--out folder` | Where to save results (default `output/`) |
