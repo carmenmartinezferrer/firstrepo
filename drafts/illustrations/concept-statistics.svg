@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Statistics: the average and the spread, a sample standing in for everyone, and whether a gap is real or luck">
+  <title>Statistics</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <text x="540" y="150" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="64" font-weight="700" fill="#111111" text-anchor="middle" >Statistics</text>
+  <text x="540" y="215" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" font-weight="400" fill="#777777" text-anchor="middle" >telling what's real from what's luck</text>
+  <circle cx="100" cy="330" r="28" fill="#D6447A"/>
+  <text x="100" y="343" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >1</text>
+  <text x="150" y="343" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >The average and the spread</text>
+  <polygon points="140,700 140,698.8 148,698.6 156,698.2 164,697.8 172,697.3 180,696.7 188,695.9 196,695.1 204,694.0 212,692.8 220,691.4 228,689.8 236,687.9 244,685.7 252,683.2 260,680.3 268,677.0 276,673.3 284,669.2 292,664.5 300,659.4 308,653.7 316,647.5 324,640.6 332,633.2 340,625.2 348,616.6 356,607.4 364,597.7 372,587.4 380,576.7 388,565.5 396,554.0 404,542.2 412,530.2 420,518.0 428,505.9 436,493.9 444,482.2 452,470.7 460,459.8 468,449.4 476,439.8 484,431.0 492,423.1 500,416.2 508,410.5 516,405.9 524,402.7 532,400.7 540,400.0 548,400.7 556,402.7 564,405.9 572,410.5 580,416.2 588,423.1 596,431.0 604,439.8 612,449.4 620,459.8 628,470.7 636,482.2 644,493.9 652,505.9 660,518.0 668,530.2 676,542.2 684,554.0 692,565.5 700,576.7 708,587.4 716,597.7 724,607.4 732,616.6 740,625.2 748,633.2 756,640.6 764,647.5 772,653.7 780,659.4 788,664.5 796,669.2 804,673.3 812,677.0 820,680.3 828,683.2 836,685.7 844,687.9 852,689.8 860,691.4 868,692.8 876,694.0 884,695.1 892,695.9 900,696.7 908,697.3 916,697.8 924,698.2 932,698.6 940,698.8 940,700" fill="#D6447A" fill-opacity="0.18"/>
+  <polyline points="140,698.8 148,698.6 156,698.2 164,697.8 172,697.3 180,696.7 188,695.9 196,695.1 204,694.0 212,692.8 220,691.4 228,689.8 236,687.9 244,685.7 252,683.2 260,680.3 268,677.0 276,673.3 284,669.2 292,664.5 300,659.4 308,653.7 316,647.5 324,640.6 332,633.2 340,625.2 348,616.6 356,607.4 364,597.7 372,587.4 380,576.7 388,565.5 396,554.0 404,542.2 412,530.2 420,518.0 428,505.9 436,493.9 444,482.2 452,470.7 460,459.8 468,449.4 476,439.8 484,431.0 492,423.1 500,416.2 508,410.5 516,405.9 524,402.7 532,400.7 540,400.0 548,400.7 556,402.7 564,405.9 572,410.5 580,416.2 588,423.1 596,431.0 604,439.8 612,449.4 620,459.8 628,470.7 636,482.2 644,493.9 652,505.9 660,518.0 668,530.2 676,542.2 684,554.0 692,565.5 700,576.7 708,587.4 716,597.7 724,607.4 732,616.6 740,625.2 748,633.2 756,640.6 764,647.5 772,653.7 780,659.4 788,664.5 796,669.2 804,673.3 812,677.0 820,680.3 828,683.2 836,685.7 844,687.9 852,689.8 860,691.4 868,692.8 876,694.0 884,695.1 892,695.9 900,696.7 908,697.3 916,697.8 924,698.2 932,698.6 940,698.8" fill="none" stroke="#D6447A" stroke-width="8" stroke-linejoin="round"/>
+  <line x1="120" y1="700" x2="960" y2="700" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+  <line x1="540" y1="410" x2="540" y2="700" stroke="#111111" stroke-width="4" stroke-dasharray="12 10"/>
+  <text x="540" y="395" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="700" fill="#111111" text-anchor="middle" >average</text>
+  <line x1="425" y1="600" x2="655" y2="600" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="418,600 440,588 440,612" fill="#111111"/>
+  <polygon points="662,600 640,588 640,612" fill="#111111"/>
+  <text x="540" y="645" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#222222" text-anchor="middle" paint-order="stroke" stroke="#F8DFE8" stroke-width="14" stroke-linejoin="round">spread</text>
+  <text x="540" y="750" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#777777" text-anchor="middle" >most values sit near the middle, a few sit far out</text>
+  <circle cx="100" cy="850" r="28" fill="#D6447A"/>
+  <text x="100" y="863" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >2</text>
+  <text x="150" y="863" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >A sample stands in for everyone</text>
+  <circle cx="176" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="232" cy="960" r="16" fill="#D6447A"/>
+  <circle cx="288" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="344" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="400" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="456" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="512" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="568" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="624" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="680" cy="960" r="16" fill="#D6447A"/>
+  <circle cx="736" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="792" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="848" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="904" cy="960" r="16" fill="#D9D9D9"/>
+  <circle cx="176" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="232" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="288" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="344" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="400" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="456" cy="1016" r="16" fill="#D6447A"/>
+  <circle cx="512" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="568" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="624" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="680" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="736" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="792" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="848" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="904" cy="1016" r="16" fill="#D9D9D9"/>
+  <circle cx="176" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="232" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="288" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="344" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="400" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="456" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="512" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="568" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="624" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="680" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="736" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="792" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="848" cy="1072" r="16" fill="#D6447A"/>
+  <circle cx="904" cy="1072" r="16" fill="#D9D9D9"/>
+  <circle cx="176" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="232" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="288" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="344" cy="1128" r="16" fill="#D6447A"/>
+  <circle cx="400" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="456" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="512" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="568" cy="1128" r="16" fill="#D6447A"/>
+  <circle cx="624" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="680" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="736" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="792" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="848" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="904" cy="1128" r="16" fill="#D9D9D9"/>
+  <circle cx="176" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="232" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="288" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="344" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="400" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="456" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="512" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="568" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="624" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="680" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="736" cy="1184" r="16" fill="#D6447A"/>
+  <circle cx="792" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="848" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="904" cy="1184" r="16" fill="#D9D9D9"/>
+  <circle cx="176" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="232" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="288" cy="1240" r="16" fill="#D6447A"/>
+  <circle cx="344" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="400" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="456" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="512" cy="1240" r="16" fill="#D6447A"/>
+  <circle cx="568" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="624" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="680" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="736" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="792" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="848" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="904" cy="1240" r="16" fill="#D9D9D9"/>
+  <circle cx="170" cy="1310" r="14" fill="#D6447A"/>
+  <text x="200" y="1320" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#222222" text-anchor="start" >the sample you measured</text>
+  <circle cx="650" cy="1310" r="14" fill="#D9D9D9"/>
+  <text x="680" y="1320" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#222222" text-anchor="start" >everyone you didn't</text>
+  <circle cx="100" cy="1410" r="28" fill="#D6447A"/>
+  <text x="100" y="1423" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >3</text>
+  <text x="150" y="1423" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >Real difference, or luck?</text>
+  <line x1="200" y1="1780" x2="880" y2="1780" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+  <rect x="200" y="1520" width="680" height="80" fill="#D6447A" fill-opacity="0.12"/>
+  <rect x="320" y="1580" width="140" height="200" fill="#BDBDBD"/>
+  <rect x="620" y="1530" width="140" height="250" fill="#D6447A"/>
+  <line x1="390" y1="1520" x2="390" y2="1640" stroke="#111111" stroke-width="5"/>
+  <line x1="368" y1="1520" x2="412" y2="1520" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <line x1="368" y1="1640" x2="412" y2="1640" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <line x1="690" y1="1460" x2="690" y2="1600" stroke="#111111" stroke-width="5"/>
+  <line x1="668" y1="1460" x2="712" y2="1460" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <line x1="668" y1="1600" x2="712" y2="1600" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <text x="390" y="1825" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="700" fill="#111111" text-anchor="middle" >A</text>
+  <text x="690" y="1825" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="700" fill="#111111" text-anchor="middle" >B</text>
+  <text x="540" y="1875" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#777777" text-anchor="middle" >if the ranges overlap, the gap could just be luck</text>
+</svg>

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Data analytics: messy data becomes cleaned data, then patterns, then a decision">
+  <title>What data analytics is</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <text x="540" y="150" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="64" font-weight="700" fill="#111111" text-anchor="middle" >What data analytics is</text>
+  <text x="540" y="215" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" font-weight="400" fill="#777777" text-anchor="middle" >turning data into decisions</text>
+  <circle cx="100" cy="330" r="28" fill="#D6447A"/>
+  <text x="100" y="343" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >1</text>
+  <text x="150" y="343" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >Messy data</text>
+  <circle cx="403" cy="422" r="11" fill="#D6447A"/>
+  <circle cx="207" cy="503" r="11" fill="#E3CDB8"/>
+  <circle cx="605" cy="581" r="11" fill="#111111"/>
+  <circle cx="179" cy="481" r="11" fill="#D6447A"/>
+  <circle cx="338" cy="506" r="11" fill="#D6447A"/>
+  <circle cx="795" cy="416" r="11" fill="#111111"/>
+  <circle cx="642" cy="512" r="11" fill="#D6447A"/>
+  <circle cx="600" cy="473" r="11" fill="#111111"/>
+  <circle cx="186" cy="570" r="11" fill="#E3CDB8"/>
+  <circle cx="477" cy="504" r="11" fill="#E3CDB8"/>
+  <circle cx="587" cy="533" r="11" fill="#D6447A"/>
+  <circle cx="440" cy="505" r="11" fill="#D6447A"/>
+  <circle cx="537" cy="502" r="11" fill="#E3CDB8"/>
+  <circle cx="513" cy="584" r="11" fill="#E3CDB8"/>
+  <circle cx="384" cy="557" r="11" fill="#111111"/>
+  <circle cx="214" cy="453" r="11" fill="#BDBDBD"/>
+  <circle cx="833" cy="543" r="11" fill="#E3CDB8"/>
+  <circle cx="625" cy="405" r="11" fill="#BDBDBD"/>
+  <circle cx="279" cy="462" r="11" fill="#BDBDBD"/>
+  <circle cx="479" cy="592" r="11" fill="#D6447A"/>
+  <circle cx="746" cy="510" r="11" fill="#E3CDB8"/>
+  <circle cx="415" cy="464" r="11" fill="#BDBDBD"/>
+  <circle cx="805" cy="588" r="11" fill="#BDBDBD"/>
+  <circle cx="694" cy="404" r="11" fill="#E3CDB8"/>
+  <circle cx="655" cy="599" r="11" fill="#BDBDBD"/>
+  <circle cx="372" cy="471" r="11" fill="#E3CDB8"/>
+  <circle cx="281" cy="415" r="11" fill="#D6447A"/>
+  <circle cx="320" cy="450" r="11" fill="#111111"/>
+  <circle cx="537" cy="425" r="11" fill="#BDBDBD"/>
+  <circle cx="430" cy="576" r="11" fill="#111111"/>
+  <circle cx="355" cy="391" r="11" fill="#BDBDBD"/>
+  <circle cx="661" cy="545" r="11" fill="#BDBDBD"/>
+  <circle cx="456" cy="474" r="11" fill="#D6447A"/>
+  <circle cx="299" cy="597" r="11" fill="#BDBDBD"/>
+  <circle cx="191" cy="390" r="11" fill="#111111"/>
+  <circle cx="569" cy="589" r="11" fill="#D6447A"/>
+  <circle cx="895" cy="516" r="11" fill="#BDBDBD"/>
+  <circle cx="246" cy="568" r="11" fill="#BDBDBD"/>
+  <circle cx="525" cy="455" r="11" fill="#111111"/>
+  <circle cx="264" cy="504" r="11" fill="#D6447A"/>
+  <circle cx="741" cy="453" r="11" fill="#D6447A"/>
+  <circle cx="693" cy="445" r="11" fill="#E3CDB8"/>
+  <circle cx="858" cy="465" r="11" fill="#111111"/>
+  <circle cx="788" cy="545" r="11" fill="#111111"/>
+  <circle cx="306" cy="493" r="11" fill="#D6447A"/>
+  <circle cx="922" cy="556" r="11" fill="#BDBDBD"/>
+  <circle cx="352" cy="535" r="11" fill="#E3CDB8"/>
+  <circle cx="921" cy="591" r="11" fill="#E3CDB8"/>
+  <circle cx="213" cy="411" r="11" fill="#BDBDBD"/>
+  <circle cx="806" cy="491" r="11" fill="#E3CDB8"/>
+  <circle cx="775" cy="594" r="11" fill="#BDBDBD"/>
+  <circle cx="511" cy="546" r="11" fill="#D6447A"/>
+  <circle cx="249" cy="422" r="11" fill="#BDBDBD"/>
+  <circle cx="663" cy="464" r="11" fill="#111111"/>
+  <circle cx="735" cy="419" r="11" fill="#111111"/>
+  <circle cx="558" cy="394" r="11" fill="#BDBDBD"/>
+  <circle cx="682" cy="501" r="11" fill="#BDBDBD"/>
+  <circle cx="587" cy="442" r="11" fill="#E3CDB8"/>
+  <circle cx="503" cy="396" r="11" fill="#D6447A"/>
+  <circle cx="566" cy="490" r="11" fill="#111111"/>
+  <circle cx="695" cy="574" r="11" fill="#E3CDB8"/>
+  <circle cx="870" cy="577" r="11" fill="#111111"/>
+  <circle cx="270" cy="540" r="11" fill="#E3CDB8"/>
+  <circle cx="905" cy="436" r="11" fill="#D6447A"/>
+  <line x1="540" y1="640" x2="540" y2="678" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="516,674 564,674 540,700" fill="#D6447A"/>
+  <circle cx="100" cy="760" r="28" fill="#D6447A"/>
+  <text x="100" y="773" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >2</text>
+  <text x="150" y="773" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >Cleaned and sorted</text>
+  <circle cx="342" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="378" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="414" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="450" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="486" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="522" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="558" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="594" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="630" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="666" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="702" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="738" cy="840" r="11" fill="#D6447A"/>
+  <circle cx="342" cy="892" r="11" fill="#111111"/>
+  <circle cx="378" cy="892" r="11" fill="#111111"/>
+  <circle cx="414" cy="892" r="11" fill="#111111"/>
+  <circle cx="450" cy="892" r="11" fill="#111111"/>
+  <circle cx="486" cy="892" r="11" fill="#111111"/>
+  <circle cx="522" cy="892" r="11" fill="#111111"/>
+  <circle cx="558" cy="892" r="11" fill="#111111"/>
+  <circle cx="594" cy="892" r="11" fill="#111111"/>
+  <circle cx="630" cy="892" r="11" fill="#111111"/>
+  <circle cx="666" cy="892" r="11" fill="#111111"/>
+  <circle cx="702" cy="892" r="11" fill="#111111"/>
+  <circle cx="738" cy="892" r="11" fill="#111111"/>
+  <circle cx="342" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="378" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="414" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="450" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="486" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="522" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="558" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="594" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="630" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="666" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="702" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="738" cy="944" r="11" fill="#E3CDB8"/>
+  <circle cx="342" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="378" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="414" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="450" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="486" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="522" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="558" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="594" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="630" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="666" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="702" cy="996" r="11" fill="#BDBDBD"/>
+  <circle cx="738" cy="996" r="11" fill="#BDBDBD"/>
+  <line x1="540" y1="1020" x2="540" y2="1058" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="516,1054 564,1054 540,1080" fill="#D6447A"/>
+  <circle cx="100" cy="1140" r="28" fill="#D6447A"/>
+  <text x="100" y="1153" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >3</text>
+  <text x="150" y="1153" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >Patterns show up</text>
+  <line x1="200" y1="1400" x2="880" y2="1400" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+  <rect x="255" y="1310" width="90" height="90" fill="#D6447A"/>
+  <rect x="395" y="1180" width="90" height="220" fill="#111111"/>
+  <rect x="535" y="1260" width="90" height="140" fill="#E3CDB8"/>
+  <rect x="675" y="1220" width="90" height="180" fill="#BDBDBD"/>
+  <line x1="540" y1="1425" x2="540" y2="1463" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="516,1459 564,1459 540,1485" fill="#D6447A"/>
+  <circle cx="100" cy="1545" r="28" fill="#D6447A"/>
+  <text x="100" y="1558" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle" >4</text>
+  <text x="150" y="1558" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="38" font-weight="700" fill="#222222" text-anchor="start" >A decision someone can make</text>
+  <rect x="160" y="1600" width="760" height="120" rx="30" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="240" cy="1660" r="36" fill="#D6447A"/>
+  <path d="M223.8 1661.1 L236.4 1673.7 L258.0 1647.0" fill="none" stroke="#FFFFFF" stroke-width="7.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="305" y="1672" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="36" font-weight="700" fill="#111111" text-anchor="start" >what do we back next?</text>
+  <text x="540" y="1790" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#777777" text-anchor="middle" >the four questions analytics answers</text>
+  <rect x="133" y="1815" width="250" height="58" rx="29" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <text x="258" y="1853" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="26" font-weight="700" fill="#111111" text-anchor="middle" >what happened</text>
+  <rect x="401" y="1815" width="110" height="58" rx="29" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <text x="456" y="1853" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="26" font-weight="700" fill="#111111" text-anchor="middle" >why</text>
+  <rect x="529" y="1815" width="190" height="58" rx="29" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <text x="624" y="1853" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="26" font-weight="700" fill="#111111" text-anchor="middle" >what next</text>
+  <rect x="737" y="1815" width="210" height="58" rx="29" fill="#D6447A" stroke="#D6447A" stroke-width="4"/>
+  <text x="842" y="1853" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle" >what to do</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="A data project in five steps: ask, find and clean data, analyse, tell the story, decide and check, then repeat">
+  <title>How a data project works</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <text x="540" y="150" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="64" font-weight="700" fill="#111111" text-anchor="middle" >How a data project works</text>
+  <text x="540" y="215" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" font-weight="400" fill="#777777" text-anchor="middle" >five steps, and then you go round again</text>
+  <circle cx="170" cy="400" r="78" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="108" cy="338" r="24" fill="#D6447A"/>
+  <text x="108" y="349" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle" >1</text>
+  <text x="290" y="392" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#111111" text-anchor="start" >Ask the right question</text>
+  <text x="290" y="438" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="400" fill="#777777" text-anchor="start" >what decision is this for?</text>
+  <line x1="170" y1="486" x2="170" y2="542" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="146,538 194,538 170,564" fill="#D6447A"/>
+  <circle cx="170" cy="650" r="78" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="108" cy="588" r="24" fill="#D6447A"/>
+  <text x="108" y="599" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle" >2</text>
+  <text x="290" y="642" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#111111" text-anchor="start" >Find and clean the data</text>
+  <text x="290" y="688" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="400" fill="#777777" text-anchor="start" >where it lives and what's missing</text>
+  <line x1="170" y1="736" x2="170" y2="792" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="146,788 194,788 170,814" fill="#D6447A"/>
+  <circle cx="170" cy="900" r="78" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="108" cy="838" r="24" fill="#D6447A"/>
+  <text x="108" y="849" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle" >3</text>
+  <text x="290" y="892" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#111111" text-anchor="start" >Analyse it</text>
+  <text x="290" y="938" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="400" fill="#777777" text-anchor="start" >patterns, comparisons, the basic stats</text>
+  <line x1="170" y1="986" x2="170" y2="1042" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="146,1038 194,1038 170,1064" fill="#D6447A"/>
+  <circle cx="170" cy="1150" r="78" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="108" cy="1088" r="24" fill="#D6447A"/>
+  <text x="108" y="1099" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle" >4</text>
+  <text x="290" y="1142" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#111111" text-anchor="start" >Tell the story</text>
+  <text x="290" y="1188" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="400" fill="#777777" text-anchor="start" >a chart and a clear answer</text>
+  <line x1="170" y1="1236" x2="170" y2="1292" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="146,1288 194,1288 170,1314" fill="#D6447A"/>
+  <circle cx="170" cy="1400" r="78" fill="#FFFFFF" stroke="#222222" stroke-width="6"/>
+  <circle cx="108" cy="1338" r="24" fill="#D6447A"/>
+  <text x="108" y="1349" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle" >5</text>
+  <text x="290" y="1392" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="40" font-weight="700" fill="#111111" text-anchor="start" >Decide, then check</text>
+  <text x="290" y="1438" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="400" fill="#777777" text-anchor="start" >did it work? what's the next question?</text>
+  <text x="170" y="436" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="100" font-weight="700" fill="#D6447A" text-anchor="middle" >?</text>
+  <rect x="140" y="624" width="60" height="56" fill="#111111"/>
+  <ellipse cx="170" cy="680" rx="30" ry="10" fill="#111111"/>
+  <ellipse cx="170" cy="624" rx="30" ry="10" fill="#333333"/>
+  <path d="M140 648 A30 10 0 0 0 200 648" fill="none" stroke="#D6447A" stroke-width="5"/>
+  <path d="M140 666 A30 10 0 0 0 200 666" fill="none" stroke="#D6447A" stroke-width="5"/>
+  <rect x="130" y="898" width="22" height="38" fill="#111111"/>
+  <rect x="159" y="874" width="22" height="62" fill="#111111"/>
+  <rect x="188" y="850" width="22" height="86" fill="#D6447A"/>
+  <line x1="122" y1="938" x2="218" y2="938" stroke="#222222" stroke-width="5" stroke-linecap="round"/>
+  <rect x="126" y="1116" width="88" height="62" rx="16" fill="#111111"/>
+  <polygon points="150,1174 136,1198 174,1174" fill="#111111"/>
+  <circle cx="152" cy="1147" r="6" fill="#FFFFFF"/><circle cx="170" cy="1147" r="6" fill="#FFFFFF"/><circle cx="188" cy="1147" r="6" fill="#FFFFFF"/>
+  <circle cx="170" cy="1400" r="40" fill="#D6447A"/>
+  <path d="M152.0 1401.2 L166.0 1415.2 L190.0 1385.6" fill="none" stroke="#FFFFFF" stroke-width="8.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M960 1400 C1040 1400 1040 400 972 400" fill="none" stroke="#D6447A" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round"/>
+  <polygon points="950,400 980,384 980,416" fill="#D6447A"/>
+  <text x="1054" y="900" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="28" font-weight="400" fill="#777777" text-anchor="middle" transform="rotate(-90 1054 900)">and go round again</text>
+  <text x="540" y="1650" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="30" font-weight="400" fill="#777777" text-anchor="middle" >the question comes first, the chart comes last</text>
+</svg>
