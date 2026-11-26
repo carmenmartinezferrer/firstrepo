@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Learning path: Python, Excel, AI tools">
+  <title>Learning path: Python, Excel, AI tools</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <text x="540" y="170" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="64" font-weight="700" fill="#111111">learn to code, step by step</text>
+  <text x="540" y="238" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#777777">each one builds on the last</text>
+  <rect x="120" y="1350" width="280" height="300" fill="#111111"/>
+  <text x="260" y="1430" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Python</text>
+  <rect x="400" y="1090" width="280" height="560" fill="#111111"/>
+  <text x="540" y="1170" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Excel</text>
+  <rect x="680" y="830" width="280" height="820" fill="#D6447A"/>
+  <text x="820" y="910" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">AI tools</text>
+  <line x1="400" y1="1090" x2="400" y2="1650" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="680" y1="830" x2="680" y2="1650" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="90" y1="1650" x2="990" y2="1650" stroke="#222222" stroke-width="6" stroke-linecap="round"/>
+</svg>

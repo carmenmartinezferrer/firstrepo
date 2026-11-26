@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Learning path: SQL, Python, Excel, AI tools">
+  <title>Learning path: SQL, Python, Excel, AI tools</title>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <text x="540" y="170" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="64" font-weight="700" fill="#111111">learn to code, step by step</text>
+  <text x="540" y="238" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="32" fill="#777777">each one builds on the last</text>
+  <rect x="100" y="1430" width="220" height="220" fill="#111111"/>
+  <text x="210" y="1510" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">SQL</text>
+  <rect x="320" y="1230" width="220" height="420" fill="#111111"/>
+  <text x="430" y="1310" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Python</text>
+  <rect x="540" y="1030" width="220" height="620" fill="#111111"/>
+  <text x="650" y="1110" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Excel</text>
+  <rect x="760" y="830" width="220" height="820" fill="#D6447A"/>
+  <text x="870" y="910" text-anchor="middle" font-family="'Century Gothic', 'TeX Gyre Adventor', 'URW Gothic', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">AI tools</text>
+  <line x1="320" y1="1230" x2="320" y2="1650" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="540" y1="1030" x2="540" y2="1650" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="760" y1="830" x2="760" y2="1650" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="70" y1="1650" x2="1010" y2="1650" stroke="#222222" stroke-width="6" stroke-linecap="round"/>
+</svg>
